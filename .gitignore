@@ -1,0 +1,10 @@
+
+apiviewer/foxuser.dbf
+apiviewer/foxuser.FPT
+*.FXP
+apiviewer/_command.prg
+apiviewer/_vfp9.lnk
+apiviewer/apiviewer.app
+apiviewer/apiviewer_ref.CDX
+apiviewer/apiviewer_ref.DBF
+apiviewer/apiviewer_ref.FPT

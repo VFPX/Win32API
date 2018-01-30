@@ -1,0 +1,5 @@
+EXLUSIVE=OFF
+DELETED=ON
+RESOURCE=foxuser.dbf
+DATE=MDY
+PATH=..\data
