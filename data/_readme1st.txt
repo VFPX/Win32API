@@ -23,7 +23,7 @@ Win32 functions
 	w32_functions.dbf
 	w32_functions.fpt
 	
-Funcstions-Examples link table
+Functions to Examples link table
 	w32_examples_functions.cdx
 	w32_examples_functions.dbf
 
