@@ -1,0 +1,49 @@
+<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+## Functionname : GetSubMenu
+Group: Menu - Library: user32    
+***  
+
+
+#### Retrieves a handle to the drop-down menu or submenu activated by the specified menu item.
+***  
+
+
+## Code examples:
+[Accessing Adobe Reader 7.0 main menu from VFP application](../../samples/sample_495.md)  
+
+## Declaration:
+```foxpro  
+HMENU GetSubMenu(
+	HMENU hMenu,
+	int nPos
+);  
+```  
+***  
+
+
+## FoxPro declaration:
+```foxpro  
+DECLARE INTEGER GetSubMenu IN user32;
+	INTEGER hMenu,;
+	INTEGER nPos  
+```  
+***  
+
+
+## Parameters:
+```txt  
+hMenu
+[in] Handle to the menu.
+
+nPos
+[in] Specifies the zero-based relative position in the specified menu of an item that activates a drop-down menu or submenu.  
+```  
+***  
+
+
+## Return value:
+If the function succeeds, the return value is a handle to the drop-down menu or submenu activated by the menu item. If the menu item does not activate a drop-down menu or submenu, the return value is NULL.   
+***  
+

@@ -1,0 +1,59 @@
+<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+## Functionname : IsWellKnownSid
+Group: Security - Library: advapi32    
+***  
+
+
+#### Compares a SID to a well known SID and returns TRUE if they match.
+
+***  
+
+
+## Code examples:
+[How to enumerate sessions and processes on a specified terminal server](../../samples/sample_519.md)  
+
+## Declaration:
+```foxpro  
+BOOL IsWellKnownSid(
+	PSID pSid,
+	WELL_KNOWN_SID_TYPE WellKnownSidType
+);  
+```  
+***  
+
+
+## FoxPro declaration:
+```foxpro  
+DECLARE INTEGER IsWellKnownSid IN Advapi32;
+	INTEGER pSid,;
+	INTEGER WellKnownSidType  
+```  
+***  
+
+
+## Parameters:
+```txt  
+pSid
+[in] Pointer to the SID to test.
+
+WellKnownSidType
+[in] Member of the WELL_KNOWN_SID_TYPE enumeration to compare with the SID at pSid.  
+```  
+***  
+
+
+## Return value:
+Returns TRUE if the SID at pSid matches the well known SID indicated by WellKnownSidType.  
+***  
+
+
+## Comments:
+The WELL_KNOWN_SID_TYPE enumeration type is a list of commonly used security identifiers (SIDs).  
+Dec.29, 2006: members from 0 to 60.  
+  
+See also: CreateWellKnownSid.  
+  
+***  
+

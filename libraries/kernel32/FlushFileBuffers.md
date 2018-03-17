@@ -1,0 +1,53 @@
+<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+## Functionname : FlushFileBuffers
+Group: File Management - Library: kernel32    
+***  
+
+
+#### Flushes the buffers of a specified file and causes all buffered data to be written to a file.
+***  
+
+
+## Code examples:
+[Using named pipes for interprocess communication](../../samples/sample_522.md)  
+
+## Declaration:
+```foxpro  
+BOOL FlushFileBuffers(
+	HANDLE hFile
+);  
+```  
+***  
+
+
+## FoxPro declaration:
+```foxpro  
+DECLARE INTEGER FlushFileBuffers IN kernel32;
+	INTEGER hFile
+  
+```  
+***  
+
+
+## Parameters:
+```txt  
+hFile
+[in] A handle to an open file.  
+```  
+***  
+
+
+## Return value:
+If the function succeeds, the return value is nonzero.  
+***  
+
+
+## Comments:
+Parameter <Em>hFile</Em> is different from the handle returned by VFP low-level file functions FOPEN() and FCREATE().  
+  
+Typically the WriteFile and WriteFileEx functions write data to an internal buffer that the OS writes to a disk on a regular basis. The FlushFileBuffers function writes to a disk all the buffered information for a specified file.  
+  
+***  
+

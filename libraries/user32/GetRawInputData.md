@@ -1,0 +1,71 @@
+<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+## Functionname : GetRawInputData
+Group: Raw Input - Library: user32    
+***  
+
+
+#### Retrieves the raw input from the specified device.
+***  
+
+
+## Code examples:
+[Capturing keyboard activity of another application with the Raw Input API (VFP9)](../../samples/sample_572.md)  
+
+## Declaration:
+```foxpro  
+UINT WINAPI GetRawInputData(
+  __in       HRAWINPUT hRawInput,
+  __in       UINT uiCommand,
+  __out_opt  LPVOID pData,
+  __inout    PUINT pcbSize,
+  __in       UINT cbSizeHeader
+);  
+```  
+***  
+
+
+## FoxPro declaration:
+```foxpro  
+DECLARE INTEGER GetRawInputData IN user32;
+	INTEGER hRawInput,;
+	LONG uiCommand,;
+	STRING @pData,;
+	LONG @pcbSize,;
+	LONG cbSizeHeader
+  
+```  
+***  
+
+
+## Parameters:
+```txt  
+hRawInput [in]
+A handle to the RAWINPUT structure. This comes from the lParam in WM_INPUT.
+
+uiCommand [in]
+The command flag: RID_HEADER, RID_INPUT
+
+pData [out, optional]
+A pointer to the data that comes from the RAWINPUT structure. This depends on the value of uiCommand.
+
+pcbSize [in, out]
+The size, in bytes, of the data in pData.
+
+cbSizeHeader [in]
+The size, in bytes, of the RAWINPUTHEADER structure.  
+```  
+***  
+
+
+## Return value:
+If pData is NULL and the function is successful, the return value is 0. If pData is not NULL and the function is successful, the return value is the number of bytes copied into pData.  
+***  
+
+
+## Comments:
+See also: RegisterRawInputDevices   
+  
+***  
+

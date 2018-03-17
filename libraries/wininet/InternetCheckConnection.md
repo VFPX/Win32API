@@ -1,0 +1,61 @@
+<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+## Functionname : InternetCheckConnection
+Group: Internet Functions (WinInet) - Library: wininet    
+***  
+
+
+#### Allows an application to check if a connection to the Internet can be established.
+***  
+
+
+## Code examples:
+[Testing if a connection to an Url can be established](../../samples/sample_327.md)  
+
+## Declaration:
+```foxpro  
+BOOL InternetCheckConnection(
+	LPCTSTR lpszUrl,
+	DWORD dwFlags,
+	DWORD dwReserved
+);  
+```  
+***  
+
+
+## FoxPro declaration:
+```foxpro  
+DECLARE INTEGER InternetCheckConnection IN wininet;
+	STRING  lpszUrl,;
+	INTEGER dwFlags,;
+	INTEGER dwReserved
+  
+```  
+***  
+
+
+## Parameters:
+```txt  
+lpszUrl
+[in] Pointer to a string containing the URL to use to check the connection. This value can be set to NULL.
+
+dwFlags
+[in] Unsigned long integer value containing the flag values.
+
+dwReserved
+[in] Reserved. Must be set to 0.  
+```  
+***  
+
+
+## Return value:
+Returns TRUE if a connection is made successfully, or FALSE otherwise.  
+***  
+
+
+## Comments:
+Can test a general Internet connection availabiilty. The InternetGetConnectedState provide similar functionality.  
+  
+***  
+

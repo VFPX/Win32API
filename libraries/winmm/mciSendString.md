@@ -1,0 +1,61 @@
+<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+## Functionname : mciSendString
+Group: Windows Multimedia - Library: winmm    
+***  
+
+
+#### The <b>mciSendString</b> function sends a command string to an MCI device. The device that the command is sent to is specified in the command string. 
+***  
+
+
+## Code examples:
+[Accessing a CD device (cdaudio) with Multimedia Command Strings](../../samples/sample_279.md)  
+[Using Multimedia Command Strings to play MIDI files](../../samples/sample_538.md)  
+
+## Declaration:
+```foxpro  
+MCIERROR mciSendString(
+  LPCTSTR lpszCommand,
+  LPTSTR lpszReturnString,
+  UINT cchReturn,
+  HANDLE hwndCallback
+);  
+```  
+***  
+
+
+## FoxPro declaration:
+```foxpro  
+DECLARE INTEGER mciSendString IN winmm;
+	STRING    lpszCommand,;
+	STRING  @ lpszReturnString,;
+	INTEGER   cchReturn,;
+	INTEGER   hwndCallback
+  
+```  
+***  
+
+
+## Parameters:
+```txt  
+lpszCommand
+Pointer to a null-terminated string that specifies an MCI command string. For a list, see <a href="http://msdn.microsoft.com/library/default.asp?url=/library/en-us/multimed/mmcmdstr_4nub.asp">Multimedia Command Strings</a>.
+
+lpszReturnString
+Pointer to a buffer that receives return information. If no return information is needed, this parameter can be NULL.
+
+cchReturn
+Size, in characters, of the return buffer specified by the lpszReturnString parameter.
+
+hwndCallback
+Handle to a callback window if the "notify" flag was specified in the command string.  
+```  
+***  
+
+
+## Return value:
+Returns zero if successful or an error otherwise. To retrieve a text description of mciSendString return values, pass the return value to the mciGetErrorString function.   
+***  
+

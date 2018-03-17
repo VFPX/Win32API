@@ -1,0 +1,55 @@
+<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+## Functionname : StrCpy
+Group: Shell Lightweight Utility APIs -- string functions - Library: shlwapi    
+***  
+
+
+#### Copies one string to another.
+***  
+
+
+## Code examples:
+[StrDup returns a pointer to the duplicate of a source VFP string](../../samples/sample_181.md)  
+
+## Declaration:
+```foxpro  
+LPTSTR StrCpy(
+    LPTSTR psz1,
+    LPCTSTR psz2
+);  
+```  
+***  
+
+
+## FoxPro declaration:
+```foxpro  
+DECLARE INTEGER StrCpyW IN shlwapi AS StrCpy;
+	STRING  @ psz1,;
+	INTEGER   psz2  
+```  
+***  
+
+
+## Parameters:
+```txt  
+psz1
+[out] Pointer to the destination string.
+
+psz2
+[in] Pointer to the null-terminated source string.  
+```  
+***  
+
+
+## Return value:
+Returns a pointer to psz1.  
+***  
+
+
+## Comments:
+MSDN suggests some security problems related to this function and recommends using StrCpyN instead.  
+  
+***  
+

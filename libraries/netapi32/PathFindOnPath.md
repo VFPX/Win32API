@@ -1,0 +1,50 @@
+<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+## Functionname : PathFindOnPath
+Group: Shell Lightweight Utility APIs -- Path Functions - Library: netapi32    
+***  
+
+
+#### Searches for a file.
+***  
+
+
+## Code examples:
+[How to assemble an array of strings and pass it to external function](../../samples/sample_487.md)  
+
+## Declaration:
+```foxpro  
+BOOL PathFindOnPath(
+	LPTSTR pszFile,
+	LPCTSTR *ppszOtherDirs
+);  
+```  
+***  
+
+
+## FoxPro declaration:
+```foxpro  
+DECLARE INTEGER PathFindOnPath IN shlwapi;
+	STRING @ pszFile,;
+	STRING @ ppszOtherDirs
+  
+```  
+***  
+
+
+## Parameters:
+```txt  
+pszFile
+[in] Pointer to a null-terminated string of maximum length MAX_PATH that contains the file name for which to search. If the search is successful, this parameter is used to return the fully qualified path name.
+
+ppszOtherDirs
+[in] Optional null-terminated array of directories to be searched first.  
+```  
+***  
+
+
+## Return value:
+Returns TRUE if successful, or FALSE otherwise.  
+***  
+

@@ -1,0 +1,59 @@
+<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+## Functionname : DllInstall
+Group: Shell Lightweight Utility APIs -- misc. functions - Library: shlwapi    
+***  
+
+
+#### Handles installation and setup for a dynamic-link library (DLL). 
+***  
+
+
+## Declaration:
+```foxpro  
+HRESULT DllInstall(
+	BOOL bInstall,
+	LPCWSTR pszCmdLine
+);  
+```  
+***  
+
+
+## FoxPro declaration:
+```foxpro  
+DECLARE INTEGER DllInstall IN shlwapi;
+	INTEGER bInstall,;
+	STRING  pszCmdLine
+  
+```  
+***  
+
+
+## Parameters:
+```txt  
+bInstall
+Value that is set to TRUE if the DLL is being installed, or FALSE if it is being uninstalled.
+
+pszCmdLine
+String passed in by regsvr32 that indicates which setup procedure to use.
+  
+```  
+***  
+
+
+## Return value:
+Returns NOERROR (0) if successful, or an OLE-defined error value otherwise.   
+***  
+
+
+## Comments:
+Minimum operating systems: Windows 2000, Windows NT 4.0 with Internet Explorer 4.0, Windows 98.  
+  
+To use DllInstall with regsvr32, add a "/i" flag followed by a colon (:) and a string. The string will be passed to DllInstall as the pszCmdLine parameter. If you omit the colon and string, pszCmdLine will be set to NULL. The following example would be used to install a DLL:   
+  
+<code>regsvr32 /i:"Install_1" dllname.dll</code>  
+  
+  
+***  
+

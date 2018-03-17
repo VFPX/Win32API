@@ -1,0 +1,65 @@
+<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+## Functionname : PathYetAnotherMakeUniqueName
+Group: Shell Functions - Library: shell32    
+***  
+
+
+#### Creates a unique filename based on an existing filename.
+***  
+
+
+## Code examples:
+[Creating a unique filename based on existing filename](../../samples/sample_014.md)  
+
+## Declaration:
+```foxpro  
+BOOL PathYetAnotherMakeUniqueName(
+	LPWSTR pszUniqueName,
+	LPCWSTR pszPath,
+	LPCWSTR pszShort,
+	LPCWSTR pszFileSpec
+);  
+```  
+***  
+
+
+## FoxPro declaration:
+```foxpro  
+DECLARE INTEGER PathYetAnotherMakeUniqueName IN shell32;
+	STRING @ pszUniqueName,;
+	STRING   pszPath,;
+	STRING   pszShort,;
+	STRING   pszFileSpec  
+```  
+***  
+
+
+## Parameters:
+```txt  
+pszUniqueName
+[out] A string buffer that receives a NULL-terminated Unicode string that contains the fully qualified path of the unique file name.
+
+pszPath
+[in] A NULL-terminated Unicode string containing the fully qualified path of folder that will contain the new file.
+
+pszShort
+[in] A NULL-terminated Unicode string containing the short file name that the unique name will be based on.
+
+pszFileSpec
+[in] A NULL-terminated Unicode string containing the long file name that the unique name will be based on.  
+```  
+***  
+
+
+## Return value:
+Returns TRUE if a unique name was successfully created, FALSE if not.  
+***  
+
+
+## Comments:
+See also PathMakeUniqueName function.  
+  
+***  
+

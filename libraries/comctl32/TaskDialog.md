@@ -1,0 +1,95 @@
+<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+## Functionname : TaskDialog
+Group: Common Dialog Box - Library: comctl32    
+***  
+
+
+#### Creates, displays, and operates a task dialog.
+***  
+
+
+## Code examples:
+[How to display a Task Dialog (Vista)](../../samples/sample_557.md)  
+[How to display advanced Task Dialog (Vista)](../../samples/sample_558.md)  
+
+## Declaration:
+```foxpro  
+HRESULT TaskDialog(
+	HWND hWndParent,
+	HINSTANCE hInstance,
+	PCWSTR pszWindowTitle,
+	PCWSTR pszMainInstruction,
+	PCWSTR pszContent,
+	TASKDIALOG_COMMON_BUTTON_FLAGS dwCommonButtons,
+	PCWSTR pszIcon,
+	int *pnButton
+);  
+```  
+***  
+
+
+## FoxPro declaration:
+```foxpro  
+DECLARE INTEGER TaskDialog IN comctl32;
+	INTEGER hWndParent,;
+	INTEGER hInstance,;
+	STRING pszWindowTitle,;
+	STRING pszMainInstruction,;
+	STRING pszContent,;
+	INTEGER dwCommonButtons,;
+	INTEGER pszIcon,;
+	INTEGER @pnButton  
+```  
+***  
+
+
+## Parameters:
+```txt  
+hWndParent
+[in] Handle to the owner window of the task dialog to be created.
+
+hInstance
+[in] Handle to the module that contains the icon resource identified by the pszIcon member, and the string resources identified by the pszWindowTitle and pszMainInstruction members.
+
+pszWindowTitle
+[in] Pointer to the string to be used for the task dialog title.
+
+pszMainInstruction
+[in] Pointer to the string to be used for the main instruction.
+
+pszContent
+[in] Pointer to a string used for additional text that appears below the main instruction, in a smaller font.
+
+dwCommonButtons
+[in] Specifies the push buttons displayed in the dialog box.
+
+pszIcon
+[in] Pointer to a string that identifies the icon to display in the task dialog.
+
+pnButton
+[out]
+When this function returns, contains either 0 (on error) or Id of the pressed button.  
+```  
+***  
+
+
+## Return value:
+On success returns S_OK (0).  
+***  
+
+
+## Comments:
+Minimum operating systems: <Em>Windows Vista</Em>  
+  
+All strings passed to this function must be in <Em>Unicode</Em> format.  
+  
+The task dialog contains application-defined message text and title, icons, and any combination of predefined push buttons.  
+  
+<img src="images/taskdlg_sample.png">  
+  
+See also: TaskDialogIndirect, MessageBox, MessageBoxIndirect   
+  
+***  
+

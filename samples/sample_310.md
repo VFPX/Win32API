@@ -1,0 +1,39 @@
+<link rel="stylesheet" type="text/css" href="../css/win32api.css">  
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+# Retrieving current user for the process
+
+## Before you begin:
+See also:
+
+* Function GetUserName   
+* Function IsUserAnAdmin   
+* [Finding out if the current user is the Guest account](sample_566.md)  
+  
+***  
+
+
+## Code:
+```foxpro  
+#DEFINE NO_ERROR 0
+
+DECLARE INTEGER IsUserAnAdmin IN shell32
+
+DECLARE INTEGER WNetGetUser IN mpr;
+	INTEGER lpName, STRING @lpUserName, INTEGER @lpnLength
+
+LOCAL lcUser, lnBufsize
+lnBufsize = 250
+lcUser = Repli(Chr(0), lnBufsize)
+
+IF WNetGetUser(0, @lcUser, @lnBufsize) = NO_ERROR
+	? "Default user name:", SUBSTR(lcUser, 1, AT(Chr(0),lcUser)-1)
+	? "Is user and admin:", Iif(IsUserAnAdmin()=0, "No", "Yes")
+ENDIF  
+```  
+***  
+
+
+## Listed functions:
+[IsUserAnAdmin](../libraries/shell32/IsUserAnAdmin.md)  
+[WNetGetUser](../libraries/mpr/WNetGetUser.md)  

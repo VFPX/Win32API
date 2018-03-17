@@ -1,0 +1,56 @@
+<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+## Functionname : SetEndOfFile
+Group: File Management - Library: kernel32    
+***  
+
+
+#### Sets the physical file size for the specified file to the current position of the file pointer.
+***  
+
+
+## Declaration:
+```foxpro  
+BOOL WINAPI SetEndOfFile(
+  __in  HANDLE hFile
+);  
+```  
+***  
+
+
+## FoxPro declaration:
+```foxpro  
+DECLARE INTEGER SetEndOfFile IN kernel32;
+	INTEGER hFile  
+```  
+***  
+
+
+## Parameters:
+```txt  
+hFile [in]
+A handle to the file to be extended or truncated.
+  
+```  
+***  
+
+
+## Return value:
+If the function succeeds, the return value is nonzero.  
+***  
+
+
+## Comments:
+In the usage example on this page the file is extended by 1024 bytes beyond its current physical length.   
+  
+Normally the added space is filled with zeroes. Though it is not completely safe to expect it to happen each time.  
+  
+The function can be used for extending as well as for making files smaller. Be carefull not to test the truncation on files with any importance.  
+  
+Files can also be truncated to zero size by calling the CreateFile by itself with the TRUNCATE_EXISTING flag.  
+  
+See also: SetFileValidData   
+  
+***  
+

@@ -1,0 +1,52 @@
+<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+## Functionname : GetOpenFileName
+Group: Common Dialog Box - Library: comdlg32    
+***  
+
+
+#### The GetOpenFileName function creates an Open dialog box that lets the user specify the drive, directory, and the name of a file or set of files to open.
+***  
+
+
+## Code examples:
+[Creating the Open dialog box to specify the drive, directory, and name of a file to open](../../samples/sample_363.md)  
+
+## Declaration:
+```foxpro  
+BOOL GetOpenFileName(
+	LPOPENFILENAME lpofn
+);  
+```  
+***  
+
+
+## FoxPro declaration:
+```foxpro  
+DECLARE INTEGER GetOpenFileName IN comdlg32;
+	STRING @ lpofn  
+```  
+***  
+
+
+## Parameters:
+```txt  
+lpofn
+[in, out] Pointer to an OPENFILENAME structure that contains information used to initialize the dialog box. When GetOpenFileName returns, this structure contains information about the user"s file selection.  
+```  
+***  
+
+
+## Return value:
+If the user specifies a file name and clicks the OK button, the return value is nonzero.  
+***  
+
+
+## Comments:
+The GetFileNameFromBrowse provides similar functionality.  
+  
+<img src="images/getopenfilename.png" width=570>  
+  
+***  
+

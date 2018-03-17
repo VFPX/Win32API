@@ -1,0 +1,61 @@
+<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+## Functionname : GetFileAttributesEx
+Group: File Management - Library: kernel32    
+***  
+
+
+#### Retrieves attributes for a specified file or directory.
+***  
+
+
+## Code examples:
+[A procedure for setting file times](../../samples/sample_128.md)  
+
+## Declaration:
+```foxpro  
+BOOL GetFileAttributesEx(
+  LPCTSTR lpFileName,                   // file or directory name
+  GET_FILEEX_INFO_LEVELS fInfoLevelId,  // attribute
+  LPVOID lpFileInformation              // attribute information
+);  
+```  
+***  
+
+
+## FoxPro declaration:
+```foxpro  
+DECLARE INTEGER GetFileAttributesEx IN kernel32;
+	STRING    lpFileName,;
+	INTEGER   fInfoLevelId,;
+	STRING  @ lpFileInformation  
+```  
+***  
+
+
+## Parameters:
+```txt  
+lpFileName
+[in] Pointer to a null-terminated string that specifies a file or directory.
+
+fInfoLevelId
+[in] Specifies a GET_FILEEX_INFO_LEVELS enumeration type that gives the set of attribute information to obtain.
+
+lpFileInformation
+[out] Pointer to a buffer that receives the attribute information. The type of attribute information stored into this buffer is determined by the value of fInfoLevelId.  
+```  
+***  
+
+
+## Return value:
+If the function succeeds, the return value is a nonzero value. If the function fails, the return value is zero. 
+  
+***  
+
+
+## Comments:
+Same as the GetFileAttributes this function is a good basis for DirectoryExists and FileExists algorithms.  
+  
+***  
+

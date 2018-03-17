@@ -1,0 +1,52 @@
+<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+## Functionname : CloseServiceHandle
+Group: Service - Library: advapi32    
+***  
+
+
+#### The CloseServiceHandle function closes a handle to a service control manager or service object.
+***  
+
+
+## Code examples:
+[Encapsulating access to the Windows Services in a class](../../samples/sample_476.md)  
+[How to create a service object](../../samples/sample_517.md)  
+[How to delete a service object](../../samples/sample_518.md)  
+
+## Declaration:
+```foxpro  
+BOOL CloseServiceHandle(
+  SC_HANDLE hSCObject
+);  
+```  
+***  
+
+
+## FoxPro declaration:
+```foxpro  
+DECLARE INTEGER CloseServiceHandle IN advapi32;
+	INTEGER hSCObject  
+```  
+***  
+
+
+## Parameters:
+```txt  
+hSCObject
+[in] Handle to the service control manager object or the service object to close.  
+```  
+***  
+
+
+## Return value:
+If the function succeeds, the return value is nonzero.  
+***  
+
+
+## Comments:
+The CloseServiceHandle function does not destroy the service control manager object referred to by the handle. A service control manager object cannot be destroyed. A service object can be destroyed by calling the DeleteService function.  
+  
+***  
+

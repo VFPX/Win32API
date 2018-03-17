@@ -1,0 +1,62 @@
+<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+## Functionname : WNetGetUser
+Group: Windows Networking - Library: mpr    
+***  
+
+
+#### The WNetGetUser function retrieves the current default user name, or the user name used to establish a network connection. 
+***  
+
+
+## Code examples:
+[Retrieving current user for the process](../../samples/sample_310.md)  
+
+## Declaration:
+```foxpro  
+DWORD WNetGetUser(
+  LPCTSTR lpName,     // device or resource name
+  LPTSTR lpUserName,  // name buffer
+  LPDWORD lpnLength   // buffer size
+);  
+```  
+***  
+
+
+## FoxPro declaration:
+```foxpro  
+DECLARE INTEGER WNetGetUser IN mpr;
+	INTEGER   lpName,;
+	STRING  @ lpUserName,;
+	INTEGER @ lpnLength  
+```  
+***  
+
+
+## Parameters:
+```txt  
+lpName
+[in] Pointer to a constant null-terminated string that specifies either the name of a local device or the remote name of a network resource.
+
+lpUserName
+[out] Pointer to a buffer that receives the null-terminated user name.
+
+lpnLength
+[in/out] Pointer to a variable that specifies the size, in characters, of the buffer pointed to by the lpUserName parameter.  
+```  
+***  
+
+
+## Return value:
+If the function succeeds, the return value is NO_ERROR (0).   
+***  
+
+
+## Comments:
+Compare this function with the GetUserName.  
+  
+SYS(0) -- the network machine information -- returns computer name and user name in one string.  
+  
+***  
+

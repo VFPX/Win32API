@@ -1,0 +1,62 @@
+<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+## Functionname : GetClipboardFormatName
+Group: Clipboard - Library: user32    
+***  
+
+
+#### The GetClipboardFormatName function retrieves from the clipboard the name of the specified registered format. The function copies the name to the specified buffer. 
+***  
+
+
+## Code examples:
+[Enumerating data formats currently available on the clipboard](../../samples/sample_032.md)  
+[Retrieving names for the registered clipboard formats](../../samples/sample_268.md)  
+[Monitoring clipboard content changes (VFP9)](../../samples/sample_601.md)  
+
+## Declaration:
+```foxpro  
+int GetClipboardFormatName(
+  UINT format,            // clipboard format to retrieve
+  LPTSTR lpszFormatName,  // format name
+  int cchMaxCount         // length of format name buffer
+);  
+```  
+***  
+
+
+## FoxPro declaration:
+```foxpro  
+DECLARE INTEGER GetClipboardFormatName IN user32;
+	INTEGER   format,;
+	STRING  @ lpszFormatName,;
+	INTEGER   cchMaxCount  
+```  
+***  
+
+
+## Parameters:
+```txt  
+format
+[in] Specifies the type of format to be retrieved.
+
+lpszFormatName
+[out] Pointer to the buffer that is to receive the format name.
+
+cchMaxCount
+[in] Specifies the maximum length, in TCHARs, of the string to be copied to the buffer.  
+```  
+***  
+
+
+## Return value:
+If the function succeeds, the return value is the length, in TCHARs, of the string copied to the buffer.  
+***  
+
+
+## Comments:
+Registered clipboard formats are identified by values in the range 0xC000 through 0xFFFF.   
+  
+***  
+

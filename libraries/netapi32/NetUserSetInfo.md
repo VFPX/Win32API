@@ -1,0 +1,74 @@
+<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+## Functionname : NetUserSetInfo
+Group: Network Management - Library: netapi32    
+***  
+
+
+#### Sets the parameters of a user account.
+
+***  
+
+
+## Code examples:
+[Adding and deleting User Accounts](../../samples/sample_478.md)  
+
+## Declaration:
+```foxpro  
+NET_API_STATUS NetUserSetInfo(
+  LPCWSTR servername,
+  LPCWSTR username,
+  DWORD level,
+  LPBYTE buf,
+  LPDWORD parm_err
+);  
+```  
+***  
+
+
+## FoxPro declaration:
+```foxpro  
+DECLARE INTEGER NetUserSetInfo IN netapi32;
+	STRING    servername,;
+	STRING    username,;
+	INTEGER   lvl,;
+	STRING  @ buf,;
+	INTEGER   parm_err
+  
+```  
+***  
+
+
+## Parameters:
+```txt  
+servername
+[in] Pointer to a constant string that specifies the DNS or NetBIOS name of the remote server on which the function is to execute. If this parameter is NULL, the local computer is used.
+
+username
+[in] Pointer to a constant string that specifies the name of the user account for which to set information.
+
+level
+[in] Specifies the information level of the data.
+
+buf
+[in] Pointer to the buffer that specifies the data. The format of this data depends on the value of the level parameter.
+
+parm_err
+[out] Pointer to a value that receives the index of the first member of the user information structure that causes ERROR_INVALID_PARAMETER.  
+```  
+***  
+
+
+## Return value:
+If the function succeeds, the return value is NERR_Success (0).  
+***  
+
+
+## Comments:
+Only users or applications having administrative privileges can call the NetUserSetInfo function to change a user"s password.   
+  
+See also: NetUserGetInfo, NetUserAdd, NetUserDel, NetUserChangePassword.  
+  
+***  
+

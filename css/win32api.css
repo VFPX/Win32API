@@ -1,0 +1,19 @@
+h2, h3 {
+    color: #cc6600;
+}
+
+.descript {
+    margin-left: 30px;
+    background-color: #f0f0f0;
+}
+
+.precode {
+    padding-left: 20px;
+    font-size: 10pt;
+    background: #e1ebff;
+    padding-bottom: 10px;
+    width: 100%;
+    color: #330066;
+    padding-top: 7px;
+    font-family: Monospace, Sans-Serif;
+}

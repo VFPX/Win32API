@@ -1,0 +1,63 @@
+<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+## Functionname : GetShortPathName
+Group: File Management - Library: kernel32    
+***  
+
+
+#### Retrieves the short path form of a specified input path
+***  
+
+
+## Code examples:
+[Converting long file names to the short format and vice versa](../../samples/sample_055.md)  
+[Converting path to original case](../../samples/sample_102.md)  
+
+## Declaration:
+```foxpro  
+DWORD GetShortPathName(
+  LPCTSTR lpszLongPath,  // null-terminated path string
+  LPTSTR lpszShortPath,  // short form buffer
+  DWORD cchBuffer        // size of short form buffer
+);  
+```  
+***  
+
+
+## FoxPro declaration:
+```foxpro  
+DECLARE INTEGER GetShortPathName IN kernel32;
+	STRING    lpszLongPath,;
+	STRING  @ lpszShortPath,;
+	INTEGER   cchBuffer  
+```  
+***  
+
+
+## Parameters:
+```txt  
+lpszLongPath
+[in] Pointer to a null-terminated path string
+
+lpszShortPath
+[out] Pointer to a buffer to receive the null-terminated short form of the path specified by lpszLongPath
+
+cchBuffer
+[in] Specifies the size, in TCHARs, of the buffer pointed to by lpszShortPath  
+```  
+***  
+
+
+## Return value:
+If the function succeeds, the return value is the length of the string copied to lpszShortPath  
+***  
+
+
+## Comments:
+The short path means the 8.3 compliant path/filename.  
+  
+See also: PathGetShortPath, GetLongPathName, GetFullPathName   
+  
+***  
+

@@ -1,0 +1,61 @@
+<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+## Functionname : WNetGetProviderName
+Group: Windows Networking - Library: mpr    
+***  
+
+
+#### The WNetGetProviderName function obtains the provider name for a specific type of network. 
+***  
+
+
+## Code examples:
+[Obtaining provider name for a specific type of network](../../samples/sample_311.md)  
+
+## Declaration:
+```foxpro  
+DWORD WNetGetProviderName(
+  DWORD dwNetType,       // network type
+  LPTSTR lpProviderName, // provider name buffer
+  LPDWORD lpBufferSize   // size of buffer
+);  
+```  
+***  
+
+
+## FoxPro declaration:
+```foxpro  
+DECLARE INTEGER WNetGetProviderName IN mpr;
+	INTEGER   dwNetType,;
+	STRING  @ lpProviderName,;
+	INTEGER @ lpBufferSize
+  
+```  
+***  
+
+
+## Parameters:
+```txt  
+dwNetType
+[in] Specifies the network type that is unique to the network.
+
+lpProviderName
+[out] Pointer to a buffer in which to return the network provider name.
+
+lpBufferSize
+[in/out] Specifies the size, in characters, of the buffer passed to the function.  
+```  
+***  
+
+
+## Return value:
+If the function succeeds, the return value is NO_ERROR (0).   
+***  
+
+
+## Comments:
+You can find a complete list of network types in the header file Winnetwk.h.  
+  
+***  
+

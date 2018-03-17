@@ -1,0 +1,64 @@
+<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+## Functionname : UuidToString
+Group: Remote Procedure Call (RPC) - Library: rpcrt4    
+***  
+
+
+#### Converts a UUID to a string.
+***  
+
+
+## Code examples:
+[Generating random UUID values](../../samples/sample_024.md)  
+[Generating sequential UUID values](../../samples/sample_587.md)  
+[Generating UUID values from numbers](../../samples/sample_588.md)  
+
+## Declaration:
+```foxpro  
+RPC_STATUS RPC_ENTRY UuidToString(
+	UUID __RPC_FAR *Uuid ,
+	unsigned char __RPC_FAR * __RPC_FAR *StringUuid
+);  
+```  
+***  
+
+
+## FoxPro declaration:
+```foxpro  
+DECLARE INTEGER UuidToString IN Rpcrt4;
+	STRING @Uuid,;
+	LONG @StringUuid  
+```  
+***  
+
+
+## Parameters:
+```txt  
+Uuid
+Pointer to a binary UUID.
+
+StringUuid
+Pointer to a pointer to the string into which the UUID specified in the Uuid parameter will be placed.  
+```  
+***  
+
+
+## Return value:
+Returns RPC_S_OK (0) if the call succeeded.  
+***  
+
+
+## Comments:
+String representation of a UUID looks like this  
+E911188C-E98C-478F-97E6-19F365143953  
+  
+The application is responsible for calling the RpcStringFree to release the memory that the system allocates for the <Em>StringUuid</Em>.  
+  
+Note that the <Em>StringUuid</Em> is a pointer to a pointer, which adds one or two subtleties to the RPC declarations and calls in VFP.  
+  
+See also: UuidFromString, RtlMoveMemory   
+  
+***  
+

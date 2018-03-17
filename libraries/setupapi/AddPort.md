@@ -1,0 +1,65 @@
+<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+## Functionname : AddPort
+Group: Printing and Print Spooler - Library: setupapi    
+***  
+
+
+#### Adds the name of a port to the list of supported ports. The AddPort function is exported by the port monitor.
+***  
+
+
+## Code examples:
+[Enumerating ports that are available for printing on a specified server](../../samples/sample_334.md)  
+
+## Declaration:
+```foxpro  
+BOOL AddPort(
+	LPTSTR pName,         // server name
+	HWND hWnd,            // handle to parent window
+	LPTSTR pMonitorName   // monitor name
+);  
+```  
+***  
+
+
+## FoxPro declaration:
+```foxpro  
+DECLARE INTEGER AddPort IN winspool.drv;
+	STRING pName,;
+	INTEGER hWindow,;
+	STRING pMonitorName
+  
+```  
+***  
+
+
+## Parameters:
+```txt  
+pName
+[in] Pointer to a zero-terminated string that specifies the name of the server to which the port is connected. If this parameter is NULL, the port is local.
+
+hWnd
+[in] Handle to the parent window of the AddPort dialog box.
+
+pMonitorName
+[in] Pointer to a zero-terminated string that specifies the monitor associated with the port.  
+```  
+***  
+
+
+## Return value:
+If the function succeeds, the return value is a nonzero value.  
+***  
+
+
+## Comments:
+The AddPort function browses the network to find existing ports, and displays a dialog box for the user. The AddPort function should validate the port name entered by the user by calling EnumPorts to ensure that no duplicate names exist.  
+  
+The caller of the AddPort function must have SERVER_ACCESS_ADMINISTER access to the server to which the port is connected.  
+  
+See also: DeletePort, EnumPorts.  
+  
+***  
+

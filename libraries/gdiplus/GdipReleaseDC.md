@@ -1,0 +1,52 @@
+<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+## Functionname : GdipReleaseDC
+Group: GDI+ Graphics - Library: gdiplus    
+***  
+
+
+#### Releases a device context handle obtained by a previous call to the GdipGetHDC with this Graphics handle.
+
+***  
+
+
+## Code examples:
+[Custom GDI+ class](../../samples/sample_450.md)  
+
+## Declaration:
+```foxpro  
+GpStatus WINGDIPAPI GdipReleaseDC(
+	GpGraphics* graphics,
+	HDC hdc
+)
+  
+```  
+***  
+
+
+## FoxPro declaration:
+```foxpro  
+DECLARE INTEGER GdipReleaseDC IN gdiplus;
+	INTEGER graphics,;
+	INTEGER hdc
+  
+```  
+***  
+
+
+## Parameters:
+```txt  
+graphics
+[in] Handle to a Graphics object obtained from GdipCreateFromHDC, GdipCreateFromHDC2, GdipCreateFromHWND or GdipGetImageGraphicsContext functions.
+
+hdc
+[in] Handle to a device context obtained by a previous call to the GdipGetHDC method with this Graphics handle.  
+```  
+***  
+
+
+## Return value:
+This call does not return a value.  
+***  
+

@@ -1,0 +1,75 @@
+<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+## Functionname : CryptBinaryToString
+Group: Cryptography Reference - Library: crypt32    
+***  
+
+
+#### Converts an array of bytes into a formatted string.
+***  
+
+
+## Code examples:
+[How to perform Base64 encoding/decoding using Cryptography API Functions](../../samples/sample_088.md)  
+
+## Declaration:
+```foxpro  
+BOOL WINAPI CryptBinaryToString(
+	const BYTE* pbBinary,
+	DWORD cbBinary,
+	DWORD dwFlags,
+	LPTSTR pszString,
+	DWORD* pcchString
+);  
+```  
+***  
+
+
+## FoxPro declaration:
+```foxpro  
+DECLARE INTEGER CryptBinaryToString IN Crypt32;
+	STRING @pbBinary,;
+	LONG cbBinary,;
+	LONG dwFlags,;
+	STRING @pszString,;
+	LONG @pcchString  
+```  
+***  
+
+
+## Parameters:
+```txt  
+pbBinary
+[in] A pointer to the array of bytes to be converted into a string.
+
+cbBinary
+[in] The number of elements in the pbBinary array.
+
+dwFlags
+[in] Specifies the format of the resulting formatted string.
+
+pszString
+[in] A pointer to a buffer that receives the converted string.
+
+pcchString
+[in, out] A pointer to a DWORD variable that contains the size, in TCHARs, of the pszString buffer.  
+```  
+***  
+
+
+## Return value:
+If the function succeeds, the function returns nonzero (TRUE).  
+***  
+
+
+## Comments:
+Can be used for base64 encoding.  
+  
+See also: CryptStringToBinary   
+  
+This is the output of CryptBinaryToString with <Em>dwFlags</Em> set to CRYPT_STRING_HEXASCIIADDR (0x000b).  
+<img src="images/crypt_string_hex.png" width=570>  
+  
+***  
+

@@ -1,0 +1,61 @@
+<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+## Functionname : Shell_GetImageLists
+Group: Shell Functions - Library: shell32    
+***  
+
+
+#### Retrieves system image lists for large and small icons -- undocumented.
+***  
+
+
+## Declaration:
+```foxpro  
+BOOL Shell_GetImageLists(
+	HIMAGELIST *phiml,
+	HIMAGELIST *phimlSmall
+);  
+```  
+***  
+
+
+## FoxPro declaration:
+```foxpro  
+DECLARE INTEGER Shell_GetImageLists IN shell32;
+	INTEGER @phiml,;
+	INTEGER @phimlSmall
+  
+```  
+***  
+
+
+## Parameters:
+```txt  
+phiml
+[in] Pointer to the handle of an image list which, on success, receives the system image list for large (32 x 32) icons.
+
+phimlSmall
+[in] Pointer to the handle of an image list which, on success, receives the system image list for small (16 x 16) icons.  
+```  
+***  
+
+
+## Return value:
+Returns TRUE on success.  
+***  
+
+
+## Comments:
+This function is available through Microsoft Windows XP Service Pack 2 (SP2) and Windows Server 2003. It might be altered or unavailable in subsequent versions of Windows.  
+  
+<div class="precode">LOCAL hImg, hImgSmall  
+STORE 0 TO hImg, hImgSmall  
+  
+? Shell_GetImageLists(@hImg, @hImgSmall)  
+? hImg, hImgSmall  
+  
+</div>  
+  
+***  
+

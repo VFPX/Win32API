@@ -1,0 +1,46 @@
+<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+## Functionname : CharLower
+Group: String - Library: user32    
+***  
+
+
+#### Converts a character string or a single character to lowercase. If the operand is a character string, the function converts the characters in place.
+***  
+
+
+## Code examples:
+[Converting characters to upper or lower case](../../samples/sample_075.md)  
+
+## Declaration:
+```foxpro  
+LPTSTR CharLower(
+  LPTSTR lpsz   // single character or string
+);  
+```  
+***  
+
+
+## FoxPro declaration:
+```foxpro  
+DECLARE INTEGER CharLower IN user32 STRING @ lpsz  
+```  
+***  
+
+
+## Parameters:
+```txt  
+lpsz
+[in/out] Pointer to a null-terminated string or specifies a single character. If the high-order word of this parameter is zero, the low-order word must contain a single character to be converted.  
+```  
+***  
+
+
+## Return value:
+If the operand is a character string, the function returns a pointer to the converted string. Since the string is converted in place, the return value is equal to lpsz. 
+
+If the operand is a single character, the return value is a 32-bit value whose high-order word is zero, and low-order word contains the converted character. 
+  
+***  
+

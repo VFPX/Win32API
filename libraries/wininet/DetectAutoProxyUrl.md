@@ -1,0 +1,62 @@
+<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+## Functionname : DetectAutoProxyUrl
+Group: Internet Functions (WinInet) - Library: wininet    
+***  
+
+
+#### Attempts to determine the location of a WPAD autoproxy script.
+***  
+
+
+## Code examples:
+[The DetectAutoProxyUrl function identifies the auto-config script location](../../samples/sample_341.md)  
+
+## Declaration:
+```foxpro  
+BOOL DetectAutoProxyUrl(
+	LPSTR lpszAutoProxyUrl,
+	DWORD dwAutoProxyUrlLength,
+	DWORD dwDetectFlags
+);  
+```  
+***  
+
+
+## FoxPro declaration:
+```foxpro  
+DECLARE INTEGER DetectAutoProxyUrl IN wininet;
+	STRING @ lpszAutoProxyUrl,;
+	LONG     dwAutoProxyUrlLength,;
+	LONG     dwDetectFlags  
+```  
+***  
+
+
+## Parameters:
+```txt  
+lpszAutoProxyUrl
+[in, out] Pointer to a buffer to receive the URL from which a WPAD autoproxy script can be downloaded.
+
+dwAutoProxyUrlLength
+[in] Size of the buffer pointed to by lpszAutoProxyUrl, in bytes.
+
+dwDetectFlags
+[in] Automation detection type.  
+```  
+***  
+
+
+## Return value:
+Returns TRUE if successful, or FALSE otherwise.  
+***  
+
+
+## Comments:
+DetectAutoProxyUrl is called to identify a location (WPAD) from which to obtain the auto-config script. WPAD stands for <Em>Web Proxy Auto-Discovery</Em>.  
+  
+MSDN article <a  href="http://support.microsoft.com/default.aspx?scid=KB;en-us;q209266">"Microsoft Knowledge Base Article - 209266: Auto-Proxy Functions Supported by Internet Explorer"</a>.  
+  
+***  
+

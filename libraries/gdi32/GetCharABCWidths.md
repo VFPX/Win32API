@@ -1,0 +1,63 @@
+<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+## Functionname : GetCharABCWidths
+Group: Font and Text - Library: gdi32    
+***  
+
+
+#### Retrieves the widths, in logical units, of consecutive characters in a specified range from the current TrueType font. This function succeeds only with TrueType fonts.
+***  
+
+
+## Declaration:
+```foxpro  
+BOOL GetCharABCWidths(
+  HDC hdc,         // handle to DC
+  UINT uFirstChar, // first character in range
+  UINT uLastChar,  // last character in range
+  LPABC lpabc      // array of character widths
+);  
+```  
+***  
+
+
+## FoxPro declaration:
+```foxpro  
+DECLARE INTEGER GetCharABCWidths IN gdi32;
+	INTEGER   hdc,;
+	INTEGER   uFirstChar,;
+	INTEGER   uLastChar,;
+	STRING  @ lpabc
+  
+```  
+***  
+
+
+## Parameters:
+```txt  
+hdc
+[in] Handle to the device context.
+
+uFirstChar
+[in] Specifies the first character in the group of consecutive characters from the current font.
+
+uLastChar
+[in] Specifies the last character in the group of consecutive characters from the current font.
+
+lpabc
+[out] Pointer to an array of ABC structures that receives the character widths, in logical units.  
+```  
+***  
+
+
+## Return value:
+If the function succeeds, the return value is nonzero.  
+***  
+
+
+## Comments:
+MSDN: To retrieve the widths of characters in non-TrueType fonts, applications should use the GetCharWidth function.  
+  
+***  
+
