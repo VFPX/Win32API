@@ -1311,7 +1311,7 @@ Creates a Bitmap object based on a Graphics object, a width, and a height.
 ***  
 
 [GdipCreateBitmapFromHBITMAP](libraries/gdiplus/GdipCreateBitmapFromHBITMAP.md)  
-Creates a Bitmap object based on a handle to a Windows Microsoft® Windows® Graphics Device Interface (GDI) bitmap and a handle to a GDI palette.  
+Creates a Bitmap object based on a handle to a Windows Microsoftï¿½ Windowsï¿½ Graphics Device Interface (GDI) bitmap and a handle to a GDI palette.  
 
 ***  
 
@@ -1348,7 +1348,7 @@ Returns handle to the Graphics object associated with the windows handle.
 ***  
 
 [GdipCreateHBITMAPFromBitmap](libraries/gdiplus/GdipCreateHBITMAPFromBitmap.md)  
-Creates a Microsoft® Windows® Graphics Device Interface (GDI) bitmap from this GDI+ Bitmap handle.
+Creates a Microsoftï¿½ Windowsï¿½ Graphics Device Interface (GDI) bitmap from this GDI+ Bitmap handle.
   
 
 ***  
@@ -1369,7 +1369,7 @@ Creates and initializes a Matrix object that represents the identity matrix.
 ***  
 
 [GdipCreateMatrix2](libraries/gdiplus/GdipCreateMatrix2.md)  
-Creates and initializes a a 3 ×3 matrix that represents an affine transformation.  
+Creates and initializes a a 3 ï¿½3 matrix that represents an affine transformation.  
 
 ***  
 
@@ -1652,12 +1652,12 @@ Creates an Image object based on a file.
 ***  
 
 [GdiplusShutdown](libraries/gdiplus/GdiplusShutdown.md)  
-The GdiplusShutdown function cleans up resources used by Microsoft® Windows® GDI+.  
+The GdiplusShutdown function cleans up resources used by Microsoftï¿½ Windowsï¿½ GDI+.  
 
 ***  
 
 [GdiplusStartup](libraries/gdiplus/GdiplusStartup.md)  
-The GdiplusStartup function initializes Microsoft® Windows® GDI+.  
+The GdiplusStartup function initializes Microsoftï¿½ Windowsï¿½ GDI+.  
 
 ***  
 
@@ -1833,7 +1833,7 @@ The GetInterfaceInfo function obtains a list of the network interface adapters o
 ***  
 
 [GetIpAddrTable](libraries/iphlpapi/GetIpAddrTable.md)  
-The GetIpAddrTable function retrieves the interface–to–IP address mapping table.  
+The GetIpAddrTable function retrieves the interfaceï¿½toï¿½IP address mapping table.  
 
 ***  
 
@@ -2670,7 +2670,7 @@ Retrieves the language identifier of the current user locale.
 ***  
 
 [GetUserDefaultLCID](libraries/kernel32/GetUserDefaultLCID.md)  
-Retrieves the user default–locale identifier.  
+Retrieves the user defaultï¿½locale identifier.  
 
 ***  
 
@@ -4141,7 +4141,7 @@ This function gets information on the physical and virtual memory of the system.
 ***  
 
 [CeMoveFile](libraries/rapi/CeMoveFile.md)  
-This function renames an existing file or a directory — including all its children.  
+This function renames an existing file or a directory ï¿½ including all its children.  
 
 ***  
 
@@ -4464,7 +4464,7 @@ Parses a Unicode command-line string, and returns a pointer to a set of Unicode 
 ***  
 
 [DllGetVersion](libraries/shell32/DllGetVersion.md)  
-Implemented by many of the Microsoft® Windows® Shell dynamic-link libraries (DLLs) to allow applications to obtain DLL-specific version information.  
+Implemented by many of the Microsoftï¿½ Windowsï¿½ Shell dynamic-link libraries (DLLs) to allow applications to obtain DLL-specific version information.  
 
 ***  
 
@@ -4535,7 +4535,7 @@ Determines the drive type based on the drive number.
 ***  
 
 [RestartDialog](libraries/shell32/RestartDialog.md)  
-Displays a dialog box that prompts the user to restart Microsoft® Windows®. When the user clicks the button, the function calls ExitWindowsEx to attempt to restart Windows.  
+Displays a dialog box that prompts the user to restart Microsoftï¿½ Windowsï¿½. When the user clicks the button, the function calls ExitWindowsEx to attempt to restart Windows.  
 
 ***  
 
@@ -5294,7 +5294,7 @@ The GetKeyNameText function retrieves a string that represents the name of a key
 ***  
 
 [GetKeyState](libraries/user32/GetKeyState.md)  
-The GetKeyState function retrieves the status of the specified virtual key. The status specifies whether the key is up, down, or toggled (on, off—alternating each time the key is pressed).   
+The GetKeyState function retrieves the status of the specified virtual key. The status specifies whether the key is up, down, or toggled (on, offï¿½alternating each time the key is pressed).   
 
 ***  
 
@@ -6198,7 +6198,7 @@ This function retrieves the cookie for the specified URL.
 ***  
 
 [InternetGetLastResponseInfo](libraries/wininet/InternetGetLastResponseInfo.md)  
-Retrieves the last Microsoft® Win32® Internet function error description or server response on the thread calling this function.  
+Retrieves the last Microsoftï¿½ Win32ï¿½ Internet function error description or server response on the thread calling this function.  
 
 ***  
 
@@ -6208,7 +6208,7 @@ Prompts the user for permission to initiate connection to a URL.
 ***  
 
 [InternetOpen](libraries/wininet/InternetOpen.md)  
-Initializes an application"s use of the Microsoft® Win32® Internet functions  
+Initializes an application"s use of the Microsoftï¿½ Win32ï¿½ Internet functions  
 
 ***  
 
