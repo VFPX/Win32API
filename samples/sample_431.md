@@ -1,3 +1,4 @@
+[<img src="../images/home.png"> Home ](https://github.com/VFPX/Win32API)  
 
 # Obtaining names of local and global groups for current user (WinNT/XP/2K)
 

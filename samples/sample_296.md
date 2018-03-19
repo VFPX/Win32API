@@ -1,3 +1,4 @@
+[<img src="../images/home.png"> Home ](https://github.com/VFPX/Win32API)  
 
 # The original LoadPicture() function in VFP returns valid handles to bitmaps, icons, cursors, and metafiles
 

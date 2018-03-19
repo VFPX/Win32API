@@ -1,3 +1,4 @@
+[<img src="../images/home.png"> Home ](https://github.com/VFPX/Win32API)  
 
 # Retrieving the name of the primary domain controller (PDC) and join status information
 

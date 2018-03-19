@@ -1,3 +1,4 @@
+[<img src="../images/home.png"> Home ](https://github.com/VFPX/Win32API)  
 
 # Copying picture of the active form to the Clipboard using Enhanced Metafile API functions
 

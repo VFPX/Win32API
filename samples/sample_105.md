@@ -1,3 +1,4 @@
+[<img src="../images/home.png"> Home ](https://github.com/VFPX/Win32API)  
 
 # Time in milliseconds represented as string (e.g. 1 hour 24 min 36 sec)
 

@@ -1,3 +1,4 @@
+[<img src="../images/home.png"> Home ](https://github.com/VFPX/Win32API)  
 
 # Accessing a CD device (cdaudio) with Multimedia Command Strings
 

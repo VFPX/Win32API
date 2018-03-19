@@ -1,3 +1,4 @@
+[<img src="../../images/home.png"> Home ](https://github.com/VFPX/Win32API)  
 
 ## Function name : CM_Locate_DevNode_Ex
 Group: PnP Configuration Manager - Library: cfgmgr32    
