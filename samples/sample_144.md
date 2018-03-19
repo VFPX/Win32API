@@ -1,3 +1,4 @@
+[<img src="../images/home.png"> Home ](https://github.com/VFPX/Win32API)  
 
 # Creating a clipping region from the path selected into the device context of a form
 

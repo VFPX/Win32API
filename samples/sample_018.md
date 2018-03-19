@@ -1,3 +1,4 @@
+[<img src="../images/home.png"> Home ](https://github.com/VFPX/Win32API)  
 
 # How to access a file using not its name but an alias (hard link)
 

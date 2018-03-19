@@ -1,3 +1,4 @@
+[<img src="../images/home.png"> Home ](https://github.com/VFPX/Win32API)  
 
 # Reading VFP settings from the Windows Registry
 

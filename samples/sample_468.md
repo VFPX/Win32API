@@ -1,3 +1,4 @@
+[<img src="../images/home.png"> Home ](https://github.com/VFPX/Win32API)  
 
 # How to obtain Content-Type value for a file type from the System Registry
 

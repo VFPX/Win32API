@@ -1,3 +1,4 @@
+[<img src="../images/home.png"> Home ](https://github.com/VFPX/Win32API)  
 
 # The DetectAutoProxyUrl function identifies the auto-config script location
 

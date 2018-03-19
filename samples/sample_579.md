@@ -1,3 +1,4 @@
+[<img src="../images/home.png"> Home ](https://github.com/VFPX/Win32API)  
 
 # Obtaining names and positions for shortcuts located on the Windows Desktop
 

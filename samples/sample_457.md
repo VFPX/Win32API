@@ -1,3 +1,4 @@
+[<img src="../images/home.png"> Home ](https://github.com/VFPX/Win32API)  
 
 # GDI+: copying to the Clipboard (a) image of active FoxPro window/form, (b) image file
 

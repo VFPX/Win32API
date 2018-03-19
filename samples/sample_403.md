@@ -1,3 +1,4 @@
+[<img src="../images/home.png"> Home ](https://github.com/VFPX/Win32API)  
 
 # How to display picture stored in enhanced-format metafile (*.emf)
 

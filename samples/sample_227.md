@@ -1,3 +1,4 @@
+[<img src="../images/home.png"> Home ](https://github.com/VFPX/Win32API)  
 
 # Using the SetErrorMode for determining if a floppy drive is ready
 

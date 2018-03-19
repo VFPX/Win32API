@@ -1,3 +1,4 @@
+[<img src="../images/home.png"> Home ](https://github.com/VFPX/Win32API)  
 
 # Retrieving the name of the default printer for the current user on the local computer (Win NT/XP)
 

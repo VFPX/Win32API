@@ -1,3 +1,4 @@
+[<img src="../images/home.png"> Home ](https://github.com/VFPX/Win32API)  
 
 # Power capabilities of the system: battery, UPS, sleep and hibernation modes, processor throttling
 

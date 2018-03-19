@@ -1,3 +1,4 @@
+[<img src="../../images/home.png"> Home ](https://github.com/VFPX/Win32API)  
 
 ## Function name : FillConsoleOutputCharacter
 Group: Console - Library: kernel32    

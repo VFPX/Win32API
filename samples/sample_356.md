@@ -1,3 +1,4 @@
+[<img src="../images/home.png"> Home ](https://github.com/VFPX/Win32API)  
 
 # Retrieving list of supported paper names (for example, Letter or Legal) for a given printer
 

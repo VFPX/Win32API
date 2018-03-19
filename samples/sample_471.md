@@ -1,3 +1,4 @@
+[<img src="../images/home.png"> Home ](https://github.com/VFPX/Win32API)  
 
 # How to delete IE cookies, clear IE history and delete files in Temporary Internet Files directory
 

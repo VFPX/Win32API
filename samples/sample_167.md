@@ -1,3 +1,4 @@
+[<img src="../images/home.png"> Home ](https://github.com/VFPX/Win32API)  
 
 # Retrieving information about all users currently logged on to the workstation (WinNT only)
 

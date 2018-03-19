@@ -1,3 +1,4 @@
+[<img src="../images/home.png"> Home ](https://github.com/VFPX/Win32API)  
 
 # The SQLGetProp() creates a bridge between Visual FoxPro and the ODBC API
 

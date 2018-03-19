@@ -1,3 +1,4 @@
+[<img src="../images/home.png"> Home ](https://github.com/VFPX/Win32API)  
 
 # GDI+: reading and writing metadata in JPEG and TIFF files
 

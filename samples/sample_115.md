@@ -1,3 +1,4 @@
+[<img src="../images/home.png"> Home ](https://github.com/VFPX/Win32API)  
 
 # Using GetBinaryType (WinNT only) to determine the type of an executable file
 
