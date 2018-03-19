@@ -1,6 +1,6 @@
+[<img src="images/home.png"> Home ](https://github.com/VFPX/Win32API)  
 
 # List of functions grouped by library name
-[<img src="images/home.png"> Home ](https://github.com/VFPX/Win32API)  
 
 # ![](images/fox1.png) advapi32 library
 <details>
