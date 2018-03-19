@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : GdipDeletePen
+## Function name : GdipDeletePen
 Group: GDI+ Pen - Library: gdiplus    
 ***  
 
@@ -32,10 +30,8 @@ DECLARE INTEGER GdipDeletePen IN gdiplus;
 
 
 ## Parameters:
-```txt  
 pen
 [in] Handle to the Pen object created with GdipCreatePen1, GdipCreatePen2 or GdipClonePen functions.  
-```  
 ***  
 
 

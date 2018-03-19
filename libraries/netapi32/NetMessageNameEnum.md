@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : NetMessageNameEnum
+## Function name : NetMessageNameEnum
 Group: Network Management - Library: netapi32    
 ***  
 
@@ -44,30 +42,28 @@ DECLARE INTEGER NetMessageNameEnum IN netapi32;
 
 
 ## Parameters:
-```txt  
-servername
+servername 
 [in] Pointer to a constant string that specifies the DNS or NetBIOS name of the remote server on which the function is to execute. If this parameter is NULL, the local computer is used.
 
-level
+level 
 Set to zero.
 
-bufptr
+bufptr 
 [out] Pointer to the buffer that receives the data
 
-prefmaxlen
+prefmaxlen 
 [in] Specifies the preferred maximum length of the returned data, in bytes. If you specify MAX_PREFERRED_LENGTH, the function allocates the amount of memory required for the data.
 
-entriesread
-[out] Pointer to a value that receives the count of elements actually enumerated.
-totalentries
+entriesread 
+[out] Pointer to a value that receives the count of elements actually enumerated. 
+totalentries 
 
 [out] Pointer to a value that receives the total number of entries that could have been enumerated from the current resume position.
 
-resume_handle
+resume_handle 
 [in, out] Pointer to a value that contains a resume handle which is used to continue an existing message alias search.
 
   
-```  
 ***  
 
 

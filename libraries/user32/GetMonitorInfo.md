@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : GetMonitorInfo
+## Function name : GetMonitorInfo
 Group: Multiple Display Monitors - Library: user32    
 ***  
 
@@ -35,13 +33,11 @@ DECLARE INTEGER GetMonitorInfo IN user32;
 
 
 ## Parameters:
-```txt  
-hMonitor
+hMonitor 
 [in] Handle to the display monitor of interest.
 
-lpmi
-[out] Pointer to a MONITORINFO or MONITORINFOEX structure that receives information about the specified display monitor.  
-```  
+lpmi 
+[out] Pointer to a MONITORINFO or MONITORINFOEX structure that receives information about the specified display monitor.   
 ***  
 
 

@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : ImageList_Add
+## Function name : ImageList_Add
 Group: Windows Controls - Library: comctl32    
 ***  
 
@@ -36,18 +34,16 @@ DECLARE INTEGER ImageList_Add IN comctl32;
 
 
 ## Parameters:
-```txt  
 himl
-Handle to the image list.
+Handle to the image list. 
 
 hbmImage
-Handle to the bitmap that contains the image or images. The number of images is inferred from the width of the bitmap.
+Handle to the bitmap that contains the image or images. The number of images is inferred from the width of the bitmap. 
 
 hbmMask
-Handle to the bitmap that contains the mask. If no mask is used with the image list, this parameter is ignored.
+Handle to the bitmap that contains the mask. If no mask is used with the image list, this parameter is ignored. 
 
   
-```  
 ***  
 
 

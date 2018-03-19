@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : GetWindow
+## Function name : GetWindow
 Group: Window - Library: user32    
 ***  
 
@@ -44,13 +42,11 @@ DECLARE INTEGER GetWindow IN user32;
 
 
 ## Parameters:
-```txt  
 hWnd
 Identifies a window
 
 uCmd
 Specifies the relationship between the specified window and the window whose handle is to be retrieved  
-```  
 ***  
 
 

@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : GetCurrentDirectory
+## Function name : GetCurrentDirectory
 Group: File Management - Library: kernel32    
 ***  
 
@@ -35,13 +33,11 @@ DECLARE INTEGER GetCurrentDirectory IN kernel32;
 
 
 ## Parameters:
-```txt  
-nBufferLength
-[in] Specifies the length, in TCHARs, of the buffer for the current directory string. The buffer length must include room for a terminating null character.
+nBufferLength 
+[in] Specifies the length, in TCHARs, of the buffer for the current directory string. The buffer length must include room for a terminating null character. 
 
-lpBuffer
+lpBuffer 
 [out] Pointer to the buffer that receives the current directory string. This null-terminated string specifies the absolute path to the current directory.  
-```  
 ***  
 
 

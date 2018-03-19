@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : SQLNativeSql
+## Function name : SQLNativeSql
 Group: ODBC API - Library: odbc32    
 ***  
 
@@ -41,31 +39,29 @@ DECLARE SHORT SQLNativeSql IN odbc32;
 
 
 ## Parameters:
-```txt  
-ConnectionHandle
+ConnectionHandle 
 [Input]
-Connection handle.
+Connection handle. 
 
-InStatementText
+InStatementText 
 [Input]
-SQL text string to be translated.
+SQL text string to be translated. 
 
-TextLength1
+TextLength1 
 [Input]
-Length of *InStatementText text string.
+Length of *InStatementText text string. 
 
-OutStatementText
+OutStatementText 
 [Output]
-Pointer to a buffer in which to return the translated SQL string.
+Pointer to a buffer in which to return the translated SQL string. 
 
-BufferLength
+BufferLength 
 [Input]
-Length of the *OutStatementText buffer.
+Length of the *OutStatementText buffer. 
 
-TextLength2Ptr
+TextLength2Ptr 
 [Output]
 Pointer to a buffer in which to return the total number of bytes (excluding the null-termination byte) available to return in *OutStatementText.  
-```  
 ***  
 
 

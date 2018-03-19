@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : RegisterEventSource
+## Function name : RegisterEventSource
 Group: Event Logging - Library: advapi32    
 ***  
 
@@ -30,15 +28,13 @@ DECLARE INTEGER RegisterEventSource IN advapi32;
 
 
 ## Parameters:
-```txt  
-lpUNCServerName
-[in] The Universal Naming Convention (UNC) name of the server on which this operation is to be performed. If this parameter is NULL, the operation is performed on the local computer.
+lpUNCServerName 
+[in] The Universal Naming Convention (UNC) name of the server on which this operation is to be performed. If this parameter is NULL, the operation is performed on the local computer. 
 
-lpSourceName
-[in] The name of the event source whose handle is to be retrieved. The source name must be a subkey of a log under the Eventlog registry key.
+lpSourceName 
+[in] The name of the event source whose handle is to be retrieved. The source name must be a subkey of a log under the Eventlog registry key. 
 However, the Security log is for system use only.
   
-```  
 ***  
 
 

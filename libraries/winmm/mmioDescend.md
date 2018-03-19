@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : mmioDescend
+## Function name : mmioDescend
 Group: Windows Multimedia - Library: winmm    
 ***  
 
@@ -42,19 +40,17 @@ DECLARE INTEGER mmioDescend IN winmm;
 
 
 ## Parameters:
-```txt  
-hmmio
-File handle of an open RIFF file.
+hmmio 
+File handle of an open RIFF file. 
 
-lpck
-Pointer to a buffer that receives an MMCKINFO structure.
+lpck 
+Pointer to a buffer that receives an MMCKINFO structure. 
 
-lpckParent
+lpckParent 
 Pointer to an optional application-defined MMCKINFO structure identifying the parent of the chunk being searched for.
 
-wFlags
+wFlags 
 Search flags.  
-```  
 ***  
 
 

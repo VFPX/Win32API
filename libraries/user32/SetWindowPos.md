@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : SetWindowPos
+## Function name : SetWindowPos
 Group: Window - Library: user32    
 ***  
 
@@ -50,30 +48,28 @@ DECLARE INTEGER SetWindowPos IN user32;
 
 
 ## Parameters:
-```txt  
-hWnd
-[in] Handle to the window.
+hWnd 
+[in] Handle to the window. 
 
-hWndInsertAfter
-[in] Handle to the window to precede the positioned window in the Z order.
+hWndInsertAfter 
+[in] Handle to the window to precede the positioned window in the Z order. 
 
-X
-[in] Specifies the new position of the left side of the window, in client coordinates.
+X 
+[in] Specifies the new position of the left side of the window, in client coordinates. 
 
-Y
-[in] Specifies the new position of the top of the window, in client coordinates.
+Y 
+[in] Specifies the new position of the top of the window, in client coordinates. 
 
-cx
-[in] Specifies the new width of the window, in pixels.
+cx 
+[in] Specifies the new width of the window, in pixels. 
 
-cy
-[in] Specifies the new height of the window, in pixels.
+cy 
+[in] Specifies the new height of the window, in pixels. 
 
-uFlags
+uFlags 
 [in] Specifies the window sizing and positioning flags.
 
   
-```  
 ***  
 
 

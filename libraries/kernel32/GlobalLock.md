@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : GlobalLock
+## Function name : GlobalLock
 Group: Memory Management - Library: kernel32    
 ***  
 
@@ -34,10 +32,8 @@ DECLARE INTEGER GlobalLock IN kernel32;
 
 
 ## Parameters:
-```txt  
-hMem
+hMem 
 [in] Handle to the global memory object. This handle is returned by either the GlobalAlloc or GlobalReAlloc function.  
-```  
 ***  
 
 

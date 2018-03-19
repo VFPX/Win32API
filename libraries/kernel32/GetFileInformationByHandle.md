@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : GetFileInformationByHandle
+## Function name : GetFileInformationByHandle
 Group: File Management - Library: kernel32    
 ***  
 
@@ -34,13 +32,11 @@ DECLARE INTEGER GetFileInformationByHandle IN kernel32;
 
 
 ## Parameters:
-```txt  
-hFile
-[in] Handle to the file for which to obtain information.
+hFile 
+[in] Handle to the file for which to obtain information. 
 
-lpFileInformation
-[out] Pointer to a BY_HANDLE_FILE_INFORMATION structure that receives the file information.  
-```  
+lpFileInformation 
+[out] Pointer to a BY_HANDLE_FILE_INFORMATION structure that receives the file information.   
 ***  
 
 

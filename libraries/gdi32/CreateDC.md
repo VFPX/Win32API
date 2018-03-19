@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : CreateDC
+## Function name : CreateDC
 Group: Device Context - Library: gdi32    
 ***  
 
@@ -39,19 +37,17 @@ DECLARE INTEGER CreateDC IN gdi32;
 
 
 ## Parameters:
-```txt  
 lpszDriver
 For various Windows this parameter can be NULL, or can contain a null-terminated string.
 
-lpszDevice
+lpszDevice 
 [in] Pointer to a null-terminated character string that specifies the name of the specific output device being used.
 
-lpszOutput
-This parameter is ignored for Win32-based applications, and should be set to NULL.
+lpszOutput 
+This parameter is ignored for Win32-based applications, and should be set to NULL. 
 
-lpInitData
+lpInitData 
 [in] Pointer to a DEVMODE structure containing device-specific initialization data for the device driver.  
-```  
 ***  
 
 

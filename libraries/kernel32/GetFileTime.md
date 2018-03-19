@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : GetFileTime
+## Function name : GetFileTime
 Group: Time - Library: kernel32    
 ***  
 
@@ -38,19 +36,17 @@ DECLARE GetFileTime IN kernel32;
 
 
 ## Parameters:
-```txt  
-hFile
-[in] Handle to the files for which to get dates and times.
+hFile 
+[in] Handle to the files for which to get dates and times. 
 
-lpCreationTime
-[out] Pointer to a FILETIME structure to receive the date and time the file was created.
+lpCreationTime 
+[out] Pointer to a FILETIME structure to receive the date and time the file was created. 
 
-lpLastAccessTime
-[out] Pointer to a FILETIME structure to receive the date and time the file was last accessed.
+lpLastAccessTime 
+[out] Pointer to a FILETIME structure to receive the date and time the file was last accessed. 
 
-lpLastWriteTime
-[out] Pointer to a FILETIME structure to receive the date and time the file was last written to.  
-```  
+lpLastWriteTime 
+[out] Pointer to a FILETIME structure to receive the date and time the file was last written to.   
 ***  
 
 

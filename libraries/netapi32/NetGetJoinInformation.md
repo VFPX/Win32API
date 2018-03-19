@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : NetGetJoinInformation
+## Function name : NetGetJoinInformation
 Group: Windows Networking - Library: netapi32    
 ***  
 
@@ -35,16 +33,14 @@ DECLARE INTEGER NetGetJoinInformation IN netapi32;
 
 
 ## Parameters:
-```txt  
-lpServer
+lpServer 
 [in] Pointer to a constant string that specifies the DNS or NetBIOS name of the computer on which to call the function. If this parameter is NULL, the local computer is used.
 
-lpNameBuffer
+lpNameBuffer 
 [out] Pointer to the buffer that receives the NetBIOS name of the domain or workgroup to which the computer is joined.
 
-BufferType
+BufferType 
 [out] Receives the join status of the specified computer: <Em>unknown, unjoined, workgroup, domain</Em>  
-```  
 ***  
 
 

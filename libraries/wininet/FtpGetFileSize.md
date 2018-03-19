@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : FtpGetFileSize
+## Function name : FtpGetFileSize
 Group: Internet Functions (WinInet) - Library: wininet    
 ***  
 
@@ -34,13 +32,11 @@ DECLARE INTEGER FtpGetFileSize IN wininet;
 
 
 ## Parameters:
-```txt  
 hFile
 [in] HINTERNET handle returned from a call to FtpOpenFile.
 
 lpdwFileSizeHigh
 [out] Pointer to the high-order unsigned long integer of the file size of the requested FTP resource.  
-```  
 ***  
 
 

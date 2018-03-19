@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : GetRegionData
+## Function name : GetRegionData
 Group: Region - Library: gdi32    
 ***  
 
@@ -35,16 +33,14 @@ DECLARE INTEGER GetRegionData IN gdi32;
 
 
 ## Parameters:
-```txt  
-hRgn
-[in] Handle to the region.
+hRgn 
+[in] Handle to the region. 
 
-dwCount
-[in] Specifies the size, in bytes, of the lpRgnData buffer.
+dwCount 
+[in] Specifies the size, in bytes, of the lpRgnData buffer. 
 
-lpRgnData
+lpRgnData 
 [out] Pointer to a RGNDATA structure that receives the information.  
-```  
 ***  
 
 

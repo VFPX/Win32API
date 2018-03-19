@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : AssocQueryString
+## Function name : AssocQueryString
 Group: Shell Functions - Library: shlwapi    
 ***  
 
@@ -41,7 +39,6 @@ DECLARE INTEGER AssocQueryString IN Shlwapi;
 
 
 ## Parameters:
-```txt  
 flags [in]
 A combination of ASSOCF values that can be used to control the search.
 
@@ -59,7 +56,6 @@ Pointer to a null-terminated string that, when this function returns successfull
 
 pcchOut [in, out]
 A pointer to a value that, when calling the function, is set to the number of characters in the pszOut buffer.  
-```  
 ***  
 
 

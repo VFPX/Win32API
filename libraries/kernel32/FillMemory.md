@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : FillMemory
+## Function name : FillMemory
 Group: Memory Management - Library: kernel32    
 ***  
 
@@ -36,16 +34,14 @@ DECLARE RtlFillMemory IN kernel32 AS FillMemory;
 
 
 ## Parameters:
-```txt  
-Destination
-[out] Pointer to the starting address of the block of memory to fill.
+Destination 
+[out] Pointer to the starting address of the block of memory to fill. 
 
-Length
-[in] Specifies the size, in bytes, of the block of memory to fill.
+Length 
+[in] Specifies the size, in bytes, of the block of memory to fill. 
 
-Fill
-[in] Specifies the byte value with which to fill the memory block.  
-```  
+Fill 
+[in] Specifies the byte value with which to fill the memory block.   
 ***  
 
 

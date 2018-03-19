@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : GetParent
+## Function name : GetParent
 Group: Window - Library: user32    
 ***  
 
@@ -33,10 +31,8 @@ DECLARE INTEGER GetParent IN user32;
 
 
 ## Parameters:
-```txt  
-hWnd
-[in] Handle to the window whose parent window handle is to be retrieved.  
-```  
+hWnd 
+[in] Handle to the window whose parent window handle is to be retrieved.   
 ***  
 
 

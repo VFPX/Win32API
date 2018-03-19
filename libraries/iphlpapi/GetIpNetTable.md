@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : GetIpNetTable
+## Function name : GetIpNetTable
 Group: IP Helper - Library: iphlpapi    
 ***  
 
@@ -35,15 +33,13 @@ DECLARE INTEGER GetIpNetTable IN iphlpapi;
 
 
 ## Parameters:
-```txt  
-pIpNetTable
-[out] Pointer to a buffer that receives the IP-to-physical address mapping table as a MIB_IPNETTABLE structure.
+pIpNetTable 
+[out] Pointer to a buffer that receives the IP-to-physical address mapping table as a MIB_IPNETTABLE structure. 
 
-pdwSize
-[in, out] On input, specifies the size of the buffer pointed to by the pIpNetTable parameter.
-bOrder
-[in] Specifies whether the returned mapping table should be sorted in ascending order by IP address.  
-```  
+pdwSize 
+[in, out] On input, specifies the size of the buffer pointed to by the pIpNetTable parameter. 
+bOrder 
+[in] Specifies whether the returned mapping table should be sorted in ascending order by IP address.   
 ***  
 
 

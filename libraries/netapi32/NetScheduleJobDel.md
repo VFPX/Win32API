@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : NetScheduleJobDel
+## Function name : NetScheduleJobDel
 Group: Network Management - Library: netapi32    
 ***  
 
@@ -37,16 +35,14 @@ DECLARE SHORT NetScheduleJobDel IN netapi32;
 
 
 ## Parameters:
-```txt  
-Servername
-[in] Pointer to a constant string that specifies the DNS or NetBIOS name of the remote server on which the function is to execute.
+Servername 
+[in] Pointer to a constant string that specifies the DNS or NetBIOS name of the remote server on which the function is to execute. 
 
-MinJobId
-[in] Specifies a minimum job identifier. Jobs with a job identifier smaller than MinJobId will not be deleted.
+MinJobId 
+[in] Specifies a minimum job identifier. Jobs with a job identifier smaller than MinJobId will not be deleted. 
 
-MaxJobId
-[in] Specifies a maximum job identifier. Jobs with a job identifier larger than MaxJobId will not be deleted.  
-```  
+MaxJobId 
+[in] Specifies a maximum job identifier. Jobs with a job identifier larger than MaxJobId will not be deleted.   
 ***  
 
 

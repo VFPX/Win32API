@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : GetComputerName
+## Function name : GetComputerName
 Group: System Information - Library: kernel32    
 ***  
 
@@ -34,13 +32,11 @@ DECLARE INTEGER GetComputerName IN kernel32;
 
 
 ## Parameters:
-```txt  
 lpBuffer
-Points to a buffer to receive the null-terminated character string containing the computer name.
+Points to a buffer to receive the null-terminated character string containing the computer name. 
 
 nSize
 Points to a variable that specifies the maximum size, in characters, of the buffer. This value should be large enough to contain MAX_COMPUTERNAME_LENGTH + 1 characters.  
-```  
 ***  
 
 

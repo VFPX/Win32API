@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : GetUdpTable
+## Function name : GetUdpTable
 Group: IP Helper - Library: iphlpapi    
 ***  
 
@@ -35,16 +33,14 @@ DECLARE INTEGER GetUdpTable IN iphlpapi;
 
 
 ## Parameters:
-```txt  
-pUdpTable
-[out] Pointer to a buffer that receives the UDP listener table as a MIB_UDPTABLE structure.
+pUdpTable 
+[out] Pointer to a buffer that receives the UDP listener table as a MIB_UDPTABLE structure. 
 
-pdwSize
-[in, out] Specifies the size of the buffer pointed to by the pUdpTable parameter.
+pdwSize 
+[in, out] Specifies the size of the buffer pointed to by the pUdpTable parameter. 
 
-bOrder
-[in] Specifies whether the returned table should be sorted.  
-```  
+bOrder 
+[in] Specifies whether the returned table should be sorted.   
 ***  
 
 

@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : CeRegEnumKeyEx
+## Function name : CeRegEnumKeyEx
 Group: Remote Application Programming (RAPI) - Library: rapi    
 ***  
 
@@ -45,32 +43,30 @@ DECLARE INTEGER CeRegEnumKeyEx IN rapi;
 
 
 ## Parameters:
-```txt  
-hKey
+hKey 
 [in] Handle to a currently open key or a predefined reserved handle value
 
-dwIndex
+dwIndex 
 [in] Specifies the index of the subkey to retrieve. This parameter should be 0 for the first call to the CeRegEnumKeyEx function and then incremented for subsequent calls.
 
-lpName
-[out] Pointer to a buffer that receives the name of the subkey, including the terminating null character.
+lpName 
+[out] Pointer to a buffer that receives the name of the subkey, including the terminating null character. 
 
-lpcbName
-[in, out] Pointer to a variable that specifies the size, in characters, of the buffer specified by the lpName parameter.
+lpcbName 
+[in, out] Pointer to a variable that specifies the size, in characters, of the buffer specified by the lpName parameter. 
 
-lpReserved
-[in] Reserved; set to NULL.
+lpReserved 
+[in] Reserved; set to NULL. 
 
-lpClass
+lpClass 
 [out] Pointer to a buffer that contains the class of the enumerated subkey when the function returns.
 
-lpcbClass
+lpcbClass 
 [in, out] Pointer to a variable that specifies the size, in characters, of the buffer specified by the lpClass parameter.
 
-lpftLastWriteTime
-[in] Ignored; set to NULL.
+lpftLastWriteTime 
+[in] Ignored; set to NULL. 
   
-```  
 ***  
 
 

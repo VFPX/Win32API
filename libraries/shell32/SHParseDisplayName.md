@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : SHParseDisplayName
+## Function name : SHParseDisplayName
 Group: Shell Functions - Library: shell32    
 ***  
 
@@ -40,7 +38,6 @@ DECLARE INTEGER SHParseDisplayName IN shell32;
 
 
 ## Parameters:
-```txt  
 pszName
 [in] Pointer to a zero-terminated wide string that contains the display name to parse.
 
@@ -51,11 +48,10 @@ ppidl
 [out] Address of a pointer to a variable of type ITEMIDLIST that receives the item identifier list for the object.
 
 sfgaoIn
-[in] A ULONG value that specifies the attributes to query.
+[in] A ULONG value that specifies the attributes to query. 
 
 psfgaoOut
 [out] Pointer to a ULONG. On return, those attributes that are true for the object and were requested in sfgaoIn are set.  
-```  
 ***  
 
 

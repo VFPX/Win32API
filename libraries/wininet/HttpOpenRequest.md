@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : HttpOpenRequest
+## Function name : HttpOpenRequest
 Group: Internet Functions (WinInet) - Library: wininet    
 ***  
 
@@ -45,31 +43,29 @@ DECLARE INTEGER HttpOpenRequest IN wininet;
 
 
 ## Parameters:
-```txt  
-hConnect
-[in] Handle to an HTTP session returned by InternetConnect.
+hConnect 
+[in] Handle to an HTTP session returned by InternetConnect. 
 
-lpszVerb
-[in] Long pointer to a null-terminated string that contains the verb to use in the request.
+lpszVerb 
+[in] Long pointer to a null-terminated string that contains the verb to use in the request. 
 
-lpszObjectName
+lpszObjectName 
 [in] Long pointer to a null-terminated string that contains the name of the target object of the specified verb: GET, POST
 
-lpszVersion
-[in] Long pointer to a null-terminated string that contains the HTTP version.
+lpszVersion 
+[in] Long pointer to a null-terminated string that contains the HTTP version. 
 
-lpszReferrer
-[in] Long pointer to a null-terminated string that specifies the address (URL) of the document from which the URL in the request (lpszObjectName) was obtained.
+lpszReferrer 
+[in] Long pointer to a null-terminated string that specifies the address (URL) of the document from which the URL in the request (lpszObjectName) was obtained. 
 
-lplpszAcceptTypes
-[in] Long pointer to a null-terminated array of string pointers indicating content types accepted by the client.
+lplpszAcceptTypes 
+[in] Long pointer to a null-terminated array of string pointers indicating content types accepted by the client. 
 
-dwFlags
-[in] Specifies a bitmask of Internet flags.
+dwFlags 
+[in] Specifies a bitmask of Internet flags. 
 
-dwContext
-[in] Specifies the application-defined value that associates this operation with any application data.  
-```  
+dwContext 
+[in] Specifies the application-defined value that associates this operation with any application data.   
 ***  
 
 

@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : DnsValidateName
+## Function name : DnsValidateName
 Group: DNS Functions - Library: dnsapi    
 ***  
 
@@ -31,13 +29,11 @@ AS DnsValidateName;
 
 
 ## Parameters:
-```txt  
 pszName [in]
 A pointer to a string that represents the DNS name to be examined.
 
 Format [in]
 A DNS_NAME_FORMAT value that specifies the format of the name to be examined.  
-```  
 ***  
 
 

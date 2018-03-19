@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : GetNearestColor
+## Function name : GetNearestColor
 Group: Color - Library: gdi32    
 ***  
 
@@ -33,13 +31,11 @@ DECLARE INTEGER GetNearestColor IN "gdi32";
 
 
 ## Parameters:
-```txt  
 hdc
-Identifies the device context.
+Identifies the device context. 
 
 crColor
 Specifies a color value that identifies a requested color  
-```  
 ***  
 
 

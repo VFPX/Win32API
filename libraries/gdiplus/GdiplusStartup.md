@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : GdiplusStartup
+## Function name : GdiplusStartup
 Group: GDI+ - Library: gdiplus    
 ***  
 
@@ -35,16 +33,14 @@ DECLARE INTEGER GdiplusStartup IN gdiplus;
 
 
 ## Parameters:
-```txt  
 token
-[out] Pointer to a ULONG_PTR that receives a token. Pass the token to GdiplusShutdown when you have finished using GDI+.
+[out] Pointer to a ULONG_PTR that receives a token. Pass the token to GdiplusShutdown when you have finished using GDI+. 
 
 input
 [in] Pointer to a GdiplusStartupInput structure.
 
 output
 [out] Pointer to a GdiplusStartupOutput structure.  
-```  
 ***  
 
 

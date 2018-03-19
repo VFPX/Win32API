@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : VkKeyScan
+## Function name : VkKeyScan
 Group: Keyboard Input - Library: user32    
 ***  
 
@@ -31,10 +29,8 @@ DECLARE SHORT VkKeyScan IN user32;
 
 
 ## Parameters:
-```txt  
 ch
 [in] Specifies the character to be translated into a virtual-key code.  
-```  
 ***  
 
 

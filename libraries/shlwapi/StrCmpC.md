@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : StrCmpC
+## Function name : StrCmpC
 Group: String - Library: shlwapi    
 ***  
 
@@ -30,7 +28,6 @@ DECLARE INTEGER StrCmpC IN Shlwapi;
 
 
 ## Parameters:
-```txt  
 lpStr1 [out]
 LPCTSTR
 A pointer to the first null-terminated string to be compared.
@@ -38,7 +35,6 @@ A pointer to the first null-terminated string to be compared.
 lpStr2 [out]
 LPCTSTR
 A pointer to the second null-terminated string to be compared.  
-```  
 ***  
 
 

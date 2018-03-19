@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : DeviceCapabilities
+## Function name : DeviceCapabilities
 Group: Printing and Print Spooler - Library: winspool.drv    
 ***  
 
@@ -39,21 +37,19 @@ DECLARE INTEGER DeviceCapabilities IN winspool.drv;
 
 
 ## Parameters:
-```txt  
-pDevice
-[in] Pointer to a null-terminated string that contains the name of the printer. Note that this is the name of the printer, not of the printer driver.
+pDevice 
+[in] Pointer to a null-terminated string that contains the name of the printer. Note that this is the name of the printer, not of the printer driver. 
 
-pPort
-[in] Pointer to a null-terminated string that contains the name of the port to which the device is connected, such as LPT1.
+pPort 
+[in] Pointer to a null-terminated string that contains the name of the port to which the device is connected, such as LPT1. 
 
-fwCapability
-[in] Specifies the capabilities to query. This parameter can be one of the predefined values.
-pOutput
+fwCapability 
+[in] Specifies the capabilities to query. This parameter can be one of the predefined values. 
+pOutput 
 [out] Pointer to an array. The format of the array depends on the setting of the fwCapability parameter.
 
-pDevMode
+pDevMode 
 [in] Pointer to a DEVMODE structure.  
-```  
 ***  
 
 

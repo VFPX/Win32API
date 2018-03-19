@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : InternetOpenUrl
+## Function name : InternetOpenUrl
 Group: Internet Functions (WinInet) - Library: wininet    
 ***  
 
@@ -43,25 +41,23 @@ DECLARE INTEGER InternetOpenUrl IN wininet;
 
 
 ## Parameters:
-```txt  
 hInternet
 [in] HINTERNET handle to the current Internet session. The handle must have been returned by a previous call to InternetOpen.
 
 lpszUrl
-[in] Pointer to a string variable that contains the URL to begin reading.
+[in] Pointer to a string variable that contains the URL to begin reading. 
 
 lpszHeaders
-[in] Pointer to a string variable that contains the headers to be sent to the HTTP server.
+[in] Pointer to a string variable that contains the headers to be sent to the HTTP server. 
 
 dwHeadersLength
-[in] Unsigned long integer value that contains the length, in TCHARs, of the additional headers.
+[in] Unsigned long integer value that contains the length, in TCHARs, of the additional headers. 
 
 dwFlags
-[in] Unsigned long integer value that contains the API flags.
+[in] Unsigned long integer value that contains the API flags. 
 
 dwContext
 [in] Pointer to an unsigned long integer value that contains the application-defined value.  
-```  
 ***  
 
 

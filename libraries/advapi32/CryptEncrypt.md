@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : CryptEncrypt
+## Function name : CryptEncrypt
 Group: Cryptography Reference - Library: advapi32    
 ***  
 
@@ -45,28 +43,26 @@ DECLARE INTEGER CryptEncrypt IN advapi32;
 
 
 ## Parameters:
-```txt  
-hKey
+hKey 
 [in] The handle to the encryption key. An application obtains this handle by using either the CryptGenKey or the CryptImportKey function.
 
-hHash
+hHash 
 [in] The handle to a hash object.
 
-Final
+Final 
 [in] A Boolean value that specifies whether this is the last section in a series being encrypted.
 
 dwFlags
 [in] Predefined value, can be zero.
 
-pbData
+pbData 
 [in, out] A pointer to a buffer that contains the plaintext to be encrypted. The plaintext in this buffer is overwritten with the ciphertext created by this function.
 
-pdwDataLen
+pdwDataLen 
 [in, out] A pointer to a DWORD value that , on entry, contains the length, in bytes, of the plaintext in the pbData buffer. On exit, this DWORD contains the length, in bytes, of the ciphertext written to the pbData buffer.
 
-dwBufLen
+dwBufLen 
 [in] Specifies the total size, in bytes, of the input pbData buffer.  
-```  
 ***  
 
 

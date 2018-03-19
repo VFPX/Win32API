@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : WinHttpAddRequestHeaders
+## Function name : WinHttpAddRequestHeaders
 Group: HTTP Functions (WinHTTP) - Library: winhttp    
 ***  
 
@@ -38,19 +36,17 @@ DECLARE INTEGER WinHttpAddRequestHeaders IN winhttp;
 
 
 ## Parameters:
-```txt  
-hRequest
+hRequest 
 [in] HINTERNET handle returned by a call to the WinHttpOpenRequest function.
 
-pwszHeaders
+pwszHeaders 
 [in] Pointer to a string variable that contains the headers to append to the request.
 
-dwHeadersLength
+dwHeadersLength 
 [in] Unsigned long integer value that contains the length, in bytes, of pwszHeaders.
 
-dwModifiers
+dwModifiers 
 [in] Unsigned long integer value that contains the flags used to modify the semantics of this function.  
-```  
 ***  
 
 

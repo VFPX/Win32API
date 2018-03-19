@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : waveOutOpen
+## Function name : waveOutOpen
 Group: Windows Multimedia - Library: winmm    
 ***  
 
@@ -43,25 +41,23 @@ DECLARE INTEGER waveOutOpen IN winmm;
 
 
 ## Parameters:
-```txt  
-phwo
+phwo 
 Pointer to a buffer that receives a handle identifying the open waveform-audio output device.
 
-uDeviceID
+uDeviceID 
 Identifier of the waveform-audio output device to open.
 
-pwfx
+pwfx 
 Pointer to a WAVEFORMATEX structure that identifies the format of the waveform-audio data to be sent to the device.
 
-dwCallback
+dwCallback 
 Pointer to a fixed callback function, an event handle, a handle to a window, or the identifier of a thread to be called during waveform-audio playback to process messages related to the progress of the playback.
 
-dwCallbackInstance
-User-instance data passed to the callback mechanism. This parameter is not used with the window callback mechanism.
+dwCallbackInstance 
+User-instance data passed to the callback mechanism. This parameter is not used with the window callback mechanism. 
 
-fdwOpen
+fdwOpen 
 Flags for opening the device. The following values are defined.  
-```  
 ***  
 
 

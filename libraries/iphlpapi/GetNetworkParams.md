@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : GetNetworkParams
+## Function name : GetNetworkParams
 Group: IP Helper - Library: iphlpapi    
 ***  
 
@@ -33,13 +31,11 @@ DECLARE INTEGER GetNetworkParams IN iphlpapi;
 
 
 ## Parameters:
-```txt  
-pFixedInfo
-[out] Pointer to a FIXED_INFO structure that receives the network parameters for the local computer.
+pFixedInfo 
+[out] Pointer to a FIXED_INFO structure that receives the network parameters for the local computer. 
 
-pOutBufLen
-[in] Pointer to a ULONG variable that specifies the size of the FIXED_INFO structure.  
-```  
+pOutBufLen 
+[in] Pointer to a ULONG variable that specifies the size of the FIXED_INFO structure.   
 ***  
 
 

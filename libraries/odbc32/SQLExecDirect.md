@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : SQLExecDirect
+## Function name : SQLExecDirect
 Group: ODBC API - Library: odbc32    
 ***  
 
@@ -35,19 +33,17 @@ DECLARE SHORT SQLExecDirect IN odbc32;
 
 
 ## Parameters:
-```txt  
-StatementHandle
+StatementHandle 
 [Input]
-Statement handle.
+Statement handle. 
 
-StatementText
+StatementText 
 [Input]
-SQL statement to be executed.
+SQL statement to be executed. 
 
-TextLength
+TextLength 
 [Input]
 Length of *StatementText.  
-```  
 ***  
 
 

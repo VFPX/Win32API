@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : capGetDriverDescription
+## Function name : capGetDriverDescription
 Group: Windows Multimedia - Library: avicap32    
 ***  
 
@@ -41,7 +39,6 @@ DECLARE INTEGER capGetDriverDescription IN avicap32;
 
 
 ## Parameters:
-```txt  
 wDriverIndex
 Index of the capture driver. The index can range from 0 through 9.
 
@@ -57,7 +54,6 @@ Pointer to a buffer containing a null-terminated string corresponding to the des
 cbVer
 Length, in bytes, of the buffer pointed to by lpszVer.
   
-```  
 ***  
 
 

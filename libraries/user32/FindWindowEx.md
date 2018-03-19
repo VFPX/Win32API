@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : FindWindowEx
+## Function name : FindWindowEx
 Group: Window - Library: user32    
 ***  
 
@@ -39,20 +37,18 @@ DECLARE INTEGER FindWindowEx IN user32;
 
 
 ## Parameters:
-```txt  
 hwndParent
-[in] Handle to the parent window whose child windows are to be searched.
+[in] Handle to the parent window whose child windows are to be searched. 
 
 hwndChildAfter
 [in] Handle to a child window. The search begins with the next child window in the Z order.
 
 lpszClass
-[in]
+[in] 
 Pointer to a null-terminated string that specifies the class name or a class atom created by a previous call to the RegisterClass or RegisterClassEx function.
 
 lpszWindow
 [in] Pointer to a null-terminated string that specifies the window name (the window"s title). If this parameter is NULL, all window names match.  
-```  
 ***  
 
 

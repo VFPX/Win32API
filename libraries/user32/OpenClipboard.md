@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : OpenClipboard
+## Function name : OpenClipboard
 Group: Clipboard - Library: user32    
 ***  
 
@@ -43,10 +41,8 @@ DECLARE INTEGER OpenClipboard IN user32;
 
 
 ## Parameters:
-```txt  
-hWndNewOwner
-[in] Handle to the window to be associated with the open clipboard. If this parameter is NULL, the open clipboard is associated with the current task.  
-```  
+hWndNewOwner 
+[in] Handle to the window to be associated with the open clipboard. If this parameter is NULL, the open clipboard is associated with the current task.   
 ***  
 
 

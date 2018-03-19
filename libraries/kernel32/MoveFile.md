@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : MoveFile
+## Function name : MoveFile
 Group: File Management - Library: kernel32    
 ***  
 
@@ -36,14 +34,12 @@ DECLARE INTEGER MoveFile IN kernel32;
 
 
 ## Parameters:
-```txt  
-lpExistingFileName
+lpExistingFileName 
 [in] Pointer to a null-terminated string that names an existing file or directory
 
-lpNewFileName
+lpNewFileName 
 [in] Pointer to a null-terminated string that specifies the new name of a file or directory
   
-```  
 ***  
 
 

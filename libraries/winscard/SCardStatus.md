@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : SCardStatus
+## Function name : SCardStatus
 Group: Authentication - Library: winscard    
 ***  
 
@@ -41,29 +39,27 @@ DECLARE LONG SCardStatus IN Winscard;
 
 
 ## Parameters:
-```txt  
-hCard [in]
+hCard [in] 
 Reference value returned from SCardConnect.
 
-szReaderName [out]
+szReaderName [out] 
 List of display names (multiple string) by which the currently connected reader is known.
 
-pcchReaderLen [in, out]
-On input, supplies the length of the szReaderName buffer.
+pcchReaderLen [in, out] 
+On input, supplies the length of the szReaderName buffer. 
 
-pdwState [out]
+pdwState [out] 
 Current state of the smart card in the reader.
 
-pdwProtocol [out]
-Current protocol, if any.
+pdwProtocol [out] 
+Current protocol, if any. 
 
-pbAtr [out]
+pbAtr [out] 
 Pointer to a 32-byte buffer that receives the ATR string from the currently inserted card, if available.
 
-pcbAtrLen [in, out]
+pcbAtrLen [in, out] 
 On input, supplies the length of the pbAtr buffer. On output, receives the number of bytes in the ATR string (32 bytes maximum).
   
-```  
 ***  
 
 

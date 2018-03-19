@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : GetFileAttributes
+## Function name : GetFileAttributes
 Group: File Management - Library: kernel32    
 ***  
 
@@ -32,10 +30,8 @@ DECLARE INTEGER GetFileAttributes IN kernel32;
 
 
 ## Parameters:
-```txt  
-lpFileName
+lpFileName 
 [in] Pointer to a null-terminated string that specifies the name of a file or directory.  
-```  
 ***  
 
 

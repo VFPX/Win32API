@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : GdipGetMatrixElements
+## Function name : GdipGetMatrixElements
 Group: GDI+ Matrix - Library: gdiplus    
 ***  
 
@@ -35,13 +33,11 @@ DECLARE INTEGER GdipGetMatrixElements IN gdiplus;
 
 
 ## Parameters:
-```txt  
 matrix
 [in] Handle to a Matrix object.
 
 matrixOut
-[out] Pointer to an array that receives the matrix elements. The size of the array should be 6 ×sizeof( REAL).  
-```  
+[out] Pointer to an array that receives the matrix elements. The size of the array should be 6 ×sizeof( REAL).   
 ***  
 
 

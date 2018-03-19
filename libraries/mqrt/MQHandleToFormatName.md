@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : MQHandleToFormatName
+## Function name : MQHandleToFormatName
 Group: Message and Message Queue - Library: mqrt    
 ***  
 
@@ -32,7 +30,6 @@ DECLARE INTEGER MQHandleToFormatName IN mqrt;
 
 
 ## Parameters:
-```txt  
 hQueue
 [in] Handle to the queue or subqueue.
 
@@ -41,7 +38,6 @@ lpwcsFormatName
 
 lpdwCount
 [in, out] On input, specifies the length of the lpwcsFormatName buffer (in Unicode characters).  
-```  
 ***  
 
 

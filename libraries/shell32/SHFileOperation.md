@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : SHFileOperation
+## Function name : SHFileOperation
 Group: Shell Functions - Library: shell32    
 ***  
 
@@ -33,10 +31,8 @@ DECLARE INTEGER SHFileOperation IN Shell32;
 
 
 ## Parameters:
-```txt  
 lpFileOp
 [in] Address of an <a href="http://msdn.microsoft.com/library/default.asp?url=/library/en-us/shellcc/platform/shell/reference/structures/shfileopstruct.asp">SHFILEOPSTRUCT</a> structure that contains information this function needs to carry out the specified operation.  
-```  
 ***  
 
 

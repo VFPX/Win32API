@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : bind
+## Function name : bind
 Group: Windows Sockets 2 (Winsock) - Library: ws2_32    
 ***  
 
@@ -37,16 +35,14 @@ DECLARE INTEGER bind IN ws2_32 As ws_bind;
 
 
 ## Parameters:
-```txt  
-s
-[in] Descriptor identifying an unbound socket.
+s 
+[in] Descriptor identifying an unbound socket. 
 
-name
-[in] Address to assign to the socket from the sockaddr structure.
+name 
+[in] Address to assign to the socket from the sockaddr structure. 
 
-namelen
-[in] Length of the value in the name parameter, in bytes.  
-```  
+namelen 
+[in] Length of the value in the name parameter, in bytes.   
 ***  
 
 

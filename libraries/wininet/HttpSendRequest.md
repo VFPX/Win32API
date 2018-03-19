@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : HttpSendRequest
+## Function name : HttpSendRequest
 Group: Internet Functions (WinInet) - Library: wininet    
 ***  
 
@@ -40,22 +38,20 @@ DECLARE INTEGER HttpSendRequest IN wininet;
 
 
 ## Parameters:
-```txt  
-hRequest
-[in] Open HTTP request handle returned by HttpOpenRequest.
+hRequest 
+[in] Open HTTP request handle returned by HttpOpenRequest. 
 
-lpszHeaders
-[in] Long pointer to null-terminated strings that contain additional headers to be appended to the request. This parameter can be NULL if there are no additional headers to append.
+lpszHeaders 
+[in] Long pointer to null-terminated strings that contain additional headers to be appended to the request. This parameter can be NULL if there are no additional headers to append. 
 
-dwHeadersLength
-[in] Specifies the length, in characters, of the additional headers.
+dwHeadersLength 
+[in] Specifies the length, in characters, of the additional headers. 
 
-lpOptional
-[in] Long pointer to any optional data to send immediately after the request headers.
+lpOptional 
+[in] Long pointer to any optional data to send immediately after the request headers. 
 
-dwOptionalLength
-[in] Specifies the length, in bytes, of the optional data.  
-```  
+dwOptionalLength 
+[in] Specifies the length, in bytes, of the optional data.   
 ***  
 
 

@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : WSAEventSelect
+## Function name : WSAEventSelect
 Group: Windows Sockets 2 (Winsock) - Library: ws2_32    
 ***  
 
@@ -40,16 +38,14 @@ DECLARE INTEGER WSAEventSelect IN ws2_32;
 
 
 ## Parameters:
-```txt  
-s
-[in] Descriptor identifying the socket.
+s 
+[in] Descriptor identifying the socket. 
 
-hEventObject
-[in] Handle identifying the event object to be associated with the specified set of FD_XXX network events.
+hEventObject 
+[in] Handle identifying the event object to be associated with the specified set of FD_XXX network events. 
 
-lNetworkEvents
+lNetworkEvents 
 [in] Bitmask that specifies the combination of FD_XXX network events in which the application has interest.  
-```  
 ***  
 
 

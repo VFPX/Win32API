@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : DeleteFile
+## Function name : DeleteFile
 Group: File Management - Library: kernel32    
 ***  
 
@@ -33,10 +31,8 @@ DECLARE INTEGER DeleteFile IN kernel32;
 
 
 ## Parameters:
-```txt  
-lpFileName
+lpFileName 
 [in] Pointer to a null-terminated string that specifies the file to be deleted  
-```  
 ***  
 
 

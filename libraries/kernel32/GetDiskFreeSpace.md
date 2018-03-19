@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : GetDiskFreeSpace
+## Function name : GetDiskFreeSpace
 Group: File System - Library: kernel32    
 ***  
 
@@ -42,19 +40,17 @@ DECLARE SHORT GetDiskFreeSpace IN kernel32;
 
 
 ## Parameters:
-```txt  
-lpRootPathName
-[in] Pointer to a null-terminated string that specifies the root directory of the disk to return information about.
+lpRootPathName 
+[in] Pointer to a null-terminated string that specifies the root directory of the disk to return information about. 
 
-lpSectorsPerCluster
-[out] Pointer to a variable for the number of sectors per cluster.
+lpSectorsPerCluster 
+[out] Pointer to a variable for the number of sectors per cluster. 
 
-lpBytesPerSector
-[out] Pointer to a variable for the number of bytes per sector.
+lpBytesPerSector 
+[out] Pointer to a variable for the number of bytes per sector. 
 
-lpNumberOfFreeClusters
+lpNumberOfFreeClusters 
 [out] Pointer to a variable for the total number of free clusters on the disk that are available to the user associated with the calling thread.  
-```  
 ***  
 
 

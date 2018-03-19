@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : IsWow64Process
+## Function name : IsWow64Process
 Group: Process and Thread - Library: kernel32    
 ***  
 
@@ -34,13 +32,11 @@ DECLARE INTEGER IsWow64Process IN kernel32;
 
 
 ## Parameters:
-```txt  
 hProcess [in]
 A handle to the process. The handle must have the PROCESS_QUERY_INFORMATION or PROCESS_QUERY_LIMITED_INFORMATION access right.
 
 Wow64Process [out]
 A pointer to a value that is set to TRUE if the process is running under WOW64.  
-```  
 ***  
 
 

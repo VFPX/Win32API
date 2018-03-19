@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : StartService
+## Function name : StartService
 Group: Service - Library: advapi32    
 ***  
 
@@ -37,16 +35,14 @@ DECLARE INTEGER StartService IN advapi32;
 
 
 ## Parameters:
-```txt  
-hService
+hService 
 [in] Handle to the service. This handle is returned by the OpenService or CreateService function, and it must have the SERVICE_START access right.
 
-dwNumServiceArgs
+dwNumServiceArgs 
 [in] Number of strings in the lpServiceArgVectors array. If lpServiceArgVectors is NULL, this parameter can be zero.
 
-lpServiceArgVectors
-[in] Pointer to an array of pointers to null-terminated strings to be passed to a service as arguments.  
-```  
+lpServiceArgVectors 
+[in] Pointer to an array of pointers to null-terminated strings to be passed to a service as arguments.   
 ***  
 
 

@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : FindMediaType
+## Function name : FindMediaType
 Group: URL Monikers - Library: urlmon    
 ***  
 
@@ -33,13 +31,11 @@ DECLARE INTEGER FindMediaType IN urlmon;
 
 
 ## Parameters:
-```txt  
 rgszTypes
-Address of a string value that identifies the media type.
+Address of a string value that identifies the media type. 
 
 rgcfTypes
-Address of the CLIPFORMAT value assigned to the specified media type.  
-```  
+Address of the CLIPFORMAT value assigned to the specified media type.   
 ***  
 
 

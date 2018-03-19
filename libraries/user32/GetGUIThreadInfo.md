@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : GetGUIThreadInfo
+## Function name : GetGUIThreadInfo
 Group: Window - Library: user32    
 ***  
 
@@ -33,14 +31,12 @@ DECLARE INTEGER GetGUIThreadInfo IN user32;
 
 
 ## Parameters:
-```txt  
 idThread
 [in] Identifies the thread for which information is to be retrieved.
 
 lpgui
 [out] Pointer to a GUITHREADINFO structure that receives information describing the thread.
   
-```  
 ***  
 
 

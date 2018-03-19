@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : PeekMessage
+## Function name : PeekMessage
 Group: Message and Message Queue - Library: user32    
 ***  
 
@@ -37,12 +35,11 @@ DECLARE INTEGER PeekMessage IN user32;
 
 
 ## Parameters:
-```txt  
 lpMsg
 [out] Pointer to an MSG structure that receives message information.
 
 hWnd
-[in] Handle to the window whose messages are to be examined. The window must belong to the current thread.
+[in] Handle to the window whose messages are to be examined. The window must belong to the current thread. 
 
 wMsgFilterMin
 [in] Specifies the value of the first message in the range of messages to be examined.
@@ -54,7 +51,6 @@ wRemoveMsg
 [in] Specifies how messages are handled.
 
   
-```  
 ***  
 
 

@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : CeCreateDatabase
+## Function name : CeCreateDatabase
 Group: Remote Application Programming (RAPI) - Library: rapi    
 ***  
 
@@ -38,19 +36,17 @@ DECLARE INTEGER CeCreateDatabase IN rapi;
 
 
 ## Parameters:
-```txt  
-lpszName
+lpszName 
 [in] Long pointer to a null-terminated string that specifies the name for the new database.
 
-dwDbaseType
-[in] Specifies the type identifier for the database.
+dwDbaseType 
+[in] Specifies the type identifier for the database. 
 
-wNumSortOrder
+wNumSortOrder 
 [in] Number of sort orders active in the database, with four being the maximum number.
 
-rgSortSpecs
+rgSortSpecs 
 [in] Pointer to an array of actual sort order descriptions.  
-```  
 ***  
 
 

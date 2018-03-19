@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : InternetTimeToSystemTime
+## Function name : InternetTimeToSystemTime
 Group: Internet Functions (WinInet) - Library: wininet    
 ***  
 
@@ -36,7 +34,6 @@ DECLARE INTEGER InternetTimeToSystemTime IN wininet;
 
 
 ## Parameters:
-```txt  
 lpszTime
 [in] Pointer to a null-terminated date/time string to convert.
 
@@ -45,7 +42,6 @@ pst
 
 dwReserved
 [in] Reserved. Must be set to 0.  
-```  
 ***  
 
 

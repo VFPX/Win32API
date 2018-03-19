@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : CeMoveFile
+## Function name : CeMoveFile
 Group: Remote Application Programming (RAPI) - Library: rapi    
 ***  
 
@@ -34,13 +32,11 @@ DECLARE INTEGER CeMoveFile IN rapi;
 
 
 ## Parameters:
-```txt  
-lpExistingFileName
-[in] Long pointer to a null-terminated string that names an existing file or directory.
+lpExistingFileName 
+[in] Long pointer to a null-terminated string that names an existing file or directory. 
 
-lpNewFileName
+lpNewFileName 
 [in] Long pointer to a null-terminated string that specifies the new name of a file or directory.  
-```  
 ***  
 
 

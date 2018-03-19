@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : MQPurgeQueue
+## Function name : MQPurgeQueue
 Group: Message and Message Queue - Library: mqrt    
 ***  
 
@@ -28,10 +26,8 @@ DECLARE INTEGER MQPurgeQueue IN mqrt;
 
 
 ## Parameters:
-```txt  
 hQueue
 [in] The handle to the queue to be purged.  
-```  
 ***  
 
 

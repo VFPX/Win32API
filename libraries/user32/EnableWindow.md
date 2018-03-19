@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : EnableWindow
+## Function name : EnableWindow
 Group: Keyboard Input - Library: user32    
 ***  
 
@@ -33,13 +31,11 @@ DECLARE INTEGER EnableWindow IN user32;
 
 
 ## Parameters:
-```txt  
-hWnd
-[in] Handle to the window to be enabled or disabled.
+hWnd 
+[in] Handle to the window to be enabled or disabled. 
 
-bEnable
+bEnable 
 [in] Specifies whether to enable or disable the window. If this parameter is TRUE, the window is enabled. If the parameter is FALSE, the window is disabled.  
-```  
 ***  
 
 

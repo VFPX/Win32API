@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : WNetGetUniversalName
+## Function name : WNetGetUniversalName
 Group: Windows Networking - Library: mpr    
 ***  
 
@@ -37,19 +35,17 @@ DECLARE INTEGER WNetGetUniversalName IN mpr;
 
 
 ## Parameters:
-```txt  
-lpLocalPath
-[in] Pointer to a constant null-terminated string that is a drive-based path for a network resource.
+lpLocalPath 
+[in] Pointer to a constant null-terminated string that is a drive-based path for a network resource. 
 
-dwInfoLevel
-[in] Specifies the type of structure that the function stores in the buffer pointed to by the lpBuffer parameter.
+dwInfoLevel 
+[in] Specifies the type of structure that the function stores in the buffer pointed to by the lpBuffer parameter. 
 
-lpBuffer
-[out] Pointer to a buffer that receives the structure specified by the dwInfoLevel parameter.
+lpBuffer 
+[out] Pointer to a buffer that receives the structure specified by the dwInfoLevel parameter. 
 
-lpBufferSize
-[in/out] Pointer to a variable that specifies the size, in bytes, of the buffer pointed to by the lpBuffer parameter.  
-```  
+lpBufferSize 
+[in/out] Pointer to a variable that specifies the size, in bytes, of the buffer pointed to by the lpBuffer parameter.   
 ***  
 
 

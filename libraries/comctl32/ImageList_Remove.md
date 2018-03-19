@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : ImageList_Remove
+## Function name : ImageList_Remove
 Group: Windows Controls - Library: comctl32    
 ***  
 
@@ -33,13 +31,11 @@ DECLARE INTEGER ImageList_Remove IN comctl32;
 
 
 ## Parameters:
-```txt  
 himl
-Handle to the image list.
+Handle to the image list. 
 
 i
-Index of the image to remove. If this parameter is -1, the function removes all images.  
-```  
+Index of the image to remove. If this parameter is -1, the function removes all images.   
 ***  
 
 

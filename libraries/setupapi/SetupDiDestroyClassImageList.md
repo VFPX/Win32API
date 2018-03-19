@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : SetupDiDestroyClassImageList
+## Function name : SetupDiDestroyClassImageList
 Group: Setup API functions - Library: setupapi    
 ***  
 
@@ -35,10 +33,8 @@ DECLARE INTEGER SetupDiDestroyClassImageList IN setupapi;
 
 
 ## Parameters:
-```txt  
-ClassImageListData
+ClassImageListData 
 A pointer to an SP_CLASSIMAGELIST_DATA structure that contains the class image list to destroy.  
-```  
 ***  
 
 

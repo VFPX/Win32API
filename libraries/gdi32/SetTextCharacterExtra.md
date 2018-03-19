@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : SetTextCharacterExtra
+## Function name : SetTextCharacterExtra
 Group: Font and Text - Library: gdi32    
 ***  
 
@@ -33,13 +31,11 @@ DECLARE INTEGER SetTextCharacterExtra IN gdi32;
 
 
 ## Parameters:
-```txt  
-hdc
-[in] Handle to the device context.
+hdc 
+[in] Handle to the device context. 
 
-nCharExtra
+nCharExtra 
 [in] Specifies the amount of extra space, in logical units, to be added to each character.  
-```  
 ***  
 
 

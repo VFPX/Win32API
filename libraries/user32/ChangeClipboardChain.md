@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : ChangeClipboardChain
+## Function name : ChangeClipboardChain
 Group: Clipboard - Library: user32    
 ***  
 
@@ -34,13 +32,11 @@ DECLARE INTEGER ChangeClipboardChain IN user32;
 
 
 ## Parameters:
-```txt  
 hWndRemove
 [in] Handle to the window to be removed from the chain. The handle must have been passed to the SetClipboardViewer function.
 
 hWndNewNext
 [in] Handle to the window that follows the hWndRemove window in the clipboard viewer chain.  
-```  
 ***  
 
 

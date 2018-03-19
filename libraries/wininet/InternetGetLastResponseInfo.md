@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : InternetGetLastResponseInfo
+## Function name : InternetGetLastResponseInfo
 Group: Internet Functions (WinInet) - Library: wininet    
 ***  
 
@@ -37,7 +35,6 @@ DECLARE SHORT InternetGetLastResponseInfo IN wininet;
 
 
 ## Parameters:
-```txt  
 lpdwError
 [out] Pointer to an unsigned long integer variable that receives an error message pertaining to the operation that failed.
 
@@ -46,7 +43,6 @@ lpszBuffer
 
 lpdwBufferLength
 [in, out] Pointer to an unsigned long integer variable that contains the size of the lpszBuffer buffer in TCHARs.  
-```  
 ***  
 
 

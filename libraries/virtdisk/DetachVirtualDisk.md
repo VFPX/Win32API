@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : DetachVirtualDisk
+## Function name : DetachVirtualDisk
 Group: Virtual Hard Disk (Win7) - Library: virtdisk    
 ***  
 
@@ -32,7 +30,6 @@ DECLARE LONG DetachVirtualDisk IN virtdisk;
 
 
 ## Parameters:
-```txt  
 VirtualDiskHandle [in]
 A handle to an open virtual disk, which must have been opened using the VIRTUAL_DISK_ACCESS_DETACH flag.
 
@@ -41,7 +38,6 @@ A valid combination of values of the DETACH_VIRTUAL_DISK_FLAG enumeration.
 
 ProviderSpecificFlags [in]
 Flags specific to the type of virtual disk being detached. May be zero if none are required.  
-```  
 ***  
 
 

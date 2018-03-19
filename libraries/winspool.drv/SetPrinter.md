@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : SetPrinter
+## Function name : SetPrinter
 Group: Printing and Print Spooler - Library: winspool.drv    
 ***  
 
@@ -38,19 +36,17 @@ DECLARE INTEGER SetPrinter IN winspool.drv;
 
 
 ## Parameters:
-```txt  
-hPrinter
-[in] Handle to the printer. Use the OpenPrinter or AddPrinter function to retrieve a printer handle.
+hPrinter 
+[in] Handle to the printer. Use the OpenPrinter or AddPrinter function to retrieve a printer handle. 
 
-Level
+Level 
 [in] Specifies the type of data that the function stores into the buffer pointed to by pPrinter. If the Command parameter is not equal to zero, the Level parameter must be zero.
 
-pPrinter
+pPrinter 
 [in] Pointer to a buffer containing data to set for the printer, or containing information for the command specified by the Command parameter.
 
-Command
-[in] Specifies the action performed by the SetPrinter function.  
-```  
+Command 
+[in] Specifies the action performed by the SetPrinter function.   
 ***  
 
 

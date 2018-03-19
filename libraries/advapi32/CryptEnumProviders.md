@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : CryptEnumProviders
+## Function name : CryptEnumProviders
 Group: Cryptography Reference - Library: advapi32    
 ***  
 
@@ -43,25 +41,23 @@ DECLARE INTEGER CryptEnumProviders IN advapi32;
 
 
 ## Parameters:
-```txt  
-dwIndex
-[in] Index of the next provider to be enumerated.
+dwIndex 
+[in] Index of the next provider to be enumerated. 
 
-pdwReserved
-[in] Reserved for future use and must be NULL.
+pdwReserved 
+[in] Reserved for future use and must be NULL. 
 
-dwFlags
-[in] Reserved for future use and must be zero.
+dwFlags 
+[in] Reserved for future use and must be zero. 
 
-pdwProvType
-[out] Address of the DWORD value designating the type of the enumerated provider.
+pdwProvType 
+[out] Address of the DWORD value designating the type of the enumerated provider. 
 
-pszProvName
+pszProvName 
 [out] Pointer to a buffer that receives the data from the enumerated provider.
 
-pcbProvName
+pcbProvName 
 [in, out] Pointer to a DWORD value specifying the size, in bytes, of the buffer pointed to by the pszProvName parameter.  
-```  
 ***  
 
 

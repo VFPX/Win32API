@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : SetProp
+## Function name : SetProp
 Group: Window Property - Library: user32    
 ***  
 
@@ -36,16 +34,14 @@ DECLARE INTEGER SetProp IN user32;
 
 
 ## Parameters:
-```txt  
-hWnd
-[in] Handle to the window whose property list receives the new entry.
+hWnd 
+[in] Handle to the window whose property list receives the new entry. 
 
-lpString
-[in] Pointer to a null-terminated string or contains an atom that identifies a string.
+lpString 
+[in] Pointer to a null-terminated string or contains an atom that identifies a string. 
 
-hData
-[in] Handle to the data to be copied to the property list. The data handle can identify any value useful to the application.  
-```  
+hData 
+[in] Handle to the data to be copied to the property list. The data handle can identify any value useful to the application.   
 ***  
 
 

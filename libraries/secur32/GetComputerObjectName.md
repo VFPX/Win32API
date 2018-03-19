@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : GetComputerObjectName
+## Function name : GetComputerObjectName
 Group: System Information - Library: secur32    
 ***  
 
@@ -36,16 +34,14 @@ DECLARE INTEGER GetComputerObjectName IN secur32;
 
 
 ## Parameters:
-```txt  
-NameFormat
+NameFormat 
 [in] Format for the name. This parameter is a value from the EXTENDED_NAME_FORMAT enumeration type.
 
-lpNameBuffer
-[out] Pointer to a buffer that receives the name in the specified format.
+lpNameBuffer 
+[out] Pointer to a buffer that receives the name in the specified format. 
 
-nSize
-[in, out] On input, specifies the size of the lpNameBuffer buffer, in TCHARs.  
-```  
+nSize 
+[in, out] On input, specifies the size of the lpNameBuffer buffer, in TCHARs.   
 ***  
 
 

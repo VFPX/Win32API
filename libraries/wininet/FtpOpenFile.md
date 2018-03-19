@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : FtpOpenFile
+## Function name : FtpOpenFile
 Group: Internet Functions (WinInet) - Library: wininet    
 ***  
 
@@ -44,7 +42,6 @@ DECLARE INTEGER FtpOpenFile IN wininet;
 
 
 ## Parameters:
-```txt  
 hConnect
 [in] Valid HINTERNET handle to an FTP session.
 
@@ -55,11 +52,10 @@ dwAccess
 [in] Unsigned long integer value that determines how the file will be accessed. This can be GENERIC_READ or GENERIC_WRITE, but not both.
 
 dwFlags
-[in] Unsigned long integer value that contains the conditions under which the transfers occur.
+[in] Unsigned long integer value that contains the conditions under which the transfers occur. 
 
 dwContext
 [in] Pointer to an unsigned long integer value  
-```  
 ***  
 
 

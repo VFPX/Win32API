@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : InternalGetWindowText
+## Function name : InternalGetWindowText
 Group: Window - Library: user32    
 ***  
 
@@ -37,17 +35,15 @@ DECLARE INTEGER InternalGetWindowText IN user32;
 
 
 ## Parameters:
-```txt  
 hWnd
-[in] Handle to the window or control containing the text.
+[in] Handle to the window or control containing the text. 
 
 lpString
-[out] Pointer to the wide character buffer that receives the text.
+[out] Pointer to the wide character buffer that receives the text. 
 
 nMaxCount
 [in] Specifies the maximum number of characters to copy to the buffer, including the NULL character.
   
-```  
 ***  
 
 

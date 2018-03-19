@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : MAPIFindNext
+## Function name : MAPIFindNext
 Group: Simple MAPI - Library: mapi32    
 ***  
 
@@ -43,29 +41,27 @@ DECLARE INTEGER MAPIFindNext IN mapi32;
 
 
 ## Parameters:
-```txt  
-lhSession
-[in] Session handle that represents a Simple MAPI session.
+lhSession 
+[in] Session handle that represents a Simple MAPI session. 
 
-ulUIParam
-[in] Parent window handle or zero, indicating that if a dialog box is displayed, it is application modal.
+ulUIParam 
+[in] Parent window handle or zero, indicating that if a dialog box is displayed, it is application modal. 
 
-lpszMessageType
-[in] Pointer to a string identifying the message class to search.
+lpszMessageType 
+[in] Pointer to a string identifying the message class to search. 
 
-lpszSeedMessageID
-[in] Pointer to a string containing the message identifier seed for the request.
+lpszSeedMessageID 
+[in] Pointer to a string containing the message identifier seed for the request. 
 
-flFlags
-[in] Bitmask of option flags.
+flFlags 
+[in] Bitmask of option flags. 
 
-ulReserved
-Reserved; must be zero.
+ulReserved 
+Reserved; must be zero. 
 
-lpszMessageID
-[out] Pointer to the returned message identifier.
+lpszMessageID 
+[out] Pointer to the returned message identifier. 
   
-```  
 ***  
 
 

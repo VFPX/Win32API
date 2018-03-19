@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : NetMessageNameAdd
+## Function name : NetMessageNameAdd
 Group: Network Management - Library: netapi32    
 ***  
 
@@ -34,13 +32,11 @@ DECLARE INTEGER NetMessageNameAdd IN netapi32;
 
 
 ## Parameters:
-```txt  
-servername
-[in] Pointer to a constant string that specifies the DNS or NetBIOS name of the remote server on which the function is to execute. If this parameter is NULL, the local computer is used.
+servername 
+[in] Pointer to a constant string that specifies the DNS or NetBIOS name of the remote server on which the function is to execute. If this parameter is NULL, the local computer is used. 
 
-msgname
-[in] Pointer to a constant string that specifies the message alias to add. The string cannot be more than 15 characters long.  
-```  
+msgname 
+[in] Pointer to a constant string that specifies the message alias to add. The string cannot be more than 15 characters long.   
 ***  
 
 

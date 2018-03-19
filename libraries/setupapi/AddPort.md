@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : AddPort
+## Function name : AddPort
 Group: Printing and Print Spooler - Library: setupapi    
 ***  
 
@@ -36,16 +34,14 @@ DECLARE INTEGER AddPort IN winspool.drv;
 
 
 ## Parameters:
-```txt  
-pName
-[in] Pointer to a zero-terminated string that specifies the name of the server to which the port is connected. If this parameter is NULL, the port is local.
+pName 
+[in] Pointer to a zero-terminated string that specifies the name of the server to which the port is connected. If this parameter is NULL, the port is local. 
 
-hWnd
-[in] Handle to the parent window of the AddPort dialog box.
+hWnd 
+[in] Handle to the parent window of the AddPort dialog box. 
 
-pMonitorName
-[in] Pointer to a zero-terminated string that specifies the monitor associated with the port.  
-```  
+pMonitorName 
+[in] Pointer to a zero-terminated string that specifies the monitor associated with the port.   
 ***  
 
 

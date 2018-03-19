@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : CreateFileTransacted
+## Function name : CreateFileTransacted
 Group: File Management - Library: kernel32    
 ***  
 
@@ -46,7 +44,6 @@ DECLARE INTEGER CreateFileTransacted IN kernel32;
 
 
 ## Parameters:
-```txt  
 lpFileName [in]
 The name of an object to be created or opened.
 
@@ -76,7 +73,6 @@ The miniversion to be opened. If the transaction specified in hTransaction is no
 
 pExtendedParameter
 This parameter is reserved and must be NULL.  
-```  
 ***  
 
 

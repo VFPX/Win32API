@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : SetNamedPipeHandleState
+## Function name : SetNamedPipeHandleState
 Group: Pipe - Library: kernel32    
 ***  
 
@@ -38,18 +36,16 @@ DECLARE INTEGER SetNamedPipeHandleState IN kernel32;
 
 
 ## Parameters:
-```txt  
-hNamedPipe
+hNamedPipe 
 [in] A handle to the named pipe instance.
 
 [in] The new pipe mode. The mode is a combination of a read-mode flag and a wait-mode flag.
 
-lpMaxCollectionCount
+lpMaxCollectionCount 
 [in] The maximum number of bytes collected on the client computer before transmission to the server.
 
-lpCollectDataTimeout
+lpCollectDataTimeout 
 [in] The maximum time, in milliseconds, that can pass before a remote named pipe transfers information over the network.  
-```  
 ***  
 
 

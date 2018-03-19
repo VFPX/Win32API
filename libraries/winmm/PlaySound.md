@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : PlaySound
+## Function name : PlaySound
 Group: Windows Multimedia - Library: winmm    
 ***  
 
@@ -35,9 +33,8 @@ DECLARE INTEGER PlaySound IN winmm;
 
 
 ## Parameters:
-```txt  
 pszSound
-A string that specifies the sound to play. The maximum length, including the null terminator, is 256 characters.
+A string that specifies the sound to play. The maximum length, including the null terminator, is 256 characters. 
 
 hmod
 Handle to the executable file that contains the resource to be loaded. This parameter must be NULL unless SND_RESOURCE is specified in fdwSound.
@@ -45,7 +42,6 @@ Handle to the executable file that contains the resource to be loaded. This para
 fdwSound
 Flags for playing the sound.
   
-```  
 ***  
 
 

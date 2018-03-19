@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : FillRect
+## Function name : FillRect
 Group: Filled Shape - Library: gdi32    
 ***  
 
@@ -40,16 +38,14 @@ DECLARE INTEGER FillRect IN user32;
 
 
 ## Parameters:
-```txt  
-hDC
-[in] Handle to the device context.
+hDC 
+[in] Handle to the device context. 
 
-lprc
-[in] Pointer to a RECT structure that contains the logical coordinates of the rectangle to be filled.
+lprc 
+[in] Pointer to a RECT structure that contains the logical coordinates of the rectangle to be filled. 
 
-hbr
+hbr 
 [in] Handle to the brush used to fill the rectangle.  
-```  
 ***  
 
 

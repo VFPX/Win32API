@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : SetVolumeMountPoint
+## Function name : SetVolumeMountPoint
 Group: File System - Library: kernel32    
 ***  
 
@@ -34,13 +32,11 @@ DECLARE INTEGER SetVolumeMountPoint IN kernel32;
 
 
 ## Parameters:
-```txt  
-lpszVolumeMountPoint
+lpszVolumeMountPoint 
 [in] Pointer to a string that indicates the volume mount point where the volume is to be mounted.
 
-lpszVolumeName
+lpszVolumeName 
 [in] Pointer to a string that indicates the volume to be mounted.  
-```  
 ***  
 
 

@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : waveOutGetVolume
+## Function name : waveOutGetVolume
 Group: Windows Multimedia - Library: winmm    
 ***  
 
@@ -33,13 +31,11 @@ DECLARE INTEGER waveOutGetVolume IN winmm;
 
 
 ## Parameters:
-```txt  
-hwo
-Handle to an open waveform-audio output device. This parameter can also be a device identifier.
+hwo 
+Handle to an open waveform-audio output device. This parameter can also be a device identifier. 
 
-pdwVolume
+pdwVolume 
 Pointer to a variable to be filled with the current volume setting.  
-```  
 ***  
 
 

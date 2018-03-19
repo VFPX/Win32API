@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : CreateURLMonikerEx
+## Function name : CreateURLMonikerEx
 Group: URL Monikers - Library: urlmon    
 ***  
 
@@ -37,7 +35,6 @@ DECLARE INTEGER CreateURLMonikerEx IN urlmon;
 
 
 ## Parameters:
-```txt  
 pMkCtx
 A pointer to an IMoniker interface of the URL moniker to use as the base context when the szURL parameter is a partial URL string. The pMkCtx parameter can be NULL.
 
@@ -49,7 +46,6 @@ A pointer to an IMoniker interface for the new URL moniker.
 
 dwFlags
 A DWORD value that specifies which URL parser to use: URL_MK_LEGACY=0, URL_MK_UNIFORM=1  
-```  
 ***  
 
 

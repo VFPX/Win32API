@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : LoadString
+## Function name : LoadString
 Group: Resource - Library: user32    
 ***  
 
@@ -37,18 +35,16 @@ DECLARE INTEGER LoadString IN user32;
 
 
 ## Parameters:
-```txt  
-hInstance
-[in] Handle to an instance of the module whose executable file contains the string resource.
-uID
-[in] Specifies the integer identifier of the string to be loaded.
+hInstance 
+[in] Handle to an instance of the module whose executable file contains the string resource. 
+uID 
+[in] Specifies the integer identifier of the string to be loaded. 
 
-lpBuffer
-[out] Pointer to the buffer to receive the string.
+lpBuffer 
+[out] Pointer to the buffer to receive the string. 
 
-nBufferMax
-[in] Specifies the size of the buffer, in TCHARs.  
-```  
+nBufferMax 
+[in] Specifies the size of the buffer, in TCHARs.   
 ***  
 
 

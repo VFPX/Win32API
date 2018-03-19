@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : CryptUnprotectData
+## Function name : CryptUnprotectData
 Group: Cryptography Reference - Library: crypt32    
 ***  
 
@@ -40,7 +38,6 @@ DECLARE INTEGER CryptUnprotectData IN crypt32;
 
 
 ## Parameters:
-```txt  
 pDataIn [in]
 A pointer to a DATA_BLOB structure that holds the encrypted data.
 
@@ -58,7 +55,6 @@ This parameter can be one of several predefined flags.
 
 pDataOut [out]
 A pointer to a DATA_BLOB structure that receives the decrypted data.  
-```  
 ***  
 
 

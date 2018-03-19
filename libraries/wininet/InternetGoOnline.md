@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : InternetGoOnline
+## Function name : InternetGoOnline
 Group: Internet Functions (WinInet) - Library: wininet    
 ***  
 
@@ -37,7 +35,6 @@ DECLARE SHORT InternetGoOnline IN wininet;
 
 
 ## Parameters:
-```txt  
 lpszURL
 [in] Pointer to a string variable containing the URL of the Web site to connect to.
 
@@ -46,7 +43,6 @@ hwndParent
 
 dwReserved
 [in] Reserved. Must be set to zero.  
-```  
 ***  
 
 

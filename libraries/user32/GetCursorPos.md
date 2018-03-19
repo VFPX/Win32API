@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : GetCursorPos
+## Function name : GetCursorPos
 Group: Cursor - Library: user32    
 ***  
 
@@ -36,10 +34,8 @@ DECLARE SHORT GetCursorPos IN user32 STRING @ lpPoint
 
 
 ## Parameters:
-```txt  
-lpPoint
+lpPoint 
 [out] Pointer to a POINT structure that receives the screen coordinates of the cursor.  
-```  
 ***  
 
 

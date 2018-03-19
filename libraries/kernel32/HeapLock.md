@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : HeapLock
+## Function name : HeapLock
 Group: Memory Management - Library: kernel32    
 ***  
 
@@ -31,10 +29,8 @@ DECLARE INTEGER HeapLock IN kernel32;
 
 
 ## Parameters:
-```txt  
-hHeap
-[in] Handle to the heap to lock for exclusive access by the calling thread.  
-```  
+hHeap 
+[in] Handle to the heap to lock for exclusive access by the calling thread.   
 ***  
 
 

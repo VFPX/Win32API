@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : ws_connect
+## Function name : ws_connect
 Group: Windows Sockets 2 (Winsock) - Library: ws2_32    
 ***  
 
@@ -34,16 +32,14 @@ DECLARE INTEGER connect IN ws2_32 AS ws_connect;
 
 
 ## Parameters:
-```txt  
-s
-[in] Descriptor identifying an unconnected socket.
+s 
+[in] Descriptor identifying an unconnected socket. 
 
-name
-[in] Name of the socket in the SOCKADDR structure to which the connection should be established.
+name 
+[in] Name of the socket in the SOCKADDR structure to which the connection should be established. 
 
-namelen
-[in] Length of name, in bytes  
-```  
+namelen 
+[in] Length of name, in bytes   
 ***  
 
 

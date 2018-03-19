@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : GdipCreateStringFormat
+## Function name : GdipCreateStringFormat
 Group: GDI+ StringFormat - Library: gdiplus    
 ***  
 
@@ -35,7 +33,6 @@ DECLARE INTEGER GdipCreateStringFormat IN gdiplus;
 
 
 ## Parameters:
-```txt  
 formatFlags
 [in] Optional. Value that specifies the format flags that control most of the characteristics of the StringFormat object.
 
@@ -44,7 +41,6 @@ language
 
 format
 [out] Handle to the GDI+ StringFormat object  
-```  
 ***  
 
 

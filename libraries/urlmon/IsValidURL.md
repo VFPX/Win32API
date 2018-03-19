@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : IsValidURL
+## Function name : IsValidURL
 Group: URL Monikers - Library: urlmon    
 ***  
 
@@ -35,16 +33,14 @@ DECLARE INTEGER IsValidURL IN urlmon;
 
 
 ## Parameters:
-```txt  
 pBC
-[in] Pointer to the IBindCtx interface. This parameter is currently ignored. It should be set to NULL.
+[in] Pointer to the IBindCtx interface. This parameter is currently ignored. It should be set to NULL. 
 
 szURL
-[in] Pointer to a string value that contains the full URL to be checked.
+[in] Pointer to a string value that contains the full URL to be checked. 
 
 dwReserved
 [in] Reserved. Must be set to 0.  
-```  
 ***  
 
 

@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : NetSessionEnum
+## Function name : NetSessionEnum
 Group: Network Management - Library: netapi32    
 ***  
 
@@ -47,34 +45,32 @@ DECLARE INTEGER NetSessionEnum IN Netapi32;
 
 
 ## Parameters:
-```txt  
-servername
+servername 
 [in] Pointer to a string that specifies the DNS or NetBIOS name of the remote server on which the function is to execute. If this parameter is NULL, the local computer is used.
 
-UncClientName
-[in] Pointer to a string that specifies the name of the computer session for which information is to be returned. If this parameter is NULL, NetSessionEnum returns information for all computer sessions on the server.
+UncClientName 
+[in] Pointer to a string that specifies the name of the computer session for which information is to be returned. If this parameter is NULL, NetSessionEnum returns information for all computer sessions on the server. 
 
-username
-[in] Pointer to a string that specifies the name of the user for which information is to be returned. If this parameter is NULL, NetSessionEnum returns information for all users.
+username 
+[in] Pointer to a string that specifies the name of the user for which information is to be returned. If this parameter is NULL, NetSessionEnum returns information for all users. 
 
-level
+level 
 [in] Specifies the information level of the data.
 
-bufptr
+bufptr 
 [out] Pointer to the buffer that receives the data. The format of this data depends on the value of the level parameter.
 
-prefmaxlen
-[in] Specifies the preferred maximum length of returned data, in bytes.
+prefmaxlen 
+[in] Specifies the preferred maximum length of returned data, in bytes. 
 
-entriesread
-[out] Pointer to a value that receives the count of elements actually enumerated.
+entriesread 
+[out] Pointer to a value that receives the count of elements actually enumerated. 
 
-totalentries
-[out] Pointer to a value that receives the total number of entries that could have been enumerated from the current resume position.
+totalentries 
+[out] Pointer to a value that receives the total number of entries that could have been enumerated from the current resume position. 
 
-resume_handle
+resume_handle 
 [in, out] Pointer to a value that contains a resume handle which is used to continue an existing session search.  
-```  
 ***  
 
 

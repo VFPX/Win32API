@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : CloseDesktop
+## Function name : CloseDesktop
 Group: Window Station and Desktop - Library: user32    
 ***  
 
@@ -33,10 +31,8 @@ DECLARE INTEGER CloseDesktop IN user32;
 
 
 ## Parameters:
-```txt  
-hDesktop
+hDesktop 
 [in] Handle to the desktop to be closed. This can be a handle returned by the CreateDesktop, OpenDesktop, or OpenInputDesktop functions.  
-```  
 ***  
 
 

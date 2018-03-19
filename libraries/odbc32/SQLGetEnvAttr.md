@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : SQLGetEnvAttr
+## Function name : SQLGetEnvAttr
 Group: ODBC API - Library: odbc32    
 ***  
 
@@ -39,27 +37,25 @@ DECLARE SHORT SQLGetEnvAttr IN odbc32;
 
 
 ## Parameters:
-```txt  
-EnvironmentHandle
+EnvironmentHandle 
 [Input]
 
-Environment handle.
-Attribute
+Environment handle. 
+Attribute 
 [Input]
 
-Attribute to retrieve.
-ValuePtr
+Attribute to retrieve. 
+ValuePtr 
 [Output]
-Pointer to a buffer in which to return the current value of the attribute specified by Attribute.
-BufferLength
+Pointer to a buffer in which to return the current value of the attribute specified by Attribute. 
+BufferLength 
 [Input]
-If ValuePtr points to a character string, this argument should be the length of *ValuePtr. If *ValuePtr is an integer, BufferLength is ignored.
+If ValuePtr points to a character string, this argument should be the length of *ValuePtr. If *ValuePtr is an integer, BufferLength is ignored. 
 
-StringLengthPtr
+StringLengthPtr 
 [Output]
-A pointer to a buffer in which to return the total number of bytes (excluding the null-termination character) available to return in *ValuePtr.
+A pointer to a buffer in which to return the total number of bytes (excluding the null-termination character) available to return in *ValuePtr. 
   
-```  
 ***  
 
 

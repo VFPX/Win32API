@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : WNetAddConnection2
+## Function name : WNetAddConnection2
 Group: Windows Networking - Library: mpr    
 ***  
 
@@ -38,19 +36,17 @@ DECLARE INTEGER WNetAddConnection2 IN mpr;
 
 
 ## Parameters:
-```txt  
-lpNetResource
+lpNetResource 
 [in] Pointer to a NETRESOURCE structure that specifies details of the proposed connection.
 
-lpPassword
+lpPassword 
 [in] Pointer to a constant null-terminated string that specifies a password to be used in making the network connection. Must be NULL for Windows Me/98/95.
 
-lpUsername
+lpUsername 
 [in] Pointer to a constant null-terminated string that specifies a user name for making the connection. Must be NULL for Windows Me/98/95.
 
-dwFlags
+dwFlags 
 [in] Connection options. The following values are currently defined.  
-```  
 ***  
 
 

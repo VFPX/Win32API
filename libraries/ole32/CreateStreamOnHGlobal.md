@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : CreateStreamOnHGlobal
+## Function name : CreateStreamOnHGlobal
 Group: COM - Library: ole32    
 ***  
 
@@ -33,16 +31,14 @@ DECLARE INTEGER CreateStreamOnHGlobal IN ole32;
 
 
 ## Parameters:
-```txt  
-hGlobal
+hGlobal 
 [in] Memory handle allocated by the GlobalAlloc function. The handle must be allocated as movable and nondiscardable.
 
-fDeleteOnRelease
+fDeleteOnRelease 
 [in] Whether the underlying handle for this stream object should be automatically freed when the stream object is released. If set to FALSE, the caller must free the hGlobal after the final release.
 
-ppstm
-[out] Address of IStream* pointer variable that receives the interface pointer to the new stream object. Its value cannot be NULL.  
-```  
+ppstm 
+[out] Address of IStream* pointer variable that receives the interface pointer to the new stream object. Its value cannot be NULL.   
 ***  
 
 

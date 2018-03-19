@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : ConnectNamedPipe
+## Function name : ConnectNamedPipe
 Group: Pipe - Library: kernel32    
 ***  
 
@@ -33,13 +31,11 @@ DECLARE INTEGER ConnectNamedPipe IN kernel32;
 
 
 ## Parameters:
-```txt  
-hNamedPipe
-[in] A handle to the server end of a named pipe instance. This handle is returned by the CreateNamedPipe function.
+hNamedPipe 
+[in] A handle to the server end of a named pipe instance. This handle is returned by the CreateNamedPipe function. 
 
-lpOverlapped
-[in] A pointer to an OVERLAPPED structure.  
-```  
+lpOverlapped 
+[in] A pointer to an OVERLAPPED structure.   
 ***  
 
 

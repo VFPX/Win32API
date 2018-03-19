@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : DuplicateHandle
+## Function name : DuplicateHandle
 Group: Handle and Object - Library: kernel32    
 ***  
 
@@ -46,28 +44,26 @@ DECLARE INTEGER DuplicateHandle IN kernel32;
 
 
 ## Parameters:
-```txt  
-hSourceProcessHandle
+hSourceProcessHandle 
 [in] Handle to the process with the handle to duplicate.
 
-hSourceHandle
+hSourceHandle 
 [in] Handle to duplicate. This is an open object handle that is valid in the context of the source process.
 
-hTargetProcessHandle
+hTargetProcessHandle 
 [in] Handle to the process that is to receive the duplicated handle.
 
-lpTargetHandle
+lpTargetHandle 
 [out] Pointer to a variable that receives the duplicate handle. This handle value is valid in the context of the target process.
 
-dwDesiredAccess
+dwDesiredAccess 
 [in] Access requested for the new handle.
 
-bInheritHandle
+bInheritHandle 
 [in] Indicates whether the handle is inheritable.
 
-dwOptions
+dwOptions 
 [in] Optional actions.  
-```  
 ***  
 
 

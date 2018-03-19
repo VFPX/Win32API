@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : AdjustTokenPrivileges
+## Function name : AdjustTokenPrivileges
 Group: Authorization - Library: advapi32    
 ***  
 
@@ -43,7 +41,6 @@ DECLARE INTEGER AdjustTokenPrivileges IN advapi32;
 
 
 ## Parameters:
-```txt  
 TokenHandle [in]
 A handle to the access token that contains the privileges to be modified. The handle must have TOKEN_ADJUST_PRIVILEGES access to the token.
 
@@ -57,11 +54,10 @@ BufferLength [in]
 Specifies the size, in bytes, of the buffer pointed to by the PreviousState parameter.
 
 PreviousState [out, optional]
-A pointer to a buffer that the function fills with a TOKEN_PRIVILEGES structure that contains the previous state of any privileges that the function modifies.
+A pointer to a buffer that the function fills with a TOKEN_PRIVILEGES structure that contains the previous state of any privileges that the function modifies. 
 
 ReturnLength [out, optional]
 A pointer to a variable that receives the required size, in bytes, of the buffer pointed to by the PreviousState parameter.  
-```  
 ***  
 
 

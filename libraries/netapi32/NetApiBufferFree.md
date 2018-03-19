@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : NetApiBufferFree
+## Function name : NetApiBufferFree
 Group: Network Management - Library: netapi32    
 ***  
 
@@ -47,10 +45,8 @@ DECLARE INTEGER NetApiBufferFree IN netapi32;
 
 
 ## Parameters:
-```txt  
-Buffer
-[in] Pointer to a buffer returned previously by another network management function.  
-```  
+Buffer 
+[in] Pointer to a buffer returned previously by another network management function.   
 ***  
 
 

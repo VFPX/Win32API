@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : EnumPrinterDrivers
+## Function name : EnumPrinterDrivers
 Group: Printing and Print Spooler - Library: winspool.drv    
 ***  
 
@@ -43,29 +41,27 @@ DECLARE INTEGER EnumPrinterDrivers IN winspool.drv;
 
 
 ## Parameters:
-```txt  
-pName
-[in] Pointer to a null-terminated string that specifies the name of the server on which the printer drivers are enumerated.
+pName 
+[in] Pointer to a null-terminated string that specifies the name of the server on which the printer drivers are enumerated. 
 
-pEnvironment
-[in] Pointer to a null-terminated string that specifies the environment
+pEnvironment 
+[in] Pointer to a null-terminated string that specifies the environment 
 
-Level
-[in] Specifies the type of information structure returned in the pDriverInfo buffer.
+Level 
+[in] Specifies the type of information structure returned in the pDriverInfo buffer. 
 
-pDriverInfo
-[in] Pointer to a buffer that receives an array of DRIVER_INFO_* structures, as specified by Level.
+pDriverInfo 
+[in] Pointer to a buffer that receives an array of DRIVER_INFO_* structures, as specified by Level. 
 
-cbBuf
-[in] Specifies the size, in bytes, of the buffer pointed to by pDriverInfo.
+cbBuf 
+[in] Specifies the size, in bytes, of the buffer pointed to by pDriverInfo. 
 
-pcbNeeded
-[out] Pointer to a variable that receives the number of bytes copied to the pDriverInfo buffer if the function succeeds.
+pcbNeeded 
+[out] Pointer to a variable that receives the number of bytes copied to the pDriverInfo buffer if the function succeeds. 
 
-pcReturned
-[out] Pointer to a variable that receives the number of structures returned in the pDriverInfo buffer.
+pcReturned 
+[out] Pointer to a variable that receives the number of structures returned in the pDriverInfo buffer. 
   
-```  
 ***  
 
 

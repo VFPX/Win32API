@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : GetProcessHeaps
+## Function name : GetProcessHeaps
 Group: Memory Management - Library: kernel32    
 ***  
 
@@ -33,13 +31,11 @@ DECLARE INTEGER GetProcessHeaps IN kernel32;
 
 
 ## Parameters:
-```txt  
-NumberOfHeaps
-[in] Specifies the maximum number of heap handles that can be stored into the buffer pointed to by ProcessHeaps.
+NumberOfHeaps 
+[in] Specifies the maximum number of heap handles that can be stored into the buffer pointed to by ProcessHeaps. 
 
-ProcessHeaps
-[out] Pointer to a buffer to receive an array of heap handles.  
-```  
+ProcessHeaps 
+[out] Pointer to a buffer to receive an array of heap handles.   
 ***  
 
 

@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : ReadFile
+## Function name : ReadFile
 Group: File Management - Library: kernel32    
 ***  
 
@@ -43,22 +41,20 @@ DECLARE INTEGER ReadFile IN kernel32;
 
 
 ## Parameters:
-```txt  
-hFile
-[in] Handle to the file to be read. The file handle must have been created with GENERIC_READ access to the file.
+hFile 
+[in] Handle to the file to be read. The file handle must have been created with GENERIC_READ access to the file. 
 
-lpBuffer
-[out] Pointer to the buffer that receives the data read from the file.
+lpBuffer 
+[out] Pointer to the buffer that receives the data read from the file. 
 
-nNumberOfBytesToRead
-[in] Specifies the number of bytes to be read from the file.
+nNumberOfBytesToRead 
+[in] Specifies the number of bytes to be read from the file. 
 
-lpNumberOfBytesRead
-[out] Pointer to the variable that receives the number of bytes read.
+lpNumberOfBytesRead 
+[out] Pointer to the variable that receives the number of bytes read. 
 
-lpOverlapped
-[in] Pointer to an OVERLAPPED structure. This structure is required if hFile was created with FILE_FLAG_OVERLAPPED.  
-```  
+lpOverlapped 
+[in] Pointer to an OVERLAPPED structure. This structure is required if hFile was created with FILE_FLAG_OVERLAPPED.   
 ***  
 
 

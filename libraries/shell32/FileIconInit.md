@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : FileIconInit
+## Function name : FileIconInit
 Group: Shell Functions - Library: shell32    
 ***  
 
@@ -29,10 +27,8 @@ DECLARE INTEGER FileIconInit IN shell32;
 
 
 ## Parameters:
-```txt  
 fRestoreCache
 [in] TRUE to restore the system image cache from disk; FALSE otherwise.  
-```  
 ***  
 
 

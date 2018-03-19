@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : WNetCancelConnection2
+## Function name : WNetCancelConnection2
 Group: Windows Networking - Library: mpr    
 ***  
 
@@ -35,16 +33,14 @@ DECLARE INTEGER WNetCancelConnection2 IN mpr;
 
 
 ## Parameters:
-```txt  
-lpName
+lpName 
 [in] Pointer to a constant null-terminated string that specifies the name of either the redirected local device or the remote network resource to disconnect from.
 
-dwFlags
-[in] Connection type.
+dwFlags 
+[in] Connection type. 
 
-fForce
+fForce 
 [in] Specifies whether the disconnection should occur if there are open files or jobs on the connection.  
-```  
 ***  
 
 

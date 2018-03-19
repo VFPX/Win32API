@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : GdipDeleteFont
+## Function name : GdipDeleteFont
 Group: GDI+ Font - Library: gdiplus    
 ***  
 
@@ -32,10 +30,8 @@ DECLARE INTEGER GdipDeleteFont IN gdiplus;
 
 
 ## Parameters:
-```txt  
 fnt
 [in] Handle to the Font object created with GdipCreateFont, GdipCreateFontFromDC or similar function.  
-```  
 ***  
 
 

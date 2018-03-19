@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : GetLongPathName
+## Function name : GetLongPathName
 Group: File Management - Library: kernel32    
 ***  
 
@@ -38,16 +36,14 @@ DECLARE INTEGER GetLongPathName IN kernel32;
 
 
 ## Parameters:
-```txt  
-lpszShortPath
-[in] Pointer to a null-terminated path to be converted.
+lpszShortPath 
+[in] Pointer to a null-terminated path to be converted. 
 
-lpszLongPath
-[out] Pointer to the buffer to receive the long path. You can use the same buffer you used for the lpszShortPath parameter.
+lpszLongPath 
+[out] Pointer to the buffer to receive the long path. You can use the same buffer you used for the lpszShortPath parameter. 
 
-cchBuffer
-[in] Specifies the size of the buffer, in TCHARs.  
-```  
+cchBuffer 
+[in] Specifies the size of the buffer, in TCHARs.   
 ***  
 
 

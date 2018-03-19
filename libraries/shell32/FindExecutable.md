@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : FindExecutable
+## Function name : FindExecutable
 Group: Shell Functions - Library: shell32    
 ***  
 
@@ -38,16 +36,14 @@ DECLARE INTEGER FindExecutable IN shell32;
 
 
 ## Parameters:
-```txt  
-lpFile
-Address of a null-terminated string specifying a file name. This should be a document.
+lpFile 
+Address of a null-terminated string specifying a file name. This should be a document. 
 
-lpDirectory
-Address of a null-terminated string specifying the default directory.
+lpDirectory 
+Address of a null-terminated string specifying the default directory. 
 
-lpResult
+lpResult 
 Address of a buffer to receive the file name when the function returns.  
-```  
 ***  
 
 

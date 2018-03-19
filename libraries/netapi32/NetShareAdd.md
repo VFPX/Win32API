@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : NetShareAdd
+## Function name : NetShareAdd
 Group: Network Management - Library: netapi32    
 ***  
 
@@ -39,19 +37,17 @@ DECLARE INTEGER NetShareAdd IN netapi32;
 
 
 ## Parameters:
-```txt  
-servername
+servername 
 [in] Pointer to a string that specifies the DNS or NetBIOS name of the remote server on which the function is to execute.
 
-level
+level 
 [in] Specifies the information level of the data (2, 502).
 
-buf
+buf 
 [in] Pointer to the buffer that specifies the data.
 
-parm_err
+parm_err 
 [out] Pointer to a value that receives the index of the first member of the share information structure that causes the ERROR_INVALID_PARAMETER error.  
-```  
 ***  
 
 

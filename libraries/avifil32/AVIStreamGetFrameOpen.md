@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : AVIStreamGetFrameOpen
+## Function name : AVIStreamGetFrameOpen
 Group: Windows Multimedia - Library: avifil32    
 ***  
 
@@ -35,14 +33,12 @@ DECLARE INTEGER AVIStreamGetFrameOpen IN avifil32;
 
 
 ## Parameters:
-```txt  
 pavi
 Pointer to the video stream used as the video source.
 
 lpbiWanted
 Pointer to a structure that defines the desired video format. Specify NULL to use a default format.
   
-```  
 ***  
 
 

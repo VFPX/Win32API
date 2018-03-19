@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : recvfrom
+## Function name : recvfrom
 Group: Windows Sockets 2 (Winsock) - Library: ws2_32    
 ***  
 
@@ -42,26 +40,24 @@ DECLARE INTEGER recvfrom IN ws2_32;
 
 
 ## Parameters:
-```txt  
-s
-[in] Descriptor identifying a bound socket.
+s 
+[in] Descriptor identifying a bound socket. 
 
-buf
-[out] Buffer for the incoming data.
+buf 
+[out] Buffer for the incoming data. 
 
-len
-[in] Length of buf, in bytes.
+len 
+[in] Length of buf, in bytes. 
 
-flags
-[in] Indicator specifying the way in which the call is made.
+flags 
+[in] Indicator specifying the way in which the call is made. 
 
-from
-[out] Optional pointer to a buffer in a sockaddr structure that will hold the source address upon return.
+from 
+[out] Optional pointer to a buffer in a sockaddr structure that will hold the source address upon return. 
 
-fromlen
-[in, out] Optional pointer to the size, in bytes, of the from buffer.
+fromlen 
+[in, out] Optional pointer to the size, in bytes, of the from buffer. 
   
-```  
 ***  
 
 

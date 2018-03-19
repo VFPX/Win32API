@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : GdipDrawLineI
+## Function name : GdipDrawLineI
 Group: GDI+ Graphics - Library: gdiplus    
 ***  
 
@@ -38,25 +36,23 @@ DECLARE INTEGER GdipDrawLineI IN gdiplus;
 
 
 ## Parameters:
-```txt  
 graphics
 [in] Pointer to a Graphics object.
 
 pen
-[in] Pointer to a Pen that is used to draw the line.
+[in] Pointer to a Pen that is used to draw the line. 
 
 x1
-[in] Integer that specifies the x-coordinate of the starting point of the line.
+[in] Integer that specifies the x-coordinate of the starting point of the line. 
 
 y1
-[in] Integer that specifies the y-coordinate of the starting point of the line.
+[in] Integer that specifies the y-coordinate of the starting point of the line. 
 
 x2
 [in] Integer that specifies the x-coordinate of the ending point of the line.
 
 y2
 [in] Integer that specifies the y-coordinate of the ending point of the line  
-```  
 ***  
 
 

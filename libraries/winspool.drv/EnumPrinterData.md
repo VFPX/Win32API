@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : EnumPrinterData
+## Function name : EnumPrinterData
 Group: Printing and Print Spooler - Library: winspool.drv    
 ***  
 
@@ -48,34 +46,32 @@ DECLARE INTEGER EnumPrinterData IN winspool.drv;
 
 
 ## Parameters:
-```txt  
-hPrinter
-[in] Handle to the printer whose configuration data is to be obtained.
+hPrinter 
+[in] Handle to the printer whose configuration data is to be obtained. 
 
-dwIndex
-[in] An index value that specifies the configuration data value to retrieve.
+dwIndex 
+[in] An index value that specifies the configuration data value to retrieve. 
 
-pValueName
+pValueName 
 [out] Pointer to a buffer that receives the name of the configuration data value.
 
-cbValueName
+cbValueName 
 [in] Specifies the size, in bytes, of the buffer pointed to by pValueName.
 
-pcbValueName
-[out] Pointer to a variable that receives the number of bytes stored into the buffer pointed to by pValueName.
+pcbValueName 
+[out] Pointer to a variable that receives the number of bytes stored into the buffer pointed to by pValueName. 
 
-pType
+pType 
 [out] Pointer to a variable that receives a code indicating the type of data stored in the specified value.
 
-pData
-[out] Pointer to a buffer that receives the configuration data value.
+pData 
+[out] Pointer to a buffer that receives the configuration data value. 
 
-cbData
+cbData 
 [in] Specifies the size, in bytes, of the buffer pointed to by pData.
 
-pcbData
-[out] Pointer to a variable that receives the number of bytes stored into the buffer pointed to by pData.  
-```  
+pcbData 
+[out] Pointer to a variable that receives the number of bytes stored into the buffer pointed to by pData.   
 ***  
 
 

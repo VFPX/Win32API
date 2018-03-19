@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : LsaLookupSids
+## Function name : LsaLookupSids
 Group: Security - Library: advapi32    
 ***  
 
@@ -41,22 +39,20 @@ DECLARE INTEGER LsaLookupSids IN advapi32;
 
 
 ## Parameters:
-```txt  
-PolicyHandle
+PolicyHandle 
 [in] Handle to a Policy object. This handle must have the POLICY_LOOKUP_NAMES access right.
 
-Count
+Count 
 [in] Specifies the number of SIDs in the Sids array.
 
-Sids
+Sids 
 [in] Pointer to an array of SID pointers to look up.
 
-ReferencedDomains
+ReferencedDomains 
 [out] Receives a pointer to an LSA_REFERENCED_DOMAIN_LIST structure.
 
-Names
-[out] Receives a pointer to an array of LSA_TRANSLATED_NAME structures.  
-```  
+Names 
+[out] Receives a pointer to an array of LSA_TRANSLATED_NAME structures.   
 ***  
 
 

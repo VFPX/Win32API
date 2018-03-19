@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : capCreateCaptureWindow
+## Function name : capCreateCaptureWindow
 Group: Windows Multimedia - Library: avicap32    
 ***  
 
@@ -46,7 +44,6 @@ DECLARE INTEGER capCreateCaptureWindow IN avicap32;
 
 
 ## Parameters:
-```txt  
 lpszWindowName
 Null-terminated string containing the name used for the capture window.
 
@@ -71,7 +68,6 @@ Handle to the parent window.
 nID
 Window identifier.
   
-```  
 ***  
 
 

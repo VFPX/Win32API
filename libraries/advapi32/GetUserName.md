@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : GetUserName
+## Function name : GetUserName
 Group: System Information - Library: advapi32    
 ***  
 
@@ -35,13 +33,11 @@ DECLARE INTEGER GetUserName IN advapi32;
 
 
 ## Parameters:
-```txt  
 lpBuffer
-Points to the buffer to receive the null-terminated string containing the user"s logon name.
+Points to the buffer to receive the null-terminated string containing the user"s logon name. 
 
 nSize
 Pointer to a DWORD that, on input, specifies the maximum size, in characters, of the buffer specified by the lpBuffer parameter.  
-```  
 ***  
 
 

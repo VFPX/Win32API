@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : CreateDesktop
+## Function name : CreateDesktop
 Group: Window Station and Desktop - Library: user32    
 ***  
 
@@ -43,25 +41,23 @@ DECLARE INTEGER CreateDesktop IN user32;
 
 
 ## Parameters:
-```txt  
-lpszDesktop
-[in] Pointer to a null-terminated string specifying the name of the desktop to be created. Desktop names are case-insensitive and may not contain backslash characters (\).
+lpszDesktop 
+[in] Pointer to a null-terminated string specifying the name of the desktop to be created. Desktop names are case-insensitive and may not contain backslash characters (\). 
 
-lpszDevice
-Reserved; must be NULL.
+lpszDevice 
+Reserved; must be NULL. 
 
-pDevmode
-Reserved; must be NULL.
+pDevmode 
+Reserved; must be NULL. 
 
-dwFlags
+dwFlags 
 [in] This parameter can be 0 or 1.
 
-dwDesiredAccess
+dwDesiredAccess 
 [in] Access to the desktop.
 
-lpsa
+lpsa 
 [in] Pointer to a SECURITY_ATTRIBUTES structure; can be NULL.  
-```  
 ***  
 
 

@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : SQLGetDiagRec
+## Function name : SQLGetDiagRec
 Group: ODBC API - Library: odbc32    
 ***  
 
@@ -47,39 +45,37 @@ DECLARE SHORT SQLGetDiagRec IN odbc32;
 
 
 ## Parameters:
-```txt  
-HandleType
+HandleType 
 [Input]
 A handle type identifier that describes the type of handle for which diagnostics are required.
 
-Handle
+Handle 
 [Input]
-A handle for the diagnostic data structure, of the type indicated by HandleType.
+A handle for the diagnostic data structure, of the type indicated by HandleType. 
 
-RecNumber
+RecNumber 
 [Input]
-Indicates the status record from which the application seeks information. Status records are numbered from 1.
+Indicates the status record from which the application seeks information. Status records are numbered from 1. 
 
-SQLState
+SQLState 
 [Output]
 Pointer to a buffer in which to return a five-character SQLSTATE code pertaining to the diagnostic record RecNumber.
 
-NativeErrorPtr
+NativeErrorPtr 
 [Output]
-Pointer to a buffer in which to return the native error code, specific to the data source.
+Pointer to a buffer in which to return the native error code, specific to the data source. 
 
-MessageText
+MessageText 
 [Output]
-Pointer to a buffer in which to return the diagnostic message text string.
+Pointer to a buffer in which to return the diagnostic message text string. 
 
-BufferLength
+BufferLength 
 [Input]
-Length of the *MessageText buffer in characters.
+Length of the *MessageText buffer in characters. 
 
-TextLengthPtr
+TextLengthPtr 
 [Output]
-Pointer to a buffer in which to return the total number of bytes available to return in *MessageText.  
-```  
+Pointer to a buffer in which to return the total number of bytes available to return in *MessageText.   
 ***  
 
 

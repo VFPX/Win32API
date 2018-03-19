@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : WTSRegisterSessionNotification
+## Function name : WTSRegisterSessionNotification
 Group: Terminal Services - Library: wtsapi32    
 ***  
 
@@ -35,13 +33,11 @@ DECLARE INTEGER WTSRegisterSessionNotification IN Wtsapi32;
 
 
 ## Parameters:
-```txt  
-hWnd
-[in] Handle of the window to receive session change notifications.
+hWnd 
+[in] Handle of the window to receive session change notifications. 
 
-dwFlags
+dwFlags 
 [in] Specifies which session notifications are to be received: NOTIFY_FOR_THIS_SESSION, NOTIFY_FOR_ALL_SESSIONS.  
-```  
 ***  
 
 

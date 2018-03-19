@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : mmioRead
+## Function name : mmioRead
 Group: Windows Multimedia - Library: winmm    
 ***  
 
@@ -37,16 +35,14 @@ DECLARE LONG mmioRead IN winmm;
 
 
 ## Parameters:
-```txt  
-hmmio
-File handle of the file to be read.
+hmmio 
+File handle of the file to be read. 
 
-pch
-Pointer to a buffer to contain the data read from the file.
+pch 
+Pointer to a buffer to contain the data read from the file. 
 
-cch
-Number of bytes to read from the file.  
-```  
+cch 
+Number of bytes to read from the file.   
 ***  
 
 

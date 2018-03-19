@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : SQLCreateDataSource
+## Function name : SQLCreateDataSource
 Group: ODBC API - Library: odbc32    
 ***  
 
@@ -34,15 +32,13 @@ DECLARE INTEGER SQLCreateDataSource IN odbccp32;
 
 
 ## Parameters:
-```txt  
-hwnd
+hwnd 
 [Input]
-Parent window handle.
+Parent window handle. 
 
-lpszDS
+lpszDS 
 [Input]
-Data source name. lpszDS can be a null pointer or an empty string.  
-```  
+Data source name. lpszDS can be a null pointer or an empty string.   
 ***  
 
 

@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : SHSimpleIDListFromPath
+## Function name : SHSimpleIDListFromPath
 Group: Shell Functions - Library: shell32    
 ***  
 
@@ -31,10 +29,8 @@ DECLARE INTEGER SHSimpleIDListFromPath IN shell32;
 
 
 ## Parameters:
-```txt  
 pszPath [in]
 A pointer to a null-terminated string that contains the path to be converted to a PIDL.  
-```  
 ***  
 
 

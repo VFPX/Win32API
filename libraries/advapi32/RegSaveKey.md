@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : RegSaveKey
+## Function name : RegSaveKey
 Group: Registry - Library: advapi32    
 ***  
 
@@ -35,16 +33,14 @@ DECLARE INTEGER RegSaveKey IN advapi32;
 
 
 ## Parameters:
-```txt  
-hKey
+hKey 
 [in] Specifies a handle to the key where the save operation is to begin, or a predefined reserved handle value.
 
-lpFile
+lpFile 
 [in] Pointer to a null-terminated string containing the name of the file in which the specified key and subkeys are saved.
 
-lpSecurityAttributes
+lpSecurityAttributes 
 Windows NT/2000 or later: [in] Pointer to a structure that specifies a security descriptor for the new file.  
-```  
 ***  
 
 

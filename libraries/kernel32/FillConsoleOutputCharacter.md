@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : FillConsoleOutputCharacter
+## Function name : FillConsoleOutputCharacter
 Group: Console - Library: kernel32    
 ***  
 
@@ -42,22 +40,20 @@ DECLARE INTEGER FillConsoleOutputCharacter IN kernel32;
 
 
 ## Parameters:
-```txt  
-hConsoleOutput
+hConsoleOutput 
 [in] Handle to a console screen buffer.
 
-cCharacter
-[in] Character to write to the console screen buffer.
+cCharacter 
+[in] Character to write to the console screen buffer. 
 
-nLength
-[in] Number of character cells to which the character should be written.
+nLength 
+[in] Number of character cells to which the character should be written. 
 
-dwWriteCoord
-[in] A COORD structure that specifies the console screen buffer coordinates of the first cell to which the character is to be written.
+dwWriteCoord 
+[in] A COORD structure that specifies the console screen buffer coordinates of the first cell to which the character is to be written. 
 
-lpNumberOfCharsWritten
-[out] Pointer to a variable that receives the number of characters actually written to the console screen buffer.  
-```  
+lpNumberOfCharsWritten 
+[out] Pointer to a variable that receives the number of characters actually written to the console screen buffer.   
 ***  
 
 

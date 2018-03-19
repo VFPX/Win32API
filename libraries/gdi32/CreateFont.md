@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : CreateFont
+## Function name : CreateFont
 Group: Font and Text - Library: gdi32    
 ***  
 
@@ -67,50 +65,48 @@ DECLARE INTEGER CreateFont IN gdi32;
 
 
 ## Parameters:
-```txt  
-nHeight
+nHeight 
 [in] Specifies the height, in logical units, of the font"s character cell or character.
 
-nWidth
+nWidth 
 [in] Specifies the average width, in logical units, of characters in the requested font.
 
-nEscapement
+nEscapement 
 [in] Specifies the angle, in tenths of degrees, between the escapement vector and the x-axis of the device.
 
-nOrientation
-[in] Specifies the angle, in tenths of degrees, between each character"s base line and the x-axis of the device.
+nOrientation 
+[in] Specifies the angle, in tenths of degrees, between each character"s base line and the x-axis of the device. 
 
-fnWeight
-[in] Specifies the weight of the font in the range 0 through 1000.
+fnWeight 
+[in] Specifies the weight of the font in the range 0 through 1000. 
 
-fdwItalic
-[in] Specifies an italic font if set to TRUE.
+fdwItalic 
+[in] Specifies an italic font if set to TRUE. 
 
-fdwUnderline
-[in] Specifies an underlined font if set to TRUE.
+fdwUnderline 
+[in] Specifies an underlined font if set to TRUE. 
 
-fdwStrikeOut
-[in] Specifies a strikeout font if set to TRUE.
+fdwStrikeOut 
+[in] Specifies a strikeout font if set to TRUE. 
 
-fdwCharSet
-[in] Specifies the character set.
+fdwCharSet 
+[in] Specifies the character set. 
 
-fdwOutputPrecision
+fdwOutputPrecision 
 [in] Specifies the output precision.
 
-fdwClipPrecision
-[in] Specifies the clipping precision.
+fdwClipPrecision 
+[in] Specifies the clipping precision. 
 
-fdwQuality
-[in] Specifies the output quality.
+fdwQuality 
+[in] Specifies the output quality. 
 
-fdwPitchAndFamily
-[in] Specifies the pitch and family of the font.
+fdwPitchAndFamily 
+[in] Specifies the pitch and family of the font. 
 
-lpszFace
-[in] Pointer to a null-terminated string that specifies the typeface name of the font.
+lpszFace 
+[in] Pointer to a null-terminated string that specifies the typeface name of the font. 
   
-```  
 ***  
 
 

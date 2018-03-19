@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : RtlDecompressBuffer
+## Function name : RtlDecompressBuffer
 Group: Data Decompression Library - Library: ntdll    
 ***  
 
@@ -41,7 +39,6 @@ DECLARE INTEGER RtlDecompressBuffer IN ntdll;
 
 
 ## Parameters:
-```txt  
 CompressionFormat [in]
 Bitmask specifying the compression format of the compressed buffer. This parameter must be set to COMPRESSION_FORMAT_LZNT1.
 
@@ -59,7 +56,6 @@ The size, in bytes, of the CompressedBuffer buffer.
 
 FinalUncompressedSize [out]
 A pointer to a caller-allocated variable which receives the size, in bytes, of the decompressed data stored in UncompressedBuffer.  
-```  
 ***  
 
 

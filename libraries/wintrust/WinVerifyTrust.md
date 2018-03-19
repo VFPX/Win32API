@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : WinVerifyTrust
+## Function name : WinVerifyTrust
 Group: Cryptography Reference - Library: wintrust    
 ***  
 
@@ -36,7 +34,6 @@ DECLARE LONG WinVerifyTrustIN wintrust;
 
 
 ## Parameters:
-```txt  
 hWnd [in]
 Optional handle to a caller window.
 
@@ -45,7 +42,6 @@ A pointer to a GUID structure that identifies an action and the trust provider t
 
 pWVTData [in]
 A pointer that, when cast as a WINTRUST_DATA structure, contains information that the trust provider needs to process the specified action identifier. Typically, the structure includes information that identifies the object that the trust provider must evaluate.  
-```  
 ***  
 
 

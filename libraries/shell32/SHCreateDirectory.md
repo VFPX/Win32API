@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : SHCreateDirectory
+## Function name : SHCreateDirectory
 Group: Shell Functions - Library: shell32    
 ***  
 
@@ -34,13 +32,11 @@ DECLARE INTEGER SHCreateDirectory IN shell32;
 
 
 ## Parameters:
-```txt  
 hwnd
 [in] Handle to a parent window. This parameter can be set to NULL if no user interface is displayed.
 
 pszPath
-[in] Pointer to a NULL-terminated Unicode string that contains the fully-qualified path of the directory.  
-```  
+[in] Pointer to a NULL-terminated Unicode string that contains the fully-qualified path of the directory.   
 ***  
 
 

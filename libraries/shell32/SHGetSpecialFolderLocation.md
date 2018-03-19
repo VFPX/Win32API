@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : SHGetSpecialFolderLocation
+## Function name : SHGetSpecialFolderLocation
 Group: Shell Functions - Library: shell32    
 ***  
 
@@ -36,7 +34,6 @@ DECLARE INTEGER SHGetSpecialFolderLocation IN shell32;
 
 
 ## Parameters:
-```txt  
 hwndOwner [in]
 Reserved.
 
@@ -45,7 +42,6 @@ A CSIDL value that identifies the folder of interest.
 
 ppidl [out]
 A PIDL specifying the folder"s location relative to the root of the namespace (the desktop).  
-```  
 ***  
 
 

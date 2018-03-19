@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : ShellExecute
+## Function name : ShellExecute
 Group: Shell Functions - Library: shell32    
 ***  
 
@@ -58,25 +56,23 @@ DECLARE INTEGER ShellExecute IN shell32;
 
 
 ## Parameters:
-```txt  
-hwnd
-Handle to a parent window. This window receives any message boxes that an application produces, such as error reporting.
+hwnd 
+Handle to a parent window. This window receives any message boxes that an application produces, such as error reporting. 
 
-lpVerb
+lpVerb 
 A string, referred to as a verb, that specifies the action to be performed: edit, explore, find, open, print
 
-lpFile
-Address of a null-terminated string that specifies the file or object on which to execute the specified verb.
+lpFile 
+Address of a null-terminated string that specifies the file or object on which to execute the specified verb. 
 
-lpParameters
+lpParameters 
 If the lpFile parameter specifies an executable file, lpParameters is an address to a null-terminated string that specifies the parameters to be passed to the application.
 
-lpDirectory
-Address of a null-terminated string that specifies the default directory.
+lpDirectory 
+Address of a null-terminated string that specifies the default directory. 
 
-nShowCmd
+nShowCmd 
 Flags that specify how an application is to be displayed when it is opened.  
-```  
 ***  
 
 

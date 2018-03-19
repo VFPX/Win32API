@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : UuidToString
+## Function name : UuidToString
 Group: Remote Procedure Call (RPC) - Library: rpcrt4    
 ***  
 
@@ -35,13 +33,11 @@ DECLARE INTEGER UuidToString IN Rpcrt4;
 
 
 ## Parameters:
-```txt  
 Uuid
 Pointer to a binary UUID.
 
 StringUuid
 Pointer to a pointer to the string into which the UUID specified in the Uuid parameter will be placed.  
-```  
 ***  
 
 

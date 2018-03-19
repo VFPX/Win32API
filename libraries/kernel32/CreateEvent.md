@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : CreateEvent
+## Function name : CreateEvent
 Group: Synchronization - Library: kernel32    
 ***  
 
@@ -37,19 +35,17 @@ DECLARE INTEGER CreateEvent IN kernel32;
 
 
 ## Parameters:
-```txt  
-lpEventAttributes
-[in] Pointer to a structure that determines whether the returned handle can be inherited by child processes.
+lpEventAttributes 
+[in] Pointer to a structure that determines whether the returned handle can be inherited by child processes. 
 
-bManualReset
-[in] Specifies whether a manual-reset or auto-reset event object is created.
+bManualReset 
+[in] Specifies whether a manual-reset or auto-reset event object is created. 
 
-bInitialState
-[in] Specifies the initial state of the event object.
+bInitialState 
+[in] Specifies the initial state of the event object. 
 
-lpName
+lpName 
 [in] Pointer to a null-terminated string specifying the name of the event object.  
-```  
 ***  
 
 

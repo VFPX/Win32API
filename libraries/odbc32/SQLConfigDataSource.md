@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : SQLConfigDataSource
+## Function name : SQLConfigDataSource
 Group: ODBC API - Library: odbc32    
 ***  
 
@@ -38,23 +36,21 @@ DECLARE INTEGER SQLConfigDataSource IN odbccp32;
 
 
 ## Parameters:
-```txt  
-hwndParent
+hwndParent 
 [in]
-Parent window handle. The function will not display any dialog boxes if the handle is null.
+Parent window handle. The function will not display any dialog boxes if the handle is null. 
 
-fRequest
+fRequest 
 [in]
-Type of request -- a predefined value.
+Type of request -- a predefined value. 
 
-lpszDriver
+lpszDriver 
 [in]
-Driver description (usually the name of the associated DBMS) presented to users instead of the physical driver name.
+Driver description (usually the name of the associated DBMS) presented to users instead of the physical driver name. 
 
-lpszAttributes
+lpszAttributes 
 [in]
-List of attributes in the form of keyword-value pairs.  
-```  
+List of attributes in the form of keyword-value pairs.   
 ***  
 
 

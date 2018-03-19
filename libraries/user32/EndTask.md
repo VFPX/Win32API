@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : EndTask
+## Function name : EndTask
 Group: Window - Library: user32    
 ***  
 
@@ -33,16 +31,14 @@ DECLARE INTEGER EndTask IN user32;
 
 
 ## Parameters:
-```txt  
 hWnd
-[in] Handle to the window to be closed.
+[in] Handle to the window to be closed. 
 
 fShutDown
-[in] Ignored. Must be FALSE.
+[in] Ignored. Must be FALSE. 
 
 fForce
 [in] A TRUE for this parameter will force the destruction of the window if an initial attempt fails to gently close the window using WM_CLOSE. With a FALSE for this parameter, only the close with WM_CLOSE is attempted.  
-```  
 ***  
 
 

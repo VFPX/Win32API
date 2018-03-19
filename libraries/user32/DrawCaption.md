@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : DrawCaption
+## Function name : DrawCaption
 Group: Painting and Drawing - Library: user32    
 ***  
 
@@ -37,19 +35,17 @@ DECLARE INTEGER DrawCaption IN user32;
 
 
 ## Parameters:
-```txt  
-hwnd
-[in] Handle to a window that supplies text and an icon for the window caption.
+hwnd 
+[in] Handle to a window that supplies text and an icon for the window caption. 
 
-hdc
-[in] Handle to a device context. The function draws the window caption into this device context.
+hdc 
+[in] Handle to a device context. The function draws the window caption into this device context. 
 
-lprc
+lprc 
 [in] Pointer to a RECT structure that specifies the bounding rectangle for the window caption.
 
-uFlags
-[in] Specifies drawing options.  
-```  
+uFlags 
+[in] Specifies drawing options.   
 ***  
 
 

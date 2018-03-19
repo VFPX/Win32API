@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : mmioCreateChunk
+## Function name : mmioCreateChunk
 Group: Windows Multimedia - Library: winmm    
 ***  
 
@@ -38,17 +36,15 @@ DECLARE INTEGER mmioCreateChunk IN winmm;
 
 
 ## Parameters:
-```txt  
 hmmio
 File handle of an open RIFF file.
 
 lpck
-Pointer to a buffer that receives a MMCKINFO structure containing information about the chunk to be created.
+Pointer to a buffer that receives a MMCKINFO structure containing information about the chunk to be created. 
 
 wFlags
 Flags identifying what type of chunk to create.
   
-```  
 ***  
 
 

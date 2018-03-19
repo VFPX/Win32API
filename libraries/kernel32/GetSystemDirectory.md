@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : GetSystemDirectory
+## Function name : GetSystemDirectory
 Group: System Information - Library: kernel32    
 ***  
 
@@ -42,13 +40,11 @@ As GetSystemDirectoryA;
 
 
 ## Parameters:
-```txt  
-lpBuffer
+lpBuffer 
 [out] Pointer to the buffer to receive the null-terminated string containing the path
 
-uSize
+uSize 
 [in] Specifies the maximum size of the buffer  
-```  
 ***  
 
 

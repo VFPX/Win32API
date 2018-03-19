@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : DestroyPhysicalMonitors
+## Function name : DestroyPhysicalMonitors
 Group: Monitor Configuration (Vista) - Library: dxva2    
 ***  
 
@@ -33,14 +31,12 @@ DECLARE INTEGER DestroyPhysicalMonitors IN dxva2;
 
 
 ## Parameters:
-```txt  
 dwPhysicalMonitorArraySize
 [in]  Number of elements in the pPhysicalMonitorArray array.
 
 pPhysicalMonitorArray
 [in]  Pointer to an array of PHYSICAL_MONITOR structures.
   
-```  
 ***  
 
 

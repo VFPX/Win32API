@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : DeleteObject
+## Function name : DeleteObject
 Group: Device Context - Library: gdi32    
 ***  
 
@@ -62,10 +60,8 @@ DECLARE INTEGER DeleteObject IN gdi32;
 
 
 ## Parameters:
-```txt  
-hObject
+hObject 
 [in] Handle to a logical pen, brush, font, bitmap, region, or palette.  
-```  
 ***  
 
 

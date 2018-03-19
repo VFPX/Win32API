@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : StrFormatByteSize
+## Function name : StrFormatByteSize
 Group: String - Library: shlwapi    
 ***  
 
@@ -48,17 +46,15 @@ DECLARE STRING StrFormatByteSizeA IN Shlwapi;
 
 
 ## Parameters:
-```txt  
-dw / qdw
-[in] Numeric value to be converted.
+dw / qdw 
+[in] Numeric value to be converted. 
 
-pszBuf / pwszBuf
-[out] Pointer to the converted string.
+pszBuf / pwszBuf 
+[out] Pointer to the converted string. 
 
-cchBuf
-[in] Size of pszBuf, in characters.
+cchBuf 
+[in] Size of pszBuf, in characters. 
   
-```  
 ***  
 
 

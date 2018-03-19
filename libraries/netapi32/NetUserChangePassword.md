@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : NetUserChangePassword
+## Function name : NetUserChangePassword
 Group: Network Management - Library: netapi32    
 ***  
 
@@ -38,19 +36,17 @@ DECLARE INTEGER NetUserChangePassword IN netapi32;
 
 
 ## Parameters:
-```txt  
-domainname
-[in] Pointer to a constant string that specifies the DNS or NetBIOS name of a remote server or domain on which the function is to execute. If this parameter is NULL, the logon domain of the caller is used.
+domainname 
+[in] Pointer to a constant string that specifies the DNS or NetBIOS name of a remote server or domain on which the function is to execute. If this parameter is NULL, the logon domain of the caller is used. 
 
-username
+username 
 [in] Pointer to a constant string that specifies a user name. The NetUserChangePassword function changes the password for the specified user.
 
-oldpassword
-[in] Pointer to a constant string that specifies the user"s old password.
+oldpassword 
+[in] Pointer to a constant string that specifies the user"s old password. 
 
-newpassword
-[in] Pointer to a constant string that specifies the user"s new password.  
-```  
+newpassword 
+[in] Pointer to a constant string that specifies the user"s new password.   
 ***  
 
 

@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : GetDeviceDriverFileName
+## Function name : GetDeviceDriverFileName
 Group: Performance Monitoring - Library: psapi    
 ***  
 
@@ -35,16 +33,14 @@ DECLARE INTEGER GetDeviceDriverFileName IN psapi;
 
 
 ## Parameters:
-```txt  
-ImageBase
-[in] Specifies the load address of the device driver.
+ImageBase 
+[in] Specifies the load address of the device driver. 
 
-lpFilename
-[out] Pointer to the buffer that receives the fully qualified path to the device driver.
+lpFilename 
+[out] Pointer to the buffer that receives the fully qualified path to the device driver. 
 
-nSize
-[in] Specifies the size, in bytes, of the lpFilename buffer.  
-```  
+nSize 
+[in] Specifies the size, in bytes, of the lpFilename buffer.   
 ***  
 
 

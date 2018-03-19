@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : InsertMenuItem
+## Function name : InsertMenuItem
 Group: Menu - Library: user32    
 ***  
 
@@ -41,19 +39,17 @@ DECLARE INTEGER InsertMenuItem IN user32;
 
 
 ## Parameters:
-```txt  
-hMenu
-[in] Handle to the menu in which the new menu item is inserted.
+hMenu 
+[in] Handle to the menu in which the new menu item is inserted. 
 
-uItem
-[in] Identifier or position of the menu item before which to insert the new item. The meaning of this parameter depends on the value of fByPosition.
+uItem 
+[in] Identifier or position of the menu item before which to insert the new item. The meaning of this parameter depends on the value of fByPosition. 
 
-fByPosition
-[in] Value specifying the meaning of uItem. If this parameter is FALSE, uItem is a menu item identifier. Otherwise, it is a menu item position.
+fByPosition 
+[in] Value specifying the meaning of uItem. If this parameter is FALSE, uItem is a menu item identifier. Otherwise, it is a menu item position. 
 
-lpmii
-[in] Pointer to a MENUITEMINFO structure that contains information about the new menu item.  
-```  
+lpmii 
+[in] Pointer to a MENUITEMINFO structure that contains information about the new menu item.   
 ***  
 
 

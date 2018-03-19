@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : WinHttpSetCredentials
+## Function name : WinHttpSetCredentials
 Group: HTTP Functions (WinHTTP) - Library: winhttp    
 ***  
 
@@ -42,25 +40,23 @@ DECLARE INTEGER WinHttpSetCredentials IN winhttp;
 
 
 ## Parameters:
-```txt  
-hRequest
-[in] Valid HINTERNET handle returned by WinHttpOpenRequest.
+hRequest 
+[in] Valid HINTERNET handle returned by WinHttpOpenRequest. 
 
-AuthTargets
+AuthTargets 
 [in] An unsigned integer that specifies a flag that contains the authentication target.
 
-AuthScheme
+AuthScheme 
 [in] An unsigned integer that specifies a flag that contains the authentication scheme.
 
-pwszUserName
-[in] Pointer to a string that contains a valid user name.
+pwszUserName 
+[in] Pointer to a string that contains a valid user name. 
 
-pwszPassword
-[in] Pointer to a string that contains a valid password. The password can be blank.
+pwszPassword 
+[in] Pointer to a string that contains a valid password. The password can be blank. 
 
-pAuthParams
+pAuthParams 
 [in] Reserved. Must be NULL.  
-```  
 ***  
 
 

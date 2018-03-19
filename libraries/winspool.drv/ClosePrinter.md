@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : ClosePrinter
+## Function name : ClosePrinter
 Group: Printing and Print Spooler - Library: winspool.drv    
 ***  
 
@@ -44,10 +42,8 @@ DECLARE INTEGER ClosePrinter IN winspool.drv;
 
 
 ## Parameters:
-```txt  
-hPrinter
-[in] Handle to the printer object to be closed. This handle is returned by the OpenPrinter or AddPrinter function.  
-```  
+hPrinter 
+[in] Handle to the printer object to be closed. This handle is returned by the OpenPrinter or AddPrinter function.   
 ***  
 
 

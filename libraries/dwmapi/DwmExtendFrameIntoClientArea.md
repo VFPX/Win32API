@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : DwmExtendFrameIntoClientArea
+## Function name : DwmExtendFrameIntoClientArea
 Group: Desktop Window Manager (DWM) - Library: dwmapi    
 ***  
 
@@ -33,13 +31,11 @@ HRESULT WINAPI DwmExtendFrameIntoClientArea(
 
 
 ## Parameters:
-```txt  
 hWnd
 The handle to the window in which the frame will be extended into the client area.
 
 pMarInset [in]
 A pointer to a MARGINS structure that describes the margins to use when extending the frame into the client area.  
-```  
 ***  
 
 

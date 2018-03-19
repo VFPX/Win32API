@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : SetFileAttributes
+## Function name : SetFileAttributes
 Group: File Management - Library: kernel32    
 ***  
 
@@ -34,13 +32,11 @@ DECLARE SHORT SetFileAttributes IN kernel32;
 
 
 ## Parameters:
-```txt  
-lpFileName
-[in] Pointer to a string that specifies the name of the file whose attributes are to be set.
+lpFileName 
+[in] Pointer to a string that specifies the name of the file whose attributes are to be set. 
 
-dwFileAttributes
+dwFileAttributes 
 [in] Specifies the file attributes to set for the file.  
-```  
 ***  
 
 

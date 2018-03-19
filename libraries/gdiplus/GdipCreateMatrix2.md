@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : GdipCreateMatrix2
+## Function name : GdipCreateMatrix2
 Group: GDI+ Matrix - Library: gdiplus    
 ***  
 
@@ -44,28 +42,26 @@ DECLARE INTEGER GdipCreateMatrix2 IN gdiplus;
 
 
 ## Parameters:
-```txt  
 m11
-[in] Real number that specifies the element in the first row, first column.
+[in] Real number that specifies the element in the first row, first column. 
 
 m12
-[in] Real number that specifies the element in the first row, second column.
+[in] Real number that specifies the element in the first row, second column. 
 
 m21
-[in] Real number that specifies the element in the second row, first column.
+[in] Real number that specifies the element in the second row, first column. 
 
 m22
-[in] Real number that specifies the element in the second row, second column.
+[in] Real number that specifies the element in the second row, second column. 
 
 dx
-[in] Real number that specifies the element in the third row, first column.
+[in] Real number that specifies the element in the third row, first column. 
 
 dy
 [in] Real number that specifies the element in the third row, second column.
 
 matrix
 [out] Handle to the Matrix object.  
-```  
 ***  
 
 

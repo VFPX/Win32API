@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : SCardTransmit
+## Function name : SCardTransmit
 Group: Authentication - Library: winscard    
 ***  
 
@@ -40,28 +38,26 @@ DECLARE LONG SCardTransmit IN Winscard;
 
 
 ## Parameters:
-```txt  
-hCard [in]
+hCard [in] 
 A reference value returned from the SCardConnect function.
 
-pioSendPci [in]
+pioSendPci [in] 
 A pointer to the protocol header structure for the instruction.
 
-pbSendBuffer [in]
-A pointer to the actual data to be written to the card.
+pbSendBuffer [in] 
+A pointer to the actual data to be written to the card. 
 
-cbSendLength [in]
-The length, in bytes, of the pbSendBuffer parameter.
+cbSendLength [in] 
+The length, in bytes, of the pbSendBuffer parameter. 
 
-pioRecvPci [in, out]
+pioRecvPci [in, out] 
 Pointer to the protocol header structure for the instruction, followed by a buffer in which to receive any returned protocol control information (PCI) specific to the protocol in use. This parameter can be NULL if no PCI is returned.
 
-pbRecvBuffer [out]
-Pointer to any data returned from the card.
+pbRecvBuffer [out] 
+Pointer to any data returned from the card. 
 
-pcbRecvLength [in, out]
+pcbRecvLength [in, out] 
 Supplies the length, in bytes, of the pbRecvBuffer parameter and receives the actual number of bytes received from the smart card.  
-```  
 ***  
 
 

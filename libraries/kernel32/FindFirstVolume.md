@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : FindFirstVolume
+## Function name : FindFirstVolume
 Group: File System - Library: kernel32    
 ***  
 
@@ -35,13 +33,11 @@ DECLARE INTEGER FindFirstVolume IN kernel32;
 
 
 ## Parameters:
-```txt  
-lpszVolumeName
-[out] Pointer to a buffer that receives a null-terminated string that specifies the unique volume name of the first volume found.
+lpszVolumeName 
+[out] Pointer to a buffer that receives a null-terminated string that specifies the unique volume name of the first volume found. 
 
-cchBufferLength
+cchBufferLength 
 [in] Length of the buffer to receive the name, in TCHARs.  
-```  
 ***  
 
 

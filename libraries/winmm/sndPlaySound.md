@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : sndPlaySound
+## Function name : sndPlaySound
 Group: Windows Multimedia - Library: winmm    
 ***  
 
@@ -34,13 +32,11 @@ DECLARE INTEGER sndPlaySound IN winmm;
 
 
 ## Parameters:
-```txt  
-lpszSound
-A string that specifies the sound to play.
+lpszSound 
+A string that specifies the sound to play. 
 
-fuSound
-Flags for playing the sound.  
-```  
+fuSound 
+Flags for playing the sound.   
 ***  
 
 

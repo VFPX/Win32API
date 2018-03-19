@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : MAPILogon
+## Function name : MAPILogon
 Group: Simple MAPI - Library: mapi32    
 ***  
 
@@ -43,25 +41,23 @@ DECLARE INTEGER MAPILogon IN mapi32;
 
 
 ## Parameters:
-```txt  
-ulUIParam
-[in] Parent window handle or zero, indicating that if a dialog box is displayed, it is application modal.
+ulUIParam 
+[in] Parent window handle or zero, indicating that if a dialog box is displayed, it is application modal. 
 
-lpszProfileName
-[in] Pointer to a null-terminated profile name string, limited to 256 characters or less. This is the profile to use when logging on.
+lpszProfileName 
+[in] Pointer to a null-terminated profile name string, limited to 256 characters or less. This is the profile to use when logging on. 
 
-lpszPassword
-[in] Pointer to a null-terminated credential string, limited to 256 characters or less.
+lpszPassword 
+[in] Pointer to a null-terminated credential string, limited to 256 characters or less. 
 
-flFlags
-[in] Bitmask of option flags.
+flFlags 
+[in] Bitmask of option flags. 
 
-ulReserved
-Reserved; must be zero.
+ulReserved 
+Reserved; must be zero. 
 
-lplhSession
+lplhSession 
 [out] Simple MAPI session handle.  
-```  
 ***  
 
 

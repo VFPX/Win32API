@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : OpenWaitableTimer
+## Function name : OpenWaitableTimer
 Group: Synchronization - Library: kernel32    
 ***  
 
@@ -36,16 +34,14 @@ DECLARE INTEGER OpenWaitableTimer IN kernel32;
 
 
 ## Parameters:
-```txt  
-dwDesiredAccess
+dwDesiredAccess 
 [in] Access to the timer object. The function fails if the security descriptor of the specified object does not permit the requested access for the calling process.
 
-bInheritHandle
+bInheritHandle 
 [in] If this value is TRUE, processes created by this process will inherit the handle.
 
-lpTimerName
+lpTimerName 
 [in] Pointer to a null-terminated string specifying the name of the timer object.  
-```  
 ***  
 
 

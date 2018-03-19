@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : SetWaitableTimer
+## Function name : SetWaitableTimer
 Group: Synchronization - Library: kernel32    
 ***  
 
@@ -41,25 +39,23 @@ DECLARE INTEGER SetWaitableTimer IN kernel32;
 
 
 ## Parameters:
-```txt  
-hTimer
-[in] Handle to the timer object. The CreateWaitableTimer or OpenWaitableTimer function returns this handle.
+hTimer 
+[in] Handle to the timer object. The CreateWaitableTimer or OpenWaitableTimer function returns this handle. 
 
-pDueTime
+pDueTime 
 [in] Time after which the state of the timer is to be set to signaled, in 100 nanosecond intervals. Use the format described by the FILETIME structure.
 
-lPeriod
+lPeriod 
 [in] Period of the timer, in milliseconds. If lPeriod is zero, the timer is signaled once. If lPeriod is greater than zero, the timer is periodic.
 
-pfnCompletionRoutine
-[in] Pointer to an optional completion routine.
+pfnCompletionRoutine 
+[in] Pointer to an optional completion routine. 
 
-lpArgToCompletionRoutine
-[in] Pointer to a structure that is passed to the completion routine.
+lpArgToCompletionRoutine 
+[in] Pointer to a structure that is passed to the completion routine. 
 
-fResume
+fResume 
 [in] If this parameter is TRUE, restores a system in suspended power conservation mode when the timer state is set to signaled.  
-```  
 ***  
 
 

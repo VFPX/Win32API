@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : SCardEstablishContext
+## Function name : SCardEstablishContext
 Group: Authentication - Library: winscard    
 ***  
 
@@ -37,20 +35,18 @@ DECLARE LONG SCardEstablishContext IN Winscard;
 
 
 ## Parameters:
-```txt  
-dwScope [in]
+dwScope [in] 
 Scope of the resource manager context.
 
-pvReserved1 [in]
+pvReserved1 [in] 
+Reserved for future use and must be NULL. 
+
+pvReserved2 [in] 
 Reserved for future use and must be NULL.
 
-pvReserved2 [in]
-Reserved for future use and must be NULL.
-
-phContext [out]
+phContext [out] 
 A handle to the established resource manager context.
   
-```  
 ***  
 
 

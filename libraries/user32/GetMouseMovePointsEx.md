@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : GetMouseMovePointsEx
+## Function name : GetMouseMovePointsEx
 Group: Mouse Input - Library: user32    
 ***  
 
@@ -39,7 +37,6 @@ DECLARE INTEGER GetMouseMovePointsEx IN user32;
 
 
 ## Parameters:
-```txt  
 cbSize [in]
 The size, in bytes, of the MOUSEMOVEPOINT structure.
 
@@ -54,7 +51,6 @@ The number of points to be retrieved (up to 64).
 
 resolution [in]
 The resolution desired: GMMP_USE_DISPLAY_POINTS (1), GMMP_USE_HIGH_RESOLUTION_POINTS (2)  
-```  
 ***  
 
 

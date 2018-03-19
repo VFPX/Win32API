@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : VirtualAllocEx
+## Function name : VirtualAllocEx
 Group: Memory Management - Library: kernel32    
 ***  
 
@@ -41,7 +39,6 @@ DECLARE INTEGER VirtualAllocEx IN kernel32;
 
 
 ## Parameters:
-```txt  
 hProcess [in]
 The handle to a process. The function allocates memory within the virtual address space of this process.
 
@@ -56,7 +53,6 @@ The type of memory allocation -- a predefined value.
 
 flProtect [in]
 The memory protection for the region of pages to be allocated.  
-```  
 ***  
 
 

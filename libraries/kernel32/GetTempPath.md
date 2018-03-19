@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : GetTempPath
+## Function name : GetTempPath
 Group: File Management - Library: kernel32    
 ***  
 
@@ -36,13 +34,11 @@ DECLARE INTEGER GetTempPath IN kernel32;
 
 
 ## Parameters:
-```txt  
-nBufferLength
-[in] Specifies the size, in TCHARs, of the string buffer identified by lpBuffer.
+nBufferLength 
+[in] Specifies the size, in TCHARs, of the string buffer identified by lpBuffer. 
 
-lpBuffer
+lpBuffer 
 [out] Pointer to a string buffer that receives the null-terminated string specifying the temporary file path. The returned string ends with a backslash, for example, C:\TEMP\.  
-```  
 ***  
 
 

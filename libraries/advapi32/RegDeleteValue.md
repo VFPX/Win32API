@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : RegDeleteValue
+## Function name : RegDeleteValue
 Group: Registry - Library: advapi32    
 ***  
 
@@ -33,13 +31,11 @@ DECLARE INTEGER RegDeleteValue IN advapi32;
 
 
 ## Parameters:
-```txt  
-hKey
+hKey 
 [in] Handle to an open key.
 
-lpValueName
+lpValueName 
 [in] Pointer to a null-terminated string that names the value to remove.  
-```  
 ***  
 
 

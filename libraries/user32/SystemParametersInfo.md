@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : SystemParametersInfo
+## Function name : SystemParametersInfo
 Group: System Information - Library: user32    
 ***  
 
@@ -39,19 +37,17 @@ DECLARE INTEGER SystemParametersInfo IN user32;
 
 
 ## Parameters:
-```txt  
-uiAction
+uiAction 
 [in] Specifies the system-wide parameter to retrieve or set.
 
-uiParam
+uiParam 
 [in] Depends on the system parameter being queried or set.
 
-pvParam
-[in/out] Depends on the system parameter being queried or set.
+pvParam 
+[in/out] Depends on the system parameter being queried or set. 
 
-fWinIni
+fWinIni 
 [in] If a system parameter is being set, specifies whether the user profile is to be updated.  
-```  
 ***  
 
 

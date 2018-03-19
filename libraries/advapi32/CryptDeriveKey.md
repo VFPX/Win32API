@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : CryptDeriveKey
+## Function name : CryptDeriveKey
 Group: Cryptography Reference - Library: advapi32    
 ***  
 
@@ -40,22 +38,20 @@ DECLARE INTEGER CryptDeriveKey IN advapi32;
 
 
 ## Parameters:
-```txt  
-hProv
-[in] A HCRYPTPROV handle of a CSP created by a call to CryptAcquireContext.
+hProv 
+[in] A HCRYPTPROV handle of a CSP created by a call to CryptAcquireContext. 
 
-Algid
-[in] An ALG_ID structure that identifies the symmetric encryption algorithm for which the key is to be generated.
+Algid 
+[in] An ALG_ID structure that identifies the symmetric encryption algorithm for which the key is to be generated. 
 
-hBaseData
+hBaseData 
 [in] Handle to a hash object that has been fed the exact base data.
 
-dwFlags
+dwFlags 
 [in] Specifies the type of key generated.
 
-phKey
-[in, out] Address to which the function copies the handle of the newly generated key. When you have finished using the key, release the handle by calling the CryptDestroyKey function.  
-```  
+phKey 
+[in, out] Address to which the function copies the handle of the newly generated key. When you have finished using the key, release the handle by calling the CryptDestroyKey function.   
 ***  
 
 

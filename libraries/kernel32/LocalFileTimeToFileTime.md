@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : LocalFileTimeToFileTime
+## Function name : LocalFileTimeToFileTime
 Group: Time - Library: kernel32    
 ***  
 
@@ -35,14 +33,12 @@ DECLARE INTEGER LocalFileTimeToFileTime IN kernel32;
 
 
 ## Parameters:
-```txt  
-lpLocalFileTime
-[in] Pointer to a FILETIME structure that specifies the local file time to be converted into a UTC-based file time.
+lpLocalFileTime 
+[in] Pointer to a FILETIME structure that specifies the local file time to be converted into a UTC-based file time. 
 
-lpFileTime
-[out] Pointer to a FILETIME structure to receive the converted UTC-based file time. This parameter cannot be the same as the lpLocalFileTime parameter.
+lpFileTime 
+[out] Pointer to a FILETIME structure to receive the converted UTC-based file time. This parameter cannot be the same as the lpLocalFileTime parameter. 
   
-```  
 ***  
 
 

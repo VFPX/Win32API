@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : mmioAscend
+## Function name : mmioAscend
 Group: Windows Multimedia - Library: winmm    
 ***  
 
@@ -40,16 +38,14 @@ DECLARE INTEGER mmioAscend IN winmm;
 
 
 ## Parameters:
-```txt  
-hmmio
-File handle of an open RIFF file.
+hmmio 
+File handle of an open RIFF file. 
 
-lpck
-Pointer to an application-defined MMCKINFO structure previously filled by the mmioDescend or mmioCreateChunk function.
+lpck 
+Pointer to an application-defined MMCKINFO structure previously filled by the mmioDescend or mmioCreateChunk function. 
 
-wFlags
-Reserved; must be zero.  
-```  
+wFlags 
+Reserved; must be zero.   
 ***  
 
 

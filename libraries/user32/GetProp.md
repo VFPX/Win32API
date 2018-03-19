@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : GetProp
+## Function name : GetProp
 Group: Window Property - Library: user32    
 ***  
 
@@ -33,13 +31,11 @@ DECLARE INTEGER GetProp IN user32;
 
 
 ## Parameters:
-```txt  
-hWnd
-[in] Handle to the window whose property list is to be searched.
+hWnd 
+[in] Handle to the window whose property list is to be searched. 
 
-lpString
-[in] Pointer to a null-terminated character string or contains an atom that identifies a string.  
-```  
+lpString 
+[in] Pointer to a null-terminated character string or contains an atom that identifies a string.   
 ***  
 
 

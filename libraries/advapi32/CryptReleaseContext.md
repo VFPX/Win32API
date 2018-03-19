@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : CryptReleaseContext
+## Function name : CryptReleaseContext
 Group: Cryptography Reference - Library: advapi32    
 ***  
 
@@ -39,13 +37,11 @@ DECLARE INTEGER CryptReleaseContext IN advapi32;
 
 
 ## Parameters:
-```txt  
-hProv
-[in] Handle of a cryptographic service provider (CSP) created by a call to CryptAcquireContext.
+hProv 
+[in] Handle of a cryptographic service provider (CSP) created by a call to CryptAcquireContext. 
 
-dwFlags
-[in] Reserved for future use and must be zero. If dwFlags is not set to zero, this function returns FALSE but the CSP is released.  
-```  
+dwFlags 
+[in] Reserved for future use and must be zero. If dwFlags is not set to zero, this function returns FALSE but the CSP is released.   
 ***  
 
 

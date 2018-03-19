@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : InternetConnect
+## Function name : InternetConnect
 Group: Internet Functions (WinInet) - Library: wininet    
 ***  
 
@@ -60,7 +58,6 @@ DECLARE INTEGER InternetConnect IN wininet;
 
 
 ## Parameters:
-```txt  
 hInternet
 [in] Valid HINTERNET handle returned by a previous call to InternetOpen.
 
@@ -84,7 +81,6 @@ dwFlags
 
 dwContext
 [in] Pointer to an unsigned long integer value ...  
-```  
 ***  
 
 

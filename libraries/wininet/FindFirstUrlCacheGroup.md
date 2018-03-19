@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : FindFirstUrlCacheGroup
+## Function name : FindFirstUrlCacheGroup
 Group: Internet Functions (WinInet) - Library: wininet    
 ***  
 
@@ -43,25 +41,23 @@ DECLARE INTEGER FindFirstUrlCacheGroup In wininet;
 
 
 ## Parameters:
-```txt  
-dwFlags
-[in] Reserved. Must be zero.
+dwFlags 
+[in] Reserved. Must be zero. 
 
-dwFilter
-[in] Filters to be used.
+dwFilter 
+[in] Filters to be used. 
 
-lpSearchCondition
-[in] Reserved. Must be NULL.
+lpSearchCondition 
+[in] Reserved. Must be NULL. 
 
-dwSearchCondition
-[in] Reserved. Must be zero.
+dwSearchCondition 
+[in] Reserved. Must be zero. 
 
-lpGroupId
-[out] Pointer to the ID of the first cache group that matches the search criteria.
+lpGroupId 
+[out] Pointer to the ID of the first cache group that matches the search criteria. 
 
-lpReserved
-[in, out] Reserved. Must be NULL.  
-```  
+lpReserved 
+[in, out] Reserved. Must be NULL.   
 ***  
 
 

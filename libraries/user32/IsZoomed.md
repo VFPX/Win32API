@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : IsZoomed
+## Function name : IsZoomed
 Group: Window - Library: user32    
 ***  
 
@@ -29,10 +27,8 @@ DECLARE INTEGER IsZoomed IN user32;
 
 
 ## Parameters:
-```txt  
 hWnd
-[in] Handle to the window to test.  
-```  
+[in] Handle to the window to test.   
 ***  
 
 

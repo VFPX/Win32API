@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : GetProcAddress
+## Function name : GetProcAddress
 Group: Dynamic-Link Library - Library: kernel32    
 ***  
 
@@ -34,13 +32,11 @@ DECLARE INTEGER GetProcAddress IN kernel32;
 
 
 ## Parameters:
-```txt  
-hModule
+hModule 
 [in] Handle to the DLL module that contains the function or variable.
 
-lpProcName
+lpProcName 
 [in] Pointer to a null-terminated string containing the function or variable name, or the function"s ordinal value. If this parameter is an ordinal value, it must be in the low-order word; the high-order word must be zero.  
-```  
 ***  
 
 

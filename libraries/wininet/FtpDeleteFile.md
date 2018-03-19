@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : FtpDeleteFile
+## Function name : FtpDeleteFile
 Group: Internet Functions (WinInet) - Library: wininet    
 ***  
 
@@ -34,13 +32,11 @@ DECLARE INTEGER FtpDeleteFile IN wininet;
 
 
 ## Parameters:
-```txt  
 hConnect
 [in] Valid HINTERNET handle returned by a previous call to InternetConnect using INTERNET_SERVICE_FTP.
 
 lpszFileName
 [in] Pointer to a null-terminated string that contains the name of the file to delete on the remote system.  
-```  
 ***  
 
 

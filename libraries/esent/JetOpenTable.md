@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : JetOpenTable
+## Function name : JetOpenTable
 Group: Extensible Storage Engine (ESE, Jet Blue) - Library: esent    
 ***  
 
@@ -44,28 +42,26 @@ DECLARE INTEGER JetOpenTable IN esent;
 
 
 ## Parameters:
-```txt  
-sesid
+sesid 
 The database session context to use.
 
-dbid
+dbid 
 The database identifier to use to find the table.
 
-szTableName
+szTableName 
 The name of the table to open.
 
-pvParameters
+pvParameters 
 Deprecated. Set to NULL.
 
-cbParameters
+cbParameters 
 Deprecated. Set to 0 (zero).
 
-grbit
+grbit 
 A group of bits specifying zero or more of predefined options.
 
-ptableid
+ptableid 
 On success, points to the identifier of the table. On failure, the contents for ptableid are undefined.  
-```  
 ***  
 
 

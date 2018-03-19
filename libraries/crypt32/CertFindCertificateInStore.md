@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : CertFindCertificateInStore
+## Function name : CertFindCertificateInStore
 Group: Cryptography Reference - Library: crypt32    
 ***  
 
@@ -40,25 +38,23 @@ DECLARE INTEGER CertFindCertificateInStore IN crypt32;
 
 
 ## Parameters:
-```txt  
-hCertStore
+hCertStore 
 [in] A handle of the certificate store to be searched. See CertOpenSystemStore, CertOpenStore.
 
-dwCertEncodingType
+dwCertEncodingType 
 [in] Specifies the type of encoding used. Both the certificate and message encoding types must be specified by combining them with a bitwise-OR operation.
 
-dwFindFlags
+dwFindFlags 
 [in] Used with some dwFindType values to modify the search criteria.
 
-dwFindType
+dwFindType 
 [in] Specifies the type of search being made.
 
-pvFindPara
+pvFindPara 
 [in] Points to a data item or structure used with dwFindType.
 
-pPrevCertContext
+pPrevCertContext 
 [in] A pointer to the last CERT_CONTEXT structure returned by this function (previous call). This parameter must be NULL on the first call of the function.  
-```  
 ***  
 
 

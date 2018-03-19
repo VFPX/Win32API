@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : CryptAcquireContext
+## Function name : CryptAcquireContext
 Group: Cryptography Reference - Library: advapi32    
 ***  
 
@@ -44,22 +42,20 @@ DECLARE INTEGER CryptAcquireContext IN advapi32;
 
 
 ## Parameters:
-```txt  
-phProv
-[out] Pointer to a handle of a CSP.
+phProv 
+[out] Pointer to a handle of a CSP.  
 
-pszContainer
-[in] Key container name.
+pszContainer 
+[in] Key container name. 
 
-pszProvider
-[in] A null-terminated string that specifies the name of the CSP to be used.
+pszProvider 
+[in] A null-terminated string that specifies the name of the CSP to be used. 
 
-dwProvType
+dwProvType 
 [in] Specifies the type of provider to acquire.
 
-dwFlags
+dwFlags 
 [in] Flag values.  
-```  
 ***  
 
 

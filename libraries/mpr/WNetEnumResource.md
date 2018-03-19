@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : WNetEnumResource
+## Function name : WNetEnumResource
 Group: Windows Networking - Library: mpr    
 ***  
 
@@ -37,19 +35,17 @@ DECLARE INTEGER WNetEnumResource IN mpr;
 
 
 ## Parameters:
-```txt  
-hEnum
-[in] Specifies a handle that identifies an enumeration instance. This handle must be returned by the WNetOpenEnum function.
+hEnum 
+[in] Specifies a handle that identifies an enumeration instance. This handle must be returned by the WNetOpenEnum function. 
 
-lpcCount
+lpcCount 
 [in/out] Pointer to a variable specifying the number of entries requested. If the number requested is –1, the function returns as many entries as possible.
 
-lpBuffer
+lpBuffer 
 [out] Pointer to the buffer that receives the enumeration results. The results are returned as an array of NETRESOURCE structures.
 
-lpBufferSize
+lpBufferSize 
 [in/out] Pointer to a variable that specifies the size, in bytes, of the lpBuffer parameter.  
-```  
 ***  
 
 

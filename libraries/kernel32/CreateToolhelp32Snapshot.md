@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : CreateToolhelp32Snapshot
+## Function name : CreateToolhelp32Snapshot
 Group: Performance Monitoring - Library: kernel32    
 ***  
 
@@ -33,13 +31,11 @@ DECLARE INTEGER CreateToolhelp32Snapshot IN kernel32;
 
 
 ## Parameters:
-```txt  
-dwFlags
-[in] Specifies portions of the system to include in the snapshot.
+dwFlags 
+[in] Specifies portions of the system to include in the snapshot. 
 
-th32ProcessID
+th32ProcessID 
 [in] Specifies the process identifier. This parameter can be zero to indicate the current process.  
-```  
 ***  
 
 

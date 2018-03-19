@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : SHFormatDrive
+## Function name : SHFormatDrive
 Group: Shell Functions - Library: shell32    
 ***  
 
@@ -38,7 +36,6 @@ DECLARE INTEGER SHFormatDrive IN shell32;
 
 
 ## Parameters:
-```txt  
 hwnd
 [in] The window handle of the window that will own the dialog.
 
@@ -51,7 +48,6 @@ fmtID
 options
 [in] Predefined options.
   
-```  
 ***  
 
 

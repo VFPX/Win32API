@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : waveOutReset
+## Function name : waveOutReset
 Group: Windows Multimedia - Library: winmm    
 ***  
 
@@ -32,10 +30,8 @@ DECLARE INTEGER waveOutReset IN winmm;
 
 
 ## Parameters:
-```txt  
-hwo
-Handle to the waveform-audio output device returned by waveOutOpen.  
-```  
+hwo 
+Handle to the waveform-audio output device returned by waveOutOpen.   
 ***  
 
 

@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : GdipCreatePathGradientI
+## Function name : GdipCreatePathGradientI
 Group: GDI+ PathGradient Brush - Library: gdiplus    
 ***  
 
@@ -36,7 +34,6 @@ DECLARE INTEGER GdipCreatePathGradientI IN gdiplus;
 
 
 ## Parameters:
-```txt  
 points [in]
 Pointer to an array of points that specifies the boundary path of the path gradient brush.
 
@@ -44,11 +41,10 @@ count [in]
 Integer that specifies the number of elements in the points array.
 
 wrapMode [in]
-Element of the WrapMode enumeration (0 to 4) that specifies how areas painted with the path gradient brush will be tiled.
+Element of the WrapMode enumeration (0 to 4) that specifies how areas painted with the path gradient brush will be tiled. 
 
 brush
 [out] Handle of the brush object.  
-```  
 ***  
 
 

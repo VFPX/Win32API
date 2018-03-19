@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : recv
+## Function name : recv
 Group: Windows Sockets 2 (Winsock) - Library: ws2_32    
 ***  
 
@@ -44,19 +42,17 @@ DECLARE INTEGER recv IN ws2_32;
 
 
 ## Parameters:
-```txt  
-s
-[in] Descriptor identifying a connected socket.
+s 
+[in] Descriptor identifying a connected socket. 
 
-buf
-[out] Buffer for the incoming data.
+buf 
+[out] Buffer for the incoming data. 
 
-len
-[in] Length of buf, in bytes
+len 
+[in] Length of buf, in bytes 
 
-flags
-[in] Flag specifying the way in which the call is made.  
-```  
+flags 
+[in] Flag specifying the way in which the call is made.   
 ***  
 
 

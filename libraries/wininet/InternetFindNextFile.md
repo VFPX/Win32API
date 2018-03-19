@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : InternetFindNextFile
+## Function name : InternetFindNextFile
 Group: Internet Functions (WinInet) - Library: wininet    
 ***  
 
@@ -37,13 +35,11 @@ DECLARE INTEGER InternetFindNextFile IN wininet;
 
 
 ## Parameters:
-```txt  
 hFind
 [in] Valid HINTERNET handle returned from either FtpFindFirstFile or GopherFindFirstFile, or from InternetOpenUrl (directories only).
 
 lpvFindData
 [out] Pointer to the buffer that receives information about the found file or directory  
-```  
 ***  
 
 

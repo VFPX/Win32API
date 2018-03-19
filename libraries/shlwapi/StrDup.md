@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : StrDup
+## Function name : StrDup
 Group: Shell Lightweight Utility APIs -- string functions - Library: shlwapi    
 ***  
 
@@ -32,10 +30,8 @@ DECLARE INTEGER StrDup IN shlwapi;
 
 
 ## Parameters:
-```txt  
-lpsz
+lpsz 
 [in] Pointer to a constant null-terminated character string.  
-```  
 ***  
 
 

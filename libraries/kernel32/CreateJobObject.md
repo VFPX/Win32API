@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : CreateJobObject
+## Function name : CreateJobObject
 Group: Process and Thread - Library: kernel32    
 ***  
 
@@ -34,13 +32,11 @@ DECLARE INTEGER CreateJobObject IN kernel32;
 
 
 ## Parameters:
-```txt  
-lpJobAttributes
+lpJobAttributes 
 [in] Pointer to a SECURITY_ATTRIBUTES structure, can be NULL.
 
-lpName
+lpName 
 [in] Pointer to a null-terminated string specifying the name of the job. If lpName is NULL, the job is created without a name.  
-```  
 ***  
 
 

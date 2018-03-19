@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : GetProcessIoCounters
+## Function name : GetProcessIoCounters
 Group: Process and Thread - Library: kernel32    
 ***  
 
@@ -34,14 +32,12 @@ DECLARE INTEGER GetProcessIoCounters IN kernel32;
 
 
 ## Parameters:
-```txt  
-hProcess
+hProcess 
 A handle to the process. The handle must have the PROCESS_QUERY_INFORMATION or PROCESS_QUERY_LIMITED_INFORMATION access right.
 
-lpIoCounters
+lpIoCounters 
 A pointer to an IO_COUNTERS structure that receives the I/O accounting information for the process.
   
-```  
 ***  
 
 

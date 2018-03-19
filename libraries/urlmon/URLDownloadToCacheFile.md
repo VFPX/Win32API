@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : URLDownloadToCacheFile
+## Function name : URLDownloadToCacheFile
 Group: URL Monikers - Library: urlmon    
 ***  
 
@@ -42,25 +40,23 @@ DECLARE INTEGER URLDownloadToCacheFile IN urlmon;
 
 
 ## Parameters:
-```txt  
 lpUnkcaller
 Pointer to the controlling IUnknown interface of the calling Microsoft® ActiveX® component (if the caller is an ActiveX component).
 
 szURL
-Pointer to a string value that contains the URL to be downloaded. This cannot be set to NULL.
+Pointer to a string value that contains the URL to be downloaded. This cannot be set to NULL. 
 
 szFileName
-Pointer to a string value that contains the name of the downloaded file. This cannot be set to NULL.
+Pointer to a string value that contains the name of the downloaded file. This cannot be set to NULL. 
 
 dwBufLength
-Unsigned long integer value that contains the size of the szFileName buffer in bytes.
+Unsigned long integer value that contains the size of the szFileName buffer in bytes. 
 
 dwReserved
 Reserved. Must be set to 0.
 
 pBSC
 Pointer to the caller"s IBindStatusCallback interface.  
-```  
 ***  
 
 

@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : GdipMeasureString
+## Function name : GdipMeasureString
 Group: GDI+ Text - Library: gdiplus    
 ***  
 
@@ -48,35 +46,33 @@ DECLARE INTEGER GdipMeasureString IN gdiplus;
 
 
 ## Parameters:
-```txt  
 graphics
 [in] Pointer to a Graphics object.
 
 string
-[in] Pointer to a wide-character string to be measured.
+[in] Pointer to a wide-character string to be measured. 
 
 length
-[in] Integer that specifies the number of characters in the string array. The length parameter can be set to ?1 if the string is null terminated.
+[in] Integer that specifies the number of characters in the string array. The length parameter can be set to ?1 if the string is null terminated. 
 
 font
-[in] Pointer to a Font object that specifies the family name, size, and style of the font that is applied to the string.
+[in] Pointer to a Font object that specifies the family name, size, and style of the font that is applied to the string. 
 
 layoutRectSize
-[in] Reference to a SizeF object that specifies the width and height of a rectangle that bounds the string.
+[in] Reference to a SizeF object that specifies the width and height of a rectangle that bounds the string. 
 
 stringFormat
-[in] Pointer to a StringFormat object that specifies the layout information, such as alignment, trimming, tab stops, and so forth.
+[in] Pointer to a StringFormat object that specifies the layout information, such as alignment, trimming, tab stops, and so forth. 
 
 size
-[out] Pointer to a SizeF object that receives the width and height of the rectangle that bounds the string.
+[out] Pointer to a SizeF object that receives the width and height of the rectangle that bounds the string. 
 
 codepointsFitted
-[out] Optional. Pointer to an INT that receives the number of characters that actually fit into the layout rectangle. The default value is a NULL pointer.
+[out] Optional. Pointer to an INT that receives the number of characters that actually fit into the layout rectangle. The default value is a NULL pointer. 
 
 linesFilled
-[out] Optional. Pointer to an INT that receives the number of lines that actually fit into the layout rectangle. The default value is a NULL pointer.
+[out] Optional. Pointer to an INT that receives the number of lines that actually fit into the layout rectangle. The default value is a NULL pointer. 
   
-```  
 ***  
 
 

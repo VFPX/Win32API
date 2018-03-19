@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : GetDateFormat
+## Function name : GetDateFormat
 Group: National Language Support - Library: kernel32    
 ***  
 
@@ -38,7 +36,6 @@ DECLARE INTEGER GetDateFormat IN kernel32;
 
 
 ## Parameters:
-```txt  
 Locale [in]
 Locale identifier that specifies the locale this function formats the date string for.
 
@@ -56,7 +53,6 @@ Pointer to a buffer in which this function retrieves the formatted date string.
 
 cchDate [in]
 Size, in characters, of the lpDateStr buffer.  
-```  
 ***  
 
 

@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : WNetCloseEnum
+## Function name : WNetCloseEnum
 Group: Windows Networking - Library: mpr    
 ***  
 
@@ -31,10 +29,8 @@ DECLARE INTEGER WNetCloseEnum IN mpr;
 
 
 ## Parameters:
-```txt  
-hEnum
-[in] Specifies a handle that identifies an enumeration instance. This handle must be returned by the WNetOpenEnum function.  
-```  
+hEnum 
+[in] Specifies a handle that identifies an enumeration instance. This handle must be returned by the WNetOpenEnum function.   
 ***  
 
 

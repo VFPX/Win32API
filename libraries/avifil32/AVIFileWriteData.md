@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : AVIFileWriteData
+## Function name : AVIFileWriteData
 Group: Windows Multimedia - Library: avifil32    
 ***  
 
@@ -39,7 +37,6 @@ DECLARE INTEGER AVIFileWriteData IN avifil32;
 
 
 ## Parameters:
-```txt  
 pfile
 Handle to an open AVI file.
 
@@ -52,7 +49,6 @@ Pointer to the buffer used to write the data.
 cbData
 Size, in bytes, of the memory block referenced by lpData.
   
-```  
 ***  
 
 

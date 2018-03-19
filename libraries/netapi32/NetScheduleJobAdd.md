@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : NetScheduleJobAdd
+## Function name : NetScheduleJobAdd
 Group: Network Management - Library: netapi32    
 ***  
 
@@ -36,16 +34,14 @@ DECLARE SHORT NetScheduleJobAdd IN netapi32;
 
 
 ## Parameters:
-```txt  
-Servername
+Servername 
 [in] Pointer to a constant string that specifies the DNS or NetBIOS name of the remote server on which the function is to execute. If this parameter is NULL, the local computer is used.
 
-Buffer
-[in] Pointer to an AT_INFO structure describing the job to submit.
+Buffer 
+[in] Pointer to an AT_INFO structure describing the job to submit. 
 
-JobId
+JobId 
 [out] Pointer that receives a job identifier for the newly submitted job. This entry is valid only if the function returns successfully.  
-```  
 ***  
 
 

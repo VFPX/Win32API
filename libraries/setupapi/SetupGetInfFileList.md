@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : SetupGetInfFileList
+## Function name : SetupGetInfFileList
 Group: Setup API functions - Library: setupapi    
 ***  
 
@@ -39,22 +37,20 @@ DECLARE INTEGER SetupGetInfFileList IN setupapi;
 
 
 ## Parameters:
-```txt  
-DirectoryPath
-An optional parameter that points to a null-terminated string containing the path of the directory in which to search. If this value is NULL, the %windir%\inf directory is used.
+DirectoryPath 
+An optional parameter that points to a null-terminated string containing the path of the directory in which to search. If this value is NULL, the %windir%\inf directory is used. 
 
-InfStyle
-Specifies the style of INF file to search for.
+InfStyle 
+Specifies the style of INF file to search for. 
 
-ReturnBuffer
-If not NULL, points to a caller-supplied buffer in which this function returns the list of all INF files of the desired style(s) that were found in the specified subdirectory.
+ReturnBuffer 
+If not NULL, points to a caller-supplied buffer in which this function returns the list of all INF files of the desired style(s) that were found in the specified subdirectory. 
 
-ReturnBufferSize
-Specifies the size of the buffer pointed to by the ReturnBuffer parameter.
+ReturnBufferSize 
+Specifies the size of the buffer pointed to by the ReturnBuffer parameter. 
 
-RequiredSize
-If not NULL, points to a caller-supplied variable in which this function returns the required size for the buffer pointed to by the ReturnBuffer parameter.  
-```  
+RequiredSize 
+If not NULL, points to a caller-supplied variable in which this function returns the required size for the buffer pointed to by the ReturnBuffer parameter.   
 ***  
 
 

@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : EnumPrintProcessorDatatypes
+## Function name : EnumPrintProcessorDatatypes
 Group: Printing and Print Spooler - Library: winspool.drv    
 ***  
 
@@ -43,28 +41,26 @@ DECLARE INTEGER EnumPrintProcessorDatatypes IN winspool.drv;
 
 
 ## Parameters:
-```txt  
-pName
+pName 
 [in] Pointer to a null-terminated string that specifies the name of the server on which the print processor resides.
 
-pPrintProcessorName
-[in] Pointer to a null-terminated string that specifies the name of the print processor whose data types are enumerated.
+pPrintProcessorName 
+[in] Pointer to a null-terminated string that specifies the name of the print processor whose data types are enumerated. 
 
-Level
-[in] Specifies the type of information returned in the pDatatypes buffer. This parameter must be 1.
+Level 
+[in] Specifies the type of information returned in the pDatatypes buffer. This parameter must be 1. 
 
-pDatatypes
-[out] Pointer to a buffer that receives an array of DATATYPES_INFO_1 structures.
+pDatatypes 
+[out] Pointer to a buffer that receives an array of DATATYPES_INFO_1 structures. 
 
-cbBuf
-[in] Specifies the size, in bytes, of the buffer pointed to by pDatatypes.
+cbBuf 
+[in] Specifies the size, in bytes, of the buffer pointed to by pDatatypes. 
 
-pcbNeeded
-[out] Pointer to a variable that receives the number of bytes copied to the pDatatypes buffer if the function succeeds.
+pcbNeeded 
+[out] Pointer to a variable that receives the number of bytes copied to the pDatatypes buffer if the function succeeds. 
 
-pcReturned
+pcReturned 
 [out] Pointer to a variable that receives the number of structures returned in the pDatatypes buffer.  
-```  
 ***  
 
 

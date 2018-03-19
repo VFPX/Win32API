@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : ExtractAssociatedIcon
+## Function name : ExtractAssociatedIcon
 Group: Icon - Library: shell32    
 ***  
 
@@ -38,16 +36,14 @@ DECLARE INTEGER ExtractAssociatedIcon IN shell32;
 
 
 ## Parameters:
-```txt  
-hInst
-[in] Specifies the instance of the application calling the function.
+hInst 
+[in] Specifies the instance of the application calling the function. 
 
-lpIconPath
-[in] Pointer to a string that specifies the full path and file name of the file that contains the icon.
+lpIconPath 
+[in] Pointer to a string that specifies the full path and file name of the file that contains the icon. 
 
-lpiIcon
-[in] Pointer to a WORD that specifies the index of the icon whose handle is to be obtained.  
-```  
+lpiIcon 
+[in] Pointer to a WORD that specifies the index of the icon whose handle is to be obtained.   
 ***  
 
 

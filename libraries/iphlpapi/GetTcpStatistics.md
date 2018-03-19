@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : GetTcpStatistics
+## Function name : GetTcpStatistics
 Group: IP Helper - Library: iphlpapi    
 ***  
 
@@ -31,10 +29,8 @@ DECLARE INTEGER GetTcpStatistics IN iphlpapi;
 
 
 ## Parameters:
-```txt  
-pStats
-[out] Pointer to a MIB_TCPSTATS structure that receives the TCP statistics for the local computer.  
-```  
+pStats 
+[out] Pointer to a MIB_TCPSTATS structure that receives the TCP statistics for the local computer.   
 ***  
 
 

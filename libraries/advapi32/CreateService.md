@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : CreateService
+## Function name : CreateService
 Group: Service - Library: advapi32    
 ***  
 
@@ -55,46 +53,44 @@ DECLARE INTEGER CreateService IN advapi32;
 
 
 ## Parameters:
-```txt  
-hSCManager
-[in] Handle to the service control manager database. This handle is returned by the OpenSCManager function and must have the SC_MANAGER_CREATE_SERVICE access right.
+hSCManager 
+[in] Handle to the service control manager database. This handle is returned by the OpenSCManager function and must have the SC_MANAGER_CREATE_SERVICE access right. 
 
-lpServiceName
-[in] Pointer to a null-terminated string that specifies the name of the service to install.
+lpServiceName 
+[in] Pointer to a null-terminated string that specifies the name of the service to install. 
 
-lpDisplayName
+lpDisplayName 
 [in] Pointer to a null-terminated string that contains the display name to be used by user interface programs to identify the service.
 
-dwDesiredAccess
+dwDesiredAccess 
 [in] Access to the service.
 
-dwServiceType
+dwServiceType 
 [in] Service types, example SERVICE_WIN32_OWN_PROCESS.
 
-dwStartType
+dwStartType 
 [in] Service start options, example SERVICE_DEMAND_START.
 
-dwErrorControl
+dwErrorControl 
 [in] Severity of the error, and action taken, if this service fails to start, example SERVICE_ERROR_NORMAL.
 
-lpBinaryPathName
+lpBinaryPathName 
 [in] Pointer to a null-terminated string that contains the fully qualified path to the service binary file.
 
-lpLoadOrderGroup
+lpLoadOrderGroup 
 [in] Pointer to a null-terminated string that names the load ordering group of which this service is a member. Can be NULL.
 
-lpdwTagId
+lpdwTagId 
 [out] Pointer to a variable that receives a tag value that is unique in the group specified in the lpLoadOrderGroup parameter. Can be NULL.
 
-lpDependencies
+lpDependencies 
 [in] Pointer to a double null-terminated array of null-separated names of services or load ordering groups that the system must start before this service. Can be NULL.
 
-lpServiceStartName
+lpServiceStartName 
 [in] Pointer to a null-terminated string that specifies the name of the account under which the service should run. Set to NULL for LocalSystem account.
 
-lpPassword
-[in] Pointer to a null-terminated string that contains the password to the account name specified by the lpServiceStartName parameter.  
-```  
+lpPassword 
+[in] Pointer to a null-terminated string that contains the password to the account name specified by the lpServiceStartName parameter.   
 ***  
 
 

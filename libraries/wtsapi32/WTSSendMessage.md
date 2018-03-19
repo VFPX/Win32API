@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : WTSSendMessage
+## Function name : WTSSendMessage
 Group: Terminal Services - Library: wtsapi32    
 ***  
 
@@ -46,37 +44,35 @@ DECLARE INTEGER WTSSendMessage IN WtsApi32;
 
 
 ## Parameters:
-```txt  
-hServer
-[in] Handle to a terminal server. Specify a handle opened by the WTSOpenServer function, or specify WTS_CURRENT_SERVER_HANDLE to indicate the terminal server on which your application is running.
+hServer 
+[in] Handle to a terminal server. Specify a handle opened by the WTSOpenServer function, or specify WTS_CURRENT_SERVER_HANDLE to indicate the terminal server on which your application is running. 
 
-SessionId
-[in] A Terminal Services session identifier. To indicate the current session, specify WTS_CURRENT_SESSION.
+SessionId 
+[in] A Terminal Services session identifier. To indicate the current session, specify WTS_CURRENT_SESSION. 
 
-pTitle
-[in] Pointer to a null-terminated string for the title bar of the message box.
+pTitle 
+[in] Pointer to a null-terminated string for the title bar of the message box. 
 
-TitleLength
-[in] Specifies the length, in bytes, of the title bar string.
+TitleLength 
+[in] Specifies the length, in bytes, of the title bar string. 
 
-pMessage
-[in] Pointer to a null-terminated string containing the message to display.
+pMessage 
+[in] Pointer to a null-terminated string containing the message to display. 
 
-MessageLength
-[in] Specifies the length, in bytes, of the message string.
+MessageLength 
+[in] Specifies the length, in bytes, of the message string. 
 
-Style
+Style 
 [in] Specifies the contents and behavior of the message box.
 
-Timeout
+Timeout 
 [in] Specifies the time, in seconds, that the WTSSendMessage function waits for the user"s response.
 
-pResponse
+pResponse 
 [out] Pointer to a variable that receives the user"s response.
 
-bWait
+bWait 
 [in] If TRUE, WTSSendMessage does not return until the user responds or the time-out interval elapses. If the Timeout parameter is zero, the function does not return until the user responds.  
-```  
 ***  
 
 

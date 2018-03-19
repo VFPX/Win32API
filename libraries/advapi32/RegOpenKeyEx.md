@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : RegOpenKeyEx
+## Function name : RegOpenKeyEx
 Group: Registry - Library: advapi32    
 ***  
 
@@ -44,22 +42,20 @@ DECLARE INTEGER RegOpenKeyEx IN advapi32;
 
 
 ## Parameters:
-```txt  
-hKey
+hKey 
 [in] Handle to a currently open key or a predefined reserved handle value.
 
-lpSubKey
-[in] Pointer to a null-terminated string containing the name of the subkey to open.
+lpSubKey 
+[in] Pointer to a null-terminated string containing the name of the subkey to open. 
 
-ulOptions
-Reserved; must be zero.
+ulOptions 
+Reserved; must be zero. 
 
-samDesired
-[in] An access mask that specifies the desired access rights to the key.
+samDesired 
+[in] An access mask that specifies the desired access rights to the key. 
 
-phkResult
+phkResult 
 [out] Pointer to a variable that receives a handle to the opened key.  
-```  
 ***  
 
 

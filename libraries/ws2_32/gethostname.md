@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : gethostname
+## Function name : gethostname
 Group: Windows Sockets 2 (Winsock) - Library: ws2_32    
 ***  
 
@@ -36,13 +34,11 @@ DECLARE INTEGER gethostname IN ws2_32;
 
 
 ## Parameters:
-```txt  
-name
-[out] Pointer to a buffer that receives the local host name.
+name 
+[out] Pointer to a buffer that receives the local host name. 
 
-namelen
-[in] Length of the buffer.  
-```  
+namelen 
+[in] Length of the buffer.   
 ***  
 
 

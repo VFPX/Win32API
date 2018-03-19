@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : FreePrinterNotifyInfo
+## Function name : FreePrinterNotifyInfo
 Group: Printing and Print Spooler - Library: winspool.drv    
 ***  
 
@@ -33,10 +31,8 @@ DECLARE INTEGER FreePrinterNotifyInfo IN winspool.drv;
 
 
 ## Parameters:
-```txt  
-pPrinterNotifyInfo
-[in] Pointer to a PRINTER_NOTIFY_INFO buffer returned from a call to the FindNextPrinterChangeNotification function. FreePrinterNotifyInfo deallocates this buffer.  
-```  
+pPrinterNotifyInfo 
+[in] Pointer to a PRINTER_NOTIFY_INFO buffer returned from a call to the FindNextPrinterChangeNotification function. FreePrinterNotifyInfo deallocates this buffer.   
 ***  
 
 

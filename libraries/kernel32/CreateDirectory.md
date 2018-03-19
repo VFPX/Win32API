@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : CreateDirectory
+## Function name : CreateDirectory
 Group: File Management - Library: kernel32    
 ***  
 
@@ -35,13 +33,11 @@ DECLARE INTEGER CreateDirectory IN kernel32;
 
 
 ## Parameters:
-```txt  
-lpPathName
+lpPathName 
 [in] Pointer to a null-terminated string that specifies the path of the directory to be created
 
 lpSecurityAttributes
 Windows NT/2000: [in] Pointer to a SECURITY_ATTRIBUTES structure. The lpSecurityDescriptor member of the structure specifies a security descriptor for the new directory. If lpSecurityAttributes is NULL, the directory gets a default security descriptor. The target file system must support security on files and directories for this parameter to have an effect.  
-```  
 ***  
 
 

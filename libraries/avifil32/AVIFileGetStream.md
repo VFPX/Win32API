@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : AVIFileGetStream
+## Function name : AVIFileGetStream
 Group: Windows Multimedia - Library: avifil32    
 ***  
 
@@ -40,7 +38,6 @@ DECLARE INTEGER AVIFileGetStream IN avifil32;
 
 
 ## Parameters:
-```txt  
 pfile
 Handle to an open AVI file.
 
@@ -51,9 +48,8 @@ fccType
 Four-character code indicating the type of stream to open.
 
 lParam
-Count of the stream type. Identifies which occurrence of the specified stream type to access.
+Count of the stream type. Identifies which occurrence of the specified stream type to access. 
   
-```  
 ***  
 
 

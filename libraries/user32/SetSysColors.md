@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : SetSysColors
+## Function name : SetSysColors
 Group: System Information - Library: user32    
 ***  
 
@@ -35,16 +33,14 @@ DECLARE INTEGER SetSysColors IN user32;
 
 
 ## Parameters:
-```txt  
 cDspElements
-Specifies the number of display elements in the array pointed to by the lpnDspElements parameter.
+Specifies the number of display elements in the array pointed to by the lpnDspElements parameter. 
 
 lpnDspElements
 Points to an array of integers that specify the display elements to be changed. For a list of display elements, see the GetSysColor function.
 
 lpdwRgbValues
 Points to an array of unsigned long integers that contains the new red, green, blue (RGB) color value for each display element in the array pointed to by the lpnDspElements parameter.  
-```  
 ***  
 
 

@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : GetWindowText
+## Function name : GetWindowText
 Group: Window - Library: user32    
 ***  
 
@@ -52,16 +50,14 @@ DECLARE INTEGER GetWindowText IN user32;
 
 
 ## Parameters:
-```txt  
 hWnd
-Identifies the window or control containing the text.
+Identifies the window or control containing the text. 
 
 lpString
-Points to the buffer that will receive the text.
+Points to the buffer that will receive the text. 
 
 nMaxCount
 Specifies the maximum number of characters to copy to the buffer. If the text exceeds this limit, it is truncated  
-```  
 ***  
 
 

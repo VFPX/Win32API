@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : WritePrivateProfileString
+## Function name : WritePrivateProfileString
 Group: Registry - Library: kernel32    
 ***  
 
@@ -37,19 +35,17 @@ DECLARE WritePrivateProfileString IN kernel32;
 
 
 ## Parameters:
-```txt  
-lpAppName
+lpAppName 
 [in] Pointer to a null-terminated string containing the name of the section to which the string will be copied.
 
-lpKeyName
-[in] Pointer to the null-terminated string containing the name of the key to be associated with a string.
+lpKeyName 
+[in] Pointer to the null-terminated string containing the name of the key to be associated with a string. 
 
-lpString
+lpString 
 [in] Pointer to a null-terminated string to be written to the file.
 
-lpFileName
+lpFileName 
 [in] Pointer to a null-terminated string that specifies the name of the initialization file.  
-```  
 ***  
 
 

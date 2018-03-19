@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : SendARP
+## Function name : SendARP
 Group: IP Helper - Library: iphlpapi    
 ***  
 
@@ -39,19 +37,17 @@ DECLARE INTEGER SendARP IN iphlpapi;
 
 
 ## Parameters:
-```txt  
-DestIP
+DestIP 
 [in] Destination IP address, in the form of an IPAddr structure.
 
-SrcIP
-[in] IP address of the sender, in the form of an IPAddr structure.
+SrcIP 
+[in] IP address of the sender, in the form of an IPAddr structure. 
 
-pMacAddr
+pMacAddr 
 [out] Pointer to an array of ULONG variables.
 
-PhyAddrLen
+PhyAddrLen 
 [in, out] On input, specifies the maximum buffer size the user has set aside at pMacAddr to receive the MAC address, in bytes. On output, specifies the number of bytes written to pMacAddr.  
-```  
 ***  
 
 

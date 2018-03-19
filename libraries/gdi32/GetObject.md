@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : GetObject
+## Function name : GetObject
 Group: Device Context - Library: gdi32    
 ***  
 
@@ -46,16 +44,14 @@ AS GetObjectA;
 
 
 ## Parameters:
-```txt  
-hgdiobj
-[in] Handle to the graphics object of interest.
+hgdiobj 
+[in] Handle to the graphics object of interest. 
 
-cbBuffer
-[in] Specifies the number of bytes of information to be written to the buffer.
+cbBuffer 
+[in] Specifies the number of bytes of information to be written to the buffer. 
 
-lpvObject
-[out] Pointer to a buffer that receives the information about the specified graphics object.  
-```  
+lpvObject 
+[out] Pointer to a buffer that receives the information about the specified graphics object.   
 ***  
 
 

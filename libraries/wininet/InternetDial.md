@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : InternetDial
+## Function name : InternetDial
 Group: Internet Functions (WinInet) - Library: wininet    
 ***  
 
@@ -40,7 +38,6 @@ DECLARE INTEGER InternetDial IN wininet;
 
 
 ## Parameters:
-```txt  
 hwndParent
 [in] Handle to the parent window.
 
@@ -48,14 +45,13 @@ lpszConnectoid
 [in] Pointer to a string variable containing the name of the dial-up connection to use.
 
 dwFlags
-[in] Unsigned long integer value that contains the flags to use.
+[in] Unsigned long integer value that contains the flags to use. 
 
 lpdwConnection
 [out] Pointer to an unsigned long integer value containing the number associated to the connection.
 
 dwReserved
 [in] Reserved. Must be set to 0.  
-```  
 ***  
 
 

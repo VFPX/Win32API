@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : GetPrinterDriverDirectory
+## Function name : GetPrinterDriverDirectory
 Group: Printing and Print Spooler - Library: winspool.drv    
 ***  
 
@@ -41,26 +39,24 @@ DECLARE INTEGER GetPrinterDriverDirectory IN winspool.drv;
 
 
 ## Parameters:
-```txt  
-pName
+pName 
 [in] Pointer to a null-terminated string that specifies the name of the server on which the printer driver resides.
 
-pEnvironment
+pEnvironment 
 [in] Pointer to a null-terminated string that specifies the environment (for example, "Windows NT x86", "Windows NT R4000", "Windows NT Alpha_AXP", or "Windows 4.0").
 
-Level
-[in] Specifies the structure level. This value must be 1.
+Level 
+[in] Specifies the structure level. This value must be 1. 
 
-pDriverDirectory
-[out] Pointer to a buffer that receives the path.
+pDriverDirectory 
+[out] Pointer to a buffer that receives the path. 
 
-cbBuf
-[in] Specifies the size of the buffer to which pDriverDirectory points.
+cbBuf 
+[in] Specifies the size of the buffer to which pDriverDirectory points. 
 
-pcbNeeded
-[out] Pointer to a value that specifies the number of bytes copied if the function succeeds, or the number of bytes required if cbBuf is too small.
+pcbNeeded 
+[out] Pointer to a value that specifies the number of bytes copied if the function succeeds, or the number of bytes required if cbBuf is too small. 
   
-```  
 ***  
 
 

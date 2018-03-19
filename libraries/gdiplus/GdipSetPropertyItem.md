@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : GdipSetPropertyItem
+## Function name : GdipSetPropertyItem
 Group: GDI+ Image - Library: gdiplus    
 ***  
 
@@ -35,13 +33,11 @@ DECLARE INTEGER GdipSetPropertyItem IN gdiplus;
 
 
 ## Parameters:
-```txt  
 img
 [in] Handle to Image Object
 
 item
 [in] Pointer to a PropertyItem object that specifies the property item to be set.  
-```  
 ***  
 
 

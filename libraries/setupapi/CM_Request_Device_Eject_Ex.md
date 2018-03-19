@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : CM_Request_Device_Eject_Ex
+## Function name : CM_Request_Device_Eject_Ex
 Group: PnP Configuration Manager - Library: setupapi    
 ***  
 
@@ -42,25 +40,23 @@ DECLARE INTEGER CM_Request_Device_Eject_Ex IN setupapi;
 
 
 ## Parameters:
-```txt  
-dnDevInst
+dnDevInst 
 Caller-supplied device instance handle that is bound to the machine handle supplied by hMachine.
 
-pVetoType
+pVetoType 
+(Optional.) Can be set to NULL. 
+
+pszVetoName 
 (Optional.) Can be set to NULL.
 
-pszVetoName
-(Optional.) Can be set to NULL.
-
-ulNameLength
+ulNameLength 
 (Optional.) Caller-supplied value representing the length of the string buffer supplied by pszVetoName. This should be set to MAX_PATH.
 
-ulFlags
-Not used.
+ulFlags 
+Not used. 
 
-hMachine
+hMachine 
 Caller-supplied machine handle to which the caller-supplied device instance handle is bound.  
-```  
 ***  
 
 

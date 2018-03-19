@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : SwitchDesktop
+## Function name : SwitchDesktop
 Group: Window Station and Desktop - Library: user32    
 ***  
 
@@ -32,10 +30,8 @@ DECLARE INTEGER SwitchDesktop IN user32;
 
 
 ## Parameters:
-```txt  
-hDesktop
+hDesktop 
 [in] Handle to the desktop to be made visible and active. This handle is returned by the CreateDesktop and OpenDesktop functions.  
-```  
 ***  
 
 

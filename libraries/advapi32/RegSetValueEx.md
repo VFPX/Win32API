@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : RegSetValueEx
+## Function name : RegSetValueEx
 Group: Registry - Library: advapi32    
 ***  
 
@@ -43,25 +41,23 @@ DECLARE INTEGER RegSetValueEx IN advapi32;
 
 
 ## Parameters:
-```txt  
-hKey
+hKey 
 [in] Handle to an open key.
 
-lpValueName
-[in] Pointer to a string containing the name of the value to set.
+lpValueName 
+[in] Pointer to a string containing the name of the value to set. 
 
-Reserved
-Reserved; must be zero.
+Reserved 
+Reserved; must be zero. 
 
-dwType
+dwType 
 [in] Type of data pointed to by the lpData parameter.
 
-lpData
+lpData 
 [in] Pointer to a buffer containing the data to be stored with the specified value name.
 
-cbData
+cbData 
 [in] Size of the information pointed to by the lpData parameter, in bytes.  
-```  
 ***  
 
 

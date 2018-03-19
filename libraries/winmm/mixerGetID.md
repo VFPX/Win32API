@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : mixerGetID
+## Function name : mixerGetID
 Group: Windows Multimedia - Library: winmm    
 ***  
 
@@ -33,17 +31,15 @@ DECLARE INTEGER mixerGetID IN winmm;
 
 
 ## Parameters:
-```txt  
 hmxobj
 Handle to the audio mixer object to map to a mixer device identifier.
 
 puMxId
-Pointer to a variable that receives the mixer device identifier.
+Pointer to a variable that receives the mixer device identifier. 
 
 fdwId
 Flags for mapping the mixer object hmxobj.
   
-```  
 ***  
 
 

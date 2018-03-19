@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : getservbyname
+## Function name : getservbyname
 Group: Windows Sockets 2 (Winsock) - Library: ws2_32    
 ***  
 
@@ -33,13 +31,11 @@ DECLARE INTEGER getservbyname IN ws2_32;
 
 
 ## Parameters:
-```txt  
-name
-[in] Pointer to a null-terminated service name.
+name 
+[in] Pointer to a null-terminated service name. 
 
-proto
-[in] Optional pointer to a null-terminated protocol name.  
-```  
+proto 
+[in] Optional pointer to a null-terminated protocol name.   
 ***  
 
 

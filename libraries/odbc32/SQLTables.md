@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : SQLTables
+## Function name : SQLTables
 Group: ODBC API - Library: odbc32    
 ***  
 
@@ -47,43 +45,41 @@ DECLARE SHORT SQLTables IN odbc32 AS SQLTables32;
 
 
 ## Parameters:
-```txt  
-StatementHandle
+StatementHandle 
 [Input]
-Statement handle for retrieved results.
+Statement handle for retrieved results. 
 
-CatalogName
+CatalogName 
 [Input]
-Catalog name.
+Catalog name. 
 
-NameLength1
+NameLength1 
 [Input]
-Length in characters of *CatalogName.
+Length in characters of *CatalogName. 
 
-SchemaName
+SchemaName 
 [Input]
-String search pattern for schema names.
+String search pattern for schema names. 
 
-NameLength2
+NameLength2 
 [Input]
-Length in characters of *SchemaName.
+Length in characters of *SchemaName. 
 
-TableName
+TableName 
 [Input]
-String search pattern for table names.
+String search pattern for table names. 
 
-NameLength3
+NameLength3 
 [Input]
-Length in characters of *TableName.
+Length in characters of *TableName. 
 
-TableType
+TableType 
 [Input]
 List of table types to match.
 
-NameLength4
+NameLength4 
 [Input]
-Length in characters of *TableType.  
-```  
+Length in characters of *TableType.   
 ***  
 
 

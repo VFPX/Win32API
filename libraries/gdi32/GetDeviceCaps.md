@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : GetDeviceCaps
+## Function name : GetDeviceCaps
 Group: Device Context - Library: gdi32    
 ***  
 
@@ -47,13 +45,11 @@ DECLARE INTEGER GetDeviceCaps IN gdi32;
 
 
 ## Parameters:
-```txt  
-hdc
-[in] Handle to the DC.
+hdc 
+[in] Handle to the DC. 
 
-nIndex
+nIndex 
 [in] Specifies the item to return. This parameter can be one of the predefined values (see examples).  
-```  
 ***  
 
 

@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : LookupPrivilegeDisplayName
+## Function name : LookupPrivilegeDisplayName
 Group: Authorization - Library: advapi32    
 ***  
 
@@ -39,7 +37,6 @@ DECLARE INTEGER LookupPrivilegeDisplayName IN advapi32;
 
 
 ## Parameters:
-```txt  
 lpSystemName [in, optional]
 A pointer to a null-terminated string that specifies the name of the system on which the privilege name is retrieved.
 
@@ -54,7 +51,6 @@ A pointer to a variable that specifies the size, in TCHARs, of the lpDisplayName
 
 lpLanguageId [out]
 A pointer to a variable that receives the language identifier for the returned display name.  
-```  
 ***  
 
 

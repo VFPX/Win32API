@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : CryptHashData
+## Function name : CryptHashData
 Group: Cryptography Reference - Library: advapi32    
 ***  
 
@@ -40,19 +38,17 @@ DECLARE INTEGER CryptHashData IN advapi32;
 
 
 ## Parameters:
-```txt  
-hHash
-[in] Handle of the hash object.
+hHash 
+[in] Handle of the hash object. 
 
-pbData
-[in] Pointer to a buffer containing the data to be added to the hash object.
+pbData 
+[in] Pointer to a buffer containing the data to be added to the hash object. 
 
-dwDataLen
-[in] Number of bytes of data to be added. This must be zero if the CRYPT_USERDATA flag is set.
+dwDataLen 
+[in] Number of bytes of data to be added. This must be zero if the CRYPT_USERDATA flag is set. 
 
-dwFlags
+dwFlags 
 [in] Ignore.  
-```  
 ***  
 
 

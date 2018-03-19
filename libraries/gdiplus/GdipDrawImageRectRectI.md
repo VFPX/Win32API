@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : GdipDrawImageRectRectI
+## Function name : GdipDrawImageRectRectI
 Group: GDI+ Graphics - Library: gdiplus    
 ***  
 
@@ -52,12 +50,11 @@ DECLARE INTEGER GdipDrawImageRectRectI IN gdiplus;
 
 
 ## Parameters:
-```txt  
 graphics
 [in] Handle of a Graphics object.
 
 image
-[in] Handle of a Image object that specifies the source image.
+[in] Handle of a Image object that specifies the source image. 
 
 dstx
 [in] Specifies the x-coordinate of the upper-left corner of the destination drawing area.
@@ -95,7 +92,6 @@ callback
 callbackData
 [in] Pointer to additional data used by the method specified by the callback parameter. Can be NULL.
   
-```  
 ***  
 
 

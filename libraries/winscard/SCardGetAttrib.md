@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : SCardGetAttrib
+## Function name : SCardGetAttrib
 Group: Authentication - Library: winscard    
 ***  
 
@@ -35,19 +33,17 @@ DECLARE LONG SCardGetAttrib IN Winscard;
 
 
 ## Parameters:
-```txt  
-hCard [in]
+hCard [in] 
 Reference value returned from SCardConnect.
 
-dwAttrId [in]
+dwAttrId [in] 
 Identifier for the attribute to get.
 
-pbAttr [out]
+pbAttr [out] 
 Pointer to a buffer that receives the attribute whose ID is supplied in dwAttrId.
 
-pcbAttrLen [in, out]
+pcbAttrLen [in, out] 
 Length of the pbAttr buffer in bytes, and receives the actual length of the received attribute.  
-```  
 ***  
 
 

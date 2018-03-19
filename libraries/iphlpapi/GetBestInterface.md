@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : GetBestInterface
+## Function name : GetBestInterface
 Group: IP Helper - Library: iphlpapi    
 ***  
 
@@ -30,13 +28,11 @@ DECLARE LONG GetBestInterface IN Iphlpapi;
 
 
 ## Parameters:
-```txt  
-dwDestAddr
-[in] The destination IPv4 address for which to retrieve the interface that has the best route, in the form of an IPAddr structure.
+dwDestAddr 
+[in] The destination IPv4 address for which to retrieve the interface that has the best route, in the form of an IPAddr structure. 
 
-pdwBestIfIndex
-[out] A pointer to a DWORD variable that receives the index of the interface that has the best route to the IPv4 address specified by dwDestAddr.  
-```  
+pdwBestIfIndex 
+[out] A pointer to a DWORD variable that receives the index of the interface that has the best route to the IPv4 address specified by dwDestAddr.   
 ***  
 
 

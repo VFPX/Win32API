@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : GetDlgItem
+## Function name : GetDlgItem
 Group: Dialog Box - Library: user32    
 ***  
 
@@ -30,13 +28,11 @@ DECLARE INTEGER GetDlgItem IN user32;
 
 
 ## Parameters:
-```txt  
 hDlg
-[in] Handle to the dialog box that contains the control.
+[in] Handle to the dialog box that contains the control. 
 
 nIDDlgItem
-[in] Specifies the identifier of the control to be retrieved.  
-```  
+[in] Specifies the identifier of the control to be retrieved.   
 ***  
 
 

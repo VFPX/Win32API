@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : CreateHardLink
+## Function name : CreateHardLink
 Group: File Management - Library: kernel32    
 ***  
 
@@ -36,17 +34,15 @@ DECLARE INTEGER CreateHardLink IN kernel32;
 
 
 ## Parameters:
-```txt  
-lpFileName
-[in] A pointer to the name of a new file.
+lpFileName 
+[in] A pointer to the name of a new file. 
 This parameter cannot specify the name of a directory.
 
-lpExistingFileName
-[in] A pointer to the name of an existing file to which a link points.
+lpExistingFileName 
+[in] A pointer to the name of an existing file to which a link points. 
 
-lpSecurityAttributes
+lpSecurityAttributes 
 Reserved; must be NULL.  
-```  
 ***  
 
 

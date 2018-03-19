@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : FindNextPrinterChangeNotification
+## Function name : FindNextPrinterChangeNotification
 Group: Printing and Print Spooler - Library: winspool.drv    
 ***  
 
@@ -39,19 +37,17 @@ IN winspool.drv;
 
 
 ## Parameters:
-```txt  
-hChange
+hChange 
 [in] Handle to a change notification object associated with a printer or print server obtained by calling the FindFirstPrinterChangeNotification function.
 
-pdwChange
+pdwChange 
 [out] Pointer to a variable whose bits are set to indicate the changes that occurred to cause the most recent notification.
 
-pPrinterNotifyOptions
-[in] Pointer to a PRINTER_NOTIFY_OPTIONS structure.
+pPrinterNotifyOptions 
+[in] Pointer to a PRINTER_NOTIFY_OPTIONS structure. 
 
-ppPrinterNotifyInfo
-[out] Pointer to a pointer variable that receives a pointer to a system-allocated, read-only buffer.  
-```  
+ppPrinterNotifyInfo 
+[out] Pointer to a pointer variable that receives a pointer to a system-allocated, read-only buffer.   
 ***  
 
 

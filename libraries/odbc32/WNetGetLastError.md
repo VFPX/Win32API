@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : WNetGetLastError
+## Function name : WNetGetLastError
 Group: Windows Networking - Library: odbc32    
 ***  
 
@@ -41,22 +39,20 @@ DECLARE INTEGER WNetGetLastError IN mpr;
 
 
 ## Parameters:
-```txt  
-lpError
-[out] Pointer to the variable that receives the error code reported by the network provider. The error code is specific to the network provider.
+lpError 
+[out] Pointer to the variable that receives the error code reported by the network provider. The error code is specific to the network provider. 
 
-lpErrorBuf
-[out] Pointer to the buffer that receives the null-terminated string describing the error.
+lpErrorBuf 
+[out] Pointer to the buffer that receives the null-terminated string describing the error. 
 
-nErrorBufSize
+nErrorBufSize 
 [in] Specifies the size, in characters, of the buffer pointed to by the lpErrorBuf parameter.
 
-lpNameBuf
-[out] Pointer to the buffer that receives the null-terminated string identifying the network provider that raised the error.
+lpNameBuf 
+[out] Pointer to the buffer that receives the null-terminated string identifying the network provider that raised the error. 
 
-nNameBufSize
+nNameBufSize 
 [in] Specifies the size, in characters, of the buffer pointed to by the lpNameBuf parameter.  
-```  
 ***  
 
 

@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : RegQueryValueEx
+## Function name : RegQueryValueEx
 Group: Registry - Library: advapi32    
 ***  
 
@@ -43,26 +41,24 @@ DECLARE INTEGER RegQueryValueEx IN advapi32;
 
 
 ## Parameters:
-```txt  
-hKey
+hKey 
 [in] Handle to a currently open key or a predefined reserved handle value.
 
-lpValueName
+lpValueName 
 [in] Pointer to a null-terminated string containing the name of the value to query.
 
-lpReserved
-Reserved; must be NULL.
+lpReserved 
+Reserved; must be NULL. 
 
-lpType
+lpType 
 [out] Pointer to a variable that receives a code indicating the type of data stored in the specified value.
 
-lpData
+lpData 
 [in, out] Pointer to a buffer that receives the value"s data.
 
-lpcbData
+lpcbData 
 [in/out] Pointer to a variable that specifies the size, in bytes, of the buffer pointed to by the lpData parameter. When the function returns, this variable contains the size of the data copied to lpData.
   
-```  
 ***  
 
 

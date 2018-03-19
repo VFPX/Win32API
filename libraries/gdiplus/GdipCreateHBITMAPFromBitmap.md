@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : GdipCreateHBITMAPFromBitmap
+## Function name : GdipCreateHBITMAPFromBitmap
 Group: GDI+ Bitmap - Library: gdiplus    
 ***  
 
@@ -38,16 +36,14 @@ DECLARE INTEGER GdipCreateHBITMAPFromBitmap IN gdiplus;
 
 
 ## Parameters:
-```txt  
 bitmap
 [in] Handle to the GDI+ bitmap object.
 
 hbmReturn
-[out] Pointer to an HBITMAP that receives a handle to the GDI bitmap.
+[out] Pointer to an HBITMAP that receives a handle to the GDI bitmap. 
 
 colorBackground
 [in] Reference to a Color object that specifies the background color.  
-```  
 ***  
 
 

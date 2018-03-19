@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : SendMessage
+## Function name : SendMessage
 Group: Message and Message Queue - Library: user32    
 ***  
 
@@ -63,19 +61,17 @@ DECLARE INTEGER SendMessage IN user32;
 
 
 ## Parameters:
-```txt  
-hWnd
-[in] Handle to the window whose window procedure will receive the message.
+hWnd 
+[in] Handle to the window whose window procedure will receive the message. 
 
-Msg
-[in] Specifies the message to be sent.
+Msg 
+[in] Specifies the message to be sent. 
 
-wParam
-[in] Specifies additional message-specific information.
+wParam 
+[in] Specifies additional message-specific information. 
 
-lParam
-[in] Specifies additional message-specific information.  
-```  
+lParam 
+[in] Specifies additional message-specific information.   
 ***  
 
 

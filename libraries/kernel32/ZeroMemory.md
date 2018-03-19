@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : ZeroMemory
+## Function name : ZeroMemory
 Group: Memory Management - Library: kernel32    
 ***  
 
@@ -36,13 +34,11 @@ DECLARE RtlZeroMemory IN kernel32 As ZeroMemory;
 
 
 ## Parameters:
-```txt  
-Destination
-[in] Pointer to the starting address of the block of memory to fill with zeros.
+Destination 
+[in] Pointer to the starting address of the block of memory to fill with zeros. 
 
-Length
+Length 
 [in] Size, in bytes, of the block of memory to fill with zeros.  
-```  
 ***  
 
 

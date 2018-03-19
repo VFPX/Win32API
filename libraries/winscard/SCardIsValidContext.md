@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : SCardIsValidContext
+## Function name : SCardIsValidContext
 Group: Authentication - Library: winscard    
 ***  
 
@@ -29,11 +27,9 @@ DECLARE LONG SCardIsValidContext IN Winscard;
 
 
 ## Parameters:
-```txt  
-hContext [in]
+hContext [in] 
 Handle that identifies the resource manager context. The resource manager context can be set by a previous call to SCardEstablishContext.
   
-```  
 ***  
 
 

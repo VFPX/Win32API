@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : UrlHash
+## Function name : UrlHash
 Group: Shell Lightweight Utility APIs -- Path Functions - Library: shlwapi    
 ***  
 
@@ -35,16 +33,14 @@ DECLARE INTEGER UrlHash IN shlwapi;
 
 
 ## Parameters:
-```txt  
-pszURL
-[in] null-terminated string of maximum length INTERNET_MAX_URL_LENGTH that contains the URL.
+pszURL 
+[in] null-terminated string of maximum length INTERNET_MAX_URL_LENGTH that contains the URL. 
 
-pbHash
-[out] Buffer to receive the hashed array.
+pbHash 
+[out] Buffer to receive the hashed array. 
 
-cbHash
-[in] Number of elements in pbHash. It should be no larger than 256.  
-```  
+cbHash 
+[in] Number of elements in pbHash. It should be no larger than 256.   
 ***  
 
 

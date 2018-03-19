@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : WNetGetUser
+## Function name : WNetGetUser
 Group: Windows Networking - Library: mpr    
 ***  
 
@@ -35,16 +33,14 @@ DECLARE INTEGER WNetGetUser IN mpr;
 
 
 ## Parameters:
-```txt  
-lpName
+lpName 
 [in] Pointer to a constant null-terminated string that specifies either the name of a local device or the remote name of a network resource.
 
-lpUserName
-[out] Pointer to a buffer that receives the null-terminated user name.
+lpUserName 
+[out] Pointer to a buffer that receives the null-terminated user name. 
 
-lpnLength
+lpnLength 
 [in/out] Pointer to a variable that specifies the size, in characters, of the buffer pointed to by the lpUserName parameter.  
-```  
 ***  
 
 

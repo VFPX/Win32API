@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : WinHelp
+## Function name : WinHelp
 Group: Shell Functions - Library: user32    
 ***  
 
@@ -35,7 +33,6 @@ DECLARE INTEGER WinHelp IN user32 As "WinHelpA";
 
 
 ## Parameters:
-```txt  
 hwnd
 Identifies the window requesting Help
 
@@ -48,7 +45,6 @@ Specifies the type of help requested
 dwData
 Specifies additional data
   
-```  
 ***  
 
 

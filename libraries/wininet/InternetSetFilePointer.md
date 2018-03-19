@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : InternetSetFilePointer
+## Function name : InternetSetFilePointer
 Group: Internet Functions (WinInet) - Library: wininet    
 ***  
 
@@ -39,7 +37,6 @@ DECLARE INTEGER InternetSetFilePointer IN wininet;
 
 
 ## Parameters:
-```txt  
 hFile
 [in] Valid HINTERNET handle returned from a previous call to InternetOpenUrl, or HttpOpenRequest.
 
@@ -55,7 +52,6 @@ dwMoveMethod
 dwContext
 [in] Reserved. Must be set to 0.
   
-```  
 ***  
 
 

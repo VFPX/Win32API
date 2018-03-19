@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : GetUserNameEx
+## Function name : GetUserNameEx
 Group: System Information - Library: secur32    
 ***  
 
@@ -32,16 +30,14 @@ DECLARE INTEGER GetUserNameEx IN secur32;
 
 
 ## Parameters:
-```txt  
-NameFormat [in]
+NameFormat [in] 
 The format of the name. This parameter is a value from the EXTENDED_NAME_FORMAT enumeration type.
 
-lpNameBuffer [out]
+lpNameBuffer [out] 
 A pointer to a buffer that receives the name in the specified format.
 
-lpnSize [in, out]
+lpnSize [in, out] 
 On input, this variable specifies the size of the lpNameBuffer buffer, in TCHARs.  
-```  
 ***  
 
 

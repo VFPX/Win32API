@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : CallWindowProc
+## Function name : CallWindowProc
 Group: Window Procedure - Library: user32    
 ***  
 
@@ -54,22 +52,20 @@ DECLARE INTEGER CallWindowProc IN user32;
 
 
 ## Parameters:
-```txt  
 lpPrevWndFunc
 [in] Pointer to the previous window procedure. This value can be obtained by calling the GetWindowLong function with the nIndex parameter set to GWL_WNDPROC or DWL_DLGPROC
 
 hWnd
-[in] Handle to the window procedure to receive the message.
+[in] Handle to the window procedure to receive the message. 
 
 Msg
-[in] Specifies the message.
+[in] Specifies the message. 
 
 wParam
 [in] Specifies additional message-specific information.
 
 lParam
 [in] Specifies additional message-specific information.  
-```  
 ***  
 
 

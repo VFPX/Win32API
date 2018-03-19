@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : OpenPrinter
+## Function name : OpenPrinter
 Group: Printing and Print Spooler - Library: winspool.drv    
 ***  
 
@@ -46,16 +44,14 @@ DECLARE INTEGER OpenPrinter IN winspool.drv;
 
 
 ## Parameters:
-```txt  
-pPrinterName
-[in] Pointer to a null-terminated string that specifies the name of the printer or print server, the printer object, the XcvMonitor, or the XcvPort.
+pPrinterName 
+[in] Pointer to a null-terminated string that specifies the name of the printer or print server, the printer object, the XcvMonitor, or the XcvPort. 
 
-phPrinter
+phPrinter 
 [out] Pointer to a variable that receives a handle to the open printer or print server object.
 
-pDefault
+pDefault 
 [in] Pointer to a PRINTER_DEFAULTS structure. This value can be NULL.  
-```  
 ***  
 
 

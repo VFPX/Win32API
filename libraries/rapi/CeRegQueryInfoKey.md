@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : CeRegQueryInfoKey
+## Function name : CeRegQueryInfoKey
 Group: Remote Application Programming (RAPI) - Library: rapi    
 ***  
 
@@ -53,43 +51,41 @@ DECLARE INTEGER CeRegQueryInfoKey IN rapi;
 
 
 ## Parameters:
-```txt  
-hKey
+hKey 
 [in] Handle to a currently open key or predefined reserved handle value.
 
-lpClass
-[out] Pointer to a buffer that receives the key"s class name. This parameter can be NULL.
+lpClass 
+[out] Pointer to a buffer that receives the key"s class name. This parameter can be NULL. 
 
-lpcbClass
+lpcbClass 
 [in, out] Pointer to a variable that specifies the size, in characters, of the buffer pointed to by the lpClass parameter.
 
-lpReserved
-[in] Reserved; set to NULL.
+lpReserved 
+[in] Reserved; set to NULL. 
 
-lpcSubKeys
-[out] Pointer to a variable that receives the number of subkeys contained by the specified key. This parameter can be NULL.
+lpcSubKeys 
+[out] Pointer to a variable that receives the number of subkeys contained by the specified key. This parameter can be NULL. 
 
-lpcbMaxSubKeyLen
+lpcbMaxSubKeyLen 
 [out] Pointer to a variable that receives the length, in characters, of the key"s subkey with the longest name.
 
-lpcbMaxClassLen
+lpcbMaxClassLen 
 [out] Pointer to a variable that receives the length, in characters, of the longest string specifying a subkey class.
 
-lpcValues
-[out] Pointer to a variable that receives the number of values associated with the key. This parameter can be NULL.
+lpcValues 
+[out] Pointer to a variable that receives the number of values associated with the key. This parameter can be NULL. 
 
-lpcbMaxValueNameLen
-[out] Pointer to a variable that receives the length, in characters, of the key"s longest value name.
+lpcbMaxValueNameLen 
+[out] Pointer to a variable that receives the length, in characters, of the key"s longest value name. 
 
-lpcbMaxValueLen
-[out] Pointer to a variable that receives the length, in bytes, of the longest data component among the values of the key. This parameter can be NULL.
+lpcbMaxValueLen 
+[out] Pointer to a variable that receives the length, in bytes, of the longest data component among the values of the key. This parameter can be NULL. 
 
-lpcbSecurityDescriptor
-[in] Not used; set to NULL.
+lpcbSecurityDescriptor 
+[in] Not used; set to NULL. 
 
-lpftLastWriteTime
-[in] Ignored; set to NULL.  
-```  
+lpftLastWriteTime 
+[in] Ignored; set to NULL.   
 ***  
 
 

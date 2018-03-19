@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : JetDetachDatabase
+## Function name : JetDetachDatabase
 Group: Extensible Storage Engine (ESE, Jet Blue) - Library: esent    
 ***  
 
@@ -33,13 +31,11 @@ DECLARE INTEGER JetDetachDatabase IN esent;
 
 
 ## Parameters:
-```txt  
-sesid
+sesid 
 The database session context to use for the API call.
 
-szFilename
+szFilename 
 The name of the database to detach. If szFilename is NULL or an empty string, all databases attached to sesid will be detached.  
-```  
 ***  
 
 

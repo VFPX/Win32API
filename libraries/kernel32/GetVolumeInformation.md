@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : GetVolumeInformation
+## Function name : GetVolumeInformation
 Group: File System - Library: kernel32    
 ***  
 
@@ -49,31 +47,29 @@ DECLARE SHORT GetVolumeInformation IN kernel32;
 
 
 ## Parameters:
-```txt  
-lpRootPathName
-[in] Pointer to a string that contains the root directory of the volume to be described.
+lpRootPathName 
+[in] Pointer to a string that contains the root directory of the volume to be described. 
 
-lpVolumeNameBuffer
-[out] Pointer to a buffer that receives the name of the specified volume.
+lpVolumeNameBuffer 
+[out] Pointer to a buffer that receives the name of the specified volume. 
 
-nVolumeNameSize
-[in] Specifies the length, in TCHARs, of the volume name buffer.
+nVolumeNameSize 
+[in] Specifies the length, in TCHARs, of the volume name buffer. 
 
-lpVolumeSerialNumber
-[out] Pointer to a variable that receives the volume serial number.
+lpVolumeSerialNumber 
+[out] Pointer to a variable that receives the volume serial number. 
 
-lpMaximumComponentLength
-[out] Pointer to a variable that receives the maximum length, in TCHARs, of a file name component supported by the specified file system.
+lpMaximumComponentLength 
+[out] Pointer to a variable that receives the maximum length, in TCHARs, of a file name component supported by the specified file system. 
 
-lpFileSystemFlags
-[out] Pointer to a variable that receives flags associated with the specified file system.
+lpFileSystemFlags 
+[out] Pointer to a variable that receives flags associated with the specified file system. 
 
-lpFileSystemNameBuffer
-[out] Pointer to a buffer that receives the name of the file system (such as FAT or NTFS).
+lpFileSystemNameBuffer 
+[out] Pointer to a buffer that receives the name of the file system (such as FAT or NTFS). 
 
-nFileSystemNameSize
+nFileSystemNameSize 
 [in] Specifies the length, in TCHARs, of the file system name buffer.  
-```  
 ***  
 
 

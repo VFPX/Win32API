@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : EnumPorts
+## Function name : EnumPorts
 Group: Printing and Print Spooler - Library: winspool.drv    
 ***  
 
@@ -42,25 +40,23 @@ DECLARE INTEGER EnumPorts IN winspool.drv;
 
 
 ## Parameters:
-```txt  
-pName
-[in] Pointer to a null-terminated string that specifies the name of the server whose printer ports you wish to enumerate.
+pName 
+[in] Pointer to a null-terminated string that specifies the name of the server whose printer ports you wish to enumerate. 
 
-Level
+Level 
 [in] Specifies the type of information returned in the pPorts buffer.
 
-pPorts
-[out] Pointer to a buffer that receives an array of PORT_INFO_1 or PORT_INFO_2 structures.
+pPorts 
+[out] Pointer to a buffer that receives an array of PORT_INFO_1 or PORT_INFO_2 structures. 
 
-cbBuf
-[in] Specifies the size, in bytes, of the buffer pointed to by pPorts.
+cbBuf 
+[in] Specifies the size, in bytes, of the buffer pointed to by pPorts. 
 
-pcbNeeded
+pcbNeeded 
 [out] Pointer to a variable that receives the number of bytes copied to the pPorts buffer.
 
-pcReturned
+pcReturned 
 [out] Pointer to a variable that receives the number of PORT_INFO_1 or PORT_INFO_2 structures returned in the pPorts buffer.  
-```  
 ***  
 
 

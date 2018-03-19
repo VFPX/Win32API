@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : WNetAddConnection
+## Function name : WNetAddConnection
 Group: Windows Networking - Library: mpr    
 ***  
 
@@ -35,16 +33,14 @@ DECLARE INTEGER WNetAddConnection IN mpr;
 
 
 ## Parameters:
-```txt  
-lpRemoteName
-[in] Pointer to a constant null-terminated string that specifies the network resource to connect to.
+lpRemoteName 
+[in] Pointer to a constant null-terminated string that specifies the network resource to connect to. 
 
-lpPassword
-[in] Pointer to a constant null-terminated string that specifies the password to be used to make a connection.
+lpPassword 
+[in] Pointer to a constant null-terminated string that specifies the password to be used to make a connection. 
 
-lpLocalName
+lpLocalName 
 [in] Pointer to a constant null-terminated string that specifies the name of a local device to be redirected, such as "F:" or "LPT1".  
-```  
 ***  
 
 

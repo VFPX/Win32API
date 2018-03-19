@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : CryptGetDefaultProvider
+## Function name : CryptGetDefaultProvider
 Group: Cryptography Reference - Library: advapi32    
 ***  
 
@@ -40,22 +38,20 @@ DECLARE INTEGER CryptGetDefaultProvider IN advapi32;
 
 
 ## Parameters:
-```txt  
-dwProvType
+dwProvType 
 [in] Specifies the provider type for which the default CSP name is to be found.
 
-pdwReserved
-[in] Reserved for future use and must be NULL.
+pdwReserved 
+[in] Reserved for future use and must be NULL. 
 
-dwFlags
+dwFlags 
 [in] The following flag values are defined: CRYPT_MACHINE_DEFAULT, CRYPT_USER_DEFAULT
 
-pszProvName
+pszProvName 
 [out] Pointer to a null-terminated character string buffer to receive the name of the default CSP.
 
-pcbProvName
+pcbProvName 
 [in, out] Pointer to a DWORD value specifying the size, in bytes, of the buffer pointed to by the pszProvName parameter.  
-```  
 ***  
 
 

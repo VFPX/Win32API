@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : GdipSetTextRenderingHint
+## Function name : GdipSetTextRenderingHint
 Group: GDI+ Graphics - Library: gdiplus    
 ***  
 
@@ -34,13 +32,11 @@ DECLARE INTEGER GdipSetTextRenderingHint IN gdiplus;
 
 
 ## Parameters:
-```txt  
 graphics
 [in] Pointer to a Graphics object.
 
 TextRenderingHint
-[in] Element of the TextRenderingHint enumeration that specifies the process currently used by this Graphics object to render text.  
-```  
+[in] Element of the TextRenderingHint enumeration that specifies the process currently used by this Graphics object to render text.   
 ***  
 
 

@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : GetCharABCWidths
+## Function name : GetCharABCWidths
 Group: Font and Text - Library: gdi32    
 ***  
 
@@ -35,19 +33,17 @@ DECLARE INTEGER GetCharABCWidths IN gdi32;
 
 
 ## Parameters:
-```txt  
-hdc
-[in] Handle to the device context.
+hdc 
+[in] Handle to the device context. 
 
-uFirstChar
-[in] Specifies the first character in the group of consecutive characters from the current font.
+uFirstChar 
+[in] Specifies the first character in the group of consecutive characters from the current font. 
 
-uLastChar
-[in] Specifies the last character in the group of consecutive characters from the current font.
+uLastChar 
+[in] Specifies the last character in the group of consecutive characters from the current font. 
 
-lpabc
+lpabc 
 [out] Pointer to an array of ABC structures that receives the character widths, in logical units.  
-```  
 ***  
 
 

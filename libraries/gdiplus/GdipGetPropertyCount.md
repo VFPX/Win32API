@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : GdipGetPropertyCount
+## Function name : GdipGetPropertyCount
 Group: GDI+ Image - Library: gdiplus    
 ***  
 
@@ -35,13 +33,11 @@ DECLARE INTEGER GdipGetPropertyCount IN gdiplus;
 
 
 ## Parameters:
-```txt  
 img
 [in] Handle to Image object
 
 numofproperty
 [out] Number of properties stored in this Image object  
-```  
 ***  
 
 

@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : CeFindFirstDatabaseEx
+## Function name : CeFindFirstDatabaseEx
 Group: Remote Application Programming (RAPI) - Library: rapi    
 ***  
 
@@ -33,13 +31,11 @@ DECLARE INTEGER CeFindFirstDatabaseEx IN rapi;
 
 
 ## Parameters:
-```txt  
-pceguid
+pceguid 
 [in] Pointer to the CEGUID that contains the globally unique identifier of a mounted database volume.
 
-dwDbaseType
+dwDbaseType 
 [in] Specifies the type identifier of the databases to enumerate.  
-```  
 ***  
 
 

@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : RasEnumConnections
+## Function name : RasEnumConnections
 Group: Remote Access Service (RAS) - Library: rasapi32    
 ***  
 
@@ -36,16 +34,14 @@ DECLARE INTEGER RasEnumConnections IN rasapi32;
 
 
 ## Parameters:
-```txt  
-lprasconn
-[in, out] Pointer to a buffer that receives, on output, an array of RASCONN structures, one for each RAS connection.
+lprasconn 
+[in, out] Pointer to a buffer that receives, on output, an array of RASCONN structures, one for each RAS connection. 
 
-lpcb
-[in, out] Pointer to a variable that, on input, contains the size, in bytes, of the buffer specified by lprasconn.
+lpcb 
+[in, out] Pointer to a variable that, on input, contains the size, in bytes, of the buffer specified by lprasconn. 
 
-lpcConnections
-[out] Pointer to a variable that receives the number of RASCONN structures written to the buffer specified by lprasconn.  
-```  
+lpcConnections 
+[out] Pointer to a variable that receives the number of RASCONN structures written to the buffer specified by lprasconn.   
 ***  
 
 

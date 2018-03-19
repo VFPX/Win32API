@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : HttpQueryInfo
+## Function name : HttpQueryInfo
 Group: Internet Functions (WinInet) - Library: wininet    
 ***  
 
@@ -40,22 +38,20 @@ DECLARE INTEGER HttpQueryInfo IN wininet;
 
 
 ## Parameters:
-```txt  
-hRequest
-[in] Handle returned by HttpOpenRequest or InternetOpenUrl.
+hRequest 
+[in] Handle returned by HttpOpenRequest or InternetOpenUrl. 
 
-dwInfoLevel
-[in] Combination of an attribute to be retrieved and flags that modify the request. For a list of possible attribute and modifier values, see Query Info Flags.
+dwInfoLevel 
+[in] Combination of an attribute to be retrieved and flags that modify the request. For a list of possible attribute and modifier values, see Query Info Flags. 
 
-lpvBuffer
-[in] Pointer to a buffer that receives the information. This parameter must not be NULL.
+lpvBuffer 
+[in] Pointer to a buffer that receives the information. This parameter must not be NULL. 
 
-lpdwBufferLength
-[in] Pointer to a variable that contains the size of the data buffer, in bytes.
+lpdwBufferLength 
+[in] Pointer to a variable that contains the size of the data buffer, in bytes. 
 
-lpdwIndex
+lpdwIndex 
 [in, out] Pointer to a zero-based header index used to enumerate multiple headers with the same name.  
-```  
 ***  
 
 

@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : ConnectToPrinterDlg
+## Function name : ConnectToPrinterDlg
 Group: Printing and Print Spooler - Library: winspool.drv    
 ***  
 
@@ -34,13 +32,11 @@ DECLARE INTEGER ConnectToPrinterDlg IN winspool.drv;
 
 
 ## Parameters:
-```txt  
-hwnd
-[in] Specifies the parent window of the dialog box.
+hwnd 
+[in] Specifies the parent window of the dialog box. 
 
-Flags
-[in] This parameter is reserved and must be zero.  
-```  
+Flags 
+[in] This parameter is reserved and must be zero.   
 ***  
 
 

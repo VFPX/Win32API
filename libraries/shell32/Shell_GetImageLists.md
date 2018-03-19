@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : Shell_GetImageLists
+## Function name : Shell_GetImageLists
 Group: Shell Functions - Library: shell32    
 ***  
 
@@ -31,13 +29,11 @@ DECLARE INTEGER Shell_GetImageLists IN shell32;
 
 
 ## Parameters:
-```txt  
 phiml
 [in] Pointer to the handle of an image list which, on success, receives the system image list for large (32 x 32) icons.
 
 phimlSmall
 [in] Pointer to the handle of an image list which, on success, receives the system image list for small (16 x 16) icons.  
-```  
 ***  
 
 

@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : DrawFrameControl
+## Function name : DrawFrameControl
 Group: Painting and Drawing - Library: user32    
 ***  
 
@@ -37,18 +35,16 @@ DECLARE INTEGER DrawFrameControl IN user32;
 
 
 ## Parameters:
-```txt  
-hdc
-[in] Handle to the device context of the window in which to draw the control.
+hdc 
+[in] Handle to the device context of the window in which to draw the control. 
 
-lprc
-[in] Pointer to a RECT structure that contains the logical coordinates of the bounding rectangle for frame control.
+lprc 
+[in] Pointer to a RECT structure that contains the logical coordinates of the bounding rectangle for frame control. 
 
-uType
-[in] Specifies the type of frame control to draw.
+uType 
+[in] Specifies the type of frame control to draw. 
 
-[in] Specifies the initial state of the frame control.  
-```  
+[in] Specifies the initial state of the frame control.   
 ***  
 
 

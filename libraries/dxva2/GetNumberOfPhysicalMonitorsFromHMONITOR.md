@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : GetNumberOfPhysicalMonitorsFromHMONITOR
+## Function name : GetNumberOfPhysicalMonitorsFromHMONITOR
 Group: Monitor Configuration (Vista) - Library: dxva2    
 ***  
 
@@ -33,14 +31,12 @@ DECLARE INTEGER GetNumberOfPhysicalMonitorsFromHMONITOR IN dxva2;
 
 
 ## Parameters:
-```txt  
 hMonitor
 [in]  A monitor handle. Monitor handles are returned by several Multiple Display Monitor functions, including EnumDisplayMonitors and MonitorFromWindow.
 
 pdwNumberOfPhysicalMonitors
 [out]  Receives the number of physical monitors associated with the monitor handle.
   
-```  
 ***  
 
 

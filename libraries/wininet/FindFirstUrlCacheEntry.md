@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : FindFirstUrlCacheEntry
+## Function name : FindFirstUrlCacheEntry
 Group: Internet Functions (WinInet) - Library: wininet    
 ***  
 
@@ -38,16 +36,14 @@ DECLARE INTEGER FindFirstUrlCacheEntry In wininet;
 
 
 ## Parameters:
-```txt  
-lpszUrlSearchPattern
+lpszUrlSearchPattern 
 [in] Pointer to a string that contains the source name pattern to search for.
 
-lpFirstCacheEntryInfo
-[out] Pointer to an INTERNET_CACHE_ENTRY_INFO structure.
+lpFirstCacheEntryInfo 
+[out] Pointer to an INTERNET_CACHE_ENTRY_INFO structure. 
 
-lpdwFirstCacheEntryInfoBufferSize
+lpdwFirstCacheEntryInfoBufferSize 
 [in, out] Pointer to a variable that specifies the size of the lpFirstCacheEntryInfo buffer.  
-```  
 ***  
 
 

@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : GdipTranslateWorldTransform
+## Function name : GdipTranslateWorldTransform
 Group: GDI+ Graphics - Library: gdiplus    
 ***  
 
@@ -36,19 +34,17 @@ DECLARE INTEGER GdipTranslateWorldTransform IN gdiplus;
 
 
 ## Parameters:
-```txt  
 graphics
 [in] Handle to the Graphics object.
 
 dx
-[in] Real number that specifies the horizontal component of the translation.
+[in] Real number that specifies the horizontal component of the translation. 
 
 dy
-[in] Real number that specifies the vertical component of the translation.
+[in] Real number that specifies the vertical component of the translation. 
 
 order
 [in] Element of the MatrixOrder enumeration that specifies the order of multiplication.  
-```  
 ***  
 
 

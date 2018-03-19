@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : SQLAllocHandle
+## Function name : SQLAllocHandle
 Group: ODBC API - Library: odbc32    
 ***  
 
@@ -40,20 +38,18 @@ DECLARE SHORT SQLAllocHandle IN odbc32;
 
 
 ## Parameters:
-```txt  
-HandleType
+HandleType 
 [Input]
 The type of handle to be allocated by SQLAllocHandle (predefined value).
 
-InputHandle
+InputHandle 
 [Input]
 The input handle in whose context the new handle is to be allocated.
 
-OutputHandlePtr
+OutputHandlePtr 
 [Output]
-Pointer to a buffer in which to return the handle to the newly allocated data structure.
+Pointer to a buffer in which to return the handle to the newly allocated data structure. 
   
-```  
 ***  
 
 

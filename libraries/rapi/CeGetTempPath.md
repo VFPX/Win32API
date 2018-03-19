@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : CeGetTempPath
+## Function name : CeGetTempPath
 Group: Remote Application Programming (RAPI) - Library: rapi    
 ***  
 
@@ -30,13 +28,11 @@ DECLARE INTEGER CeGetTempPath IN rapi;
 
 
 ## Parameters:
-```txt  
-nBufferLength
-[in] Size of lpBuffer in characters.
+nBufferLength 
+[in] Size of lpBuffer in characters. 
 
-lpBuffer
+lpBuffer 
 [out] Long pointer to the buffer for the folder path. The returned string ends in a backslash (\).  
-```  
 ***  
 
 

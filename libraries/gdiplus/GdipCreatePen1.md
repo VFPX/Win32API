@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : GdipCreatePen1
+## Function name : GdipCreatePen1
 Group: GDI+ Pen - Library: gdiplus    
 ***  
 
@@ -39,9 +37,8 @@ DECLARE INTEGER GdipCreatePen1 IN gdiplus;
 
 
 ## Parameters:
-```txt  
 color
-[in] ARGB color value.
+[in] ARGB color value. 
 
 width
 [in] Real number that specifies the width of this pen"s stroke.
@@ -51,7 +48,6 @@ unit
 
 gdipen
 [out] Handle to the Pen object.  
-```  
 ***  
 
 

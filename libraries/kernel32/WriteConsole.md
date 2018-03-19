@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : WriteConsole
+## Function name : WriteConsole
 Group: Console - Library: kernel32    
 ***  
 
@@ -41,22 +39,20 @@ DECLARE INTEGER WriteConsole IN kernel32;
 
 
 ## Parameters:
-```txt  
-hConsoleOutput
+hConsoleOutput 
 [in] Handle to the console screen buffer.
 
-lpBuffer
+lpBuffer 
 [in] Pointer to a buffer that contains characters to be written to the console screen buffer.
 
-nNumberOfCharsToWrite
-[in] Number of TCHARs to write.
+nNumberOfCharsToWrite 
+[in] Number of TCHARs to write. 
 
-lpNumberOfCharsWritten
-[out] Pointer to a variable that receives the number of TCHARs actually written.
+lpNumberOfCharsWritten 
+[out] Pointer to a variable that receives the number of TCHARs actually written. 
 
-lpReserved
-Reserved; must be NULL.  
-```  
+lpReserved 
+Reserved; must be NULL.   
 ***  
 
 

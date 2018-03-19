@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : CreateEllipticRgn
+## Function name : CreateEllipticRgn
 Group: Region - Library: gdi32    
 ***  
 
@@ -39,19 +37,17 @@ DECLARE INTEGER CreateEllipticRgn IN gdi32;
 
 
 ## Parameters:
-```txt  
-nLeftRect
-[in] Specifies the x-coordinate in logical units, of the upper-left corner of the bounding rectangle of the ellipse.
+nLeftRect 
+[in] Specifies the x-coordinate in logical units, of the upper-left corner of the bounding rectangle of the ellipse. 
 
-nTopRect
-[in] Specifies the y-coordinate in logical units, of the upper-left corner of the bounding rectangle of the ellipse.
+nTopRect 
+[in] Specifies the y-coordinate in logical units, of the upper-left corner of the bounding rectangle of the ellipse. 
 
-nRightRect
-[in] Specifies the x-coordinate in logical units, of the lower-right corner of the bounding rectangle of the ellipse.
+nRightRect 
+[in] Specifies the x-coordinate in logical units, of the lower-right corner of the bounding rectangle of the ellipse. 
 
-nBottomRect
+nBottomRect 
 [in] Specifies the y-coordinate in logical units, of the lower-right corner of the bounding rectangle of the ellipse.  
-```  
 ***  
 
 

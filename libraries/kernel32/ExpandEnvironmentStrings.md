@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : ExpandEnvironmentStrings
+## Function name : ExpandEnvironmentStrings
 Group: System Information - Library: kernel32    
 ***  
 
@@ -36,16 +34,14 @@ DECLARE INTEGER ExpandEnvironmentStrings IN kernel32;
 
 
 ## Parameters:
-```txt  
-lpSrc
-[in] Pointer to a null-terminated string that contains environment-variable strings of the form: %variableName%.
+lpSrc 
+[in] Pointer to a null-terminated string that contains environment-variable strings of the form: %variableName%. 
 
-lpDst
-[out] Pointer to a buffer to receive a copy of the source buffer after all environment-variable name substitutions have been performed.
+lpDst 
+[out] Pointer to a buffer to receive a copy of the source buffer after all environment-variable name substitutions have been performed. 
 
-nSize
+nSize 
 [in] Specifies the maximum number of TCHARs that can be stored in the buffer pointed to by the lpDst parameter, including the terminating null character.  
-```  
 ***  
 
 

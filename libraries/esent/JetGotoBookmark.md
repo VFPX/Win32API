@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : JetGotoBookmark
+## Function name : JetGotoBookmark
 Group: Extensible Storage Engine (ESE, Jet Blue) - Library: esent    
 ***  
 
@@ -37,19 +35,17 @@ DECLARE INTEGER JetGotoBookmark IN esent;
 
 
 ## Parameters:
-```txt  
-sesid
+sesid 
 The session to use for this call.
 
-tableid
+tableid 
 The cursor to use for this call.
 
-pvBookmark
+pvBookmark 
 The buffer that contains the bookmark to use to position the cursor.
 
-cbBookmark
+cbBookmark 
 The size of the bookmark in the buffer (most likely 4 bytes).  
-```  
 ***  
 
 

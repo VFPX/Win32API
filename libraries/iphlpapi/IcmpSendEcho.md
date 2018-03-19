@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : IcmpSendEcho
+## Function name : IcmpSendEcho
 Group: IP Helper - Library: iphlpapi    
 ***  
 
@@ -46,31 +44,29 @@ DECLARE INTEGER IcmpSendEcho IN icmp;
 
 
 ## Parameters:
-```txt  
-IcmpHandle
-[in] Open handle returned by IcmpCreateFile.
+IcmpHandle 
+[in] Open handle returned by IcmpCreateFile. 
 
-DestinationAddress
-[in] Destination of the echo request, in the form of an IPAddr structure.
+DestinationAddress 
+[in] Destination of the echo request, in the form of an IPAddr structure. 
 
-RequestData
-[in] Buffer that contains the data to send in the request.
+RequestData 
+[in] Buffer that contains the data to send in the request. 
 
-RequestSize
-[in] Size of the request data buffer, in bytes.
+RequestSize 
+[in] Size of the request data buffer, in bytes. 
 
-RequestOptions
-[in] Pointer to the IP header options for the request, in the form of an IP_OPTION_INFORMATION structure. May be NULL.
+RequestOptions 
+[in] Pointer to the IP header options for the request, in the form of an IP_OPTION_INFORMATION structure. May be NULL. 
 
-ReplyBuffer
+ReplyBuffer 
 [in, out] Buffer to hold any replies to the request. Upon return, the buffer contains an array of ICMP_ECHO_REPLY structures followed by the options and data for the replies.
 
-ReplySize
+ReplySize 
 [in] Allocated size of the reply buffer, in bytes.
 
-Timeout
-[in] Time to wait for replies, in milliseconds.  
-```  
+Timeout 
+[in] Time to wait for replies, in milliseconds.   
 ***  
 
 

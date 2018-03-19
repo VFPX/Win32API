@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : SHGetStockIconInfo
+## Function name : SHGetStockIconInfo
 Group: Shell Functions - Library: shell32    
 ***  
 
@@ -35,7 +33,6 @@ DECLARE INTEGER SHGetStockIconInfo IN shell32;
 
 
 ## Parameters:
-```txt  
 siid
 One of the values from the SHSTOCKICONID enumeration that specifies which icon should be retrieved.
 
@@ -44,7 +41,6 @@ A combination of zero or more of the following flags that specify which informat
 
 psii [in, out]
 A pointer to a SHSTOCKICONINFO structure.  
-```  
 ***  
 
 

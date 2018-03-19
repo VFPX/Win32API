@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : JetDeleteTable
+## Function name : JetDeleteTable
 Group: Extensible Storage Engine (ESE, Jet Blue) - Library: esent    
 ***  
 
@@ -36,17 +34,15 @@ DECLARE INTEGER JetDeleteTable IN esent;
 
 
 ## Parameters:
-```txt  
-sesid
+sesid 
 The database session context to use for the API call.
 
-dbid
+dbid 
 The database identifier to use for the API call.
 
-szTableName
+szTableName 
 The name of the table to delete.
   
-```  
 ***  
 
 

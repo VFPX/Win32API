@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : GetKeyboardType
+## Function name : GetKeyboardType
 Group: System Information - Library: user32    
 ***  
 
@@ -30,10 +28,8 @@ DECLARE INTEGER GetKeyboardType IN user32 INTEGER nTypeFlag
 
 
 ## Parameters:
-```txt  
-nTypeFlag
+nTypeFlag 
 [in] Specifies the type of keyboard information to be retrieved.  
-```  
 ***  
 
 

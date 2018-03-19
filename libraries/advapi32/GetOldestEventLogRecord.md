@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : GetOldestEventLogRecord
+## Function name : GetOldestEventLogRecord
 Group: Event Logging - Library: advapi32    
 ***  
 
@@ -33,13 +31,11 @@ DECLARE INTEGER GetOldestEventLogRecord IN advapi32;
 
 
 ## Parameters:
-```txt  
 hEventLog
-[in] A handle to the open event log. This handle is returned by the OpenEventLog or OpenBackupEventLog function.
+[in] A handle to the open event log. This handle is returned by the OpenEventLog or OpenBackupEventLog function. 
 
 OldestRecord
-[out] A pointer to a variable that receives the absolute record number of the oldest record in the specified event log.  
-```  
+[out] A pointer to a variable that receives the absolute record number of the oldest record in the specified event log.   
 ***  
 
 

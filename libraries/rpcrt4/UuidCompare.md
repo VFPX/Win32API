@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : UuidCompare
+## Function name : UuidCompare
 Group: Remote Procedure Call (RPC) - Library: rpcrt4    
 ***  
 
@@ -32,7 +30,6 @@ DECLARE INTEGER UuidCompare IN Rpcrt4;
 
 
 ## Parameters:
-```txt  
 Uuid1
 Pointer to a UUID. This UUID is compared with the UUID specified in the Uuid2 parameter.
 
@@ -41,7 +38,6 @@ Pointer to a UUID. This UUID is compared with the UUID specified in the Uuid1 pa
 
 Status
 Returns any errors that may occur, and will typically be set by the function to RPC_S_OK upon return.  
-```  
 ***  
 
 

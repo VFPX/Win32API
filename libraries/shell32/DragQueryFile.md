@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : DragQueryFile
+## Function name : DragQueryFile
 Group: Shell Functions - Library: shell32    
 ***  
 
@@ -38,19 +36,17 @@ DECLARE INTEGER DragQueryFile IN shell32;
 
 
 ## Parameters:
-```txt  
 hDrop
 Identifier of the structure containing the file names of the dropped files.
 
 iFile
-Index of the file to query.
+Index of the file to query. 
 
 lpszFile
-Address of a buffer to receive the file name of a dropped file when the function returns.
+Address of a buffer to receive the file name of a dropped file when the function returns. 
 
 cch
 Size, in characters, of the lpszFile buffer.  
-```  
 ***  
 
 

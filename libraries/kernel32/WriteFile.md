@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : WriteFile
+## Function name : WriteFile
 Group: File Management - Library: kernel32    
 ***  
 
@@ -48,22 +46,20 @@ DECLARE INTEGER WriteFile IN kernel32;
 
 
 ## Parameters:
-```txt  
-hFile
-[in] Handle to the file to be written to. The file handle must have been created with GENERIC_WRITE access to the file.
+hFile 
+[in] Handle to the file to be written to. The file handle must have been created with GENERIC_WRITE access to the file. 
 
-lpBuffer
-[in] Pointer to the buffer containing the data to be written to the file.
+lpBuffer 
+[in] Pointer to the buffer containing the data to be written to the file. 
 
-nNumberOfBytesToWrite
-[in] Specifies the number of bytes to write to the file.
+nNumberOfBytesToWrite 
+[in] Specifies the number of bytes to write to the file. 
 
-lpNumberOfBytesWritten
-[out] Pointer to the variable that receives the number of bytes written.
+lpNumberOfBytesWritten 
+[out] Pointer to the variable that receives the number of bytes written. 
 
-lpOverlapped
-[in] Pointer to an OVERLAPPED structure. This structure is required if hFile was opened with FILE_FLAG_OVERLAPPED.  
-```  
+lpOverlapped 
+[in] Pointer to an OVERLAPPED structure. This structure is required if hFile was opened with FILE_FLAG_OVERLAPPED.   
 ***  
 
 

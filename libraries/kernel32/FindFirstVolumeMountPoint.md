@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : FindFirstVolumeMountPoint
+## Function name : FindFirstVolumeMountPoint
 Group: File System - Library: kernel32    
 ***  
 
@@ -38,16 +36,14 @@ DECLARE INTEGER FindFirstVolumeMountPoint IN kernel32;
 
 
 ## Parameters:
-```txt  
-lpszRootPathName
-[in] Unique volume name of the volume to scan for volume mount points. A trailing backslash is required.
+lpszRootPathName 
+[in] Unique volume name of the volume to scan for volume mount points. A trailing backslash is required. 
 
-lpszVolumeMountPoint
-[out] Pointer to a buffer that receives the name of the first volume mount point found.
+lpszVolumeMountPoint 
+[out] Pointer to a buffer that receives the name of the first volume mount point found. 
 
-cchBufferLength
-[in] Length of the buffer that receives the volume mount point name, in TCHARs.  
-```  
+cchBufferLength 
+[in] Length of the buffer that receives the volume mount point name, in TCHARs.   
 ***  
 
 

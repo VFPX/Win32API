@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : ScreenToClient
+## Function name : ScreenToClient
 Group: Coordinate Space and Transformation - Library: user32    
 ***  
 
@@ -33,13 +31,11 @@ DECLARE INTEGER ScreenToClient IN user32;
 
 
 ## Parameters:
-```txt  
-hWnd
-[in] Handle to the window whose client area will be used for the conversion.
+hWnd 
+[in] Handle to the window whose client area will be used for the conversion. 
 
-lpPoint
+lpPoint 
 [in] Pointer to a POINT structure that specifies the screen coordinates to be converted.  
-```  
 ***  
 
 

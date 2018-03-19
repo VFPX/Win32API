@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : SetEndOfFile
+## Function name : SetEndOfFile
 Group: File Management - Library: kernel32    
 ***  
 
@@ -28,11 +26,9 @@ DECLARE INTEGER SetEndOfFile IN kernel32;
 
 
 ## Parameters:
-```txt  
-hFile [in]
+hFile [in] 
 A handle to the file to be extended or truncated.
   
-```  
 ***  
 
 

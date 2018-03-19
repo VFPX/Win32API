@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : SQLFreeHandle
+## Function name : SQLFreeHandle
 Group: ODBC API - Library: odbc32    
 ***  
 
@@ -38,15 +36,13 @@ DECLARE SHORT SQLFreeHandle IN odbc32;
 
 
 ## Parameters:
-```txt  
-HandleType
+HandleType 
 [Input]
 The type of handle to be freed by SQLFreeHandle.
 
-Handle
+Handle 
 [Input]
-The handle to be freed.  
-```  
+The handle to be freed.   
 ***  
 
 

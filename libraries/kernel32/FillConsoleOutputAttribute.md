@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : FillConsoleOutputAttribute
+## Function name : FillConsoleOutputAttribute
 Group: Console - Library: kernel32    
 ***  
 
@@ -41,22 +39,20 @@ DECLARE INTEGER FillConsoleOutputAttribute IN kernel32;
 
 
 ## Parameters:
-```txt  
-hConsoleOutput
+hConsoleOutput 
 [in] Handle to a console screen buffer.
 
-wAttribute
-[in] Attributes to use when writing to the console screen buffer.
+wAttribute 
+[in] Attributes to use when writing to the console screen buffer. 
 
-nLength
-[in] Number of character cells to be set to the specified color attributes.
+nLength 
+[in] Number of character cells to be set to the specified color attributes. 
 
-dwWriteCoord
-[in] A COORD structure that specifies the console screen buffer coordinates of the first cell whose attributes are to be set.
+dwWriteCoord 
+[in] A COORD structure that specifies the console screen buffer coordinates of the first cell whose attributes are to be set. 
 
-lpNumberOfAttrsWritten
-[out] Pointer to a variable that receives the number of character cells whose attributes were actually set.  
-```  
+lpNumberOfAttrsWritten 
+[out] Pointer to a variable that receives the number of character cells whose attributes were actually set.   
 ***  
 
 

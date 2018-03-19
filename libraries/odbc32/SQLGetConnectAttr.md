@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : SQLGetConnectAttr
+## Function name : SQLGetConnectAttr
 Group: ODBC API - Library: odbc32    
 ***  
 
@@ -38,27 +36,25 @@ DECLARE SHORT SQLGetConnectAttr IN odbc32;
 
 
 ## Parameters:
-```txt  
-ConnectionHandle
+ConnectionHandle 
 [Input]
-Connection handle.
+Connection handle. 
 
-Attribute
+Attribute 
 [Input]
-Attribute to retrieve.
+Attribute to retrieve. 
 
-ValuePtr
+ValuePtr 
 [Output]
-A pointer to memory in which to return the current value of the attribute specified by Attribute.
+A pointer to memory in which to return the current value of the attribute specified by Attribute. 
 
-BufferLength
+BufferLength 
 [Input]
-If Attribute is an ODBC-defined attribute and ValuePtr points to a character string or a binary buffer, this argument should be the length of *ValuePtr.
+If Attribute is an ODBC-defined attribute and ValuePtr points to a character string or a binary buffer, this argument should be the length of *ValuePtr. 
 
-StringLengthPtr
+StringLengthPtr 
 [Output]
-A pointer to a buffer in which to return the total number of bytes available to return in *ValuePtr.  
-```  
+A pointer to a buffer in which to return the total number of bytes available to return in *ValuePtr.   
 ***  
 
 

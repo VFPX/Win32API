@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : CryptDestroyKey
+## Function name : CryptDestroyKey
 Group: Cryptography Reference - Library: advapi32    
 ***  
 
@@ -33,10 +31,8 @@ DECLARE INTEGER CryptDestroyKey IN advapi32;
 
 
 ## Parameters:
-```txt  
-hKey
+hKey 
 [in] Handle of the key to be destroyed.  
-```  
 ***  
 
 

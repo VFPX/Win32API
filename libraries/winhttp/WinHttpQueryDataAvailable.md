@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : WinHttpQueryDataAvailable
+## Function name : WinHttpQueryDataAvailable
 Group: HTTP Functions (WinHTTP) - Library: winhttp    
 ***  
 
@@ -34,13 +32,11 @@ DECLARE INTEGER WinHttpQueryDataAvailable IN winhttp;
 
 
 ## Parameters:
-```txt  
-hRequest
+hRequest 
 [in] Valid HINTERNET handle, as returned by WinHttpOpenRequest.
 
-lpdwNumberOfBytesAvailable
+lpdwNumberOfBytesAvailable 
 [out, optional] Pointer to an unsigned long integer variable that receives the number of available bytes.  
-```  
 ***  
 
 

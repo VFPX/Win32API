@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : ResetEvent
+## Function name : ResetEvent
 Group: Synchronization - Library: kernel32    
 ***  
 
@@ -31,10 +29,8 @@ DECLARE INTEGER ResetEvent IN kernel32;
 
 
 ## Parameters:
-```txt  
-hEvent
+hEvent 
 [in] Handle to the event object. The CreateEvent or OpenEvent function returns this handle.  
-```  
 ***  
 
 

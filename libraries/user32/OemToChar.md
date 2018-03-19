@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : OemToChar
+## Function name : OemToChar
 Group: String - Library: user32    
 ***  
 
@@ -34,13 +32,11 @@ DECLARE SHORT OemToChar IN user32;
 
 
 ## Parameters:
-```txt  
-lpszSrc
-[in] Pointer to a null-terminated string of characters from the OEM-defined character set.
+lpszSrc 
+[in] Pointer to a null-terminated string of characters from the OEM-defined character set. 
 
-lpszDst
+lpszDst 
 [out] Pointer to the buffer for the translated string.  
-```  
 ***  
 
 

@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : GetAce
+## Function name : GetAce
 Group: Security - Library: advapi32    
 ***  
 
@@ -37,16 +35,14 @@ DECLARE INTEGER GetAce IN advapi32;
 
 
 ## Parameters:
-```txt  
-pAcl
-[in] A pointer to an ACL that contains the ACE to be retrieved.
+pAcl 
+[in] A pointer to an ACL that contains the ACE to be retrieved. 
 
-dwAceIndex
-[in] The index of the ACE to be retrieved. A value of zero corresponds to the first ACE in the ACL, a value of one to the second ACE, and so on.
+dwAceIndex 
+[in] The index of the ACE to be retrieved. A value of zero corresponds to the first ACE in the ACL, a value of one to the second ACE, and so on. 
 
-pAce
-[out] A pointer to a pointer that the function sets to the address of the ACE.  
-```  
+pAce 
+[out] A pointer to a pointer that the function sets to the address of the ACE.   
 ***  
 
 

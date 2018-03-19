@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : EnumDisplayDevices
+## Function name : EnumDisplayDevices
 Group: Device Context - Library: user32    
 ***  
 
@@ -38,19 +36,17 @@ DECLARE INTEGER EnumDisplayDevices IN user32;
 
 
 ## Parameters:
-```txt  
-lpDevice
+lpDevice 
 [in] Pointer to the device name. If NULL, function returns information for the display adapter(s) on the machine, based on iDevNum.
 
-iDevNum
-[in] Index value that specifies the display device of interest.
+iDevNum 
+[in] Index value that specifies the display device of interest. 
 
-lpDisplayDevice
+lpDisplayDevice 
 [out] Pointer to a DISPLAY_DEVICE structure that receives information about the display device specified by iDevNum.
 
-dwFlags
+dwFlags 
 This parameter is currently not used and should be set to zero.  
-```  
 ***  
 
 

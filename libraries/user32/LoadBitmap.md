@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : LoadBitmap
+## Function name : LoadBitmap
 Group: Bitmap - Library: user32    
 ***  
 
@@ -34,13 +32,11 @@ DECLARE INTEGER LoadBitmap IN user32;
 
 
 ## Parameters:
-```txt  
-hInstance
-[in] Handle to the instance of the module whose executable file contains the bitmap to be loaded.
+hInstance 
+[in] Handle to the instance of the module whose executable file contains the bitmap to be loaded. 
 
-lpBitmapName
-[in] Pointer to a null-terminated string that contains the name of the bitmap resource to be loaded.  
-```  
+lpBitmapName 
+[in] Pointer to a null-terminated string that contains the name of the bitmap resource to be loaded.   
 ***  
 
 

@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : CeRegSetValueEx
+## Function name : CeRegSetValueEx
 Group: Remote Application Programming (RAPI) - Library: rapi    
 ***  
 
@@ -42,25 +40,23 @@ DECLARE INTEGER CeRegSetValueEx IN rapi;
 
 
 ## Parameters:
-```txt  
-hKey
+hKey 
 [in] Handle to a currently open key or any of the predefined reserved handle values.
 
-lpValueName
+lpValueName 
 [in] Pointer to a string containing the name of the value to set. If a value with this name is not already present in the key, the function adds it to the key.
 
-Reserved
-[in] Reserved; must be 0.
+Reserved 
+[in] Reserved; must be 0. 
 
-dwType
+dwType 
 [in] Specifies the type of information to be stored as the value"s data.
 
-lpData
-[in] Pointer to a buffer containing the data to be stored with the specified value name.
+lpData 
+[in] Pointer to a buffer containing the data to be stored with the specified value name. 
 
-cbData
+cbData 
 [in] Specifies the size, in bytes, of the information pointed to by the lpData parameter.  
-```  
 ***  
 
 

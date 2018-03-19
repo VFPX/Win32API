@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : CompareFileTime
+## Function name : CompareFileTime
 Group: Time - Library: kernel32    
 ***  
 
@@ -34,13 +32,11 @@ DECLARE INTEGER CompareFileTime IN kernel32;
 
 
 ## Parameters:
-```txt  
-lpFileTime1
-[in] Pointer to a FILETIME structure that specifies the first file time.
+lpFileTime1 
+[in] Pointer to a FILETIME structure that specifies the first file time. 
 
-lpFileTime2
-[in] Pointer to a FILETIME structure that specifies the second file time.  
-```  
+lpFileTime2 
+[in] Pointer to a FILETIME structure that specifies the second file time.   
 ***  
 
 

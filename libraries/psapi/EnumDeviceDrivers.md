@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : EnumDeviceDrivers
+## Function name : EnumDeviceDrivers
 Group: Performance Monitoring - Library: psapi    
 ***  
 
@@ -35,16 +33,14 @@ DECLARE INTEGER EnumDeviceDrivers IN psapi;
 
 
 ## Parameters:
-```txt  
-lpImageBase
-[out] Pointer to an array that receives the list of load addresses for the device drivers.
+lpImageBase 
+[out] Pointer to an array that receives the list of load addresses for the device drivers. 
 
-cb
-[in] Specifies the size, in bytes, of the lpImageBase array.
+cb 
+[in] Specifies the size, in bytes, of the lpImageBase array. 
 
-lpcbNeeded
-[out] Receives the number of bytes returned in the lpImageBase array.  
-```  
+lpcbNeeded 
+[out] Receives the number of bytes returned in the lpImageBase array.   
 ***  
 
 

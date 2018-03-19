@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : DllGetVersion
+## Function name : DllGetVersion
 Group: Shell Functions - Library: shell32    
 ***  
 
@@ -31,11 +29,9 @@ DECLARE INTEGER DllGetVersion IN shell32;
 
 
 ## Parameters:
-```txt  
 pdvi
 Pointer to a DLLVERSIONINFO structure that receives the version information.
   
-```  
 ***  
 
 

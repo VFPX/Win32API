@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : PathToRegion
+## Function name : PathToRegion
 Group: Path - Library: gdi32    
 ***  
 
@@ -31,10 +29,8 @@ DECLARE INTEGER PathToRegion IN gdi32;
 
 
 ## Parameters:
-```txt  
-hdc
+hdc 
 [in] Handle to a device context that contains a closed path.  
-```  
 ***  
 
 

@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : MessageBeep
+## Function name : MessageBeep
 Group: Error Handling - Library: user32    
 ***  
 
@@ -30,10 +28,8 @@ DECLARE INTEGER MessageBeep IN user32 INTEGER wType
 
 
 ## Parameters:
-```txt  
 uType
 Specifies the sound type  
-```  
 ***  
 
 

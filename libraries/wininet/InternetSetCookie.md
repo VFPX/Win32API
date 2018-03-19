@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : InternetSetCookie
+## Function name : InternetSetCookie
 Group: Internet Functions (WinInet) - Library: wininet    
 ***  
 
@@ -35,16 +33,14 @@ DECLARE INTEGER InternetSetCookie IN wininet;
 
 
 ## Parameters:
-```txt  
-lpszUrl
-[in] Address of a null-terminated string that specifies the URL for which the cookie should be set.
+lpszUrl 
+[in] Address of a null-terminated string that specifies the URL for which the cookie should be set. 
 
-lpszCookieName
-[in] Address of a string that contains the name to associate with the cookie data. If this parameter is NULL, no name is associated with the cookie.
+lpszCookieName 
+[in] Address of a string that contains the name to associate with the cookie data. If this parameter is NULL, no name is associated with the cookie. 
 
-lpszCookieData
-[in] Address of the actual data to associate with the URL.  
-```  
+lpszCookieData 
+[in] Address of the actual data to associate with the URL.   
 ***  
 
 

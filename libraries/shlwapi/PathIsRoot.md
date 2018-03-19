@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : PathIsRoot
+## Function name : PathIsRoot
 Group: Shell Lightweight Utility APIs -- Path Functions - Library: shlwapi    
 ***  
 
@@ -31,10 +29,8 @@ DECLARE INTEGER PathIsRoot IN shlwapi;
 
 
 ## Parameters:
-```txt  
-pPath
+pPath 
 [in] Pointer to a null-terminated string of maximum length MAX_PATH that contains the path to be validated.  
-```  
 ***  
 
 

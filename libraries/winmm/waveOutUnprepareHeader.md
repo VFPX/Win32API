@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : waveOutUnprepareHeader
+## Function name : waveOutUnprepareHeader
 Group: Windows Multimedia - Library: winmm    
 ***  
 
@@ -37,16 +35,14 @@ DECLARE INTEGER waveOutUnprepareHeader IN winmm;
 
 
 ## Parameters:
-```txt  
-hwo
-Handle to the waveform-audio output device.
+hwo 
+Handle to the waveform-audio output device. 
 
-pwh
-Pointer to a WAVEHDR structure identifying the data block to be cleaned up.
+pwh 
+Pointer to a WAVEHDR structure identifying the data block to be cleaned up. 
 
-cbwh
+cbwh 
 Size, in bytes, of the WAVEHDR structure.  
-```  
 ***  
 
 

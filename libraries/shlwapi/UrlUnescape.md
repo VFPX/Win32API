@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : UrlUnescape
+## Function name : UrlUnescape
 Group: Shell Lightweight Utility APIs -- Path Functions - Library: shlwapi    
 ***  
 
@@ -35,9 +33,8 @@ DECLARE INTEGER UrlUnescape IN shlwapi;
 
 
 ## Parameters:
-```txt  
 pszURL
-[in, out] Pointer to a null-terminated string with the URL.
+[in, out] Pointer to a null-terminated string with the URL. 
 
 pszUnescaped
 [out] Pointer to a buffer that will receive a null-terminated string containing the unescaped version of pszURL.
@@ -46,8 +43,7 @@ pcchUnescaped
 [in, out] Number of characters in the buffer pointed to by pcchUnescaped.
 
 dwFlags
-[in] Flags that control which characters are unescaped.  
-```  
+[in] Flags that control which characters are unescaped.   
 ***  
 
 

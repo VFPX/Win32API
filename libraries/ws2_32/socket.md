@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : socket
+## Function name : socket
 Group: Windows Sockets 2 (Winsock) - Library: ws2_32    
 ***  
 
@@ -44,16 +42,14 @@ DECLARE INTEGER socket IN ws2_32;
 
 
 ## Parameters:
-```txt  
-af
-[in] Address family specification.
+af 
+[in] Address family specification. 
 
-type
-[in] Type specification for the new socket.
+type 
+[in] Type specification for the new socket. 
 
-protocol
-[in] Protocol to be used with the socket that is specific to the indicated address family.  
-```  
+protocol 
+[in] Protocol to be used with the socket that is specific to the indicated address family.   
 ***  
 
 

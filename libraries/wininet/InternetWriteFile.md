@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : InternetWriteFile
+## Function name : InternetWriteFile
 Group: Internet Functions (WinInet) - Library: wininet    
 ***  
 
@@ -39,7 +37,6 @@ DECLARE INTEGER InternetWriteFile IN wininet;
 
 
 ## Parameters:
-```txt  
 hFile
 [in] Valid HINTERNET handle returned from a previous call to FtpOpenFile or an HINTERNET handle sent by HttpSendRequestEx.
 
@@ -51,7 +48,6 @@ dwNumberOfBytesToWrite
 
 lpdwNumberOfBytesWritten
 [out] Pointer to an unsigned long integer variable that receives the number of bytes written to the buffer.  
-```  
 ***  
 
 

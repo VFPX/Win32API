@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : CopyImage
+## Function name : CopyImage
 Group: Resource - Library: user32    
 ***  
 
@@ -37,22 +35,20 @@ DECLARE INTEGER CopyImage IN user32;
 
 
 ## Parameters:
-```txt  
 hImage
-[in] Handle to the image to be copied.
+[in] Handle to the image to be copied. 
 
 uType
-[in] Specifies the type of image to be copied.
+[in] Specifies the type of image to be copied. 
 
 cxDesired
-[in] Specifies the desired width, in pixels, of the image.
+[in] Specifies the desired width, in pixels, of the image. 
 
 cyDesired
 [in] Specifies the desired height, in pixels, of the image.
 
 fuFlags
-[in] This parameter can be one or more of the predefined values.  
-```  
+[in] This parameter can be one or more of the predefined values.   
 ***  
 
 

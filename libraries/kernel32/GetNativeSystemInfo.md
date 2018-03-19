@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : GetNativeSystemInfo
+## Function name : GetNativeSystemInfo
 Group: System Information - Library: kernel32    
 ***  
 
@@ -30,11 +28,9 @@ DECLARE GetNativeSystemInfo IN kernel32;
 
 
 ## Parameters:
-```txt  
-lpSystemInfo
+lpSystemInfo 
 A pointer to a SYSTEM_INFO structure that receives the information.
   
-```  
 ***  
 
 

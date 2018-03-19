@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : GlobalReAlloc
+## Function name : GlobalReAlloc
 Group: Memory Management - Library: kernel32    
 ***  
 
@@ -36,16 +34,14 @@ DECLARE INTEGER GlobalReAlloc IN kernel32;
 
 
 ## Parameters:
-```txt  
-hMem
-[in] A handle to the global memory object to be reallocated. This handle is returned by either the GlobalAlloc or GlobalReAlloc function.
+hMem 
+[in] A handle to the global memory object to be reallocated. This handle is returned by either the GlobalAlloc or GlobalReAlloc function. 
 
-dwBytes
-[in] The new size of the memory block, in bytes. If uFlags specifies GMEM_MODIFY, this parameter is ignored.
+dwBytes 
+[in] The new size of the memory block, in bytes. If uFlags specifies GMEM_MODIFY, this parameter is ignored. 
 
-uFlags
+uFlags 
 [in] The reallocation options.  
-```  
 ***  
 
 

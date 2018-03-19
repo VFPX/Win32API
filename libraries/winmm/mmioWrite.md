@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : mmioWrite
+## Function name : mmioWrite
 Group: Windows Multimedia - Library: winmm    
 ***  
 
@@ -39,7 +37,6 @@ DECLARE LONG mmioWrite IN winmm;
 
 
 ## Parameters:
-```txt  
 hmmio
 File handle of the file.
 
@@ -49,7 +46,6 @@ Pointer to the buffer to be written to the file.
 cch
 Number of bytes to write to the file.
   
-```  
 ***  
 
 

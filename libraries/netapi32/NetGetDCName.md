@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : NetGetDCName
+## Function name : NetGetDCName
 Group: Network Management - Library: netapi32    
 ***  
 
@@ -35,16 +33,14 @@ DECLARE INTEGER NetGetDCName IN netapi32;
 
 
 ## Parameters:
-```txt  
-servername
-[in] Pointer to a constant Unicode string specifying the name of the remote server on which the function is to execute.
+servername 
+[in] Pointer to a constant Unicode string specifying the name of the remote server on which the function is to execute. 
 
-domainname
-[in] Pointer to a constant Unicode string specifying the name of the domain.
+domainname 
+[in] Pointer to a constant Unicode string specifying the name of the domain. 
 
-bufptr
-[out] Pointer to an allocated buffer that receives a Unicode string which specifies the server name of the PDC of the domain.  
-```  
+bufptr 
+[out] Pointer to an allocated buffer that receives a Unicode string which specifies the server name of the PDC of the domain.   
 ***  
 
 

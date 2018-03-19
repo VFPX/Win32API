@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : SetupOpenInfFile
+## Function name : SetupOpenInfFile
 Group: Setup API functions - Library: setupapi    
 ***  
 
@@ -37,19 +35,17 @@ DECLARE INTEGER SetupOpenInfFile IN setupapi;
 
 
 ## Parameters:
-```txt  
-FileName
-Points to a null-terminated string containing the name (and optional path) of the INF file to be opened.
+FileName 
+Points to a null-terminated string containing the name (and optional path) of the INF file to be opened. 
 
-InfClass
-An optional parameter that points to a null-terminated string containing the class of INF file desired.
+InfClass 
+An optional parameter that points to a null-terminated string containing the class of INF file desired. 
 
-InfStyle
-Specifies the style of INF file to open.
+InfStyle 
+Specifies the style of INF file to open. 
 
-ErrorLine
-An optional parameter that points to a caller-supplied variable to which this function returns the (1-based) line number where an error occurred during loading of the INF file.  
-```  
+ErrorLine 
+An optional parameter that points to a caller-supplied variable to which this function returns the (1-based) line number where an error occurred during loading of the INF file.   
 ***  
 
 

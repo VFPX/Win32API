@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : JetCreateTable
+## Function name : JetCreateTable
 Group: Extensible Storage Engine (ESE, Jet Blue) - Library: esent    
 ***  
 
@@ -42,27 +40,25 @@ DECLARE INTEGER JetCreateTable IN esent;
 
 
 ## Parameters:
-```txt  
-sesid
+sesid 
 The database session context to use.
 
-dbid
+dbid 
 The database identifier to use.
 
-szTableName
+szTableName 
 The name of the index to create.
 
-lPages
+lPages 
 The initial number of database pages to allocate for the table.
 
-lDensity
+lDensity 
 The table density, in percentage points.
 
-ptableid
+ptableid 
 On success, the table identifier is returned in this field. The value is undefined if the API does not return JET_errSuccess (0).
 
   
-```  
 ***  
 
 

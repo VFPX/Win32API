@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : FindResource
+## Function name : FindResource
 Group: Resource - Library: kernel32    
 ***  
 
@@ -37,7 +35,6 @@ DECLARE INTEGER FindResource IN kernel32;
 
 
 ## Parameters:
-```txt  
 hModule
 [in] Handle to the module whose executable file contains the resource.
 
@@ -46,7 +43,6 @@ lpName
 
 lpType
 [in] Specifies the resource type.  
-```  
 ***  
 
 

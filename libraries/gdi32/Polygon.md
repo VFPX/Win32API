@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : Polygon
+## Function name : Polygon
 Group: Filled Shape - Library: gdi32    
 ***  
 
@@ -35,16 +33,14 @@ DECLARE INTEGER Polygon IN gdi32;
 
 
 ## Parameters:
-```txt  
-hdc
-[in] Handle to the device context.
+hdc 
+[in] Handle to the device context. 
 
-lpPoints
-[in] Pointer to an array of POINT structures that specify the vertices of the polygon, in logical coordinates.
+lpPoints 
+[in] Pointer to an array of POINT structures that specify the vertices of the polygon, in logical coordinates. 
 
-nCount
-[in] Specifies the number of vertices in the array. This value must be greater than or equal to 2.  
-```  
+nCount 
+[in] Specifies the number of vertices in the array. This value must be greater than or equal to 2.   
 ***  
 
 

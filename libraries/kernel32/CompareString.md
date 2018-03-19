@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : CompareString
+## Function name : CompareString
 Group: National Language Support - Library: kernel32    
 ***  
 
@@ -38,7 +36,6 @@ DECLARE INTEGER CompareString IN kernel32;
 
 
 ## Parameters:
-```txt  
 Locale [in]
 Locale identifier of the locale used for the comparison.
 
@@ -56,7 +53,6 @@ Pointer to the second string to compare.
 
 cchCount2 [in]
 Length of the string indicated by lpString2, excluding the terminating null character.  
-```  
 ***  
 
 

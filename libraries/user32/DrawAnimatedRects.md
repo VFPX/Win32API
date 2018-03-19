@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : DrawAnimatedRects
+## Function name : DrawAnimatedRects
 Group: Painting and Drawing - Library: user32    
 ***  
 
@@ -37,19 +35,17 @@ DECLARE INTEGER DrawAnimatedRects IN user32;
 
 
 ## Parameters:
-```txt  
-hwnd
-[in] Handle to the window to which the rectangle is clipped. If this parameter is NULL, the working area of the screen is used.
+hwnd 
+[in] Handle to the window to which the rectangle is clipped. If this parameter is NULL, the working area of the screen is used. 
 
-idAni
-[in] Specifies the type of animation. If you specify IDANI_CAPTION, the window caption will animate from the position specified by lprcFrom to the position specified by lprcTo.
+idAni 
+[in] Specifies the type of animation. If you specify IDANI_CAPTION, the window caption will animate from the position specified by lprcFrom to the position specified by lprcTo. 
 
-lprcFrom
-[in] Pointer to a RECT structure specifying the location and size of the icon or minimized window. Coordinates are relative to the clipping window hwnd.
+lprcFrom 
+[in] Pointer to a RECT structure specifying the location and size of the icon or minimized window. Coordinates are relative to the clipping window hwnd. 
 
-lprcTo
-[in] Pointer to a RECT structure specifying the location and size of the restored window. Coordinates are relative to the clipping window hwnd.  
-```  
+lprcTo 
+[in] Pointer to a RECT structure specifying the location and size of the restored window. Coordinates are relative to the clipping window hwnd.   
 ***  
 
 

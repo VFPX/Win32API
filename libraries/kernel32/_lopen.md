@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : _lopen
+## Function name : _lopen
 Group: File Management - Library: kernel32    
 ***  
 
@@ -32,13 +30,11 @@ DECLARE INTEGER _lopen IN kernel32;
 
 
 ## Parameters:
-```txt  
 lpPathName
-Points to a null-terminated string that names the file to open. The string must consist of characters from the Windows ANSI character set.
+Points to a null-terminated string that names the file to open. The string must consist of characters from the Windows ANSI character set. 
 
 iReadWrite
 Specifies the modes in which to open the file.  
-```  
 ***  
 
 

@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : WinExec
+## Function name : WinExec
 Group: Process and Thread - Library: kernel32    
 ***  
 
@@ -41,14 +39,12 @@ DECLARE INTEGER WinExec IN kernel32;
 
 
 ## Parameters:
-```txt  
-lpCmdLine
+lpCmdLine 
 [in] Pointer to a null-terminated character string that contains the command line (file name plus optional parameters) for the application to be executed
 
-uCmdShow
+uCmdShow 
 [in] Specifies how a Windows-based application window is to be shown ...
   
-```  
 ***  
 
 

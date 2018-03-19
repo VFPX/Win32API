@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : GdipReleaseDC
+## Function name : GdipReleaseDC
 Group: GDI+ Graphics - Library: gdiplus    
 ***  
 
@@ -36,13 +34,11 @@ DECLARE INTEGER GdipReleaseDC IN gdiplus;
 
 
 ## Parameters:
-```txt  
 graphics
 [in] Handle to a Graphics object obtained from GdipCreateFromHDC, GdipCreateFromHDC2, GdipCreateFromHWND or GdipGetImageGraphicsContext functions.
 
 hdc
-[in] Handle to a device context obtained by a previous call to the GdipGetHDC method with this Graphics handle.  
-```  
+[in] Handle to a device context obtained by a previous call to the GdipGetHDC method with this Graphics handle.   
 ***  
 
 

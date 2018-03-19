@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : SQLSetEnvAttr
+## Function name : SQLSetEnvAttr
 Group: ODBC API - Library: odbc32    
 ***  
 
@@ -36,22 +34,20 @@ DECLARE SHORT SQLSetEnvAttr IN odbc32;
 
 
 ## Parameters:
-```txt  
-EnvironmentHandle
+EnvironmentHandle 
 [Input]
-Environment handle.
+Environment handle. 
 
-Attribute
+Attribute 
 [Input]
-Attribute to set, listed in "Comments."
+Attribute to set, listed in "Comments." 
 
-ValuePtr
+ValuePtr 
 [Input]
 Pointer to the value to be associated with Attribute.
 
-StringLength
-[Input] If ValuePtr points to a character string or a binary buffer, this argument should be the length of *ValuePtr. If ValuePtr is an integer, StringLength is ignored.  
-```  
+StringLength 
+[Input] If ValuePtr points to a character string or a binary buffer, this argument should be the length of *ValuePtr. If ValuePtr is an integer, StringLength is ignored.   
 ***  
 
 

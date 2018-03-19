@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : CeRegCreateKeyEx
+## Function name : CeRegCreateKeyEx
 Group: Remote Application Programming (RAPI) - Library: rapi    
 ***  
 
@@ -48,29 +46,27 @@ DECLARE INTEGER CeRegCreateKeyEx IN rapi;
 
 
 ## Parameters:
-```txt  
-hKey
+hKey 
 [in] Handle to a currently open key or one of the predefined reserved handle values.
 
-lpszSubKey
-[in] Pointer to a null-terminated string specifying the name of a subkey that this function opens or creates. The subkey specified must be a subkey of the key identified by the hKey parameter.
+lpszSubKey 
+[in] Pointer to a null-terminated string specifying the name of a subkey that this function opens or creates. The subkey specified must be a subkey of the key identified by the hKey parameter. 
 
-lpszClass
+lpszClass 
 [in] Pointer to a null-terminated string that specifies the class (object type) of this key.
 
-dwOptions
-[in] Ignored; set to 0 to ensure compatibility with future versions of Windows CE.
+dwOptions 
+[in] Ignored; set to 0 to ensure compatibility with future versions of Windows CE. 
 
-samDesired
-[in] Ignored; set to 0 to ensure compatibility with future versions of Windows CE.
+samDesired 
+[in] Ignored; set to 0 to ensure compatibility with future versions of Windows CE. 
 
-lpSecurityAttributes
-[in] Set to NULL. Windows CE automatically assigns the key a default security descriptor.
+lpSecurityAttributes 
+[in] Set to NULL. Windows CE automatically assigns the key a default security descriptor. 
 
-phkResult
-[out] Pointer to a variable that receives a handle to the opened or created key. When you no longer need the returned handle, call the CeRegCloseKey function to close it.
+phkResult 
+[out] Pointer to a variable that receives a handle to the opened or created key. When you no longer need the returned handle, call the CeRegCloseKey function to close it. 
   
-```  
 ***  
 
 

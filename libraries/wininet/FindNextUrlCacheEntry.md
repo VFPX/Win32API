@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : FindNextUrlCacheEntry
+## Function name : FindNextUrlCacheEntry
 Group: Internet Functions (WinInet) - Library: wininet    
 ***  
 
@@ -37,16 +35,14 @@ DECLARE INTEGER FindNextUrlCacheEntry IN wininet;
 
 
 ## Parameters:
-```txt  
-hEnumHandle
-[in] Handle to the enumeration obtained from a previous call to FindFirstUrlCacheEntry.
+hEnumHandle 
+[in] Handle to the enumeration obtained from a previous call to FindFirstUrlCacheEntry. 
 
-lpNextCacheEntryInfo
-[out] Pointer to an INTERNET_CACHE_ENTRY_INFO structure that receives information about the cache entry.
+lpNextCacheEntryInfo 
+[out] Pointer to an INTERNET_CACHE_ENTRY_INFO structure that receives information about the cache entry. 
 
-lpdwNextCacheEntryInfoBufferSize
+lpdwNextCacheEntryInfoBufferSize 
 [in, out] Pointer to a variable that specifies the size of the lpNextCacheEntryInfo buffer.  
-```  
 ***  
 
 

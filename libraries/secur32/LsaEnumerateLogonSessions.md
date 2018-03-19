@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : LsaEnumerateLogonSessions
+## Function name : LsaEnumerateLogonSessions
 Group: Security - Library: secur32    
 ***  
 
@@ -34,13 +32,11 @@ DECLARE INTEGER LsaEnumerateLogonSessions IN secur32;
 
 
 ## Parameters:
-```txt  
 LogonSessionCount [out]
 Pointer to a long integer that receives the number of elements returned in the array returned in LogonSessionList parameter.
 
 LogonSessionList [out]
-Address of a pointer to a LUID. The pointer receives the first element of an array of logon session identifiers.  
-```  
+Address of a pointer to a LUID. The pointer receives the first element of an array of logon session identifiers.   
 ***  
 
 

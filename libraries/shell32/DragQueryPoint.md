@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : DragQueryPoint
+## Function name : DragQueryPoint
 Group: Shell Functions - Library: shell32    
 ***  
 
@@ -34,13 +32,11 @@ DECLARE INTEGER DragQueryPoint IN shell32;
 
 
 ## Parameters:
-```txt  
 hDrop
-Identifier of the structure that describes the dropped file.
+Identifier of the structure that describes the dropped file. 
 
 lppt
-Address of a POINT structure that the function fills with the coordinates of the mouse pointer at the time the file was dropped.  
-```  
+Address of a POINT structure that the function fills with the coordinates of the mouse pointer at the time the file was dropped.   
 ***  
 
 

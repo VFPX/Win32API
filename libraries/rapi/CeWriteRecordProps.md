@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : CeWriteRecordProps
+## Function name : CeWriteRecordProps
 Group: Remote Application Programming (RAPI) - Library: rapi    
 ***  
 
@@ -38,19 +36,17 @@ DECLARE INTEGER CeWriteRecordProps IN rapi;
 
 
 ## Parameters:
-```txt  
-hDbase
-[in] Handle to an open database. The database must have been opened by a previous call to the CeOpenDatabase function.
+hDbase 
+[in] Handle to an open database. The database must have been opened by a previous call to the CeOpenDatabase function. 
 
-oidRecord
-[in] Object identifier of the record to which the specified properties are to be written. If this parameter is 0, a new record is created and filled in with the specified properties.
+oidRecord 
+[in] Object identifier of the record to which the specified properties are to be written. If this parameter is 0, a new record is created and filled in with the specified properties. 
 
-cPropID
-[in] Number of properties in the array specified by the rgPropVal parameter. The cPropID parameter must not be 0.
+cPropID 
+[in] Number of properties in the array specified by the rgPropVal parameter. The cPropID parameter must not be 0. 
 
-rgPropVal
+rgPropVal 
 [in] Pointer to an array of CEPROPVAL structures that specify the property values to be written to the specified record.  
-```  
 ***  
 
 

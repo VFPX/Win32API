@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : GetConsoleScreenBufferInfo
+## Function name : GetConsoleScreenBufferInfo
 Group: Console - Library: kernel32    
 ***  
 
@@ -35,13 +33,11 @@ DECLARE INTEGER GetConsoleScreenBufferInfo IN kernel32;
 
 
 ## Parameters:
-```txt  
-hConsoleOutput
-[in] Handle to a console screen buffer.
+hConsoleOutput 
+[in] Handle to a console screen buffer. 
 
-lpConsoleScreenBufferInfo
-[out] Pointer to a CONSOLE_SCREEN_BUFFER_INFO structure that receives the console screen buffer information.  
-```  
+lpConsoleScreenBufferInfo 
+[out] Pointer to a CONSOLE_SCREEN_BUFFER_INFO structure that receives the console screen buffer information.   
 ***  
 
 

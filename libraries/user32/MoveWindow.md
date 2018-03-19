@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : MoveWindow
+## Function name : MoveWindow
 Group: Window - Library: user32    
 ***  
 
@@ -41,26 +39,24 @@ DECLARE INTEGER MoveWindow IN user32;
 
 
 ## Parameters:
-```txt  
-hWnd
-[in] Handle to the window.
+hWnd 
+[in] Handle to the window. 
 
-X
-[in] Specifies the new position of the left side of the window.
+X 
+[in] Specifies the new position of the left side of the window. 
 
-Y
-[in] Specifies the new position of the top of the window.
+Y 
+[in] Specifies the new position of the top of the window. 
 
-nWidth
-[in] Specifies the new width of the window.
+nWidth 
+[in] Specifies the new width of the window. 
 
-nHeight
-[in] Specifies the new height of the window.
+nHeight 
+[in] Specifies the new height of the window. 
 
-bRepaint
-[in] Specifies whether the window is to be repainted.
+bRepaint 
+[in] Specifies whether the window is to be repainted. 
   
-```  
 ***  
 
 

@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : CLSIDFromString
+## Function name : CLSIDFromString
 Group: COM - Library: ole32    
 ***  
 
@@ -36,13 +34,11 @@ DECLARE INTEGER CLSIDFromString IN ole32;
 
 
 ## Parameters:
-```txt  
-lpsz
-[in] Pointer to the string representation of the CLSID.
+lpsz 
+[in] Pointer to the string representation of the CLSID. 
 
-pclsid
-[out] Pointer to the CLSID on return.  
-```  
+pclsid 
+[out] Pointer to the CLSID on return.   
 ***  
 
 

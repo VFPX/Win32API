@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : DrawEdge
+## Function name : DrawEdge
 Group: Painting and Drawing - Library: user32    
 ***  
 
@@ -37,21 +35,19 @@ DECLARE INTEGER DrawEdge IN user32;
 
 
 ## Parameters:
-```txt  
-hdc
-[in] Handle to the device context.
+hdc 
+[in] Handle to the device context. 
 
-qrc
-[in/out] Pointer to a RECT structure that contains the logical coordinates of the rectangle.
+qrc 
+[in/out] Pointer to a RECT structure that contains the logical coordinates of the rectangle. 
 
-edge
-[in] Specifies the type of inner and outer edges to draw.
+edge 
+[in] Specifies the type of inner and outer edges to draw. 
 
-grfFlags
-[in] Specifies the type of border.
+grfFlags 
+[in] Specifies the type of border. 
 
   
-```  
 ***  
 
 

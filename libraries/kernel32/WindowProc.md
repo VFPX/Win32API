@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : WindowProc
+## Function name : WindowProc
 Group: Window Procedure - Library: kernel32    
 ***  
 
@@ -35,19 +33,17 @@ No VFP declaration available
 
 
 ## Parameters:
-```txt  
-hwnd
-[in] Handle to the window.
+hwnd 
+[in] Handle to the window. 
 
-uMsg
-[in] Specifies the message.
+uMsg 
+[in] Specifies the message. 
 
-wParam
-[in] Specifies additional message information.
+wParam 
+[in] Specifies additional message information. 
 
-lParam
+lParam 
 [in] Specifies additional message information.  
-```  
 ***  
 
 

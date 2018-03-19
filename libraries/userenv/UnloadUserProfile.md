@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : UnloadUserProfile
+## Function name : UnloadUserProfile
 Group: Shell Functions - Library: userenv    
 ***  
 
@@ -33,7 +31,6 @@ DECLARE UnloadUserProfile IN userenv;
 
 
 ## Parameters:
-```txt  
 hToken [in]
 Type: HANDLE
 Token for the user, returned from the LogonUser, CreateRestrictedToken, DuplicateToken, OpenProcessToken, or OpenThreadToken function.
@@ -41,7 +38,6 @@ Token for the user, returned from the LogonUser, CreateRestrictedToken, Duplicat
 hProfile [in]
 Type: HANDLE
 Handle to the registry key. This value is the hProfile member of the PROFILEINFO structure.  
-```  
 ***  
 
 

@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : CM_Disconnect_Machine
+## Function name : CM_Disconnect_Machine
 Group: PnP Configuration Manager - Library: cfgmgr32    
 ***  
 
@@ -34,10 +32,8 @@ DECLARE INTEGER CM_Disconnect_Machine IN cfgmgr32;
 
 
 ## Parameters:
-```txt  
-hMachine
+hMachine 
 Caller-supplied machine handle, obtained from a previous call to CM_Connect_Machine.  
-```  
 ***  
 
 

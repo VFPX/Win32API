@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : NetFileGetInfo
+## Function name : NetFileGetInfo
 Group: Network Management - Library: netapi32    
 ***  
 
@@ -35,19 +33,17 @@ DECLARE INTEGER NetFileGetInfo IN netapi32;
 
 
 ## Parameters:
-```txt  
-servername
-[in] Pointer to a string that specifies the DNS or NetBIOS name of the remote server on which the function is to execute. If this parameter is NULL, the local computer is used.
+servername 
+[in] Pointer to a string that specifies the DNS or NetBIOS name of the remote server on which the function is to execute. If this parameter is NULL, the local computer is used. 
 
-fileid
-[in] Specifies the file identifier of the open resource for which to return information.
+fileid 
+[in] Specifies the file identifier of the open resource for which to return information. 
 
-level
+level 
 [in] Specifies the information level of the data.
 
-bufptr
-[out] Pointer to the address of the buffer that receives the information.  
-```  
+bufptr 
+[out] Pointer to the address of the buffer that receives the information.   
 ***  
 
 

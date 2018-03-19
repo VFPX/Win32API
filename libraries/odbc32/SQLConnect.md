@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : SQLConnect
+## Function name : SQLConnect
 Group: ODBC API - Library: odbc32    
 ***  
 
@@ -47,35 +45,33 @@ DECLARE SHORT SQLConnect IN odbc32 AS SQLConnect32;
 
 
 ## Parameters:
-```txt  
-ConnectionHandle
+ConnectionHandle 
 [Input]
-Connection handle.
+Connection handle. 
 
-ServerName
+ServerName 
 [Input]
 Data source name.
 
-NameLength1
+NameLength1 
 [Input]
-Length of *ServerName.
+Length of *ServerName. 
 
-UserName
+UserName 
 [Input]
-User identifier.
+User identifier. 
 
-NameLength2
+NameLength2 
 [Input]
-Length of *UserName.
+Length of *UserName. 
 
-Authentication
+Authentication 
 [Input]
-Authentication string (typically the password).
+Authentication string (typically the password). 
 
-NameLength3
+NameLength3 
 [Input]
-Length of *Authentication.  
-```  
+Length of *Authentication.   
 ***  
 
 

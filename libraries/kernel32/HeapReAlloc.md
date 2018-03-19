@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : HeapReAlloc
+## Function name : HeapReAlloc
 Group: Memory Management - Library: kernel32    
 ***  
 
@@ -37,19 +35,17 @@ DECLARE INTEGER HeapReAlloc IN kernel32;
 
 
 ## Parameters:
-```txt  
-hHeap
-[in] Heap from which the memory will be reallocated. This is a handle returned by the HeapCreate or GetProcessHeap function.
+hHeap 
+[in] Heap from which the memory will be reallocated. This is a handle returned by the HeapCreate or GetProcessHeap function. 
 
-dwFlags
-[in] Specifies several controllable aspects of heap reallocation.
+dwFlags 
+[in] Specifies several controllable aspects of heap reallocation. 
 
-lpMem
-[in] Pointer to the block of memory that the function reallocates. This pointer is returned by an earlier call to the HeapAlloc or HeapReAlloc function.
+lpMem 
+[in] Pointer to the block of memory that the function reallocates. This pointer is returned by an earlier call to the HeapAlloc or HeapReAlloc function. 
 
-dwBytes
-[in] New size of the memory block, in bytes. A memory block"s size can be increased or decreased by using this function.  
-```  
+dwBytes 
+[in] New size of the memory block, in bytes. A memory block"s size can be increased or decreased by using this function.   
 ***  
 
 

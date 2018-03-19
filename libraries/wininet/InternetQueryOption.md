@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : InternetQueryOption
+## Function name : InternetQueryOption
 Group: Internet Functions (WinInet) - Library: wininet    
 ***  
 
@@ -38,7 +36,6 @@ DECLARE INTEGER InternetQueryOption IN wininet;
 
 
 ## Parameters:
-```txt  
 hInternet
 [in] HINTERNET handle on which to query information
 
@@ -50,7 +47,6 @@ lpBuffer
 
 lpdwBufferLength
 [in, out] Pointer to an unsigned long integer variable that contains the length of lpBuffer  
-```  
 ***  
 
 

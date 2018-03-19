@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : waveOutWrite
+## Function name : waveOutWrite
 Group: Windows Multimedia - Library: winmm    
 ***  
 
@@ -37,16 +35,14 @@ DECLARE INTEGER waveOutWrite IN winmm;
 
 
 ## Parameters:
-```txt  
-hwo
-Handle to the waveform-audio output device.
+hwo 
+Handle to the waveform-audio output device. 
 
-pwh
-Pointer to a WAVEHDR structure containing information about the data block.
+pwh 
+Pointer to a WAVEHDR structure containing information about the data block. 
 
-cbwh
-Size, in bytes, of the WAVEHDR structure.  
-```  
+cbwh 
+Size, in bytes, of the WAVEHDR structure.   
 ***  
 
 

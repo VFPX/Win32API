@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : NetShareDel
+## Function name : NetShareDel
 Group: Network Management - Library: netapi32    
 ***  
 
@@ -35,16 +33,14 @@ DECLARE INTEGER NetShareDel IN netapi32;
 
 
 ## Parameters:
-```txt  
-servername
+servername 
 [in] Pointer to a string that specifies the DNS or NetBIOS name of the remote server on which the function is to execute.
 
-netname
+netname 
 [in] Pointer to a string that specifies the name of the share to delete.
 
-reserved
-Reserved, must be zero.  
-```  
+reserved 
+Reserved, must be zero.   
 ***  
 
 

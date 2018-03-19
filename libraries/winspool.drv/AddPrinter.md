@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : AddPrinter
+## Function name : AddPrinter
 Group: Printing and Print Spooler - Library: winspool.drv    
 ***  
 
@@ -36,16 +34,14 @@ DECLARE INTEGER AddPrinter IN winspool.drv;
 
 
 ## Parameters:
-```txt  
-pName
+pName 
 [in] Pointer to a null-terminated string that specifies the name of the server on which the printer should be installed.
 
-Level
-[in] Specifies the version of the structure to which pPrinter points. This value must be 2.
+Level 
+[in] Specifies the version of the structure to which pPrinter points. This value must be 2. 
 
-pPrinter
+pPrinter 
 [in] Pointer to a PRINTER_INFO_2 structure that contains information about the printer.  
-```  
 ***  
 
 

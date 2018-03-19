@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : FindCloseUrlCache
+## Function name : FindCloseUrlCache
 Group: Internet Functions (WinInet) - Library: wininet    
 ***  
 
@@ -33,10 +31,8 @@ DECLARE INTEGER FindCloseUrlCache IN wininet;
 
 
 ## Parameters:
-```txt  
-hEnumHandle
+hEnumHandle 
 [in] Handle returned by a previous call to the FindFirstUrlCacheEntry function.  
-```  
 ***  
 
 

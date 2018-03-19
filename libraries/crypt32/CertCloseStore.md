@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : CertCloseStore
+## Function name : CertCloseStore
 Group: Cryptography Reference - Library: crypt32    
 ***  
 
@@ -30,13 +28,11 @@ DECLARE INTEGER CertCloseStore IN crypt32;
 
 
 ## Parameters:
-```txt  
-hCertStore
+hCertStore 
 [in] Handle of the certificate store to be closed.
 
-dwFlags
-[in] Typically, this parameter uses the default value zero.  
-```  
+dwFlags 
+[in] Typically, this parameter uses the default value zero.   
 ***  
 
 

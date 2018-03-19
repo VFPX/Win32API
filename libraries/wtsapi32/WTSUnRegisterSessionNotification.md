@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : WTSUnRegisterSessionNotification
+## Function name : WTSUnRegisterSessionNotification
 Group: Terminal Services - Library: wtsapi32    
 ***  
 
@@ -34,10 +32,8 @@ DECLARE INTEGER WTSUnRegisterSessionNotification IN wtsapi32;
 
 
 ## Parameters:
-```txt  
-hWnd
+hWnd 
 [in] Handle of the window to be unregistered from receiving session notifications.  
-```  
 ***  
 
 

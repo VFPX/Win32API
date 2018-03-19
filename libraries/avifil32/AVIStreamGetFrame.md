@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : AVIStreamGetFrame
+## Function name : AVIStreamGetFrame
 Group: Windows Multimedia - Library: avifil32    
 ***  
 
@@ -34,14 +32,12 @@ DECLARE INTEGER AVIStreamGetFrame IN avifil32;
 
 
 ## Parameters:
-```txt  
 pgf
 Pointer to a GetFrame object.
 
 lPos
 Position, in samples, within the stream of the desired frame.
   
-```  
 ***  
 
 

@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : WNetGetProviderName
+## Function name : WNetGetProviderName
 Group: Windows Networking - Library: mpr    
 ***  
 
@@ -36,16 +34,14 @@ DECLARE INTEGER WNetGetProviderName IN mpr;
 
 
 ## Parameters:
-```txt  
-dwNetType
+dwNetType 
 [in] Specifies the network type that is unique to the network.
 
-lpProviderName
-[out] Pointer to a buffer in which to return the network provider name.
+lpProviderName 
+[out] Pointer to a buffer in which to return the network provider name. 
 
-lpBufferSize
+lpBufferSize 
 [in/out] Specifies the size, in characters, of the buffer passed to the function.  
-```  
 ***  
 
 

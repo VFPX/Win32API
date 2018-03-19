@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : mciSendString
+## Function name : mciSendString
 Group: Windows Multimedia - Library: winmm    
 ***  
 
@@ -39,19 +37,17 @@ DECLARE INTEGER mciSendString IN winmm;
 
 
 ## Parameters:
-```txt  
-lpszCommand
-Pointer to a null-terminated string that specifies an MCI command string. For a list, see <a href="http://msdn.microsoft.com/library/default.asp?url=/library/en-us/multimed/mmcmdstr_4nub.asp">Multimedia Command Strings</a>.
+lpszCommand 
+Pointer to a null-terminated string that specifies an MCI command string. For a list, see <a href="http://msdn.microsoft.com/library/default.asp?url=/library/en-us/multimed/mmcmdstr_4nub.asp">Multimedia Command Strings</a>. 
 
-lpszReturnString
-Pointer to a buffer that receives return information. If no return information is needed, this parameter can be NULL.
+lpszReturnString 
+Pointer to a buffer that receives return information. If no return information is needed, this parameter can be NULL. 
 
-cchReturn
-Size, in characters, of the return buffer specified by the lpszReturnString parameter.
+cchReturn 
+Size, in characters, of the return buffer specified by the lpszReturnString parameter. 
 
-hwndCallback
+hwndCallback 
 Handle to a callback window if the "notify" flag was specified in the command string.  
-```  
 ***  
 
 

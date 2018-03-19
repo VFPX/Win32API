@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : RasGetCountryInfo
+## Function name : RasGetCountryInfo
 Group: Remote Access Service (RAS) - Library: rasapi32    
 ***  
 
@@ -35,13 +33,11 @@ DECLARE INTEGER RasGetCountryInfo IN rasapi32;
 
 
 ## Parameters:
-```txt  
-lpRasCtryInfo
-[in, out] Pointer to a RASCTRYINFO structure that, on output, receives the country-specific dialing information followed by additional bytes for a country description string.
+lpRasCtryInfo 
+[in, out] Pointer to a RASCTRYINFO structure that, on output, receives the country-specific dialing information followed by additional bytes for a country description string. 
 
-lpdwSize
-[in, out] Pointer to a variable that, on input, specifies the size, in bytes, of the buffer pointed to by the lpRasCtryInfo parameter.  
-```  
+lpdwSize 
+[in, out] Pointer to a variable that, on input, specifies the size, in bytes, of the buffer pointed to by the lpRasCtryInfo parameter.   
 ***  
 
 

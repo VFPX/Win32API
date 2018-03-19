@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : WSAConnect
+## Function name : WSAConnect
 Group: Windows Sockets 2 (Winsock) - Library: ws2_32    
 ***  
 
@@ -44,28 +42,26 @@ DECLARE INTEGER WSAConnect IN ws2_32;
 
 
 ## Parameters:
-```txt  
-s
-[in] Descriptor identifying an unconnected socket.
+s 
+[in] Descriptor identifying an unconnected socket. 
 
-name
-[in] Name of the socket in a sockaddr structure in the other application to which to connect.
+name 
+[in] Name of the socket in a sockaddr structure in the other application to which to connect. 
 
-namelen
-[in] Length of name, in bytes.
+namelen 
+[in] Length of name, in bytes. 
 
-lpCallerData
-[in] Pointer to the user data that is to be transferred to the other socket during connection establishment. See Remarks.
+lpCallerData 
+[in] Pointer to the user data that is to be transferred to the other socket during connection establishment. See Remarks. 
 
-lpCalleeData
-[out] Pointer to the user data that is to be transferred back from the other socket during connection establishment. See Remarks.
+lpCalleeData 
+[out] Pointer to the user data that is to be transferred back from the other socket during connection establishment. See Remarks. 
 
-lpSQOS
-[in] Pointer to the FLOWSPEC structures for socket s, one for each direction.
+lpSQOS 
+[in] Pointer to the FLOWSPEC structures for socket s, one for each direction. 
 
-lpGQOS
-[in] Reserved for future use with socket groups. A pointer to the FLOWSPEC structures for the socket group (if applicable). Should be NULL.  
-```  
+lpGQOS 
+[in] Reserved for future use with socket groups. A pointer to the FLOWSPEC structures for the socket group (if applicable). Should be NULL.   
 ***  
 
 

@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : AVIStreamGetFrameClose
+## Function name : AVIStreamGetFrameClose
 Group: Windows Multimedia - Library: avifil32    
 ***  
 
@@ -32,11 +30,9 @@ DECLARE INTEGER AVIStreamGetFrameClose IN avifil32;
 
 
 ## Parameters:
-```txt  
 pget
 Handle returned from the AVIStreamGetFrameOpen function.
   
-```  
 ***  
 
 

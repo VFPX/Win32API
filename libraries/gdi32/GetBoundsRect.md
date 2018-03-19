@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : GetBoundsRect
+## Function name : GetBoundsRect
 Group: Painting and Drawing - Library: gdi32    
 ***  
 
@@ -35,16 +33,14 @@ DECLARE INTEGER GetBoundsRect IN gdi32;
 
 
 ## Parameters:
-```txt  
-hdc
-[in] Handle to the device context whose bounding rectangle the function will return.
+hdc 
+[in] Handle to the device context whose bounding rectangle the function will return. 
 
-lprcBounds
-[out] Pointer to the RECT structure that will receive the current bounding rectangle.
+lprcBounds 
+[out] Pointer to the RECT structure that will receive the current bounding rectangle. 
 
-flags
-[in] Specifies how the GetBoundsRect function will behave.  
-```  
+flags 
+[in] Specifies how the GetBoundsRect function will behave.   
 ***  
 
 

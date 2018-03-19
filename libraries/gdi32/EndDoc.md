@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : EndDoc
+## Function name : EndDoc
 Group: Printing and Print Spooler - Library: gdi32    
 ***  
 
@@ -38,10 +36,8 @@ DECLARE INTEGER EndDoc IN gdi32;
 
 
 ## Parameters:
-```txt  
-hdc
+hdc 
 [in] Handle to the device context for the print job.  
-```  
 ***  
 
 

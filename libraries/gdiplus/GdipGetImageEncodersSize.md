@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : GdipGetImageEncodersSize
+## Function name : GdipGetImageEncodersSize
 Group: GDI+ - Library: gdiplus    
 ***  
 
@@ -34,14 +32,12 @@ DECLARE INTEGER GdipGetImageEncodersSize IN gdiplus;
 
 
 ## Parameters:
-```txt  
 numEncoders
-[out] Pointer to a UINT that receives the number of available image encoders.
+[out] Pointer to a UINT that receives the number of available image encoders. 
 
 size
-[out] Pointer to a UINT that receives the total size, in bytes, of the array of ImageCodecInfo objects that is returned by GetImageEncoders.
+[out] Pointer to a UINT that receives the total size, in bytes, of the array of ImageCodecInfo objects that is returned by GetImageEncoders. 
   
-```  
 ***  
 
 

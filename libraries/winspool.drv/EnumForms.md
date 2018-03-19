@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : EnumForms
+## Function name : EnumForms
 Group: Printing and Print Spooler - Library: winspool.drv    
 ***  
 
@@ -42,25 +40,23 @@ DECLARE INTEGER EnumForms IN winspool.drv;
 
 
 ## Parameters:
-```txt  
-hPrinter
+hPrinter 
 [in] Handle to the printer for which the forms should be enumerated.
 
-Level
-[in] Specifies the version of the structure to which pForm points. This value must be 1.
+Level 
+[in] Specifies the version of the structure to which pForm points. This value must be 1. 
 
-pForm
-[out] Pointer to a FORM_INFO_1 structure.
+pForm 
+[out] Pointer to a FORM_INFO_1 structure. 
 
-cbBuf
-[in] Specifies the size, in bytes, of the buffer to which pForm points.
+cbBuf 
+[in] Specifies the size, in bytes, of the buffer to which pForm points. 
 
-pcbNeeded
+pcbNeeded 
 [out] Pointer to a variable that receives the number of bytes copied to or the number of bytes required for the array to which pForm points.
 
-pcReturned
-[out] Pointer to a variable that receives the number of FORM_INFO_1 structures copied into the array to which pForm points.  
-```  
+pcReturned 
+[out] Pointer to a variable that receives the number of FORM_INFO_1 structures copied into the array to which pForm points.   
 ***  
 
 

@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : SetTextAlign
+## Function name : SetTextAlign
 Group: Font and Text - Library: gdi32    
 ***  
 
@@ -33,13 +31,11 @@ DECLARE INTEGER SetTextAlign IN gdi32;
 
 
 ## Parameters:
-```txt  
-hdc
-[in] Handle to the device context.
+hdc 
+[in] Handle to the device context. 
 
-fMode
-[in] Specifies the text alignment by using a mask of the values in the following list.  
-```  
+fMode 
+[in] Specifies the text alignment by using a mask of the values in the following list.   
 ***  
 
 

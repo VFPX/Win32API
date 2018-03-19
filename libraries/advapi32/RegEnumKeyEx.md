@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : RegEnumKeyEx
+## Function name : RegEnumKeyEx
 Group: Registry - Library: advapi32    
 ***  
 
@@ -46,31 +44,29 @@ DECLARE INTEGER RegEnumKeyEx IN advapi32;
 
 
 ## Parameters:
-```txt  
-hKey
+hKey 
 [in] Handle to an open key.
 
-dwIndex
+dwIndex 
 [in] Index of the subkey to retrieve.
 
-lpName
+lpName 
 [out] Pointer to a buffer that receives the name of the subkey, including the terminating null character.
 
-lpcName
-[in, out] Pointer to a variable that specifies the size of the buffer specified by the lpName parameter, in TCHARs.
+lpcName 
+[in, out] Pointer to a variable that specifies the size of the buffer specified by the lpName parameter, in TCHARs. 
 
-lpReserved
-Reserved; must be NULL.
+lpReserved 
+Reserved; must be NULL. 
 
-lpClass
+lpClass 
 [in, out] Pointer to a buffer that receives the null-terminated class string of the enumerated subkey.
 
-lpcClass
+lpcClass 
 [in, out] Pointer to a variable that specifies the size of the buffer specified by the lpClass parameter, in TCHARs.
 
-lpftLastWriteTime
-[out] Pointer to a variable that receives the time at which the enumerated subkey was last written.  
-```  
+lpftLastWriteTime 
+[out] Pointer to a variable that receives the time at which the enumerated subkey was last written.   
 ***  
 
 

@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : TaskDialog
+## Function name : TaskDialog
 Group: Common Dialog Box - Library: comctl32    
 ***  
 
@@ -46,7 +44,6 @@ DECLARE INTEGER TaskDialog IN comctl32;
 
 
 ## Parameters:
-```txt  
 hWndParent
 [in] Handle to the owner window of the task dialog to be created.
 
@@ -63,15 +60,14 @@ pszContent
 [in] Pointer to a string used for additional text that appears below the main instruction, in a smaller font.
 
 dwCommonButtons
-[in] Specifies the push buttons displayed in the dialog box.
+[in] Specifies the push buttons displayed in the dialog box. 
 
 pszIcon
 [in] Pointer to a string that identifies the icon to display in the task dialog.
 
 pnButton
-[out]
+[out] 
 When this function returns, contains either 0 (on error) or Id of the pressed button.  
-```  
 ***  
 
 

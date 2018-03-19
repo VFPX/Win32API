@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : GdipBitmapSetResolution
+## Function name : GdipBitmapSetResolution
 Group: GDI+ Bitmap - Library: gdiplus    
 ***  
 
@@ -32,16 +30,14 @@ DECLARE INTEGER GdipBitmapSetResolution IN gdiplus;
 
 
 ## Parameters:
-```txt  
 gdibitmap
 [in] Handle to a GDI bitmap.
 
 xdpi
-[in] Real number that specifies the horizontal resolution in dots per inch.
+[in] Real number that specifies the horizontal resolution in dots per inch. 
 
 ydpi
-[in] Real number that specifies the vertical resolution in dots per inch.  
-```  
+[in] Real number that specifies the vertical resolution in dots per inch.   
 ***  
 
 

@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : CryptImportKey
+## Function name : CryptImportKey
 Group: Cryptography Reference - Library: advapi32    
 ***  
 
@@ -41,7 +39,6 @@ DECLARE INTEGER CryptImportKey IN advapi32;
 
 
 ## Parameters:
-```txt  
 hProv [in]
 The handle of a CSP obtained with the CryptAcquireContext function.
 
@@ -52,14 +49,13 @@ dwDataLen [in]
 Contains the length, in bytes, of the key BLOB.
 
 hPubKey [in]
-A handle to the cryptographic key that decrypts the key stored in pbData.
+A handle to the cryptographic key that decrypts the key stored in pbData. 
 
 dwFlags [in]
 Currently used only when a public/private key pair in the form of a PRIVATEKEYBLOB is imported into the CSP.
 
 phKey [out]
 A pointer to a HCRYPTKEY value that receives the handle of the imported key.  
-```  
 ***  
 
 

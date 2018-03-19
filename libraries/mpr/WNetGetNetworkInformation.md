@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : WNetGetNetworkInformation
+## Function name : WNetGetNetworkInformation
 Group: Windows Networking - Library: mpr    
 ***  
 
@@ -33,13 +31,11 @@ DECLARE INTEGER WNetGetNetworkInformation IN mpr;
 
 
 ## Parameters:
-```txt  
-lpProvider
-[in] Pointer to a constant null-terminated string that contains the name of the network provider for which information is required.
+lpProvider 
+[in] Pointer to a constant null-terminated string that contains the name of the network provider for which information is required. 
 
-lpNetInfoStruct
-[out] Pointer to a NETINFOSTRUCT structure. The structure describes characteristics of the network.  
-```  
+lpNetInfoStruct 
+[out] Pointer to a NETINFOSTRUCT structure. The structure describes characteristics of the network.   
 ***  
 
 

@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : JetCreateInstance
+## Function name : JetCreateInstance
 Group: Extensible Storage Engine (ESE, Jet Blue) - Library: esent    
 ***  
 
@@ -33,14 +31,12 @@ DECLARE INTEGER JetCreateInstance IN esent;
 
 
 ## Parameters:
-```txt  
-pinstance
+pinstance 
 The output buffer that receives the newly-created instance.
 
-szInstanceName
+szInstanceName 
 A unique string identifier for the instance to be created. This string must be unique within a given process hosting the database engine.
   
-```  
 ***  
 
 

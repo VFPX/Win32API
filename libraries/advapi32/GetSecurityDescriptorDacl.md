@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : GetSecurityDescriptorDacl
+## Function name : GetSecurityDescriptorDacl
 Group: Security - Library: advapi32    
 ***  
 
@@ -38,20 +36,18 @@ DECLARE INTEGER GetSecurityDescriptorDacl IN advapi32;
 
 
 ## Parameters:
-```txt  
-pSecurityDescriptor
-[in] A pointer to the SECURITY_DESCRIPTOR structure that contains the DACL. The function retrieves a pointer to it.
+pSecurityDescriptor 
+[in] A pointer to the SECURITY_DESCRIPTOR structure that contains the DACL. The function retrieves a pointer to it. 
 
-lpbDaclPresent
+lpbDaclPresent 
 [out] A pointer to a value that indicates the presence of a DACL in the specified security descriptor.
 
-pDacl
+pDacl 
 [out] A pointer to a pointer to an access control list (ACL). If a DACL exists, the function sets the pointer pointed to by pDacl to the address of the security descriptor"s DACL.
 
-lpbDaclDefaulted
+lpbDaclDefaulted 
 [out] A pointer to a flag set to the value of the SE_DACL_DEFAULTED flag in the SECURITY_DESCRIPTOR_CONTROL structure if a DACL exists for the security descriptor.
   
-```  
 ***  
 
 

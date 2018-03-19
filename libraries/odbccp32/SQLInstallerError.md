@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : SQLInstallerError
+## Function name : SQLInstallerError
 Group: ODBC API - Library: odbccp32    
 ***  
 
@@ -41,32 +39,30 @@ DECLARE INTEGER SQLInstallerError IN odbccp32;
 
 
 ## Parameters:
-```txt  
-iError
+iError 
 [Input]
-Error record number. Valid numbers are from 1 through 8.
+Error record number. Valid numbers are from 1 through 8. 
 
-pfErrorCode
+pfErrorCode 
 [Output]
-Installer error code.
+Installer error code. 
 
-lpszErrorMsg
+lpszErrorMsg 
 [Output]
-Pointer to storage for the error message text.
+Pointer to storage for the error message text. 
 
-cbErrorMsgMax
+cbErrorMsgMax 
 [Input]
 Maximum length of the szErrorMsg buffer.
 
-cbErrorMsgMax
+cbErrorMsgMax 
 [Input]
 Maximum length of the szErrorMsg buffer.
 
-pcbErrorMsg
+pcbErrorMsg 
 [Output]
 Pointer to the total number of bytes available to return in lpszErrorMsg.
   
-```  
 ***  
 
 

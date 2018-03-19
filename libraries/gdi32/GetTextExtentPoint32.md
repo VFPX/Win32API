@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : GetTextExtentPoint32
+## Function name : GetTextExtentPoint32
 Group: Font and Text - Library: gdi32    
 ***  
 
@@ -38,19 +36,17 @@ DECLARE INTEGER GetTextExtentPoint32 IN gdi32;
 
 
 ## Parameters:
-```txt  
-hdc
-[in] Handle to the device context.
+hdc 
+[in] Handle to the device context. 
 
-lpString
+lpString 
 [in] Pointer to a buffer that specifies the text string.
 
-cbString
+cbString 
 [in] Specifies the length of the lpString buffer. For the ANSI function it is a BYTE count and for the Unicode function it is a WORD count.
 
-lpSize
+lpSize 
 [out] Pointer to a SIZE structure that receives the dimensions of the string, in logical units.  
-```  
 ***  
 
 

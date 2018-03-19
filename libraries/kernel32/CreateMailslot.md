@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : CreateMailslot
+## Function name : CreateMailslot
 Group: Mailslot - Library: kernel32    
 ***  
 
@@ -38,19 +36,17 @@ DECLARE INTEGER CreateMailslot IN kernel32;
 
 
 ## Parameters:
-```txt  
-lpName
-[in] Pointer to a null-terminated string specifying the name of the mailslot.
+lpName 
+[in] Pointer to a null-terminated string specifying the name of the mailslot. 
 
-nMaxMessageSize
-[in] Specifies the maximum size, in bytes, of a single message that can be written to the mailslots.
+nMaxMessageSize 
+[in] Specifies the maximum size, in bytes, of a single message that can be written to the mailslots. 
 
-lReadTimeout
-[in] Specifies the amount of time, in milliseconds, a read operation can wait for a message to be written to the mailslot before a time-out occurs.
+lReadTimeout 
+[in] Specifies the amount of time, in milliseconds, a read operation can wait for a message to be written to the mailslot before a time-out occurs. 
 
-lpSecurityAttributes
-[in] Pointer to a SECURITY_ATTRIBUTES structure.  
-```  
+lpSecurityAttributes 
+[in] Pointer to a SECURITY_ATTRIBUTES structure.   
 ***  
 
 

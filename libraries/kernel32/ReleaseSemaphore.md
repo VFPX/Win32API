@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : ReleaseSemaphore
+## Function name : ReleaseSemaphore
 Group: Synchronization - Library: kernel32    
 ***  
 
@@ -37,7 +35,6 @@ DECLARE INTEGER ReleaseSemaphore IN kernel32;
 
 
 ## Parameters:
-```txt  
 hSemaphore
 Identifies the semaphore object
 
@@ -46,7 +43,6 @@ Specifies the amount by which the semaphore object"s current count is to be incr
 
 lplPreviousCount
 Points to a 32-bit variable to receive the previous count for the semaphore  
-```  
 ***  
 
 

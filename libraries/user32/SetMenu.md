@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : SetMenu
+## Function name : SetMenu
 Group: Menu - Library: user32    
 ***  
 
@@ -33,13 +31,11 @@ DECLARE INTEGER SetMenu IN user32;
 
 
 ## Parameters:
-```txt  
-hWnd
-[in] Handle to the window to which the menu is to be assigned.
+hWnd 
+[in] Handle to the window to which the menu is to be assigned. 
 
-hMenu
+hMenu 
 [in] Handle to the new menu. If this parameter is NULL, the window"s current menu is removed.  
-```  
 ***  
 
 

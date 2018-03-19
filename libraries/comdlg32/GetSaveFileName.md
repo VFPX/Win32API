@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : GetSaveFileName
+## Function name : GetSaveFileName
 Group: Common Dialog Box - Library: comdlg32    
 ***  
 
@@ -31,10 +29,8 @@ DECLARE INTEGER GetSaveFileName IN comdlg32;
 
 
 ## Parameters:
-```txt  
-lpofn
-[in/out] Pointer to an OPENFILENAME structure that contains information used to initialize the dialog box.  
-```  
+lpofn 
+[in/out] Pointer to an OPENFILENAME structure that contains information used to initialize the dialog box.   
 ***  
 
 

@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : SCardControl
+## Function name : SCardControl
 Group: Authentication - Library: winscard    
 ***  
 
@@ -40,28 +38,26 @@ DECLARE LONG SCardControl IN Winscard;
 
 
 ## Parameters:
-```txt  
-hCard [in]
+hCard [in] 
 Reference value returned from SCardConnect.
 
-dwControlCode [in]
+dwControlCode [in] 
 Control code for the operation. This value identifies the specific operation to be performed.
 
-lpInBuffer [in]
-Pointer to a buffer that contains the data required to perform the operation.
+lpInBuffer [in] 
+Pointer to a buffer that contains the data required to perform the operation. 
 
-nInBufferSize [in]
+nInBufferSize [in] 
 Size, in bytes, of the buffer pointed to by lpInBuffer.
 
-lpOutBuffer [out]
-Pointer to a buffer that receives the operation"s output data.
+lpOutBuffer [out] 
+Pointer to a buffer that receives the operation"s output data. 
 
-nOutBufferSize [in]
-Size, in bytes, of the buffer pointed to by lpOutBuffer.
+nOutBufferSize [in] 
+Size, in bytes, of the buffer pointed to by lpOutBuffer. 
 
-lpBytesReturned [out]
+lpBytesReturned [out] 
 Pointer to a DWORD that receives the size, in bytes, of the data stored into the buffer pointed to by lpOutBuffer.  
-```  
 ***  
 
 

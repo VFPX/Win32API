@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : GetClientRect
+## Function name : GetClientRect
 Group: Window - Library: user32    
 ***  
 
@@ -34,13 +32,11 @@ DECLARE SHORT GetClientRect IN user32;
 
 
 ## Parameters:
-```txt  
-hWnd
-[in] Handle to the window whose client coordinates are to be retrieved.
+hWnd 
+[in] Handle to the window whose client coordinates are to be retrieved. 
 
-lpRect
+lpRect 
 [out] Pointer to a RECT structure that receives the client coordinates. The left and top members are zero. The right and bottom members contain the width and height of the window.  
-```  
 ***  
 
 

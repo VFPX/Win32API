@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : CombineRgn
+## Function name : CombineRgn
 Group: Region - Library: gdi32    
 ***  
 
@@ -39,19 +37,17 @@ DECLARE INTEGER CombineRgn IN gdi32;
 
 
 ## Parameters:
-```txt  
-hrgnDest
-[in] Handle to a new region with dimensions defined by combining two other regions. (This region must exist before CombineRgn is called.)
+hrgnDest 
+[in] Handle to a new region with dimensions defined by combining two other regions. (This region must exist before CombineRgn is called.) 
 
-hrgnSrc1
-[in] Handle to the first of two regions to be combined.
+hrgnSrc1 
+[in] Handle to the first of two regions to be combined. 
 
-hrgnSrc2
-[in] Handle to the second of two regions to be combined.
+hrgnSrc2 
+[in] Handle to the second of two regions to be combined. 
 
-fnCombineMode
+fnCombineMode 
 [in] Specifies a mode indicating how the two regions will be combined.  
-```  
 ***  
 
 

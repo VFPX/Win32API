@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : SetConsoleTextAttribute
+## Function name : SetConsoleTextAttribute
 Group: Console - Library: kernel32    
 ***  
 
@@ -34,13 +32,11 @@ DECLARE INTEGER SetConsoleTextAttribute IN kernel32;
 
 
 ## Parameters:
-```txt  
-hConsoleOutput
+hConsoleOutput 
 [in] Handle to a console screen buffer.
 
-wAttributes
-[in] Character attributes.  
-```  
+wAttributes 
+[in] Character attributes.   
 ***  
 
 

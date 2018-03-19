@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : GetUserDefaultUILanguage
+## Function name : GetUserDefaultUILanguage
 Group: Multilingual User Interface - Library: kernel32    
 ***  
 
@@ -25,9 +23,7 @@ DECLARE SHORT GetUserDefaultUILanguage IN kernel32
 
 
 ## Parameters:
-```txt  
 This function has no parameters.  
-```  
 ***  
 
 

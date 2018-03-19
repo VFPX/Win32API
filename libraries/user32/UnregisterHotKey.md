@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : UnregisterHotKey
+## Function name : UnregisterHotKey
 Group: Keyboard Input - Library: user32    
 ***  
 
@@ -35,13 +33,11 @@ DECLARE INTEGER UnregisterHotKey IN user32;
 
 
 ## Parameters:
-```txt  
 hWnd
 [in] Handle to the window associated with the hot key to be freed.
 
 id
-[in] Specifies the identifier of the hot key to be freed.  
-```  
+[in] Specifies the identifier of the hot key to be freed.   
 ***  
 
 

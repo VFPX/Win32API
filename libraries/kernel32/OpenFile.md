@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : OpenFile
+## Function name : OpenFile
 Group: File Management - Library: kernel32    
 ***  
 
@@ -43,16 +41,14 @@ DECLARE INTEGER OpenFile IN kernel32;
 
 
 ## Parameters:
-```txt  
-lpFileName
+lpFileName 
 [in] Pointer to a null-terminated string that names the file to be opened
 
-lpReOpenBuff
+lpReOpenBuff 
 [out] Pointer to the OFSTRUCT structure that receives information about the file when it is first opened. The structure can be used in subsequent calls to the OpenFile function to refer to the open file
 
-uStyle
+uStyle 
 [in] Specifies the action to take  
-```  
 ***  
 
 

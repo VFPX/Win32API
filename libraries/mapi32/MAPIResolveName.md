@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : MAPIResolveName
+## Function name : MAPIResolveName
 Group: Simple MAPI - Library: mapi32    
 ***  
 
@@ -43,24 +41,22 @@ DECLARE INTEGER MAPIResolveName IN mapi32;
 
 
 ## Parameters:
-```txt  
-lhSession
+lhSession 
 [in] Handle that represents a Simple MAPI session or zero.
 
-ulUIParam
+ulUIParam 
 [in] Parent window handle or zero, indicating that if a dialog box is displayed, it is application modal.
 
-lpszName
-[in] Pointer to the name to be resolved.
+lpszName 
+[in] Pointer to the name to be resolved. 
 
-flFlags
+flFlags 
 [in] Bitmask of option flags.
 
-ulReserved
-Reserved; must be zero.
+ulReserved 
+Reserved; must be zero. 
 
-lppRecip
-[out] Pointer to a recipient structure <u>if the resolution results in a single match</u>.  
-```  
+lppRecip 
+[out] Pointer to a recipient structure <u>if the resolution results in a single match</u>.   
 ***  
 

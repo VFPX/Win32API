@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : GetKeyState
+## Function name : GetKeyState
 Group: Keyboard Input - Library: user32    
 ***  
 
@@ -31,12 +29,10 @@ DECLARE INTEGER GetKeyState IN user32;
 
 
 ## Parameters:
-```txt  
 nVirtKey
 [in] Specifies a virtual key.
 
-If the desired virtual key is a letter or digit (A through Z, a through z, or 0 through 9), nVirtKey must be set to the ASCII value of that character. For other keys, it must be a virtual-key code.  
-```  
+If the desired virtual key is a letter or digit (A through Z, a through z, or 0 through 9), nVirtKey must be set to the ASCII value of that character. For other keys, it must be a virtual-key code.   
 ***  
 
 

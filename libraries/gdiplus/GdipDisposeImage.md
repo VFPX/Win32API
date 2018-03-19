@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : GdipDisposeImage
+## Function name : GdipDisposeImage
 Group: GDI+ Image - Library: gdiplus    
 ***  
 
@@ -33,10 +31,8 @@ DECLARE INTEGER GdipDisposeImage IN gdiplus;
 
 
 ## Parameters:
-```txt  
 img
 [in]  Identifies the Image created by GdipLoadImageFromFile, GdipLoadImageFromStream and other Image constructors.  
-```  
 ***  
 
 

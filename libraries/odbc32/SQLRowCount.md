@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : SQLRowCount
+## Function name : SQLRowCount
 Group: ODBC API - Library: odbc32    
 ***  
 
@@ -32,15 +30,13 @@ DECLARE SHORT SQLRowCount IN odbc32;
 
 
 ## Parameters:
-```txt  
-StatementHandle
+StatementHandle 
 [Input]
-Statement handle.
+Statement handle. 
 
-RowCountPtr
+RowCountPtr 
 [Output]
 Points to a buffer in which to return a row count.  
-```  
 ***  
 
 

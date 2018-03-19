@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : UrlGetPart
+## Function name : UrlGetPart
 Group: Shell Lightweight Utility APIs -- Path Functions - Library: shlwapi    
 ***  
 
@@ -40,22 +38,20 @@ DECLARE INTEGER UrlGetPart IN shlwapi;
 
 
 ## Parameters:
-```txt  
 pszIn
-[in] Null-terminated string of maximum length INTERNET_MAX_URL_LENGTH that contains the URL.
+[in] Null-terminated string of maximum length INTERNET_MAX_URL_LENGTH that contains the URL. 
 
 pszOut
 [out] A buffer that will receive a null-terminated string with the specified part of the URL.
 
 pcchOut
-[in, out] Address of a value set to the number of characters in the pszOut buffer.
+[in, out] Address of a value set to the number of characters in the pszOut buffer. 
 
 dwPart
 [in] Flags that specify which part of the URL to retrieve.
 
 dwFlags
 [in] Flag that can be set to keep the URL scheme.  
-```  
 ***  
 
 

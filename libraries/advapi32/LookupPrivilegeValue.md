@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : LookupPrivilegeValue
+## Function name : LookupPrivilegeValue
 Group: Authorization - Library: advapi32    
 ***  
 
@@ -37,7 +35,6 @@ DECLARE INTEGER LookupPrivilegeValue IN advapi32;
 
 
 ## Parameters:
-```txt  
 lpSystemName [in, optional]
 A pointer to a null-terminated string that specifies the name of the system on which the privilege name is retrieved.
 
@@ -46,7 +43,6 @@ A pointer to a null-terminated string that specifies the name of the privilege.
 
 lpLuid [out]
 A pointer to a variable that receives the LUID by which the privilege is known on the system specified by the lpSystemName parameter.  
-```  
 ***  
 
 

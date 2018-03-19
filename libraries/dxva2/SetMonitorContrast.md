@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : SetMonitorContrast
+## Function name : SetMonitorContrast
 Group: Monitor Configuration (Vista) - Library: dxva2    
 ***  
 
@@ -30,14 +28,12 @@ DECLARE INTEGER SetMonitorContrast IN dxva2;
 
 
 ## Parameters:
-```txt  
 hMonitor
 [in]  Handle to a physical monitor. To get the monitor handle, call GetPhysicalMonitorsFromHMONITOR or GetPhysicalMonitorsFromIDirect3DDevice9.
 
 dwNewContrast
 [in]  Contrast value. To get the monitor"s minimum and maximum contrast values, call, call GetMonitorContrast.
   
-```  
 ***  
 
 

@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : SystemTimeToFileTime
+## Function name : SystemTimeToFileTime
 Group: Time - Library: kernel32    
 ***  
 
@@ -36,14 +34,12 @@ DECLARE INTEGER SystemTimeToFileTime IN kernel32;
 
 
 ## Parameters:
-```txt  
-lpSystemTime
-[in] Pointer to a SYSTEMTIME structure that contains the time to be converted.
-The wDayOfWeek member of the SYSTEMTIME structure is ignored.
+lpSystemTime 
+[in] Pointer to a SYSTEMTIME structure that contains the time to be converted. 
+The wDayOfWeek member of the SYSTEMTIME structure is ignored. 
 
-lpFileTime
+lpFileTime 
 [out] Pointer to a FILETIME structure to receive the converted system time.  
-```  
 ***  
 
 

@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : GetUserObjectInformation
+## Function name : GetUserObjectInformation
 Group: Service - Library: user32    
 ***  
 
@@ -39,22 +37,20 @@ DECLARE INTEGER GetUserObjectInformation IN user32;
 
 
 ## Parameters:
-```txt  
-hObj
-[in] Handle to the window station or desktop object for which to return information.
+hObj 
+[in] Handle to the window station or desktop object for which to return information. 
 
-nIndex
-[in] Specifies the object information to be retrieved.
+nIndex 
+[in] Specifies the object information to be retrieved. 
 
-pvInfo
-[out] Pointer to a buffer to receive the object information.
+pvInfo 
+[out] Pointer to a buffer to receive the object information. 
 
-nLength
-[in] Specifies the size, in bytes, of the buffer pointed to by the pvInfo parameter.
+nLength 
+[in] Specifies the size, in bytes, of the buffer pointed to by the pvInfo parameter. 
 
-lpnLengthNeeded
-[out] Pointer to a variable receiving the number of bytes required to store the requested information.  
-```  
+lpnLengthNeeded 
+[out] Pointer to a variable receiving the number of bytes required to store the requested information.   
 ***  
 
 

@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : GetFileNameFromBrowse
+## Function name : GetFileNameFromBrowse
 Group: Shell Functions - Library: shell32    
 ***  
 
@@ -44,12 +42,11 @@ DECLARE INTEGER GetFileNameFromBrowse IN shell32;
 
 
 ## Parameters:
-```txt  
 hwnd
 [in] Handle to the window that owns the dialog box.
 
 pszFilePath
-[in] A null-terminated Unicode string that contains a file name used to initialize the File Name edit control.
+[in] A null-terminated Unicode string that contains a file name used to initialize the File Name edit control. 
 
 cchFilePath
 [in] The number of characters in pszFilePath, including the terminating null character.
@@ -61,11 +58,10 @@ pszDefExt
 [in] A null-terminated Unicode string that contains the default file extension.
 
 pszFilters
-[in] A null-terminated Unicode string that defines the filter.
+[in] A null-terminated Unicode string that defines the filter. 
 
 szTitle
-[in] A null-terminated Unicode string that is placed in the title bar of the dialog box.  
-```  
+[in] A null-terminated Unicode string that is placed in the title bar of the dialog box.   
 ***  
 
 

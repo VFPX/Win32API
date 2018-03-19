@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : NetJoinDomain
+## Function name : NetJoinDomain
 Group: Windows Networking - Library: netapi32    
 ***  
 
@@ -43,25 +41,23 @@ DECLARE INTEGER NetJoinDomain IN netapi32;
 
 
 ## Parameters:
-```txt  
-lpServer
+lpServer 
 [in] Pointer to a constant string that specifies the DNS or NetBIOS name of the computer on which to call the function.
 
-lpDomain
-[in] Pointer to a constant null-terminated character string that specifies the name of the domain or workgroup to join.
+lpDomain 
+[in] Pointer to a constant null-terminated character string that specifies the name of the domain or workgroup to join. 
 
-lpAccountOU
+lpAccountOU 
 [in] Optionally specifies the pointer to a constant null-terminated character string that contains the RFC 1779 format name of the organizational unit (OU) for the computer account.
 
-lpAccount
-[in] Pointer to a constant null-terminated character string that specifies the account name to use when connecting to the domain controller.
+lpAccount 
+[in] Pointer to a constant null-terminated character string that specifies the account name to use when connecting to the domain controller. 
 
-lpPassword
+lpPassword 
 [in] If the lpAccount parameter specifies an account name, this parameter must point to the password to use when connecting to the domain controller.
 
-fJoinOptions
+fJoinOptions 
 [in] Specifies a value that contains a set of bit flags defining the join options.  
-```  
 ***  
 
 

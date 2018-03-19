@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : ObtainUserAgentString
+## Function name : ObtainUserAgentString
 Group: URL Monikers - Library: urlmon    
 ***  
 
@@ -36,16 +34,14 @@ DECLARE INTEGER ObtainUserAgentString IN urlmon;
 
 
 ## Parameters:
-```txt  
 dwOption
 Reserved. Must be set to 0.
 
 pcszUAOut
-Pointer to a string value that contains the user agent string currently being used.
+Pointer to a string value that contains the user agent string currently being used. 
 
 cbSize
 Pointer to an unsigned long integer value that contains the length of the string.  
-```  
 ***  
 
 

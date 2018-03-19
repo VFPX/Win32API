@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : MAPIFreeBuffer
+## Function name : MAPIFreeBuffer
 Group: Simple MAPI - Library: mapi32    
 ***  
 
@@ -33,10 +31,8 @@ DECLARE INTEGER MAPIFreeBuffer IN mapi32;
 
 
 ## Parameters:
-```txt  
-pv
-[in] Pointer to memory allocated by the messaging system. This pointer is returned by the MAPIReadMail, MAPIAddress, and MAPIResolveName functions.  
-```  
+pv 
+[in] Pointer to memory allocated by the messaging system. This pointer is returned by the MAPIReadMail, MAPIAddress, and MAPIResolveName functions.   
 ***  
 
 

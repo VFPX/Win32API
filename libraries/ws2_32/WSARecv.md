@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : WSARecv
+## Function name : WSARecv
 Group: Windows Sockets 2 (Winsock) - Library: ws2_32    
 ***  
 
@@ -43,29 +41,27 @@ DECLARE INTEGER WSARecv IN ws2_32;
 
 
 ## Parameters:
-```txt  
-s
-[in] A descriptor identifying a connected socket.
+s 
+[in] A descriptor identifying a connected socket. 
 
-lpBuffers
-[in, out] A pointer to an array of WSABUF structures. Each WSABUF structure contains a pointer to a buffer and the length, in bytes, of the buffer.
+lpBuffers 
+[in, out] A pointer to an array of WSABUF structures. Each WSABUF structure contains a pointer to a buffer and the length, in bytes, of the buffer. 
 
-dwBufferCount
-[in] The number of WSABUF structures in the lpBuffers array.
+dwBufferCount 
+[in] The number of WSABUF structures in the lpBuffers array. 
 
-lpNumberOfBytesRecvd
+lpNumberOfBytesRecvd 
 [out] A pointer to the number, in bytes, received by this call if the receive operation completes immediately.
 
-lpFlags
-[in, out] A pointer to flags used to modify the behavior of the WSARecv function call. For more information, see the Remarks section.
+lpFlags 
+[in, out] A pointer to flags used to modify the behavior of the WSARecv function call. For more information, see the Remarks section. 
 
-lpOverlapped
-[in] A pointer to a WSAOVERLAPPED structure (ignored for nonoverlapped sockets).
+lpOverlapped 
+[in] A pointer to a WSAOVERLAPPED structure (ignored for nonoverlapped sockets). 
 
-lpCompletionRoutine
-[in] A pointer to the completion routine called when the receive operation has been completed (ignored for nonoverlapped sockets).
+lpCompletionRoutine 
+[in] A pointer to the completion routine called when the receive operation has been completed (ignored for nonoverlapped sockets). 
   
-```  
 ***  
 
 

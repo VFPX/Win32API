@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : SetWindowLong
+## Function name : SetWindowLong
 Group: Window Class - Library: user32    
 ***  
 
@@ -47,16 +45,14 @@ DECLARE INTEGER SetWindowLong IN user32;
 
 
 ## Parameters:
-```txt  
-hWnd
-[in] Handle to the window and, indirectly, the class to which the window belongs.
+hWnd 
+[in] Handle to the window and, indirectly, the class to which the window belongs. 
 
-nIndex
-[in] Specifies the zero-based offset to the value to be set.
+nIndex 
+[in] Specifies the zero-based offset to the value to be set. 
 
-dwNewLong
-[in] Specifies the replacement value.  
-```  
+dwNewLong 
+[in] Specifies the replacement value.   
 ***  
 
 

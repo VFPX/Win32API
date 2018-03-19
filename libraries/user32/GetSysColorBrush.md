@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : GetSysColorBrush
+## Function name : GetSysColorBrush
 Group: Brush - Library: user32    
 ***  
 
@@ -30,10 +28,8 @@ DECLARE INTEGER GetSysColorBrush IN user32 INTEGER nIndex
 
 
 ## Parameters:
-```txt  
-nIndex
+nIndex 
 [in] Specifies a color index. This value corresponds to the color used to paint one of the window elements.  
-```  
 ***  
 
 

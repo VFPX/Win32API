@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : SQLGetPrivateProfileString
+## Function name : SQLGetPrivateProfileString
 Group: ODBC API - Library: odbc32    
 ***  
 
@@ -42,31 +40,29 @@ DECLARE INTEGER SQLGetPrivateProfileString IN odbccp32;
 
 
 ## Parameters:
-```txt  
-lpszSection
+lpszSection 
 [Input]
-Points to a null-terminated string that specifies the section containing the key name.
+Points to a null-terminated string that specifies the section containing the key name. 
 
-lpszEntry
+lpszEntry 
 [Input]
-Points to the null-terminated string containing the key name whose associated string is to be retrieved.
+Points to the null-terminated string containing the key name whose associated string is to be retrieved. 
 
-lpszDefault
+lpszDefault 
 [Input]
 Points to a null-terminated string that specifies the default value for the given key if the key cannot be found in the initialization file.
 
-RetBuffer
+RetBuffer 
 [Output]
 Points to the buffer that receives the retrieved string.
 
-cbRetBuffer
+cbRetBuffer 
 [Input]
-Specifies the size, in characters, of the buffer pointed to by the RetBuffer argument.
+Specifies the size, in characters, of the buffer pointed to by the RetBuffer argument. 
 
-lpszFilename
+lpszFilename 
 [Output]
-Points to a null-terminated string that names the initialization file.  
-```  
+Points to a null-terminated string that names the initialization file.   
 ***  
 
 

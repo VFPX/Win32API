@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : EnumDisplaySettings
+## Function name : EnumDisplaySettings
 Group: Device Context - Library: user32    
 ***  
 
@@ -36,16 +34,14 @@ DECLARE INTEGER EnumDisplaySettings IN user32;
 
 
 ## Parameters:
-```txt  
-lpszDeviceName
+lpszDeviceName 
 [in] Pointer to a null-terminated string that specifies the display device about whose graphics mode the function will obtain information.
 
-iModeNum
+iModeNum 
 [in] Specifies the type of information to retrieve.
 
-lpDevMode
+lpDevMode 
 [out] Pointer to a DEVMODE structure into which the function stores information about the specified graphics mode.  
-```  
 ***  
 
 

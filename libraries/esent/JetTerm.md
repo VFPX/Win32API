@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : JetTerm
+## Function name : JetTerm
 Group: Extensible Storage Engine (ESE, Jet Blue) - Library: esent    
 ***  
 
@@ -32,11 +30,9 @@ DECLARE INTEGER JetTerm IN esent;
 
 
 ## Parameters:
-```txt  
-instance
+instance 
 Specifies the instance to use for this call.
   
-```  
 ***  
 
 

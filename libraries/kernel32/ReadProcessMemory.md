@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : ReadProcessMemory
+## Function name : ReadProcessMemory
 Group: Debugging - Library: kernel32    
 ***  
 
@@ -40,7 +38,6 @@ DECLARE INTEGER ReadProcessMemory IN kernel32;
 
 
 ## Parameters:
-```txt  
 hProcess [in]
 A handle to the process with memory that is being read. The handle must have PROCESS_VM_READ access to the process.
 
@@ -55,7 +52,6 @@ The number of bytes to be read from the specified process.
 
 lpNumberOfBytesRead [out]
 A pointer to a variable that receives the number of bytes transferred into the specified buffer.  
-```  
 ***  
 
 

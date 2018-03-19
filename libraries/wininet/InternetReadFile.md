@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : InternetReadFile
+## Function name : InternetReadFile
 Group: Internet Functions (WinInet) - Library: wininet    
 ***  
 
@@ -44,7 +42,6 @@ DECLARE INTEGER InternetReadFile IN wininet;
 
 
 ## Parameters:
-```txt  
 hFile
 [in] Valid HINTERNET handle returned from a previous call to InternetOpenUrl, FtpOpenFile, FtpCommand, GopherOpenFile, or HttpOpenRequest
 
@@ -57,7 +54,6 @@ dwNumberOfBytesToRead
 lpdwNumberOfBytesRead
 [out] Pointer to an unsigned long integer variable that receives the number of bytes read
   
-```  
 ***  
 
 

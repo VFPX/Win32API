@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : StretchDIBits
+## Function name : StretchDIBits
 Group: Bitmap - Library: gdi32    
 ***  
 
@@ -57,46 +55,44 @@ DECLARE INTEGER StretchDIBits IN gdi32;
 
 
 ## Parameters:
-```txt  
-hdc
-[in] Handle to the destination device context.
+hdc 
+[in] Handle to the destination device context. 
 
-XDest
-[in] Specifies the x-coordinate, in logical units, of the upper-left corner of the destination rectangle.
+XDest 
+[in] Specifies the x-coordinate, in logical units, of the upper-left corner of the destination rectangle. 
 
-YDest
-[in] Specifies the y-coordinate, in logical units, of the upper-left corner of the destination rectangle.
+YDest 
+[in] Specifies the y-coordinate, in logical units, of the upper-left corner of the destination rectangle. 
 
-nDestWidth
-[in] Specifies the width, in logical units, of the destination rectangle.
+nDestWidth 
+[in] Specifies the width, in logical units, of the destination rectangle. 
 
-nDestHeight
-[in] Specifies the height, in logical units, of the destination rectangle.
+nDestHeight 
+[in] Specifies the height, in logical units, of the destination rectangle. 
 
-XSrc
-[in] Specifies the x-coordinate, in pixels, of the source rectangle in the DIB.
+XSrc 
+[in] Specifies the x-coordinate, in pixels, of the source rectangle in the DIB. 
 
-YSrc
-[in] Specifies the y-coordinate, in pixels, of the source rectangle in the DIB.
+YSrc 
+[in] Specifies the y-coordinate, in pixels, of the source rectangle in the DIB. 
 
-nSrcWidth
-[in] Specifies the width, in pixels, of the source rectangle in the DIB.
+nSrcWidth 
+[in] Specifies the width, in pixels, of the source rectangle in the DIB. 
 
-nSrcHeight
-[in] Specifies the height, in pixels, of the source rectangle in the DIB.
+nSrcHeight 
+[in] Specifies the height, in pixels, of the source rectangle in the DIB. 
 
-lpBits
+lpBits 
 [in] Pointer to the DIB bits, which are stored as an array of bytes.
 
-lpBitsInfo
-[in] Pointer to a BITMAPINFO structure that contains information about the DIB.
+lpBitsInfo 
+[in] Pointer to a BITMAPINFO structure that contains information about the DIB. 
 
-iUsage
-[in] Specifies whether the bmiColors member of the BITMAPINFO structure was provided and, if so, whether bmiColors contains explicit red, green, blue (RGB) values or indexes.
+iUsage 
+[in] Specifies whether the bmiColors member of the BITMAPINFO structure was provided and, if so, whether bmiColors contains explicit red, green, blue (RGB) values or indexes. 
 
-dwRop
-[in] Specifies how the source pixels, the destination device context"s current brush, and the destination pixels are to be combined to form the new image.  
-```  
+dwRop 
+[in] Specifies how the source pixels, the destination device context"s current brush, and the destination pixels are to be combined to form the new image.   
 ***  
 
 

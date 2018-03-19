@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : OpenEventLog
+## Function name : OpenEventLog
 Group: Event Logging - Library: advapi32    
 ***  
 
@@ -34,15 +32,13 @@ DECLARE INTEGER OpenEventLog IN advapi32;
 
 
 ## Parameters:
-```txt  
-lpUNCServerName
+lpUNCServerName 
 [in] The Universal Naming Convention (UNC) name of the server on which the event log is to be opened.
-
+ 
 lpSourceName
-[in] The name of the log.
+[in] The name of the log. 
 If a custom log cannot be found, the event logging service opens the Application log; however, there will be no associated message or category string file.
   
-```  
 ***  
 
 

@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : BroadcastSystemMessage
+## Function name : BroadcastSystemMessage
 Group: Message and Message Queue - Library: user32    
 ***  
 
@@ -37,7 +35,6 @@ DECLARE INTEGER BroadcastSystemMessage IN user32;
 
 
 ## Parameters:
-```txt  
 dwFlags
 [in] Specifies the broadcast option.
 
@@ -45,14 +42,13 @@ lpdwRecipients
 [in]  Pointer to a variable that contains and receives information about the recipients of the message.
 
 uiMessage
-[in] Specifies the message to be sent.
+[in] Specifies the message to be sent. 
 
 wParam
-[in] Specifies additional message-specific information.
+[in] Specifies additional message-specific information. 
 
 lParam
-[in] Specifies additional message-specific information.  
-```  
+[in] Specifies additional message-specific information.   
 ***  
 
 

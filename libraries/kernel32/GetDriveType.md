@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : GetDriveType
+## Function name : GetDriveType
 Group: File Management - Library: kernel32    
 ***  
 
@@ -36,10 +34,8 @@ DECLARE INTEGER GetDriveType IN kernel32 STRING nDrive
 
 
 ## Parameters:
-```txt  
-lpRootPathName
+lpRootPathName 
 [in] Pointer to a null-terminated string that specifies the root directory of the disk to return information about. A trailing backslash is required. If lpRootPathName is NULL, the function uses the root of the current directory  
-```  
 ***  
 
 

@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : NetMessageBufferSend
+## Function name : NetMessageBufferSend
 Group: Network Management - Library: netapi32    
 ***  
 
@@ -40,22 +38,20 @@ DECLARE INTEGER NetMessageBufferSend IN netapi32;
 
 
 ## Parameters:
-```txt  
-servername
+servername 
 [in] Pointer to a constant string that specifies the DNS or NetBIOS name of the remote server on which the function is to execute. If this parameter is NULL, the local computer is used.
 
-msgname
-[in] Pointer to a constant string that specifies the message alias to which the message buffer should be sent.
+msgname 
+[in] Pointer to a constant string that specifies the message alias to which the message buffer should be sent. 
 
-fromname
-[in] Pointer to a constant string specifying who the message is from. If this parameter is NULL, the message is sent from the local computer name.
+fromname 
+[in] Pointer to a constant string specifying who the message is from. If this parameter is NULL, the message is sent from the local computer name. 
 
-buf
+buf 
 [in] Pointer to a buffer that contains the message text.
 
-buflen
+buflen 
 [in] Specifies a value that contains the length, in bytes, of the message text pointed to by the buf parameter.  
-```  
 ***  
 
 

@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : EnumServicesStatus
+## Function name : EnumServicesStatus
 Group: Service - Library: advapi32    
 ***  
 
@@ -46,31 +44,29 @@ DECLARE INTEGER EnumServicesStatus IN advapi32;
 
 
 ## Parameters:
-```txt  
-hSCManager
+hSCManager 
 [in] Handle to the service control manager database.
 
-dwServiceType
+dwServiceType 
 [in] Type of services to enumerate.
 
-dwServiceState
+dwServiceState 
 [in] State of the services to be enumerated.
 
-lpServices
+lpServices 
 [out] Pointer to a buffer that contains an array of ENUM_SERVICE_STATUS structures that receive the name and service status information for each service in the database.
 
-cbBufSize
-[in] Size of the buffer pointed to by the lpServices parameter, in bytes.
+cbBufSize 
+[in] Size of the buffer pointed to by the lpServices parameter, in bytes. 
 
-pcbBytesNeeded
-[out] Pointer to a variable that receives the number of bytes needed to return the remaining service entries, if the buffer is too small.
+pcbBytesNeeded 
+[out] Pointer to a variable that receives the number of bytes needed to return the remaining service entries, if the buffer is too small. 
 
-lpServicesReturned
-[out] Pointer to a variable that receives the number of service entries returned.
+lpServicesReturned 
+[out] Pointer to a variable that receives the number of service entries returned. 
 
-lpResumeHandle
+lpResumeHandle 
 [in, out] Pointer to a variable that, on input, specifies the starting point of enumeration.  
-```  
 ***  
 
 

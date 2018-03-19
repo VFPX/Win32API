@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : GdipRotateMatrix
+## Function name : GdipRotateMatrix
 Group: GDI+ Matrix - Library: gdiplus    
 ***  
 
@@ -37,7 +35,6 @@ DECLARE INTEGER GdipRotateMatrix IN gdiplus;
 
 
 ## Parameters:
-```txt  
 matrix
 [in] Handle to the Matrix object.
 
@@ -46,7 +43,6 @@ angle
 
 order
 [in] Element of the MatrixOrder enumeration that specifies the order of multiplication.  
-```  
 ***  
 
 

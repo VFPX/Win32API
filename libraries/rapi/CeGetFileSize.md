@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : CeGetFileSize
+## Function name : CeGetFileSize
 Group: Remote Application Programming (RAPI) - Library: rapi    
 ***  
 
@@ -33,13 +31,11 @@ DECLARE LONG CeGetFileSize IN rapi;
 
 
 ## Parameters:
-```txt  
-hFile
+hFile 
 [in] Open handle of the file whose size is being returned.
 
-lpFileSizeHigh
+lpFileSizeHigh 
 [out] Pointer to the variable where the high-order word of the file size is returned.  
-```  
 ***  
 
 

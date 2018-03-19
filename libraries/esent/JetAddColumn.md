@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : JetAddColumn
+## Function name : JetAddColumn
 Group: Extensible Storage Engine (ESE, Jet Blue) - Library: esent    
 ***  
 
@@ -43,29 +41,27 @@ DECLARE INTEGER JetAddColumn IN esent;
 
 
 ## Parameters:
-```txt  
-sesid
+sesid 
 The database session context to use for the API call.
 
-tableid
+tableid 
 The table to which to add the column.
 
-szColumnName
+szColumnName 
 The name of the column to add.
 
-pcolumndef
+pcolumndef 
 A pointer to a JET_COLUMNDEF structure, which defines the data that can be stored in a column.
 
-pvDefault
+pvDefault 
 A pointer to a buffer that contains the default value for the column.
 
-cbDefault
+cbDefault 
 The size, in bytes, of the buffer that is specified in pvDefault.
 
-pcolumnid
+pcolumnid 
 A pointer to a JET_COLUMNID structure, which, on success, will receive the identifier of the newly created column.
   
-```  
 ***  
 
 

@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : SQLDataSources
+## Function name : SQLDataSources
 Group: ODBC API - Library: odbc32    
 ***  
 
@@ -44,39 +42,37 @@ DECLARE SHORT SQLDataSources IN odbc32;
 
 
 ## Parameters:
-```txt  
-EnvironmentHandle
+EnvironmentHandle 
 [Input]
-Environment handle.
+Environment handle. 
 
-Direction
+Direction 
 [Input]
 Determines which data source the Driver Manager returns information on.
 
-ServerName
+ServerName 
 [Output]
-Pointer to a buffer in which to return the data source name.
+Pointer to a buffer in which to return the data source name. 
 
-BufferLength1
+BufferLength1 
 [Input]
 Length of the *ServerName buffer, in bytes.
 
-NameLength1Ptr
+NameLength1Ptr 
 [Output]
-Pointer to a buffer in which to return the total number of bytes (excluding the null-termination byte) available to return in *ServerName.
+Pointer to a buffer in which to return the total number of bytes (excluding the null-termination byte) available to return in *ServerName. 
 
-Description
+Description 
 [Output]
 Pointer to a buffer in which to return the description of the driver associated with the data source.
 
-BufferLength2
+BufferLength2 
 [Input]
-Length of the *Description buffer.
+Length of the *Description buffer. 
 
-NameLength2Ptr
+NameLength2Ptr 
 [Output]
-Pointer to a buffer in which to return the total number of bytes (excluding the null-termination byte) available to return in *Description.  
-```  
+Pointer to a buffer in which to return the total number of bytes (excluding the null-termination byte) available to return in *Description.   
 ***  
 
 

@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : WNetDisconnectDialog
+## Function name : WNetDisconnectDialog
 Group: Windows Networking - Library: mpr    
 ***  
 
@@ -34,13 +32,11 @@ DECLARE INTEGER WNetDisconnectDialog IN mpr;
 
 
 ## Parameters:
-```txt  
-hwnd
-[in] Handle to the owner window for the dialog box.
+hwnd 
+[in] Handle to the owner window for the dialog box. 
 
-dwType
+dwType 
 [in] Resource type to disconnect from.  
-```  
 ***  
 
 

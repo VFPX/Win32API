@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : WTSFreeMemory
+## Function name : WTSFreeMemory
 Group: Terminal Services - Library: wtsapi32    
 ***  
 
@@ -33,10 +31,8 @@ DECLARE WTSFreeMemory IN Wtsapi32;
 
 
 ## Parameters:
-```txt  
-pMemory
-[in] Pointer to the memory to free.  
-```  
+pMemory 
+[in] Pointer to the memory to free.   
 ***  
 
 

@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : ReleaseMutex
+## Function name : ReleaseMutex
 Group: Synchronization - Library: kernel32    
 ***  
 
@@ -32,10 +30,8 @@ DECLARE INTEGER ReleaseMutex IN kernel32;
 
 
 ## Parameters:
-```txt  
-hMutex
+hMutex 
 [in] Handle to the mutex object. The CreateMutex or OpenMutex function returns this handle.  
-```  
 ***  
 
 

@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : DefWindowProc
+## Function name : DefWindowProc
 Group: Window Procedure - Library: user32    
 ***  
 
@@ -34,19 +32,17 @@ DECLARE INTEGER DefWindowProc IN user32;
 
 
 ## Parameters:
-```txt  
 hWnd
-[in] Handle to the window procedure that received the message.
+[in] Handle to the window procedure that received the message. 
 
 Msg
-[in] Specifies the message.
+[in] Specifies the message. 
 wParam
 
 [in] Specifies additional message information.
 
 lParam
 [in] Specifies additional message information.  
-```  
 ***  
 
 

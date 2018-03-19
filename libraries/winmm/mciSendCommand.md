@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : mciSendCommand
+## Function name : mciSendCommand
 Group: Windows Multimedia - Library: winmm    
 ***  
 
@@ -35,7 +33,6 @@ DECLARE INTEGER mciSendCommand IN winmm;
 
 
 ## Parameters:
-```txt  
 IDDevice
 Device identifier of the MCI device that is to receive the command message. This parameter is not used with the MCI_OPEN command message.
 
@@ -47,7 +44,6 @@ Flags for the command message.
 
 dwParam
 Pointer to a structure that contains parameters for the command message.  
-```  
 ***  
 
 

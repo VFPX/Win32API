@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : RegCloseKey
+## Function name : RegCloseKey
 Group: Registry - Library: advapi32    
 ***  
 
@@ -35,10 +33,8 @@ DECLARE INTEGER RegCloseKey IN advapi32 INTEGER hKey
 
 
 ## Parameters:
-```txt  
-hKey
+hKey 
 [in] Handle to the open key to close.  
-```  
 ***  
 
 

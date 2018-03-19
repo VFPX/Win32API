@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : OpenDesktop
+## Function name : OpenDesktop
 Group: Window Station and Desktop - Library: user32    
 ***  
 
@@ -39,18 +37,16 @@ DECLARE INTEGER OpenDesktop IN user32;
 
 
 ## Parameters:
-```txt  
-lpszDesktop
-[in] Pointer to null-terminated string specifying the name of the desktop to be opened.
-dwFlags
+lpszDesktop 
+[in] Pointer to null-terminated string specifying the name of the desktop to be opened. 
+dwFlags 
 [in] This parameter can be zero or the following value.
 
-fInherit
-[in] If this value is TRUE, new processes inherit the handle. Otherwise, this handle is not inherited.
+fInherit 
+[in] If this value is TRUE, new processes inherit the handle. Otherwise, this handle is not inherited. 
 
-dwDesiredAccess
+dwDesiredAccess 
 [in] Access to the desktop.  
-```  
 ***  
 
 

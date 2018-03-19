@@ -1,5 +1,3 @@
-<link rel="stylesheet" type="text/css" href="../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
 # Customizing the frame of top-level form: removing the standard frame (VFP9, Vista)
 

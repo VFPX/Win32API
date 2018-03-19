@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : SetFilePointer
+## Function name : SetFilePointer
 Group: File Management - Library: kernel32    
 ***  
 
@@ -37,19 +35,17 @@ DECLARE INTEGER SetFilePointer IN kernel32;
 
 
 ## Parameters:
-```txt  
-hFile
-[in] Handle to the file whose file pointer is to be moved.
+hFile 
+[in] Handle to the file whose file pointer is to be moved. 
 
-lDistanceToMove
-[in] Low-order 32 bits of a signed value that specifies the number of bytes to move the file pointer.
+lDistanceToMove 
+[in] Low-order 32 bits of a signed value that specifies the number of bytes to move the file pointer. 
 
-lpDistanceToMoveHigh
-[in] Pointer to the high-order 32 bits of the signed 64-bit distance to move.
+lpDistanceToMoveHigh 
+[in] Pointer to the high-order 32 bits of the signed 64-bit distance to move. 
 
-dwMoveMethod
+dwMoveMethod 
 [in] Starting point for the file pointer move -- a predefined value.  
-```  
 ***  
 
 

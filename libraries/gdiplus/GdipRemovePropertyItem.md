@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : GdipRemovePropertyItem
+## Function name : GdipRemovePropertyItem
 Group: GDI+ Image - Library: gdiplus    
 ***  
 
@@ -35,13 +33,11 @@ DECLARE INTEGER GdipRemovePropertyItem IN gdiplus;
 
 
 ## Parameters:
-```txt  
 img
 [in] Handle to Image Object
 
 propId
-[in] Integer that identifies the property item to be removed.  
-```  
+[in] Integer that identifies the property item to be removed.   
 ***  
 
 

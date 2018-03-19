@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : mciGetErrorString
+## Function name : mciGetErrorString
 Group: Windows Multimedia - Library: winmm    
 ***  
 
@@ -36,16 +34,14 @@ DECLARE INTEGER mciGetErrorString IN winmm;
 
 
 ## Parameters:
-```txt  
-fdwError
-Error code returned by the mciSendCommand or mciSendString function.
+fdwError 
+Error code returned by the mciSendCommand or mciSendString function. 
 
-lpszErrorText
-Pointer to a buffer that receives a null-terminated string describing the specified error.
+lpszErrorText 
+Pointer to a buffer that receives a null-terminated string describing the specified error. 
 
-cchErrorText
-Length of the buffer, in characters, pointed to by the lpszErrorText parameter.  
-```  
+cchErrorText 
+Length of the buffer, in characters, pointed to by the lpszErrorText parameter.   
 ***  
 
 

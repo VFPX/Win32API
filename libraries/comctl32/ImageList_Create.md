@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : ImageList_Create
+## Function name : ImageList_Create
 Group: Windows Controls - Library: comctl32    
 ***  
 
@@ -39,12 +37,11 @@ DECLARE INTEGER ImageList_Create IN comctl32;
 
 
 ## Parameters:
-```txt  
 cx
-Width, in pixels, of each image.
+Width, in pixels, of each image. 
 
 cy
-Height, in pixels, of each image.
+Height, in pixels, of each image. 
 
 flags
 Set of bit flags that specify the type of image list to create.
@@ -54,7 +51,6 @@ Number of images that the image list initially contains.
 
 cGrow
 Number of images by which the image list can grow when the system needs to make room for new images.  
-```  
 ***  
 
 

@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : HeapWalk
+## Function name : HeapWalk
 Group: Memory Management - Library: kernel32    
 ***  
 
@@ -33,13 +31,11 @@ DECLARE INTEGER HeapWalk IN kernel32;
 
 
 ## Parameters:
-```txt  
-hHeap
-[in] Handle to the heap whose memory blocks you wish to enumerate.
+hHeap 
+[in] Handle to the heap whose memory blocks you wish to enumerate. 
 
-lpEntry
-[in/out] Pointer to a PROCESS_HEAP_ENTRY structure that maintains state information for a particular heap enumeration.  
-```  
+lpEntry 
+[in/out] Pointer to a PROCESS_HEAP_ENTRY structure that maintains state information for a particular heap enumeration.   
 ***  
 
 

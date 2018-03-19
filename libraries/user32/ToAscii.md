@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : ToAscii
+## Function name : ToAscii
 Group: Keyboard Input - Library: user32    
 ***  
 
@@ -39,7 +37,6 @@ DECLARE INTEGER ToAscii IN user32;
 
 
 ## Parameters:
-```txt  
 uVirtKey [in]
 The virtual-key code to be translated. See Virtual-Key Codes.
 
@@ -54,7 +51,6 @@ The buffer that receives the translated character or characters.
 
 uFlags [in]
 This parameter must be 1 if a menu is active, or 0 otherwise.  
-```  
 ***  
 
 

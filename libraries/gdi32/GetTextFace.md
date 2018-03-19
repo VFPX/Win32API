@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : GetTextFace
+## Function name : GetTextFace
 Group: Font and Text - Library: gdi32    
 ***  
 
@@ -35,16 +33,14 @@ DECLARE INTEGER GetTextFace IN gdi32;
 
 
 ## Parameters:
-```txt  
-hdc
-[in] Handle to the device context.
+hdc 
+[in] Handle to the device context. 
 
-nCount
+nCount 
 [in] Specifies the length of the buffer pointed to by lpFaceName.
 
-lpFaceName
-[out] Pointer to the buffer that receives the typeface name.  
-```  
+lpFaceName 
+[out] Pointer to the buffer that receives the typeface name.   
 ***  
 
 

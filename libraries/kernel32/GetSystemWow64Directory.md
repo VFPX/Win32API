@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : GetSystemWow64Directory
+## Function name : GetSystemWow64Directory
 Group: System Information - Library: kernel32    
 ***  
 
@@ -30,13 +28,11 @@ DECLARE INTEGER GetSystemWow64Directory IN kernel32;
 
 
 ## Parameters:
-```txt  
-lpBuffer [out]
+lpBuffer [out] 
 A pointer to the buffer to receive the path. This path does not end with a backslash.
 
-uSize [in]
+uSize [in] 
 The maximum size of the buffer, in TCHARs.  
-```  
 ***  
 
 

@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : DllInstall
+## Function name : DllInstall
 Group: Shell Lightweight Utility APIs -- misc. functions - Library: shlwapi    
 ***  
 
@@ -31,14 +29,12 @@ DECLARE INTEGER DllInstall IN shlwapi;
 
 
 ## Parameters:
-```txt  
 bInstall
-Value that is set to TRUE if the DLL is being installed, or FALSE if it is being uninstalled.
+Value that is set to TRUE if the DLL is being installed, or FALSE if it is being uninstalled. 
 
 pszCmdLine
 String passed in by regsvr32 that indicates which setup procedure to use.
   
-```  
 ***  
 
 

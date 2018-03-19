@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : GetTcpTable
+## Function name : GetTcpTable
 Group: IP Helper - Library: iphlpapi    
 ***  
 
@@ -35,16 +33,14 @@ DECLARE INTEGER GetTcpTable IN iphlpapi;
 
 
 ## Parameters:
-```txt  
-pTcpTable
-[out] Pointer to a buffer that receives the TCP connection table as a MIB_TCPTABLE structure.
+pTcpTable 
+[out] Pointer to a buffer that receives the TCP connection table as a MIB_TCPTABLE structure. 
 
-pdwSize
-[in, out] On input, specifies the size of the buffer pointed to by the pTcpTable parameter.
+pdwSize 
+[in, out] On input, specifies the size of the buffer pointed to by the pTcpTable parameter. 
 
-bOrder
-[in] Specifies whether the connection table should be sorted.  
-```  
+bOrder 
+[in] Specifies whether the connection table should be sorted.   
 ***  
 
 

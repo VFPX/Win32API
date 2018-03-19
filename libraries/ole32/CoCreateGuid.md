@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : CoCreateGuid
+## Function name : CoCreateGuid
 Group: COM - Library: ole32    
 ***  
 
@@ -31,10 +29,8 @@ DECLARE INTEGER CoCreateGuid IN ole32;
 
 
 ## Parameters:
-```txt  
-pguid
-[out] Pointer to the requested GUID on return.  
-```  
+pguid 
+[out] Pointer to the requested GUID on return.   
 ***  
 
 

@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : ShellAbout
+## Function name : ShellAbout
 Group: Shell Functions - Library: shell32    
 ***  
 
@@ -34,7 +32,6 @@ DECLARE INTEGER ShellAbout IN shell32;
 
 
 ## Parameters:
-```txt  
 hWnd
 Identifies a parent window
 
@@ -46,7 +43,6 @@ Points to text that the function displays in the dialog box after the version an
 
 hIcon
 Identifies an icon that the function displays in the dialog box  
-```  
 ***  
 
 

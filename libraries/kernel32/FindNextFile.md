@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : FindNextFile
+## Function name : FindNextFile
 Group: File Management - Library: kernel32    
 ***  
 
@@ -33,13 +31,11 @@ DECLARE INTEGER FindNextFile IN kernel32;
 
 
 ## Parameters:
-```txt  
-hFindFile
-[in] Search handle returned by a previous call to the FindFirstFile function.
+hFindFile 
+[in] Search handle returned by a previous call to the FindFirstFile function. 
 
-lpFindFileData
-[out] Pointer to the WIN32_FIND_DATA structure that receives information about the found file or subdirectory.  
-```  
+lpFindFileData 
+[out] Pointer to the WIN32_FIND_DATA structure that receives information about the found file or subdirectory.   
 ***  
 
 

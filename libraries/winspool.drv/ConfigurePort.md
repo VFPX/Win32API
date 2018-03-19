@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : ConfigurePort
+## Function name : ConfigurePort
 Group: Printing and Print Spooler - Library: winspool.drv    
 ***  
 
@@ -36,17 +34,15 @@ DECLARE INTEGER ConfigurePort IN winspool.drv;
 
 
 ## Parameters:
-```txt  
-pName
-[in] Pointer to a null-terminated string that specifies the name of the server on which the specified port exists.
+pName 
+[in] Pointer to a null-terminated string that specifies the name of the server on which the specified port exists. 
 
-hWnd
-[in] Handle to the parent window of the port-configuration dialog box.
+hWnd 
+[in] Handle to the parent window of the port-configuration dialog box. 
 
-pPortName
-[in] Pointer to a null-terminated string that specifies the name of the port to be configured.
+pPortName 
+[in] Pointer to a null-terminated string that specifies the name of the port to be configured. 
   
-```  
 ***  
 
 

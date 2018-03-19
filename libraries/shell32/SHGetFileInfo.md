@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : SHGetFileInfo
+## Function name : SHGetFileInfo
 Group: Shell Functions - Library: shell32    
 ***  
 
@@ -44,7 +42,6 @@ DECLARE INTEGER SHGetFileInfo IN shell32;
 
 
 ## Parameters:
-```txt  
 pszPath
 [in] Pointer to a null-terminated string of maximum length MAX_PATH that contains the path and file name.
 
@@ -59,7 +56,6 @@ cbFileInfo
 
 uFlags
 [in] Flags that specify the file information to retrieve.  
-```  
 ***  
 
 

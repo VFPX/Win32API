@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : GetAdaptersAddresses
+## Function name : GetAdaptersAddresses
 Group: IP Helper - Library: iphlpapi    
 ***  
 
@@ -39,22 +37,20 @@ DECLARE INTEGER GetAdaptersAddresses IN Iphlpapi;
 
 
 ## Parameters:
-```txt  
-Family
+Family 
 [in] Address family of the addresses to retrieve: AF_INET, AF_INET6, AF_UNSPEC
 
-Flags
+Flags 
 [in] Type of addresses to retrieve.
 
-Reserved
-[in] The calling application should pass NULL for this parameter.
-pAdapterAddresses
+Reserved 
+[in] The calling application should pass NULL for this parameter. 
+pAdapterAddresses 
 
-[out] Pointer to a buffer. On successful return, this buffer contains the address information.
+[out] Pointer to a buffer. On successful return, this buffer contains the address information. 
 
-pOutBufLen
+pOutBufLen 
 [in, out] Pointer to a variable that specifies the size of the buffer pointed to by pAdapterAddresses.  
-```  
 ***  
 
 

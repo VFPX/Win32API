@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : SetCapture
+## Function name : SetCapture
 Group: Mouse Input - Library: user32    
 ***  
 
@@ -33,10 +31,8 @@ DECLARE INTEGER SetCapture IN user32;
 
 
 ## Parameters:
-```txt  
-hWnd
-[in] Handle to the window in the current thread that is to capture the mouse.  
-```  
+hWnd 
+[in] Handle to the window in the current thread that is to capture the mouse.   
 ***  
 
 

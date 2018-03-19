@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : GetSecurityDescriptorOwner
+## Function name : GetSecurityDescriptorOwner
 Group: Security - Library: advapi32    
 ***  
 
@@ -37,16 +35,14 @@ DECLARE INTEGER GetSecurityDescriptorOwner IN advapi32;
 
 
 ## Parameters:
-```txt  
-pSecurityDescriptor
-[in] Pointer to a SECURITY_DESCRIPTOR structure whose owner information the function retrieves.
+pSecurityDescriptor 
+[in] Pointer to a SECURITY_DESCRIPTOR structure whose owner information the function retrieves. 
 
-pOwner
-[out] Pointer to a pointer to a SID identifying the owner when the function returns.
+pOwner 
+[out] Pointer to a pointer to a SID identifying the owner when the function returns. 
 
-lpbOwnerDefaulted
+lpbOwnerDefaulted 
 [out] Pointer to a flag set to the value of the SE_OWNER_DEFAULTED flag in the SECURITY_DESCRIPTOR_CONTROL structure when the function returns.  
-```  
 ***  
 
 

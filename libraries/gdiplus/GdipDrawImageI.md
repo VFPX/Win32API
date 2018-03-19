@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : GdipDrawImageI
+## Function name : GdipDrawImageI
 Group: GDI+ Graphics - Library: gdiplus    
 ***  
 
@@ -35,19 +33,17 @@ DECLARE INTEGER GdipDrawImageI IN gdiplus;
 
 
 ## Parameters:
-```txt  
 graphics
 [in] Pointer to a Graphics object.
 
 image
-[in] Pointer to an Image object that specifies the image to be drawn.
+[in] Pointer to an Image object that specifies the image to be drawn. 
 
 x
-[in] Integer that specifies the x-coordinate of the upper-left corner of the rendered image.
+[in] Integer that specifies the x-coordinate of the upper-left corner of the rendered image. 
 
 y
-[in] Integer that specifies the y-coordinate of the upper-left corner of the rendered image.  
-```  
+[in] Integer that specifies the y-coordinate of the upper-left corner of the rendered image.   
 ***  
 
 

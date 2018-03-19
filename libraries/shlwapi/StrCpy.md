@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : StrCpy
+## Function name : StrCpy
 Group: Shell Lightweight Utility APIs -- string functions - Library: shlwapi    
 ***  
 
@@ -33,13 +31,11 @@ DECLARE INTEGER StrCpyW IN shlwapi AS StrCpy;
 
 
 ## Parameters:
-```txt  
-psz1
-[out] Pointer to the destination string.
+psz1 
+[out] Pointer to the destination string. 
 
-psz2
+psz2 
 [in] Pointer to the null-terminated source string.  
-```  
 ***  
 
 

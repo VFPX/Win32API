@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : FindVolumeClose
+## Function name : FindVolumeClose
 Group: File System - Library: kernel32    
 ***  
 
@@ -32,10 +30,8 @@ DECLARE INTEGER FindVolumeClose IN kernel32;
 
 
 ## Parameters:
-```txt  
-hFindVolume
+hFindVolume 
 [in] Volume search handle to close. This handle must have been previously opened by the FindFirstVolume function.  
-```  
 ***  
 
 

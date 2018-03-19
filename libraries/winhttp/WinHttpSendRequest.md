@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : WinHttpSendRequest
+## Function name : WinHttpSendRequest
 Group: HTTP Functions (WinHTTP) - Library: winhttp    
 ***  
 
@@ -44,28 +42,26 @@ DECLARE INTEGER WinHttpSendRequest IN winhttp;
 
 
 ## Parameters:
-```txt  
-hRequest
-[in] HINTERNET handle returned by WinHttpOpenRequest.
+hRequest 
+[in] HINTERNET handle returned by WinHttpOpenRequest. 
 
-pwszHeaders
+pwszHeaders 
 [in] Pointer to a string that contains the additional headers to append to the request.
 
-dwHeadersLength
+dwHeadersLength 
 [in] Unsigned long integer value that contains the length, in characters, of the additional headers.
 
-lpOptional
-[in] Pointer to a buffer that contains any optional data to send immediately after the request headers.
+lpOptional 
+[in] Pointer to a buffer that contains any optional data to send immediately after the request headers. 
 
-dwOptionalLength
+dwOptionalLength 
 [in] Unsigned long integer value that contains the length, in bytes, of the optional data.
 
-dwTotalLength
-[in] Unsigned long integer value that contains the length, in bytes, of the total data sent.
+dwTotalLength 
+[in] Unsigned long integer value that contains the length, in bytes, of the total data sent. 
 
-dwContext
-[in] Pointer to a pointer-sized variable that contains an application-defined value that is passed, along with the request handle, to any callback functions.  
-```  
+dwContext 
+[in] Pointer to a pointer-sized variable that contains an application-defined value that is passed, along with the request handle, to any callback functions.   
 ***  
 
 

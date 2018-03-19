@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : FindNextChangeNotification
+## Function name : FindNextChangeNotification
 Group: File Management - Library: kernel32    
 ***  
 
@@ -31,10 +29,8 @@ DECLARE SHORT FindNextChangeNotification IN kernel32;
 
 
 ## Parameters:
-```txt  
-hChangeHandle
+hChangeHandle 
 [in] Handle to a change notification handle created by the FindFirstChangeNotification function.  
-```  
 ***  
 
 

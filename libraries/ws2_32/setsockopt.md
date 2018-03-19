@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : setsockopt
+## Function name : setsockopt
 Group: Windows Sockets 2 (Winsock) - Library: ws2_32    
 ***  
 
@@ -42,23 +40,21 @@ DECLARE INTEGER setsockopt IN ws2_32;
 
 
 ## Parameters:
-```txt  
-s
-[in] Descriptor identifying a socket.
+s 
+[in] Descriptor identifying a socket. 
 
-level
-[in] Level at which the option is defined. Example: SOL_SOCKET.
+level 
+[in] Level at which the option is defined. Example: SOL_SOCKET. 
 
-optname
+optname 
 [in] Socket option for which the value is to be set.
 
-optval
-[in] Pointer to the buffer in which the value for the requested option is specified.
+optval 
+[in] Pointer to the buffer in which the value for the requested option is specified. 
 
-optlen
-[in] Size of the optval buffer, in bytes.
+optlen 
+[in] Size of the optval buffer, in bytes. 
   
-```  
 ***  
 
 

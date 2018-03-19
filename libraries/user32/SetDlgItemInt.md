@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : SetDlgItemInt
+## Function name : SetDlgItemInt
 Group: Dialog Box - Library: user32    
 ***  
 
@@ -35,19 +33,17 @@ DECLARE INTEGER SetDlgItemInt IN user32;
 
 
 ## Parameters:
-```txt  
 hDlg
-[in] Handle to the dialog box that contains the control.
+[in] Handle to the dialog box that contains the control. 
 
 nIDDlgItem
-[in] Specifies the control to be changed.
+[in] Specifies the control to be changed. 
 
 uValue
-[in] Specifies the integer value used to generate the item text.
+[in] Specifies the integer value used to generate the item text. 
 
 bSigned
 [in] Specifies whether the uValue parameter is signed or unsigned.  
-```  
 ***  
 
 

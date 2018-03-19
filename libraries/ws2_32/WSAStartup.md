@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : WSAStartup
+## Function name : WSAStartup
 Group: Windows Sockets 2 (Winsock) - Library: ws2_32    
 ***  
 
@@ -57,14 +55,12 @@ DECLARE INTEGER WSAStartup IN ws2_32;
 
 
 ## Parameters:
-```txt  
-wVersionRequested
-[in] Highest version of Windows Sockets support that the caller can use. The high-order byte specifies the minor version (revision) number; the low-order byte specifies the major version number.
+wVersionRequested 
+[in] Highest version of Windows Sockets support that the caller can use. The high-order byte specifies the minor version (revision) number; the low-order byte specifies the major version number. 
 
-lpWSAData
-[out] Pointer to the WSADATA data structure that is to receive details of the Windows Sockets implementation.
+lpWSAData 
+[out] Pointer to the WSADATA data structure that is to receive details of the Windows Sockets implementation. 
   
-```  
 ***  
 
 

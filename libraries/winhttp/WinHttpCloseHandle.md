@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : WinHttpCloseHandle
+## Function name : WinHttpCloseHandle
 Group: HTTP Functions (WinHTTP) - Library: winhttp    
 ***  
 
@@ -31,10 +29,8 @@ DECLARE INTEGER WinHttpCloseHandle IN winhttp;
 
 
 ## Parameters:
-```txt  
-hInternet
+hInternet 
 [in] Valid HINTERNET handle to be closed.  
-```  
 ***  
 
 

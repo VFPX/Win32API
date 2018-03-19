@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : StringFromGUID2
+## Function name : StringFromGUID2
 Group: COM - Library: ole32    
 ***  
 
@@ -40,16 +38,14 @@ DECLARE INTEGER StringFromGUID2 IN ole32;
 
 
 ## Parameters:
-```txt  
-rguid
-[in] GUID to be converted.
+rguid 
+[in] GUID to be converted. 
 
-lpsz
-[out] Pointer to a caller-allocated string variable to contain the resulting string on return.
+lpsz 
+[out] Pointer to a caller-allocated string variable to contain the resulting string on return. 
 
-cchMax
+cchMax 
 [in] Number of characters available in the buffer indicated by lpsz.  
-```  
 ***  
 
 

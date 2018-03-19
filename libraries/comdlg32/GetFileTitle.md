@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : GetFileTitle
+## Function name : GetFileTitle
 Group: Common Dialog Box - Library: comdlg32    
 ***  
 
@@ -35,16 +33,14 @@ DECLARE SHORT GetFileTitle IN Comdlg32;
 
 
 ## Parameters:
-```txt  
-lpszFile
-[in] Pointer to the name and location of a file.
+lpszFile 
+[in] Pointer to the name and location of a file. 
 
-lpszTitle
-[out] Pointer to a buffer that receives the name of the file.
+lpszTitle 
+[out] Pointer to a buffer that receives the name of the file. 
 
-cbBuf
+cbBuf 
 [in] Specifies the length, in TCHARs, of the buffer pointed to by the lpszTitle parameter.  
-```  
 ***  
 
 

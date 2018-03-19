@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : GetAclInformation
+## Function name : GetAclInformation
 Group: Security - Library: advapi32    
 ***  
 
@@ -39,19 +37,17 @@ DECLARE INTEGER GetAclInformation IN advapi32;
 
 
 ## Parameters:
-```txt  
-pAcl
-[in] A pointer to an ACL. The function retrieves information about this ACL.
+pAcl 
+[in] A pointer to an ACL. The function retrieves information about this ACL. 
 
-pAclInformation
+pAclInformation 
 [out] A pointer to a buffer to receive the requested information.
 
-nAclInformationLength
-[in] The size, in bytes, of the buffer pointed to by the pAclInformation parameter.
+nAclInformationLength 
+[in] The size, in bytes, of the buffer pointed to by the pAclInformation parameter. 
 
-dwAclInformationClass
-[in] A value of the ACL_INFORMATION_CLASS enumeration that indicates the class of information requested.  
-```  
+dwAclInformationClass 
+[in] A value of the ACL_INFORMATION_CLASS enumeration that indicates the class of information requested.   
 ***  
 
 

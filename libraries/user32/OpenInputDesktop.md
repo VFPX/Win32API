@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : OpenInputDesktop
+## Function name : OpenInputDesktop
 Group: Window Station and Desktop - Library: user32    
 ***  
 
@@ -37,16 +35,14 @@ DECLARE INTEGER OpenInputDesktop IN user32;
 
 
 ## Parameters:
-```txt  
-dwFlags
+dwFlags 
 [in] This parameter can be 0 or 1.
 
-fInherit
-[in] If this value is TRUE, new processes inherit the handle. Otherwise, this handle is not inherited.
+fInherit 
+[in] If this value is TRUE, new processes inherit the handle. Otherwise, this handle is not inherited. 
 
-dwDesiredAccess
+dwDesiredAccess 
 [in] Access to the desktop.  
-```  
 ***  
 
 

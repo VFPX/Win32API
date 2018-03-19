@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : waveOutGetPosition
+## Function name : waveOutGetPosition
 Group: Windows Multimedia - Library: winmm    
 ***  
 
@@ -37,16 +35,14 @@ DECLARE LONG waveOutGetPosition IN winmm;
 
 
 ## Parameters:
-```txt  
-hwo
-Handle to the waveform-audio output device.
+hwo 
+Handle to the waveform-audio output device. 
 
-pmmt
-Pointer to an MMTIME structure.
+pmmt 
+Pointer to an MMTIME structure. 
 
-cbmmt
+cbmmt 
 Size, in bytes, of the MMTIME structure.  
-```  
 ***  
 
 

@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : SCardConnect
+## Function name : SCardConnect
 Group: Authentication - Library: winscard    
 ***  
 
@@ -40,26 +38,24 @@ DECLARE LONG SCardConnect IN Winscard;
 
 
 ## Parameters:
-```txt  
-hContext [in]
+hContext [in] 
 A handle that identifies the resource manager context.
 
-szReader [in]
+szReader [in] 
 The name of the reader that contains the target card.
 
-dwShareMode [in]
+dwShareMode [in] 
 A flag that indicates whether other applications may form connections to the card.
 
-dwPreferredProtocols [in]
+dwPreferredProtocols [in] 
 A bitmask of acceptable protocols for the connection.
 
-phCard [out]
+phCard [out] 
 A handle that identifies the connection to the smart card in the designated reader.
 
-pdwActiveProtocol [out]
+pdwActiveProtocol [out] 
 A flag that indicates the established active protocol.
   
-```  
 ***  
 
 

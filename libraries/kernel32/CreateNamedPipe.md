@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : CreateNamedPipe
+## Function name : CreateNamedPipe
 Group: Pipe - Library: kernel32    
 ***  
 
@@ -45,31 +43,29 @@ DECLARE INTEGER CreateNamedPipe IN kernel32;
 
 
 ## Parameters:
-```txt  
-lpName
+lpName 
 [in] The unique pipe name.
 
-dwOpenMode
+dwOpenMode 
 [in] The pipe access mode, the overlapped mode, the write-through mode, and the security access mode of the pipe handle.
 
-dwPipeMode
+dwPipeMode 
 [in] The type, read, and wait modes of the pipe handle.
 
-nMaxInstances
-[in] The maximum number of instances that can be created for this pipe.
+nMaxInstances 
+[in] The maximum number of instances that can be created for this pipe. 
 
-nOutBufferSize
-[in] The number of bytes to reserve for the output buffer.
+nOutBufferSize 
+[in] The number of bytes to reserve for the output buffer. 
 
-nInBufferSize
+nInBufferSize 
 [in] The number of bytes to reserve for the input buffer.
 
-nDefaultTimeOut
+nDefaultTimeOut 
 [in] The default time-out value, in milliseconds.
 
-lpSecurityAttributes
+lpSecurityAttributes 
 [in] A pointer to a SECURITY_ATTRIBUTES structure that specifies a security descriptor for the new named pipe.  
-```  
 ***  
 
 

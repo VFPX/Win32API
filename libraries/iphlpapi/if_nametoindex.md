@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : if_nametoindex
+## Function name : if_nametoindex
 Group: IP Helper - Library: iphlpapi    
 ***  
 
@@ -28,11 +26,9 @@ DECLARE INTEGER if_nametoindex IN Iphlpapi;
 
 
 ## Parameters:
-```txt  
-InterfaceName
+InterfaceName 
 A pointer to a NULL-terminated ANSI string containing the interface name.
   
-```  
 ***  
 
 

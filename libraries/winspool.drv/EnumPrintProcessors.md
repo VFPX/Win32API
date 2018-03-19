@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : EnumPrintProcessors
+## Function name : EnumPrintProcessors
 Group: Printing and Print Spooler - Library: winspool.drv    
 ***  
 
@@ -44,28 +42,26 @@ DECLARE INTEGER EnumPrintProcessors IN winspool.drv;
 
 
 ## Parameters:
-```txt  
-pName
-[in] Pointer to a null-terminated string that specifies the name of the server on which the print processors reside.
+pName 
+[in] Pointer to a null-terminated string that specifies the name of the server on which the print processors reside. 
 
-pEnvironment
+pEnvironment 
 [in] Pointer to a null-terminated string that specifies the environment.
 
-Level
-[in] Specifies the type of information returned in the pPrintProcessorInfo buffer. This parameter must be 1.
+Level 
+[in] Specifies the type of information returned in the pPrintProcessorInfo buffer. This parameter must be 1. 
 
-pPrintProcessorInfo
+pPrintProcessorInfo 
 [out] Pointer to a buffer that receives an array of PRINTPROCESSOR_INFO_1 structures.
 
-cbBuf
-[in] Specifies the size, in bytes, of the buffer pointed to by pPrintProcessorInfo.
+cbBuf 
+[in] Specifies the size, in bytes, of the buffer pointed to by pPrintProcessorInfo. 
 
-pcbNeeded
+pcbNeeded 
 [out] Pointer to a variable that receives the number of bytes copied to the pPrintProcessorInfo buffer if the function succeeds.
 
-pcReturned
+pcReturned 
 [out] Pointer to a variable that receives the number of structures returned in the pPrintProcessorInfo buffer.  
-```  
 ***  
 
 

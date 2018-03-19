@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : GetPwrCapabilities
+## Function name : GetPwrCapabilities
 Group: Power Management - Library: powrprof    
 ***  
 
@@ -32,10 +30,8 @@ DECLARE INTEGER GetPwrCapabilities IN powrprof;
 
 
 ## Parameters:
-```txt  
-lpSystemPowerCapabilities
+lpSystemPowerCapabilities 
 [out] Pointer to a SYSTEM_POWER_CAPABILITIES structure that receives the information.  
-```  
 ***  
 
 

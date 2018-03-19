@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : JetPrepareUpdate
+## Function name : JetPrepareUpdate
 Group: Extensible Storage Engine (ESE, Jet Blue) - Library: esent    
 ***  
 
@@ -35,17 +33,15 @@ DECLARE INTEGER JetPrepareUpdate IN esent;
 
 
 ## Parameters:
-```txt  
-sesid
+sesid 
 The session to use for this call.
 
-tableid
+tableid 
 The cursor to use for this call.
 
-prep
+prep 
 The options that can be used to prepare for an update
   
-```  
 ***  
 
 

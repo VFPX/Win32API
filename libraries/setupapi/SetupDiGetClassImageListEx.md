@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : SetupDiGetClassImageListEx
+## Function name : SetupDiGetClassImageListEx
 Group: Setup API functions - Library: setupapi    
 ***  
 
@@ -38,16 +36,14 @@ DECLARE INTEGER SetupDiGetClassImageListEx IN setupapi;
 
 
 ## Parameters:
-```txt  
-ClassImageListData
+ClassImageListData 
 A pointer to an SP_CLASSIMAGELIST_DATA structure to receive information regarding the class image list, including a handle to the image list.
 
-MachineName
-A pointer to NULL-terminated string that supplies the name of a remote system for whose classes SetupDiGetClassImageListEx must build the bitmap.
+MachineName 
+A pointer to NULL-terminated string that supplies the name of a remote system for whose classes SetupDiGetClassImageListEx must build the bitmap. 
 
-Reserved
+Reserved 
 Must be NULL.  
-```  
 ***  
 
 

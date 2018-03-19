@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : FindNextUrlCacheGroup
+## Function name : FindNextUrlCacheGroup
 Group: Internet Functions (WinInet) - Library: wininet    
 ***  
 
@@ -36,16 +34,14 @@ DECLARE INTEGER FindNextUrlCacheGroup IN wininet;
 
 
 ## Parameters:
-```txt  
-hFind
-[in] Handle to the cache group enumeration handle, which is returned by FindFirstUrlCacheGroup.
+hFind 
+[in] Handle to the cache group enumeration handle, which is returned by FindFirstUrlCacheGroup. 
 
-lpGroupId
-[out] Pointer to a variable that receives the cache group identifier.
+lpGroupId 
+[out] Pointer to a variable that receives the cache group identifier. 
 
-lpReserved
-[in, out] Reserved. Must be NULL.  
-```  
+lpReserved 
+[in, out] Reserved. Must be NULL.   
 ***  
 
 

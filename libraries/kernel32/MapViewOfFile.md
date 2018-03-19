@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : MapViewOfFile
+## Function name : MapViewOfFile
 Group: File Mapping - Library: kernel32    
 ***  
 
@@ -42,22 +40,20 @@ DECLARE LONG MapViewOfFile IN kernel32;
 
 
 ## Parameters:
-```txt  
-hFileMappingObject
-[in] Handle to an open handle of a file mapping object. The CreateFileMapping and OpenFileMapping functions return this handle.
+hFileMappingObject 
+[in] Handle to an open handle of a file mapping object. The CreateFileMapping and OpenFileMapping functions return this handle. 
 
-dwDesiredAccess
+dwDesiredAccess 
 [in] Type of access to the file mapping object, and therefore, the protection of the pages.
 
-dwFileOffsetHigh
-[in] High-order DWORD of the file offset where the view is to begin.
+dwFileOffsetHigh 
+[in] High-order DWORD of the file offset where the view is to begin. 
 
-dwFileOffsetLow
+dwFileOffsetLow 
 [in] Low-order DWORD of the file offset where the view is to begin.
 
-dwNumberOfBytesToMap
+dwNumberOfBytesToMap 
 [in] Number of bytes of the file mapping to map to the view.  
-```  
 ***  
 
 

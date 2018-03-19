@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : SetWindowRgn
+## Function name : SetWindowRgn
 Group: Painting and Drawing - Library: user32    
 ***  
 
@@ -44,19 +42,17 @@ DECLARE SetWindowRgn IN user32;
 
 
 ## Parameters:
-```txt  
-hWnd
-[in] Handle to the window whose window region is to be set.
+hWnd 
+[in] Handle to the window whose window region is to be set. 
 
-hRgn
-[in] Handle to a region. The function sets the window region of the window to this region.
-If hRgn is NULL, the function sets the window region to NULL.
+hRgn 
+[in] Handle to a region. The function sets the window region of the window to this region. 
+If hRgn is NULL, the function sets the window region to NULL. 
 
-bRedraw
-[in] Specifies whether the system redraws the window after setting the window region. If bRedraw is TRUE, the system does so; otherwise, it does not. Typically, you set bRedraw to TRUE if the window is visible.
+bRedraw 
+[in] Specifies whether the system redraws the window after setting the window region. If bRedraw is TRUE, the system does so; otherwise, it does not. Typically, you set bRedraw to TRUE if the window is visible. 
 
   
-```  
 ***  
 
 

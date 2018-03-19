@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : GdipTranslateMatrix
+## Function name : GdipTranslateMatrix
 Group: GDI+ Matrix - Library: gdiplus    
 ***  
 
@@ -41,19 +39,17 @@ DECLARE INTEGER GdipTranslateMatrix IN gdiplus;
 
 
 ## Parameters:
-```txt  
 matrix
 [in] Handle to the Matrix object.
 
 offsetX
-[in] Real number that specifies the horizontal component of the translation.
+[in] Real number that specifies the horizontal component of the translation. 
 
 offsetY
-[in] Real number that specifies the vertical component of the translation.
+[in] Real number that specifies the vertical component of the translation. 
 
 order
-[in] Element of the MatrixOrder enumeration that specifies the order of the multiplication.  
-```  
+[in] Element of the MatrixOrder enumeration that specifies the order of the multiplication.   
 ***  
 
 

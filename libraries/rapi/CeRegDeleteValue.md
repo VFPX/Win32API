@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : CeRegDeleteValue
+## Function name : CeRegDeleteValue
 Group: Remote Application Programming (RAPI) - Library: rapi    
 ***  
 
@@ -33,13 +31,11 @@ DECLARE INTEGER CeRegDeleteValue IN rapi;
 
 
 ## Parameters:
-```txt  
-hKey
+hKey 
 [in] Handle to a currently open key or any of the predefined reserved handle values.
 
-lpszValueName
+lpszValueName 
 [in] Pointer to a null-terminated string that names the value to remove.  
-```  
 ***  
 
 

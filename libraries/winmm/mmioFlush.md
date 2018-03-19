@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : mmioFlush
+## Function name : mmioFlush
 Group: Windows Multimedia - Library: winmm    
 ***  
 
@@ -35,14 +33,12 @@ DECLARE INTEGER mmioFlush IN winmm;
 
 
 ## Parameters:
-```txt  
 hmmio
 File handle of a file opened by using the mmioOpen function.
 
 fuFlush
 Flag determining how the flush is carried out. It can be zero or the following.
   
-```  
 ***  
 
 

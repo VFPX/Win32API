@@ -1,5 +1,3 @@
-<link rel="stylesheet" type="text/css" href="../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
 # Enumerating print jobs and retrieving information for default printer (JOB_INFO_1 structures)
 

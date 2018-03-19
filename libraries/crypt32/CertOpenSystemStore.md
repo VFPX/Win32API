@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : CertOpenSystemStore
+## Function name : CertOpenSystemStore
 Group: Cryptography Reference - Library: crypt32    
 ***  
 
@@ -30,13 +28,11 @@ DECLARE INTEGER CertOpenSystemStore IN crypt32;
 
 
 ## Parameters:
-```txt  
-hprov
+hprov 
 [in] This parameter is not used and should be set to NULL.
 
-szSubsystemProtocol
+szSubsystemProtocol 
 [in] A string that names a system store (CA, MY, ROOT, SPC).  
-```  
 ***  
 
 

@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : CreateDIBSection
+## Function name : CreateDIBSection
 Group: Bitmap - Library: gdi32    
 ***  
 
@@ -38,25 +36,23 @@ DECLARE INTEGER CreateDIBSection IN gdi32;
 
 
 ## Parameters:
-```txt  
-hdc [in]
+hdc [in] 
 A handle to a device context. If the value of iUsage is DIB_PAL_COLORS, the function uses this device context"s logical palette to initialize the DIB colors.
 
-pbmi [in]
+pbmi [in] 
 A pointer to a BITMAPINFO structure that specifies various attributes of the DIB, including the bitmap dimensions and colors.
 
-iUsage [in]
+iUsage [in] 
 The type of data contained in the bmiColors array member of the BITMAPINFO structure pointed to by pbmi (either logical palette indexes or literal RGB values).
 
-ppvBits [out]
+ppvBits [out] 
 A pointer to a variable that receives a pointer to the location of the DIB bit values.
 
-hSection [in]
+hSection [in] 
 A handle to a file-mapping object that the function will use to create the DIB. This parameter can be NULL.
 
-dwOffset [in]
-The offset from the beginning of the file-mapping object referenced by hSection where storage for the bitmap bit values is to begin. This value is ignored if hSection is NULL.  
-```  
+dwOffset [in] 
+The offset from the beginning of the file-mapping object referenced by hSection where storage for the bitmap bit values is to begin. This value is ignored if hSection is NULL.   
 ***  
 
 

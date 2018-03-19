@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : StrFromTimeInterval
+## Function name : StrFromTimeInterval
 Group: String - Library: shlwapi    
 ***  
 
@@ -38,19 +36,17 @@ DECLARE INTEGER StrFromTimeInterval IN Shlwapi;
 
 
 ## Parameters:
-```txt  
-pszOut
-[out] Pointer to a character buffer that receives the converted string.
+pszOut 
+[out] Pointer to a character buffer that receives the converted string. 
 
-cchMax
-[in] Size of pszOut, in characters. If cchMax is set to zero, StrFromTimeInterval will return the minimum size of the character buffer needed to hold the converted string. In this case, pszOut will not contain the converted string.
+cchMax 
+[in] Size of pszOut, in characters. If cchMax is set to zero, StrFromTimeInterval will return the minimum size of the character buffer needed to hold the converted string. In this case, pszOut will not contain the converted string. 
 
-dwTimeMS
-[in] Time interval, in milliseconds.
+dwTimeMS 
+[in] Time interval, in milliseconds. 
 
-digits
+digits 
 [in] Maximum number of digits to be represented in pszOut.  
-```  
 ***  
 
 

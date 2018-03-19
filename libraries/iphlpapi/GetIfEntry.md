@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : GetIfEntry
+## Function name : GetIfEntry
 Group: IP Helper - Library: iphlpapi    
 ***  
 
@@ -28,10 +26,8 @@ DECLARE INTEGER GetIfEntry IN iphlpapi;
 
 
 ## Parameters:
-```txt  
-pIfRow
-[in, out] Pointer to a MIB_IFROW structure that, on successful return, receives information for an interface on the local computer.  
-```  
+pIfRow 
+[in, out] Pointer to a MIB_IFROW structure that, on successful return, receives information for an interface on the local computer.   
 ***  
 
 

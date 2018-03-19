@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : TerminateJobObject
+## Function name : TerminateJobObject
 Group: Process and Thread - Library: kernel32    
 ***  
 
@@ -36,13 +34,11 @@ DECLARE INTEGER TerminateJobObject IN kernel32;
 
 
 ## Parameters:
-```txt  
-hJob
-[in] Handle to the job whose processes will be terminated. The CreateJobObject or OpenJobObject function returns this handle.
+hJob 
+[in] Handle to the job whose processes will be terminated. The CreateJobObject or OpenJobObject function returns this handle. 
 
-uExitCode
-[in] Exit code to be used by all processes and threads in the job object.  
-```  
+uExitCode 
+[in] Exit code to be used by all processes and threads in the job object.   
 ***  
 
 

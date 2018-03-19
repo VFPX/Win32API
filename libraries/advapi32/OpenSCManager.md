@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : OpenSCManager
+## Function name : OpenSCManager
 Group: Service - Library: advapi32    
 ***  
 
@@ -40,16 +38,14 @@ DECLARE INTEGER OpenSCManager IN advapi32;
 
 
 ## Parameters:
-```txt  
-lpMachineName
+lpMachineName 
 [in] Pointer to a null-terminated string that specifies the name of the target computer.
 
-lpDatabaseName
+lpDatabaseName 
 [in] Pointer to a null-terminated string that specifies the name of the service control manager database to open.
 
-dwDesiredAccess
+dwDesiredAccess 
 [in] Access to the service control manager.  
-```  
 ***  
 
 

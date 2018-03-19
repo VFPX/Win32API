@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : JetCommitTransaction
+## Function name : JetCommitTransaction
 Group: Extensible Storage Engine (ESE, Jet Blue) - Library: esent    
 ***  
 
@@ -33,14 +31,12 @@ DECLARE INTEGER JetCommitTransaction IN esent;
 
 
 ## Parameters:
-```txt  
-sesid
+sesid 
 The session to use for this call.
 
-grbit
+grbit 
 A group of bits specifying zero or more of predefined options.
   
-```  
 ***  
 
 

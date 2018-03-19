@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : SHRegEnumUSKey
+## Function name : SHRegEnumUSKey
 Group: Registry - Library: shlwapi    
 ***  
 
@@ -40,22 +38,20 @@ DECLARE INTEGER SHRegEnumUSKey IN shlwapi;
 
 
 ## Parameters:
-```txt  
-hUSKey
-Handle to the currently open user-specific key.
+hUSKey 
+Handle to the currently open user-specific key. 
 
-dwIndex
-Index of the subkey to retrieve. This parameter should be zero for the first call and incremented for subsequent calls.
+dwIndex 
+Index of the subkey to retrieve. This parameter should be zero for the first call and incremented for subsequent calls. 
 
-pszName
-Address of a character buffer that receives the enumerated key name.
+pszName 
+Address of a character buffer that receives the enumerated key name. 
 
-pcchName
-Address of a DWORD that, on entry, contains the size of the buffer at pszName. On exit, this contains the number of characters that were copied to pszName.
+pcchName 
+Address of a DWORD that, on entry, contains the size of the buffer at pszName. On exit, this contains the number of characters that were copied to pszName. 
 
-enumRegFlags
+enumRegFlags 
 One of the SHREGENUM_FLAGS that specifies the base key in which the enumeration should take place.  
-```  
 ***  
 
 

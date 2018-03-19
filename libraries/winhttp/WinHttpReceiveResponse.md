@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : WinHttpReceiveResponse
+## Function name : WinHttpReceiveResponse
 Group: HTTP Functions (WinHTTP) - Library: winhttp    
 ***  
 
@@ -34,13 +32,11 @@ DECLARE INTEGER WinHttpReceiveResponse In winhttp;
 
 
 ## Parameters:
-```txt  
-hRequest
-[in] HINTERNET handle returned by WinHttpOpenRequest and sent by WinHttpSendRequest. Wait until WinHttpSendRequest has completed for this handle before calling WinHttpReceiveResponse.
+hRequest 
+[in] HINTERNET handle returned by WinHttpOpenRequest and sent by WinHttpSendRequest. Wait until WinHttpSendRequest has completed for this handle before calling WinHttpReceiveResponse. 
 
-lpReserved
-[in] Must be set to NULL.  
-```  
+lpReserved 
+[in] Must be set to NULL.   
 ***  
 
 

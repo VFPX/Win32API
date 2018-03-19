@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : GetBestRoute
+## Function name : GetBestRoute
 Group: IP Helper - Library: iphlpapi    
 ***  
 
@@ -33,16 +31,14 @@ DECLARE LONG GetBestRoute IN Iphlpapi;
 
 
 ## Parameters:
-```txt  
-dwDestAddr
-[in] Destination IP address for which to obtain the best route.
+dwDestAddr 
+[in] Destination IP address for which to obtain the best route. 
 
-dwSourceAddr
+dwSourceAddr 
 [in] Source IP address. This IP address corresponds to an interface on the local computer.
 
-pBestRoute
+pBestRoute 
 [out] Pointer to a MIB_IPFORWARDROW structure containing the best route for the IP address specified by dwDestAddr.  
-```  
 ***  
 
 

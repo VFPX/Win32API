@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : RegDeleteKey
+## Function name : RegDeleteKey
 Group: Registry - Library: advapi32    
 ***  
 
@@ -33,13 +31,11 @@ DECLARE INTEGER RegDeleteKey IN advapi32;
 
 
 ## Parameters:
-```txt  
-hKey
+hKey 
 [in] Handle to an open key.
 
-lpSubKey
+lpSubKey 
 [in] Pointer to a null-terminated string specifying the name of the key to be deleted.  
-```  
 ***  
 
 

@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : mmioOpen
+## Function name : mmioOpen
 Group: Windows Multimedia - Library: winmm    
 ***  
 
@@ -40,17 +38,15 @@ DECLARE INTEGER mmioOpen IN winmm;
 
 
 ## Parameters:
-```txt  
-szFilename
-Pointer to a string containing the filename of the file to open.
+szFilename 
+Pointer to a string containing the filename of the file to open. 
 
-lpmmioinfo
+lpmmioinfo 
 Pointer to an MMIOINFO structure containing extra parameters used by mmioOpen.
 
-dwOpenFlags
+dwOpenFlags 
 Flags for the open operation.
   
-```  
 ***  
 
 

@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : mixerOpen
+## Function name : mixerOpen
 Group: Windows Multimedia - Library: winmm    
 ***  
 
@@ -40,7 +38,6 @@ DECLARE INTEGER mixerOpen IN winmm;
 
 
 ## Parameters:
-```txt  
 phmx
 Pointer to a variable that will receive a handle identifying the opened mixer device.
 
@@ -48,7 +45,7 @@ uMxId
 Identifier of the mixer device to open.
 
 dwCallback
-Handle to a window called when the state of an audio line and/or control associated with the device being opened is changed.
+Handle to a window called when the state of an audio line and/or control associated with the device being opened is changed. 
 
 dwInstance
 User instance data passed to the callback function.
@@ -56,7 +53,6 @@ User instance data passed to the callback function.
 fdwOpen
 Flags for opening the device.
   
-```  
 ***  
 
 

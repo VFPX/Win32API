@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : CM_Get_Child_Ex
+## Function name : CM_Get_Child_Ex
 Group: PnP Configuration Manager - Library: cfgmgr32    
 ***  
 
@@ -39,19 +37,17 @@ DECLARE INTEGER CM_Get_Child_Ex IN cfgmgr32;
 
 
 ## Parameters:
-```txt  
-pdnDevInst
+pdnDevInst 
 Caller-supplied pointer to the device instance handle to the child node that this function retrieves. The retrieved handle is bound to the machine handle supplied by hMachine.
 
-dnDevInst
-Caller-supplied device instance handle that is bound to the machine handle supplied by hMachine.
+dnDevInst 
+Caller-supplied device instance handle that is bound to the machine handle supplied by hMachine. 
 
-ulFlags
-Not used, must be zero.
+ulFlags 
+Not used, must be zero. 
 
-hMachine
+hMachine 
 Caller-supplied machine handle to which the caller-supplied device instance handle is bound.  
-```  
 ***  
 
 

@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : UrlMkGetSessionOption
+## Function name : UrlMkGetSessionOption
 Group: URL Monikers - Library: urlmon    
 ***  
 
@@ -40,23 +38,21 @@ DECLARE INTEGER UrlMkGetSessionOption IN urlmon;
 
 
 ## Parameters:
-```txt  
 dwOption
 [in] Unsigned long integer value containing the session options to be retrieved.
 
 pBuffer
-[in] Pointer to the buffer containing the session settings to be retrieved.
+[in] Pointer to the buffer containing the session settings to be retrieved. 
 
 dwBufferLength
-[in] Unsigned long integer value containing the size of pBuffer.
+[in] Unsigned long integer value containing the size of pBuffer. 
 
 pdwBufferLength
-[out] Pointer to an unsigned long integer value containing the size of the data stored in the buffer or the size required to store the data if the buffer size was insufficient.
+[out] Pointer to an unsigned long integer value containing the size of the data stored in the buffer or the size required to store the data if the buffer size was insufficient. 
 
 dwReserved
 [in] Reserved. Must be set to 0.
   
-```  
 ***  
 
 

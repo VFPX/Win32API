@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : NetServerEnum
+## Function name : NetServerEnum
 Group: Network Management - Library: netapi32    
 ***  
 
@@ -47,33 +45,31 @@ DECLARE INTEGER NetServerEnum IN netapi32;
 
 
 ## Parameters:
-```txt  
-servername
-[in] Reserved; must be NULL.
+servername 
+[in] Reserved; must be NULL. 
 
-level
-[in] Specifies the information level of the data.
+level 
+[in] Specifies the information level of the data. 
 
-bufptr
-[out] Pointer to the buffer that receives the data.
+bufptr 
+[out] Pointer to the buffer that receives the data. 
 
-prefmaxlen
-[in] Specifies the preferred maximum length of returned data, in bytes.
+prefmaxlen 
+[in] Specifies the preferred maximum length of returned data, in bytes. 
 
-entriesread
-[out] Pointer to a DWORD value that receives the count of elements actually enumerated.
+entriesread 
+[out] Pointer to a DWORD value that receives the count of elements actually enumerated. 
 
-totalentries
-[out] Pointer to a DWORD value that receives the total number of visible servers and workstations on the network.
+totalentries 
+[out] Pointer to a DWORD value that receives the total number of visible servers and workstations on the network. 
 
-servertype
-[in] Specifies a DWORD value that filters the server entries to return from the enumeration.
-domain
-[in] Pointer to a constant Unicode string specifying the name of the domain for which a list of servers is to be returned.
+servertype 
+[in] Specifies a DWORD value that filters the server entries to return from the enumeration. 
+domain 
+[in] Pointer to a constant Unicode string specifying the name of the domain for which a list of servers is to be returned. 
 
-resume_handle
-Reserved; must be set to zero.  
-```  
+resume_handle 
+Reserved; must be set to zero.   
 ***  
 
 

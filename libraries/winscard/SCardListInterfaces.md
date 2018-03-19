@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : SCardListInterfaces
+## Function name : SCardListInterfaces
 Group: Authentication - Library: winscard    
 ***  
 
@@ -37,7 +35,6 @@ DECLARE LONG SCardListInterfaces IN Winscard;
 
 
 ## Parameters:
-```txt  
 hContext [in]
 Handle that identifies the resource manager context for the query.
 
@@ -49,7 +46,6 @@ Array of interface identifiers (GUIDs) that indicate the interfaces supported by
 
 pcguidInterfaces [in, out]
 Size of the pcguidInterfaces array, and receives the actual size of the returned array.  
-```  
 ***  
 
 

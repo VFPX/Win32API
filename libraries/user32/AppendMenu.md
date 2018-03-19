@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : AppendMenu
+## Function name : AppendMenu
 Group: Menu - Library: user32    
 ***  
 
@@ -37,18 +35,16 @@ DECLARE INTEGER AppendMenu IN user32;
 
 
 ## Parameters:
-```txt  
-hMenu
-[in] Handle to the menu bar, drop-down menu, submenu, or shortcut menu to be changed.
-uFlags
-[in] Specifies flags to control the appearance and behavior of the new menu item.
+hMenu 
+[in] Handle to the menu bar, drop-down menu, submenu, or shortcut menu to be changed. 
+uFlags 
+[in] Specifies flags to control the appearance and behavior of the new menu item. 
 
-uIDNewItem
-[in] Specifies either the identifier of the new menu item or, if the uFlags parameter is set to MF_POPUP, a handle to the drop-down menu or submenu.
+uIDNewItem 
+[in] Specifies either the identifier of the new menu item or, if the uFlags parameter is set to MF_POPUP, a handle to the drop-down menu or submenu. 
 
-lpNewItem
-[in] Specifies the content of the new menu item.  
-```  
+lpNewItem 
+[in] Specifies the content of the new menu item.   
 ***  
 
 

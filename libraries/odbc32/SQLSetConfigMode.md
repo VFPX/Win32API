@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : SQLSetConfigMode
+## Function name : SQLSetConfigMode
 Group: ODBC API - Library: odbc32    
 ***  
 
@@ -31,10 +29,8 @@ DECLARE INTEGER SQLSetConfigMode IN odbccp32;
 
 
 ## Parameters:
-```txt  
-wConfigMode
+wConfigMode 
 [in] The installer configuration mode.  
-```  
 ***  
 
 

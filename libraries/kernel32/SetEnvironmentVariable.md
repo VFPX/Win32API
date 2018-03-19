@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : SetEnvironmentVariable
+## Function name : SetEnvironmentVariable
 Group: Process and Thread - Library: kernel32    
 ***  
 
@@ -33,13 +31,11 @@ DECLARE INTEGER SetEnvironmentVariable IN kernel32;
 
 
 ## Parameters:
-```txt  
-lpName
-[in] Pointer to a null-terminated string that specifies the environment variable whose value is being set.
+lpName 
+[in] Pointer to a null-terminated string that specifies the environment variable whose value is being set. 
 
-lpValue
+lpValue 
 [in] Pointer to a null-terminated string containing the new value of the specified environment variable.  
-```  
 ***  
 
 

@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : GdipShearMatrix
+## Function name : GdipShearMatrix
 Group: GDI+ Matrix - Library: gdiplus    
 ***  
 
@@ -41,19 +39,17 @@ DECLARE INTEGER GdipShearMatrix IN gdiplus;
 
 
 ## Parameters:
-```txt  
 matrix
-[in] Handle to a Matrix object.
+[in] Handle to a Matrix object. 
 
 shearX
-[in] Real number that specifies the horizontal shear factor.
+[in] Real number that specifies the horizontal shear factor. 
 
 shearY
-[in] Real number that specifies the vertical shear factor.
+[in] Real number that specifies the vertical shear factor. 
 
 order
 [in] Element of the MatrixOrder enumeration that specifies the order of the multiplication.  
-```  
 ***  
 
 

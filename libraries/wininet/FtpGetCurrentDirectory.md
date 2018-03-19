@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : FtpGetCurrentDirectory
+## Function name : FtpGetCurrentDirectory
 Group: Internet Functions (WinInet) - Library: wininet    
 ***  
 
@@ -39,7 +37,6 @@ DECLARE INTEGER FtpGetCurrentDirectory IN wininet;
 
 
 ## Parameters:
-```txt  
 hConnect
 [in] Valid handle to an FTP session.
 
@@ -48,7 +45,6 @@ lpszCurrentDirectory
 
 lpdwCurrentDirectory
 [in, out] Pointer to a variable that specifies the length, in characters, of the buffer for the current directory string  
-```  
 ***  
 
 

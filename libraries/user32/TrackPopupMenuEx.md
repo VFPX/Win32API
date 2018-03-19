@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : TrackPopupMenuEx
+## Function name : TrackPopupMenuEx
 Group: Menu - Library: user32    
 ***  
 
@@ -43,25 +41,23 @@ DECLARE INTEGER TrackPopupMenuEx IN user32;
 
 
 ## Parameters:
-```txt  
 hmenu
-[in] Handle to the shortcut menu to be displayed. This handle can be obtained by calling the CreatePopupMenu function to create a new shortcut menu or by calling the GetSubMenu function to retrieve a handle to a submenu associated with an existing menu item.
+[in] Handle to the shortcut menu to be displayed. This handle can be obtained by calling the CreatePopupMenu function to create a new shortcut menu or by calling the GetSubMenu function to retrieve a handle to a submenu associated with an existing menu item. 
 
 fuFlags
 [in] Specifies function options: a combination of constants
 
 x
-[in] Horizontal location of the shortcut menu, in screen coordinates.
+[in] Horizontal location of the shortcut menu, in screen coordinates. 
 
 y
-[in] Vertical location of the shortcut menu, in screen coordinates.
+[in] Vertical location of the shortcut menu, in screen coordinates. 
 
 hwnd
-[in] Handle to the window that owns the shortcut menu.
+[in] Handle to the window that owns the shortcut menu. 
 
 lptpm
-[in] This parameter can be NULL.  
-```  
+[in] This parameter can be NULL.   
 ***  
 
 

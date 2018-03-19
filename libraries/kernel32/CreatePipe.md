@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : CreatePipe
+## Function name : CreatePipe
 Group: Pipe - Library: kernel32    
 ***  
 
@@ -39,19 +37,17 @@ DECLARE INTEGER CreatePipe IN kernel32;
 
 
 ## Parameters:
-```txt  
-hReadPipe
-[out] Pointer to a variable that receives the read handle for the pipe.
+hReadPipe 
+[out] Pointer to a variable that receives the read handle for the pipe. 
 
-hWritePipe
-[out] Pointer to a variable that receives the write handle for the pipe.
+hWritePipe 
+[out] Pointer to a variable that receives the write handle for the pipe. 
 
-lpPipeAttributes
+lpPipeAttributes 
 [in] Pointer to a SECURITY_ATTRIBUTES structure that determines whether the returned handle can be inherited by child processes.
 
-nSize
+nSize 
 [in] Size of the buffer for the pipe, in bytes.  
-```  
 ***  
 
 

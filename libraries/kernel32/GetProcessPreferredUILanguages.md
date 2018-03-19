@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : GetProcessPreferredUILanguages
+## Function name : GetProcessPreferredUILanguages
 Group: Multilingual User Interface - Library: kernel32    
 ***  
 
@@ -34,7 +32,6 @@ DECLARE INTEGER GetProcessPreferredUILanguages IN kernel32;
 
 
 ## Parameters:
-```txt  
 dwFlags [in]
 Flags identifying the language format to use for the process preferred UI languages.
 
@@ -46,7 +43,6 @@ Optional. Pointer to a double null-terminated multi-string buffer in which the f
 
 pcchLanguagesBuffer [in, out]
 Pointer to the size, in characters, for the language buffer indicated by pwszLanguagesBuffer. On successful return from the function, the parameter contains the size of the retrieved language buffer.  
-```  
 ***  
 
 

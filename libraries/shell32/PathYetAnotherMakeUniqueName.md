@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : PathYetAnotherMakeUniqueName
+## Function name : PathYetAnotherMakeUniqueName
 Group: Shell Functions - Library: shell32    
 ***  
 
@@ -37,7 +35,6 @@ DECLARE INTEGER PathYetAnotherMakeUniqueName IN shell32;
 
 
 ## Parameters:
-```txt  
 pszUniqueName
 [out] A string buffer that receives a NULL-terminated Unicode string that contains the fully qualified path of the unique file name.
 
@@ -49,7 +46,6 @@ pszShort
 
 pszFileSpec
 [in] A NULL-terminated Unicode string containing the long file name that the unique name will be based on.  
-```  
 ***  
 
 

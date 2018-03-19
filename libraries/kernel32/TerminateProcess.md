@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : TerminateProcess
+## Function name : TerminateProcess
 Group: Process and Thread - Library: kernel32    
 ***  
 
@@ -36,13 +34,11 @@ DECLARE INTEGER TerminateProcess IN kernel32;
 
 
 ## Parameters:
-```txt  
-hProcess
-[in] Handle to the process to terminate.
+hProcess 
+[in] Handle to the process to terminate. 
 
-uExitCode
+uExitCode 
 [in] Specifies the exit code for the process and for all threads terminated as a result of this call.  
-```  
 ***  
 
 

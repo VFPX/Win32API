@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : SCardListReaderGroups
+## Function name : SCardListReaderGroups
 Group: Authentication - Library: winscard    
 ***  
 
@@ -36,17 +34,15 @@ DECLARE LONG SCardListReaderGroups IN Winscard;
 
 
 ## Parameters:
-```txt  
-hContext [in]
+hContext [in] 
 Handle that identifies the resource manager context for the query.
 
-mszGroups [out]
-Multi-string that lists the reader groups defined to the system and available to the current user on the current terminal.
+mszGroups [out] 
+Multi-string that lists the reader groups defined to the system and available to the current user on the current terminal. 
 
-pcchGroups [in, out]
+pcchGroups [in, out] 
 Length of the mszGroups buffer in characters, and receives the actual length of the multi-string structure, including all trailing null characters.
   
-```  
 ***  
 
 

@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : WinHttpOpen
+## Function name : WinHttpOpen
 Group: HTTP Functions (WinHTTP) - Library: winhttp    
 ***  
 
@@ -40,22 +38,20 @@ DECLARE INTEGER WinHttpOpen IN winhttp;
 
 
 ## Parameters:
-```txt  
-pwszUserAgent
+pwszUserAgent 
 [in] Pointer to a string variable that contains the name of the application or entity calling the WinHTTP functions.
 
-dwAccessType
+dwAccessType 
 [in] Type of access required -- a predefined value.
 
-pwszProxyName
+pwszProxyName 
 [in] Pointer to a string variable that contains the name of the proxy server to use.
 
-pwszProxyBypass
+pwszProxyBypass 
 [in] Pointer to a string variable that contains an optional list of host names or Internet Protocol (IP) addresses.
 
-dwFlags
+dwFlags 
 [in] Unsigned long integer value that contains the flags that indicate various options affecting the behavior of this function.  
-```  
 ***  
 
 

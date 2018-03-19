@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : GetClassName
+## Function name : GetClassName
 Group: Window Class - Library: user32    
 ***  
 
@@ -39,16 +37,14 @@ DECLARE INTEGER GetClassName IN user32;
 
 
 ## Parameters:
-```txt  
-hWnd
-[in] Handle to the window and, indirectly, the class to which the window belongs.
+hWnd 
+[in] Handle to the window and, indirectly, the class to which the window belongs. 
 
-lpClassName
-[out] Pointer to the buffer that is to receive the class name string.
+lpClassName 
+[out] Pointer to the buffer that is to receive the class name string. 
 
-nMaxCount
-[in] Specifies the length, in TCHARs, of the buffer pointed to by the lpClassName parameter.  
-```  
+nMaxCount 
+[in] Specifies the length, in TCHARs, of the buffer pointed to by the lpClassName parameter.   
 ***  
 
 

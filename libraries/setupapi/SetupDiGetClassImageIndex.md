@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : SetupDiGetClassImageIndex
+## Function name : SetupDiGetClassImageIndex
 Group: Setup API functions - Library: setupapi    
 ***  
 
@@ -37,16 +35,14 @@ DECLARE INTEGER SetupDiGetClassImageIndex IN setupapi;
 
 
 ## Parameters:
-```txt  
-ClassImageListData
-A pointer to an SP_CLASSIMAGELIST_DATA structure that describes a class image list that includes the image for the device setup class that is specified by the ClassGuid parameter.
+ClassImageListData 
+A pointer to an SP_CLASSIMAGELIST_DATA structure that describes a class image list that includes the image for the device setup class that is specified by the ClassGuid parameter. 
 
-ClassGuid
-A pointer to the GUID of the device setup class for which to retrieve the index of the class image in the specified class image list.
+ClassGuid 
+A pointer to the GUID of the device setup class for which to retrieve the index of the class image in the specified class image list. 
 
-ImageIndex
+ImageIndex 
 A pointer to an INT-typed variable that receives the index of the specified class image in the class image list.  
-```  
 ***  
 
 

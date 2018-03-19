@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : GetWorldTransform
+## Function name : GetWorldTransform
 Group: Coordinate Space and Transformation - Library: gdi32    
 ***  
 
@@ -30,14 +28,12 @@ DECLARE INTEGER GetWorldTransform IN gdi32;
 
 
 ## Parameters:
-```txt  
-hdc
-[in] Handle to the device context.
+hdc 
+[in] Handle to the device context. 
 
-lpXform
-[out] Pointer to an XFORM structure that receives the current world-space to page-space transformation.
+lpXform 
+[out] Pointer to an XFORM structure that receives the current world-space to page-space transformation. 
   
-```  
 ***  
 
 

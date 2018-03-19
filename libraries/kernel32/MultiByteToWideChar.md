@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : MultiByteToWideChar
+## Function name : MultiByteToWideChar
 Group: Unicode and Character Set - Library: kernel32    
 ***  
 
@@ -43,25 +41,23 @@ DECLARE INTEGER MultiByteToWideChar IN kernel32;
 
 
 ## Parameters:
-```txt  
-CodePage
+CodePage 
 [in] Specifies the code page to be used to perform the conversion.
 
-dwFlags
-[in] A combination of the following flag constants.
+dwFlags 
+[in] A combination of the following flag constants. 
 
-lpMultiByteStr
-[in] Points to the character string to be converted.
+lpMultiByteStr 
+[in] Points to the character string to be converted. 
 
-cbMultiByte
-[in] Specifies the size in bytes of the string pointed to by the lpMultiByteStr parameter, or it can be -1 if the string is null terminated. Note that if cbMultiByte is 0, the function fails.
+cbMultiByte 
+[in] Specifies the size in bytes of the string pointed to by the lpMultiByteStr parameter, or it can be -1 if the string is null terminated. Note that if cbMultiByte is 0, the function fails. 
 
-lpWideCharStr
-[out] Points to a buffer that receives the translated string.
+lpWideCharStr 
+[out] Points to a buffer that receives the translated string. 
 
-cchWideChar
-[in] Specifies the size, in wide characters, of the buffer pointed to by the lpWideCharStr parameter.  
-```  
+cchWideChar 
+[in] Specifies the size, in wide characters, of the buffer pointed to by the lpWideCharStr parameter.   
 ***  
 
 

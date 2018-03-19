@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : GdipGetImageGraphicsContext
+## Function name : GdipGetImageGraphicsContext
 Group: GDI+ Image - Library: gdiplus    
 ***  
 
@@ -34,10 +32,8 @@ DECLARE INTEGER GdipGetImageGraphicsContext IN gdiplus;
 
 
 ## Parameters:
-```txt  
 image
-[in] Pointer to an Image object that will be associated with the new Graphics object.  
-```  
+[in] Pointer to an Image object that will be associated with the new Graphics object.   
 ***  
 
 

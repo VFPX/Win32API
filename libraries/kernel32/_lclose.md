@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : _lclose
+## Function name : _lclose
 Group: File Management - Library: kernel32    
 ***  
 
@@ -30,10 +28,8 @@ DECLARE INTEGER _lclose IN kernel32 INTEGER hFile
 
 
 ## Parameters:
-```txt  
 hFile
 Identifies the file to be closed. This handle is returned by the function that created or last opened the file.  
-```  
 ***  
 
 

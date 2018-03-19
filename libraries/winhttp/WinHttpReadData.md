@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : WinHttpReadData
+## Function name : WinHttpReadData
 Group: HTTP Functions (WinHTTP) - Library: winhttp    
 ***  
 
@@ -37,19 +35,17 @@ DECLARE INTEGER WinHttpReadData IN winhttp;
 
 
 ## Parameters:
-```txt  
-hRequest
-[in] Valid HINTERNET handle returned from a previous call to WinHttpOpenRequest. WinHttpReceiveResponse or WinHttpQueryDataAvailable must have been called for this handle and have completed before WinHttpReadData is called.
+hRequest 
+[in] Valid HINTERNET handle returned from a previous call to WinHttpOpenRequest. WinHttpReceiveResponse or WinHttpQueryDataAvailable must have been called for this handle and have completed before WinHttpReadData is called. 
 
-lpBuffer
+lpBuffer 
 [out] Pointer to a buffer that receives the data read.
 
-dwNumberOfBytesToRead
-[in] Unsigned long integer value that contains the number of bytes to read.
+dwNumberOfBytesToRead 
+[in] Unsigned long integer value that contains the number of bytes to read. 
 
-lpdwNumberOfBytesRead
-[out] Pointer to an unsigned long integer variable that receives the number of bytes read.  
-```  
+lpdwNumberOfBytesRead 
+[out] Pointer to an unsigned long integer variable that receives the number of bytes read.   
 ***  
 
 

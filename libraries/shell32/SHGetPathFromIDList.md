@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : SHGetPathFromIDList
+## Function name : SHGetPathFromIDList
 Group: Shell Functions - Library: shell32    
 ***  
 
@@ -36,13 +34,11 @@ DECLARE INTEGER SHGetPathFromIDList IN shell32;
 
 
 ## Parameters:
-```txt  
 pidl
-Address of an item identifier list that specifies a file or directory location relative to the root of the namespace (the desktop).
+Address of an item identifier list that specifies a file or directory location relative to the root of the namespace (the desktop). 
 
 pszPath
-Address of a buffer to receive the file system path. This buffer must be at least MAX_PATH characters in size.  
-```  
+Address of a buffer to receive the file system path. This buffer must be at least MAX_PATH characters in size.   
 ***  
 
 

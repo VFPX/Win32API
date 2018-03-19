@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : SetWindowsHookEx
+## Function name : SetWindowsHookEx
 Group: Hook - Library: user32    
 ***  
 
@@ -34,7 +32,6 @@ DECLARE INTEGER SetWindowsHookEx IN user32;
 
 
 ## Parameters:
-```txt  
 idHook
 [in] Specifies the type of hook procedure to be installed.
 
@@ -46,7 +43,6 @@ hMod
 
 dwThreadId
 [in] Specifies the identifier of the thread with which the hook procedure is to be associated.  
-```  
 ***  
 
 

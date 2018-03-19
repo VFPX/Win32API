@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : InternetAttemptConnect
+## Function name : InternetAttemptConnect
 Group: Internet Functions (WinInet) - Library: wininet    
 ***  
 
@@ -29,10 +27,8 @@ DECLARE INTEGER InternetAttemptConnect IN wininet;
 
 
 ## Parameters:
-```txt  
 dwReserved
 [in] Reserved. Must be set to 0.  
-```  
 ***  
 
 

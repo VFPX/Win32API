@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : GetThreadDesktop
+## Function name : GetThreadDesktop
 Group: Window Station and Desktop - Library: user32    
 ***  
 
@@ -32,10 +30,8 @@ DECLARE INTEGER GetThreadDesktop IN user32;
 
 
 ## Parameters:
-```txt  
-dwThreadId
-[in] Handle to the thread for which to return the desktop handle. The GetCurrentThreadId and CreateProcess functions return thread identifiers.  
-```  
+dwThreadId 
+[in] Handle to the thread for which to return the desktop handle. The GetCurrentThreadId and CreateProcess functions return thread identifiers.   
 ***  
 
 

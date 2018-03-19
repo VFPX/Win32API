@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : CeReadRecordProps
+## Function name : CeReadRecordProps
 Group: Remote Application Programming (RAPI) - Library: rapi    
 ***  
 
@@ -42,25 +40,23 @@ DECLARE INTEGER CeReadRecordProps IN rapi;
 
 
 ## Parameters:
-```txt  
-hDbase
+hDbase 
 [in] Handle to an open database. The database must have been opened by a previous call to the CeOpenDatabase (RAPI) function.
 
-dwFlags
+dwFlags 
 [in] Specifies a bitmask of read flags.
 
-lpcPropID
-[in/out] Pointer to the number of property identifiers in the array specified by the rgPropID parameter. If rgPropID is NULL, this parameter receives the number of properties retrieved.
+lpcPropID 
+[in/out] Pointer to the number of property identifiers in the array specified by the rgPropID parameter. If rgPropID is NULL, this parameter receives the number of properties retrieved. 
 
-rgPropID
+rgPropID 
 [in] Pointer to an array of property identifiers for the properties to be retrieved. If this parameter is NULL, CeReadRecordProps (RAPI) retrieves all properties in the record.
 
-lplpBuffer
+lplpBuffer 
 [out] Pointer to a long pointer to a buffer that receives the requested properties.
 
-lpcbBuffer
+lpcbBuffer 
 [out] Long pointer to a variable that contains the size, in bytes, of the buffer specified by the lplpBuffer parameter.  
-```  
 ***  
 
 

@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : JetEndSession
+## Function name : JetEndSession
 Group: Extensible Storage Engine (ESE, Jet Blue) - Library: esent    
 ***  
 
@@ -33,14 +31,12 @@ DECLARE INTEGER JetEndSession IN esent;
 
 
 ## Parameters:
-```txt  
-sesid
+sesid 
 The session to end. Associated resources are released when the session ends.
 
-grbit
+grbit 
 Reserved.
   
-```  
 ***  
 
 

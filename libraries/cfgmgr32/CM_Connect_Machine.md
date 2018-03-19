@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : CM_Connect_Machine
+## Function name : CM_Connect_Machine
 Group: PnP Configuration Manager - Library: cfgmgr32    
 ***  
 
@@ -35,13 +33,11 @@ DECLARE INTEGER CM_Connect_Machine IN cfgmgr32;
 
 
 ## Parameters:
-```txt  
-UNCServerName
-Caller-supplied pointer to a text string representing the UNC name, including the \\ prefix, of the system for which a connection will be made. If the pointer is NULL, the local system is used.
+UNCServerName 
+Caller-supplied pointer to a text string representing the UNC name, including the \\ prefix, of the system for which a connection will be made. If the pointer is NULL, the local system is used. 
 
-phMachine
+phMachine 
 Address of a location to receive a machine handle.  
-```  
 ***  
 
 

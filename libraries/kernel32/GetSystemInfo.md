@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : GetSystemInfo
+## Function name : GetSystemInfo
 Group: System Information - Library: kernel32    
 ***  
 
@@ -30,10 +28,8 @@ DECLARE GetSystemInfo IN kernel32 STRING @ lpSystemInfo
 
 
 ## Parameters:
-```txt  
-lpSystemInfo
+lpSystemInfo 
 [out] Pointer to a SYSTEM_INFO structure that receives the information.  
-```  
 ***  
 
 

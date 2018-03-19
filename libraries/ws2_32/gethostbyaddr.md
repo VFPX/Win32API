@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : gethostbyaddr
+## Function name : gethostbyaddr
 Group: Windows Sockets 2 (Winsock) - Library: ws2_32    
 ***  
 
@@ -38,16 +36,14 @@ DECLARE INTEGER gethostbyaddr IN ws2_32;
 
 
 ## Parameters:
-```txt  
-addr
-[in] Pointer to an address in network byte order.
+addr 
+[in] Pointer to an address in network byte order. 
 
-len
-[in] Length of the address.
+len 
+[in] Length of the address. 
 
-type
-[in] Type of the address, such as the AF_INET address family type (defined as TCP, UDP, and other associated Internet protocols). Address family types and their corresponding values are defined in the Winsock2.h header file.  
-```  
+type 
+[in] Type of the address, such as the AF_INET address family type (defined as TCP, UDP, and other associated Internet protocols). Address family types and their corresponding values are defined in the Winsock2.h header file.   
 ***  
 
 

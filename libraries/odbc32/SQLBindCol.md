@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : SQLBindCol
+## Function name : SQLBindCol
 Group: ODBC API - Library: odbc32    
 ***  
 
@@ -41,31 +39,29 @@ DECLARE SHORT SQLBindCol IN odbc32;
 
 
 ## Parameters:
-```txt  
-StatementHandle
+StatementHandle 
 [Input]
-Statement handle.
+Statement handle. 
 
-ColumnNumber
+ColumnNumber 
 [Input]
 Number of the result set column to bind.
 
-TargetType
+TargetType 
 [Input]
 The identifier of the C data type of the *TargetValuePtr buffer.
 
-TargetValuePtr
+TargetValuePtr 
 [Deferred Input/Output]
-Pointer to the data buffer to bind to the column. SQLFetch and SQLFetchScroll return data in this buffer.
+Pointer to the data buffer to bind to the column. SQLFetch and SQLFetchScroll return data in this buffer. 
 
-BufferLength
+BufferLength 
 [Input]
-Length of the *TargetValuePtr buffer in bytes.
+Length of the *TargetValuePtr buffer in bytes. 
 
-StrLen_or_IndPtr
+StrLen_or_IndPtr 
 [Deferred Input/Output]
-Pointer to the length/indicator buffer to bind to the column. SQLFetch and SQLFetchScroll return a value in this buffer.  
-```  
+Pointer to the length/indicator buffer to bind to the column. SQLFetch and SQLFetchScroll return a value in this buffer.   
 ***  
 
 

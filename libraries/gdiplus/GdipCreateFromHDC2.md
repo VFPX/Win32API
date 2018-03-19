@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : GdipCreateFromHDC2
+## Function name : GdipCreateFromHDC2
 Group: GDI+ Graphics - Library: gdiplus    
 ***  
 
@@ -38,16 +36,14 @@ DECLARE INTEGER GdipCreateFromHDC2 IN gdiplus;
 
 
 ## Parameters:
-```txt  
 hdc
 [in] Handle to a device context that will be associated with the new Graphics object.
 
 hdevice
-[in] Handle to a device that will be associated with the new Graphics object.
+[in] Handle to a device that will be associated with the new Graphics object. 
 
 graphics
 [out] Handle to the Graphics object.  
-```  
 ***  
 
 

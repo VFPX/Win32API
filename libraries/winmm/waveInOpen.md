@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : waveInOpen
+## Function name : waveInOpen
 Group: Windows Multimedia - Library: winmm    
 ***  
 
@@ -43,24 +41,22 @@ DECLARE INTEGER waveInOpen IN winmm;
 
 
 ## Parameters:
-```txt  
-phwi
-Pointer to a buffer that receives a handle identifying the open waveform-audio input device.
-uDeviceID
+phwi 
+Pointer to a buffer that receives a handle identifying the open waveform-audio input device. 
+uDeviceID 
 Identifier of the waveform-audio input device to open.
 
-pwfx
-Pointer to a WAVEFORMATEX structure that identifies the desired format for recording waveform-audio data.
+pwfx 
+Pointer to a WAVEFORMATEX structure that identifies the desired format for recording waveform-audio data. 
 
-dwCallback
+dwCallback 
 Pointer to a fixed callback function, an event handle, a handle to a window, or the identifier of a thread to be called during waveform-audio recording to process messages related to the progress of recording.
 
-dwCallbackInstance
-User-instance data passed to the callback mechanism.
+dwCallbackInstance 
+User-instance data passed to the callback mechanism. 
 
-fdwOpen
-Flags for opening the device.  
-```  
+fdwOpen 
+Flags for opening the device.   
 ***  
 
 

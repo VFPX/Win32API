@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : WNetGetConnection
+## Function name : WNetGetConnection
 Group: Windows Networking - Library: mpr    
 ***  
 
@@ -36,16 +34,14 @@ DECLARE INTEGER WNetGetConnection IN mpr;
 
 
 ## Parameters:
-```txt  
-lpLocalName
-[in] Pointer to a constant null-terminated string that specifies the name of the local device to get the network name for.
+lpLocalName 
+[in] Pointer to a constant null-terminated string that specifies the name of the local device to get the network name for. 
 
-lpRemoteName
-[out] Pointer to a null-terminated character string buffer that receives the remote name used to make the connection.
+lpRemoteName 
+[out] Pointer to a null-terminated character string buffer that receives the remote name used to make the connection. 
 
-lpnLength
+lpnLength 
 [in/out] Pointer to a variable that specifies the size, in characters, of the buffer pointed to by the lpRemoteName parameter.  
-```  
 ***  
 
 

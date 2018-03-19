@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : DragFinish
+## Function name : DragFinish
 Group: Shell Functions - Library: shell32    
 ***  
 
@@ -31,10 +29,8 @@ DECLARE DragFinish IN shell32;
 
 
 ## Parameters:
-```txt  
 hDrop
-Identifier of the structure that describes dropped files. This handle is retrieved from the wParam parameter of the WM_DROPFILES message.  
-```  
+Identifier of the structure that describes dropped files. This handle is retrieved from the wParam parameter of the WM_DROPFILES message.   
 ***  
 
 

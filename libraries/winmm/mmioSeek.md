@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : mmioSeek
+## Function name : mmioSeek
 Group: Windows Multimedia - Library: winmm    
 ***  
 
@@ -33,7 +31,6 @@ DECLARE INTEGER mmioSeek IN winmm;
 
 
 ## Parameters:
-```txt  
 hmmio
 File handle of the file to seek in.
 
@@ -43,7 +40,6 @@ Offset to change the file position.
 iOrigin
 Flags indicating how the offset specified by lOffset is interpreted.
   
-```  
 ***  
 
 

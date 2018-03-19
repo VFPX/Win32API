@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : LoadLibrary
+## Function name : LoadLibrary
 Group: Dynamic-Link Library - Library: kernel32    
 ***  
 
@@ -34,10 +32,8 @@ DECLARE INTEGER LoadLibrary IN kernel32;
 
 
 ## Parameters:
-```txt  
-lpFileName
+lpFileName 
 [in] Pointer to a null-terminated string that names the executable module (either a .dll or .exe file).  
-```  
 ***  
 
 

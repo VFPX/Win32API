@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : ws_select
+## Function name : ws_select
 Group: Windows Sockets 2 (Winsock) - Library: ws2_32    
 ***  
 
@@ -38,23 +36,21 @@ DECLARE INTEGER select IN ws2_32 AS ws_select;
 
 
 ## Parameters:
-```txt  
-nfds
-[in] Ignored. The nfds parameter is included only for compatibility with Berkeley sockets.
+nfds 
+[in] Ignored. The nfds parameter is included only for compatibility with Berkeley sockets. 
 
-readfds
-[in, out] Optional pointer to a set of sockets to be checked for readability.
+readfds 
+[in, out] Optional pointer to a set of sockets to be checked for readability. 
 
-writefds
-[in, out] Optional pointer to a set of sockets to be checked for writability
+writefds 
+[in, out] Optional pointer to a set of sockets to be checked for writability 
 
-exceptfds
-[in, out] Optional pointer to a set of sockets to be checked for errors.
+exceptfds 
+[in, out] Optional pointer to a set of sockets to be checked for errors. 
 
-timeout
+timeout 
 [in] Maximum time for select to wait, provided in the form of a TIMEVAL structure.
   
-```  
 ***  
 
 

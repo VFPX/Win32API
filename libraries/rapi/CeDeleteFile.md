@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : CeDeleteFile
+## Function name : CeDeleteFile
 Group: Remote Application Programming (RAPI) - Library: rapi    
 ***  
 
@@ -31,10 +29,8 @@ DECLARE INTEGER CeDeleteFile IN rapi;
 
 
 ## Parameters:
-```txt  
-lpFileName
-[in] Long pointer to a null-terminated string that specifies the file to be deleted.  
-```  
+lpFileName 
+[in] Long pointer to a null-terminated string that specifies the file to be deleted.   
 ***  
 
 

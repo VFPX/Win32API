@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : Escape
+## Function name : Escape
 Group: Printing and Print Spooler - Library: gdi32    
 ***  
 
@@ -39,22 +37,20 @@ DECLARE INTEGER Escape IN gdi32;
 
 
 ## Parameters:
-```txt  
-hdc
-[in] Handle to the device context.
+hdc 
+[in] Handle to the device context. 
 
-nEscape
-[in] Specifies the escape function to be performed.
+nEscape 
+[in] Specifies the escape function to be performed. 
 
-cbInput
-[in] Specifies the number of bytes of data pointed to by the lpvInData parameter.
+cbInput 
+[in] Specifies the number of bytes of data pointed to by the lpvInData parameter. 
 
-lpvInData
-[in] Pointer to the input structure required for the specified escape.
+lpvInData 
+[in] Pointer to the input structure required for the specified escape. 
 
-lpvOutData
+lpvOutData 
 [out] Pointer to the structure that receives output from this escape.  
-```  
 ***  
 
 

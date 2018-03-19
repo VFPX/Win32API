@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : CeOpenDatabase
+## Function name : CeOpenDatabase
 Group: Remote Application Programming (RAPI) - Library: rapi    
 ***  
 
@@ -41,25 +39,23 @@ DECLARE CeOpenDatabase IN rapi;
 
 
 ## Parameters:
-```txt  
-pceguid
+pceguid 
 [in] Pointer to the CEGUID that contains the globally unique identifier of a mounted database.
 
-poid
+poid 
 [in] Pointer to the object identifier of the database to be opened.
 
-lpszName
+lpszName 
 [in] Long pointer to the null-terminated string that contains the name of the database to be opened. This is used along with pceguid to specify the database if the value pointed to by poid is 0.
 
-propid
+propid 
 [in] Property identifier of the primary sort key for the database.
 
-dwFlags
+dwFlags 
 [in] Specifies an action flag.
 
-pRequest
+pRequest 
 [in] Pointer to a CENOTIFICATION structure that requests notifications be sent to an identified window.  
-```  
 ***  
 
 

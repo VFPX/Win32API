@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : GdipGetFamilyName
+## Function name : GdipGetFamilyName
 Group: GDI+ Font - Library: gdiplus    
 ***  
 
@@ -37,16 +35,14 @@ DECLARE INTEGER GdipGetFamilyName IN gdiplus;
 
 
 ## Parameters:
-```txt  
 fontfamily
 [in] Handle to Font Family Object.
 
 familyname
-[out] Name of this font family.
+[out] Name of this font family. 
 
 language
-[in] Optional. Sixteen-bit value that specifies the language to use.  
-```  
+[in] Optional. Sixteen-bit value that specifies the language to use.   
 ***  
 
 

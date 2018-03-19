@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : LocalAlloc
+## Function name : LocalAlloc
 Group: Memory Management - Library: kernel32    
 ***  
 
@@ -39,13 +37,11 @@ DECLARE INTEGER LocalAlloc IN kernel32;
 
 
 ## Parameters:
-```txt  
-uFlags
-[in] Memory allocation attributes.
+uFlags 
+[in] Memory allocation attributes. 
 
-uBytes
+uBytes 
 [in] Number of bytes to allocate.  
-```  
 ***  
 
 

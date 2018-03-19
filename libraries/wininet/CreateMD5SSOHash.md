@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : CreateMD5SSOHash
+## Function name : CreateMD5SSOHash
 Group: Internet Functions (WinInet) - Library: wininet    
 ***  
 
@@ -34,19 +32,17 @@ DECLARE INTEGER CreateMD5SSOHash IN wininet;
 
 
 ## Parameters:
-```txt  
-pszChallengeInfo
+pszChallengeInfo 
 [in] Pointer to wide-character challenge string.
 
-pwszRealm
-[in] Pointer to a string that names a realm for which to obtain the password. This parameter is ignored unless pwszTarget is NULL. If both pwszTarget and pwszRealm are NULL, the default realm is used.
-pwszTarget
+pwszRealm 
+[in] Pointer to a string that names a realm for which to obtain the password. This parameter is ignored unless pwszTarget is NULL. If both pwszTarget and pwszRealm are NULL, the default realm is used. 
+pwszTarget 
 
-[in] Pointer to a string that names an account for which to obtain the password. If pwszTarget is NULL, the realm indicated by pwszRealm is used.
-pbHexHash
+[in] Pointer to a string that names an account for which to obtain the password. If pwszTarget is NULL, the realm indicated by pwszRealm is used. 
+pbHexHash 
 
 [out] Pointer to an output buffer into which the MD5 hash is returned in hex string format. This buffer must be at least 33 bytes long.  
-```  
 ***  
 
 

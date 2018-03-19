@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : GetShortPathName
+## Function name : GetShortPathName
 Group: File Management - Library: kernel32    
 ***  
 
@@ -36,16 +34,14 @@ DECLARE INTEGER GetShortPathName IN kernel32;
 
 
 ## Parameters:
-```txt  
-lpszLongPath
+lpszLongPath 
 [in] Pointer to a null-terminated path string
 
-lpszShortPath
+lpszShortPath 
 [out] Pointer to a buffer to receive the null-terminated short form of the path specified by lpszLongPath
 
-cchBuffer
+cchBuffer 
 [in] Specifies the size, in TCHARs, of the buffer pointed to by lpszShortPath  
-```  
 ***  
 
 

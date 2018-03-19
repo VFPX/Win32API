@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : LocalSize
+## Function name : LocalSize
 Group: Memory Management - Library: kernel32    
 ***  
 
@@ -33,10 +31,8 @@ DECLARE LONG LocalSize IN kernel32 INTEGER hMem
 
 
 ## Parameters:
-```txt  
-hMem
-[in] Handle to the local memory object. This handle is returned by the LocalAlloc, LocalReAlloc, or LocalHandle function.  
-```  
+hMem 
+[in] Handle to the local memory object. This handle is returned by the LocalAlloc, LocalReAlloc, or LocalHandle function.   
 ***  
 
 

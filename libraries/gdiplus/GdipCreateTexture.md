@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : GdipCreateTexture
+## Function name : GdipCreateTexture
 Group: GDI+ Brush - Library: gdiplus    
 ***  
 
@@ -35,7 +33,6 @@ DECLARE INTEGER GdipCreateTexture IN gdiplus;
 
 
 ## Parameters:
-```txt  
 image
 [in] Handle to Image Object
 
@@ -45,7 +42,6 @@ wrapmode
 texture
 [out] Handle of the brush object.
   
-```  
 ***  
 
 

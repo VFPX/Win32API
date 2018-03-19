@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : NetApiBufferSize
+## Function name : NetApiBufferSize
 Group: Network Management - Library: netapi32    
 ***  
 
@@ -44,13 +42,11 @@ DECLARE INTEGER NetApiBufferSize IN netapi32;
 
 
 ## Parameters:
-```txt  
-Buffer
-[in] Pointer to a buffer returned by the NetApiBufferAllocate function.
+Buffer 
+[in] Pointer to a buffer returned by the NetApiBufferAllocate function. 
 
-ByteCount
+ByteCount 
 [out] Receives the size of the buffer, in bytes.  
-```  
 ***  
 
 

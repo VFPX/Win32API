@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : GdipCreateMatrix
+## Function name : GdipCreateMatrix
 Group: GDI+ Matrix - Library: gdiplus    
 ***  
 
@@ -31,10 +29,8 @@ DECLARE INTEGER GdipCreateMatrix IN gdiplus;
 
 
 ## Parameters:
-```txt  
 matrix
 [out] Handle to the Matrix object.  
-```  
 ***  
 
 

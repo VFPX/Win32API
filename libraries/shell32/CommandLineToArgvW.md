@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : CommandLineToArgvW
+## Function name : CommandLineToArgvW
 Group: Process and Thread - Library: shell32    
 ***  
 
@@ -33,14 +31,12 @@ DECLARE INTEGER CommandLineToArgvW IN shell32;
 
 
 ## Parameters:
-```txt  
-lpCmdLine
-[in] Pointer to a null-terminated Unicode command-line string.
+lpCmdLine 
+[in] Pointer to a null-terminated Unicode command-line string. 
 
-pNumArgs
-[out] Pointer to an integer variable that receives the count of arguments parsed.
+pNumArgs 
+[out] Pointer to an integer variable that receives the count of arguments parsed. 
   
-```  
 ***  
 
 

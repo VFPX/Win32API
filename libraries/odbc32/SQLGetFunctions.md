@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : SQLGetFunctions
+## Function name : SQLGetFunctions
 Group: ODBC API - Library: odbc32    
 ***  
 
@@ -35,19 +33,17 @@ DECLARE SHORT SQLGetFunctions IN odbc32;
 
 
 ## Parameters:
-```txt  
-ConnectionHandle
+ConnectionHandle 
 [Input]
-Connection handle.
+Connection handle. 
 
-FunctionId
+FunctionId 
 [Input]
 A #define value that identifies the ODBC function of interest.
 
-SupportedPtr
-[Output]
-If FunctionId identifies a single ODBC function, SupportedPtr points to a single SQLUSMALLINT value that is SQL_TRUE if the specified function is supported by the driver, and SQL_FALSE if it is not supported.  
-```  
+SupportedPtr 
+[Output] 
+If FunctionId identifies a single ODBC function, SupportedPtr points to a single SQLUSMALLINT value that is SQL_TRUE if the specified function is supported by the driver, and SQL_FALSE if it is not supported.   
 ***  
 
 

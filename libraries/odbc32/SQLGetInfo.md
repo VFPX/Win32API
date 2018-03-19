@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : SQLGetInfo
+## Function name : SQLGetInfo
 Group: ODBC API - Library: odbc32    
 ***  
 
@@ -39,27 +37,25 @@ DECLARE SHORT SQLGetInfo IN odbc32;
 
 
 ## Parameters:
-```txt  
-ConnectionHandle
+ConnectionHandle 
 [Input]
-Connection handle.
+Connection handle. 
 
-InfoType
+InfoType 
 [Input]
-Type of information.
+Type of information. 
 
-InfoValuePtr
+InfoValuePtr 
 [Output]
-Pointer to a buffer in which to return the information.
+Pointer to a buffer in which to return the information. 
 
-BufferLength
+BufferLength 
 [Input]
-Length of the *InfoValuePtr buffer. If the value in *InfoValuePtr is not a character string or if InfoValuePtr is a null pointer, the BufferLength argument is ignored.
+Length of the *InfoValuePtr buffer. If the value in *InfoValuePtr is not a character string or if InfoValuePtr is a null pointer, the BufferLength argument is ignored. 
 
-StringLengthPtr
+StringLengthPtr 
 [Output]
-Pointer to a buffer in which to return the total number of bytes available to return in *InfoValuePtr.  
-```  
+Pointer to a buffer in which to return the total number of bytes available to return in *InfoValuePtr.   
 ***  
 
 

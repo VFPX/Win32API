@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : SCardDisconnect
+## Function name : SCardDisconnect
 Group: Authentication - Library: winscard    
 ***  
 
@@ -30,14 +28,12 @@ DECLARE LONG SCardDisconnect IN Winscard;
 
 
 ## Parameters:
-```txt  
-hCard [in]
+hCard [in] 
 Reference value obtained from a previous call to SCardConnect.
 
-dwDisposition [in]
+dwDisposition [in] 
 Action to take on the card in the connected reader on close.
   
-```  
 ***  
 
 

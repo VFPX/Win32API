@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : GetKeyboardLayoutName
+## Function name : GetKeyboardLayoutName
 Group: Keyboard Input - Library: user32    
 ***  
 
@@ -31,10 +29,8 @@ DECLARE INTEGER GetKeyboardLayoutName IN user32;
 
 
 ## Parameters:
-```txt  
-pwszKLID
+pwszKLID 
 [out] Pointer to the buffer (of at least KL_NAMELENGTH characters in length) that receives the name of the input locale identifier  
-```  
 ***  
 
 

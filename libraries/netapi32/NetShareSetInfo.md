@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : NetShareSetInfo
+## Function name : NetShareSetInfo
 Group: Network Management - Library: netapi32    
 ***  
 
@@ -40,22 +38,20 @@ DECLARE INTEGER NetShareSetInfo IN netapi32;
 
 
 ## Parameters:
-```txt  
-servername
+servername 
 [in] Pointer to a string that specifies the DNS or NetBIOS name of the remote server on which the function is to execute.
 
-netname
-[in] Pointer to a string that specifies the name of the share to set information on.
+netname 
+[in] Pointer to a string that specifies the name of the share to set information on. 
 
-level
+level 
 [in] Specifies the information level of the data (1,2,502,...).
 
-buf
+buf 
 [in] Pointer to the buffer that specifies the data. The format of this data depends on the value of the level parameter.
 
-parm_err
+parm_err 
 [out] Pointer to a value that receives the index of the first member of the share information structure that causes the ERROR_INVALID_PARAMETER error.  
-```  
 ***  
 
 

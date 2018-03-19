@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : WideCharToMultiByte
+## Function name : WideCharToMultiByte
 Group: Unicode and Character Set - Library: kernel32    
 ***  
 
@@ -47,32 +45,30 @@ DECLARE INTEGER WideCharToMultiByte IN kernel32;
 
 
 ## Parameters:
-```txt  
-CodePage
-[in] Specifies the code page used to perform the conversion.
+CodePage 
+[in] Specifies the code page used to perform the conversion. 
 
-dwFlags
+dwFlags 
 [in] Specifies the handling of unmapped characters.
 
-lpWideCharStr
-[in] Points to the wide-character string to be converted.
+lpWideCharStr 
+[in] Points to the wide-character string to be converted. 
 
-cchWideChar
-[in] Specifies the number of wide characters in the string pointed to by the lpWideCharStr parameter.
+cchWideChar 
+[in] Specifies the number of wide characters in the string pointed to by the lpWideCharStr parameter. 
 
-lpMultiByteStr
-[out] Points to the buffer to receive the translated string.
+lpMultiByteStr 
+[out] Points to the buffer to receive the translated string. 
 
-cbMultiByte
-[in] Specifies the size, in bytes, of the buffer pointed to by the lpMultiByteStr parameter.
+cbMultiByte 
+[in] Specifies the size, in bytes, of the buffer pointed to by the lpMultiByteStr parameter. 
 
-lpDefaultChar
+lpDefaultChar 
 [in] Points to the character used if a wide character cannot be represented in the specified code page.
 
-lpUsedDefaultChar
-[in] Points to a flag that indicates whether a default character was used.
+lpUsedDefaultChar 
+[in] Points to a flag that indicates whether a default character was used. 
   
-```  
 ***  
 
 

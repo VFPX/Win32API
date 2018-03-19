@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : OpenProcess
+## Function name : OpenProcess
 Group: Process and Thread - Library: kernel32    
 ***  
 
@@ -41,16 +39,14 @@ DECLARE INTEGER OpenProcess IN kernel32;
 
 
 ## Parameters:
-```txt  
-dwDesiredAccess
-[in] Specifies the access to the process object.
+dwDesiredAccess 
+[in] Specifies the access to the process object. 
 
-bInheritHandle
-[in] Specifies whether the returned handle can be inherited by a new process created by the current process.
+bInheritHandle 
+[in] Specifies whether the returned handle can be inherited by a new process created by the current process. 
 
-dwProcessId
-[in] Specifies the identifier of the process to open.  
-```  
+dwProcessId 
+[in] Specifies the identifier of the process to open.   
 ***  
 
 

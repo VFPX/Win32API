@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : CreateRectRgn
+## Function name : CreateRectRgn
 Group: Region - Library: gdi32    
 ***  
 
@@ -46,19 +44,17 @@ DECLARE INTEGER CreateRectRgn IN gdi32;
 
 
 ## Parameters:
-```txt  
-nLeftRect
-[in] Specifies the x-coordinate of the upper-left corner of the region in logical units.
+nLeftRect 
+[in] Specifies the x-coordinate of the upper-left corner of the region in logical units. 
 
-nTopRect
-[in] Specifies the y-coordinate of the upper-left corner of the region in logical units.
+nTopRect 
+[in] Specifies the y-coordinate of the upper-left corner of the region in logical units. 
 
-nRightRect
-[in] Specifies the x-coordinate of the lower-right corner of the region in logical units.
+nRightRect 
+[in] Specifies the x-coordinate of the lower-right corner of the region in logical units. 
 
-nBottomRect
+nBottomRect 
 [in] Specifies the y-coordinate of the lower-right corner of the region in logical units.  
-```  
 ***  
 
 

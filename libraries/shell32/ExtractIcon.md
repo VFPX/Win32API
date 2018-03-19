@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : ExtractIcon
+## Function name : ExtractIcon
 Group: Icon - Library: shell32    
 ***  
 
@@ -37,16 +35,14 @@ DECLARE INTEGER ExtractIcon IN shell32;
 
 
 ## Parameters:
-```txt  
-hInst
-[in] Handle to the instance of the application calling the function.
+hInst 
+[in] Handle to the instance of the application calling the function. 
 
-lpszExeFileName
-[in] Pointer to a null-terminated string specifying the name of an executable file, DLL, or icon file.
+lpszExeFileName 
+[in] Pointer to a null-terminated string specifying the name of an executable file, DLL, or icon file. 
 
-nIconIndex
+nIconIndex 
 [in] Specifies the zero-based index of the icon to retrieve.  
-```  
 ***  
 
 

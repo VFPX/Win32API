@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : SHAddToRecentDocs
+## Function name : SHAddToRecentDocs
 Group: Shell Functions - Library: shell32    
 ***  
 
@@ -33,12 +31,10 @@ DECLARE SHAddToRecentDocs IN shell32;
 
 
 ## Parameters:
-```txt  
-uFlags
-[in] Flag that indicates the meaning of the pv parameter.
+uFlags 
+[in] Flag that indicates the meaning of the pv parameter. 
 
   
-```  
 ***  
 
 

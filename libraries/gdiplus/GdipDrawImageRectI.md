@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : GdipDrawImageRectI
+## Function name : GdipDrawImageRectI
 Group: GDI+ Graphics - Library: gdiplus    
 ***  
 
@@ -42,25 +40,23 @@ DECLARE INTEGER GdipDrawImageRectI IN gdiplus;
 
 
 ## Parameters:
-```txt  
 graphics
 [in] Pointer to a Graphics object.
 
 image
-[in] Pointer to an Image object that specifies the source image.
+[in] Pointer to an Image object that specifies the source image. 
 
 x
-[in] Integer that specifies the x-coordinate of the upper-left corner of the destination rectangle at which to draw the image.
+[in] Integer that specifies the x-coordinate of the upper-left corner of the destination rectangle at which to draw the image. 
 
 y
-[in] Integer that specifies the y-coordinate of the upper-left corner of the destination rectangle at which to draw the image.
+[in] Integer that specifies the y-coordinate of the upper-left corner of the destination rectangle at which to draw the image. 
 
 width
-[in] Integer that specifies the width of the destination rectangle at which to draw the image.
+[in] Integer that specifies the width of the destination rectangle at which to draw the image. 
 height
-[in] Integer that specifies the height of the destination rectangle at which to draw the image.
+[in] Integer that specifies the height of the destination rectangle at which to draw the image. 
   
-```  
 ***  
 
 

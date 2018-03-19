@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : StrTrim
+## Function name : StrTrim
 Group: String - Library: shlwapi    
 ***  
 
@@ -34,13 +32,11 @@ DECLARE INTEGER StrTrim IN Shlwapi As StrTrim;
 
 
 ## Parameters:
-```txt  
-pszSource
-[in/out] Pointer to the string to be trimmed. On return, pszSource will hold the trimmed string.
+pszSource 
+[in/out] Pointer to the string to be trimmed. On return, pszSource will hold the trimmed string. 
 
-pszTrimChars
+pszTrimChars 
 [in] Pointer to a null-terminated string containing the characters that will be trimmed from psz.  
-```  
 ***  
 
 

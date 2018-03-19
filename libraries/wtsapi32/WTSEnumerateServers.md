@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : WTSEnumerateServers
+## Function name : WTSEnumerateServers
 Group: Terminal Services - Library: wtsapi32    
 ***  
 
@@ -40,22 +38,20 @@ DECLARE INTEGER WTSEnumerateServers IN Wtsapi32;
 
 
 ## Parameters:
-```txt  
-pDomainName
-[in] Pointer to the name of the Windows NT domain to be queried.
+pDomainName 
+[in] Pointer to the name of the Windows NT domain to be queried. 
 
-Reserved
-[in] Reserved. The value of this parameter must be 0.
+Reserved 
+[in] Reserved. The value of this parameter must be 0. 
 
-Version
-[in] Version of the enumeration request. The value of the parameter must be 1.
+Version 
+[in] Version of the enumeration request. The value of the parameter must be 1. 
 
-ppServerInfo
+ppServerInfo 
 Points to an array of WTS_SERVER_INFO structures, which contains the returned results of the enumeration.
 
-pCount
-Pointer to a variable that receives the number of WTS_SERVER_INFO structures returned in the ppServerInfo buffer.  
-```  
+pCount 
+Pointer to a variable that receives the number of WTS_SERVER_INFO structures returned in the ppServerInfo buffer.   
 ***  
 
 

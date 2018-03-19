@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : waveInGetErrorText
+## Function name : waveInGetErrorText
 Group: Windows Multimedia - Library: winmm    
 ***  
 
@@ -37,16 +35,14 @@ DECLARE INTEGER waveInGetErrorText IN winmm;
 
 
 ## Parameters:
-```txt  
-mmrError
-Error number.
+mmrError 
+Error number. 
 
-pszText
-Pointer to the buffer to be filled with the textual error description.
+pszText 
+Pointer to the buffer to be filled with the textual error description. 
 
-cchText
-Size, in characters, of the buffer pointed to by pszText.  
-```  
+cchText 
+Size, in characters, of the buffer pointed to by pszText.   
 ***  
 
 

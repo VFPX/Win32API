@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : JetGetColumnInfo
+## Function name : JetGetColumnInfo
 Group: Extensible Storage Engine (ESE, Jet Blue) - Library: esent    
 ***  
 
@@ -44,29 +42,27 @@ DECLARE INTEGER JetGetColumnInfo IN esent;
 
 
 ## Parameters:
-```txt  
-sesid
+sesid 
 The database session context to use for the API call.
 
-dbid
+dbid 
 Identifies, along with szTableName, the table that contains the column from which the information is retrieved.
 
-szTableName
+szTableName 
 Identifies, along with dbid, the table that contains the column from which the information is retrieved.
 
-szColumnName
+szColumnName 
 The name of the column that information is fetched for.
 
-pvResult
+pvResult 
 Pointer to a buffer that will receive the information. The type of the buffer is dependent on InfoLevel. The caller must be configured to align the buffer appropriately.
 
-cbMax
+cbMax 
 The size, in bytes, of the buffer that is passed in pvResult.
 
-InfoLevel
-The type of information to retrieve for the column that is specified by szColumnName.
+InfoLevel 
+The type of information to retrieve for the column that is specified by szColumnName. 
   
-```  
 ***  
 
 

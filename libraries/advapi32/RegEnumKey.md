@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : RegEnumKey
+## Function name : RegEnumKey
 Group: Registry - Library: advapi32    
 ***  
 
@@ -38,19 +36,17 @@ DECLARE INTEGER RegEnumKey IN advapi32;
 
 
 ## Parameters:
-```txt  
-hKey
+hKey 
 [in] Handle to an open key.
 
-dwIndex
-[in] Index of the subkey of hKey to be retrieved.
+dwIndex 
+[in] Index of the subkey of hKey to be retrieved. 
 
-lpName
+lpName 
 [out] Pointer to a buffer that receives the name of the subkey.
 
-cchName
+cchName 
 [in] Size of the buffer pointed to by the lpName parameter.  
-```  
 ***  
 
 

@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : BeginUpdateResource
+## Function name : BeginUpdateResource
 Group: Resource - Library: kernel32    
 ***  
 
@@ -34,13 +32,11 @@ DECLARE INTEGER BeginUpdateResource IN kernel32;
 
 
 ## Parameters:
-```txt  
 pFileName
 [in] Pointer to a null-terminated string that specifies the executable file in which to update resources.
 
 bDeleteExistingResources
 [in] Specifies whether to delete the pFileName parameter"s existing resources.  
-```  
 ***  
 
 

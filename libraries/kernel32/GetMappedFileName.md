@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : GetMappedFileName
+## Function name : GetMappedFileName
 Group: File Mapping - Library: kernel32    
 ***  
 
@@ -38,19 +36,17 @@ DECLARE INTEGER GetMappedFileName IN psapi;
 
 
 ## Parameters:
-```txt  
-hProcess
+hProcess 
 [in] Handle to the process.
 
-lpv
-[in] Address to be verified.
+lpv 
+[in] Address to be verified. 
 
-lpFilename
-[out] Pointer to the buffer that receives the name of the memory-mapped file to which the address specified by lpv belongs.
+lpFilename 
+[out] Pointer to the buffer that receives the name of the memory-mapped file to which the address specified by lpv belongs. 
 
-nSize
-[in] Size of the lpFilename buffer, in characters.  
-```  
+nSize 
+[in] Size of the lpFilename buffer, in characters.   
 ***  
 
 

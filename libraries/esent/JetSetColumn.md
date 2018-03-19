@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : JetSetColumn
+## Function name : JetSetColumn
 Group: Extensible Storage Engine (ESE, Jet Blue) - Library: esent    
 ***  
 
@@ -43,28 +41,26 @@ DECLARE INTEGER JetSetColumn IN esent;
 
 
 ## Parameters:
-```txt  
-sesid
+sesid 
 The session to use for this call.
 
-tableid
+tableid 
 The cursor to use for this call.
 
-columnid
+columnid 
 The JET_COLUMNID of the column to be retrieved.
 
-pvData
+pvData 
 Input buffer containing data to use for column value.
 
-cbData
+cbData 
 Size in bytes of the input buffer.
 
-grbit
+grbit 
 A group of bits that contain the options to be used for this call.
 
-psetinfo
+psetinfo 
 Pointer to optional input parameters that can be set for this function using the JET_SETINFO structure.  
-```  
 ***  
 
 

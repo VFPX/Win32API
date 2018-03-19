@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : CreateFileMapping
+## Function name : CreateFileMapping
 Group: File Mapping - Library: kernel32    
 ***  
 
@@ -43,25 +41,23 @@ DECLARE INTEGER CreateFileMapping IN kernel32;
 
 
 ## Parameters:
-```txt  
-hFile
+hFile 
 [in] Handle to the file from which to create a mapping object; can be INVALID_HANDLE_VALUE.
 
-lpAttributes
+lpAttributes 
 [in] Pointer to a SECURITY_ATTRIBUTES structure; can be NULL.
 
-flProtect
+flProtect 
 [in] Protection desired for the file view, when the file is mapped.
 
-dwMaximumSizeHigh
-[in] High-order DWORD of the maximum size of the file mapping object.
+dwMaximumSizeHigh 
+[in] High-order DWORD of the maximum size of the file mapping object. 
 
-dwMaximumSizeLow
+dwMaximumSizeLow 
 [in] Low-order DWORD of the maximum size of the file mapping object.
 
-lpName
+lpName 
 [in] Pointer to a null-terminated string specifying the name of the mapping object; can be NULL.  
-```  
 ***  
 
 

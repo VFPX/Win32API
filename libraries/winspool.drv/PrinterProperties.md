@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : PrinterProperties
+## Function name : PrinterProperties
 Group: Printing and Print Spooler - Library: winspool.drv    
 ***  
 
@@ -34,14 +32,12 @@ DECLARE INTEGER PrinterProperties IN winspool.drv;
 
 
 ## Parameters:
-```txt  
-hWnd
-[in] Handle to the parent window of the property sheet.
+hWnd 
+[in] Handle to the parent window of the property sheet. 
 
-hPrinter
-[in] Handle to a printer object. Use the OpenPrinter or AddPrinter function to retrieve a printer handle.
+hPrinter 
+[in] Handle to a printer object. Use the OpenPrinter or AddPrinter function to retrieve a printer handle. 
   
-```  
 ***  
 
 

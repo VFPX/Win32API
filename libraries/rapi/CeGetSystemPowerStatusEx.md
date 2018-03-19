@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : CeGetSystemPowerStatusEx
+## Function name : CeGetSystemPowerStatusEx
 Group: Remote Application Programming (RAPI) - Library: rapi    
 ***  
 
@@ -33,13 +31,11 @@ DECLARE INTEGER CeGetSystemPowerStatusEx IN rapi;
 
 
 ## Parameters:
-```txt  
-pstatus
-[out] Pointer to the SYSTEM_POWER_STATUS_EX structure receiving the power status information.
+pstatus 
+[out] Pointer to the SYSTEM_POWER_STATUS_EX structure receiving the power status information. 
 
-fUpdate
-[in] If this Boolean is set to TRUE, CeGetSystemPowerStatusEx gets the latest information from the device driver, otherwise it retrieves cached information that may be out-of-date by several seconds.  
-```  
+fUpdate 
+[in] If this Boolean is set to TRUE, CeGetSystemPowerStatusEx gets the latest information from the device driver, otherwise it retrieves cached information that may be out-of-date by several seconds.   
 ***  
 
 

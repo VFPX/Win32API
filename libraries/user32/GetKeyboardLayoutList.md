@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : GetKeyboardLayoutList
+## Function name : GetKeyboardLayoutList
 Group: Keyboard Input - Library: user32    
 ***  
 
@@ -33,13 +31,11 @@ DECLARE INTEGER GetKeyboardLayoutList IN user32;
 
 
 ## Parameters:
-```txt  
-nBuff
-[in] Specifies the maximum number of handles that the buffer can hold.
+nBuff 
+[in] Specifies the maximum number of handles that the buffer can hold. 
 
-lpList
-[out] Pointer to the buffer that receives the array of input locale identifiers.  
-```  
+lpList 
+[out] Pointer to the buffer that receives the array of input locale identifiers.   
 ***  
 
 

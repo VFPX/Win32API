@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : NetUserEnum
+## Function name : NetUserEnum
 Group: Network Management - Library: netapi32    
 ***  
 
@@ -45,31 +43,29 @@ DECLARE INTEGER NetUserEnum IN netapi32;
 
 
 ## Parameters:
-```txt  
-servername
-[in] Pointer to a constant string that specifies the DNS or NetBIOS name of the remote server on which the function is to execute. If this parameter is NULL, the local computer is used.
+servername 
+[in] Pointer to a constant string that specifies the DNS or NetBIOS name of the remote server on which the function is to execute. If this parameter is NULL, the local computer is used. 
 
-level
-[in] Specifies the information level of the data.
+level 
+[in] Specifies the information level of the data. 
 
-filter
-[in] Specifies a value that filters the account types for enumeration. A value of zero indicates all account types.
+filter 
+[in] Specifies a value that filters the account types for enumeration. A value of zero indicates all account types. 
 
-bufptr
-[out] Pointer to the buffer that receives the data.
+bufptr 
+[out] Pointer to the buffer that receives the data. 
 
-prefmaxlen
-[in] Specifies the preferred maximum length, in 8-bit bytes of returned data.
+prefmaxlen 
+[in] Specifies the preferred maximum length, in 8-bit bytes of returned data. 
 
-entriesread
-[out] Pointer to a value that receives the count of elements actually enumerated.
+entriesread 
+[out] Pointer to a value that receives the count of elements actually enumerated. 
 
-totalentries
-[out] Pointer to a value that receives the total number of entries that could have been enumerated from the current resume position.
+totalentries 
+[out] Pointer to a value that receives the total number of entries that could have been enumerated from the current resume position. 
 
-resume_handle
-[in/out] Pointer to a value that contains a resume handle which is used to continue an existing user search.  
-```  
+resume_handle 
+[in/out] Pointer to a value that contains a resume handle which is used to continue an existing user search.   
 ***  
 
 

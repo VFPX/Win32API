@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : CeCreateFile
+## Function name : CeCreateFile
 Group: Remote Application Programming (RAPI) - Library: rapi    
 ***  
 
@@ -44,28 +42,26 @@ DECLARE INTEGER CeCreateFile IN rapi;
 
 
 ## Parameters:
-```txt  
-lpFileName
-[in] Pointer to a null-terminated string that specifies the name of the object, such as file, COM port, disk device, or console, to create or open.
+lpFileName 
+[in] Pointer to a null-terminated string that specifies the name of the object, such as file, COM port, disk device, or console, to create or open. 
 
-dwDesiredAccess
+dwDesiredAccess 
 [in] Specifies the type of access to the object.
 
-dwShareMode
-[in] Specifies how the object can be shared.
+dwShareMode 
+[in] Specifies how the object can be shared. 
 
-lpSecurityAttributes
-[in] Ignored; set to NULL.
+lpSecurityAttributes 
+[in] Ignored; set to NULL. 
 
-dwCreationDisposition
+dwCreationDisposition 
 [in] Specifies which action to take on files that exist, and which action to take when files do not exist.
 
-dwFlagsAndAttributes
+dwFlagsAndAttributes 
 [in] Specifies the file attributes and flags for the file.
 
-hTemplateFile
+hTemplateFile 
 This parameter is ignored.  
-```  
 ***  
 
 

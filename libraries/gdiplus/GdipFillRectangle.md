@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : GdipFillRectangle
+## Function name : GdipFillRectangle
 Group: GDI+ Graphics - Library: gdiplus    
 ***  
 
@@ -43,25 +41,23 @@ DECLARE INTEGER GdipFillRectangle IN gdiplus;
 
 
 ## Parameters:
-```txt  
 graphics
 [in] Pointer to a Graphics object.
 
 brush
-[in] Pointer to a Brush that is used to paint the interior of the rectangle.
+[in] Pointer to a Brush that is used to paint the interior of the rectangle. 
 
 x
-[in] Real number that specifies the x-coordinate of the upper-left corner of the rectangle to be filled.
+[in] Real number that specifies the x-coordinate of the upper-left corner of the rectangle to be filled. 
 
 y
-[in] Real number that specifies the y-coordinate of the upper-left corner of the rectangle to be filled.
+[in] Real number that specifies the y-coordinate of the upper-left corner of the rectangle to be filled. 
 
 width
-[in] Real number that specifies the width of the rectangle to be filled.
+[in] Real number that specifies the width of the rectangle to be filled. 
 
 height
-[in] Real number that specifies the height of the rectangle to be filled.  
-```  
+[in] Real number that specifies the height of the rectangle to be filled.   
 ***  
 
 

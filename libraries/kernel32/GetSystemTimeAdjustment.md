@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : GetSystemTimeAdjustment
+## Function name : GetSystemTimeAdjustment
 Group: Time - Library: kernel32    
 ***  
 
@@ -35,16 +33,14 @@ DECLARE SHORT GetSystemTimeAdjustment IN kernel32.dll;
 
 
 ## Parameters:
-```txt  
-lpTimeAdjustment
-[out] Pointer to a DWORD that the function sets to the number of 100-nanosecond units added to the time-of-day clock at each periodic time adjustment.
+lpTimeAdjustment 
+[out] Pointer to a DWORD that the function sets to the number of 100-nanosecond units added to the time-of-day clock at each periodic time adjustment. 
 
-lpTimeIncrement
-[out] Pointer to a DWORD that the function sets to the interval, counted in 100-nanosecond units, between periodic time adjustments. This interval is the time period between a system"s clock interrupts.
+lpTimeIncrement 
+[out] Pointer to a DWORD that the function sets to the interval, counted in 100-nanosecond units, between periodic time adjustments. This interval is the time period between a system"s clock interrupts. 
 
-lpTimeAdjustmentDisabled
+lpTimeAdjustmentDisabled 
 [out] Pointer to a BOOL that the function sets to indicate whether periodic time adjustment is in effect.  
-```  
 ***  
 
 

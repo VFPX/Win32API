@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : GetInterfaceInfo
+## Function name : GetInterfaceInfo
 Group: IP Helper - Library: iphlpapi    
 ***  
 
@@ -33,13 +31,11 @@ DECLARE INTEGER GetInterfaceInfo IN iphlpapi;
 
 
 ## Parameters:
-```txt  
-pIfTable
+pIfTable 
 [in] Pointer to a buffer that specifies a IP_INTERFACE_INFO structure that contains the list of adapters.
 
-dwOutBufLen
-[out] Pointer to a DWORD variable. If the buffer pointed to by the pIfTable parameter is NULL, or is not large enough to contain the list of adapters, GetInterfaceInfo receives the required size in this DWORD variable.  
-```  
+dwOutBufLen 
+[out] Pointer to a DWORD variable. If the buffer pointed to by the pIfTable parameter is NULL, or is not large enough to contain the list of adapters, GetInterfaceInfo receives the required size in this DWORD variable.   
 ***  
 
 

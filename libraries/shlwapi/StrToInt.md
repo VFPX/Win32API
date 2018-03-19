@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : StrToInt
+## Function name : StrToInt
 Group: String - Library: shlwapi    
 ***  
 
@@ -34,10 +32,8 @@ DECLARE INTEGER StrToLong IN Shlwapi STRING lpSrc
 
 
 ## Parameters:
-```txt  
-lpSrc
+lpSrc 
 Address of the null-terminated string to be converted.  
-```  
 ***  
 
 

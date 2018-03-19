@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : JetRetrieveColumn
+## Function name : JetRetrieveColumn
 Group: Extensible Storage Engine (ESE, Jet Blue) - Library: esent    
 ***  
 
@@ -45,31 +43,29 @@ DECLARE INTEGER JetRetrieveColumn IN esent;
 
 
 ## Parameters:
-```txt  
-sesid
+sesid 
 The session to use for this call.
 
-tableid
+tableid 
 The cursor to use for this call.
 
-columnid
+columnid 
 The JET_COLUMNID of the column to retrieve.
 
-pvData
+pvData 
 The output buffer that receives the column value.
 
-cbData
+cbData 
 The maximum size, in bytes, of the output buffer.
 
-pcbActual
+pcbActual 
 Receives the actual size, in bytes, of the column value.
 
-grbit
+grbit 
 A group of bits that contain the options to be used for this call.
 
-pretinfo
+pretinfo 
 If pretinfo is give as NULL then the function behaves as though an itagSequence of 1 and an ibLongValue of 0 (zero) were given.  
-```  
 ***  
 
 

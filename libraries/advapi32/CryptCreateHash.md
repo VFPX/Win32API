@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : CryptCreateHash
+## Function name : CryptCreateHash
 Group: Cryptography Reference - Library: advapi32    
 ***  
 
@@ -42,22 +40,20 @@ DECLARE INTEGER CryptCreateHash IN advapi32;
 
 
 ## Parameters:
-```txt  
-hProv
-[in] Handle of a cryptographic service provider (CSP) created by a call to CryptAcquireContext.
+hProv 
+[in] Handle of a cryptographic service provider (CSP) created by a call to CryptAcquireContext. 
 
-Algid
-[in] ALG_ID that identifies the hash algorithm to use.
+Algid 
+[in] ALG_ID that identifies the hash algorithm to use. 
 
-hKey
+hKey 
 [in] If the type of hash algorithm is a keyed hash, such as the HMAC or MAC algorithm, the key for the hash is passed in this parameter. For nonkeyed algorithms, this parameter must be set to zero.
 
-dwFlags
-[in] Reserved for future use and must be zero.
+dwFlags 
+[in] Reserved for future use and must be zero. 
 
-phHash
-[out] Address to which the function copies a handle to the new hash object.  
-```  
+phHash 
+[out] Address to which the function copies a handle to the new hash object.   
 ***  
 
 

@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : RegisterRawInputDevices
+## Function name : RegisterRawInputDevices
 Group: Raw Input - Library: user32    
 ***  
 
@@ -35,7 +33,6 @@ DECLARE INTEGER RegisterRawInputDevices IN user32;
 
 
 ## Parameters:
-```txt  
 pRawInputDevices [in]
 An array of RAWINPUTDEVICE structures that represent the devices that supply the raw input.
 
@@ -44,7 +41,6 @@ The number of RAWINPUTDEVICE structures pointed to by pRawInputDevices.
 
 cbSize [in]
 The size, in bytes, of a RAWINPUTDEVICE structure.  
-```  
 ***  
 
 

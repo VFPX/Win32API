@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : StrToIntEx
+## Function name : StrToIntEx
 Group: String - Library: shlwapi    
 ***  
 
@@ -38,16 +36,14 @@ DECLARE SHORT StrToIntEx IN Shlwapi;
 
 
 ## Parameters:
-```txt  
-pszString
-Address of a null-terminated string to be converted.
+pszString 
+Address of a null-terminated string to be converted. 
 
-dwFlags
-Specifies if pszString contains a decimal or hexadecimal value.
+dwFlags 
+Specifies if pszString contains a decimal or hexadecimal value.   
 
-piRet
+piRet 
 Address of an integer variable that receives the converted string.  
-```  
 ***  
 
 

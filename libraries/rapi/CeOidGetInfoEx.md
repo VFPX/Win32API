@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : CeOidGetInfoEx
+## Function name : CeOidGetInfoEx
 Group: Remote Application Programming (RAPI) - Library: rapi    
 ***  
 
@@ -35,16 +33,14 @@ DECLARE INTEGER CeOidGetInfoEx IN rapi;
 
 
 ## Parameters:
-```txt  
-pceguid
-[in] Pointer to the CEGUID that contains the globally unique identifier of a mounted database.
+pceguid 
+[in] Pointer to the CEGUID that contains the globally unique identifier of a mounted database. 
 
-oid
-[in] Identifier of the object for which information is to be retrieved.
+oid 
+[in] Identifier of the object for which information is to be retrieved. 
 
-poidInfo
-[out] Pointer to a CEOIDINFO structure that contains information about the object.  
-```  
+poidInfo 
+[out] Pointer to a CEOIDINFO structure that contains information about the object.   
 ***  
 
 

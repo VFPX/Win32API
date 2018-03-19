@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : TaskDialogIndirect
+## Function name : TaskDialogIndirect
 Group: Common Dialog Box - Library: comdlg32    
 ***  
 
@@ -37,21 +35,19 @@ DECLARE INTEGER TaskDialogIndirect IN comctl32;
 
 
 ## Parameters:
-```txt  
 pTaskConfig
 [in] Pointer to a TASKDIALOGCONFIG structure that contains information used to display the task dialog.
 
 pnButton
-[out]
+[out] 
 Address of a variable that receives the Id of the pressed button.
 
 pnRadioButton
 [out] Address of a variable that receives one of the button IDs specified in the pRadioButtons member of the pTaskConfig parameter.
 
 pfVerificationFlagChecked
-[out]
+[out] 
 Address of a variable that receives the Cheked status of the checkbox.  
-```  
 ***  
 
 

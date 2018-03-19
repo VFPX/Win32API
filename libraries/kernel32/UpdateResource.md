@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : UpdateResource
+## Function name : UpdateResource
 Group: Resource - Library: kernel32    
 ***  
 
@@ -42,24 +40,22 @@ DECLARE INTEGER UpdateResource IN kernel32;
 
 
 ## Parameters:
-```txt  
 hUpdate
-[in] Specifies an update-file handle. This handle is returned by the BeginUpdateResource function.
+[in] Specifies an update-file handle. This handle is returned by the BeginUpdateResource function. 
 
 lpType
-[in] Pointer to a null-terminated string specifying the resource type to be updated.
+[in] Pointer to a null-terminated string specifying the resource type to be updated. 
 
 lpName
-[in] Pointer to a null-terminated string specifying the name of the resource to be updated.
+[in] Pointer to a null-terminated string specifying the name of the resource to be updated. 
 
 wLanguage
 [in] Specifies the language identifier of the resource to be updated.
 
 lpData
-[in]
-Pointer to the resource data to be inserted into the executable file.
+[in] 
+Pointer to the resource data to be inserted into the executable file. 
   
-```  
 ***  
 
 

@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : GetPrivateProfileSectionNames
+## Function name : GetPrivateProfileSectionNames
 Group: Registry - Library: kernel32    
 ***  
 
@@ -36,16 +34,14 @@ DECLARE INTEGER GetPrivateProfileSectionNames IN kernel32;
 
 
 ## Parameters:
-```txt  
-lpszReturnBuffer
-[out] Pointer to a buffer that receives the section names associated with the named file.
+lpszReturnBuffer 
+[out] Pointer to a buffer that receives the section names associated with the named file. 
 
-nSize
-[in] Specifies the size, in TCHARs, of the buffer pointed to by the lpszReturnBuffer parameter.
+nSize 
+[in] Specifies the size, in TCHARs, of the buffer pointed to by the lpszReturnBuffer parameter. 
 
-lpFileName
-[in] Pointer to a null-terminated string that specifies the name of the initialization file.  
-```  
+lpFileName 
+[in] Pointer to a null-terminated string that specifies the name of the initialization file.   
 ***  
 
 

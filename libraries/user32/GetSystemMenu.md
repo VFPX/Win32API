@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : GetSystemMenu
+## Function name : GetSystemMenu
 Group: Menu - Library: user32    
 ***  
 
@@ -34,13 +32,11 @@ DECLARE INTEGER GetSystemMenu IN user32;
 
 
 ## Parameters:
-```txt  
-hWnd
-[in] Handle to the window that will own a copy of the window menu.
+hWnd 
+[in] Handle to the window that will own a copy of the window menu. 
 
-bRevert
-[in] Specifies the action to be taken. The FALSE means that GetSystemMenu returns a handle to the copy of the window menu currently in use.  
-```  
+bRevert 
+[in] Specifies the action to be taken. The FALSE means that GetSystemMenu returns a handle to the copy of the window menu currently in use.   
 ***  
 
 

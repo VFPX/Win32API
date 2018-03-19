@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : CeSetFilePointer
+## Function name : CeSetFilePointer
 Group: Remote Application Programming (RAPI) - Library: rapi    
 ***  
 
@@ -38,19 +36,17 @@ DECLARE INTEGER CeSetFilePointer IN rapi;
 
 
 ## Parameters:
-```txt  
-hFile
+hFile 
 [in] Handle to the file whose file pointer is to be moved.
 
-lDistanceToMove
+lDistanceToMove 
 [in] Low-order 32 bits of a signed value that specifies the number of bytes to move the file pointer.
 
-lpDistanceToMoveHigh
+lpDistanceToMoveHigh 
 [in] Pointer to the high-order 32 bits of the signed 64-bit distance to move.
 
-dwMoveMethod
+dwMoveMethod 
 [in] Specifies the starting point for the file pointer move: bof, current, eof.  
-```  
 ***  
 
 

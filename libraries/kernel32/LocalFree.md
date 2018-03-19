@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : LocalFree
+## Function name : LocalFree
 Group: Memory Management - Library: kernel32    
 ***  
 
@@ -40,10 +38,8 @@ DECLARE INTEGER LocalFree IN kernel32;
 
 
 ## Parameters:
-```txt  
-hMem
-[in] Handle to the local memory object. This handle is returned by either the LocalAlloc or LocalReAlloc function.  
-```  
+hMem 
+[in] Handle to the local memory object. This handle is returned by either the LocalAlloc or LocalReAlloc function.   
 ***  
 
 

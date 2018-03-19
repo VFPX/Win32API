@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : WNetOpenEnum
+## Function name : WNetOpenEnum
 Group: Windows Networking - Library: mpr    
 ***  
 
@@ -39,23 +37,21 @@ DECLARE INTEGER WNetOpenEnum IN mpr;
 
 
 ## Parameters:
-```txt  
-dwScope
+dwScope 
 [in] Specifies the scope of the enumeration.
 
-dwType
+dwType 
 [in] Specifies the resource types to enumerate.
 
-dwUsage
+dwUsage 
 [in] Specifies the resource usage type to enumerate.
 
-lpNetResource
+lpNetResource 
 [in] Pointer to a NETRESOURCE structure that specifies the container to enumerate.
 
-lphEnum
-[out] Pointer to an enumeration handle that can be used in a subsequent call to WNetEnumResource.
+lphEnum 
+[out] Pointer to an enumeration handle that can be used in a subsequent call to WNetEnumResource. 
   
-```  
 ***  
 
 

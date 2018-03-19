@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : NetUserAdd
+## Function name : NetUserAdd
 Group: Network Management - Library: netapi32    
 ***  
 
@@ -39,19 +37,17 @@ DECLARE INTEGER NetUserAdd IN netapi32;
 
 
 ## Parameters:
-```txt  
-servername
+servername 
 [in] Pointer to a constant string that specifies the DNS or NetBIOS name of the remote server on which the function is to execute. If this parameter is NULL, the local computer is used.
 
-level
-[in] Specifies the information level of the data (1..4).
+level 
+[in] Specifies the information level of the data (1..4). 
 
-buf
+buf 
 [in] Pointer to the buffer that specifies the data.
 
-parm_err
+parm_err 
 [out] Pointer to a value that receives the index of the first member of the user information structure that causes ERROR_INVALID_PARAMETER.  
-```  
 ***  
 
 

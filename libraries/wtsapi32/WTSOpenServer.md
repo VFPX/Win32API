@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : WTSOpenServer
+## Function name : WTSOpenServer
 Group: Terminal Services - Library: wtsapi32    
 ***  
 
@@ -32,10 +30,8 @@ DECLARE INTEGER WTSOpenServer IN Wtsapi32;
 
 
 ## Parameters:
-```txt  
-pServerName
+pServerName 
 [in] Pointer to a null-terminated string specifying the NetBIOS name of the terminal server.  
-```  
 ***  
 
 

@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : SHQueryRecycleBin
+## Function name : SHQueryRecycleBin
 Group: Shell Functions - Library: shell32    
 ***  
 
@@ -33,13 +31,11 @@ DECLARE INTEGER SHQueryRecycleBin IN shell32;
 
 
 ## Parameters:
-```txt  
 pszRootPath
 Address of a null-terminated string of maximum length MAX_PATH to contain the path of the root drive on which the Recycle Bin is located.
 
 pSHQueryRBInfo
-Address of a SHQUERYRBINFO structure that receives the Recycle Bin information.  
-```  
+Address of a SHQUERYRBINFO structure that receives the Recycle Bin information.   
 ***  
 
 

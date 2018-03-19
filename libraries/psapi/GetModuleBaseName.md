@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : GetModuleBaseName
+## Function name : GetModuleBaseName
 Group: Performance Monitoring - Library: psapi    
 ***  
 
@@ -37,19 +35,17 @@ DECLARE INTEGER GetModuleBaseName IN psapi;
 
 
 ## Parameters:
-```txt  
-hProcess
-[in] Handle to the process that contains the module.
+hProcess 
+[in] Handle to the process that contains the module. 
 
-hModule
-[in] Handle to the module.
+hModule 
+[in] Handle to the module. 
 
-lpBaseName
-[out] Pointer to the buffer that receives the base name of the module.
+lpBaseName 
+[out] Pointer to the buffer that receives the base name of the module. 
 
-nSize
-[in] Specifies the maximum number of characters to copy to the lpBaseName buffer.  
-```  
+nSize 
+[in] Specifies the maximum number of characters to copy to the lpBaseName buffer.   
 ***  
 
 

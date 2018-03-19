@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : GetMenuString
+## Function name : GetMenuString
 Group: Menu - Library: user32    
 ***  
 
@@ -41,22 +39,20 @@ DECLARE INTEGER GetMenuString IN user32;
 
 
 ## Parameters:
-```txt  
 hMenu
-[in] Handle to the menu.
+[in] Handle to the menu. 
 
 uIDItem
-[in] Specifies the menu item to be changed, as determined by the uFlag parameter.
+[in] Specifies the menu item to be changed, as determined by the uFlag parameter. 
 
 lpString
 [out] Pointer to the buffer that receives the null-terminated string.
 
 nMaxCount
-[in] Specifies the maximum length, in characters, of the string to be copied.
+[in] Specifies the maximum length, in characters, of the string to be copied. 
 
 uFlag
 [in] Specifies how the uIDItem parameter is interpreted: MF_BYCOMMAND or MF_BYPOSITION  
-```  
 ***  
 
 

@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : GetSubMenu
+## Function name : GetSubMenu
 Group: Menu - Library: user32    
 ***  
 
@@ -33,13 +31,11 @@ DECLARE INTEGER GetSubMenu IN user32;
 
 
 ## Parameters:
-```txt  
 hMenu
-[in] Handle to the menu.
+[in] Handle to the menu. 
 
 nPos
-[in] Specifies the zero-based relative position in the specified menu of an item that activates a drop-down menu or submenu.  
-```  
+[in] Specifies the zero-based relative position in the specified menu of an item that activates a drop-down menu or submenu.   
 ***  
 
 

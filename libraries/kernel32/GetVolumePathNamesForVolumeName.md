@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : GetVolumePathNamesForVolumeName
+## Function name : GetVolumePathNamesForVolumeName
 Group: File System - Library: kernel32    
 ***  
 
@@ -39,19 +37,17 @@ DECLARE INTEGER GetVolumePathNamesForVolumeName IN kernel32;
 
 
 ## Parameters:
-```txt  
-lpszVolumeName
-[in] Pointer to a string that specifies the volume name.
+lpszVolumeName 
+[in] Pointer to a string that specifies the volume name. 
 
-lpszVolumePathNames
-[out] Pointer to a buffer that receives the list of null-terminated volume path names.
+lpszVolumePathNames 
+[out] Pointer to a buffer that receives the list of null-terminated volume path names. 
 
-cchBufferLength
-[in] Length of the lpszVolumePathNames buffer, in TCHARs.
+cchBufferLength 
+[in] Length of the lpszVolumePathNames buffer, in TCHARs. 
 
-lpcchReturnLength
-[out] If the call is successful, this parameter is the number of TCHARs copied to the lpszVolumePathNames buffer.  
-```  
+lpcchReturnLength 
+[out] If the call is successful, this parameter is the number of TCHARs copied to the lpszVolumePathNames buffer.   
 ***  
 
 

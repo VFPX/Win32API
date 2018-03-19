@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : EndUpdateResource
+## Function name : EndUpdateResource
 Group: Resource - Library: kernel32    
 ***  
 
@@ -34,13 +32,11 @@ DECLARE INTEGER EndUpdateResource IN kernel32;
 
 
 ## Parameters:
-```txt  
 hUpdate
-[in] Handle used in a resource update. This handle is returned by the BeginUpdateResource function.
+[in] Handle used in a resource update. This handle is returned by the BeginUpdateResource function. 
 
 fDiscard
 [in] Specifies whether to write resource updates to an executable file. If this parameter is TRUE, no changes are made to the executable file. If it is FALSE, the changes are made.  
-```  
 ***  
 
 

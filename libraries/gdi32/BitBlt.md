@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : BitBlt
+## Function name : BitBlt
 Group: Bitmap - Library: gdi32    
 ***  
 
@@ -65,34 +63,32 @@ DECLARE INTEGER BitBlt IN gdi32;
 
 
 ## Parameters:
-```txt  
-hdcDest
-[in] Handle to the destination device context.
+hdcDest 
+[in] Handle to the destination device context. 
 
-nXDest
-[in] Specifies the logical x-coordinate of the upper-left corner of the destination rectangle.
+nXDest 
+[in] Specifies the logical x-coordinate of the upper-left corner of the destination rectangle. 
 
-nYDest
-[in] Specifies the logical y-coordinate of the upper-left corner of the destination rectangle.
+nYDest 
+[in] Specifies the logical y-coordinate of the upper-left corner of the destination rectangle. 
 
-nWidth
-[in] Specifies the logical width of the source and destination rectangles.
+nWidth 
+[in] Specifies the logical width of the source and destination rectangles. 
 
-nHeight
-[in] Specifies the logical height of the source and the destination rectangles.
+nHeight 
+[in] Specifies the logical height of the source and the destination rectangles. 
 
-hdcSrc
-[in] Handle to the source device context.
+hdcSrc 
+[in] Handle to the source device context. 
 
-nXSrc
-[in] Specifies the logical x-coordinate of the upper-left corner of the source rectangle.
+nXSrc 
+[in] Specifies the logical x-coordinate of the upper-left corner of the source rectangle. 
 
-nYSrc
-[in] Specifies the logical y-coordinate of the upper-left corner of the source rectangle.
+nYSrc 
+[in] Specifies the logical y-coordinate of the upper-left corner of the source rectangle. 
 
-dwRop
+dwRop 
 [in] Specifies a raster-operation code.  
-```  
 ***  
 
 

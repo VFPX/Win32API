@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : RestartDialog
+## Function name : RestartDialog
 Group: Shell Functions - Library: shell32    
 ***  
 
@@ -36,7 +34,6 @@ DECLARE INTEGER RestartDialog IN shell32;
 
 
 ## Parameters:
-```txt  
 hParent
 [in] A handle to the parent window.
 
@@ -45,7 +42,6 @@ pszPrompt
 
 dwFlags
 [in] Flags that specifies the type of shutdown.  
-```  
 ***  
 
 

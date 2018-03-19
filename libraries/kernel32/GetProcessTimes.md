@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : GetProcessTimes
+## Function name : GetProcessTimes
 Group: Process and Thread - Library: kernel32    
 ***  
 
@@ -39,23 +37,21 @@ DECLARE INTEGER GetProcessTimes IN kernel32;
 
 
 ## Parameters:
-```txt  
-hProcess
+hProcess 
 A handle to the process whose timing information is sought. The handle must have the PROCESS_QUERY_INFORMATION or PROCESS_QUERY_LIMITED_INFORMATION access right.
 
-lpCreationTime
+lpCreationTime 
 A pointer to a FILETIME structure that receives the creation time of the process.
 
-lpExitTime
+lpExitTime 
 A pointer to a FILETIME structure that receives the exit time of the process.
 
-lpKernelTime
-A pointer to a FILETIME structure that receives the amount of time that the process has executed in kernel mode.
+lpKernelTime 
+A pointer to a FILETIME structure that receives the amount of time that the process has executed in kernel mode. 
 
-lpUserTime
-A pointer to a FILETIME structure that receives the amount of time that the process has executed in user mode.
+lpUserTime 
+A pointer to a FILETIME structure that receives the amount of time that the process has executed in user mode. 
   
-```  
 ***  
 
 

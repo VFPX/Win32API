@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : FormatMessage
+## Function name : FormatMessage
 Group: Error Handling - Library: kernel32    
 ***  
 
@@ -47,29 +45,27 @@ DECLARE INTEGER FormatMessage IN kernel32;
 
 
 ## Parameters:
-```txt  
-dwFlags
+dwFlags 
 [in] Specifies aspects of the formatting process and how to interpret the lpSource parameter
 
-lpSource
+lpSource 
 [in] Specifies the location of the message definition
 
-dwMessageId
+dwMessageId 
 [in] Specifies the message identifier for the requested message. For obtaining system error messages put the error code into this parameter.
 
-dwLanguageId
+dwLanguageId 
 [in] Specifies the language identifier for the requested message
 
-lpBuffer
+lpBuffer 
 [out] Pointer to a buffer for the formatted (and null-terminated) message
 
 nSize
 Maximum or minimum (depends on settings) number of bytes in the output buffer
 
-Arguments
+Arguments 
 [in] Pointer to an array of values that are used as insert values in the formatted message
   
-```  
 ***  
 
 

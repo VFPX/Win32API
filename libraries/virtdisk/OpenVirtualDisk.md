@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : OpenVirtualDisk
+## Function name : OpenVirtualDisk
 Group: Virtual Hard Disk (Win7) - Library: virtdisk    
 ***  
 
@@ -38,7 +36,6 @@ DECLARE LONG OpenVirtualDisk IN virtdisk;
 
 
 ## Parameters:
-```txt  
 VirtualStorageType [in]
 A pointer to a valid VIRTUAL_STORAGE_TYPE structure.
 
@@ -56,7 +53,6 @@ An optional pointer to a valid OPEN_VIRTUAL_DISK_PARAMETERS structure. Can be NU
 
 Handle [out]
 A pointer to the handle object that represents the open virtual disk.  
-```  
 ***  
 
 

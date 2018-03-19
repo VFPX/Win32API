@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : CryptProtectData
+## Function name : CryptProtectData
 Group: Cryptography Reference - Library: crypt32    
 ***  
 
@@ -40,7 +38,6 @@ DECLARE INTEGER CryptProtectData IN crypt32;
 
 
 ## Parameters:
-```txt  
 pDataIn [in]
 A pointer to a DATA_BLOB structure that contains the plaintext to be encrypted.
 
@@ -61,7 +58,6 @@ This parameter can be one of several predefined flags.
 
 pDataOut [out]
 A pointer to a DATA_BLOB structure that receives the encrypted data.  
-```  
 ***  
 
 

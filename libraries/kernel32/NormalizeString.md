@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : NormalizeString
+## Function name : NormalizeString
 Group: National Language Support - Library: kernel32    
 ***  
 
@@ -37,7 +35,6 @@ DECLARE INTEGER NormalizeString IN kernel32;
 
 
 ## Parameters:
-```txt  
 NormForm [in]
 Normalization form to use. NORM_FORM specifies the standard Unicode normalization forms.
 
@@ -52,7 +49,6 @@ Pointer to a buffer in which the function retrieves the destination string.
 
 cwDstLength [in]
 Length, in characters, of the buffer containing the destination string. Alternatively, the application can set this parameter to 0 to request the function to return the required size for the destination buffer.  
-```  
 ***  
 
 

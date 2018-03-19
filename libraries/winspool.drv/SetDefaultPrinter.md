@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : SetDefaultPrinter
+## Function name : SetDefaultPrinter
 Group: Printing and Print Spooler - Library: winspool.drv    
 ***  
 
@@ -32,10 +30,8 @@ DECLARE INTEGER SetDefaultPrinter IN winspool.drv;
 
 
 ## Parameters:
-```txt  
-pszPrinter
+pszPrinter 
 [in] Pointer to a null-terminated string containing the default printer name. For a remote printer, the name format is \\server\printername. For a local printer, the name format is printername.  
-```  
 ***  
 
 

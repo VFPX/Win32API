@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : ShowHTMLDialog
+## Function name : ShowHTMLDialog
 Group: MSHTML Reference - Library: mshtml    
 ***  
 
@@ -39,7 +37,6 @@ DECLARE INTEGER ShowHTMLDialog IN mshtml;
 
 
 ## Parameters:
-```txt  
 hwndParent
 A handle to the parent of the dialog box.
 
@@ -54,7 +51,6 @@ pchOptions
 
 pvarArgOut
 The address of a VARIANT structure that contains the output data for the dialog box. This parameter can be NULL.  
-```  
 ***  
 
 

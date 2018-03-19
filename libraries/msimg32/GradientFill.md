@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : GradientFill
+## Function name : GradientFill
 Group: Bitmap - Library: msimg32    
 ***  
 
@@ -42,25 +40,23 @@ DECLARE INTEGER GradientFill IN Msimg32;
 
 
 ## Parameters:
-```txt  
-hdc
-[in] Handle to the destination device context.
+hdc 
+[in] Handle to the destination device context. 
 
-pVertex
-[in] Pointer to an array of TRIVERTEX structures that each define a triangle vertex.
+pVertex 
+[in] Pointer to an array of TRIVERTEX structures that each define a triangle vertex. 
 
-dwNumVertex
-[in] The number of vertices in pVertex.
+dwNumVertex 
+[in] The number of vertices in pVertex. 
 
-pMesh
-[in] Array of GRADIENT_TRIANGLE structures in triangle mode, or an array of GRADIENT_RECT structures in rectangle mode.
+pMesh 
+[in] Array of GRADIENT_TRIANGLE structures in triangle mode, or an array of GRADIENT_RECT structures in rectangle mode. 
 
-dwNumMesh
-[in] The number of elements (triangles or rectangles) in pMesh.
+dwNumMesh 
+[in] The number of elements (triangles or rectangles) in pMesh. 
 
-dwMode
-[in] Specifies gradient fill mode. This parameter can be one of the following values.  
-```  
+dwMode 
+[in] Specifies gradient fill mode. This parameter can be one of the following values.   
 ***  
 
 

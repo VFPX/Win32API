@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : HeapValidate
+## Function name : HeapValidate
 Group: Memory Management - Library: kernel32    
 ***  
 
@@ -37,17 +35,15 @@ DECLARE INTEGER HeapValidate IN kernel32;
 
 
 ## Parameters:
-```txt  
-hHeap
-[in] Handle to the heap of interest. The HeapValidate function attempts to validate this heap, or a single memory block within this heap.
+hHeap 
+[in] Handle to the heap of interest. The HeapValidate function attempts to validate this heap, or a single memory block within this heap. 
 
-dwFlags
-[in] Specifies heap access during function operation.
+dwFlags 
+[in] Specifies heap access during function operation. 
 
-lpMem
-[in] Pointer to a memory block within the specified heap. This parameter may be NULL.
+lpMem 
+[in] Pointer to a memory block within the specified heap. This parameter may be NULL. 
 If this parameter is NULL, the function attempts to validate the entire heap specified by hHeap.  
-```  
 ***  
 
 

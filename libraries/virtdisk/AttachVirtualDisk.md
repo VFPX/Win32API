@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : AttachVirtualDisk
+## Function name : AttachVirtualDisk
 Group: Virtual Hard Disk (Win7) - Library: virtdisk    
 ***  
 
@@ -38,7 +36,6 @@ DECLARE LONG AttachVirtualDisk IN virtdisk;
 
 
 ## Parameters:
-```txt  
 VirtualDiskHandle [in]
 A handle to an open virtual disk. For information on how to open a virtual disk, see the OpenVirtualDisk function.
 
@@ -56,7 +53,6 @@ A pointer to a valid ATTACH_VIRTUAL_DISK_PARAMETERS structure that contains atta
 
 Overlapped [in]
 An optional pointer to a valid OVERLAPPED structure if asynchronous operation is desired.  
-```  
 ***  
 
 

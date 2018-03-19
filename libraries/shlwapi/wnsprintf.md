@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : wnsprintf
+## Function name : wnsprintf
 Group: Shell Lightweight Utility APIs -- string functions - Library: shlwapi    
 ***  
 
@@ -39,16 +37,14 @@ DECLARE INTEGER wnsprintf IN Shlwapi;
 
 
 ## Parameters:
-```txt  
-lpOut
-[out] Buffer to hold the output string.
+lpOut 
+[out] Buffer to hold the output string. 
 
-cchLimitIn
-[in] Maximum number of characters allowed in lpOut.
+cchLimitIn 
+[in] Maximum number of characters allowed in lpOut. 
 
-pszFmt
-[in] printf-style format string.  
-```  
+pszFmt 
+[in] printf-style format string.   
 ***  
 
 

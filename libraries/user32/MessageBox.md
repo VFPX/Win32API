@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : MessageBox
+## Function name : MessageBox
 Group: Dialog Box - Library: user32    
 ***  
 
@@ -39,19 +37,17 @@ DECLARE INTEGER MessageBox IN user32 As MessageBoxA;
 
 
 ## Parameters:
-```txt  
-hWnd
+hWnd 
 [in] Handle to the owner window of the message box to be created
 
-lpText
+lpText 
 [in] Pointer to a null-terminated string that contains the message to be displayed
 
-lpCaption
+lpCaption 
 [in] Pointer to a null-terminated string that contains the dialog box title
 
-uType
+uType 
 [in] Specifies the contents and behavior of the dialog box. This parameter can be a combination of flags  
-```  
 ***  
 
 

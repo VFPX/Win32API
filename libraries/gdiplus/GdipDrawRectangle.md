@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : GdipDrawRectangle
+## Function name : GdipDrawRectangle
 Group: GDI+ Graphics - Library: gdiplus    
 ***  
 
@@ -42,25 +40,23 @@ DECLARE INTEGER GdipDrawRectangle IN gdiplus;
 
 
 ## Parameters:
-```txt  
 graphics
 [in] Pointer to a Graphics object.
 
 pen
-[in] Pointer to a Pen that is used to draw the rectangle.
+[in] Pointer to a Pen that is used to draw the rectangle. 
 
 x
-[in] Real number that specifies the x-coordinate of the upper-left corner of the rectangle.
+[in] Real number that specifies the x-coordinate of the upper-left corner of the rectangle. 
 
 y
-[in] Real number that specifies the y-coordinate of the upper-left corner of the rectangle.
+[in] Real number that specifies the y-coordinate of the upper-left corner of the rectangle. 
 
 width
-[in] Real number that specifies the width of the rectangle.
+[in] Real number that specifies the width of the rectangle. 
 
 height
-[in] Real number that specifies the height of the rectangle.  
-```  
+[in] Real number that specifies the height of the rectangle.   
 ***  
 
 

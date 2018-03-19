@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : PostMessage
+## Function name : PostMessage
 Group: Message and Message Queue - Library: user32    
 ***  
 
@@ -40,19 +38,17 @@ DECLARE SHORT PostMessage IN user32;
 
 
 ## Parameters:
-```txt  
-hWnd
-[in] Handle to the window whose window procedure is to receive the message.
+hWnd 
+[in] Handle to the window whose window procedure is to receive the message. 
 
-Msg
-[in] Specifies the message to be posted.
+Msg 
+[in] Specifies the message to be posted. 
 
-wParam
-[in] Specifies additional message-specific information.
+wParam 
+[in] Specifies additional message-specific information. 
 
-lParam
+lParam 
 [in] Specifies additional message-specific information.  
-```  
 ***  
 
 

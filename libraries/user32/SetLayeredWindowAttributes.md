@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : SetLayeredWindowAttributes
+## Function name : SetLayeredWindowAttributes
 Group: Window - Library: user32    
 ***  
 
@@ -44,7 +42,6 @@ DECLARE INTEGER SetLayeredWindowAttributes IN user32;
 
 
 ## Parameters:
-```txt  
 hwnd
 [in] Handle to the layered window.
 
@@ -52,11 +49,10 @@ crKey
 [in] COLORREF structure that specifies the transparency color key to be used when composing the layered window.
 
 bAlpha
-[in] Alpha value used to describe the opacity of the layered window.
+[in] Alpha value used to describe the opacity of the layered window. 
 
 dwFlags
 [in] Specifies an action to take: LWA_COLORKEY, LWA_ALPHA  
-```  
 ***  
 
 

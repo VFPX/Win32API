@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : SearchPath
+## Function name : SearchPath
 Group: File Management - Library: kernel32    
 ***  
 
@@ -41,25 +39,23 @@ DECLARE INTEGER SearchPath IN kernel32;
 
 
 ## Parameters:
-```txt  
-lpPath
-[in] Pointer to a null-terminated string that specifies the path to be searched for the file.
+lpPath 
+[in] Pointer to a null-terminated string that specifies the path to be searched for the file. 
 
-lpFileName
-[in] Pointer to a null-terminated string that specifies the name of the file to search for.
+lpFileName 
+[in] Pointer to a null-terminated string that specifies the name of the file to search for. 
 
-lpExtension
-[in] Pointer to a null-terminated string that specifies an extension to be added to the file name when searching for the file.
+lpExtension 
+[in] Pointer to a null-terminated string that specifies an extension to be added to the file name when searching for the file. 
 
-nBufferLength
-[in] Specifies the length, in TCHARs, of the buffer that receives the valid path and file name.
+nBufferLength 
+[in] Specifies the length, in TCHARs, of the buffer that receives the valid path and file name. 
 
-lpBuffer
-[out] Pointer to the buffer that receives the path and file name of the file found.
+lpBuffer 
+[out] Pointer to the buffer that receives the path and file name of the file found. 
 
-lpFilePart
-[out] Pointer to the variable that receives the address (within lpBuffer) of the last component of the valid path and file name, which is the address of the character immediately following the final backslash (\) in the path.  
-```  
+lpFilePart 
+[out] Pointer to the variable that receives the address (within lpBuffer) of the last component of the valid path and file name, which is the address of the character immediately following the final backslash (\) in the path.   
 ***  
 
 

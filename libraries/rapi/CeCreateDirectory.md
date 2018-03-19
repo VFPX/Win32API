@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : CeCreateDirectory
+## Function name : CeCreateDirectory
 Group: Remote Application Programming (RAPI) - Library: rapi    
 ***  
 
@@ -34,13 +32,11 @@ DECLARE INTEGER CeCreateDirectory IN rapi;
 
 
 ## Parameters:
-```txt  
-lpPathName
-[in] Long pointer to a null-terminated string that specifies the path of the directory to be created.
+lpPathName 
+[in] Long pointer to a null-terminated string that specifies the path of the directory to be created. 
 
-lpSecurityAttributes
-[in] Ignored; set to NULL.  
-```  
+lpSecurityAttributes 
+[in] Ignored; set to NULL.   
 ***  
 
 

@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : WinHttpQueryHeaders
+## Function name : WinHttpQueryHeaders
 Group: HTTP Functions (WinHTTP) - Library: winhttp    
 ***  
 
@@ -42,25 +40,23 @@ DECLARE INTEGER WinHttpQueryHeaders IN winhttp;
 
 
 ## Parameters:
-```txt  
-hRequest
+hRequest 
 [in] HINTERNET request handle returned by WinHttpOpenRequest.
 
-dwInfoLevel
+dwInfoLevel 
 [in] Value of type DWORD that specifies a combination of attribute and modifier flags.
 
-pwszName
-[in, optional] Pointer to a string that contains the header name.
+pwszName 
+[in, optional] Pointer to a string that contains the header name. 
 
-lpBuffer
-[out] Pointer to the buffer that receives the information.
+lpBuffer 
+[out] Pointer to the buffer that receives the information. 
 
-lpdwBufferLength
+lpdwBufferLength 
 [in, out] Pointer to a value of type DWORD that specifies the length of the data buffer, in bytes.
 
-lpdwIndex
+lpdwIndex 
 [in, out] Pointer to a zero-based header index used to enumerate multiple headers with the same name.  
-```  
 ***  
 
 

@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : SetParent
+## Function name : SetParent
 Group: Window - Library: user32    
 ***  
 
@@ -35,13 +33,11 @@ DECLARE INTEGER SetParent IN user32;
 
 
 ## Parameters:
-```txt  
-hWndChild
-[in] Handle to the child window.
+hWndChild 
+[in] Handle to the child window. 
 
-hWndNewParent
-[in] Handle to the new parent window.  
-```  
+hWndNewParent 
+[in] Handle to the new parent window.   
 ***  
 
 

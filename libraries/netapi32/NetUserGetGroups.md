@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : NetUserGetGroups
+## Function name : NetUserGetGroups
 Group: Network Management - Library: netapi32    
 ***  
 
@@ -45,28 +43,26 @@ DECLARE INTEGER NetUserGetGroups IN netapi32;
 
 
 ## Parameters:
-```txt  
-servername
-[in] Pointer to a constant string that specifies the DNS or NetBIOS name of the remote server on which the function is to execute.
+servername 
+[in] Pointer to a constant string that specifies the DNS or NetBIOS name of the remote server on which the function is to execute. 
 
-username
-[in] Pointer to a constant string that specifies the name of the user to search for in each group account.
+username 
+[in] Pointer to a constant string that specifies the name of the user to search for in each group account. 
 
-level
+level 
 [in] Specifies the information level of the data.
 
-bufptr
+bufptr 
 [out] Pointer to the buffer that receives the data. This buffer is allocated by the system and must be freed using the NetApiBufferFree function.
 
-prefmaxlen
+prefmaxlen 
 [in] Specifies the preferred maximum length of returned data, in bytes.
 
-entriesread
-[out] Pointer to a value that receives the count of elements actually retrieved.
+entriesread 
+[out] Pointer to a value that receives the count of elements actually retrieved. 
 
-totalentries
-[out] Pointer to a value that receives the total number of entries that could have been retrieved.  
-```  
+totalentries 
+[out] Pointer to a value that receives the total number of entries that could have been retrieved.   
 ***  
 
 

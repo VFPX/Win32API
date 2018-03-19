@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : NetUserSetInfo
+## Function name : NetUserSetInfo
 Group: Network Management - Library: netapi32    
 ***  
 
@@ -41,22 +39,20 @@ DECLARE INTEGER NetUserSetInfo IN netapi32;
 
 
 ## Parameters:
-```txt  
-servername
+servername 
 [in] Pointer to a constant string that specifies the DNS or NetBIOS name of the remote server on which the function is to execute. If this parameter is NULL, the local computer is used.
 
-username
+username 
 [in] Pointer to a constant string that specifies the name of the user account for which to set information.
 
-level
+level 
 [in] Specifies the information level of the data.
 
-buf
-[in] Pointer to the buffer that specifies the data. The format of this data depends on the value of the level parameter.
+buf 
+[in] Pointer to the buffer that specifies the data. The format of this data depends on the value of the level parameter. 
 
-parm_err
-[out] Pointer to a value that receives the index of the first member of the user information structure that causes ERROR_INVALID_PARAMETER.  
-```  
+parm_err 
+[out] Pointer to a value that receives the index of the first member of the user information structure that causes ERROR_INVALID_PARAMETER.   
 ***  
 
 

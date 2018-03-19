@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : CreateWindowEx
+## Function name : CreateWindowEx
 Group: Window - Library: user32    
 ***  
 
@@ -63,17 +61,16 @@ DECLARE INTEGER CreateWindowEx IN user32;
 
 
 ## Parameters:
-```txt  
-dwExStyle
+dwExStyle 
 [in] Specifies the extended window style of the window being created
 
-lpClassName
+lpClassName 
 [in] Pointer to a null-terminated string or a class atom created by a previous call to the RegisterClass or RegisterClassEx function
 
-lpWindowName
+lpWindowName 
 [in] Pointer to a null-terminated string that specifies the window name
 
-dwStyle
+dwStyle 
 [in] Specifies the style of the window being created
 
 x, y
@@ -82,18 +79,17 @@ x, y
 nWidth, nHeight
 [in] Specifies the width and the height, in device units, of the window
 
-hWndParent
+hWndParent 
 [in] Handle to the parent or owner window of the window being created
 
-hMenu
+hMenu 
 [in] Handle to a menu, or specifies a child-window identifier, depending on the window style
 
-hInstance
+hInstance 
 [in] Handle to the instance of the module to be associated with the window
 
-lpParam
+lpParam 
 [in] Pointer to a value to be passed to the window  
-```  
 ***  
 
 

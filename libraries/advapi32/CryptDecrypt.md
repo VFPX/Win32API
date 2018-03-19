@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : CryptDecrypt
+## Function name : CryptDecrypt
 Group: Cryptography Reference - Library: advapi32    
 ***  
 
@@ -43,25 +41,23 @@ DECLARE INTEGER CryptDecrypt IN advapi32;
 
 
 ## Parameters:
-```txt  
-hKey
-[in] Handle to the key to use for the decryption. An application obtains this handle by using either the CryptGenKey, CryptDeriveKey or CryptImportKey function.
+hKey 
+[in] Handle to the key to use for the decryption. An application obtains this handle by using either the CryptGenKey, CryptDeriveKey or CryptImportKey function. 
 
-hHash
+hHash 
 [in] Handle to a hash object. If data is to be decrypted and hashed simultaneously, a handle to a hash object is passed in this parameter.
 
-Final
+Final 
 [in] Specifies whether this is the last section in a series being decrypted. This value is TRUE if this is the last or only block.
 
-dwFlags
+dwFlags 
 [in] Currently not used.
 
-pbData
-[in, out] Buffer that holds the data to be decrypted. After the decryption has been performed, the plaintext is placed back into this same buffer.
+pbData 
+[in, out] Buffer that holds the data to be decrypted. After the decryption has been performed, the plaintext is placed back into this same buffer. 
 
-pdwDataLen
+pdwDataLen 
 [in, out] Pointer to a DWORD value that indicates the length of the pbData buffer. Before calling this function, the calling application sets the DWORD value to the number of bytes to be decrypted.  
-```  
 ***  
 
 

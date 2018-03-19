@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : PathFindExtension
+## Function name : PathFindExtension
 Group: Shell Lightweight Utility APIs -- Path Functions - Library: shlwapi    
 ***  
 
@@ -31,10 +29,8 @@ DECLARE STRING PathFindExtension IN shlwapi;
 
 
 ## Parameters:
-```txt  
-pPath
-[in] Pointer to a null-terminated string of maximum length MAX_PATH that contains the path that contains the extension for which to search.  
-```  
+pPath 
+[in] Pointer to a null-terminated string of maximum length MAX_PATH that contains the path that contains the extension for which to search.   
 ***  
 
 

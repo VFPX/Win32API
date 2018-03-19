@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : GetRawInputDeviceList
+## Function name : GetRawInputDeviceList
 Group: Raw Input - Library: user32    
 ***  
 
@@ -36,7 +34,6 @@ DECLARE INTEGER GetRawInputDeviceList IN user32;
 
 
 ## Parameters:
-```txt  
 pRawInputDeviceList [out, optional]
 An array of RAWINPUTDEVICELIST structures for the devices attached to the system. If NULL, the number of devices are returned in *puiNumDevices.
 
@@ -45,7 +42,6 @@ If pRawInputDeviceList is NULL, the function populates this variable with the nu
 
 cbSize [in]
 The size of a RAWINPUTDEVICELIST structure, in bytes.  
-```  
 ***  
 
 

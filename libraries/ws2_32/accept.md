@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : accept
+## Function name : accept
 Group: Windows Sockets 2 (Winsock) - Library: ws2_32    
 ***  
 
@@ -36,16 +34,14 @@ DECLARE INTEGER accept IN ws2_32;
 
 
 ## Parameters:
-```txt  
-s
-[in] Descriptor identifying a socket that has been placed in a listening state with the listen function. <font color=#0a0000>The connection is actually made with the socket that is returned by accept</font>.
+s 
+[in] Descriptor identifying a socket that has been placed in a listening state with the listen function. <font color=#0a0000>The connection is actually made with the socket that is returned by accept</font>. 
 
-addr
+addr 
 [out] Optional pointer to a buffer that receives the address of the connecting entity, as known to the communications layer.
 
-addrlen
-[out] Optional pointer to an integer that contains the length of addr.  
-```  
+addrlen 
+[out] Optional pointer to an integer that contains the length of addr.   
 ***  
 
 

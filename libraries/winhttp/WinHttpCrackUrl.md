@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : WinHttpCrackUrl
+## Function name : WinHttpCrackUrl
 Group: HTTP Functions (WinHTTP) - Library: winhttp    
 ***  
 
@@ -38,20 +36,18 @@ DECLARE INTEGER WinHttpCrackUrl IN winhttp;
 
 
 ## Parameters:
-```txt  
-pwszUrl
+pwszUrl 
 [in] Pointer to a LPCWSTR that contains the canonical URL to separate.
 
-dwUrlLength
+dwUrlLength 
 [in] Value of type DWORD that contains the length of the pwszUrl string, in WCHARs.
 
-dwFlags
+dwFlags 
 [in] Value of type DWORD that contains the flags that control the operation.
 
-lpUrlComponents
+lpUrlComponents 
 [in, out] Pointer to a URL_COMPONENTS structure that receives the URL components.
   
-```  
 ***  
 
 

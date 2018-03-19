@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : GetClipboardFormatName
+## Function name : GetClipboardFormatName
 Group: Clipboard - Library: user32    
 ***  
 
@@ -37,16 +35,14 @@ DECLARE INTEGER GetClipboardFormatName IN user32;
 
 
 ## Parameters:
-```txt  
-format
-[in] Specifies the type of format to be retrieved.
+format 
+[in] Specifies the type of format to be retrieved. 
 
-lpszFormatName
-[out] Pointer to the buffer that is to receive the format name.
+lpszFormatName 
+[out] Pointer to the buffer that is to receive the format name. 
 
-cchMaxCount
-[in] Specifies the maximum length, in TCHARs, of the string to be copied to the buffer.  
-```  
+cchMaxCount 
+[in] Specifies the maximum length, in TCHARs, of the string to be copied to the buffer.   
 ***  
 
 

@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : GetProcessMemoryInfo
+## Function name : GetProcessMemoryInfo
 Group: Performance Monitoring - Library: psapi    
 ***  
 
@@ -35,17 +33,15 @@ DECLARE INTEGER GetProcessMemoryInfo IN psapi;
 
 
 ## Parameters:
-```txt  
-Process
-[in] Handle to the process.
+Process 
+[in] Handle to the process. 
 
-ppsmemCounters
-[out] Pointer to the PROCESS_MEMORY_COUNTERS structure that receives information about the memory usage of the process.
+ppsmemCounters 
+[out] Pointer to the PROCESS_MEMORY_COUNTERS structure that receives information about the memory usage of the process. 
 
-cb
-[in] Specifies the size, in bytes, of the PROCESS_MEMORY_COUNTERS structure.
+cb 
+[in] Specifies the size, in bytes, of the PROCESS_MEMORY_COUNTERS structure. 
   
-```  
 ***  
 
 

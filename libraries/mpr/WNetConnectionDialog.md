@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : WNetConnectionDialog
+## Function name : WNetConnectionDialog
 Group: Windows Networking - Library: mpr    
 ***  
 
@@ -33,13 +31,11 @@ DECLARE INTEGER WNetConnectionDialog IN mpr;
 
 
 ## Parameters:
-```txt  
-hwnd
-[in] Specifies a handle to the owner window for the dialog box.
+hwnd 
+[in] Specifies a handle to the owner window for the dialog box. 
 
-dwType
-[in] Specifies the resource type to allow connections to.  
-```  
+dwType 
+[in] Specifies the resource type to allow connections to.   
 ***  
 
 

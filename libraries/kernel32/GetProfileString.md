@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : GetProfileString
+## Function name : GetProfileString
 Group: Registry - Library: kernel32    
 ***  
 
@@ -51,22 +49,20 @@ DECLARE INTEGER GetProfileString IN kernel32;
 
 
 ## Parameters:
-```txt  
-lpAppName
-[in] Pointer to a null-terminated string that specifies the name of the section containing the key.
+lpAppName 
+[in] Pointer to a null-terminated string that specifies the name of the section containing the key. 
 
-lpKeyName
-[in] Pointer to a null-terminated string specifying the name of the key whose associated string is to be retrieved.
+lpKeyName 
+[in] Pointer to a null-terminated string specifying the name of the key whose associated string is to be retrieved. 
 
-lpDefault
-[in] Pointer to a null-terminated default string.
+lpDefault 
+[in] Pointer to a null-terminated default string. 
 
-lpReturnedString
-[out] Pointer to a buffer that receives the character string.
+lpReturnedString 
+[out] Pointer to a buffer that receives the character string. 
 
-nSize
+nSize 
 [in] Specifies the size, in TCHARs, of the buffer pointed to by the lpReturnedString parameter.  
-```  
 ***  
 
 

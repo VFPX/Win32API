@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : midiOutOpen
+## Function name : midiOutOpen
 Group: Windows Multimedia - Library: winmm    
 ***  
 
@@ -42,7 +40,6 @@ DECLARE INTEGER midiOutOpen IN Winmm;
 
 
 ## Parameters:
-```txt  
 lphmo
 Pointer to an HMIDIOUT handle. This location is filled with a handle identifying the opened MIDI output device. The handle is used to identify the device in calls to other MIDI output functions.
 
@@ -50,7 +47,7 @@ uDeviceID
 Identifier of the MIDI output device that is to be opened.
 
 dwCallback
-Pointer to a callback function, an event handle, a thread identifier, or a handle of a window or thread called during MIDI playback to process messages related to the progress of the playback.
+Pointer to a callback function, an event handle, a thread identifier, or a handle of a window or thread called during MIDI playback to process messages related to the progress of the playback. 
 
 dwCallbackInstance
 User instance data passed to the callback. This parameter is not used with window callbacks or threads.
@@ -58,7 +55,6 @@ User instance data passed to the callback. This parameter is not used with windo
 dwFlags
 Callback flag for opening the device. It can be the following values.
   
-```  
 ***  
 
 

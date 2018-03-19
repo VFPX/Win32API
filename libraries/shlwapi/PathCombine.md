@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : PathCombine
+## Function name : PathCombine
 Group: Shell Lightweight Utility APIs -- Path Functions - Library: shlwapi    
 ***  
 
@@ -35,7 +33,6 @@ DECLARE INTEGER PathCombine IN shlwapi;
 
 
 ## Parameters:
-```txt  
 lpszDest [out]
 Type: LPTSTR
 A pointer to a buffer with the null-terminated string to hold the combined path string.
@@ -47,7 +44,6 @@ A pointer to a null-terminated string of maximum length MAX_PATH that contains t
 lpszFile [in]
 Type: LPCTSTR
 A pointer to a null-terminated string of maximum length MAX_PATH that contains the file path. This value can be NULL.  
-```  
 ***  
 
 

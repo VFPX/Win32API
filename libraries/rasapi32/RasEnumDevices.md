@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : RasEnumDevices
+## Function name : RasEnumDevices
 Group: Remote Access Service (RAS) - Library: rasapi32    
 ***  
 
@@ -37,16 +35,14 @@ DECLARE INTEGER RasEnumDevices IN rasapi32;
 
 
 ## Parameters:
-```txt  
-lpRasDevInfo
+lpRasDevInfo 
 [in] Pointer to a buffer that receives an array of RASDEVINFO structures, one for each RAS-capable device.
 
-lpcb
-[in, out] Pointer to a variable that, on input, contains the size, in bytes, of the lpRasDevInfo buffer.
+lpcb 
+[in, out] Pointer to a variable that, on input, contains the size, in bytes, of the lpRasDevInfo buffer. 
 
-lpcDevices
-[out] Pointer to a variable that receives the number of RASDEVINFO structures written to the lpRasDevInfo buffer.  
-```  
+lpcDevices 
+[out] Pointer to a variable that receives the number of RASDEVINFO structures written to the lpRasDevInfo buffer.   
 ***  
 
 

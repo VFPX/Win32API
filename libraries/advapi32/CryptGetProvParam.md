@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : CryptGetProvParam
+## Function name : CryptGetProvParam
 Group: Cryptography Reference - Library: advapi32    
 ***  
 
@@ -40,22 +38,20 @@ DECLARE INTEGER CryptGetProvParam IN advapi32;
 
 
 ## Parameters:
-```txt  
-hProv
-[in] Handle of the CSP target of the query. This handle must have been created using CryptAcquireContext.
+hProv 
+[in] Handle of the CSP target of the query. This handle must have been created using CryptAcquireContext. 
 
-dwParam
+dwParam 
 [in] Predefined value specifying the nature of the query.
 
-pbData
+pbData 
 [out] Pointer to a buffer to receive the data. The form of this data varies depending on the value of dwParam.
 
-pdwDataLen
+pdwDataLen 
 [in, out] Pointer to a DWORD value specifying the size, in bytes, of the buffer pointed to by the pbData parameter.
 
-dwFlags
+dwFlags 
 [in] Flag values.  
-```  
 ***  
 
 

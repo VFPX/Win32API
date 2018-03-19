@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : SetThreadDesktop
+## Function name : SetThreadDesktop
 Group: Window Station and Desktop - Library: user32    
 ***  
 
@@ -32,10 +30,8 @@ DECLARE INTEGER SetThreadDesktop IN user32;
 
 
 ## Parameters:
-```txt  
-hDesktop
+hDesktop 
 [in] Handle to the desktop to be assigned to the calling thread. This handle is returned by the CreateDesktop, GetThreadDesktop, OpenDesktop, or OpenInputDesktop function.  
-```  
 ***  
 
 

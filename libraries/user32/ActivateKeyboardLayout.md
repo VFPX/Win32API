@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : ActivateKeyboardLayout
+## Function name : ActivateKeyboardLayout
 Group: Keyboard Input - Library: user32    
 ***  
 
@@ -33,13 +31,11 @@ DECLARE INTEGER ActivateKeyboardLayout IN user32;
 
 
 ## Parameters:
-```txt  
-hkl
-[in] Input locale identifier to be activated.
+hkl 
+[in] Input locale identifier to be activated. 
 
-Flags
-[in] Specifies how the input locale identifier is to be activated.  
-```  
+Flags 
+[in] Specifies how the input locale identifier is to be activated.   
 ***  
 
 

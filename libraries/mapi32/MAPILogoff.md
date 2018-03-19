@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : MAPILogoff
+## Function name : MAPILogoff
 Group: Simple MAPI - Library: mapi32    
 ***  
 
@@ -39,20 +37,18 @@ DECLARE INTEGER MAPILogoff IN mapi32;
 
 
 ## Parameters:
-```txt  
-lhSession
-[in] Handle for the Simple MAPI session to be terminated. Session handles are returned by the MAPILogon function.
+lhSession 
+[in] Handle for the Simple MAPI session to be terminated. Session handles are returned by the MAPILogon function. 
 
-ulUIParam
-[in] Parent window handle or zero, indicating that if a dialog box is displayed, it is application modal.
+ulUIParam 
+[in] Parent window handle or zero, indicating that if a dialog box is displayed, it is application modal. 
 
-flFlags
-Reserved; must be zero.
+flFlags 
+Reserved; must be zero. 
 
-ulReserved
-Reserved; must be zero.
+ulReserved 
+Reserved; must be zero. 
   
-```  
 ***  
 
 

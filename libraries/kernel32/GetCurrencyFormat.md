@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : GetCurrencyFormat
+## Function name : GetCurrencyFormat
 Group: National Language Support - Library: kernel32    
 ***  
 
@@ -38,7 +36,6 @@ DECLARE INTEGER GetCurrencyFormat IN kernel32;
 
 
 ## Parameters:
-```txt  
 Locale [in]
 Locale identifier that specifies the locale for which this function formats the currency string.
 
@@ -56,7 +53,6 @@ Pointer to a buffer in which this function retrieves the formatted currency stri
 
 cchCurrency [in]
 Size, in characters, of the lpCurrencyStr buffer.  
-```  
 ***  
 
 

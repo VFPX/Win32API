@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : GdipGetFontCollectionFamilyList
+## Function name : GdipGetFontCollectionFamilyList
 Group: GDI+ Font - Library: gdiplus    
 ***  
 
@@ -39,7 +37,6 @@ DECLARE INTEGER GdipGetFontCollectionFamilyList IN gdiplus;
 
 
 ## Parameters:
-```txt  
 fontCollection
 [in] Handle to FontCollection object.
 
@@ -52,7 +49,6 @@ gpfamilies
 numFound
 [out] Pointer to an INT that receives the number of font families found in this collection. This number should be the same as the numSought value.
   
-```  
 ***  
 
 

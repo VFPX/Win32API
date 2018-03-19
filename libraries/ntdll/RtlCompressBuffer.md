@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : RtlCompressBuffer
+## Function name : RtlCompressBuffer
 Group: Data Decompression Library - Library: ntdll    
 ***  
 
@@ -45,7 +43,6 @@ DECLARE INTEGER RtlCompressBuffer IN ntdll;
 
 
 ## Parameters:
-```txt  
 CompressionFormatAndEngine [in]
 A bitmask specifying the compression format and engine type.
 
@@ -68,8 +65,7 @@ FinalCompressedSize [out]
 A pointer to a caller-allocated variable which receives the size, in bytes, of the compressed data stored in CompressedBuffer. This parameter is required and cannot be NULL.
 
 WorkSpace [in]
-A pointer to a caller-allocated work space buffer used by the RtlCompressBuffer function during compression.  
-```  
+A pointer to a caller-allocated work space buffer used by the RtlCompressBuffer function during compression.   
 ***  
 
 

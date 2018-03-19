@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : RealGetWindowClass
+## Function name : RealGetWindowClass
 Group: Window - Library: user32    
 ***  
 
@@ -41,16 +39,14 @@ DECLARE INTEGER RealGetWindowClass IN user32;
 
 
 ## Parameters:
-```txt  
-hwnd
-[in] Handle to the window whose type will be retrieved.
+hwnd 
+[in] Handle to the window whose type will be retrieved. 
 
-pszType
-[out] Pointer to a string that receives the window type.
+pszType 
+[out] Pointer to a string that receives the window type. 
 
-cchType
+cchType 
 [in] Specifies the length, in TCHARs, of the buffer pointed to by the pszType parameter  
-```  
 ***  
 
 

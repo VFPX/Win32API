@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : midiOutGetDevCaps
+## Function name : midiOutGetDevCaps
 Group: Windows Multimedia - Library: winmm    
 ***  
 
@@ -36,17 +34,15 @@ DECLARE INTEGER midiOutGetDevCaps IN Winmm;
 
 
 ## Parameters:
-```txt  
 uDeviceID
 Identifier of the MIDI output device. The device identifier specified by this parameter varies from zero to one less than the number of devices present. The MIDI_MAPPER constant is also a valid device identifier.
 
 lpMidiOutCaps
-Pointer to a MIDIOUTCAPS structure.
+Pointer to a MIDIOUTCAPS structure. 
 
 cbMidiOutCaps
 Size, in bytes, of the MIDIOUTCAPS structure.
   
-```  
 ***  
 
 

@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : InternetAutodial
+## Function name : InternetAutodial
 Group: Internet Functions (WinInet) - Library: wininet    
 ***  
 
@@ -33,13 +31,11 @@ DECLARE INTEGER InternetAutodial IN wininet.dll;
 
 
 ## Parameters:
-```txt  
 dwFlags
-[in] Unsigned long integer value that contains a flag that controlls this operation.
+[in] Unsigned long integer value that contains a flag that controlls this operation. 
 
 hwndParent
 [in] Handle to the parent window.  
-```  
 ***  
 
 

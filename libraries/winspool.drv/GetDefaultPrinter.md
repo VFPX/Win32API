@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : GetDefaultPrinter
+## Function name : GetDefaultPrinter
 Group: Printing and Print Spooler - Library: winspool.drv    
 ***  
 
@@ -37,13 +35,11 @@ DECLARE INTEGER GetDefaultPrinter IN winspool.drv;
 
 
 ## Parameters:
-```txt  
-pszBuffer
+pszBuffer 
 [in] Pointer to a buffer that receives a null-terminated character string containing the default printer name.
 
-pcchBuffer
+pcchBuffer 
 [in/out] On input, specifies the size, in characters, of the pszBuffer buffer.  
-```  
 ***  
 
 

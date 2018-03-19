@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : mixerGetDevCaps
+## Function name : mixerGetDevCaps
 Group: Windows Multimedia - Library: winmm    
 ***  
 
@@ -36,7 +34,6 @@ DECLARE INTEGER mixerGetDevCaps IN winmm;
 
 
 ## Parameters:
-```txt  
 uMxId
 Identifier or handle of an open mixer device.
 
@@ -46,7 +43,6 @@ Pointer to a MIXERCAPS structure that receives information about the capabilitie
 cbmxcaps
 Size, in bytes, of the MIXERCAPS structure.
   
-```  
 ***  
 
 

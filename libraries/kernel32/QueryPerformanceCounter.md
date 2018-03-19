@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : QueryPerformanceCounter
+## Function name : QueryPerformanceCounter
 Group: Time - Library: kernel32    
 ***  
 
@@ -32,10 +30,8 @@ DECLARE INTEGER QueryPerformanceCounter IN kernel32;
 
 
 ## Parameters:
-```txt  
-lpPerformanceCount
-[out] Pointer to a variable that receives the current performance-counter value, in counts.  
-```  
+lpPerformanceCount 
+[out] Pointer to a variable that receives the current performance-counter value, in counts.   
 ***  
 
 

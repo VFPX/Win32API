@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : GdipGetImageHorizontalResolution
+## Function name : GdipGetImageHorizontalResolution
 Group: GDI+ Image - Library: gdiplus    
 ***  
 
@@ -30,13 +28,11 @@ DECLARE INTEGER GdipGetImageHorizontalResolution IN gdiplud;
 
 
 ## Parameters:
-```txt  
 img
 [in] Handle to Image Object
 
 resolution
 [out] Resolution of this image in dots per inch.  
-```  
 ***  
 
 

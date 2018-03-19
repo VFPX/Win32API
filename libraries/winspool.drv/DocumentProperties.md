@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : DocumentProperties
+## Function name : DocumentProperties
 Group: Printing and Print Spooler - Library: winspool.drv    
 ***  
 
@@ -43,25 +41,23 @@ DECLARE INTEGER DocumentProperties IN winspool.drv;
 
 
 ## Parameters:
-```txt  
-hWnd
-[in] Handle to the parent window of the printer-configuration property sheet.
+hWnd 
+[in] Handle to the parent window of the printer-configuration property sheet. 
 
-hPrinter
-[in] Handle to a printer object. Use the OpenPrinter or AddPrinter function to retrieve a printer handle.
+hPrinter 
+[in] Handle to a printer object. Use the OpenPrinter or AddPrinter function to retrieve a printer handle. 
 
-pDeviceName
-[in] Pointer to a null-terminated string that specifies the name of the device for which the printer-configuration property sheet is displayed.
+pDeviceName 
+[in] Pointer to a null-terminated string that specifies the name of the device for which the printer-configuration property sheet is displayed. 
 
-pDevModeOutput
-[out] Pointer to a DEVMODE structure that receives the printer configuration data specified by the user.
+pDevModeOutput 
+[out] Pointer to a DEVMODE structure that receives the printer configuration data specified by the user. 
 
-pDevModeInput
-[in] Pointer to a DEVMODE structure that the operating system uses to initialize the property sheet controls.
+pDevModeInput 
+[in] Pointer to a DEVMODE structure that the operating system uses to initialize the property sheet controls. 
 
-fMode
-[in] Specifies the operations the function performs. If this parameter is zero, the DocumentProperties function returns the number of bytes required by the printer driver"s DEVMODE data structure.  
-```  
+fMode 
+[in] Specifies the operations the function performs. If this parameter is zero, the DocumentProperties function returns the number of bytes required by the printer driver"s DEVMODE data structure.   
 ***  
 
 

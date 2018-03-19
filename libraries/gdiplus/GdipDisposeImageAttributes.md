@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : GdipDisposeImageAttributes
+## Function name : GdipDisposeImageAttributes
 Group: GDI+ ImageAttributes - Library: gdiplus    
 ***  
 
@@ -30,10 +28,8 @@ DECLARE INTEGER GdipDisposeImageAttributes IN gdiplus;
 
 
 ## Parameters:
-```txt  
 imageattr
 [in] Handle to the ImageAttributes object.  
-```  
 ***  
 
 

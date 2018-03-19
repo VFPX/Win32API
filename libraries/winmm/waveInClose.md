@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : waveInClose
+## Function name : waveInClose
 Group: Windows Multimedia - Library: winmm    
 ***  
 
@@ -32,10 +30,8 @@ DECLARE INTEGER waveInClose IN winmm;
 
 
 ## Parameters:
-```txt  
-hwi
-Handle to the waveform-audio input device. If the function succeeds, the handle is no longer valid after this call.  
-```  
+hwi 
+Handle to the waveform-audio input device. If the function succeeds, the handle is no longer valid after this call.   
 ***  
 
 

@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : GetTokenInformation
+## Function name : GetTokenInformation
 Group: Authorization - Library: advapi32    
 ***  
 
@@ -39,7 +37,6 @@ DECLARE INTEGER GetTokenInformation IN advapi32;
 
 
 ## Parameters:
-```txt  
 TokenHandle [in]
 A handle to an access token from which information is retrieved.
 
@@ -54,7 +51,6 @@ Specifies the size, in bytes, of the buffer pointed to by the TokenInformation p
 
 ReturnLength [out]
 A pointer to a variable that receives the number of bytes needed for the buffer pointed to by the TokenInformation parameter.  
-```  
 ***  
 
 

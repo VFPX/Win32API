@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : GetFileVersionInfo
+## Function name : GetFileVersionInfo
 Group: Version Information - Library: version    
 ***  
 
@@ -38,19 +36,17 @@ DECLARE INTEGER GetFileVersionInfo IN version.dll;
 
 
 ## Parameters:
-```txt  
 lptstrFilename
 [in] Pointer to a null-terminated string that specifies the name of the file of interest.
 
 dwHandle
-This parameter is ignored.
+This parameter is ignored. 
 
 dwLen
-[in] Specifies the size, in bytes, of the buffer pointed to by the lpData parameter.
+[in] Specifies the size, in bytes, of the buffer pointed to by the lpData parameter. 
 
 lpData
 [out] Pointer to a buffer that receives the file-version information.  
-```  
 ***  
 
 

@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : FtpCommand
+## Function name : FtpCommand
 Group: Internet Functions (WinInet) - Library: wininet    
 ***  
 
@@ -43,7 +41,6 @@ DECLARE INTEGER FtpCommand IN wininet;
 
 
 ## Parameters:
-```txt  
 hConnect
 [in] HINTERNET handle returned from a call to InternetConnect
 
@@ -57,12 +54,11 @@ lpszCommand
 [in] Pointer to a string value that contains the command to send to the FTP server
 
 dwContext
-[in] Pointer to an unsigned long integer value that contains an application-defined value
+[in] Pointer to an unsigned long integer value that contains an application-defined value 
 
 phFtpCommand
 [out] Pointer to an HINTERNET handle that will be created if a valid data socket is opened
   
-```  
 ***  
 
 

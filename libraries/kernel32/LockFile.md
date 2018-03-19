@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : LockFile
+## Function name : LockFile
 Group: File Management - Library: kernel32    
 ***  
 
@@ -39,22 +37,20 @@ DECLARE INTEGER LockFile IN kernel32;
 
 
 ## Parameters:
-```txt  
-hFile
-[in] Handle to the file with a region to be locked. The file handle must have been created with GENERIC_READ or GENERIC_WRITE access to the file (or both).
+hFile 
+[in] Handle to the file with a region to be locked. The file handle must have been created with GENERIC_READ or GENERIC_WRITE access to the file (or both). 
 
-dwFileOffsetLow
-[in] Specifies the low-order word of the starting byte offset in the file where the lock should begin.
+dwFileOffsetLow 
+[in] Specifies the low-order word of the starting byte offset in the file where the lock should begin. 
 
-dwFileOffsetHigh
-[in] Specifies the high-order word of the starting byte offset in the file where the lock should begin.
+dwFileOffsetHigh 
+[in] Specifies the high-order word of the starting byte offset in the file where the lock should begin. 
 
-nNumberOfBytesToLockLow
-[in] Specifies the low-order word of the length of the byte range to be locked.
+nNumberOfBytesToLockLow 
+[in] Specifies the low-order word of the length of the byte range to be locked. 
 
-nNumberOfBytesToLockHigh
+nNumberOfBytesToLockHigh 
 [in] Specifies the high-order word of the length of the byte range to be locked.  
-```  
 ***  
 
 

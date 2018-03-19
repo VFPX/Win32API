@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : JetBeginSession
+## Function name : JetBeginSession
 Group: Extensible Storage Engine (ESE, Jet Blue) - Library: esent    
 ***  
 
@@ -37,21 +35,19 @@ DECLARE INTEGER JetBeginSession IN esent;
 
 
 ## Parameters:
-```txt  
-instance
+instance 
 The database instance to use for this call.
 
-psesid
+psesid 
 Pointer to the variable that the session handle initializes on successful return.
 
-szUserName
+szUserName 
 This parameter is reserved.
 
-szPassword
+szPassword 
 This parameter is reserved.
 
   
-```  
 ***  
 
 

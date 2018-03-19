@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : CreateEnhMetaFile
+## Function name : CreateEnhMetaFile
 Group: Metafile - Library: gdi32    
 ***  
 
@@ -40,19 +38,17 @@ DECLARE INTEGER CreateEnhMetaFile IN gdi32;
 
 
 ## Parameters:
-```txt  
-hdcRef
-[in] Handle to a reference device for the enhanced metafile.
+hdcRef 
+[in] Handle to a reference device for the enhanced metafile. 
 
-lpFilename
+lpFilename 
 [in] Pointer to the file name for the enhanced metafile to be created.
 
-lpRect
-[in] Pointer to a RECT structure that specifies the dimensions (in .01-millimeter units) of the picture to be stored in the enhanced metafile.
+lpRect 
+[in] Pointer to a RECT structure that specifies the dimensions (in .01-millimeter units) of the picture to be stored in the enhanced metafile. 
 
-lpDescription
-[in] Pointer to a string that specifies the name of the application that created the picture, as well as the picture"s title.  
-```  
+lpDescription 
+[in] Pointer to a string that specifies the name of the application that created the picture, as well as the picture"s title.   
 ***  
 
 

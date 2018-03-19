@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : SetFileTime
+## Function name : SetFileTime
 Group: Time - Library: kernel32    
 ***  
 
@@ -39,19 +37,17 @@ DECLARE INTEGER SetFileTime IN kernel32.dll;
 
 
 ## Parameters:
-```txt  
-hFile
-[in] Handle to the file for which to set the dates and times. The file handle must have been created with GENERIC_WRITE access to the file.
+hFile 
+[in] Handle to the file for which to set the dates and times. The file handle must have been created with GENERIC_WRITE access to the file. 
 
-lpCreationTime
-[in] Pointer to a FILETIME structure that contains the date and time the file was created.
+lpCreationTime 
+[in] Pointer to a FILETIME structure that contains the date and time the file was created. 
 
-lpLastAccessTime
-[in] Pointer to a FILETIME structure that contains the date and time the file was last accessed.
+lpLastAccessTime 
+[in] Pointer to a FILETIME structure that contains the date and time the file was last accessed. 
 
-lpLastWriteTime
+lpLastWriteTime 
 [in] Pointer to a FILETIME structure that contains the date and time the file was last written to.  
-```  
 ***  
 
 

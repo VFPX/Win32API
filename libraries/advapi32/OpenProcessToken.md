@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : OpenProcessToken
+## Function name : OpenProcessToken
 Group: Authorization - Library: advapi32    
 ***  
 
@@ -37,7 +35,6 @@ DECLARE INTEGER OpenProcessToken IN advapi32;
 
 
 ## Parameters:
-```txt  
 ProcessHandle [in]
 A handle to the process whose access token is opened.
 
@@ -46,7 +43,6 @@ Specifies an access mask that specifies the requested types of access to the acc
 
 TokenHandle [out]
 A pointer to a handle that identifies the newly opened access token when the function returns.  
-```  
 ***  
 
 

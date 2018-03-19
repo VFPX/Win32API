@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : CeReadFile
+## Function name : CeReadFile
 Group: Remote Application Programming (RAPI) - Library: rapi    
 ***  
 
@@ -40,23 +38,21 @@ DECLARE INTEGER CeReadFile IN rapi;
 
 
 ## Parameters:
-```txt  
-hFile
+hFile 
 [in] Handle to the file to be read. The file handle must have been created with GENERIC_READ access to the file.
 
-lpBuffer
-[out] Pointer to the buffer that receives the data read from the file.
+lpBuffer 
+[out] Pointer to the buffer that receives the data read from the file. 
 
-nNumberOfBytesToRead
-[in] Number of bytes to be read from the file.
+nNumberOfBytesToRead 
+[in] Number of bytes to be read from the file. 
 
-lpNumberOfBytesRead
+lpNumberOfBytesRead 
 [out] Pointer to the number of bytes read.
 
-lpOverlapped
+lpOverlapped 
 [in] Unsupported; set to NULL.
   
-```  
 ***  
 
 

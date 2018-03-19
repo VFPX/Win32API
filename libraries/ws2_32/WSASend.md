@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : WSASend
+## Function name : WSASend
 Group: Windows Sockets 2 (Winsock) - Library: ws2_32    
 ***  
 
@@ -44,28 +42,26 @@ DECLARE INTEGER WSASend IN ws2_32;
 
 
 ## Parameters:
-```txt  
-s
-[in] A descriptor that identifies a connected socket.
+s 
+[in] A descriptor that identifies a connected socket. 
 
-lpBuffers
+lpBuffers 
 [in] A pointer to an array of WSABUF structures. Each WSABUF structure contains a pointer to a buffer and the length, in bytes, of the buffer.
 
-dwBufferCount
-[in] Number of WSABUF structures in the lpBuffers array.
+dwBufferCount 
+[in] Number of WSABUF structures in the lpBuffers array. 
 
-lpNumberOfBytesSent
+lpNumberOfBytesSent 
 [out] A pointer to the number, in bytes, sent by this call if the I/O operation completes immediately.
 
-dwFlags
-[in] Flags used to modify the behavior of the WSASend function call. For more information, see Using dwFlags in the Remarks section.
+dwFlags 
+[in] Flags used to modify the behavior of the WSASend function call. For more information, see Using dwFlags in the Remarks section. 
 
-lpOverlapped
-[in] A pointer to a WSAOVERLAPPED structure. This parameter is ignored for nonoverlapped sockets.
+lpOverlapped 
+[in] A pointer to a WSAOVERLAPPED structure. This parameter is ignored for nonoverlapped sockets. 
 
-lpCompletionRoutine
+lpCompletionRoutine 
 [in] A pointer to the completion routine called when the send operation has been completed.  
-```  
 ***  
 
 

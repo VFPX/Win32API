@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : GdipCreateFontFamilyFromName
+## Function name : GdipCreateFontFamilyFromName
 Group: GDI+ Font - Library: gdiplus    
 ***  
 
@@ -37,17 +35,15 @@ DECLARE INTEGER GdipCreateFontFamilyFromName IN gdiplus;
 
 
 ## Parameters:
-```txt  
 familyname
-[in] Name of the font family.
+[in] Name of the font family. 
 
 fontCollection
-[in] Optional. FontCollection handle that specifies the collection that the font family belongs to.
+[in] Optional. FontCollection handle that specifies the collection that the font family belongs to. 
 
 FontFamily
 [out] Handle to the FontFamily object.
   
-```  
 ***  
 
 

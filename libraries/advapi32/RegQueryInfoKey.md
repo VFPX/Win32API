@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : RegQueryInfoKey
+## Function name : RegQueryInfoKey
 Group: Registry - Library: advapi32    
 ***  
 
@@ -55,43 +53,41 @@ DECLARE INTEGER RegQueryInfoKey IN advapi32;
 
 
 ## Parameters:
-```txt  
-hKey
-[in] Handle to an open key.
+hKey 
+[in] Handle to an open key. 
 
-lpClass
+lpClass 
 [out] Pointer to a buffer that receives the null-terminated class string of the key.
 
-lpcClass
+lpcClass 
 [in, out] Pointer to a variable that specifies the size of the buffer pointed to by the lpClass parameter, in characters.
 
-lpReserved
-Reserved; must be NULL.
+lpReserved 
+Reserved; must be NULL. 
 
-lpcSubKeys
+lpcSubKeys 
 [out] Pointer to a variable that receives the number of subkeys contained by the specified key.
 
-lpcMaxSubKeyLen
+lpcMaxSubKeyLen 
 [out] Pointer to a variable that receives the size of the key"s subkey with the longest name, in characters, not including the terminating null character.
 
-lpcMaxClassLen
+lpcMaxClassLen 
 [out] Pointer to a variable that receives the size of the longest string specifying a subkey class, in characters.
 
-lpcValues
+lpcValues 
 [out] Pointer to a variable that receives the number of values associated with the key.
 
-lpcMaxValueNameLen
+lpcMaxValueNameLen 
 [out] Pointer to a variable that receives the size of the key"s longest value name, in characters.
 
-lpcMaxValueLen
+lpcMaxValueLen 
 [out] Pointer to a variable that receives the size of the longest data component among the key"s values, in bytes.
 
-lpcbSecurityDescriptor
+lpcbSecurityDescriptor 
 [out] Pointer to a variable that receives the size of the key"s security descriptor, in bytes.
 
-lpftLastWriteTime
-[out] Pointer to a FILETIME structure that receives the last write time.  
-```  
+lpftLastWriteTime 
+[out] Pointer to a FILETIME structure that receives the last write time.   
 ***  
 
 

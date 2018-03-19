@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : GetSystemTimeAsFileTime
+## Function name : GetSystemTimeAsFileTime
 Group: Time - Library: kernel32    
 ***  
 
@@ -32,10 +30,8 @@ DECLARE GetSystemTimeAsFileTime IN kernel32;
 
 
 ## Parameters:
-```txt  
-lpSystemTimeAsFileTime
+lpSystemTimeAsFileTime 
 [out] Pointer to a FILETIME structure to receive the current system date and time in UTC format.  
-```  
 ***  
 
 

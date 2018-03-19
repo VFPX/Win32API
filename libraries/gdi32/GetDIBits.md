@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : GetDIBits
+## Function name : GetDIBits
 Group: Bitmap - Library: gdi32    
 ***  
 
@@ -50,28 +48,26 @@ DECLARE INTEGER GetDIBits IN gdi32;
 
 
 ## Parameters:
-```txt  
-hdc
-[in] Handle to the device context.
+hdc 
+[in] Handle to the device context. 
 
-hbmp
-[in] Handle to the bitmap. This must be a compatible bitmap (DDB).
+hbmp 
+[in] Handle to the bitmap. This must be a compatible bitmap (DDB). 
 
-uStartScan
-[in] Specifies the first scan line to retrieve.
+uStartScan 
+[in] Specifies the first scan line to retrieve. 
 
-cScanLines
-[in] Specifies the number of scan lines to retrieve.
+cScanLines 
+[in] Specifies the number of scan lines to retrieve. 
 
-lpvBits
-[out] Pointer to a buffer to receive the bitmap data.
+lpvBits 
+[out] Pointer to a buffer to receive the bitmap data. 
 
-lpbi
-[in/out] Pointer to a BITMAPINFO structure that specifies the desired format for the DIB data.
+lpbi 
+[in/out] Pointer to a BITMAPINFO structure that specifies the desired format for the DIB data. 
 
-uUsage
-[in] Specifies the format of the bmiColors member of the BITMAPINFO structure.  
-```  
+uUsage 
+[in] Specifies the format of the bmiColors member of the BITMAPINFO structure.   
 ***  
 
 

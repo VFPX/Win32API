@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : CryptBinaryToString
+## Function name : CryptBinaryToString
 Group: Cryptography Reference - Library: crypt32    
 ***  
 
@@ -39,22 +37,20 @@ DECLARE INTEGER CryptBinaryToString IN Crypt32;
 
 
 ## Parameters:
-```txt  
-pbBinary
-[in] A pointer to the array of bytes to be converted into a string.
+pbBinary 
+[in] A pointer to the array of bytes to be converted into a string. 
 
-cbBinary
-[in] The number of elements in the pbBinary array.
+cbBinary 
+[in] The number of elements in the pbBinary array. 
 
-dwFlags
+dwFlags 
 [in] Specifies the format of the resulting formatted string.
 
-pszString
+pszString 
 [in] A pointer to a buffer that receives the converted string.
 
-pcchString
-[in, out] A pointer to a DWORD variable that contains the size, in TCHARs, of the pszString buffer.  
-```  
+pcchString 
+[in, out] A pointer to a DWORD variable that contains the size, in TCHARs, of the pszString buffer.   
 ***  
 
 

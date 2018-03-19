@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : LsaGetLogonSessionData
+## Function name : LsaGetLogonSessionData
 Group: Security - Library: secur32    
 ***  
 
@@ -33,13 +31,11 @@ DECLARE INTEGER LsaGetLogonSessionData IN secur32;
 
 
 ## Parameters:
-```txt  
 LogonId [in]
 Specifies a pointer to a LUID that identifies the logon session whose information will be retrieved.
 
 ppLogonSessionData [out]
 Address of a pointer to a SECURITY_LOGON_SESSION_DATA structure containing information on the logon session specified by LogonId.  
-```  
 ***  
 
 

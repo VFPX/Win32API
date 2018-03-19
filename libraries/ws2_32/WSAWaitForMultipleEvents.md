@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : WSAWaitForMultipleEvents
+## Function name : WSAWaitForMultipleEvents
 Group: Windows Sockets 2 (Winsock) - Library: ws2_32    
 ***  
 
@@ -44,22 +42,20 @@ DECLARE INTEGER WSAWaitForMultipleEvents IN ws2_32;
 
 
 ## Parameters:
-```txt  
-cEvents
+cEvents 
 [in] Indicator specifying the number of event object handles in the array pointed to by lphEvents.
 
-lphEvents
-[in] Pointer to an array of event object handles.
+lphEvents 
+[in] Pointer to an array of event object handles. 
 
-fWaitAll
+fWaitAll 
 [in] Indicator specifying the wait type.
 
-dwTimeout
+dwTimeout 
 [in] Indicator specifying the time-out interval, in milliseconds.
 
-fAlertable
+fAlertable 
 [in] Indicator specifying whether the function returns when the system queues an I/O completion routine for execution by the calling thread.  
-```  
 ***  
 
 

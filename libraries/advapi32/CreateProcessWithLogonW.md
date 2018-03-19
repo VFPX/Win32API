@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : CreateProcessWithLogonW
+## Function name : CreateProcessWithLogonW
 Group: Process and Thread - Library: advapi32    
 ***  
 
@@ -53,40 +51,38 @@ DECLARE INTEGER CreateProcessWithLogonW IN Advapi32;
 
 
 ## Parameters:
-```txt  
-lpUsername
-[in] Pointer to a null-terminated string that specifies the name of the user.
+lpUsername 
+[in] Pointer to a null-terminated string that specifies the name of the user. 
 
-lpDomain
-[in] Pointer to a null-terminated string that specifies the name of the domain or server whose account database contains the lpUsername account.
+lpDomain 
+[in] Pointer to a null-terminated string that specifies the name of the domain or server whose account database contains the lpUsername account. 
 
-lpPassword
-[in] Pointer to a null-terminated string that specifies the clear-text password for the lpUsername account.
+lpPassword 
+[in] Pointer to a null-terminated string that specifies the clear-text password for the lpUsername account. 
 
-dwLogonFlags
-[in] Logon option.
+dwLogonFlags 
+[in] Logon option. 
 
-lpApplicationName
-[in] Pointer to a null-terminated string that specifies the module to execute.
+lpApplicationName 
+[in] Pointer to a null-terminated string that specifies the module to execute. 
 
-lpCommandLine
+lpCommandLine 
 [in] Pointer to a null-terminated string that specifies the command line to execute.
 
-dwCreationFlags
+dwCreationFlags 
 [in] Flags that control how the process is created.
 
-lpEnvironment
+lpEnvironment 
 [in] Pointer to an environment block for the new process.
 
-lpCurrentDirectory
-[in] Pointer to a null-terminated string that specifies the current drive and directory for the new process.
+lpCurrentDirectory 
+[in] Pointer to a null-terminated string that specifies the current drive and directory for the new process. 
 
-lpStartupInfo
+lpStartupInfo 
 [in] Pointer to a STARTUPINFO structure that specifies the window station, desktop, standard handles, and appearance of the main window for the new process.
 
-lpProcessInfo
+lpProcessInfo 
 [out] Pointer to a PROCESS_INFORMATION structure that receives identification information for the new process, including a handle to the process.  
-```  
 ***  
 
 

@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : DisconnectNamedPipe
+## Function name : DisconnectNamedPipe
 Group: Pipe - Library: kernel32    
 ***  
 
@@ -31,10 +29,8 @@ DECLARE INTEGER DisconnectNamedPipe IN kernel32;
 
 
 ## Parameters:
-```txt  
-hNamedPipe
+hNamedPipe 
 [in] A handle to an instance of a named pipe. This handle must be created by the CreateNamedPipe function.  
-```  
 ***  
 
 

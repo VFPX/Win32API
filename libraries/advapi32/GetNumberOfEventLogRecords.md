@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : GetNumberOfEventLogRecords
+## Function name : GetNumberOfEventLogRecords
 Group: Event Logging - Library: advapi32    
 ***  
 
@@ -34,13 +32,11 @@ DECLARE INTEGER GetNumberOfEventLogRecords IN advapi32;
 
 
 ## Parameters:
-```txt  
 hEventLog
-[in] A handle to the open event log. This handle is returned by the OpenEventLog or OpenBackupEventLog function.
+[in] A handle to the open event log. This handle is returned by the OpenEventLog or OpenBackupEventLog function. 
 
 NumberOfRecords
-[out] A pointer to a variable that receives the number of records in the specified event log.  
-```  
+[out] A pointer to a variable that receives the number of records in the specified event log.   
 ***  
 
 

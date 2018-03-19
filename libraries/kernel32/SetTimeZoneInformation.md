@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : SetTimeZoneInformation
+## Function name : SetTimeZoneInformation
 Group: Time - Library: kernel32    
 ***  
 
@@ -31,10 +29,8 @@ DECLARE INTEGER SetTimeZoneInformation IN kernel32;
 
 
 ## Parameters:
-```txt  
-lpTimeZoneInformation
-[in] Pointer to a TIME_ZONE_INFORMATION structure that contains the time-zone parameters to set.  
-```  
+lpTimeZoneInformation 
+[in] Pointer to a TIME_ZONE_INFORMATION structure that contains the time-zone parameters to set.   
 ***  
 
 

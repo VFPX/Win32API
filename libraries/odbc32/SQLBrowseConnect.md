@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : SQLBrowseConnect
+## Function name : SQLBrowseConnect
 Group: ODBC API - Library: odbc32    
 ***  
 
@@ -40,31 +38,29 @@ DECLARE SHORT SQLBrowseConnect IN odbc32;
 
 
 ## Parameters:
-```txt  
-ConnectionHandle
+ConnectionHandle 
 [Input]
-Connection handle.
+Connection handle. 
 
-InConnectionString
+InConnectionString 
 [Input]
-Browse request connection string (see "InConnectionString Argument" in "Comments").
+Browse request connection string (see "InConnectionString Argument" in "Comments"). 
 
-StringLength1
+StringLength1 
 [Input]
-Length of *InConnectionString.
+Length of *InConnectionString. 
 
-OutConnectionString
+OutConnectionString 
 [Output]
-Pointer to a buffer in which to return the browse result connection string.
+Pointer to a buffer in which to return the browse result connection string. 
 
-BufferLength
+BufferLength 
 [Input]
-Length of the *OutConnectionString buffer.
+Length of the *OutConnectionString buffer. 
 
-StringLength2Ptr
+StringLength2Ptr 
 [Output]
-The total number of bytes available to return in *OutConnectionString.  
-```  
+The total number of bytes available to return in *OutConnectionString.   
 ***  
 
 

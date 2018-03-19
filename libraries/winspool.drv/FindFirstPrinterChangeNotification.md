@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : FindFirstPrinterChangeNotification
+## Function name : FindFirstPrinterChangeNotification
 Group: Printing and Print Spooler - Library: winspool.drv    
 ***  
 
@@ -40,19 +38,17 @@ IN winspool.drv;
 
 
 ## Parameters:
-```txt  
-hPrinter
+hPrinter 
 [in] Handle to the printer or print server that you want to monitor.
 
-fdwFlags
+fdwFlags 
 [in] Specify the conditions that will cause the change notification object to enter a signaled state.
 
-fdwOptions
+fdwOptions 
 Reserved; must be zero.
 
-pPrinterNotifyOptions
+pPrinterNotifyOptions 
 [in] Pointer to a PRINTER_NOTIFY_OPTIONS structure.  
-```  
 ***  
 
 

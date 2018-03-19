@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : SQLDrivers
+## Function name : SQLDrivers
 Group: ODBC API - Library: odbc32    
 ***  
 
@@ -45,39 +43,37 @@ DECLARE SHORT SQLDrivers IN odbc32;
 
 
 ## Parameters:
-```txt  
-EnvironmentHandle
+EnvironmentHandle 
 [Input]
-Environment handle.
+Environment handle. 
 
-Direction
+Direction 
 [Input]
-Determines whether the Driver Manager fetches the next driver description in the list (SQL_FETCH_NEXT) or whether the search starts from the beginning of the list (SQL_FETCH_FIRST).
+Determines whether the Driver Manager fetches the next driver description in the list (SQL_FETCH_NEXT) or whether the search starts from the beginning of the list (SQL_FETCH_FIRST). 
 
-DriverDescription
+DriverDescription 
 [Output]
-Pointer to a buffer in which to return the driver description.
+Pointer to a buffer in which to return the driver description. 
 
-BufferLength1
+BufferLength1 
 [Input]
-Length of the *DriverDescription buffer, in bytes.
+Length of the *DriverDescription buffer, in bytes. 
 
-DescriptionLengthPtr
+DescriptionLengthPtr 
 [Output]
 Pointer to a buffer in which to return the total number of bytes (excluding the null-termination byte) available to return in *DriverDescription.
 
-DriverAttributes
+DriverAttributes 
 [Output]
-Pointer to a buffer in which to return the list of driver attribute value pairs (see "Comments").
+Pointer to a buffer in which to return the list of driver attribute value pairs (see "Comments"). 
 
-BufferLength2
+BufferLength2 
 [Input]
-Length of the *DriverAttributes buffer, in bytes.
+Length of the *DriverAttributes buffer, in bytes. 
 
-AttributesLengthPtr
+AttributesLengthPtr 
 [Output]
 Pointer to a buffer in which to return the total number of bytes (excluding the null-termination byte) available to return in *DriverAttributes.  
-```  
 ***  
 
 

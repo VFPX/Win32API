@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : GetFileSecurity
+## Function name : GetFileSecurity
 Group: Security - Library: advapi32    
 ***  
 
@@ -42,19 +40,17 @@ DECLARE INTEGER GetFileSecurity IN advapi32;
 
 
 ## Parameters:
-```txt  
-lpFileName
-[in] Pointer to a null-terminated string that specifies the file or directory for which security information is retrieved.
+lpFileName 
+[in] Pointer to a null-terminated string that specifies the file or directory for which security information is retrieved. 
 
-pSecurityDescriptor
-[out] Pointer to a buffer that receives a copy of the security descriptor of the object specified by the lpFileName parameter.
+pSecurityDescriptor 
+[out] Pointer to a buffer that receives a copy of the security descriptor of the object specified by the lpFileName parameter. 
 
-nLength
-[in] Specifies the size, in bytes, of the buffer pointed to by the pSecurityDescriptor parameter.
+nLength 
+[in] Specifies the size, in bytes, of the buffer pointed to by the pSecurityDescriptor parameter. 
 
-lpnLengthNeeded
+lpnLengthNeeded 
 [out] Pointer to the variable that receives the number of bytes necessary to store the complete security descriptor.  
-```  
 ***  
 
 

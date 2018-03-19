@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : NetUnjoinDomain
+## Function name : NetUnjoinDomain
 Group: Windows Networking - Library: netapi32    
 ***  
 
@@ -38,19 +36,17 @@ DECLARE INTEGER NetUnjoinDomain IN netapi32;
 
 
 ## Parameters:
-```txt  
-lpServer
+lpServer 
 [in] Pointer to a constant string that specifies the DNS or NetBIOS name of the computer on which the function is to execute.
 
-lpAccount
-[in] Pointer to a constant string that specifies the account name to use when connecting to the domain controller.
+lpAccount 
+[in] Pointer to a constant string that specifies the account name to use when connecting to the domain controller. 
 
-lpPassword
+lpPassword 
 [in] If the lpAccount parameter specifies an account name, this parameter must point to the password to use when connecting to the domain controller.
 
-fUnjoinOptions
+fUnjoinOptions 
 [in] Specifies the unjoin options. If this parameter is NETSETUP_ACCT_DELETE, the account is disabled when the unjoin occurs. Note that this option does not delete the account.  
-```  
 ***  
 
 

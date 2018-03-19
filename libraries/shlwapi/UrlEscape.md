@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : UrlEscape
+## Function name : UrlEscape
 Group: Shell Lightweight Utility APIs -- Path Functions - Library: shlwapi    
 ***  
 
@@ -36,7 +34,6 @@ DECLARE INTEGER UrlEscape IN shlwapi;
 
 
 ## Parameters:
-```txt  
 pszURL
 [in] Null-terminated string of maximum length INTERNET_MAX_URL_LENGTH that contains a full or partial URL.
 
@@ -49,7 +46,6 @@ pcchEscaped
 dwFlags
 [in] Flags that indicate which portion of the URL is being provided in pszURL and which characters in that string should be converted to their escape sequences.
   
-```  
 ***  
 
 

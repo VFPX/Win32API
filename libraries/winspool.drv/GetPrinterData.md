@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : GetPrinterData
+## Function name : GetPrinterData
 Group: Printing and Print Spooler - Library: winspool.drv    
 ***  
 
@@ -41,25 +39,23 @@ DECLARE INTEGER GetPrinterData IN winspool.drv;
 
 
 ## Parameters:
-```txt  
-hPrinter
-[in] Handle to the printer or print server for which the function retrieves configuration data. Use the OpenPrinter or AddPrinter function to retrieve a printer handle.
+hPrinter 
+[in] Handle to the printer or print server for which the function retrieves configuration data. Use the OpenPrinter or AddPrinter function to retrieve a printer handle. 
 
-pValueName
+pValueName 
 [in] Pointer to a null-terminated string that identifies the data to retrieve.
 
-pType
+pType 
 [out] Pointer to a variable that receives the type of data retrieved.
 
-pData
-[out] Pointer to a buffer that receives the configuration data.
+pData 
+[out] Pointer to a buffer that receives the configuration data. 
 
-nSize
-[in] Specifies the size, in bytes, of the buffer pointed to by pData.
+nSize 
+[in] Specifies the size, in bytes, of the buffer pointed to by pData. 
 
-pcbNeeded
-[out] Pointer to a variable that receives the size, in bytes, of the configuration data.  
-```  
+pcbNeeded 
+[out] Pointer to a variable that receives the size, in bytes, of the configuration data.   
 ***  
 
 

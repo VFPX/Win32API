@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : Beep
+## Function name : Beep
 Group: Error Handling - Library: kernel32    
 ***  
 
@@ -35,13 +33,11 @@ DECLARE INTEGER Beep IN kernel32;
 
 
 ## Parameters:
-```txt  
-dwFreq
-[in] Specifies the frequency, in hertz, of the sound.
+dwFreq 
+[in] Specifies the frequency, in hertz, of the sound. 
 
-dwDuration
-[in] Specifies the duration, in milliseconds, of the sound.  
-```  
+dwDuration 
+[in] Specifies the duration, in milliseconds, of the sound.   
 ***  
 
 

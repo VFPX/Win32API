@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : GdipSetPageUnit
+## Function name : GdipSetPageUnit
 Group: GDI+ Graphics - Library: gdiplus    
 ***  
 
@@ -30,13 +28,11 @@ DECLARE INTEGER GdipSetPageUnit IN gdiplus;
 
 
 ## Parameters:
-```txt  
 graphics
 [in] Handle to the Graphics object.
 
 unit
 [in] Element of the Unit enumeration that specifies the unit of measure for this Graphics handle.  
-```  
 ***  
 
 

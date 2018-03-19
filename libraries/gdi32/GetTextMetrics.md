@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : GetTextMetrics
+## Function name : GetTextMetrics
 Group: Font and Text - Library: gdi32    
 ***  
 
@@ -33,13 +31,11 @@ DECLARE INTEGER GetTextMetrics IN gdi32;
 
 
 ## Parameters:
-```txt  
-hdc
-[in] Handle to the device context.
+hdc 
+[in] Handle to the device context. 
 
-lptm
-[out] Pointer to the TEXTMETRIC structure that receives the text metrics.  
-```  
+lptm 
+[out] Pointer to the TEXTMETRIC structure that receives the text metrics.   
 ***  
 
 

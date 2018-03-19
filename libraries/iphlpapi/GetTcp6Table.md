@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : GetTcp6Table
+## Function name : GetTcp6Table
 Group: IP Helper - Library: iphlpapi    
 ***  
 
@@ -33,17 +31,15 @@ DECLARE INTEGER GetTcp6Table IN Iphlpapi;
 
 
 ## Parameters:
-```txt  
-TcpTable
+TcpTable 
 A pointer to a buffer that receives the TCP connection table for IPv6 as a MIB_TCP6TABLE structure.
 
-SizePointer
+SizePointer 
 On input, specifies the size in bytes of the buffer pointed to by the TcpTable parameter.
 
-Order
+Order 
 A Boolean value that specifies whether the TCP connection table should be sorted.
   
-```  
 ***  
 
 

@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : GetUrlCacheEntryInfo
+## Function name : GetUrlCacheEntryInfo
 Group: Internet Functions (WinInet) - Library: wininet    
 ***  
 
@@ -35,7 +33,6 @@ DECLARE INTEGER GetUrlCacheEntryInfo IN wininet;
 
 
 ## Parameters:
-```txt  
 lpszUrlName
 [in] Pointer to a string that contains the name of the cache entry.
 
@@ -43,8 +40,7 @@ lpCacheEntryInfo
 [in] Pointer to an INTERNET_CACHE_ENTRY_INFO structure that receives information about the cache entry.
 
 lpdwCacheEntryInfoBufferSize
-[in, out] Pointer to an unsigned long integer variable that specifies the size of the lpCacheEntryInfo buffer, in bytes.  
-```  
+[in, out] Pointer to an unsigned long integer variable that specifies the size of the lpCacheEntryInfo buffer, in bytes.   
 ***  
 
 

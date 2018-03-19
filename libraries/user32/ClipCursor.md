@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : ClipCursor
+## Function name : ClipCursor
 Group: Cursor - Library: user32    
 ***  
 
@@ -30,10 +28,8 @@ DECLARE SHORT ClipCursor IN user32 STRING lpRect
 
 
 ## Parameters:
-```txt  
-lpRect
+lpRect 
 [in] Pointer to the RECT structure that contains the screen coordinates of the upper-left and lower-right corners of the confining rectangle.  
-```  
 ***  
 
 

@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : GetRawInputDeviceInfo
+## Function name : GetRawInputDeviceInfo
 Group: Raw Input - Library: user32    
 ***  
 
@@ -38,7 +36,6 @@ DECLARE INTEGER GetRawInputDeviceInfo IN user32;
 
 
 ## Parameters:
-```txt  
 hDevice [in, optional]
 A handle to the raw input device.
 
@@ -46,13 +43,12 @@ uiCommand [in]
 Specifies what data will be returned in pData.
 
 pData [in, out, optional]
-A pointer to a buffer that contains the information specified by uiCommand.
+A pointer to a buffer that contains the information specified by uiCommand. 
 
 pcbSize [in, out]
 Type: PUINT
 
 The size, in bytes, of the data in pData.  
-```  
 ***  
 
 

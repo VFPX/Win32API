@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : OpenSemaphore
+## Function name : OpenSemaphore
 Group: Synchronization - Library: kernel32    
 ***  
 
@@ -37,7 +35,6 @@ DECLARE INTEGER OpenSemaphore IN kernel32;
 
 
 ## Parameters:
-```txt  
 fdwAccess
 Specifies the requested access to the semaphore object
 
@@ -46,7 +43,6 @@ Specifies whether the returned handle is inheritable
 
 lpszSemName
 Points to a null-terminated string that names the semaphore to be opened. Name comparisons are case sensitive  
-```  
 ***  
 
 

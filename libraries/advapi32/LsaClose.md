@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : LsaClose
+## Function name : LsaClose
 Group: Security - Library: advapi32    
 ***  
 
@@ -31,10 +29,8 @@ DECLARE INTEGER LsaClose IN advapi32;
 
 
 ## Parameters:
-```txt  
-ObjectHandle
+ObjectHandle 
 Handle to a Policy object returned by the LsaOpenPolicy function or to a TrustedDomain object returned by the LsaOpenTrustedDomainByName function.  
-```  
 ***  
 
 

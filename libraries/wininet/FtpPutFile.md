@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : FtpPutFile
+## Function name : FtpPutFile
 Group: Internet Functions (WinInet) - Library: wininet    
 ***  
 
@@ -41,7 +39,6 @@ DECLARE INTEGER FtpPutFile IN wininet;
 
 
 ## Parameters:
-```txt  
 hConnect
 [in] Valid HINTERNET handle to an FTP session.
 
@@ -52,11 +49,10 @@ lpszNewRemoteFile
 [in] Pointer to a null-terminated string that contains the name of the file to create on the remote system.
 
 dwFlags
-[in] Unsigned long integer value that contains the conditions under which the transfers occur.
+[in] Unsigned long integer value that contains the conditions under which the transfers occur. 
 
 dwContext
 [in] Pointer to an unsigned long integer value  
-```  
 ***  
 
 

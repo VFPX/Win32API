@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : GetClipCursor
+## Function name : GetClipCursor
 Group: Cursor - Library: user32    
 ***  
 
@@ -31,10 +29,8 @@ DECLARE SHORT GetClipCursor IN user32 STRING @ lpRect
 
 
 ## Parameters:
-```txt  
 lpRect
 Points to a RECT structure that receives the screen coordinates of the confining rectangle.  
-```  
 ***  
 
 

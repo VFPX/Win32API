@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : CopyFileTransacted
+## Function name : CopyFileTransacted
 Group: File Management - Library: kernel32    
 ***  
 
@@ -43,28 +41,26 @@ DECLARE INTEGER CopyFileTransacted IN kernel32;
 
 
 ## Parameters:
-```txt  
-lpExistingFileName [in]
-The name of an existing file.
+lpExistingFileName [in] 
+The name of an existing file. 
 
-lpNewFileName [in]
+lpNewFileName [in] 
 The name of the new file.
 
-lpProgressRoutine [in, optional]
+lpProgressRoutine [in, optional] 
 The address of a callback function of type LPPROGRESS_ROUTINE that is called each time another portion of the file has been copied.
 
-lpData [in, optional]
+lpData [in, optional] 
 The argument to be passed to the callback function. This parameter can be NULL.
 
-pbCancel [in, optional]
+pbCancel [in, optional] 
 If this flag is set to TRUE during the copy operation, the operation is canceled. Otherwise, the copy operation will continue to completion.
 
-dwCopyFlags [in]
+dwCopyFlags [in] 
 Flags that specify how the file is to be copied.
 
-hTransaction [in]
+hTransaction [in] 
 A handle to the transaction.  
-```  
 ***  
 
 

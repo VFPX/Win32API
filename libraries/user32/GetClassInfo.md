@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : GetClassInfo
+## Function name : GetClassInfo
 Group: Window Class - Library: user32    
 ***  
 
@@ -37,16 +35,14 @@ DECLARE INTEGER GetClassInfo IN user32;
 
 
 ## Parameters:
-```txt  
-hInstance
-[in] Handle to the instance of the application that created the class. To retrieve information about classes defined by the system (such as buttons or list boxes), set this parameter to NULL.
+hInstance 
+[in] Handle to the instance of the application that created the class. To retrieve information about classes defined by the system (such as buttons or list boxes), set this parameter to NULL. 
 
-lpClassName
-[in] Pointer to a null-terminated string containing the class name.
+lpClassName 
+[in] Pointer to a null-terminated string containing the class name. 
 
-lpWndClass
-[out] Pointer to a WNDCLASS structure that receives the information about the class.  
-```  
+lpWndClass 
+[out] Pointer to a WNDCLASS structure that receives the information about the class.   
 ***  
 
 

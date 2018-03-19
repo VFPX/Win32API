@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : Sleep
+## Function name : Sleep
 Group: Process and Thread - Library: kernel32    
 ***  
 
@@ -34,10 +32,8 @@ DECLARE Sleep IN kernel32 INTEGER dwMilliseconds
 
 
 ## Parameters:
-```txt  
-dwMilliseconds
+dwMilliseconds 
 [in] Specifies the time, in milliseconds, for which to suspend execution  
-```  
 ***  
 
 

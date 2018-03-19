@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : WTSEnumerateSessions
+## Function name : WTSEnumerateSessions
 Group: Terminal Services - Library: wtsapi32    
 ***  
 
@@ -40,22 +38,20 @@ DECLARE INTEGER WTSEnumerateSessions IN Wtsapi32;
 
 
 ## Parameters:
-```txt  
-hServer
-[in] Handle to a terminal server. Specify a handle opened by the WTSOpenServer function, or specify WTS_CURRENT_SERVER_HANDLE to indicate the terminal server on which your application is running.
+hServer 
+[in] Handle to a terminal server. Specify a handle opened by the WTSOpenServer function, or specify WTS_CURRENT_SERVER_HANDLE to indicate the terminal server on which your application is running. 
 
-Reserved
-Reserved; must be zero.
+Reserved 
+Reserved; must be zero. 
 
-Version
+Version 
 [in] Specifies the version of the enumeration request. Must be 1.
 
-ppSessionInfo
+ppSessionInfo 
 [out] Pointer to a variable that receives a pointer to an array of WTS_SESSION_INFO structures.
 
-pCount
-[out] Pointer to the variable that receives the number of WTS_SESSION_INFO structures returned in the ppSessionInfo buffer.  
-```  
+pCount 
+[out] Pointer to the variable that receives the number of WTS_SESSION_INFO structures returned in the ppSessionInfo buffer.   
 ***  
 
 

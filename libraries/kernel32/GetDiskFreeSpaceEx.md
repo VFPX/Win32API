@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : GetDiskFreeSpaceEx
+## Function name : GetDiskFreeSpaceEx
 Group: File System - Library: kernel32    
 ***  
 
@@ -37,19 +35,17 @@ DECLARE SHORT GetDiskFreeSpaceEx IN kernel32;
 
 
 ## Parameters:
-```txt  
-lpDirectoryName
-[in] Pointer to a null-terminated string that specifies a directory on the disk of interest.
+lpDirectoryName 
+[in] Pointer to a null-terminated string that specifies a directory on the disk of interest. 
 
-lpFreeBytesAvailable
-[out] Pointer to a variable that receives the total number of free bytes on the disk that are available to the user associated with the calling thread.
+lpFreeBytesAvailable 
+[out] Pointer to a variable that receives the total number of free bytes on the disk that are available to the user associated with the calling thread. 
 
-lpTotalNumberOfBytes
-[out] Pointer to a variable that receives the total number of bytes on the disk that are available to the user associated with the calling thread.
+lpTotalNumberOfBytes 
+[out] Pointer to a variable that receives the total number of bytes on the disk that are available to the user associated with the calling thread. 
 
-lpTotalNumberOfFreeBytes
+lpTotalNumberOfFreeBytes 
 [out] Pointer to a variable that receives the total number of free bytes on the disk.  
-```  
 ***  
 
 

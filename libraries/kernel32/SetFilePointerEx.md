@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : SetFilePointerEx
+## Function name : SetFilePointerEx
 Group: File Management - Library: kernel32    
 ***  
 
@@ -36,19 +34,17 @@ DECLARE INTEGER SetFilePointerEx IN kernel32;
 
 
 ## Parameters:
-```txt  
-hFile
+hFile 
 [in] A handle to the file. The file handle must have been created with the GENERIC_READ or GENERIC_WRITE access right.
 
-liDistanceToMove
+liDistanceToMove 
 [in] The number of bytes to move the file pointer.
 
-lpNewFilePointer
+lpNewFilePointer 
 [out, optional] A pointer to a variable to receive the new file pointer.
 
-dwMoveMethod
-[in] The starting point for the file pointer move.  
-```  
+dwMoveMethod 
+[in] The starting point for the file pointer move.   
 ***  
 
 

@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : GetAdaptersInfo
+## Function name : GetAdaptersInfo
 Group: IP Helper - Library: iphlpapi    
 ***  
 
@@ -35,13 +33,11 @@ DECLARE INTEGER GetAdaptersInfo IN iphlpapi;
 
 
 ## Parameters:
-```txt  
-pAdapterInfo
-[out] Pointer to a buffer that receives a linked list of IP_ADAPTER_INFO structures.
+pAdapterInfo 
+[out] Pointer to a buffer that receives a linked list of IP_ADAPTER_INFO structures. 
 
-pOutBufLen
-[in] Pointer to a ULONG variable that specifies the size of the buffer pointed to by the pAdapterInfo parameter.  
-```  
+pOutBufLen 
+[in] Pointer to a ULONG variable that specifies the size of the buffer pointed to by the pAdapterInfo parameter.   
 ***  
 
 

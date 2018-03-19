@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : SQLDriverConnect
+## Function name : SQLDriverConnect
 Group: ODBC API - Library: odbc32    
 ***  
 
@@ -45,39 +43,37 @@ DECLARE SHORT SQLDriverConnect IN odbc32;
 
 
 ## Parameters:
-```txt  
-ConnectionHandle
+ConnectionHandle 
 [Input]
-Connection handle.
+Connection handle. 
 
-WindowHandle
+WindowHandle 
 [Input]
-Window handle. The application can pass the handle of the parent window, if applicable, or a null pointer if either the window handle is not applicable or SQLDriverConnect will not present any dialog boxes.
+Window handle. The application can pass the handle of the parent window, if applicable, or a null pointer if either the window handle is not applicable or SQLDriverConnect will not present any dialog boxes. 
 
-InConnectionString
+InConnectionString 
 [Input]
-A full connection string (see the syntax in "Comments"), a partial connection string, or an empty string.
+A full connection string (see the syntax in "Comments"), a partial connection string, or an empty string. 
 
-StringLength1
+StringLength1 
 [Input]
-Length of *InConnectionString, in bytes.
+Length of *InConnectionString, in bytes. 
 
-OutConnectionString
+OutConnectionString 
 [Output]
-Pointer to a buffer for the completed connection string.
+Pointer to a buffer for the completed connection string. 
 
-BufferLength
+BufferLength 
 [Input]
-Length of the *OutConnectionString buffer.
+Length of the *OutConnectionString buffer. 
 
-StringLength2Ptr
+StringLength2Ptr 
 [Output]
-Pointer to a buffer in which to return the total number of characters available to return in *OutConnectionString.
+Pointer to a buffer in which to return the total number of characters available to return in *OutConnectionString. 
 
-DriverCompletion
+DriverCompletion 
 [Input]
 Flag that indicates whether the Driver Manager or driver must prompt for more connection information.  
-```  
 ***  
 
 

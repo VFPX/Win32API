@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : ImpersonateLoggedOnUser
+## Function name : ImpersonateLoggedOnUser
 Group: Security - Library: advapi32    
 ***  
 
@@ -31,10 +29,8 @@ DECLARE INTEGER ImpersonateLoggedOnUser IN advapi32;
 
 
 ## Parameters:
-```txt  
-hToken
+hToken 
 [in] Handle to a primary or impersonation access token that represents a logged-on user.  
-```  
 ***  
 
 

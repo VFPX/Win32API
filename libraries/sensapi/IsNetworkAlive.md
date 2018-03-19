@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : IsNetworkAlive
+## Function name : IsNetworkAlive
 Group: System Information - Library: sensapi    
 ***  
 
@@ -31,10 +29,8 @@ DECLARE INTEGER IsNetworkAlive IN sensapi;
 
 
 ## Parameters:
-```txt  
-lpdwFlags
+lpdwFlags 
 [out] Provides information on the type of network connection available when the return value is TRUE.  
-```  
 ***  
 
 

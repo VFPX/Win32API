@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : DestroyIcon
+## Function name : DestroyIcon
 Group: Icon - Library: user32    
 ***  
 
@@ -43,10 +41,8 @@ DECLARE SHORT DestroyIcon IN user32 INTEGER hIcon
 
 
 ## Parameters:
-```txt  
-hIcon
+hIcon 
 [in] Handle to the icon to be destroyed. The icon must not be in use.  
-```  
 ***  
 
 

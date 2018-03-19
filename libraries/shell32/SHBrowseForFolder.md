@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : SHBrowseForFolder
+## Function name : SHBrowseForFolder
 Group: Shell Functions - Library: shell32    
 ***  
 
@@ -32,10 +30,8 @@ DECLARE INTEGER SHBrowseForFolder IN shell32;
 
 
 ## Parameters:
-```txt  
 lpbi
-[in, out] Pointer to a BROWSEINFO structure that contains information used to display the dialog box.  
-```  
+[in, out] Pointer to a BROWSEINFO structure that contains information used to display the dialog box.   
 ***  
 
 

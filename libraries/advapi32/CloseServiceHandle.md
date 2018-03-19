@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : CloseServiceHandle
+## Function name : CloseServiceHandle
 Group: Service - Library: advapi32    
 ***  
 
@@ -33,10 +31,8 @@ DECLARE INTEGER CloseServiceHandle IN advapi32;
 
 
 ## Parameters:
-```txt  
-hSCObject
+hSCObject 
 [in] Handle to the service control manager object or the service object to close.  
-```  
 ***  
 
 

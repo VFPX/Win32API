@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : ShellExecuteEx
+## Function name : ShellExecuteEx
 Group: Shell Functions - Library: shell32    
 ***  
 
@@ -31,10 +29,8 @@ DECLARE INTEGER ShellExecuteEx IN Shell32;
 
 
 ## Parameters:
-```txt  
 lpExecInfo
 Address of a <a href="http://msdn.microsoft.com/library/default.asp?url=/library/en-us/shellcc/platform/shell/reference/structures/shellexecuteinfo.asp">SHELLEXECUTEINFO</a> structure that contains and receives information about the application being executed.  
-```  
 ***  
 
 

@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : SetJob
+## Function name : SetJob
 Group: Printing and Print Spooler - Library: winspool.drv    
 ***  
 
@@ -40,22 +38,20 @@ DECLARE INTEGER SetJob IN winspool.drv;
 
 
 ## Parameters:
-```txt  
-hPrinter
+hPrinter 
 [in] Handle to the printer object of interest. Use the OpenPrinter or AddPrinter function to retrieve a printer handle.
 
-JobId
+JobId 
 [in] Identifier that specifies the print job.
 
-Level
+Level 
 [in] Specifies the type of job information structure pointed to by the pJob parameter: 0, 1, 2
 
-pJob
-[in] Pointer to a JOB_INFO_1 or JOB_INFO_2 or JOB_INFO_3 structure.
+pJob 
+[in] Pointer to a JOB_INFO_1 or JOB_INFO_2 or JOB_INFO_3 structure. 
 
-Command
+Command 
 [in] Specifies the print job operation to perform.  
-```  
 ***  
 
 

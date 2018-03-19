@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : ClearEventLog
+## Function name : ClearEventLog
 Group: Event Logging - Library: advapi32    
 ***  
 
@@ -33,16 +31,14 @@ DECLARE INTEGER ClearEventLog IN advapi32;
 
 
 ## Parameters:
-```txt  
-hEventLog
-[in] A handle to the event log to be cleared. This handle is returned by the OpenEventLog function.
+hEventLog 
+[in] A handle to the event log to be cleared. This handle is returned by the OpenEventLog function. 
 
-lpBackupFileName
-[in] The name of the backup file. If this file already exists, the function fails.
+lpBackupFileName 
+[in] The name of the backup file. If this file already exists, the function fails. 
 If the lpBackupFileName parameter is NULL, the current event log is not backed up.
 
   
-```  
 ***  
 
 

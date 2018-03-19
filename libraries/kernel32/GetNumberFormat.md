@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : GetNumberFormat
+## Function name : GetNumberFormat
 Group: National Language Support - Library: kernel32    
 ***  
 
@@ -39,9 +37,8 @@ DECLARE INTEGER GetNumberFormat IN kernel32;
 
 
 ## Parameters:
-```txt  
 Locale [in]
-Locale identifier that specifies the locale.
+Locale identifier that specifies the locale. 
 
 dwFlags [in]
 Flags controlling the operation of the function. The application must set this parameter to 0 if lpFormat is not set to NULL.
@@ -57,7 +54,6 @@ Pointer to a buffer in which this function retrieves the formatted number string
 
 cchNumber [in]
 Size, in TCHAR values, for the number string buffer indicated by lpNumberStr.  
-```  
 ***  
 
 

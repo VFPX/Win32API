@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : GetTempFileName
+## Function name : GetTempFileName
 Group: File Management - Library: kernel32    
 ***  
 
@@ -40,19 +38,17 @@ DECLARE INTEGER GetTempFileName IN kernel32;
 
 
 ## Parameters:
-```txt  
-lpPathName
+lpPathName 
 [in] Pointer to a null-terminated string that specifies the directory path for the file name
 
-lpPrefixString
+lpPrefixString 
 [in] Pointer to a null-terminated prefix string. The function uses the first three characters of this string as the prefix of the file name
 
-uUnique
+uUnique 
 [in] Specifies an unsigned integer that the function converts to a hexadecimal string for use in creating the temporary file name
 
-lpTempFileName
+lpTempFileName 
 [out] Pointer to the buffer that receives the temporary file name  
-```  
 ***  
 
 

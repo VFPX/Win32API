@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : CeDeleteRecord
+## Function name : CeDeleteRecord
 Group: Remote Application Programming (RAPI) - Library: rapi    
 ***  
 
@@ -34,13 +32,11 @@ DECLARE INTEGER CeDeleteRecord IN rapi;
 
 
 ## Parameters:
-```txt  
-hDatabase
-[in] Handle to the database from which the record is to be deleted. The database must be open. Open a database by calling the CeOpenDatabase function.
+hDatabase 
+[in] Handle to the database from which the record is to be deleted. The database must be open. Open a database by calling the CeOpenDatabase function. 
 
-oidRecord
+oidRecord 
 [in] Object identifier of the record to be deleted; this is obtained from CeOpenDatabase.  
-```  
 ***  
 
 

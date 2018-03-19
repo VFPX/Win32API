@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : IsClipboardFormatAvailable
+## Function name : IsClipboardFormatAvailable
 Group: Clipboard - Library: user32    
 ***  
 
@@ -34,12 +32,10 @@ DECLARE INTEGER IsClipboardFormatAvailable IN user32;
 
 
 ## Parameters:
-```txt  
 format
 Specifies a standard or registered clipboard format
 
 For a description of the clipboard formats, see the SetClipboardData function  
-```  
 ***  
 
 

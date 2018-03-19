@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : RasEnumAutodialAddresses
+## Function name : RasEnumAutodialAddresses
 Group: Remote Access Service (RAS) - Library: rasapi32    
 ***  
 
@@ -38,16 +36,14 @@ DECLARE INTEGER RasEnumAutodialAddresses IN rasapi32;
 
 
 ## Parameters:
-```txt  
-lppAddresses
-[in, out] Pointer to an array of string pointers, with additional space for the storage of the strings themselves at the end of the buffer.
+lppAddresses 
+[in, out] Pointer to an array of string pointers, with additional space for the storage of the strings themselves at the end of the buffer. 
 
-lpdwcbAddresses
-[in, out] Pointer to a variable that, on input, contains the size, in bytes, of the buffer specified by the lppAddresses parameter.
+lpdwcbAddresses 
+[in, out] Pointer to a variable that, on input, contains the size, in bytes, of the buffer specified by the lppAddresses parameter. 
 
-lpdwcAddresses
-[out] Pointer to a variable that receives the number of address strings returned in the lppAddresses buffer.  
-```  
+lpdwcAddresses 
+[out] Pointer to a variable that receives the number of address strings returned in the lppAddresses buffer.   
 ***  
 
 

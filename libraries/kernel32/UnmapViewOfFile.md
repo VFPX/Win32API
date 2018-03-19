@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : UnmapViewOfFile
+## Function name : UnmapViewOfFile
 Group: File Mapping - Library: kernel32    
 ***  
 
@@ -33,10 +31,8 @@ DECLARE INTEGER UnmapViewOfFile IN kernel32;
 
 
 ## Parameters:
-```txt  
-lpBaseAddress
+lpBaseAddress 
 [in] Pointer to the base address of the mapped view of a file that is to be unmapped.  
-```  
 ***  
 
 

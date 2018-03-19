@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : GetCompressedFileSize
+## Function name : GetCompressedFileSize
 Group: File System - Library: kernel32    
 ***  
 
@@ -33,13 +31,11 @@ DECLARE INTEGER GetCompressedFileSize IN kernel32;
 
 
 ## Parameters:
-```txt  
-lpFileName
-[in] Pointer to a null-terminated string that specifies the name of the file.
+lpFileName 
+[in] Pointer to a null-terminated string that specifies the name of the file. 
 
-lpFileSizeHigh
-[out] Pointer to a variable that receives the high-order DWORD of the compressed file size.  
-```  
+lpFileSizeHigh 
+[out] Pointer to a variable that receives the high-order DWORD of the compressed file size.   
 ***  
 
 

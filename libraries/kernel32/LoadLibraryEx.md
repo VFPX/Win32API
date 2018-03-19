@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : LoadLibraryEx
+## Function name : LoadLibraryEx
 Group: Dynamic-Link Library - Library: kernel32    
 ***  
 
@@ -39,16 +37,14 @@ DECLARE INTEGER LoadLibraryEx IN kernel32;
 
 
 ## Parameters:
-```txt  
-lpFileName
-[in] Pointer to a null-terminated string that names the executable module (either a .dll or an .exe file).
+lpFileName 
+[in] Pointer to a null-terminated string that names the executable module (either a .dll or an .exe file). 
 
-hFile
+hFile 
 This parameter is reserved for future use. It must be NULL.
 
-dwFlags
+dwFlags 
 [in] Action to take when loading the module. If no flags are specified, the behavior of this function is identical to that of the LoadLibrary function.  
-```  
 ***  
 
 

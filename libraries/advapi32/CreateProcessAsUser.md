@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : CreateProcessAsUser
+## Function name : CreateProcessAsUser
 Group: Process and Thread - Library: advapi32    
 ***  
 
@@ -53,40 +51,38 @@ DECLARE INTEGER CreateProcessAsUser IN advapi32;
 
 
 ## Parameters:
-```txt  
-hToken
+hToken 
 [in] Handle to a primary token that represents a user. The handle must have the TOKEN_QUERY, TOKEN_DUPLICATE, and TOKEN_ASSIGN_PRIMARY access rights.
 
-lpApplicationName
+lpApplicationName 
 [in] Pointer to a null-terminated string that specifies the module to execute.
 
-lpCommandLine
+lpCommandLine 
 [in] Pointer to a null-terminated string that specifies the command line to execute.
 
-lpProcessAttributes
+lpProcessAttributes 
 [in] Pointer to a SECURITY_ATTRIBUTES structure that specifies a security descriptor for the new process and determines whether child processes can inherit the returned handle.
 
-lpThreadAttributes
+lpThreadAttributes 
 [in] Pointer to a SECURITY_ATTRIBUTES structure that specifies a security descriptor for the new process and determines whether child processes can inherit the returned handle.
 
-bInheritHandles
+bInheritHandles 
 [in] If this parameter is TRUE, each inheritable handle in the calling process is inherited by the new process.
 
-dwCreationFlags
+dwCreationFlags 
 [in] Flags that control the priority class and the creation of the process.
 
-lpEnvironment
+lpEnvironment 
 [in] Pointer to an environment block for the new process.
 
-lpCurrentDirectory
+lpCurrentDirectory 
 [in] Pointer to a null-terminated string that specifies the current drive and directory for the new process.
 
-lpStartupInfo
-[in] Pointer to a STARTUPINFO structure that specifies the window station, desktop, standard handles, and appearance of the main window for the new process.
+lpStartupInfo 
+[in] Pointer to a STARTUPINFO structure that specifies the window station, desktop, standard handles, and appearance of the main window for the new process. 
 
-lpProcessInformation
-[out] Pointer to a PROCESS_INFORMATION structure that receives identification information about the new process.  
-```  
+lpProcessInformation 
+[out] Pointer to a PROCESS_INFORMATION structure that receives identification information about the new process.   
 ***  
 
 

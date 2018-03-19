@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : JetCreateDatabase
+## Function name : JetCreateDatabase
 Group: Extensible Storage Engine (ESE, Jet Blue) - Library: esent    
 ***  
 
@@ -39,23 +37,21 @@ DECLARE INTEGER JetCreateDatabase IN esent;
 
 
 ## Parameters:
-```txt  
-sesid
+sesid 
 The database session context to use for the API call.
 
-szFilename
+szFilename 
 The name of the database to be created.
 
-szConnect
+szConnect 
 Reserved for future use. Set to NULL.
 
-pdbid
+pdbid 
 Pointer to a buffer that, on a successful call, contains the identifier of the database. On failure, the value is undefined.
 
-grbit
+grbit 
 A group of bits specifying zero or more of predefined options.
   
-```  
 ***  
 
 

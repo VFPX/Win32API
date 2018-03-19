@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : HeapCompact
+## Function name : HeapCompact
 Group: Memory Management - Library: kernel32    
 ***  
 
@@ -33,13 +31,11 @@ DECLARE INTEGER HeapCompact IN kernel32;
 
 
 ## Parameters:
-```txt  
-hHeap
-[in] Handle to the heap that the function will attempt to compact.
+hHeap 
+[in] Handle to the heap that the function will attempt to compact. 
 
-dwFlags
-[in] Specifies heap access during function operation.  
-```  
+dwFlags 
+[in] Specifies heap access during function operation.   
 ***  
 
 

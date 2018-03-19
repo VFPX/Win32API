@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : ControlService
+## Function name : ControlService
 Group: Service - Library: advapi32    
 ***  
 
@@ -38,16 +36,14 @@ DECLARE INTEGER ControlService IN advapi32;
 
 
 ## Parameters:
-```txt  
-hService
-[in] Handle to the service. This handle is returned by the OpenService or CreateService function.
+hService 
+[in] Handle to the service. This handle is returned by the OpenService or CreateService function. 
 
-dwControl
+dwControl 
 [in] This parameter can be one of predefined control codes.
 
-lpServiceStatus
+lpServiceStatus 
 [out] Pointer to a SERVICE_STATUS structure that receives the latest service status information.  
-```  
 ***  
 
 

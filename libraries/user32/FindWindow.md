@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : FindWindow
+## Function name : FindWindow
 Group: Window - Library: user32    
 ***  
 
@@ -42,13 +40,11 @@ DECLARE INTEGER FindWindow IN user32;
 
 
 ## Parameters:
-```txt  
-lpClassName
+lpClassName 
 [in] Pointer to a null-terminated string that specifies the class name.
 
-lpWindowName
-[in] Pointer to a null-terminated string that specifies the window name (the window"s title).  
-```  
+lpWindowName 
+[in] Pointer to a null-terminated string that specifies the window name (the window"s title).   
 ***  
 
 

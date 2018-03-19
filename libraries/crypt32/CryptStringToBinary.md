@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : CryptStringToBinary
+## Function name : CryptStringToBinary
 Group: Cryptography Reference - Library: crypt32    
 ***  
 
@@ -44,28 +42,26 @@ DECLARE INTEGER CryptStringToBinary IN crypt32;
 
 
 ## Parameters:
-```txt  
-pszString
-[in] A pointer to a string that contains the formatted string to be converted.
+pszString 
+[in] A pointer to a string that contains the formatted string to be converted. 
 
-cchString
-[in] The number of characters of the formatted string to be converted, not including the terminating NULL character. If this parameter is zero, pszString is considered to be a null-terminated string.
+cchString 
+[in] The number of characters of the formatted string to be converted, not including the terminating NULL character. If this parameter is zero, pszString is considered to be a null-terminated string. 
 
-dwFlags
-[in] Indicates the format of the string to be converted.
+dwFlags 
+[in] Indicates the format of the string to be converted. 
 
-pbBinary
+pbBinary 
 [in] A pointer to a buffer that receives the returned sequence of bytes.
 
-pcbBinary
+pcbBinary 
 [in, out] A pointer to a DWORD value that, on entry, contains the size, in bytes, of the pbBinary buffer.
 
-pdwSkip
-[out] A pointer to a DWORD value that receives the number of characters skipped to reach the beginning of the actual base64 or hex strings.
+pdwSkip 
+[out] A pointer to a DWORD value that receives the number of characters skipped to reach the beginning of the actual base64 or hex strings. 
 
-pdwFlags
-[out] A pointer to a DWORD value that receives the flags actually used in the conversion.  
-```  
+pdwFlags 
+[out] A pointer to a DWORD value that receives the flags actually used in the conversion.   
 ***  
 
 

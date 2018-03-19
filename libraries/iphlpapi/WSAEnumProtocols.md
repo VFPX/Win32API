@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : WSAEnumProtocols
+## Function name : WSAEnumProtocols
 Group: Windows Sockets 2 (Winsock) - Library: iphlpapi    
 ***  
 
@@ -35,16 +33,14 @@ DECLARE INTEGER WSAEnumProtocols IN ws2_32;
 
 
 ## Parameters:
-```txt  
-lpiProtocols
-[in] Null-terminated array of iProtocol values.
+lpiProtocols 
+[in] Null-terminated array of iProtocol values. 
 
-lpProtocolBuffer
-[out] Buffer that is filled with WSAPROTOCOL_INFO structures.
+lpProtocolBuffer 
+[out] Buffer that is filled with WSAPROTOCOL_INFO structures. 
 
-lpdwBufferLength
-[in, out] On input, the count of bytes in the lpProtocolBuffer buffer passed to WSAEnumProtocols.  
-```  
+lpdwBufferLength 
+[in, out] On input, the count of bytes in the lpProtocolBuffer buffer passed to WSAEnumProtocols.   
 ***  
 
 

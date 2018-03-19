@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : SHEnumKeyEx
+## Function name : SHEnumKeyEx
 Group: Registry - Library: shlwapi    
 ***  
 
@@ -37,19 +35,17 @@ DECLARE INTEGER SHEnumKeyEx IN shlwapi;
 
 
 ## Parameters:
-```txt  
-hkey
+hkey 
 Handle to the currently open key, or a predefined value.
 
-dwIndex
-Index of the subkey to retrieve. This parameter should be zero for the first call and incremented for subsequent calls.
+dwIndex 
+Index of the subkey to retrieve. This parameter should be zero for the first call and incremented for subsequent calls. 
 
-pszName
-Address of a character buffer that receives the enumerated key name.
+pszName 
+Address of a character buffer that receives the enumerated key name. 
 
-pcchName
+pcchName 
 Address of a DWORD that, on entry, contains the size of the buffer at pszName. On exit, this contains the number of characters that were copied to pszName.  
-```  
 ***  
 
 

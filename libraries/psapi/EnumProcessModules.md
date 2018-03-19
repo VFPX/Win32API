@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : EnumProcessModules
+## Function name : EnumProcessModules
 Group: Performance Monitoring - Library: psapi    
 ***  
 
@@ -37,19 +35,17 @@ DECLARE INTEGER EnumProcessModules IN psapi;
 
 
 ## Parameters:
-```txt  
-hProcess
-[in] Handle to the process.
+hProcess 
+[in] Handle to the process. 
 
-lphModule
-[out] Pointer to the array that receives the list of module handles.
+lphModule 
+[out] Pointer to the array that receives the list of module handles. 
 
-cb
-[in] Specifies the size, in bytes, of the lphModule array.
+cb 
+[in] Specifies the size, in bytes, of the lphModule array. 
 
-lpcbNeeded
-[out] Receives the number of bytes required to store all module handles in the lphModule array.  
-```  
+lpcbNeeded 
+[out] Receives the number of bytes required to store all module handles in the lphModule array.   
 ***  
 
 

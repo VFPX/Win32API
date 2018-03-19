@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : EnumJobs
+## Function name : EnumJobs
 Group: Printing and Print Spooler - Library: winspool.drv    
 ***  
 
@@ -47,31 +45,29 @@ DECLARE INTEGER EnumJobs IN winspool.drv;
 
 
 ## Parameters:
-```txt  
-hPrinter
-[in] Handle to the printer object whose print jobs the function enumerates. Use the OpenPrinter or AddPrinter function to retrieve a printer handle.
+hPrinter 
+[in] Handle to the printer object whose print jobs the function enumerates. Use the OpenPrinter or AddPrinter function to retrieve a printer handle. 
 
-FirstJob
-[in] Specifies the zero-based position within the print queue of the first print job to enumerate.
+FirstJob 
+[in] Specifies the zero-based position within the print queue of the first print job to enumerate. 
 
-NoJobs
-[in] Specifies the total number of print jobs to enumerate.
+NoJobs 
+[in] Specifies the total number of print jobs to enumerate. 
 
-Level
-[in] Specifies the type of information returned in the pJob buffer.
+Level 
+[in] Specifies the type of information returned in the pJob buffer. 
 
-pJob
+pJob 
 [out] Pointer to a buffer that receives an array of JOB_INFO_1, JOB_INFO_2, or JOB_INFO_3 structures, depending on Level value.
 
-cbBuf
-[in] Specifies the size, in bytes, of the pJob buffer.
+cbBuf 
+[in] Specifies the size, in bytes, of the pJob buffer. 
 
-pcbNeeded
+pcbNeeded 
 [out] Pointer to a variable that receives the number of bytes copied if the function succeeds.
 
-pcReturned
-[out] Pointer to a variable that receives the number of JOB_INFO_1, JOB_INFO_2, or JOB_INFO_3 structures returned in the pJob buffer.  
-```  
+pcReturned 
+[out] Pointer to a variable that receives the number of JOB_INFO_1, JOB_INFO_2, or JOB_INFO_3 structures returned in the pJob buffer.   
 ***  
 
 

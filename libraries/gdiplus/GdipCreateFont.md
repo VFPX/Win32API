@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : GdipCreateFont
+## Function name : GdipCreateFont
 Group: GDI+ Font - Library: gdiplus    
 ***  
 
@@ -40,22 +38,20 @@ DECLARE INTEGER GdipCreateFont IN gdiplus;
 
 
 ## Parameters:
-```txt  
 FontFamily
-[in] FontFamily handle that specifies information such as the string that identifies the font family and the font family"s text metrics measured in design units.
+[in] FontFamily handle that specifies information such as the string that identifies the font family and the font family"s text metrics measured in design units. 
 
 emSize
-[in] Real number that specifies the em size of the font measured in the units specified in the unit parameter.
+[in] Real number that specifies the em size of the font measured in the units specified in the unit parameter. 
 
 fontstyle
 [in] Optional. Integer that specifies the style of the typeface.
 
 unit
-[in] Optional. Element of the Unit enumeration that specifies the unit of measurement for the font size (UnitPoint=0).
+[in] Optional. Element of the Unit enumeration that specifies the unit of measurement for the font size (UnitPoint=0). 
 
 fnt
 [out] Handle to the Font object.  
-```  
 ***  
 
 

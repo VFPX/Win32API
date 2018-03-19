@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : DeleteUrlCacheEntry
+## Function name : DeleteUrlCacheEntry
 Group: Internet Functions (WinInet) - Library: wininet    
 ***  
 
@@ -32,10 +30,8 @@ DECLARE INTEGER DeleteUrlCacheEntry IN wininet;
 
 
 ## Parameters:
-```txt  
-lpszUrlName
+lpszUrlName 
 [in] Pointer to a string that contains the name of the source that corresponds to the cache entry.  
-```  
 ***  
 
 

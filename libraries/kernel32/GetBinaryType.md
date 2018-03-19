@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : GetBinaryType
+## Function name : GetBinaryType
 Group: File Management - Library: kernel32    
 ***  
 
@@ -34,13 +32,11 @@ DECLARE SHORT GetBinaryType IN kernel32;
 
 
 ## Parameters:
-```txt  
-lpApplicationName
-[in] Pointer to a null-terminated string that contains the full path of the file whose binary type the function shall determine.
+lpApplicationName 
+[in] Pointer to a null-terminated string that contains the full path of the file whose binary type the function shall determine. 
 
-lpBinaryType
+lpBinaryType 
 [out] Pointer to a variable to receive information about the executable type of the file specified by lpApplicationName.  
-```  
 ***  
 
 

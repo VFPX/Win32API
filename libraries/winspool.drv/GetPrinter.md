@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : GetPrinter
+## Function name : GetPrinter
 Group: Printing and Print Spooler - Library: winspool.drv    
 ***  
 
@@ -42,22 +40,20 @@ AS GetPrinterA;
 
 
 ## Parameters:
-```txt  
-hPrinter
-[in] Handle to the printer for which the function retrieves information. Use the OpenPrinter or AddPrinter function to retrieve a printer handle.
+hPrinter 
+[in] Handle to the printer for which the function retrieves information. Use the OpenPrinter or AddPrinter function to retrieve a printer handle. 
 
-Level
+Level 
 [in] Specifies the level or type of structure that the function stores into the buffer pointed to by pPrinter.
 
-pPrinter
+pPrinter 
 [out] Pointer to a buffer that receives a structure containing information about the specified printer.
 
-cbBuf
-[in] Specifies the size, in bytes, of the buffer pointed to by pPrinter.
+cbBuf 
+[in] Specifies the size, in bytes, of the buffer pointed to by pPrinter. 
 
-pcbNeeded
+pcbNeeded 
 [out] Pointer to a variable that the function sets to the size, in bytes, of the printer information.  
-```  
 ***  
 
 

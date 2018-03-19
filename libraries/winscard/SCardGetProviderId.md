@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : SCardGetProviderId
+## Function name : SCardGetProviderId
 Group: Authentication - Library: winscard    
 ***  
 
@@ -35,7 +33,6 @@ DECLARE LONG SCardGetProviderId IN Winscard;
 
 
 ## Parameters:
-```txt  
 hContext [in]
 Handle that identifies the resource manager context for the query.
 
@@ -44,7 +41,6 @@ Name of the card defined to the system.
 
 pguidProviderId [out]
 Identifier (GUID) of the primary service provider. This provider may be activated using COM, and will supply access to other services in the card.  
-```  
 ***  
 
 

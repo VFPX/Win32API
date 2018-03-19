@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : DeleteMenu
+## Function name : DeleteMenu
 Group: Menu - Library: user32    
 ***  
 
@@ -38,7 +36,6 @@ DECLARE INTEGER DeleteMenu IN user32;
 
 
 ## Parameters:
-```txt  
 hMenu [in]
 HMENU
 A handle to the menu to be changed.
@@ -50,7 +47,6 @@ The menu item to be deleted, as determined by the uFlags parameter.
 uFlags [in]
 UINT
 Indicates how the uPosition parameter is interpreted: MF_BYCOMMAND (0), MF_BYPOSITION (0x0400)  
-```  
 ***  
 
 

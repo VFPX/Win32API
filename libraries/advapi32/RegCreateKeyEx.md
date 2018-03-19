@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : RegCreateKeyEx
+## Function name : RegCreateKeyEx
 Group: Registry - Library: advapi32    
 ***  
 
@@ -48,34 +46,32 @@ DECLARE INTEGER RegCreateKeyEx IN advapi32;
 
 
 ## Parameters:
-```txt  
-hKey
+hKey 
 [in] Handle to an open key.
 
-lpSubKey
+lpSubKey 
 [in] Pointer to a null-terminated string specifying the name of a subkey that this function opens or creates.
 
-Reserved
-Reserved; must be zero.
+Reserved 
+Reserved; must be zero. 
 
-lpClass
+lpClass 
 [in] Pointer to a null-terminated string that specifies the class (object type) of this key.
 
-dwOptions
+dwOptions 
 [in] This parameter can be one of predefined values.
 
-samDesired
+samDesired 
 [in] Access mask that specifies the access rights for the key.
 
-lpSecurityAttributes
+lpSecurityAttributes 
 [in] Pointer to a SECURITY_ATTRIBUTES structure that determines whether the returned handle can be inherited by child processes.
 
-phkResult
+phkResult 
 [out] Pointer to a variable that receives a handle to the opened or created key.
 
-lpdwDisposition
+lpdwDisposition 
 [out] Pointer to a variable that receives a disposition value.  
-```  
 ***  
 
 

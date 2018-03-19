@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : SHGetFolderPath
+## Function name : SHGetFolderPath
 Group: Shell Functions - Library: shell32    
 ***  
 
@@ -39,15 +37,14 @@ DECLARE SHORT SHGetFolderPath IN shell32;
 
 
 ## Parameters:
-```txt  
 hwndOwner
-[in] Handle to an owner window. This parameter is typically set to NULL.
+[in] Handle to an owner window. This parameter is typically set to NULL. 
 
 nFolder
 [in] A CSIDL value that identifies the folder whose path is to be retrieved.
 
 hToken
-[in]
+[in] 
 An access token that can be used to represent a particular user.
 
 dwFlags
@@ -55,7 +52,6 @@ dwFlags
 
 pszPath
 [out] Pointer to a null-terminated string of length MAX_PATH which will receive the path.  
-```  
 ***  
 
 

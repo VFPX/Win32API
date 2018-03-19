@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : GetHandleInformation
+## Function name : GetHandleInformation
 Group: Handle and Object - Library: kernel32    
 ***  
 
@@ -34,13 +32,11 @@ DECLARE INTEGER GetHandleInformation IN kernel32;
 
 
 ## Parameters:
-```txt  
-hObject
+hObject 
 [in] Handle to an object whose information is to be retrieved.
 
-lpdwFlags
-[out] Pointer to a variable that receives a set of bit flags that specify properties of the object handle.  
-```  
+lpdwFlags 
+[out] Pointer to a variable that receives a set of bit flags that specify properties of the object handle.   
 ***  
 
 

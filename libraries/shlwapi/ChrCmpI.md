@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : ChrCmpI
+## Function name : ChrCmpI
 Group: Shell Lightweight Utility APIs -- string functions - Library: shlwapi    
 ***  
 
@@ -37,13 +35,11 @@ As ChrCmpI;
 
 
 ## Parameters:
-```txt  
-w1
-First character to be compared.
+w1 
+First character to be compared. 
 
-w2
-Second character to be compared.  
-```  
+w2 
+Second character to be compared.   
 ***  
 
 

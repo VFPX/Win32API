@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : CeRapiInvoke
+## Function name : CeRapiInvoke
 Group: Remote Application Programming (RAPI) - Library: rapi    
 ***  
 
@@ -45,31 +43,29 @@ DECLARE INTEGER CeRapiInvoke IN rapi;
 
 
 ## Parameters:
-```txt  
-pDllPath
-[in] Pointer to a buffer containing the name of a DLL on the Windows CE device containing pFunctionName.
+pDllPath 
+[in] Pointer to a buffer containing the name of a DLL on the Windows CE device containing pFunctionName. 
 
-pFunctionName
-[in] Pointer to a buffer containing the name of the function that RAPI should call on the Windows CE device.
+pFunctionName 
+[in] Pointer to a buffer containing the name of the function that RAPI should call on the Windows CE device. 
 
-cbInput
-[in] Number of bytes in the input buffer *pInput.
+cbInput 
+[in] Number of bytes in the input buffer *pInput. 
 
-pInput
-[in] Pointer to a buffer containing the input data.
+pInput 
+[in] Pointer to a buffer containing the input data. 
 
-pcbOutput
-[out] Pointer to a variable that is set to the number of bytes in the output buffer ppOutput when the function returns.
+pcbOutput 
+[out] Pointer to a variable that is set to the number of bytes in the output buffer ppOutput when the function returns. 
 
-ppOutput
-[out] Pointer to a variable that is set to the location of the output buffer upon return.
+ppOutput 
+[out] Pointer to a variable that is set to the location of the output buffer upon return. 
 
-ppIRAPIStream
-[out] Pointer to a variable that is set to the address of the IRAPIStream interface.
+ppIRAPIStream 
+[out] Pointer to a variable that is set to the address of the IRAPIStream interface. 
 
-dwReserved
-Reserved.  
-```  
+dwReserved 
+Reserved.   
 ***  
 
 

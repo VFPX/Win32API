@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : OpenEvent
+## Function name : OpenEvent
 Group: Synchronization - Library: kernel32    
 ***  
 
@@ -35,16 +33,14 @@ DECLARE INTEGER OpenEvent IN kernel32;
 
 
 ## Parameters:
-```txt  
-dwDesiredAccess
+dwDesiredAccess 
 [in] Specifies the requested access to the event object.
 
-bInheritHandle
-[in] Specifies whether the returned handle is inheritable.
+bInheritHandle 
+[in] Specifies whether the returned handle is inheritable. 
 
-lpName
+lpName 
 [in] Pointer to a null-terminated string that names the event to be opened. Name comparisons are case sensitive.  
-```  
 ***  
 
 

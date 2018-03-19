@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : inet_ntoa
+## Function name : inet_ntoa
 Group: Windows Sockets 2 (Winsock) - Library: ws2_32    
 ***  
 
@@ -43,10 +41,8 @@ DECLARE STRING inet_ntoa IN ws2_32;
 
 
 ## Parameters:
-```txt  
-in
-[in] Pointer to an in_addr structure that represents an Internet host address.  
-```  
+in 
+[in] Pointer to an in_addr structure that represents an Internet host address.   
 ***  
 
 

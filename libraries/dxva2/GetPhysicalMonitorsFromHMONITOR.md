@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : GetPhysicalMonitorsFromHMONITOR
+## Function name : GetPhysicalMonitorsFromHMONITOR
 Group: Monitor Configuration (Vista) - Library: dxva2    
 ***  
 
@@ -35,7 +33,6 @@ DECLARE INTEGER GetPhysicalMonitorsFromHMONITOR IN dxva2;
 
 
 ## Parameters:
-```txt  
 hMonitor
 [in]  A monitor handle. Monitor handles are returned by several Multiple Display Monitor functions, including EnumDisplayMonitors and MonitorFromWindow.
 
@@ -45,7 +42,6 @@ dwPhysicalMonitorArraySize
 pPhysicalMonitorArray
 [out]  Pointer to an array of PHYSICAL_MONITOR structures. The caller must allocate the array.
   
-```  
 ***  
 
 

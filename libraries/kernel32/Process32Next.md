@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : Process32Next
+## Function name : Process32Next
 Group: Performance Monitoring - Library: kernel32    
 ***  
 
@@ -33,13 +31,11 @@ DECLARE INTEGER Process32Next IN kernel32;
 
 
 ## Parameters:
-```txt  
-hSnapshot
-[in] Handle to the snapshot returned from a previous call to the CreateToolhelp32Snapshot function.
+hSnapshot 
+[in] Handle to the snapshot returned from a previous call to the CreateToolhelp32Snapshot function. 
 
-lppe
+lppe 
 [out] Pointer to a PROCESSENTRY32 structure.  
-```  
 ***  
 
 

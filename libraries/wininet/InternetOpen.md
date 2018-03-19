@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : InternetOpen
+## Function name : InternetOpen
 Group: Internet Functions (WinInet) - Library: wininet    
 ***  
 
@@ -56,7 +54,6 @@ DECLARE INTEGER InternetOpen IN wininet;
 
 
 ## Parameters:
-```txt  
 lpszAgent
 [in] Pointer to a string variable that contains the name of the application or entity calling the Internet functions.
 
@@ -64,14 +61,13 @@ dwAccessType
 [in] Type of access required
 
 lpszProxyName
-[in] Pointer to a string variable that contains the name of the proxy server(s)
+[in] Pointer to a string variable that contains the name of the proxy server(s) 
 
 lpszProxyBypass
 [in] Pointer to a string variable that contains an optional list of host names or IP addresses, or both, that should not be routed through the proxy when dwAccessType is set to INTERNET_OPEN_TYPE_PROXY
 
 dwFlags
 [in] Unsigned long integer value that contains the flags that indicate various options affecting the behavior of the function  
-```  
 ***  
 
 

@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : GetFileSize
+## Function name : GetFileSize
 Group: File System - Library: kernel32    
 ***  
 
@@ -35,13 +33,11 @@ DECLARE INTEGER GetFileSize IN kernel32;
 
 
 ## Parameters:
-```txt  
-hFile
-[in] Handle to the file whose size is to be returned.
+hFile 
+[in] Handle to the file whose size is to be returned. 
 
-lpFileSizeHigh
+lpFileSizeHigh 
 [out] Pointer to the variable where the high-order word of the file size is returned.  
-```  
 ***  
 
 

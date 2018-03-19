@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : GdipGetImageFlags
+## Function name : GdipGetImageFlags
 Group: GDI+ Image - Library: gdiplus    
 ***  
 
@@ -35,7 +33,6 @@ DECLARE INTEGER GdipGetImageFlags IN gdiplus;
 
 
 ## Parameters:
-```txt  
 img
 [in] Handle to Image Object
 
@@ -43,7 +40,6 @@ imgflags
 [out] Set of single-bit flags. The flags are defined in the ImageFlags enumeration.
 
   
-```  
 ***  
 
 

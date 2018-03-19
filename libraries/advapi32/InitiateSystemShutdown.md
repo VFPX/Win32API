@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : InitiateSystemShutdown
+## Function name : InitiateSystemShutdown
 Group: System Shutdown - Library: advapi32    
 ***  
 
@@ -39,23 +37,21 @@ DECLARE SHORT InitiateSystemShutdown IN advapi32;
 
 
 ## Parameters:
-```txt  
-lpMachineName
-[in] Pointer to the null-terminated string that specifies the network name of the computer to shut down. If lpMachineName is NULL or an empty string, the function shuts down the local computer.
+lpMachineName 
+[in] Pointer to the null-terminated string that specifies the network name of the computer to shut down. If lpMachineName is NULL or an empty string, the function shuts down the local computer. 
 
-lpMessage
-[in] Pointer to a null-terminated string that specifies a message to display in the shutdown dialog box. This parameter can be NULL if no message is required.
+lpMessage 
+[in] Pointer to a null-terminated string that specifies a message to display in the shutdown dialog box. This parameter can be NULL if no message is required. 
 
-dwTimeout
-[in] Specifies the time (in seconds) that the shutdown dialog box should be displayed.
+dwTimeout 
+[in] Specifies the time (in seconds) that the shutdown dialog box should be displayed. 
 
-bForceAppsClosed
-[in] Specifies whether applications with unsaved changes are to be forcibly closed.
+bForceAppsClosed 
+[in] Specifies whether applications with unsaved changes are to be forcibly closed. 
 
-bRebootAfterShutdown
-[in] Specifies whether the computer is to restart immediately after shutting down.
+bRebootAfterShutdown 
+[in] Specifies whether the computer is to restart immediately after shutting down. 
   
-```  
 ***  
 
 

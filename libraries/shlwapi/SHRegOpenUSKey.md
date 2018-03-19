@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : SHRegOpenUSKey
+## Function name : SHRegOpenUSKey
 Group: Registry - Library: shlwapi    
 ***  
 
@@ -40,22 +38,20 @@ DECLARE INTEGER SHRegOpenUSKey IN shlwapi;
 
 
 ## Parameters:
-```txt  
-pszPath
-[in] Pointer to a null-terminated string with the name of the subkey.
+pszPath 
+[in] Pointer to a null-terminated string with the name of the subkey. 
 
-samDesired
-[in] Desired security access. For more information on security access, see REGSAM.
+samDesired 
+[in] Desired security access. For more information on security access, see REGSAM. 
 
-hRelativeUSKey
-[in] Key to be used as a base for relative paths.
+hRelativeUSKey 
+[in] Key to be used as a base for relative paths. 
 
-phNewUSKey
-[out] Pointer to the handle of the opened key.
+phNewUSKey 
+[out] Pointer to the handle of the opened key. 
 
-fIgnoreHKCU
+fIgnoreHKCU 
 [in] Variable that specifies which key to look under. When set to TRUE, SHRegGetUSValue ignores HKCU and returns a value from HKLM.  
-```  
 ***  
 
 

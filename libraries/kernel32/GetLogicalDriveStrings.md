@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : GetLogicalDriveStrings
+## Function name : GetLogicalDriveStrings
 Group: File System - Library: kernel32    
 ***  
 
@@ -37,13 +35,11 @@ As "GetLogicalDriveStringsA";
 
 
 ## Parameters:
-```txt  
-nBufferLength
+nBufferLength 
 [in] Specifies the maximum size, in characters, of the buffer pointed to by lpBuffer
 
-lpBuffer
+lpBuffer 
 [out] Pointer to a buffer that receives a series of null-terminated strings, one for each valid drive in the system, that end with a second null character  
-```  
 ***  
 
 

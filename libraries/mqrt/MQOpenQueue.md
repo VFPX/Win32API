@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : MQOpenQueue
+## Function name : MQOpenQueue
 Group: Message and Message Queue - Library: mqrt    
 ***  
 
@@ -37,7 +35,6 @@ DECLARE INTEGER MQOpenQueue IN mqrt;
 
 
 ## Parameters:
-```txt  
 wcsFormatName
 [in] Pointer to the format name string of the queue you want to open.
 
@@ -50,7 +47,6 @@ dwShareMode
 phQueue
 [out] Pointer to a handle to the opened queue. If MQOpenQueue fails, a NULL pointer is returned.
   
-```  
 ***  
 
 

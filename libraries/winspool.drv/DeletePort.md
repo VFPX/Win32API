@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : DeletePort
+## Function name : DeletePort
 Group: Printing and Print Spooler - Library: winspool.drv    
 ***  
 
@@ -36,17 +34,15 @@ DECLARE INTEGER DeletePort IN winspool.drv;
 
 
 ## Parameters:
-```txt  
-pName
-[in] Pointer to a zero-terminated string that specifies the name of the server for which the port should be deleted. If this parameter is NULL, a local port is deleted.
+pName 
+[in] Pointer to a zero-terminated string that specifies the name of the server for which the port should be deleted. If this parameter is NULL, a local port is deleted. 
 
-hWnd
-[in] Handle to the parent window of the port-deletion dialog box.
+hWnd 
+[in] Handle to the parent window of the port-deletion dialog box. 
 
-pPortName
-[in] Pointer to a zero-terminated string that specifies the name of the port that should be deleted.
+pPortName 
+[in] Pointer to a zero-terminated string that specifies the name of the port that should be deleted. 
   
-```  
 ***  
 
 

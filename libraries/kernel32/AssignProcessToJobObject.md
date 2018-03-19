@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : AssignProcessToJobObject
+## Function name : AssignProcessToJobObject
 Group: Process and Thread - Library: kernel32    
 ***  
 
@@ -34,13 +32,11 @@ DECLARE INTEGER AssignProcessToJobObject IN kernel32;
 
 
 ## Parameters:
-```txt  
-hJob
+hJob 
 [in] Handle to the job object to which the process will be associated.
 
-hProcess
+hProcess 
 [in] Handle to the process to associate with the job object.  
-```  
 ***  
 
 

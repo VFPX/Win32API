@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : DragAcceptFiles
+## Function name : DragAcceptFiles
 Group: Shell Functions - Library: user32    
 ***  
 
@@ -33,13 +31,11 @@ DECLARE DragAcceptFiles IN Shell32;
 
 
 ## Parameters:
-```txt  
 hWnd
-Identifier of the window that is registering whether it will accept dropped files.
+Identifier of the window that is registering whether it will accept dropped files. 
 
 fAccept
 Value that indicates if the window identified by the hWnd parameter accepts dropped files.  
-```  
 ***  
 
 

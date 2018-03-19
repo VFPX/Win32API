@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : ReadEventLog
+## Function name : ReadEventLog
 Group: Event Logging - Library: advapi32    
 ***  
 
@@ -43,28 +41,26 @@ DECLARE INTEGER ReadEventLog IN advapi32;
 
 
 ## Parameters:
-```txt  
-hEventLog
-[in] A handle to the event log to be read. This handle is returned by the OpenEventLog function.
+hEventLog 
+[in] A handle to the event log to be read. This handle is returned by the OpenEventLog function. 
 
-dwReadFlags
+dwReadFlags 
 [in] The options for how the read operation is to proceed.
 
-dwRecordOffset
-[in] The number of the log-entry record at which the read operation should start.
+dwRecordOffset 
+[in] The number of the log-entry record at which the read operation should start. 
 
-lpBuffer
-[out] A pointer to a buffer for the data read from the event log.
+lpBuffer 
+[out] A pointer to a buffer for the data read from the event log. 
 
-nNumberOfBytesToRead
+nNumberOfBytesToRead 
 [in] The size of the buffer, in bytes. This function will read as many whole log entries as will fit in the buffer.
 
-pnBytesRead
-[out] A pointer to a variable that receives the number of bytes read by the function.
+pnBytesRead 
+[out] A pointer to a variable that receives the number of bytes read by the function. 
 
 pnMinNumberOfBytesNeeded
-[out] A pointer to a variable that receives the number of bytes required for the next log entry.  
-```  
+[out] A pointer to a variable that receives the number of bytes required for the next log entry.   
 ***  
 
 

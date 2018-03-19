@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : DrawDibDraw
+## Function name : DrawDibDraw
 Group: Windows Multimedia - Library: msvfw32    
 ***  
 
@@ -56,7 +54,6 @@ DECLARE INTEGER DrawDibDraw IN msvfw32;
 
 
 ## Parameters:
-```txt  
 hdd
 Handle to a DrawDib DC.
 
@@ -70,7 +67,7 @@ yDst
 The y-coordinate, in MM_TEXT client coordinates, of the upper left corner of the destination rectangle.
 
 dxDst
-Width, in MM_TEXT client coordinates, of the destination rectangle. If dxDst is - 1, the width of the bitmap is used.
+Width, in MM_TEXT client coordinates, of the destination rectangle. If dxDst is - 1, the width of the bitmap is used. 
 
 dyDst
 Height, in MM_TEXT client coordinates, of the destination rectangle. If dyDst is - 1, the height of the bitmap is used.
@@ -97,7 +94,6 @@ wFlags
 Applicable flags for drawing.
 
   
-```  
 ***  
 
 

@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : SCardListReaders
+## Function name : SCardListReaders
 Group: Authentication - Library: winscard    
 ***  
 
@@ -37,7 +35,6 @@ DECLARE LONG SCardListReaders IN Winscard;
 
 
 ## Parameters:
-```txt  
 hContext [in]
 Handle that identifies the resource manager context for the query.
 
@@ -49,7 +46,6 @@ Multi-string that lists the card readers within the supplied reader groups.
 
 pcchReaders [in, out]
 Length of the mszReaders buffer in characters.  
-```  
 ***  
 
 

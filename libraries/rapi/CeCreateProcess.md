@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : CeCreateProcess
+## Function name : CeCreateProcess
 Group: Remote Application Programming (RAPI) - Library: rapi    
 ***  
 
@@ -49,37 +47,35 @@ DECLARE INTEGER CeCreateProcess IN rapi;
 
 
 ## Parameters:
-```txt  
-lpApplicationName
+lpApplicationName 
 [in] Long pointer to a null-terminated string that specifies the module to execute.
 
-lpCommandLine
-[in] Long pointer to a null-terminated string that specifies the command line to execute.
+lpCommandLine 
+[in] Long pointer to a null-terminated string that specifies the command line to execute. 
 
-lpProcessAttributes
-[in] Not supported; set to NULL.
+lpProcessAttributes 
+[in] Not supported; set to NULL. 
 
-lpThreadAttributes
-[in] Not supported; set to NULL.
+lpThreadAttributes 
+[in] Not supported; set to NULL. 
 
-bInheritHandles
-[in] Not supported; set to FALSE.
+bInheritHandles 
+[in] Not supported; set to FALSE. 
 
-dwCreationFlags
+dwCreationFlags 
 [in] Specifies additional flags that control the priority class and the creation of the process.
 
-lpEnvironment
-[in] Not supported; set to NULL.
+lpEnvironment 
+[in] Not supported; set to NULL. 
 
-lpCurrentDirectory
-[in] Not supported; set to NULL.
+lpCurrentDirectory 
+[in] Not supported; set to NULL. 
 
-lpStartupInfo
-[in] Not supported; set to NULL.
+lpStartupInfo 
+[in] Not supported; set to NULL. 
 
-lpProcessInformation
+lpProcessInformation 
 [out] Long pointer to a PROCESS_INFORMATION structure that receives identification information about the new process.  
-```  
 ***  
 
 

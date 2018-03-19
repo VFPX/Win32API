@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : BlockInput
+## Function name : BlockInput
 Group: Keyboard Input - Library: user32    
 ***  
 
@@ -31,10 +29,8 @@ DECLARE INTEGER BlockInput IN user32 INTEGER fBlockIt
 
 
 ## Parameters:
-```txt  
-fBlockIt
+fBlockIt 
 [in] Specifies the function"s purpose. If this parameter is TRUE, keyboard and mouse input events are blocked. If this parameter is FALSE, keyboard and mouse events are unblocked.  
-```  
 ***  
 
 

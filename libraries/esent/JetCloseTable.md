@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : JetCloseTable
+## Function name : JetCloseTable
 Group: Extensible Storage Engine (ESE, Jet Blue) - Library: esent    
 ***  
 
@@ -34,14 +32,12 @@ DECLARE INTEGER JetCloseTable IN esent;
 
 
 ## Parameters:
-```txt  
-sesid
+sesid 
 Identifies the database session context that will be used for the API call.
 
-tableid
+tableid 
 Identifies the table to be closed.
   
-```  
 ***  
 
 

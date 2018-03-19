@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : Shell_NotifyIcon
+## Function name : Shell_NotifyIcon
 Group: Shell Functions - Library: shell32    
 ***  
 
@@ -35,13 +33,11 @@ DECLARE INTEGER Shell_NotifyIcon IN shell32;
 
 
 ## Parameters:
-```txt  
-dwMessage
-[in] Variable of type DWORD that specifies the action to be taken.
+dwMessage 
+[in] Variable of type DWORD that specifies the action to be taken. 
 
-lpdata
-[in] Address of a NOTIFYICONDATA structure. The content of the structure depends on the value of dwMessage.  
-```  
+lpdata 
+[in] Address of a NOTIFYICONDATA structure. The content of the structure depends on the value of dwMessage.   
 ***  
 
 

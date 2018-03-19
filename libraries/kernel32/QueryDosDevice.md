@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : QueryDosDevice
+## Function name : QueryDosDevice
 Group: File Management - Library: kernel32    
 ***  
 
@@ -36,16 +34,14 @@ DECLARE INTEGER QueryDosDevice IN kernel32;
 
 
 ## Parameters:
-```txt  
-lpDeviceName
-[in] Pointer to an MS-DOS device name string specifying the target of the query.
+lpDeviceName 
+[in] Pointer to an MS-DOS device name string specifying the target of the query. 
 
-lpTargetPath
-[out] Pointer to a buffer that will receive the result of the query.
+lpTargetPath 
+[out] Pointer to a buffer that will receive the result of the query. 
 
-ucchMax
-[in] Specifies the maximum number of TCHARs that can be stored into the buffer pointed to by lpTargetPath.  
-```  
+ucchMax 
+[in] Specifies the maximum number of TCHARs that can be stored into the buffer pointed to by lpTargetPath.   
 ***  
 
 

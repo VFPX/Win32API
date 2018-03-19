@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : SetGraphicsMode
+## Function name : SetGraphicsMode
 Group: Coordinate Space and Transformation - Library: gdi32    
 ***  
 
@@ -30,13 +28,11 @@ DECLARE INTEGER SetGraphicsMode IN gdi32;
 
 
 ## Parameters:
-```txt  
-hdc
-[in] Handle to the device context.
+hdc 
+[in] Handle to the device context. 
 
-iMode
+iMode 
 [in] Specifies the graphics mode.  
-```  
 ***  
 
 

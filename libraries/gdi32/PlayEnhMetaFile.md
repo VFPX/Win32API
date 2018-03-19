@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : PlayEnhMetaFile
+## Function name : PlayEnhMetaFile
 Group: Metafile - Library: gdi32    
 ***  
 
@@ -38,16 +36,14 @@ DECLARE INTEGER PlayEnhMetaFile IN gdi32;
 
 
 ## Parameters:
-```txt  
-hdc
-[in] Handle to the device context for the output device on which the picture will appear.
+hdc 
+[in] Handle to the device context for the output device on which the picture will appear. 
 
-hemf
-[in] Handle to the enhanced metafile.
+hemf 
+[in] Handle to the enhanced metafile. 
 
-lpRect
+lpRect 
 [in] Pointer to a RECT structure that contains the coordinates of the bounding rectangle used to display the picture. The coordinates are specified in logical units.  
-```  
 ***  
 
 

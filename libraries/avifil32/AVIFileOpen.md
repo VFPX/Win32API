@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : AVIFileOpen
+## Function name : AVIFileOpen
 Group: Windows Multimedia - Library: avifil32    
 ***  
 
@@ -42,7 +40,6 @@ DECLARE INTEGER AVIFileOpen IN avifil32;
 
 
 ## Parameters:
-```txt  
 ppfile
 Pointer to a buffer that receives the new IAVIFile interface pointer.
 
@@ -55,7 +52,6 @@ Access mode to use when opening the file.
 pclsidHandler
 Pointer to a class identifier of the standard or custom handler you want to use.
   
-```  
 ***  
 
 

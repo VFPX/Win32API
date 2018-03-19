@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : FtpFindFirstFile
+## Function name : FtpFindFirstFile
 Group: Internet Functions (WinInet) - Library: wininet    
 ***  
 
@@ -43,7 +41,6 @@ DECLARE INTEGER FtpFindFirstFile IN wininet;
 
 
 ## Parameters:
-```txt  
 hConnect
 [in] Valid handle to an FTP session returned from InternetConnect
 
@@ -58,7 +55,6 @@ dwFlags
 
 dwContext
 [in] Pointer to a variable of type DWORD that specifies the application-defined value...  
-```  
 ***  
 
 

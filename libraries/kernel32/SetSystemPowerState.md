@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : SetSystemPowerState
+## Function name : SetSystemPowerState
 Group: Power Management - Library: kernel32    
 ***  
 
@@ -33,13 +31,11 @@ DECLARE INTEGER SetSystemPowerState IN kernel32;
 
 
 ## Parameters:
-```txt  
-fSuspend
-[in] If this parameter is TRUE, the system is suspended. If the parameter is FALSE, the system hibernates.
+fSuspend 
+[in] If this parameter is TRUE, the system is suspended. If the parameter is FALSE, the system hibernates. 
 
-fForce
+fForce 
 [in] If this parameter is TRUE, the function broadcasts a PBT_APMSUSPEND event to each application and driver, then immediately suspends operation. If the parameter is FALSE, the function broadcasts a PBT_APMQUERYSUSPEND event to each application to request permission to suspend operation.  
-```  
 ***  
 
 

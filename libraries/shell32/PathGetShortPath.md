@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : PathGetShortPath
+## Function name : PathGetShortPath
 Group: Shell Lightweight Utility APIs -- Path Functions - Library: shell32    
 ***  
 
@@ -29,10 +27,8 @@ DECLARE PathGetShortPath IN shell32;
 
 
 ## Parameters:
-```txt  
 pszLongPath
 [in, out] A NULL-terminated Unicode string that contains the long path. When the function returns it contains the equivalent short path.  
-```  
 ***  
 
 

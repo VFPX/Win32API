@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : PathRenameExtension
+## Function name : PathRenameExtension
 Group: Shell Lightweight Utility APIs -- Path Functions - Library: shlwapi    
 ***  
 
@@ -33,13 +31,11 @@ DECLARE INTEGER PathRenameExtension IN shlwapi;
 
 
 ## Parameters:
-```txt  
-pszPath
-[in] Pointer to a null-terminated string of maximum length MAX_PATH in which to replace the extension.
+pszPath 
+[in] Pointer to a null-terminated string of maximum length MAX_PATH in which to replace the extension. 
 
-pszExt
-[in] Address of a character buffer that contains a "." followed by the new extension.  
-```  
+pszExt 
+[in] Address of a character buffer that contains a "." followed by the new extension.   
 ***  
 
 

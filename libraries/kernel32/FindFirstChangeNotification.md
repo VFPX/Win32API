@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : FindFirstChangeNotification
+## Function name : FindFirstChangeNotification
 Group: File Management - Library: kernel32    
 ***  
 
@@ -38,16 +36,14 @@ DECLARE INTEGER FindFirstChangeNotification IN kernel32;
 
 
 ## Parameters:
-```txt  
-lpPathName
-[in] Pointer to a null-terminated string that specifies the path of the directory to watch.
+lpPathName 
+[in] Pointer to a null-terminated string that specifies the path of the directory to watch. 
 
-bWatchSubtree
-[in] Specifies whether the function will monitor the directory or the directory tree.
+bWatchSubtree 
+[in] Specifies whether the function will monitor the directory or the directory tree. 
 
-dwNotifyFilter
+dwNotifyFilter 
 [in] Specifies the filter conditions that satisfy a change notification wait.  
-```  
 ***  
 
 

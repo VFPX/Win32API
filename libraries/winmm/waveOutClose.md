@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : waveOutClose
+## Function name : waveOutClose
 Group: Windows Multimedia - Library: winmm    
 ***  
 
@@ -32,10 +30,8 @@ DECLARE INTEGER waveOutClose IN winmm;
 
 
 ## Parameters:
-```txt  
-hwo
+hwo 
 Handle to the waveform-audio output device. If the function succeeds, the handle is no longer valid after this call.  
-```  
 ***  
 
 

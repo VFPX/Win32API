@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : CeFindAllFiles
+## Function name : CeFindAllFiles
 Group: Remote Application Programming (RAPI) - Library: rapi    
 ***  
 
@@ -37,19 +35,17 @@ DECLARE INTEGER CeFindAllFiles IN rapi;
 
 
 ## Parameters:
-```txt  
-szPath
+szPath 
 [in] Null-terminated string contains the name of the path in which to search for files.
 
-dwFlags
-[in] Combination of filter and retrieval flags. The filter flags specify what kinds of files to document, and the retrieval flags specify which members of the CE_FIND_DATA structure to retrieve.
+dwFlags 
+[in] Combination of filter and retrieval flags. The filter flags specify what kinds of files to document, and the retrieval flags specify which members of the CE_FIND_DATA structure to retrieve. 
 
-lpdwFoundCount
-[out] Long pointer to a variable that receives a count of the items found.
+lpdwFoundCount 
+[out] Long pointer to a variable that receives a count of the items found. 
 
-ppFindDataArray
+ppFindDataArray 
 [out] Pointer to the pointer to an array of CE_FIND_DATA structures that receive information about the found items.  
-```  
 ***  
 
 

@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : WTSQuerySessionInformation
+## Function name : WTSQuerySessionInformation
 Group: Terminal Services - Library: wtsapi32    
 ***  
 
@@ -38,24 +36,22 @@ AS WTSQuerySessionInformation;
 
 
 ## Parameters:
-```txt  
-hServer
-[in] Handle to a terminal server.
+hServer 
+[in] Handle to a terminal server. 
 
-SessionId
+SessionId 
 [in] A Terminal Services session identifier.
 
-WTSInfoClass
+WTSInfoClass 
 [in] Specifies the type of information to retrieve.
 
-ppBuffer
-[out] Pointer to a variable that receives a pointer to the requested information.
+ppBuffer 
+[out] Pointer to a variable that receives a pointer to the requested information. 
 
-pBytesReturned
+pBytesReturned 
 [out] Pointer to a variable that receives the size, in bytes, of the data returned in ppBuffer.
 
   
-```  
 ***  
 
 

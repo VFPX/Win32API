@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : CeEnumDBVolumes
+## Function name : CeEnumDBVolumes
 Group: Remote Application Programming (RAPI) - Library: rapi    
 ***  
 
@@ -35,16 +33,14 @@ DECLARE INTEGER CeEnumDBVolumes IN rapi;
 
 
 ## Parameters:
-```txt  
-pceguid
-[in] To begin enumeration, set this parameter to the value returned by CREATE_INVALIDGUID.
+pceguid 
+[in] To begin enumeration, set this parameter to the value returned by CREATE_INVALIDGUID. 
 
-lpBuf
-[out] Pointer to the allocated buffer that receives the database volume names.
+lpBuf 
+[out] Pointer to the allocated buffer that receives the database volume names. 
 
-dwNumChars
-[in] Specifies the length, in characters, of the buffer.  
-```  
+dwNumChars 
+[in] Specifies the length, in characters, of the buffer.   
 ***  
 
 

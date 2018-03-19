@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : ReadConsole
+## Function name : ReadConsole
 Group: Console - Library: kernel32    
 ***  
 
@@ -40,22 +38,20 @@ DECLARE INTEGER ReadConsole IN kernel32;
 
 
 ## Parameters:
-```txt  
-hConsoleInput
+hConsoleInput 
 [in] Handle to the console input buffer.
 
-lpBuffer
+lpBuffer 
 [out] Pointer to a buffer that receives the data read from the console input buffer.
 
-nNumberOfCharsToRead
+nNumberOfCharsToRead 
 [in] Number of TCHARs to read.
 
-lpNumberOfCharsRead
-[out] Pointer to a variable that receives the number of TCHARs actually read.
+lpNumberOfCharsRead 
+[out] Pointer to a variable that receives the number of TCHARs actually read. 
 
-lpReserved
+lpReserved 
 [in] Reserved; must be NULL.  
-```  
 ***  
 
 

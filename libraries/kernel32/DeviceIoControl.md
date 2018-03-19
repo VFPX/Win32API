@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : DeviceIoControl
+## Function name : DeviceIoControl
 Group: Device Input and Output - Library: kernel32    
 ***  
 
@@ -46,31 +44,29 @@ DECLARE INTEGER DeviceIoControl IN kernel32;
 
 
 ## Parameters:
-```txt  
-hDevice
+hDevice 
 [in] Handle to the device on which the operation is to be performed.
 
-dwIoControlCode
+dwIoControlCode 
 [in] Control code for the operation.
 
-lpInBuffer
+lpInBuffer 
 [in] Pointer to the input buffer that contains the data required to perform the operation.
 
-nInBufferSize
+nInBufferSize 
 [in] Size of the input buffer, in bytes.
 
-lpOutBuffer
+lpOutBuffer 
 [out] Pointer to the output buffer that is to receive the data returned by the operation.
 
-nOutBufferSize
-[in] Size of the output buffer, in bytes.
+nOutBufferSize 
+[in] Size of the output buffer, in bytes. 
 
-lpBytesReturned
+lpBytesReturned 
 [out] Pointer to a variable that receives the size of the data stored in the output buffer, in bytes.
 
-lpOverlapped
-[in] Pointer to an OVERLAPPED structure.  
-```  
+lpOverlapped 
+[in] Pointer to an OVERLAPPED structure.   
 ***  
 
 

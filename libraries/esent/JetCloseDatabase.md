@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : JetCloseDatabase
+## Function name : JetCloseDatabase
 Group: Extensible Storage Engine (ESE, Jet Blue) - Library: esent    
 ***  
 
@@ -36,16 +34,14 @@ DECLARE INTEGER JetCloseDatabase IN esent;
 
 
 ## Parameters:
-```txt  
-sesid
+sesid 
 The database session context that will be used for the API call.
 
-dbid
-The database to be closed.
+dbid 
+The database to be closed. 
 
-grbit
+grbit 
 Reserved for future use.  
-```  
 ***  
 
 

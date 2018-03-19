@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : SQLFetch
+## Function name : SQLFetch
 Group: ODBC API - Library: odbc32    
 ***  
 
@@ -30,11 +28,9 @@ DECLARE SHORT SQLFetch IN odbc32;
 
 
 ## Parameters:
-```txt  
-StatementHandle
+StatementHandle 
 [Input]
 Statement handle.  
-```  
 ***  
 
 

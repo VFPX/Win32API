@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : GetEventLogInformation
+## Function name : GetEventLogInformation
 Group: Event Logging - Library: advapi32    
 ***  
 
@@ -39,22 +37,20 @@ DECLARE INTEGER GetEventLogInformation IN advapi32;
 
 
 ## Parameters:
-```txt  
-hEventLog
-[in] A handle to the event log. This handle is returned by the OpenEventLog or RegisterEventSource function.
+hEventLog 
+[in] A handle to the event log. This handle is returned by the OpenEventLog or RegisterEventSource function. 
 
-dwInfoLevel
+dwInfoLevel 
 [in] The level of event log information to be returned. Use EVENTLOG_FULL_INFO (0) to find out if the specified log is full.
 
-lpBuffer
-[out] A pointer to a buffer for the event log information. The format of this data depends on the value of the dwInfoLevel parameter.
+lpBuffer 
+[out] A pointer to a buffer for the event log information. The format of this data depends on the value of the dwInfoLevel parameter. 
 
-cbBufSize
-[in] The size of the buffer, in bytes.
+cbBufSize 
+[in] The size of the buffer, in bytes. 
 
-pcbBytesNeeded
-[out] A pointer to a variable that receives the number of bytes required for the requested information, regardless of whether the function succeeds. This parameter cannot be NULL.  
-```  
+pcbBytesNeeded 
+[out] A pointer to a variable that receives the number of bytes required for the requested information, regardless of whether the function succeeds. This parameter cannot be NULL.   
 ***  
 
 

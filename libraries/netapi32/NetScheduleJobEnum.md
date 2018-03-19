@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : NetScheduleJobEnum
+## Function name : NetScheduleJobEnum
 Group: Network Management - Library: netapi32    
 ***  
 
@@ -43,25 +41,23 @@ DECLARE SHORT NetScheduleJobEnum IN netapi32;
 
 
 ## Parameters:
-```txt  
-Servername
+Servername 
 [in] Pointer to a constant string that specifies the DNS or NetBIOS name of the remote server on which the function is to execute.
 
-PointerToBuffer
-[out] Pointer to the buffer that receives the data. The return information is an array of AT_ENUM structures.
+PointerToBuffer 
+[out] Pointer to the buffer that receives the data. The return information is an array of AT_ENUM structures. 
 
-PreferredMaximumLength
+PreferredMaximumLength 
 [in] Specifies a value that indicates the preferred maximum length of the returned data, in bytes.
 
-EntriesRead
-[out] Pointer to a value that receives the count of elements actually enumerated.
+EntriesRead 
+[out] Pointer to a value that receives the count of elements actually enumerated. 
 
-TotalEntries
-[out] Pointer to a value that receives the total number of entries that could have been enumerated from the current resume position.
+TotalEntries 
+[out] Pointer to a value that receives the total number of entries that could have been enumerated from the current resume position. 
 
-ResumeHandle
-[in, out] Pointer to a value that contains a resume handle which is used to continue a job enumeration.  
-```  
+ResumeHandle 
+[in, out] Pointer to a value that contains a resume handle which is used to continue a job enumeration.   
 ***  
 
 

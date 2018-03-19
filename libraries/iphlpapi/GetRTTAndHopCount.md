@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : GetRTTAndHopCount
+## Function name : GetRTTAndHopCount
 Group: IP Helper - Library: iphlpapi    
 ***  
 
@@ -38,19 +36,17 @@ DECLARE INTEGER GetRTTAndHopCount IN Iphlpapi;
 
 
 ## Parameters:
-```txt  
-DestIpAddress
-[in] IP address of the destination for which to determine the RTT and hop count.
+DestIpAddress 
+[in] IP address of the destination for which to determine the RTT and hop count. 
 
-HopCount
-[out] This variable receives the hop count to the destination specified by the DestIpAddress parameter.
+HopCount 
+[out] This variable receives the hop count to the destination specified by the DestIpAddress parameter. 
 
-MaxHops
-[in] Maximum number of hops to search for the destination.
+MaxHops 
+[in] Maximum number of hops to search for the destination. 
 
-RTT
-[out] Round-trip time, in milliseconds, to the destination specified by DestIpAddress.  
-```  
+RTT 
+[out] Round-trip time, in milliseconds, to the destination specified by DestIpAddress.   
 ***  
 
 

@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : CreateTransaction
+## Function name : CreateTransaction
 Group: Kernel Transaction Manager - Library: ktmw32    
 ***  
 
@@ -44,28 +42,26 @@ DECLARE INTEGER CreateTransaction IN KtmW32;
 
 
 ## Parameters:
-```txt  
-lpTransactionAttributes
+lpTransactionAttributes 
 A pointer to a SECURITY_ATTRIBUTES structure that determines whether the returned handle can be inherited by child processes.
 
-UOW
+UOW 
 Reserved. Must be zero (0).
 
-CreateOptions
+CreateOptions 
 Any optional transaction instructions.
 
-IsolationLevel
+IsolationLevel 
 Reserved; specify zero (0).
 
-IsolationFlags
+IsolationFlags 
 Reserved; specify zero (0).
 
-Timeout
+Timeout 
 The time, in milliseconds, when the transaction will be aborted if it has not already reached the prepared state.
 
-Description
+Description 
 A user-readable description of the transaction.  
-```  
 ***  
 
 

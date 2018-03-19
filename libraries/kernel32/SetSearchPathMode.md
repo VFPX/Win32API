@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : SetSearchPathMode
+## Function name : SetSearchPathMode
 Group: File Management - Library: kernel32    
 ***  
 
@@ -28,10 +26,8 @@ DECLARE INTEGER SetSearchPathMode IN kernel32;
 
 
 ## Parameters:
-```txt  
 Flags [in]
 The search mode to use -- a predefned value.  
-```  
 ***  
 
 

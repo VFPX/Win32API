@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : GdipIsStyleAvailable
+## Function name : GdipIsStyleAvailable
 Group: GDI+ Font - Library: gdiplus    
 ***  
 
@@ -37,7 +35,6 @@ DECLARE INTEGER GdipIsStyleAvailable IN gdiplus;
 
 
 ## Parameters:
-```txt  
 fontfamily
 [in] Handle to Font Family Object.
 
@@ -46,7 +43,6 @@ fontstyle
 
 IsStyleAvailable
 [out] Set to True if requested style is available.  
-```  
 ***  
 
 

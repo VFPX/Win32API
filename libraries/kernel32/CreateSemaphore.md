@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : CreateSemaphore
+## Function name : CreateSemaphore
 Group: Synchronization - Library: kernel32    
 ***  
 
@@ -39,7 +37,6 @@ DECLARE INTEGER CreateSemaphore IN kernel32;
 
 
 ## Parameters:
-```txt  
 lpSemaphoreAttributes
 Points to a SECURITY_ATTRIBUTES structure
 
@@ -51,7 +48,6 @@ Specifies the maximum count for the semaphore object
 
 lpName
 Points to a null-terminated string specifying the name of the semaphore object  
-```  
 ***  
 
 

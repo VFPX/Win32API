@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : GetModuleFileName
+## Function name : GetModuleFileName
 Group: Dynamic-Link Library - Library: kernel32    
 ***  
 
@@ -44,16 +42,14 @@ DECLARE INTEGER GetModuleFileName IN kernel32;
 
 
 ## Parameters:
-```txt  
-hModule
-[in] Handle to the module whose file name is being requested. If this parameter is NULL, GetModuleFileName returns the path for the file containing the current process.
+hModule 
+[in] Handle to the module whose file name is being requested. If this parameter is NULL, GetModuleFileName returns the path for the file containing the current process. 
 
-lpFilename
-[out] Pointer to a buffer that receives the path and file name of the specified module.
+lpFilename 
+[out] Pointer to a buffer that receives the path and file name of the specified module. 
 
-nSize
+nSize 
 [in] Specifies the length, in TCHARs, of the lpFilename buffer. If the length of the path and file name exceeds this limit, the string is truncated.  
-```  
 ***  
 
 

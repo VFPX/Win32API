@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : PathBuildRoot
+## Function name : PathBuildRoot
 Group: Shell Lightweight Utility APIs -- Path Functions - Library: shlwapi    
 ***  
 
@@ -33,13 +31,11 @@ DECLARE INTEGER PathBuildRoot IN shlwapi;
 
 
 ## Parameters:
-```txt  
-szRoot
-[out] Pointer to a string that receives the constructed root path. This buffer must be at least four characters in size.
+szRoot 
+[out] Pointer to a string that receives the constructed root path. This buffer must be at least four characters in size. 
 
-iDrive
-[in] Integer that indicates the desired drive number. It should be between 0 and 25.  
-```  
+iDrive 
+[in] Integer that indicates the desired drive number. It should be between 0 and 25.   
 ***  
 
 

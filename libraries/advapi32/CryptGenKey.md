@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : CryptGenKey
+## Function name : CryptGenKey
 Group: Cryptography Reference - Library: advapi32    
 ***  
 
@@ -39,19 +37,17 @@ DECLARE INTEGER CryptGenKey IN advapi32;
 
 
 ## Parameters:
-```txt  
-hProv
+hProv 
 [in] Handle to a cryptographic service provider (CSP) created by a call to CryptAcquireContext.
 
-Algid
+Algid 
 [in] A ALG_ID structure that identifies the algorithm for which the key is to be generated.
 
-dwFlags
+dwFlags 
 [in] Specifies the type of key generated.
 
-phKey
+phKey 
 [out] Address to which the function copies the handle of the newly generated key.  
-```  
 ***  
 
 

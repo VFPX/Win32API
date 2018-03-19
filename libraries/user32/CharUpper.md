@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : CharUpper
+## Function name : CharUpper
 Group: String - Library: user32    
 ***  
 
@@ -30,10 +28,8 @@ DECLARE INTEGER CharUpper IN user32 STRING @ lpsz
 
 
 ## Parameters:
-```txt  
-lpsz
+lpsz 
 [in/out] Pointer to a null-terminated string or specifies a single character. If the high-order word of this parameter is zero, the low-order word must contain a single character to be converted.  
-```  
 ***  
 
 

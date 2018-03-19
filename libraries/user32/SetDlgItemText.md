@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : SetDlgItemText
+## Function name : SetDlgItemText
 Group: Dialog Box - Library: user32    
 ***  
 
@@ -36,16 +34,14 @@ DECLARE INTEGER SetDlgItemText IN user32;
 
 
 ## Parameters:
-```txt  
 hDlg
-[in] Handle to the dialog box that contains the control.
+[in] Handle to the dialog box that contains the control. 
 
 nIDDlgItem
-[in] Specifies the control with a title or text to be set.
+[in] Specifies the control with a title or text to be set. 
 
 lpString
-[in] Pointer to the null-terminated string that contains the text to be copied to the control.  
-```  
+[in] Pointer to the null-terminated string that contains the text to be copied to the control.   
 ***  
 
 

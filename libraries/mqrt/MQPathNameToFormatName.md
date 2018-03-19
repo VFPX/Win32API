@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : MQPathNameToFormatName
+## Function name : MQPathNameToFormatName
 Group: Message and Message Queue - Library: mqrt    
 ***  
 
@@ -35,7 +33,6 @@ DECLARE INTEGER MQPathNameToFormatName IN mqrt;
 
 
 ## Parameters:
-```txt  
 lpwcsPathName
 [in] UNC or DNS path name of the queue. Either private or public Message Queuing path names are valid.
 
@@ -43,8 +40,7 @@ lpwcsFormatName
 [out] Pointer to a buffer to receive the format name for the queue.
 
 lpdwCount
-[in, out] On input, specifies the length of the lpwcsFormatName buffer (in Unicode characters).  
-```  
+[in, out] On input, specifies the length of the lpwcsFormatName buffer (in Unicode characters).   
 ***  
 
 

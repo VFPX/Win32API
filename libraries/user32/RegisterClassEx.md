@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : RegisterClassEx
+## Function name : RegisterClassEx
 Group: Window Class - Library: user32    
 ***  
 
@@ -31,12 +29,10 @@ DECLARE INTEGER RegisterClassEx IN user32;
 
 
 ## Parameters:
-```txt  
 lpwcx [in]
 Type: const WNDCLASSEX*
 
 A pointer to a WNDCLASSEX structure. You must fill the structure with the appropriate class attributes before passing it to the function.  
-```  
 ***  
 
 

@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : HeapAlloc
+## Function name : HeapAlloc
 Group: Memory Management - Library: kernel32    
 ***  
 
@@ -35,16 +33,14 @@ DECLARE INTEGER HeapAlloc IN kernel32;
 
 
 ## Parameters:
-```txt  
-hHeap
-[in] Specifies the heap from which the memory will be allocated. This parameter is a handle returned by the HeapCreate or GetProcessHeap function.
+hHeap 
+[in] Specifies the heap from which the memory will be allocated. This parameter is a handle returned by the HeapCreate or GetProcessHeap function. 
 
-dwFlags
-[in] Specifies several controllable aspects of heap allocation. Specifying any of these values will override the corresponding value specified when the heap was created with HeapCreate.
+dwFlags 
+[in] Specifies several controllable aspects of heap allocation. Specifying any of these values will override the corresponding value specified when the heap was created with HeapCreate. 
 
-dwBytes
-[in] Specifies the number of bytes to be allocated.  
-```  
+dwBytes 
+[in] Specifies the number of bytes to be allocated.   
 ***  
 
 

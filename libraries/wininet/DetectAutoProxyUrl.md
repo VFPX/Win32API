@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : DetectAutoProxyUrl
+## Function name : DetectAutoProxyUrl
 Group: Internet Functions (WinInet) - Library: wininet    
 ***  
 
@@ -35,16 +33,14 @@ DECLARE INTEGER DetectAutoProxyUrl IN wininet;
 
 
 ## Parameters:
-```txt  
-lpszAutoProxyUrl
-[in, out] Pointer to a buffer to receive the URL from which a WPAD autoproxy script can be downloaded.
+lpszAutoProxyUrl 
+[in, out] Pointer to a buffer to receive the URL from which a WPAD autoproxy script can be downloaded. 
 
-dwAutoProxyUrlLength
-[in] Size of the buffer pointed to by lpszAutoProxyUrl, in bytes.
+dwAutoProxyUrlLength 
+[in] Size of the buffer pointed to by lpszAutoProxyUrl, in bytes. 
 
-dwDetectFlags
+dwDetectFlags 
 [in] Automation detection type.  
-```  
 ***  
 
 

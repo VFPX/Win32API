@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : NetUserGetLocalGroups
+## Function name : NetUserGetLocalGroups
 Group: Network Management - Library: netapi32    
 ***  
 
@@ -47,31 +45,29 @@ DECLARE INTEGER NetUserGetLocalGroups IN netapi32;
 
 
 ## Parameters:
-```txt  
-servername
+servername 
 [in] Pointer to a constant string that specifies the DNS or NetBIOS name of the remote server on which the function is to execute.
 
-username
+username 
 [in] Pointer to a constant string that specifies the name of the user for which to return local group membership information.
 
-level
+level 
 [in] Specifies the information level of the data.
 
-flags
+flags 
 [in] Specifies a bitmask of flags.
 
-bufptr
+bufptr 
 [out] Pointer to the buffer that receives the data.
 
-prefmaxlen
+prefmaxlen 
 [in] Specifies the preferred maximum length of returned data, in bytes.
 
-entriesread
-[out] Pointer to a value that receives the count of elements actually enumerated.
+entriesread 
+[out] Pointer to a value that receives the count of elements actually enumerated. 
 
-totalentries
+totalentries 
 [out] Pointer to a value that receives the total number of entries that could have been enumerated.  
-```  
 ***  
 
 

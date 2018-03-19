@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : LsaOpenPolicy
+## Function name : LsaOpenPolicy
 Group: Security - Library: advapi32    
 ***  
 
@@ -39,19 +37,17 @@ DECLARE INTEGER LsaOpenPolicy IN advapi32;
 
 
 ## Parameters:
-```txt  
-SystemName
+SystemName 
 [in] Pointer to an LSA_UNICODE_STRING structure containing the name of the target system.
 
-ObjectAttributes
+ObjectAttributes 
 [in] Pointer to an LSA_OBJECT_ATTRIBUTES structure that specifies the connection attributes.
 
-DesiredAccess
+DesiredAccess 
 [in] An access mask that specifies the requested access rights.
 
-PolicyHandle
+PolicyHandle 
 [in, out] Pointer to an LSA_HANDLE variable that receives a handle to the Policy object.  
-```  
 ***  
 
 

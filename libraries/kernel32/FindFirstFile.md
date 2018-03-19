@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : FindFirstFile
+## Function name : FindFirstFile
 Group: File Management - Library: kernel32    
 ***  
 
@@ -33,13 +31,11 @@ DECLARE INTEGER FindFirstFile IN kernel32;
 
 
 ## Parameters:
-```txt  
-lpFileName
-[in] Pointer to a null-terminated string that specifies a valid directory or path and file name, which can contain wildcard characters (* and ?).
+lpFileName 
+[in] Pointer to a null-terminated string that specifies a valid directory or path and file name, which can contain wildcard characters (* and ?). 
 
-lpFindFileData
-[out] Pointer to the WIN32_FIND_DATA structure that receives information about the found file or subdirectory.  
-```  
+lpFindFileData 
+[out] Pointer to the WIN32_FIND_DATA structure that receives information about the found file or subdirectory.   
 ***  
 
 

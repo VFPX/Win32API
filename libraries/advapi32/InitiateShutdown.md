@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : InitiateShutdown
+## Function name : InitiateShutdown
 Group: System Shutdown - Library: advapi32    
 ***  
 
@@ -36,7 +34,6 @@ DECLARE INTEGER InitiateShutdown IN Advapi32;
 
 
 ## Parameters:
-```txt  
 lpMachineName [in, optional]
 The name of the computer to be shut down. If the value of this parameter is NULL, the local computer is shut down.
 
@@ -51,7 +48,6 @@ One or more bit flags that specify options for the shutdown.
 
 dwReason [in]
 The reason for initiating the shutdown. This parameter must be one of the system shutdown reason codes.  
-```  
 ***  
 
 

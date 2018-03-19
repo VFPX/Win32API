@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : EnumProcesses
+## Function name : EnumProcesses
 Group: Performance Monitoring - Library: psapi    
 ***  
 
@@ -35,16 +33,14 @@ DECLARE INTEGER EnumProcesses IN psapi;
 
 
 ## Parameters:
-```txt  
-lpidProcess
-[out] Pointer to an array that receives the list of process identifiers.
+lpidProcess 
+[out] Pointer to an array that receives the list of process identifiers. 
 
-cb
-[in] Specifies the size, in bytes, of the lpidProcess array.
+cb 
+[in] Specifies the size, in bytes, of the lpidProcess array. 
 
-cbNeeded
-[out] Receives the number of bytes returned in the lpidProcess array.  
-```  
+cbNeeded 
+[out] Receives the number of bytes returned in the lpidProcess array.   
 ***  
 
 

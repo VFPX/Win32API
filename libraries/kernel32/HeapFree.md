@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : HeapFree
+## Function name : HeapFree
 Group: Memory Management - Library: kernel32    
 ***  
 
@@ -35,17 +33,15 @@ DECLARE INTEGER HeapFree IN kernel32;
 
 
 ## Parameters:
-```txt  
-hHeap
-[in] Specifies the heap whose memory block the function frees. This parameter is a handle returned by the HeapCreate or GetProcessHeap function.
+hHeap 
+[in] Specifies the heap whose memory block the function frees. This parameter is a handle returned by the HeapCreate or GetProcessHeap function. 
 
-dwFlags
-[in] Specifies several controllable aspects of freeing a memory block.
+dwFlags 
+[in] Specifies several controllable aspects of freeing a memory block. 
 
-lpMem
-[in] Pointer to the memory block to free. This pointer is returned by the HeapAlloc or HeapReAlloc function.
+lpMem 
+[in] Pointer to the memory block to free. This pointer is returned by the HeapAlloc or HeapReAlloc function. 
   
-```  
 ***  
 
 

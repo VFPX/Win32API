@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : VirtualFreeEx
+## Function name : VirtualFreeEx
 Group: Memory Management - Library: kernel32    
 ***  
 
@@ -38,7 +36,6 @@ DECLARE INTEGER VirtualFreeEx IN kernel32;
 
 
 ## Parameters:
-```txt  
 hProcess [in]
 A handle to a process. The function frees memory within the virtual address space of the process.
 
@@ -50,7 +47,6 @@ The size of the region of memory to free, in bytes.
 
 dwFreeType [in]
 The type of free operation -- a predefined value.  
-```  
 ***  
 
 

@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : GetClassLong
+## Function name : GetClassLong
 Group: Window Class - Library: user32    
 ***  
 
@@ -33,15 +31,13 @@ DECLARE INTEGER GetClassLong IN user32;
 
 
 ## Parameters:
-```txt  
-hWnd
-[in] Handle to the window and, indirectly, the class to which the window belongs.
+hWnd 
+[in] Handle to the window and, indirectly, the class to which the window belongs. 
 
-nIndex
-[in] Specifies the 32-bit value to retrieve.
+nIndex 
+[in] Specifies the 32-bit value to retrieve. 
 
   
-```  
 ***  
 
 

@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : GetNamedSecurityInfo
+## Function name : GetNamedSecurityInfo
 Group: Security - Library: advapi32    
 ***  
 
@@ -47,31 +45,29 @@ DECLARE INTEGER GetNamedSecurityInfo IN advapi32;
 
 
 ## Parameters:
-```txt  
-pObjectName
+pObjectName 
 [in] Pointer to a null-terminated string that specifies the name of the object from which to retrieve security information.
 
-ObjectType
-[in] Specifies a value from the SE_OBJECT_TYPE enumeration that indicates the type of object named by the pObjectName parameter.
+ObjectType 
+[in] Specifies a value from the SE_OBJECT_TYPE enumeration that indicates the type of object named by the pObjectName parameter. 
 
-SecurityInfo
+SecurityInfo 
 [in] A set of SECURITY_INFORMATION bit flags that indicate the type of security information to retrieve.
 
-ppsidOwner
+ppsidOwner 
 [out] Pointer to a variable that receives a pointer to the owner SID in the security descriptor returned in ppSecurityDescriptor.
 
-ppsidGroup
+ppsidGroup 
 [out] Pointer to a variable that receives a pointer to the primary group SID in the returned security descriptor.
 
-ppDacl
+ppDacl 
 [out] Pointer to a variable that receives a pointer to the DACL in the returned security descriptor.
 
-ppSacl
+ppSacl 
 [out] Pointer to a variable that receives a pointer to the SACL in the returned security descriptor.
 
-ppSecurityDescriptor
+ppSecurityDescriptor 
 [out] Pointer to a variable that receives a pointer to the security descriptor of the object.  
-```  
 ***  
 
 

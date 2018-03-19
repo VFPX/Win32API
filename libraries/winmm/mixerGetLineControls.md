@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : mixerGetLineControls
+## Function name : mixerGetLineControls
 Group: Windows Multimedia - Library: winmm    
 ***  
 
@@ -36,7 +34,6 @@ DECLARE INTEGER mixerGetLineControls IN winmm;
 
 
 ## Parameters:
-```txt  
 hmxobj
 Handle to the mixer device object that is being queried.
 
@@ -46,7 +43,6 @@ Pointer to a MIXERLINECONTROLS structure.
 fdwControls
 Flags for retrieving information about one or more controls associated with an audio line.
   
-```  
 ***  
 
 

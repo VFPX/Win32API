@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : MQDeleteQueue
+## Function name : MQDeleteQueue
 Group: Message and Message Queue - Library: mqrt    
 ***  
 
@@ -29,10 +27,8 @@ DECLARE INTEGER MQDeleteQueue IN mqrt;
 
 
 ## Parameters:
-```txt  
 lpwcsFormatName
 [in] Pointer to the format name string of the queue to be deleted.  
-```  
 ***  
 
 

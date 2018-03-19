@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : GdipCreateHICONFromBitmap
+## Function name : GdipCreateHICONFromBitmap
 Group: GDI+ Bitmap - Library: gdiplus    
 ***  
 
@@ -34,13 +32,11 @@ DECLARE INTEGER GdipCreateHICONFromBitmap IN gdiplus;
 
 
 ## Parameters:
-```txt  
 hbitmap
-[in] Handle to a GDI bitmap.
+[in] Handle to a GDI bitmap. 
 
 hbmReturn
 [out] Handle to a Microsoft Windows Graphics Device Interface (GDI) icon.  
-```  
 ***  
 
 

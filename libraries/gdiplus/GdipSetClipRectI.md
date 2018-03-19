@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : GdipSetClipRectI
+## Function name : GdipSetClipRectI
 Group: GDI+ Graphics - Library: gdiplus    
 ***  
 
@@ -39,7 +37,6 @@ DECLARE INTEGER GdipSetClipRectI IN gdiplus;
 
 
 ## Parameters:
-```txt  
 graphics
 [in] Pointer to a Graphics object.
 
@@ -57,7 +54,6 @@ height
 
 combineMode
 [in] Element of the CombineMode enumeration that specifies how the specified rectangle is combined with the clipping region of this Graphics object.  
-```  
 ***  
 
 

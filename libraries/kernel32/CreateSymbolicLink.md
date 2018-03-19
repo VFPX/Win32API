@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : CreateSymbolicLink
+## Function name : CreateSymbolicLink
 Group: File Management - Library: kernel32    
 ***  
 
@@ -33,17 +31,15 @@ DECLARE INTEGER CreateSymbolicLink IN kernel32;
 
 
 ## Parameters:
-```txt  
-lpSymlinkFileName [in]
+lpSymlinkFileName [in] 
 The symbolic link to be created.
 
-lpTargetFileName [in]
+lpTargetFileName [in] 
 The name of the target for the symbolic link to be created.
 
-dwFlags [in]
+dwFlags [in] 
 Indicates whether the link target, lpTargetFileName, is a directory (1).
   
-```  
 ***  
 
 

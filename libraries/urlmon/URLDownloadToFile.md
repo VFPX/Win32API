@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : URLDownloadToFile
+## Function name : URLDownloadToFile
 Group: URL Monikers - Library: urlmon    
 ***  
 
@@ -40,22 +38,20 @@ DECLARE INTEGER URLDownloadToFile IN urlmon.dll;
 
 
 ## Parameters:
-```txt  
 pCaller
-Pointer to the controlling IUnknown interface of the calling Microsoft® ActiveX® component (if the caller is an ActiveX component). If the calling application is not an ActiveX component, this value can be set to NULL.
+Pointer to the controlling IUnknown interface of the calling Microsoft® ActiveX® component (if the caller is an ActiveX component). If the calling application is not an ActiveX component, this value can be set to NULL. 
 
 szURL
-Pointer to a string value containing the URL to be downloaded. Cannot be set to NULL.
+Pointer to a string value containing the URL to be downloaded. Cannot be set to NULL. 
 
 szFileName
-Pointer to a string value containing the name of the file to create for bits that come from the download.
+Pointer to a string value containing the name of the file to create for bits that come from the download. 
 
 dwReserved
 Reserved. Must be set to 0.
 
 lpfnCB
-Pointer to the caller"s IBindStatusCallback interface.  
-```  
+Pointer to the caller"s IBindStatusCallback interface.   
 ***  
 
 

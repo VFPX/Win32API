@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : LookupAccountSid
+## Function name : LookupAccountSid
 Group: Security - Library: advapi32    
 ***  
 
@@ -47,25 +45,23 @@ DECLARE INTEGER LookupAccountSid IN advapi32;
 
 
 ## Parameters:
-```txt  
-lpSystemName
+lpSystemName 
 [in] Pointer to a null-terminated character string that specifies the target computer.
 
-lpSid
-[in] Pointer to the SID to look up.
+lpSid 
+[in] Pointer to the SID to look up. 
 
-lpName
+lpName 
 [out] Pointer to a buffer that receives a null-terminated string that contains the account name that corresponds to the lpSid parameter.
 
-cchName
+cchName 
 [in, out] On input, specifies the size, in TCHARs, of the lpName buffer.
 
-cchReferencedDomainName
+cchReferencedDomainName 
 [in, out] On input, specifies the size, in TCHARs, of the lpReferencedDomainName buffer.
 
-peUse
+peUse 
 [out] Pointer to a variable that indicates the type of the account.  
-```  
 ***  
 
 

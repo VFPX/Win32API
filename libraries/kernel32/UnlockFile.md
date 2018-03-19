@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : UnlockFile
+## Function name : UnlockFile
 Group: File Management - Library: kernel32    
 ***  
 
@@ -39,22 +37,20 @@ DECLARE INTEGER UnlockFile IN kernel32;
 
 
 ## Parameters:
-```txt  
-hFile
-[in] Handle to a file that contains a region locked with LockFile. The file handle must have been created with either GENERIC_READ or GENERIC_WRITE access to the file.
+hFile 
+[in] Handle to a file that contains a region locked with LockFile. The file handle must have been created with either GENERIC_READ or GENERIC_WRITE access to the file. 
 
-dwFileOffsetLow
-[in] Specifies the low-order word of the starting byte offset in the file where the locked region begins.
+dwFileOffsetLow 
+[in] Specifies the low-order word of the starting byte offset in the file where the locked region begins. 
 
-dwFileOffsetHigh
-[in] Specifies the high-order word of the starting byte offset in the file where the locked region begins.
+dwFileOffsetHigh 
+[in] Specifies the high-order word of the starting byte offset in the file where the locked region begins. 
 
-nNumberOfBytesToUnlockLow
-[in] Specifies the low-order word of the length of the byte range to be unlocked.
+nNumberOfBytesToUnlockLow 
+[in] Specifies the low-order word of the length of the byte range to be unlocked. 
 
-nNumberOfBytesToUnlockHigh
+nNumberOfBytesToUnlockHigh 
 [in] Specifies the high-order word of the length of the byte range to be unlocked.  
-```  
 ***  
 
 

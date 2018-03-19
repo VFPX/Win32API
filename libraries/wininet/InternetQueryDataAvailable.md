@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : InternetQueryDataAvailable
+## Function name : InternetQueryDataAvailable
 Group: Internet Functions (WinInet) - Library: wininet    
 ***  
 
@@ -37,19 +35,17 @@ DECLARE INTEGER InternetQueryDataAvailable IN wininet;
 
 
 ## Parameters:
-```txt  
-hFile
-Valid Internet file handle, as returned by InternetOpenUrl, FtpOpenFile, or HttpOpenRequest.
+hFile 
+Valid Internet file handle, as returned by InternetOpenUrl, FtpOpenFile, or HttpOpenRequest. 
 
-lpdwNumberOfBytesAvailable
-Optional. Long pointer to a variable that receives the number of available bytes.
+lpdwNumberOfBytesAvailable 
+Optional. Long pointer to a variable that receives the number of available bytes. 
 
-dwFlags
-Reserved; set to zero.
+dwFlags 
+Reserved; set to zero. 
 
-dwContext
-Reserved; set to zero.  
-```  
+dwContext 
+Reserved; set to zero.   
 ***  
 
 

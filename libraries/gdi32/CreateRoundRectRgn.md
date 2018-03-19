@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : CreateRoundRectRgn
+## Function name : CreateRoundRectRgn
 Group: Region - Library: gdi32    
 ***  
 
@@ -41,25 +39,23 @@ DECLARE INTEGER CreateRoundRectRgn IN gdi32;
 
 
 ## Parameters:
-```txt  
-nLeftRect
-[in] Specifies the x-coordinate of the upper-left corner of the region in device units.
+nLeftRect 
+[in] Specifies the x-coordinate of the upper-left corner of the region in device units. 
 
-nTopRect
-[in] Specifies the y-coordinate of the upper-left corner of the region in device units.
+nTopRect 
+[in] Specifies the y-coordinate of the upper-left corner of the region in device units. 
 
-nRightRect
-[in] Specifies the x-coordinate of the lower-right corner of the region in device units.
+nRightRect 
+[in] Specifies the x-coordinate of the lower-right corner of the region in device units. 
 
-nBottomRect
-[in] Specifies the y-coordinate of the lower-right corner of the region in device units.
+nBottomRect 
+[in] Specifies the y-coordinate of the lower-right corner of the region in device units. 
 
-nWidthEllipse
-[in] Specifies the width of the ellipse used to create the rounded corners in device units.
+nWidthEllipse 
+[in] Specifies the width of the ellipse used to create the rounded corners in device units. 
 
-nHeightEllipse
+nHeightEllipse 
 [in] Specifies the height of the ellipse used to create the rounded corners in device units.  
-```  
 ***  
 
 

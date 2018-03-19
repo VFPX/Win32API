@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : FindClosePrinterChangeNotification
+## Function name : FindClosePrinterChangeNotification
 Group: Printing and Print Spooler - Library: winspool.drv    
 ***  
 
@@ -33,10 +31,8 @@ IN winspool.drv;
 
 
 ## Parameters:
-```txt  
-hChange
+hChange 
 [in] Handle to the change notification object to be closed. This is a handle created by calling the FindFirstPrinterChangeNotification function.  
-```  
 ***  
 
 

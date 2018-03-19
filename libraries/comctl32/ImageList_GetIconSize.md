@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : ImageList_GetIconSize
+## Function name : ImageList_GetIconSize
 Group: Windows Controls - Library: comctl32    
 ***  
 
@@ -35,16 +33,14 @@ DECLARE INTEGER ImageList_GetIconSize IN comctl32;
 
 
 ## Parameters:
-```txt  
 himl
-A handle to the image list.
+A handle to the image list. 
 
 cx
-A pointer to an integer variable that receives the width, in pixels, of each image.
+A pointer to an integer variable that receives the width, in pixels, of each image. 
 
 cy
 A pointer to an integer variable that receives the height, in pixels, of each image.  
-```  
 ***  
 
 

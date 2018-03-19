@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : SetupGetInfInformation
+## Function name : SetupGetInfInformation
 Group: Setup API functions - Library: setupapi    
 ***  
 
@@ -41,22 +39,20 @@ DECLARE SHORT SetupGetInfInformation IN Setupapi;
 
 
 ## Parameters:
-```txt  
-InfSpec
-A handle or a filename for an INF file, depending on the value of SearchControl.
+InfSpec 
+A handle or a filename for an INF file, depending on the value of SearchControl. 
 
-SearchControl
+SearchControl 
 This parameter is a constant (see an example to this function)
 
-ReturnBuffer
-If not NULL, ReturnBuffer points to a caller-supplied buffer in which this function returns the SP_INF_INFORMATION structure.
+ReturnBuffer 
+If not NULL, ReturnBuffer points to a caller-supplied buffer in which this function returns the SP_INF_INFORMATION structure. 
 
-ReturnBufferSize
-Size of the ReturnBuffer in bytes.
+ReturnBufferSize 
+Size of the ReturnBuffer in bytes. 
 
-RequiredSize
+RequiredSize 
 If not NULL, points to a caller-supplied variable in which this function returns the required size, in bytes, for the buffer pointed to by ReturnBuffer.  
-```  
 ***  
 
 

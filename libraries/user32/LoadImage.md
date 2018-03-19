@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : LoadImage
+## Function name : LoadImage
 Group: Resource - Library: user32    
 ***  
 
@@ -49,25 +47,23 @@ DECLARE INTEGER LoadImage IN user32;
 
 
 ## Parameters:
-```txt  
-hinst
-[in] Handle to an instance of the module that contains the image to be loaded. To load an OEM image, set this parameter to zero.
+hinst 
+[in] Handle to an instance of the module that contains the image to be loaded. To load an OEM image, set this parameter to zero. 
 
-lpszName
-[in] Specifies the image to load.
+lpszName 
+[in] Specifies the image to load. 
 
-uType
-[in] Specifies the type of image to be loaded.
+uType 
+[in] Specifies the type of image to be loaded. 
 
-cxDesired
-[in] Specifies the width, in pixels, of the icon or cursor.
+cxDesired 
+[in] Specifies the width, in pixels, of the icon or cursor. 
 
-cyDesired
-[in] Specifies the height, in pixels, of the icon or cursor.
+cyDesired 
+[in] Specifies the height, in pixels, of the icon or cursor. 
 
-fuLoad
-[in] This parameter can be one or more of the predefined values.  
-```  
+fuLoad 
+[in] This parameter can be one or more of the predefined values.   
 ***  
 
 

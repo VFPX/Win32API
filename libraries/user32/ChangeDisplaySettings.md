@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : ChangeDisplaySettings
+## Function name : ChangeDisplaySettings
 Group: Device Context - Library: user32    
 ***  
 
@@ -34,13 +32,11 @@ DECLARE INTEGER ChangeDisplaySettings IN user32;
 
 
 ## Parameters:
-```txt  
-lpDevMode
+lpDevMode 
 [in] Pointer to a DEVMODE structure that describes the new graphics mode.
 
-dwflags
+dwflags 
 [in] Indicates how the graphics mode should be changed.  
-```  
 ***  
 
 

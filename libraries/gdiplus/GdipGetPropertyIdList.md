@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : GdipGetPropertyIdList
+## Function name : GdipGetPropertyIdList
 Group: GDI+ Image - Library: gdiplus    
 ***  
 
@@ -33,16 +31,14 @@ DECLARE INTEGER GdipGetPropertyIdList IN gdiplus;
 
 
 ## Parameters:
-```txt  
 img
 [in] Handle to Image object
-
+ 
 numOfProperty
-[in] Integer that specifies the number of elements in the list array. Call the GdipGetPropertyCount to determine this number.
+[in] Integer that specifies the number of elements in the list array. Call the GdipGetPropertyCount to determine this number. 
 
 list
-[out] Pointer to an array that receives the property identifiers.  
-```  
+[out] Pointer to an array that receives the property identifiers.   
 ***  
 
 

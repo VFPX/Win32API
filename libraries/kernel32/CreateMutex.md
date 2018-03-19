@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : CreateMutex
+## Function name : CreateMutex
 Group: Synchronization - Library: kernel32    
 ***  
 
@@ -35,16 +33,14 @@ DECLARE INTEGER CreateMutex IN kernel32;
 
 
 ## Parameters:
-```txt  
-lpMutexAttributes
+lpMutexAttributes 
 [in] Pointer to a SECURITY_ATTRIBUTES structure that determines whether the returned handle can be inherited by child processes. If lpMutexAttributes is NULL, the handle cannot be inherited.
 
-bInitialOwner
+bInitialOwner 
 [in] If this value is TRUE and the caller created the mutex, the calling thread obtains initial ownership of the mutex object.
 
-lpName
+lpName 
 [in] Pointer to a null-terminated string specifying the name of the mutex object. If lpName is NULL, the mutex object is created without a name.  
-```  
 ***  
 
 

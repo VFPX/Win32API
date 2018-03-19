@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : WinHttpConnect
+## Function name : WinHttpConnect
 Group: HTTP Functions (WinHTTP) - Library: winhttp    
 ***  
 
@@ -38,20 +36,18 @@ DECLARE INTEGER WinHttpConnect IN winhttp;
 
 
 ## Parameters:
-```txt  
-hSession
-[in] Valid HINTERNET WinHTTP session handle returned by a previous call to WinHttpOpen.
+hSession 
+[in] Valid HINTERNET WinHTTP session handle returned by a previous call to WinHttpOpen. 
 
-pswzServerName
+pswzServerName 
 [in] Pointer to a null-terminated string that contains the host name of an HTTP server.
 
-nServerPort
+nServerPort 
 [in] Unsigned integer that specifies the TCP/IP port on the server to which a connection is made.
 
-dwReserved
+dwReserved 
 [in] Reserved. Must be zero.
   
-```  
 ***  
 
 

@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : mixerGetLineInfo
+## Function name : mixerGetLineInfo
 Group: Windows Multimedia - Library: winmm    
 ***  
 
@@ -36,17 +34,15 @@ DECLARE INTEGER mixerGetLineInfo IN winmm;
 
 
 ## Parameters:
-```txt  
 hmxobj
 Handle to the mixer device object that controls the specific audio line.
 
 pmxl
-Pointer to a MIXERLINE structure.
+Pointer to a MIXERLINE structure. 
 
 fdwInfo
 Flags for retrieving information about an audio line.
   
-```  
 ***  
 
 

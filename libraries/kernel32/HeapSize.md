@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : HeapSize
+## Function name : HeapSize
 Group: Memory Management - Library: kernel32    
 ***  
 
@@ -35,16 +33,14 @@ DECLARE INTEGER HeapSize IN kernel32;
 
 
 ## Parameters:
-```txt  
-hHeap
-[in] Specifies the heap in which the memory block resides. This handle is returned by the HeapCreate or GetProcessHeap function.
+hHeap 
+[in] Specifies the heap in which the memory block resides. This handle is returned by the HeapCreate or GetProcessHeap function. 
 
-dwFlags
-[in] Specifies several controllable aspects of accessing the memory block.
+dwFlags 
+[in] Specifies several controllable aspects of accessing the memory block. 
 
-lpMem
-[in] Pointer to the memory block whose size the function will obtain. This is a pointer returned by the HeapAlloc or HeapReAlloc function.  
-```  
+lpMem 
+[in] Pointer to the memory block whose size the function will obtain. This is a pointer returned by the HeapAlloc or HeapReAlloc function.   
 ***  
 
 

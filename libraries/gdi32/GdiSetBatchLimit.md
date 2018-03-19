@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : GdiSetBatchLimit
+## Function name : GdiSetBatchLimit
 Group: Painting and Drawing - Library: gdi32    
 ***  
 
@@ -28,11 +26,9 @@ DECLARE INTEGER GdiSetBatchLimit IN gdi32;
 
 
 ## Parameters:
-```txt  
-dwLimit
-[in] Specifies the batch limit to be set. A value of 0 sets the default limit. A value of 1 disables batching.
+dwLimit 
+[in] Specifies the batch limit to be set. A value of 0 sets the default limit. A value of 1 disables batching. 
   
-```  
 ***  
 
 

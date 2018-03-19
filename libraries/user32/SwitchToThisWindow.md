@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : SwitchToThisWindow
+## Function name : SwitchToThisWindow
 Group: Window - Library: user32    
 ***  
 
@@ -34,13 +32,11 @@ DECLARE SwitchToThisWindow IN user32;
 
 
 ## Parameters:
-```txt  
 hWnd
-[in] Handle to the window being switched to.
+[in] Handle to the window being switched to. 
 
 fAltTab
 [in] A TRUE for this parameter indicates that the window is being switched to using the Alt/Ctl+Tab key sequence.  
-```  
 ***  
 
 

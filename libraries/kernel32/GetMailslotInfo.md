@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : GetMailslotInfo
+## Function name : GetMailslotInfo
 Group: Mailslot - Library: kernel32    
 ***  
 
@@ -40,22 +38,20 @@ DECLARE INTEGER GetMailslotInfo IN kernel32;
 
 
 ## Parameters:
-```txt  
-hMailslot
-[in] Handle to a mailslot. The CreateMailslot function must create this handle.
+hMailslot 
+[in] Handle to a mailslot. The CreateMailslot function must create this handle. 
 
-lpMaxMessageSize
-[in] Pointer to a buffer specifying the maximum message size, in bytes, allowed for this mailslot, when the function returns.
+lpMaxMessageSize 
+[in] Pointer to a buffer specifying the maximum message size, in bytes, allowed for this mailslot, when the function returns. 
 
-lpNextSize
-[in] Pointer to a buffer specifying the size, in bytes, of the next message, when the function returns.
+lpNextSize 
+[in] Pointer to a buffer specifying the size, in bytes, of the next message, when the function returns. 
 
-lpMessageCount
-[in] Pointer to a buffer specifying the total number of messages waiting to be read, when the function returns.
+lpMessageCount 
+[in] Pointer to a buffer specifying the total number of messages waiting to be read, when the function returns. 
 
-lpReadTimeout
-[in] Pointer to a buffer specifying the amount of time, in milliseconds, a read operation can wait for a message to be written to the mailslot before a time-out occurs.  
-```  
+lpReadTimeout 
+[in] Pointer to a buffer specifying the amount of time, in milliseconds, a read operation can wait for a message to be written to the mailslot before a time-out occurs.   
 ***  
 
 

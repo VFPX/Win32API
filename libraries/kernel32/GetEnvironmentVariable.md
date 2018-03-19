@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : GetEnvironmentVariable
+## Function name : GetEnvironmentVariable
 Group: Process and Thread - Library: kernel32    
 ***  
 
@@ -35,16 +33,14 @@ DECLARE INTEGER GetEnvironmentVariable IN kernel32;
 
 
 ## Parameters:
-```txt  
-lpName
-[in] Pointer to a null-terminated string that specifies the environment variable.
+lpName 
+[in] Pointer to a null-terminated string that specifies the environment variable. 
 
-lpBuffer
-[out] Pointer to a buffer to receive the value of the specified environment variable.
+lpBuffer 
+[out] Pointer to a buffer to receive the value of the specified environment variable. 
 
-nSize
+nSize 
 [in] Specifies the size, in TCHARs, of the buffer pointed to by the lpBuffer parameter.  
-```  
 ***  
 
 

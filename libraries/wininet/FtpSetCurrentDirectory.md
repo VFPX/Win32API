@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : FtpSetCurrentDirectory
+## Function name : FtpSetCurrentDirectory
 Group: Internet Functions (WinInet) - Library: wininet    
 ***  
 
@@ -37,13 +35,11 @@ DECLARE INTEGER FtpSetCurrentDirectory IN wininet;
 
 
 ## Parameters:
-```txt  
 hConnect
 [in] Valid HINTERNET handle to an FTP session.
 
 lpszDirectory
 [in] Pointer to a null-terminated string that contains the name of the directory to change to on the remote system  
-```  
 ***  
 
 

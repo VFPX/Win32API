@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : ReplaceFile
+## Function name : ReplaceFile
 Group: File Management - Library: kernel32    
 ***  
 
@@ -38,25 +36,23 @@ DECLARE INTEGER ReplaceFileA IN kernel32;
 
 
 ## Parameters:
-```txt  
-lpReplacedFileName [in]
+lpReplacedFileName [in] 
 The name of the file to be replaced.
 
-lpReplacementFileName [in]
+lpReplacementFileName [in] 
 The name of the file that will replace the lpReplacedFileName file.
 
-lpBackupFileName [in, optional]
+lpBackupFileName [in, optional] 
 The name of the file that will serve as a backup copy of the lpReplacedFileName file. If this parameter is NULL, no backup file is created.
 
-dwReplaceFlags [in]
+dwReplaceFlags [in] 
 The replacement options.
 
-lpExclude
+lpExclude 
 Reserved for future use.
 
-lpReserved
+lpReserved 
 Reserved for future use.  
-```  
 ***  
 
 

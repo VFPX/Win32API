@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : CopyFile
+## Function name : CopyFile
 Group: File Management - Library: kernel32    
 ***  
 
@@ -35,16 +33,14 @@ DECLARE INTEGER CopyFile IN kernel32;
 
 
 ## Parameters:
-```txt  
-lpExistingFileName
-[in] Long pointer to a null-terminated string that specifies the name of an existing file.
+lpExistingFileName 
+[in] Long pointer to a null-terminated string that specifies the name of an existing file. 
 
-lpNewFileName
-[in] Long pointer to a null-terminated string that specifies the name of the new file.
+lpNewFileName 
+[in] Long pointer to a null-terminated string that specifies the name of the new file. 
 
-bFailIfExists
+bFailIfExists 
 [in] Boolean that specifies how this operation is to proceed if a file of the same name as that specified by lpNewFileName already exists. If this parameter is TRUE and the new file already exists, the function fails. If this parameter is FALSE and the new file already exists, the function overwrites the existing file and succeeds  
-```  
 ***  
 
 

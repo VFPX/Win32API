@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : CeFindFirstFile
+## Function name : CeFindFirstFile
 Group: Remote Application Programming (RAPI) - Library: rapi    
 ***  
 
@@ -34,13 +32,11 @@ DECLARE INTEGER CeFindFirstFile IN rapi;
 
 
 ## Parameters:
-```txt  
-lpFileName
+lpFileName 
 [in] Long pointer to a null-terminated string that specifies a valid directory or path and filename, which can contain wildcard characters (* and ?).
 
-lpFindFileData
+lpFindFileData 
 [out] Long pointer to the WIN32_FIND_DATA structure that receives information about the found file or subdirectory.  
-```  
 ***  
 
 

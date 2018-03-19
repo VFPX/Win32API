@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : GetPerformanceInfo
+## Function name : GetPerformanceInfo
 Group: Performance Monitoring - Library: psapi    
 ***  
 
@@ -35,13 +33,11 @@ DECLARE INTEGER GetPerformanceInfo in psapi;
 
 
 ## Parameters:
-```txt  
 pPerformanceInformation [out]
 A pointer to a PERFORMANCE_INFORMATION structure that receives the performance information.
 
 cb [in]
 The size of the PERFORMANCE_INFORMATION structure, in bytes.  
-```  
 ***  
 
 

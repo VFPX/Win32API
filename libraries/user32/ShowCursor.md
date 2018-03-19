@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : ShowCursor
+## Function name : ShowCursor
 Group: Cursor - Library: user32    
 ***  
 
@@ -31,10 +29,8 @@ DECLARE INTEGER ShowCursor IN user32 INTEGER bShow
 
 
 ## Parameters:
-```txt  
-bShow
+bShow 
 [in] Specifies whether the internal display counter is to be incremented or decremented. If bShow is TRUE, the display count is incremented by one. If bShow is FALSE, the display count is decremented by one.  
-```  
 ***  
 
 

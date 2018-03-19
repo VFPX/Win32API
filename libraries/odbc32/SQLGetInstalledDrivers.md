@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : SQLGetInstalledDrivers
+## Function name : SQLGetInstalledDrivers
 Group: ODBC API - Library: odbc32    
 ***  
 
@@ -35,19 +33,17 @@ DECLARE INTEGER SQLGetInstalledDrivers IN odbccp32;
 
 
 ## Parameters:
-```txt  
-lpszBuf
+lpszBuf 
 [Output]
-List of descriptions of the installed drivers.
+List of descriptions of the installed drivers. 
 
-cbBufMax
+cbBufMax 
 [Input]
-Length of lpszBuf.
+Length of lpszBuf. 
 
-pcbBufOut
+pcbBufOut 
 [Output]
-Total number of bytes (excluding the null-termination byte) returned in lpszBuf.  
-```  
+Total number of bytes (excluding the null-termination byte) returned in lpszBuf.   
 ***  
 
 

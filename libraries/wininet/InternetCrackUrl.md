@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : InternetCrackUrl
+## Function name : InternetCrackUrl
 Group: Internet Functions (WinInet) - Library: wininet    
 ***  
 
@@ -37,7 +35,6 @@ DECLARE INTEGER InternetCrackUrl IN wininet;
 
 
 ## Parameters:
-```txt  
 lpszUrl
 [in] Pointer to a string that contains the canonical URL to crack.
 
@@ -45,12 +42,11 @@ dwUrlLength
 [in] Unsigned long integer value that contains the length of the lpszUrl string in TCHAR, or zero if lpszUrl is an ASCIIZ string.
 
 dwFlags
-[in] Unsigned long integer value that contains the flags controlling the operation.
+[in] Unsigned long integer value that contains the flags controlling the operation. 
 
 lpUrlComponents
 [in, out] Pointer to a URL_COMPONENTS structure that receives the URL components.
   
-```  
 ***  
 
 

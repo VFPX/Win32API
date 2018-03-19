@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : GetSystemRegistryQuota
+## Function name : GetSystemRegistryQuota
 Group: System Information - Library: kernel32    
 ***  
 
@@ -31,13 +29,11 @@ DECLARE INTEGER GetSystemRegistryQuota IN kernel32;
 
 
 ## Parameters:
-```txt  
-pdwQuotaAllowed [out, optional]
+pdwQuotaAllowed [out, optional] 
 A pointer to a variable that receives the maximum size that the registry is allowed to attain on this system, in bytes.
 
-pdwQuotaUsed [out, optional]
+pdwQuotaUsed [out, optional] 
 A pointer to a variable that receives the current size of the registry, in bytes.  
-```  
 ***  
 
 

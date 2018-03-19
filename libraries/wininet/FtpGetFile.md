@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : FtpGetFile
+## Function name : FtpGetFile
 Group: Internet Functions (WinInet) - Library: wininet    
 ***  
 
@@ -45,7 +43,6 @@ DECLARE INTEGER FtpGetFile IN wininet;
 
 
 ## Parameters:
-```txt  
 hConnect
 [in] Valid handle to an FTP session.
 
@@ -66,7 +63,6 @@ dwFlags
 
 dwContext
 [in] Pointer to an unsigned long integer value that contains the application-defined value...  
-```  
 ***  
 
 

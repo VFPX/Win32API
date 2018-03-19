@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : keybd_event
+## Function name : keybd_event
 Group: Keyboard Input - Library: user32    
 ***  
 
@@ -38,19 +36,17 @@ DECLARE keybd_event IN user32;
 
 
 ## Parameters:
-```txt  
 bVk
-[in] Specifies a virtual-key code. The code must be a value in the range 1 to 254. For a complete list, see Virtual-Key Codes.
+[in] Specifies a virtual-key code. The code must be a value in the range 1 to 254. For a complete list, see Virtual-Key Codes. 
 
 bScan
-This parameter is not used.
+This parameter is not used. 
 
 dwFlags
 [in] Specifies various aspects of function operation.
 
 dwExtraInfo
-[in] Specifies an additional value associated with the key stroke.  
-```  
+[in] Specifies an additional value associated with the key stroke.   
 ***  
 
 

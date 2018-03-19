@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : RasPhonebookDlg
+## Function name : RasPhonebookDlg
 Group: Remote Access Service (RAS) - Library: rasdlg    
 ***  
 
@@ -39,16 +37,14 @@ DECLARE INTEGER RasPhonebookDlg IN rasapi32;
 
 
 ## Parameters:
-```txt  
-lpszPhonebook
+lpszPhonebook 
 [in] Pointer to a null-terminated string that specifies the full path and file name of a phone-book (PBK) file.
 
-lpszEntry
+lpszEntry 
 [in] Pointer to a null-terminated string that specifies the name of the phone-book entry to highlight initially.
 
-lpInfo
+lpInfo 
 [in, out] Pointer to the RASPBDLG structure that specifies additional input and output parameters.  
-```  
 ***  
 
 

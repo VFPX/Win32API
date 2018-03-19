@@ -1,7 +1,5 @@
-<link rel="stylesheet" type="text/css" href="../../css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-## Functionname : GetProductInfo
+## Function name : GetProductInfo
 Group: System Information - Library: kernel32    
 ***  
 
@@ -36,23 +34,21 @@ DECLARE INTEGER GetProductInfo IN kernel32;
 
 
 ## Parameters:
-```txt  
-dwOSMajorVersion
+dwOSMajorVersion 
 The major version number of the operating system. The minimum value is 6.
 
-dwOSMinorVersion
+dwOSMinorVersion 
 The minor version number of the operating system. The minimum value is 0.
 
-dwSpMajorVersion
+dwSpMajorVersion 
 The major version number of the operating system service pack. The minimum value is 0.
 
-dwSpMinorVersion
+dwSpMinorVersion 
 The minor version number of the operating system service pack. The minimum value is 0.
 
-pdwReturnedProductType
+pdwReturnedProductType 
 The product type. This parameter cannot be NULL.
   
-```  
 ***  
 
 
