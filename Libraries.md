@@ -3,6 +3,7 @@
 
 # ![](images/fox1.png) advapi32 library
 ***  
+
 <details>
 [AdjustTokenPrivileges](libraries/advapi32/AdjustTokenPrivileges.md)  
 Enables or disables privileges in the specified access token.  
@@ -427,11 +428,13 @@ The UnlockServiceDatabase function unlocks a service control manager database by
   
 
 ***  
+
 </details>
 
 # ![](images/fox1.png) avicap32 library
 ***  
 
+<details>
 [capCreateCaptureWindow](libraries/avicap32/capCreateCaptureWindow.md)  
 The capCreateCaptureWindow function creates a capture window.
   
@@ -444,10 +447,12 @@ The capGetDriverDescription function retrieves the version description of the ca
 
 ***  
 
+</details>
 
 # ![](images/fox1.png) avifil32 library
 ***  
 
+<details>
 [AVIFileExit](libraries/avifil32/AVIFileExit.md)  
 The AVIFileExit function exits the AVIFile library and decrements the reference count for the library.  
 
@@ -529,10 +534,12 @@ The AVIStreamTimeToSample function converts from milliseconds to samples.
 
 ***  
 
+</details>
 
 # ![](images/fox1.png) cfgmgr32 library
 ***  
 
+<details>
 [CM_Connect_Machine](libraries/cfgmgr32/CM_Connect_Machine.md)  
 Creates a connection to a remote machine  
 
@@ -560,10 +567,12 @@ Obtains a device instance handle to the device node that is associated with a sp
 
 ***  
 
+</details>
 
 # ![](images/fox1.png) comctl32 library
 ***  
 
+<details>
 [ImageList_Add](libraries/comctl32/ImageList_Add.md)  
 Adds an image or images to an image list.  
 
@@ -609,10 +618,12 @@ Creates, displays, and operates a task dialog.
 
 ***  
 
+</details>
 
 # ![](images/fox1.png) comdlg32 library
 ***  
 
+<details>
 [ChooseColor](libraries/comdlg32/ChooseColor.md)  
 The ChooseColor function creates a Color dialog box that enables the user to select a color.  
 
@@ -668,10 +679,12 @@ Creates, displays, and operates a task dialog.
 
 ***  
 
+</details>
 
 # ![](images/fox1.png) crypt32 library
 ***  
 
+<details>
 [CertCloseStore](libraries/crypt32/CertCloseStore.md)  
 Closes a certificate store handle and reduces the reference count on the store.  
 
@@ -712,28 +725,34 @@ Decrypts and does an integrity check of the data in a DATA_BLOB structure. Scope
 
 ***  
 
+</details>
 
 # ![](images/fox1.png) dnsapi library
 ***  
 
+<details>
 [DnsValidateName](libraries/dnsapi/DnsValidateName.md)  
 Validates the status of a specified DNS name.  
 
 ***  
 
+</details>
 
 # ![](images/fox1.png) dwmapi library
 ***  
 
+<details>
 [DwmExtendFrameIntoClientArea](libraries/dwmapi/DwmExtendFrameIntoClientArea.md)  
 Extends the window frame behind the client area.  
 
 ***  
 
+</details>
 
 # ![](images/fox1.png) dxva2 library
 ***  
 
+<details>
 [DestroyPhysicalMonitors](libraries/dxva2/DestroyPhysicalMonitors.md)  
 Closes an array of open monitor handles. That is one of a scary name for API function.  
 
@@ -774,10 +793,12 @@ Sets the contrast value for a monitor.
 
 ***  
 
+</details>
 
 # ![](images/fox1.png) esent library
 ***  
 
+<details>
 [JetAddColumn](libraries/esent/JetAddColumn.md)  
 Adds a new column to an existing table in an ESE database.  
 
@@ -901,10 +922,12 @@ Performs an update operation including inserting a new row into a table or updat
 
 ***  
 
+</details>
 
 # ![](images/fox1.png) gdi32 library
 ***  
 
+<details>
 [BeginPath](libraries/gdi32/BeginPath.md)  
 The BeginPath function opens a path bracket in the specified device context.  
 
@@ -1237,10 +1260,12 @@ Writes a character string at the specified location, using the currently selecte
 
 ***  
 
+</details>
 
 # ![](images/fox1.png) gdiplus library
 ***  
 
+<details>
 [GdipBitmapGetPixel](libraries/gdiplus/GdipBitmapGetPixel.md)  
 Gets the color value of an individual pixel.  
 
@@ -1272,7 +1297,7 @@ Creates a Bitmap object based on a Graphics object, a width, and a height.
 ***  
 
 [GdipCreateBitmapFromHBITMAP](libraries/gdiplus/GdipCreateBitmapFromHBITMAP.md)  
-Creates a Bitmap object based on a handle to a Windows Microsoftï¿½ Windowsï¿½ Graphics Device Interface (GDI) bitmap and a handle to a GDI palette.  
+Creates a Bitmap object based on a handle to a Windows Microsoft® Windows® Graphics Device Interface (GDI) bitmap and a handle to a GDI palette.  
 
 ***  
 
@@ -1309,7 +1334,7 @@ Returns handle to the Graphics object associated with the windows handle.
 ***  
 
 [GdipCreateHBITMAPFromBitmap](libraries/gdiplus/GdipCreateHBITMAPFromBitmap.md)  
-Creates a Microsoftï¿½ Windowsï¿½ Graphics Device Interface (GDI) bitmap from this GDI+ Bitmap handle.
+Creates a Microsoft® Windows® Graphics Device Interface (GDI) bitmap from this GDI+ Bitmap handle.
   
 
 ***  
@@ -1330,7 +1355,7 @@ Creates and initializes a Matrix object that represents the identity matrix.
 ***  
 
 [GdipCreateMatrix2](libraries/gdiplus/GdipCreateMatrix2.md)  
-Creates and initializes a a 3 ï¿½3 matrix that represents an affine transformation.  
+Creates and initializes a a 3 ×3 matrix that represents an affine transformation.  
 
 ***  
 
@@ -1746,19 +1771,21 @@ Updates this Graphics object"s world transformation matrix with the product of i
 ***  
 
 [GdiplusShutdown](libraries/gdiplus/GdiplusShutdown.md)  
-The GdiplusShutdown function cleans up resources used by Microsoftï¿½ Windowsï¿½ GDI+.  
+The GdiplusShutdown function cleans up resources used by Microsoft® Windows® GDI+.  
 
 ***  
 
 [GdiplusStartup](libraries/gdiplus/GdiplusStartup.md)  
-The GdiplusStartup function initializes Microsoftï¿½ Windowsï¿½ GDI+.  
+The GdiplusStartup function initializes Microsoft® Windows® GDI+.  
 
 ***  
 
+</details>
 
 # ![](images/fox1.png) iphlpapi library
 ***  
 
+<details>
 [GetAdaptersAddresses](libraries/iphlpapi/GetAdaptersAddresses.md)  
 Retrieves the addresses associated with the adapters on the local computer.  
 
@@ -1791,7 +1818,7 @@ The GetInterfaceInfo function obtains a list of the network interface adapters o
 ***  
 
 [GetIpAddrTable](libraries/iphlpapi/GetIpAddrTable.md)  
-The GetIpAddrTable function retrieves the interfaceï¿½toï¿½IP address mapping table.  
+The GetIpAddrTable function retrieves the interface–to–IP address mapping table.  
 
 ***  
 
@@ -1891,10 +1918,12 @@ Converts the ANSI interface name for a network interface to the local index for 
 
 ***  
 
+</details>
 
 # ![](images/fox1.png) kernel32 library
 ***  
 
+<details>
 [AllocConsole](libraries/kernel32/AllocConsole.md)  
 The AllocConsole function allocates a new console for the calling process.  
 
@@ -2620,7 +2649,7 @@ Retrieves the current time-zone parameters. These parameters control the transla
 ***  
 
 [GetUserDefaultLCID](libraries/kernel32/GetUserDefaultLCID.md)  
-Retrieves the user defaultï¿½locale identifier.  
+Retrieves the user default–locale identifier.  
 
 ***  
 
@@ -3223,10 +3252,12 @@ Opens an existing file and sets the file pointer to the beginning of the file.
 
 ***  
 
+</details>
 
 # ![](images/fox1.png) ktmw32 library
 ***  
 
+<details>
 [CommitTransaction](libraries/ktmw32/CommitTransaction.md)  
 Requests that the specified transaction be committed.  
 
@@ -3242,10 +3273,12 @@ Requests that the specified transaction be rolled back. This function is synchro
 
 ***  
 
+</details>
 
 # ![](images/fox1.png) mapi32 library
 ***  
 
+<details>
 [MAPIAddress](libraries/mapi32/MAPIAddress.md)  
 The MAPIAddress function creates or modifies a set of address list entries.  
 
@@ -3291,10 +3324,12 @@ The MAPISendMail function sends a message.
 
 ***  
 
+</details>
 
 # ![](images/fox1.png) mpr library
 ***  
 
+<details>
 [WNetAddConnection](libraries/mpr/WNetAddConnection.md)  
 The WNetAddConnection function enables the calling application to connect a local device to a network resource.   
 
@@ -3365,10 +3400,12 @@ The WNetOpenEnum function starts an enumeration of network resources or existing
 
 ***  
 
+</details>
 
 # ![](images/fox1.png) mqrt library
 ***  
 
+<details>
 [MQCloseQueue](libraries/mqrt/MQCloseQueue.md)  
 Closes a given queue or subqueue.  
 
@@ -3399,19 +3436,23 @@ Deletes all of the messages in a queue.
 
 ***  
 
+</details>
 
 # ![](images/fox1.png) mshtml library
 ***  
 
+<details>
 [ShowHTMLDialog](libraries/mshtml/ShowHTMLDialog.md)  
 Creates a modal dialog box that displays HTML.  
 
 ***  
 
+</details>
 
 # ![](images/fox1.png) msimg32 library
 ***  
 
+<details>
 [AlphaBlend](libraries/msimg32/AlphaBlend.md)  
 The AlphaBlend function displays bitmaps that have transparent or semitransparent pixels.  
 
@@ -3422,10 +3463,12 @@ The GradientFill function fills rectangle and triangle structures.
 
 ***  
 
+</details>
 
 # ![](images/fox1.png) msvfw32 library
 ***  
 
+<details>
 [DrawDibClose](libraries/msvfw32/DrawDibClose.md)  
 The DrawDibClose function closes a DrawDib DC and frees the resources DrawDib allocated for it.  
 
@@ -3441,10 +3484,12 @@ The DrawDibOpen function opens the DrawDib library for use and creates a DrawDib
 
 ***  
 
+</details>
 
 # ![](images/fox1.png) netapi32 library
 ***  
 
+<details>
 [NetApiBufferFree](libraries/netapi32/NetApiBufferFree.md)  
 Frees the memory that the NetApiBufferAllocate function allocates. Call NetApiBufferFree to free the memory that other network management functions return on Windows NT, Windows 2000, and Windows XP.  
 
@@ -3645,10 +3690,12 @@ Searches for a file.
 
 ***  
 
+</details>
 
 # ![](images/fox1.png) ntdll library
 ***  
 
+<details>
 [RtlCompressBuffer](libraries/ntdll/RtlCompressBuffer.md)  
 Compresses a buffer and can be used by a file system driver to facilitate the implementation of file compression.  
 
@@ -3664,10 +3711,12 @@ This function is used to determine the correct size of the WorkSpace buffer for 
 
 ***  
 
+</details>
 
 # ![](images/fox1.png) odbc32 library
 ***  
 
+<details>
 [SQLAllocEnv](libraries/odbc32/SQLAllocEnv.md)  
 In ODBC 3.x, the ODBC 2.x function SQLAllocEnv has been replaced by SQLAllocHandle.  
 
@@ -3820,19 +3869,23 @@ The WNetGetLastError function retrieves the most recent extended error code set 
 
 ***  
 
+</details>
 
 # ![](images/fox1.png) odbccp32 library
 ***  
 
+<details>
 [SQLInstallerError](libraries/odbccp32/SQLInstallerError.md)  
 SQLInstallerError returns error or status information for the ODBC installer functions.  
 
 ***  
 
+</details>
 
 # ![](images/fox1.png) ole32 library
 ***  
 
+<details>
 [CLSIDFromString](libraries/ole32/CLSIDFromString.md)  
 Converts a string generated by the StringFromCLSID function back into the original CLSID.  
 
@@ -3863,10 +3916,12 @@ Converts a globally unique identifier (GUID) into a string of printable characte
 
 ***  
 
+</details>
 
 # ![](images/fox1.png) powrprof library
 ***  
 
+<details>
 [GetPwrCapabilities](libraries/powrprof/GetPwrCapabilities.md)  
 The GetPwrCapabilities function retrieves information about the system power capabilities.  
 
@@ -3882,10 +3937,12 @@ The SetSuspendState function suspends the system by shutting power down. Dependi
 
 ***  
 
+</details>
 
 # ![](images/fox1.png) psapi library
 ***  
 
+<details>
 [EnumDeviceDrivers](libraries/psapi/EnumDeviceDrivers.md)  
 The EnumDeviceDrivers function retrieves the load address for each device driver in the system.  
 
@@ -3931,10 +3988,12 @@ Retrieves information about the memory usage of the specified process in the PRO
 
 ***  
 
+</details>
 
 # ![](images/fox1.png) rapi library
 ***  
 
+<details>
 [CeCloseHandle](libraries/rapi/CeCloseHandle.md)  
 This function closes an open object handle.  
 
@@ -4051,7 +4110,7 @@ This function gets information on the physical and virtual memory of the system.
 ***  
 
 [CeMoveFile](libraries/rapi/CeMoveFile.md)  
-This function renames an existing file or a directory ï¿½ including all its children.  
+This function renames an existing file or a directory — including all its children.  
 
 ***  
 
@@ -4180,10 +4239,12 @@ This function writes a set of properties to a single record, creating the record
 
 ***  
 
+</details>
 
 # ![](images/fox1.png) rasapi32 library
 ***  
 
+<details>
 [RasEnumAutodialAddresses](libraries/rasapi32/RasEnumAutodialAddresses.md)  
 The RasEnumAutodialAddresses function returns a list of all addresses in the AutoDial mapping database.  
 
@@ -4204,19 +4265,23 @@ The RasGetCountryInfo function retrieves country-specific dialing information fr
 
 ***  
 
+</details>
 
 # ![](images/fox1.png) rasdlg library
 ***  
 
+<details>
 [RasPhonebookDlg](libraries/rasdlg/RasPhonebookDlg.md)  
 The RasPhonebookDlg function displays the main Dial-Up Networking dialog box. From this modal dialog box, the user can dial, edit, or delete a selected phone-book entry, create a new phone-book entry, or specify user preferences. The RasPhonebookDlg function returns when the dialog box closes.  
 
 ***  
 
+</details>
 
 # ![](images/fox1.png) rpcrt4 library
 ***  
 
+<details>
 [RpcStringFree](libraries/rpcrt4/RpcStringFree.md)  
 Frees a character string allocated by the RPC run-time library.  
 
@@ -4252,10 +4317,12 @@ Converts a UUID to a string.
 
 ***  
 
+</details>
 
 # ![](images/fox1.png) secur32 library
 ***  
 
+<details>
 [GetComputerObjectName](libraries/secur32/GetComputerObjectName.md)  
 The GetComputerObjectName function retrieves the local computer"s name in a specified format.  
 
@@ -4282,19 +4349,23 @@ Retrieves information about a specified logon session.
 
 ***  
 
+</details>
 
 # ![](images/fox1.png) sensapi library
 ***  
 
+<details>
 [IsNetworkAlive](libraries/sensapi/IsNetworkAlive.md)  
 The IsNetworkAlive function determines whether the local system is connected to a network and the type of network connection. For example, whether the local system has connectivity to a LAN, WAN, or both networks.  
 
 ***  
 
+</details>
 
 # ![](images/fox1.png) setupapi library
 ***  
 
+<details>
 [AddPort](libraries/setupapi/AddPort.md)  
 Adds the name of a port to the list of supported ports. The AddPort function is exported by the port monitor.  
 
@@ -4343,17 +4414,19 @@ The SetupOpenInfFile function opens an INF file and returns a handle to it.
 
 ***  
 
+</details>
 
 # ![](images/fox1.png) shell32 library
 ***  
 
+<details>
 [CommandLineToArgvW](libraries/shell32/CommandLineToArgvW.md)  
 Parses a Unicode command-line string, and returns a pointer to a set of Unicode argument strings and a count of arguments, similar to the standard C run-time argv and argc values  
 
 ***  
 
 [DllGetVersion](libraries/shell32/DllGetVersion.md)  
-Implemented by many of the Microsoftï¿½ Windowsï¿½ Shell dynamic-link libraries (DLLs) to allow applications to obtain DLL-specific version information.  
+Implemented by many of the Microsoft® Windows® Shell dynamic-link libraries (DLLs) to allow applications to obtain DLL-specific version information.  
 
 ***  
 
@@ -4424,7 +4497,7 @@ Determines the drive type based on the drive number.
 ***  
 
 [RestartDialog](libraries/shell32/RestartDialog.md)  
-Displays a dialog box that prompts the user to restart Microsoftï¿½ Windowsï¿½. When the user clicks the button, the function calls ExitWindowsEx to attempt to restart Windows.  
+Displays a dialog box that prompts the user to restart Microsoft® Windows®. When the user clicks the button, the function calls ExitWindowsEx to attempt to restart Windows.  
 
 ***  
 
@@ -4526,10 +4599,12 @@ Sends a message to the taskbar"s status area.
 
 ***  
 
+</details>
 
 # ![](images/fox1.png) shlwapi library
 ***  
 
+<details>
 [AssocQueryString](libraries/shlwapi/AssocQueryString.md)  
 Searches for and retrieves a file or protocol association-related string from the registry.  
 
@@ -4705,10 +4780,12 @@ Takes a variable-length argument list and returns the values of the arguments as
 
 ***  
 
+</details>
 
 # ![](images/fox1.png) urlmon library
 ***  
 
+<details>
 [CreateURLMonikerEx](libraries/urlmon/CreateURLMonikerEx.md)  
 Creates a URL moniker from a full URL, or from a base context URL moniker and a partial URL.  
 
@@ -4749,10 +4826,12 @@ Retrieves options for the current Internet session.
 
 ***  
 
+</details>
 
 # ![](images/fox1.png) user32 library
 ***  
 
+<details>
 [ActivateKeyboardLayout](libraries/user32/ActivateKeyboardLayout.md)  
 The ActivateKeyboardLayout function sets the input locale identifier (formerly called the keyboard layout handle) for the calling thread or the current process. The input locale identifier specifies a locale as well as the physical layout of the keyboard.  
 
@@ -5149,7 +5228,7 @@ The GetKeyNameText function retrieves a string that represents the name of a key
 ***  
 
 [GetKeyState](libraries/user32/GetKeyState.md)  
-The GetKeyState function retrieves the status of the specified virtual key. The status specifies whether the key is up, down, or toggled (on, offï¿½alternating each time the key is pressed).   
+The GetKeyState function retrieves the status of the specified virtual key. The status specifies whether the key is up, down, or toggled (on, off—alternating each time the key is pressed).   
 
 ***  
 
@@ -5756,10 +5835,12 @@ Synthesizes a keystroke.
 
 ***  
 
+</details>
 
 # ![](images/fox1.png) userenv library
 ***  
 
+<details>
 [LoadUserProfile](libraries/userenv/LoadUserProfile.md)  
 Loads the specified user"s profile. The profile can be a local user profile or a roaming user profile.  
 
@@ -5770,10 +5851,12 @@ Unloads a user"s profile that was loaded by the LoadUserProfile function.
 
 ***  
 
+</details>
 
 # ![](images/fox1.png) version library
 ***  
 
+<details>
 [GetFileVersionInfo](libraries/version/GetFileVersionInfo.md)  
 Retrieves version information for the specified file.  
 
@@ -5784,10 +5867,12 @@ The GetFileVersionInfoSize function determines whether the operating system can 
 
 ***  
 
+</details>
 
 # ![](images/fox1.png) virtdisk library
 ***  
 
+<details>
 [AttachVirtualDisk](libraries/virtdisk/AttachVirtualDisk.md)  
 Attaches a virtual hard disk (VHD) by locating an appropriate VHD provider to accomplish the attachment.  
 
@@ -5808,10 +5893,12 @@ Opens a virtual hard disk (VHD) for use.
 
 ***  
 
+</details>
 
 # ![](images/fox1.png) winhttp library
 ***  
 
+<details>
 [WinHttpAddRequestHeaders](libraries/winhttp/WinHttpAddRequestHeaders.md)  
 The WinHttpAddRequestHeaders function adds one or more HTTP request headers to the HTTP request handle.  
 
@@ -5872,10 +5959,12 @@ The WinHttpSetCredentials function passes the required authorization credentials
 
 ***  
 
+</details>
 
 # ![](images/fox1.png) wininet library
 ***  
 
+<details>
 [CreateMD5SSOHash](libraries/wininet/CreateMD5SSOHash.md)  
 Obtains the default Microsoft Passport password for a specified account or realm, creates an MD5 hash from it using a specified wide-character challenge string, and returns the result as a string of hexadecimal digit bytes.  
 
@@ -6063,7 +6152,7 @@ This function retrieves the cookie for the specified URL.
 ***  
 
 [InternetGetLastResponseInfo](libraries/wininet/InternetGetLastResponseInfo.md)  
-Retrieves the last Microsoftï¿½ Win32ï¿½ Internet function error description or server response on the thread calling this function.  
+Retrieves the last Microsoft® Win32® Internet function error description or server response on the thread calling this function.  
 
 ***  
 
@@ -6073,7 +6162,7 @@ Prompts the user for permission to initiate connection to a URL.
 ***  
 
 [InternetOpen](libraries/wininet/InternetOpen.md)  
-Initializes an application"s use of the Microsoftï¿½ Win32ï¿½ Internet functions  
+Initializes an application"s use of the Microsoft® Win32® Internet functions  
 
 ***  
 
@@ -6123,10 +6212,12 @@ Writes data to an open Internet file.
 
 ***  
 
+</details>
 
 # ![](images/fox1.png) winmm library
 ***  
 
+<details>
 [PlaySound](libraries/winmm/PlaySound.md)  
 Plays a sound specified by the given file name, resource, or system event.  
 
@@ -6407,10 +6498,12 @@ The waveOutWrite function sends a data block to the given waveform-audio output 
 
 ***  
 
+</details>
 
 # ![](images/fox1.png) winscard library
 ***  
 
+<details>
 [SCardConnect](libraries/winscard/SCardConnect.md)  
 Establishes a connection (using a specific resource manager context) between the calling application and a smart card contained by a specific reader.
   
@@ -6486,10 +6579,12 @@ Sends a service request to the smart card and expects to receive data back from 
 
 ***  
 
+</details>
 
 # ![](images/fox1.png) winspool.drv library
 ***  
 
+<details>
 [AddPrinter](libraries/winspool.drv/AddPrinter.md)  
 The AddPrinter function adds a printer to the list of supported printers for a specified server.   
 
@@ -6637,19 +6732,23 @@ The SetPrinter function sets the data for a specified printer or sets the state 
 
 ***  
 
+</details>
 
 # ![](images/fox1.png) wintrust library
 ***  
 
+<details>
 [WinVerifyTrust](libraries/wintrust/WinVerifyTrust.md)  
 Performs a trust verification action on a specified object. The function passes the inquiry to a trust provider that supports the action identifier, if one exists.  
 
 ***  
 
+</details>
 
 # ![](images/fox1.png) ws2_32 library
 ***  
 
+<details>
 [WSACleanup](libraries/ws2_32/WSACleanup.md)  
 The WSACleanup function terminates use of the Ws2_32.dll.  
 
@@ -6834,10 +6933,12 @@ The <Strong>select</Strong> function determines the status of one or more socket
 
 ***  
 
+</details>
 
 # ![](images/fox1.png) wtsapi32 library
 ***  
 
+<details>
 [WTSCloseServer](libraries/wtsapi32/WTSCloseServer.md)  
 Closes an open handle to a terminal server.  
 
@@ -6893,3 +6994,4 @@ Unregisters the specified window so that it receives no further session change n
 
 ***  
 
+</details>
