@@ -1,6 +1,6 @@
 
 # List of functions in alphabetical order
-# [<img src="images/home.png">](https://github.com/VFPX/Win32API) [A ](#A)[B ](#B)[C ](#C)[D ](#D)[E ](#E)[F ](#F)[G ](#G)[H ](#H)[I ](#I)[J ](#J)[K ](#K)[L ](#L)[M ](#M)[N ](#N)[O ](#O)[P ](#P)[Q ](#Q)[R ](#R)[S ](#S)[T ](#T)[U ](#U)[V ](#V)[W ](#W)[Z ](#Z)[_ ](#_)
+# [<img src="images/home.png"> Home ](https://github.com/VFPX/Win32API)[A ](#A)[B ](#B)[C ](#C)[D ](#D)[E ](#E)[F ](#F)[G ](#G)[H ](#H)[I ](#I)[J ](#J)[K ](#K)[L ](#L)[M ](#M)[N ](#N)[O ](#O)[P ](#P)[Q ](#Q)[R ](#R)[S ](#S)[T ](#T)[U ](#U)[V ](#V)[W ](#W)[Z ](#Z)[_ ](#_)
 <a name="A"></a>[accept](libraries/ws2_32/accept.md)  
 The accept function permits an incoming connection attempt on a socket.  
 
@@ -142,7 +142,7 @@ The AVIStreamTimeToSample function converts from milliseconds to samples.
 
 ***  
 
-# [<img src="images/home.png">](https://github.com/VFPX/Win32API) [A ](#A)[B ](#B)[C ](#C)[D ](#D)[E ](#E)[F ](#F)[G ](#G)[H ](#H)[I ](#I)[J ](#J)[K ](#K)[L ](#L)[M ](#M)[N ](#N)[O ](#O)[P ](#P)[Q ](#Q)[R ](#R)[S ](#S)[T ](#T)[U ](#U)[V ](#V)[W ](#W)[Z ](#Z)[_ ](#_)
+# [<img src="images/home.png"> Home ](https://github.com/VFPX/Win32API)[A ](#A)[B ](#B)[C ](#C)[D ](#D)[E ](#E)[F ](#F)[G ](#G)[H ](#H)[I ](#I)[J ](#J)[K ](#K)[L ](#L)[M ](#M)[N ](#N)[O ](#O)[P ](#P)[Q ](#Q)[R ](#R)[S ](#S)[T ](#T)[U ](#U)[V ](#V)[W ](#W)[Z ](#Z)[_ ](#_)
 <a name="B"></a>[Beep](libraries/kernel32/Beep.md)  
 Generates simple tones on the speaker. The function is synchronous; it does not return control to its caller until the sound finishes.  
 
@@ -183,7 +183,7 @@ Sends a message to the specified recipients. The recipients can be applications,
 
 ***  
 
-# [<img src="images/home.png">](https://github.com/VFPX/Win32API) [A ](#A)[B ](#B)[C ](#C)[D ](#D)[E ](#E)[F ](#F)[G ](#G)[H ](#H)[I ](#I)[J ](#J)[K ](#K)[L ](#L)[M ](#M)[N ](#N)[O ](#O)[P ](#P)[Q ](#Q)[R ](#R)[S ](#S)[T ](#T)[U ](#U)[V ](#V)[W ](#W)[Z ](#Z)[_ ](#_)
+# [<img src="images/home.png"> Home ](https://github.com/VFPX/Win32API)[A ](#A)[B ](#B)[C ](#C)[D ](#D)[E ](#E)[F ](#F)[G ](#G)[H ](#H)[I ](#I)[J ](#J)[K ](#K)[L ](#L)[M ](#M)[N ](#N)[O ](#O)[P ](#P)[Q ](#Q)[R ](#R)[S ](#S)[T ](#T)[U ](#U)[V ](#V)[W ](#W)[Z ](#Z)[_ ](#_)
 <a name="C"></a>[CallWindowProc](libraries/user32/CallWindowProc.md)  
 The CallWindowProc function passes message information to the specified window procedure.  
 
@@ -1043,7 +1043,7 @@ Decrypts and does an integrity check of the data in a DATA_BLOB structure. Scope
 
 ***  
 
-# [<img src="images/home.png">](https://github.com/VFPX/Win32API) [A ](#A)[B ](#B)[C ](#C)[D ](#D)[E ](#E)[F ](#F)[G ](#G)[H ](#H)[I ](#I)[J ](#J)[K ](#K)[L ](#L)[M ](#M)[N ](#N)[O ](#O)[P ](#P)[Q ](#Q)[R ](#R)[S ](#S)[T ](#T)[U ](#U)[V ](#V)[W ](#W)[Z ](#Z)[_ ](#_)
+# [<img src="images/home.png"> Home ](https://github.com/VFPX/Win32API)[A ](#A)[B ](#B)[C ](#C)[D ](#D)[E ](#E)[F ](#F)[G ](#G)[H ](#H)[I ](#I)[J ](#J)[K ](#K)[L ](#L)[M ](#M)[N ](#N)[O ](#O)[P ](#P)[Q ](#Q)[R ](#R)[S ](#S)[T ](#T)[U ](#U)[V ](#V)[W ](#W)[Z ](#Z)[_ ](#_)
 <a name="D"></a>[DefWindowProc](libraries/user32/DefWindowProc.md)  
 The DefWindowProc function calls the default window procedure to provide default processing for any window messages that an application does not process. This function ensures that every message is processed. DefWindowProc is called with the same parameters received by the window procedure.   
 
@@ -1260,7 +1260,7 @@ Extends the window frame behind the client area.
 
 ***  
 
-# [<img src="images/home.png">](https://github.com/VFPX/Win32API) [A ](#A)[B ](#B)[C ](#C)[D ](#D)[E ](#E)[F ](#F)[G ](#G)[H ](#H)[I ](#I)[J ](#J)[K ](#K)[L ](#L)[M ](#M)[N ](#N)[O ](#O)[P ](#P)[Q ](#Q)[R ](#R)[S ](#S)[T ](#T)[U ](#U)[V ](#V)[W ](#W)[Z ](#Z)[_ ](#_)
+# [<img src="images/home.png"> Home ](https://github.com/VFPX/Win32API)[A ](#A)[B ](#B)[C ](#C)[D ](#D)[E ](#E)[F ](#F)[G ](#G)[H ](#H)[I ](#I)[J ](#J)[K ](#K)[L ](#L)[M ](#M)[N ](#N)[O ](#O)[P ](#P)[Q ](#Q)[R ](#R)[S ](#S)[T ](#T)[U ](#U)[V ](#V)[W ](#W)[Z ](#Z)[_ ](#_)
 <a name="E"></a>[EmptyClipboard](libraries/user32/EmptyClipboard.md)  
 The EmptyClipboard function empties the clipboard and frees handles to data in the clipboard  
 
@@ -1406,7 +1406,7 @@ Retrieves a handle to an icon from the specified executable file, dynamic-link l
 
 ***  
 
-# [<img src="images/home.png">](https://github.com/VFPX/Win32API) [A ](#A)[B ](#B)[C ](#C)[D ](#D)[E ](#E)[F ](#F)[G ](#G)[H ](#H)[I ](#I)[J ](#J)[K ](#K)[L ](#L)[M ](#M)[N ](#N)[O ](#O)[P ](#P)[Q ](#Q)[R ](#R)[S ](#S)[T ](#T)[U ](#U)[V ](#V)[W ](#W)[Z ](#Z)[_ ](#_)
+# [<img src="images/home.png"> Home ](https://github.com/VFPX/Win32API)[A ](#A)[B ](#B)[C ](#C)[D ](#D)[E ](#E)[F ](#F)[G ](#G)[H ](#H)[I ](#I)[J ](#J)[K ](#K)[L ](#L)[M ](#M)[N ](#N)[O ](#O)[P ](#P)[Q ](#Q)[R ](#R)[S ](#S)[T ](#T)[U ](#U)[V ](#V)[W ](#W)[Z ](#Z)[_ ](#_)
 <a name="F"></a>[FatalAppExit](libraries/kernel32/FatalAppExit.md)  
 The FatalAppExit function displays a message box and terminates the application when the message box is closed.   
 
@@ -1689,7 +1689,7 @@ Changes to a different working directory on the FTP server
 
 ***  
 
-# [<img src="images/home.png">](https://github.com/VFPX/Win32API) [A ](#A)[B ](#B)[C ](#C)[D ](#D)[E ](#E)[F ](#F)[G ](#G)[H ](#H)[I ](#I)[J ](#J)[K ](#K)[L ](#L)[M ](#M)[N ](#N)[O ](#O)[P ](#P)[Q ](#Q)[R ](#R)[S ](#S)[T ](#T)[U ](#U)[V ](#V)[W ](#W)[Z ](#Z)[_ ](#_)
+# [<img src="images/home.png"> Home ](https://github.com/VFPX/Win32API)[A ](#A)[B ](#B)[C ](#C)[D ](#D)[E ](#E)[F ](#F)[G ](#G)[H ](#H)[I ](#I)[J ](#J)[K ](#K)[L ](#L)[M ](#M)[N ](#N)[O ](#O)[P ](#P)[Q ](#Q)[R ](#R)[S ](#S)[T ](#T)[U ](#U)[V ](#V)[W ](#W)[Z ](#Z)[_ ](#_)
 <a name="G"></a>[GdiFlush](libraries/gdi32/GdiFlush.md)  
 Flushes the calling thread`s current batch.  
 
@@ -3509,7 +3509,7 @@ The GradientFill function fills rectangle and triangle structures.
 
 ***  
 
-# [<img src="images/home.png">](https://github.com/VFPX/Win32API) [A ](#A)[B ](#B)[C ](#C)[D ](#D)[E ](#E)[F ](#F)[G ](#G)[H ](#H)[I ](#I)[J ](#J)[K ](#K)[L ](#L)[M ](#M)[N ](#N)[O ](#O)[P ](#P)[Q ](#Q)[R ](#R)[S ](#S)[T ](#T)[U ](#U)[V ](#V)[W ](#W)[Z ](#Z)[_ ](#_)
+# [<img src="images/home.png"> Home ](https://github.com/VFPX/Win32API)[A ](#A)[B ](#B)[C ](#C)[D ](#D)[E ](#E)[F ](#F)[G ](#G)[H ](#H)[I ](#I)[J ](#J)[K ](#K)[L ](#L)[M ](#M)[N ](#N)[O ](#O)[P ](#P)[Q ](#Q)[R ](#R)[S ](#S)[T ](#T)[U ](#U)[V ](#V)[W ](#W)[Z ](#Z)[_ ](#_)
 <a name="H"></a>[HashData](libraries/shlwapi/HashData.md)  
 Hashes an array of data.  
 
@@ -3587,7 +3587,7 @@ This function sends the specified request to the HTTP server.
 
 ***  
 
-# [<img src="images/home.png">](https://github.com/VFPX/Win32API) [A ](#A)[B ](#B)[C ](#C)[D ](#D)[E ](#E)[F ](#F)[G ](#G)[H ](#H)[I ](#I)[J ](#J)[K ](#K)[L ](#L)[M ](#M)[N ](#N)[O ](#O)[P ](#P)[Q ](#Q)[R ](#R)[S ](#S)[T ](#T)[U ](#U)[V ](#V)[W ](#W)[Z ](#Z)[_ ](#_)
+# [<img src="images/home.png"> Home ](https://github.com/VFPX/Win32API)[A ](#A)[B ](#B)[C ](#C)[D ](#D)[E ](#E)[F ](#F)[G ](#G)[H ](#H)[I ](#I)[J ](#J)[K ](#K)[L ](#L)[M ](#M)[N ](#N)[O ](#O)[P ](#P)[Q ](#Q)[R ](#R)[S ](#S)[T ](#T)[U ](#U)[V ](#V)[W ](#W)[Z ](#Z)[_ ](#_)
 <a name="I"></a>[IcmpCloseHandle](libraries/iphlpapi/IcmpCloseHandle.md)  
 Closes a handle opened by a call to IcmpCreateFile.  
 
@@ -3906,7 +3906,7 @@ The IsZoomed function determines whether a window is maximized.
 
 ***  
 
-# [<img src="images/home.png">](https://github.com/VFPX/Win32API) [A ](#A)[B ](#B)[C ](#C)[D ](#D)[E ](#E)[F ](#F)[G ](#G)[H ](#H)[I ](#I)[J ](#J)[K ](#K)[L ](#L)[M ](#M)[N ](#N)[O ](#O)[P ](#P)[Q ](#Q)[R ](#R)[S ](#S)[T ](#T)[U ](#U)[V ](#V)[W ](#W)[Z ](#Z)[_ ](#_)
+# [<img src="images/home.png"> Home ](https://github.com/VFPX/Win32API)[A ](#A)[B ](#B)[C ](#C)[D ](#D)[E ](#E)[F ](#F)[G ](#G)[H ](#H)[I ](#I)[J ](#J)[K ](#K)[L ](#L)[M ](#M)[N ](#N)[O ](#O)[P ](#P)[Q ](#Q)[R ](#R)[S ](#S)[T ](#T)[U ](#U)[V ](#V)[W ](#W)[Z ](#Z)[_ ](#_)
 <a name="J"></a>[JetAddColumn](libraries/esent/JetAddColumn.md)  
 Adds a new column to an existing table in an ESE database.  
 
@@ -4030,14 +4030,14 @@ Performs an update operation including inserting a new row into a table or updat
 
 ***  
 
-# [<img src="images/home.png">](https://github.com/VFPX/Win32API) [A ](#A)[B ](#B)[C ](#C)[D ](#D)[E ](#E)[F ](#F)[G ](#G)[H ](#H)[I ](#I)[J ](#J)[K ](#K)[L ](#L)[M ](#M)[N ](#N)[O ](#O)[P ](#P)[Q ](#Q)[R ](#R)[S ](#S)[T ](#T)[U ](#U)[V ](#V)[W ](#W)[Z ](#Z)[_ ](#_)
+# [<img src="images/home.png"> Home ](https://github.com/VFPX/Win32API)[A ](#A)[B ](#B)[C ](#C)[D ](#D)[E ](#E)[F ](#F)[G ](#G)[H ](#H)[I ](#I)[J ](#J)[K ](#K)[L ](#L)[M ](#M)[N ](#N)[O ](#O)[P ](#P)[Q ](#Q)[R ](#R)[S ](#S)[T ](#T)[U ](#U)[V ](#V)[W ](#W)[Z ](#Z)[_ ](#_)
 <a name="K"></a>[keybd_event](libraries/user32/keybd_event.md)  
 Synthesizes a keystroke. 
   
 
 ***  
 
-# [<img src="images/home.png">](https://github.com/VFPX/Win32API) [A ](#A)[B ](#B)[C ](#C)[D ](#D)[E ](#E)[F ](#F)[G ](#G)[H ](#H)[I ](#I)[J ](#J)[K ](#K)[L ](#L)[M ](#M)[N ](#N)[O ](#O)[P ](#P)[Q ](#Q)[R ](#R)[S ](#S)[T ](#T)[U ](#U)[V ](#V)[W ](#W)[Z ](#Z)[_ ](#_)
+# [<img src="images/home.png"> Home ](https://github.com/VFPX/Win32API)[A ](#A)[B ](#B)[C ](#C)[D ](#D)[E ](#E)[F ](#F)[G ](#G)[H ](#H)[I ](#I)[J ](#J)[K ](#K)[L ](#L)[M ](#M)[N ](#N)[O ](#O)[P ](#P)[Q ](#Q)[R ](#R)[S ](#S)[T ](#T)[U ](#U)[V ](#V)[W ](#W)[Z ](#Z)[_ ](#_)
 <a name="L"></a>[LCIDToLocaleName](libraries/kernel32/LCIDToLocaleName.md)  
 Converts a locale identifier to a locale name.  
 
@@ -4215,7 +4215,7 @@ The LsaOpenPolicy function opens a handle to the Policy object on a local or rem
 
 ***  
 
-# [<img src="images/home.png">](https://github.com/VFPX/Win32API) [A ](#A)[B ](#B)[C ](#C)[D ](#D)[E ](#E)[F ](#F)[G ](#G)[H ](#H)[I ](#I)[J ](#J)[K ](#K)[L ](#L)[M ](#M)[N ](#N)[O ](#O)[P ](#P)[Q ](#Q)[R ](#R)[S ](#S)[T ](#T)[U ](#U)[V ](#V)[W ](#W)[Z ](#Z)[_ ](#_)
+# [<img src="images/home.png"> Home ](https://github.com/VFPX/Win32API)[A ](#A)[B ](#B)[C ](#C)[D ](#D)[E ](#E)[F ](#F)[G ](#G)[H ](#H)[I ](#I)[J ](#J)[K ](#K)[L ](#L)[M ](#M)[N ](#N)[O ](#O)[P ](#P)[Q ](#Q)[R ](#R)[S ](#S)[T ](#T)[U ](#U)[V ](#V)[W ](#W)[Z ](#Z)[_ ](#_)
 <a name="M"></a>[MAPIAddress](libraries/mapi32/MAPIAddress.md)  
 The MAPIAddress function creates or modifies a set of address list entries.  
 
@@ -4489,7 +4489,7 @@ The MultiByteToWideChar function maps a character string to a wide-character (Un
 
 ***  
 
-# [<img src="images/home.png">](https://github.com/VFPX/Win32API) [A ](#A)[B ](#B)[C ](#C)[D ](#D)[E ](#E)[F ](#F)[G ](#G)[H ](#H)[I ](#I)[J ](#J)[K ](#K)[L ](#L)[M ](#M)[N ](#N)[O ](#O)[P ](#P)[Q ](#Q)[R ](#R)[S ](#S)[T ](#T)[U ](#U)[V ](#V)[W ](#W)[Z ](#Z)[_ ](#_)
+# [<img src="images/home.png"> Home ](https://github.com/VFPX/Win32API)[A ](#A)[B ](#B)[C ](#C)[D ](#D)[E ](#E)[F ](#F)[G ](#G)[H ](#H)[I ](#I)[J ](#J)[K ](#K)[L ](#L)[M ](#M)[N ](#N)[O ](#O)[P ](#P)[Q ](#Q)[R ](#R)[S ](#S)[T ](#T)[U ](#U)[V ](#V)[W ](#W)[Z ](#Z)[_ ](#_)
 <a name="N"></a>[NetApiBufferFree](libraries/netapi32/NetApiBufferFree.md)  
 Frees the memory that the NetApiBufferAllocate function allocates. Call NetApiBufferFree to free the memory that other network management functions return on Windows NT, Windows 2000, and Windows XP.  
 
@@ -4700,7 +4700,7 @@ The ntohs function converts a u_short from TCP/IP network byte order to host byt
 
 ***  
 
-# [<img src="images/home.png">](https://github.com/VFPX/Win32API) [A ](#A)[B ](#B)[C ](#C)[D ](#D)[E ](#E)[F ](#F)[G ](#G)[H ](#H)[I ](#I)[J ](#J)[K ](#K)[L ](#L)[M ](#M)[N ](#N)[O ](#O)[P ](#P)[Q ](#Q)[R ](#R)[S ](#S)[T ](#T)[U ](#U)[V ](#V)[W ](#W)[Z ](#Z)[_ ](#_)
+# [<img src="images/home.png"> Home ](https://github.com/VFPX/Win32API)[A ](#A)[B ](#B)[C ](#C)[D ](#D)[E ](#E)[F ](#F)[G ](#G)[H ](#H)[I ](#I)[J ](#J)[K ](#K)[L ](#L)[M ](#M)[N ](#N)[O ](#O)[P ](#P)[Q ](#Q)[R ](#R)[S ](#S)[T ](#T)[U ](#U)[V ](#V)[W ](#W)[Z ](#Z)[_ ](#_)
 <a name="O"></a>[ObtainUserAgentString](libraries/urlmon/ObtainUserAgentString.md)  
 Retrieves the user agent string in use.  
 
@@ -4785,7 +4785,7 @@ Opens an existing named waitable timer object.
 
 ***  
 
-# [<img src="images/home.png">](https://github.com/VFPX/Win32API) [A ](#A)[B ](#B)[C ](#C)[D ](#D)[E ](#E)[F ](#F)[G ](#G)[H ](#H)[I ](#I)[J ](#J)[K ](#K)[L ](#L)[M ](#M)[N ](#N)[O ](#O)[P ](#P)[Q ](#Q)[R ](#R)[S ](#S)[T ](#T)[U ](#U)[V ](#V)[W ](#W)[Z ](#Z)[_ ](#_)
+# [<img src="images/home.png"> Home ](https://github.com/VFPX/Win32API)[A ](#A)[B ](#B)[C ](#C)[D ](#D)[E ](#E)[F ](#F)[G ](#G)[H ](#H)[I ](#I)[J ](#J)[K ](#K)[L ](#L)[M ](#M)[N ](#N)[O ](#O)[P ](#P)[Q ](#Q)[R ](#R)[S ](#S)[T ](#T)[U ](#U)[V ](#V)[W ](#W)[Z ](#Z)[_ ](#_)
 <a name="P"></a>[PageSetupDlg](libraries/comdlg32/PageSetupDlg.md)  
 The PageSetupDlg function creates a Page Setup dialog box that enables the user to specify the attributes of a printed page.  
 
@@ -4948,7 +4948,7 @@ Retrieves information about the next process recorded in a system snapshot.
 
 ***  
 
-# [<img src="images/home.png">](https://github.com/VFPX/Win32API) [A ](#A)[B ](#B)[C ](#C)[D ](#D)[E ](#E)[F ](#F)[G ](#G)[H ](#H)[I ](#I)[J ](#J)[K ](#K)[L ](#L)[M ](#M)[N ](#N)[O ](#O)[P ](#P)[Q ](#Q)[R ](#R)[S ](#S)[T ](#T)[U ](#U)[V ](#V)[W ](#W)[Z ](#Z)[_ ](#_)
+# [<img src="images/home.png"> Home ](https://github.com/VFPX/Win32API)[A ](#A)[B ](#B)[C ](#C)[D ](#D)[E ](#E)[F ](#F)[G ](#G)[H ](#H)[I ](#I)[J ](#J)[K ](#K)[L ](#L)[M ](#M)[N ](#N)[O ](#O)[P ](#P)[Q ](#Q)[R ](#R)[S ](#S)[T ](#T)[U ](#U)[V ](#V)[W ](#W)[Z ](#Z)[_ ](#_)
 <a name="Q"></a>[QueryDosDevice](libraries/kernel32/QueryDosDevice.md)  
 Retrieves information about MS-DOS device names.  
 
@@ -4964,7 +4964,7 @@ The QueryPerformanceFrequency function retrieves the frequency of the high-resol
 
 ***  
 
-# [<img src="images/home.png">](https://github.com/VFPX/Win32API) [A ](#A)[B ](#B)[C ](#C)[D ](#D)[E ](#E)[F ](#F)[G ](#G)[H ](#H)[I ](#I)[J ](#J)[K ](#K)[L ](#L)[M ](#M)[N ](#N)[O ](#O)[P ](#P)[Q ](#Q)[R ](#R)[S ](#S)[T ](#T)[U ](#U)[V ](#V)[W ](#W)[Z ](#Z)[_ ](#_)
+# [<img src="images/home.png"> Home ](https://github.com/VFPX/Win32API)[A ](#A)[B ](#B)[C ](#C)[D ](#D)[E ](#E)[F ](#F)[G ](#G)[H ](#H)[I ](#I)[J ](#J)[K ](#K)[L ](#L)[M ](#M)[N ](#N)[O ](#O)[P ](#P)[Q ](#Q)[R ](#R)[S ](#S)[T ](#T)[U ](#U)[V ](#V)[W ](#W)[Z ](#Z)[_ ](#_)
 <a name="R"></a>[RasEnumAutodialAddresses](libraries/rasapi32/RasEnumAutodialAddresses.md)  
 The RasEnumAutodialAddresses function returns a list of all addresses in the AutoDial mapping database.  
 
@@ -5215,7 +5215,7 @@ This function is used to determine the correct size of the WorkSpace buffer for 
 
 ***  
 
-# [<img src="images/home.png">](https://github.com/VFPX/Win32API) [A ](#A)[B ](#B)[C ](#C)[D ](#D)[E ](#E)[F ](#F)[G ](#G)[H ](#H)[I ](#I)[J ](#J)[K ](#K)[L ](#L)[M ](#M)[N ](#N)[O ](#O)[P ](#P)[Q ](#Q)[R ](#R)[S ](#S)[T ](#T)[U ](#U)[V ](#V)[W ](#W)[Z ](#Z)[_ ](#_)
+# [<img src="images/home.png"> Home ](https://github.com/VFPX/Win32API)[A ](#A)[B ](#B)[C ](#C)[D ](#D)[E ](#E)[F ](#F)[G ](#G)[H ](#H)[I ](#I)[J ](#J)[K ](#K)[L ](#L)[M ](#M)[N ](#N)[O ](#O)[P ](#P)[Q ](#Q)[R ](#R)[S ](#S)[T ](#T)[U ](#U)[V ](#V)[W ](#W)[Z ](#Z)[_ ](#_)
 <a name="S"></a>[SCardConnect](libraries/winscard/SCardConnect.md)  
 Establishes a connection (using a specific resource manager context) between the calling application and a smart card contained by a specific reader.
   
@@ -6082,7 +6082,7 @@ The SystemTimeToFileTime function converts a system time to a file time.
 
 ***  
 
-# [<img src="images/home.png">](https://github.com/VFPX/Win32API) [A ](#A)[B ](#B)[C ](#C)[D ](#D)[E ](#E)[F ](#F)[G ](#G)[H ](#H)[I ](#I)[J ](#J)[K ](#K)[L ](#L)[M ](#M)[N ](#N)[O ](#O)[P ](#P)[Q ](#Q)[R ](#R)[S ](#S)[T ](#T)[U ](#U)[V ](#V)[W ](#W)[Z ](#Z)[_ ](#_)
+# [<img src="images/home.png"> Home ](https://github.com/VFPX/Win32API)[A ](#A)[B ](#B)[C ](#C)[D ](#D)[E ](#E)[F ](#F)[G ](#G)[H ](#H)[I ](#I)[J ](#J)[K ](#K)[L ](#L)[M ](#M)[N ](#N)[O ](#O)[P ](#P)[Q ](#Q)[R ](#R)[S ](#S)[T ](#T)[U ](#U)[V ](#V)[W ](#W)[Z ](#Z)[_ ](#_)
 <a name="T"></a>[TaskDialog](libraries/comctl32/TaskDialog.md)  
 Creates, displays, and operates a task dialog.  
 
@@ -6125,7 +6125,7 @@ The TrackPopupMenuEx function displays a shortcut menu at the specified location
 
 ***  
 
-# [<img src="images/home.png">](https://github.com/VFPX/Win32API) [A ](#A)[B ](#B)[C ](#C)[D ](#D)[E ](#E)[F ](#F)[G ](#G)[H ](#H)[I ](#I)[J ](#J)[K ](#K)[L ](#L)[M ](#M)[N ](#N)[O ](#O)[P ](#P)[Q ](#Q)[R ](#R)[S ](#S)[T ](#T)[U ](#U)[V ](#V)[W ](#W)[Z ](#Z)[_ ](#_)
+# [<img src="images/home.png"> Home ](https://github.com/VFPX/Win32API)[A ](#A)[B ](#B)[C ](#C)[D ](#D)[E ](#E)[F ](#F)[G ](#G)[H ](#H)[I ](#I)[J ](#J)[K ](#K)[L ](#L)[M ](#M)[N ](#N)[O ](#O)[P ](#P)[Q ](#Q)[R ](#R)[S ](#S)[T ](#T)[U ](#U)[V ](#V)[W ](#W)[Z ](#Z)[_ ](#_)
 <a name="U"></a>[UnhookWindowsHookEx](libraries/user32/UnhookWindowsHookEx.md)  
 Removes a hook procedure installed in a hook chain by the SetWindowsHookEx function.   
 
@@ -6232,7 +6232,7 @@ Converts a UUID to a string.
 
 ***  
 
-# [<img src="images/home.png">](https://github.com/VFPX/Win32API) [A ](#A)[B ](#B)[C ](#C)[D ](#D)[E ](#E)[F ](#F)[G ](#G)[H ](#H)[I ](#I)[J ](#J)[K ](#K)[L ](#L)[M ](#M)[N ](#N)[O ](#O)[P ](#P)[Q ](#Q)[R ](#R)[S ](#S)[T ](#T)[U ](#U)[V ](#V)[W ](#W)[Z ](#Z)[_ ](#_)
+# [<img src="images/home.png"> Home ](https://github.com/VFPX/Win32API)[A ](#A)[B ](#B)[C ](#C)[D ](#D)[E ](#E)[F ](#F)[G ](#G)[H ](#H)[I ](#I)[J ](#J)[K ](#K)[L ](#L)[M ](#M)[N ](#N)[O ](#O)[P ](#P)[Q ](#Q)[R ](#R)[S ](#S)[T ](#T)[U ](#U)[V ](#V)[W ](#W)[Z ](#Z)[_ ](#_)
 <a name="V"></a>[VirtualAllocEx](libraries/kernel32/VirtualAllocEx.md)  
 Reserves or commits a region of memory within the virtual address space of a specified process.  
 
@@ -6248,7 +6248,7 @@ Translates a character to the corresponding virtual-key code and shift state for
 
 ***  
 
-# [<img src="images/home.png">](https://github.com/VFPX/Win32API) [A ](#A)[B ](#B)[C ](#C)[D ](#D)[E ](#E)[F ](#F)[G ](#G)[H ](#H)[I ](#I)[J ](#J)[K ](#K)[L ](#L)[M ](#M)[N ](#N)[O ](#O)[P ](#P)[Q ](#Q)[R ](#R)[S ](#S)[T ](#T)[U ](#U)[V ](#V)[W ](#W)[Z ](#Z)[_ ](#_)
+# [<img src="images/home.png"> Home ](https://github.com/VFPX/Win32API)[A ](#A)[B ](#B)[C ](#C)[D ](#D)[E ](#E)[F ](#F)[G ](#G)[H ](#H)[I ](#I)[J ](#J)[K ](#K)[L ](#L)[M ](#M)[N ](#N)[O ](#O)[P ](#P)[Q ](#Q)[R ](#R)[S ](#S)[T ](#T)[U ](#U)[V ](#V)[W ](#W)[Z ](#Z)[_ ](#_)
 <a name="W"></a>[WaitForSingleObject](libraries/kernel32/WaitForSingleObject.md)  
 The WaitForSingleObject function returns when the specified object is in the signaled state or when the time-out interval elapses  
 
@@ -6697,13 +6697,13 @@ Unregisters the specified window so that it receives no further session change n
 
 ***  
 
-# [<img src="images/home.png">](https://github.com/VFPX/Win32API) [A ](#A)[B ](#B)[C ](#C)[D ](#D)[E ](#E)[F ](#F)[G ](#G)[H ](#H)[I ](#I)[J ](#J)[K ](#K)[L ](#L)[M ](#M)[N ](#N)[O ](#O)[P ](#P)[Q ](#Q)[R ](#R)[S ](#S)[T ](#T)[U ](#U)[V ](#V)[W ](#W)[Z ](#Z)[_ ](#_)
+# [<img src="images/home.png"> Home ](https://github.com/VFPX/Win32API)[A ](#A)[B ](#B)[C ](#C)[D ](#D)[E ](#E)[F ](#F)[G ](#G)[H ](#H)[I ](#I)[J ](#J)[K ](#K)[L ](#L)[M ](#M)[N ](#N)[O ](#O)[P ](#P)[Q ](#Q)[R ](#R)[S ](#S)[T ](#T)[U ](#U)[V ](#V)[W ](#W)[Z ](#Z)[_ ](#_)
 <a name="Z"></a>[ZeroMemory](libraries/kernel32/ZeroMemory.md)  
 Fills a block of memory with zeros.  
 
 ***  
 
-# [<img src="images/home.png">](https://github.com/VFPX/Win32API) [A ](#A)[B ](#B)[C ](#C)[D ](#D)[E ](#E)[F ](#F)[G ](#G)[H ](#H)[I ](#I)[J ](#J)[K ](#K)[L ](#L)[M ](#M)[N ](#N)[O ](#O)[P ](#P)[Q ](#Q)[R ](#R)[S ](#S)[T ](#T)[U ](#U)[V ](#V)[W ](#W)[Z ](#Z)[_ ](#_)
+# [<img src="images/home.png"> Home ](https://github.com/VFPX/Win32API)[A ](#A)[B ](#B)[C ](#C)[D ](#D)[E ](#E)[F ](#F)[G ](#G)[H ](#H)[I ](#I)[J ](#J)[K ](#K)[L ](#L)[M ](#M)[N ](#N)[O ](#O)[P ](#P)[Q ](#Q)[R ](#R)[S ](#S)[T ](#T)[U ](#U)[V ](#V)[W ](#W)[Z ](#Z)[_ ](#_)
 <a name="_"></a>[_lclose](libraries/kernel32/_lclose.md)  
 Closes the specified file so that it is no longer available for reading or writing.  
 
@@ -6714,4 +6714,4 @@ Opens an existing file and sets the file pointer to the beginning of the file.
 
 ***  
 
-# [<img src="images/home.png">](https://github.com/VFPX/Win32API) [A ](#A)[B ](#B)[C ](#C)[D ](#D)[E ](#E)[F ](#F)[G ](#G)[H ](#H)[I ](#I)[J ](#J)[K ](#K)[L ](#L)[M ](#M)[N ](#N)[O ](#O)[P ](#P)[Q ](#Q)[R ](#R)[S ](#S)[T ](#T)[U ](#U)[V ](#V)[W ](#W)[Z ](#Z)[_ ](#_)
+# [<img src="images/home.png"> Home ](https://github.com/VFPX/Win32API)[A ](#A)[B ](#B)[C ](#C)[D ](#D)[E ](#E)[F ](#F)[G ](#G)[H ](#H)[I ](#I)[J ](#J)[K ](#K)[L ](#L)[M ](#M)[N ](#N)[O ](#O)[P ](#P)[Q ](#Q)[R ](#R)[S ](#S)[T ](#T)[U ](#U)[V ](#V)[W ](#W)[Z ](#Z)[_ ](#_)
