@@ -2,7 +2,7 @@
 
 # List of samples in alphabetical order
 
-# [A ](#A)[B ](#B)[C ](#C)[D ](#D)[E ](#E)[F ](#F)[G ](#G)[H ](#H)[I ](#I)[J ](#J)[L ](#L)[M ](#M)[N ](#N)[O ](#O)[P ](#P)[Q ](#Q)[R ](#R)[S ](#S)[T ](#T)[U ](#U)[V ](#V)[W ](#W)[Y ](#Y)
+## [A ](#A)[B ](#B)[C ](#C)[D ](#D)[E ](#E)[F ](#F)[G ](#G)[H ](#H)[I ](#I)[J ](#J)[L ](#L)[M ](#M)[N ](#N)[O ](#O)[P ](#P)[Q ](#Q)[R ](#R)[S ](#S)[T ](#T)[U ](#U)[V ](#V)[W ](#W)[Y ](#Y)
 <a name="A"></a>
 ## [A class that encrypts and decrypts files using Cryptography API Functions](samples/sample_511.md)
 This simple class uses several Cryptography API Functions to implement password-protected encryption and decryption of files.  
@@ -49,7 +49,7 @@ User-defined items can be added to the Control Menu of any VFP form. In VFP9 it 
 
 ## [Attaching menu to a top-level form](samples/sample_208.md)
 
-# [<img src="images/home.png"> Home ](https://github.com/VFPX/Win32API)[A ](#A)[B ](#B)[C ](#C)[D ](#D)[E ](#E)[F ](#F)[G ](#G)[H ](#H)[I ](#I)[J ](#J)[L ](#L)[M ](#M)[N ](#N)[O ](#O)[P ](#P)[Q ](#Q)[R ](#R)[S ](#S)[T ](#T)[U ](#U)[V ](#V)[W ](#W)[Y ](#Y)
+## [<img src="images/home.png"> Home ](https://github.com/VFPX/Win32API)[A ](#A)[B ](#B)[C ](#C)[D ](#D)[E ](#E)[F ](#F)[G ](#G)[H ](#H)[I ](#I)[J ](#J)[L ](#L)[M ](#M)[N ](#N)[O ](#O)[P ](#P)[Q ](#Q)[R ](#R)[S ](#S)[T ](#T)[U ](#U)[V ](#V)[W ](#W)[Y ](#Y)
 <a name="B"></a>
 ## [Basic Volume information](samples/sample_098.md)
 
@@ -59,7 +59,7 @@ User-defined items can be added to the Control Menu of any VFP form. In VFP9 it 
 
 ## [Building a tree of subdirectories for a given path using FindFile functions](samples/sample_236.md)
 
-# [<img src="images/home.png"> Home ](https://github.com/VFPX/Win32API)[A ](#A)[B ](#B)[C ](#C)[D ](#D)[E ](#E)[F ](#F)[G ](#G)[H ](#H)[I ](#I)[J ](#J)[L ](#L)[M ](#M)[N ](#N)[O ](#O)[P ](#P)[Q ](#Q)[R ](#R)[S ](#S)[T ](#T)[U ](#U)[V ](#V)[W ](#W)[Y ](#Y)
+## [<img src="images/home.png"> Home ](https://github.com/VFPX/Win32API)[A ](#A)[B ](#B)[C ](#C)[D ](#D)[E ](#E)[F ](#F)[G ](#G)[H ](#H)[I ](#I)[J ](#J)[L ](#L)[M ](#M)[N ](#N)[O ](#O)[P ](#P)[Q ](#Q)[R ](#R)[S ](#S)[T ](#T)[U ](#U)[V ](#V)[W ](#W)[Y ](#Y)
 <a name="C"></a>
 ## [Capturing keyboard activity of another application with the Raw Input API (VFP9)](samples/sample_572.md)
 
@@ -173,7 +173,7 @@ The CryptoAPI Providers class presents collection of cryptographic service provi
 This class is used for sending "GET" and "POST" HTTP requests to webserver and receiving responses.  
 ## [Customizing the frame of top-level form: removing the standard frame (VFP9, Vista)](samples/sample_574.md)
 
-# [<img src="images/home.png"> Home ](https://github.com/VFPX/Win32API)[A ](#A)[B ](#B)[C ](#C)[D ](#D)[E ](#E)[F ](#F)[G ](#G)[H ](#H)[I ](#I)[J ](#J)[L ](#L)[M ](#M)[N ](#N)[O ](#O)[P ](#P)[Q ](#Q)[R ](#R)[S ](#S)[T ](#T)[U ](#U)[V ](#V)[W ](#W)[Y ](#Y)
+## [<img src="images/home.png"> Home ](https://github.com/VFPX/Win32API)[A ](#A)[B ](#B)[C ](#C)[D ](#D)[E ](#E)[F ](#F)[G ](#G)[H ](#H)[I ](#I)[J ](#J)[L ](#L)[M ](#M)[N ](#N)[O ](#O)[P ](#P)[Q ](#Q)[R ](#R)[S ](#S)[T ](#T)[U ](#U)[V ](#V)[W ](#W)[Y ](#Y)
 <a name="D"></a>
 ## [Deleting files into the Recycle Bin](samples/sample_321.md)
 
@@ -251,7 +251,7 @@ Depending on its bit per pixel mode, an image file can store a color palette ins
 
 ## [Dynamic strings implemented through VFP Custom class](samples/sample_157.md)
 
-# [<img src="images/home.png"> Home ](https://github.com/VFPX/Win32API)[A ](#A)[B ](#B)[C ](#C)[D ](#D)[E ](#E)[F ](#F)[G ](#G)[H ](#H)[I ](#I)[J ](#J)[L ](#L)[M ](#M)[N ](#N)[O ](#O)[P ](#P)[Q ](#Q)[R ](#R)[S ](#S)[T ](#T)[U ](#U)[V ](#V)[W ](#W)[Y ](#Y)
+## [<img src="images/home.png"> Home ](https://github.com/VFPX/Win32API)[A ](#A)[B ](#B)[C ](#C)[D ](#D)[E ](#E)[F ](#F)[G ](#G)[H ](#H)[I ](#I)[J ](#J)[L ](#L)[M ](#M)[N ](#N)[O ](#O)[P ](#P)[Q ](#Q)[R ](#R)[S ](#S)[T ](#T)[U ](#U)[V ](#V)[W ](#W)[Y ](#Y)
 <a name="E"></a>
 ## [Encapsulating access to the Windows Services in a class](samples/sample_476.md)
 The winservices class, subclassed from the Collection class, enumerates Windows Services found in the default service control manager database on local computer. Each item in the collection is an instance of the winservice class that wraps the members of ENUM_SERVICE_STATUS structure for a given service. The winservice object exposes methods StartService, StopService and PauseService.  
@@ -320,7 +320,7 @@ The IconGroupResource and IconResource classes include SaveToFile method that sa
 
 ## [Extracting the name and extension parts of a path string](samples/sample_118.md)
 
-# [<img src="images/home.png"> Home ](https://github.com/VFPX/Win32API)[A ](#A)[B ](#B)[C ](#C)[D ](#D)[E ](#E)[F ](#F)[G ](#G)[H ](#H)[I ](#I)[J ](#J)[L ](#L)[M ](#M)[N ](#N)[O ](#O)[P ](#P)[Q ](#Q)[R ](#R)[S ](#S)[T ](#T)[U ](#U)[V ](#V)[W ](#W)[Y ](#Y)
+## [<img src="images/home.png"> Home ](https://github.com/VFPX/Win32API)[A ](#A)[B ](#B)[C ](#C)[D ](#D)[E ](#E)[F ](#F)[G ](#G)[H ](#H)[I ](#I)[J ](#J)[L ](#L)[M ](#M)[N ](#N)[O ](#O)[P ](#P)[Q ](#Q)[R ](#R)[S ](#S)[T ](#T)[U ](#U)[V ](#V)[W ](#W)[Y ](#Y)
 <a name="F"></a>
 ## [FindText -- the hopeless and useless Common Dialog](samples/sample_160.md)
 
@@ -334,7 +334,7 @@ In this code sample, the CurrentUser class wraps call to the NetUserGetInfo that
 
 ## [Form Magnifier](samples/sample_414.md)
 
-# [<img src="images/home.png"> Home ](https://github.com/VFPX/Win32API)[A ](#A)[B ](#B)[C ](#C)[D ](#D)[E ](#E)[F ](#F)[G ](#G)[H ](#H)[I ](#I)[J ](#J)[L ](#L)[M ](#M)[N ](#N)[O ](#O)[P ](#P)[Q ](#Q)[R ](#R)[S ](#S)[T ](#T)[U ](#U)[V ](#V)[W ](#W)[Y ](#Y)
+## [<img src="images/home.png"> Home ](https://github.com/VFPX/Win32API)[A ](#A)[B ](#B)[C ](#C)[D ](#D)[E ](#E)[F ](#F)[G ](#G)[H ](#H)[I ](#I)[J ](#J)[L ](#L)[M ](#M)[N ](#N)[O ](#O)[P ](#P)[Q ](#Q)[R ](#R)[S ](#S)[T ](#T)[U ](#U)[V ](#V)[W ](#W)[Y ](#Y)
 <a name="G"></a>
 ## [GDI+ fun: roach-infested desktop](samples/sample_548.md)
 
@@ -403,7 +403,7 @@ The CryptKeyHelper class defined in the code sample below is a wrapper around Wi
 
 ## [Getting a bit more than the _CLIPTEXT offers](samples/sample_278.md)
 
-# [<img src="images/home.png"> Home ](https://github.com/VFPX/Win32API)[A ](#A)[B ](#B)[C ](#C)[D ](#D)[E ](#E)[F ](#F)[G ](#G)[H ](#H)[I ](#I)[J ](#J)[L ](#L)[M ](#M)[N ](#N)[O ](#O)[P ](#P)[Q ](#Q)[R ](#R)[S ](#S)[T ](#T)[U ](#U)[V ](#V)[W ](#W)[Y ](#Y)
+## [<img src="images/home.png"> Home ](https://github.com/VFPX/Win32API)[A ](#A)[B ](#B)[C ](#C)[D ](#D)[E ](#E)[F ](#F)[G ](#G)[H ](#H)[I ](#I)[J ](#J)[L ](#L)[M ](#M)[N ](#N)[O ](#O)[P ](#P)[Q ](#Q)[R ](#R)[S ](#S)[T ](#T)[U ](#U)[V ](#V)[W ](#W)[Y ](#Y)
 <a name="H"></a>
 ## [HOWTO: Use the Win32 API to Access File Dates and Times](samples/sample_177.md)
 
@@ -625,15 +625,15 @@ This example shows how to switch to another domain user within FoxPro applicatio
 The bitmap images for the classes installed on the machine are stored in some system area. These images are more of a general kind and illustrate functionality groups rather than individual classes. With a few API calls VFP application can access these images and display them in TreeView and ListView controls as icons.  
 ## [How to write and read Window Properties for the specified window](samples/sample_205.md)
 
-# [<img src="images/home.png"> Home ](https://github.com/VFPX/Win32API)[A ](#A)[B ](#B)[C ](#C)[D ](#D)[E ](#E)[F ](#F)[G ](#G)[H ](#H)[I ](#I)[J ](#J)[L ](#L)[M ](#M)[N ](#N)[O ](#O)[P ](#P)[Q ](#Q)[R ](#R)[S ](#S)[T ](#T)[U ](#U)[V ](#V)[W ](#W)[Y ](#Y)
+## [<img src="images/home.png"> Home ](https://github.com/VFPX/Win32API)[A ](#A)[B ](#B)[C ](#C)[D ](#D)[E ](#E)[F ](#F)[G ](#G)[H ](#H)[I ](#I)[J ](#J)[L ](#L)[M ](#M)[N ](#N)[O ](#O)[P ](#P)[Q ](#Q)[R ](#R)[S ](#S)[T ](#T)[U ](#U)[V ](#V)[W ](#W)[Y ](#Y)
 <a name="I"></a>
 ## [Initiating Inet connection using a modem](samples/sample_312.md)
 
-# [<img src="images/home.png"> Home ](https://github.com/VFPX/Win32API)[A ](#A)[B ](#B)[C ](#C)[D ](#D)[E ](#E)[F ](#F)[G ](#G)[H ](#H)[I ](#I)[J ](#J)[L ](#L)[M ](#M)[N ](#N)[O ](#O)[P ](#P)[Q ](#Q)[R ](#R)[S ](#S)[T ](#T)[U ](#U)[V ](#V)[W ](#W)[Y ](#Y)
+## [<img src="images/home.png"> Home ](https://github.com/VFPX/Win32API)[A ](#A)[B ](#B)[C ](#C)[D ](#D)[E ](#E)[F ](#F)[G ](#G)[H ](#H)[I ](#I)[J ](#J)[L ](#L)[M ](#M)[N ](#N)[O ](#O)[P ](#P)[Q ](#Q)[R ](#R)[S ](#S)[T ](#T)[U ](#U)[V ](#V)[W ](#W)[Y ](#Y)
 <a name="J"></a>
 ## [Joining local computer to a domain (XP/2000)](samples/sample_439.md)
 
-# [<img src="images/home.png"> Home ](https://github.com/VFPX/Win32API)[A ](#A)[B ](#B)[C ](#C)[D ](#D)[E ](#E)[F ](#F)[G ](#G)[H ](#H)[I ](#I)[J ](#J)[L ](#L)[M ](#M)[N ](#N)[O ](#O)[P ](#P)[Q ](#Q)[R ](#R)[S ](#S)[T ](#T)[U ](#U)[V ](#V)[W ](#W)[Y ](#Y)
+## [<img src="images/home.png"> Home ](https://github.com/VFPX/Win32API)[A ](#A)[B ](#B)[C ](#C)[D ](#D)[E ](#E)[F ](#F)[G ](#G)[H ](#H)[I ](#I)[J ](#J)[L ](#L)[M ](#M)[N ](#N)[O ](#O)[P ](#P)[Q ](#Q)[R ](#R)[S ](#S)[T ](#T)[U ](#U)[V ](#V)[W ](#W)[Y ](#Y)
 <a name="L"></a>
 ## [List of ODBC drivers installed (read from the [ODBC Drivers] section)](samples/sample_378.md)
 
@@ -653,7 +653,7 @@ The bitmap images for the classes installed on the machine are stored in some sy
 
 ## [Locking the workstation](samples/sample_300.md)
 
-# [<img src="images/home.png"> Home ](https://github.com/VFPX/Win32API)[A ](#A)[B ](#B)[C ](#C)[D ](#D)[E ](#E)[F ](#F)[G ](#G)[H ](#H)[I ](#I)[J ](#J)[L ](#L)[M ](#M)[N ](#N)[O ](#O)[P ](#P)[Q ](#Q)[R ](#R)[S ](#S)[T ](#T)[U ](#U)[V ](#V)[W ](#W)[Y ](#Y)
+## [<img src="images/home.png"> Home ](https://github.com/VFPX/Win32API)[A ](#A)[B ](#B)[C ](#C)[D ](#D)[E ](#E)[F ](#F)[G ](#G)[H ](#H)[I ](#I)[J ](#J)[L ](#L)[M ](#M)[N ](#N)[O ](#O)[P ](#P)[Q ](#Q)[R ](#R)[S ](#S)[T ](#T)[U ](#U)[V ](#V)[W ](#W)[Y ](#Y)
 <a name="M"></a>
 ## [MSMQ: how to open a queue](samples/sample_603.md)
 
@@ -675,11 +675,11 @@ The bitmap images for the classes installed on the machine are stored in some sy
 
 ## [Moving shortcut to a specified position on the Windows Desktop](samples/sample_581.md)
 
-# [<img src="images/home.png"> Home ](https://github.com/VFPX/Win32API)[A ](#A)[B ](#B)[C ](#C)[D ](#D)[E ](#E)[F ](#F)[G ](#G)[H ](#H)[I ](#I)[J ](#J)[L ](#L)[M ](#M)[N ](#N)[O ](#O)[P ](#P)[Q ](#Q)[R ](#R)[S ](#S)[T ](#T)[U ](#U)[V ](#V)[W ](#W)[Y ](#Y)
+## [<img src="images/home.png"> Home ](https://github.com/VFPX/Win32API)[A ](#A)[B ](#B)[C ](#C)[D ](#D)[E ](#E)[F ](#F)[G ](#G)[H ](#H)[I ](#I)[J ](#J)[L ](#L)[M ](#M)[N ](#N)[O ](#O)[P ](#P)[Q ](#Q)[R ](#R)[S ](#S)[T ](#T)[U ](#U)[V ](#V)[W ](#W)[Y ](#Y)
 <a name="N"></a>
 ## [Number of clipboard formats available](samples/sample_031.md)
 
-# [<img src="images/home.png"> Home ](https://github.com/VFPX/Win32API)[A ](#A)[B ](#B)[C ](#C)[D ](#D)[E ](#E)[F ](#F)[G ](#G)[H ](#H)[I ](#I)[J ](#J)[L ](#L)[M ](#M)[N ](#N)[O ](#O)[P ](#P)[Q ](#Q)[R ](#R)[S ](#S)[T ](#T)[U ](#U)[V ](#V)[W ](#W)[Y ](#Y)
+## [<img src="images/home.png"> Home ](https://github.com/VFPX/Win32API)[A ](#A)[B ](#B)[C ](#C)[D ](#D)[E ](#E)[F ](#F)[G ](#G)[H ](#H)[I ](#I)[J ](#J)[L ](#L)[M ](#M)[N ](#N)[O ](#O)[P ](#P)[Q ](#Q)[R ](#R)[S ](#S)[T ](#T)[U ](#U)[V ](#V)[W ](#W)[Y ](#Y)
 <a name="O"></a>
 ## [OS version and revision](samples/sample_022.md)
 
@@ -727,7 +727,7 @@ The code shows how to obtain number of cylinders, tracks, sectors and clusters f
 
 ## [Opening the Page Setup dialog box to specify the attributes of a printed page](samples/sample_272.md)
 
-# [<img src="images/home.png"> Home ](https://github.com/VFPX/Win32API)[A ](#A)[B ](#B)[C ](#C)[D ](#D)[E ](#E)[F ](#F)[G ](#G)[H ](#H)[I ](#I)[J ](#J)[L ](#L)[M ](#M)[N ](#N)[O ](#O)[P ](#P)[Q ](#Q)[R ](#R)[S ](#S)[T ](#T)[U ](#U)[V ](#V)[W ](#W)[Y ](#Y)
+## [<img src="images/home.png"> Home ](https://github.com/VFPX/Win32API)[A ](#A)[B ](#B)[C ](#C)[D ](#D)[E ](#E)[F ](#F)[G ](#G)[H ](#H)[I ](#I)[J ](#J)[L ](#L)[M ](#M)[N ](#N)[O ](#O)[P ](#P)[Q ](#Q)[R ](#R)[S ](#S)[T ](#T)[U ](#U)[V ](#V)[W ](#W)[Y ](#Y)
 <a name="P"></a>
 ## [Passing data records between VFP applications via the Clipboard](samples/sample_346.md)
 
@@ -769,7 +769,7 @@ The class calls CeCreateProcess RAPI function to create new process on PocketPC 
 
 ## [Programmatically removing submenus from VFP main menu](samples/sample_258.md)
 
-# [<img src="images/home.png"> Home ](https://github.com/VFPX/Win32API)[A ](#A)[B ](#B)[C ](#C)[D ](#D)[E ](#E)[F ](#F)[G ](#G)[H ](#H)[I ](#I)[J ](#J)[L ](#L)[M ](#M)[N ](#N)[O ](#O)[P ](#P)[Q ](#Q)[R ](#R)[S ](#S)[T ](#T)[U ](#U)[V ](#V)[W ](#W)[Y ](#Y)
+## [<img src="images/home.png"> Home ](https://github.com/VFPX/Win32API)[A ](#A)[B ](#B)[C ](#C)[D ](#D)[E ](#E)[F ](#F)[G ](#G)[H ](#H)[I ](#I)[J ](#J)[L ](#L)[M ](#M)[N ](#N)[O ](#O)[P ](#P)[Q ](#Q)[R ](#R)[S ](#S)[T ](#T)[U ](#U)[V ](#V)[W ](#W)[Y ](#Y)
 <a name="Q"></a>
 ## [Quering Audio Mixer Device](samples/sample_423.md)
 
@@ -777,7 +777,7 @@ The class calls CeCreateProcess RAPI function to create new process on PocketPC 
 
 ## [Quering waveform-audio output devices](samples/sample_393.md)
 
-# [<img src="images/home.png"> Home ](https://github.com/VFPX/Win32API)[A ](#A)[B ](#B)[C ](#C)[D ](#D)[E ](#E)[F ](#F)[G ](#G)[H ](#H)[I ](#I)[J ](#J)[L ](#L)[M ](#M)[N ](#N)[O ](#O)[P ](#P)[Q ](#Q)[R ](#R)[S ](#S)[T ](#T)[U ](#U)[V ](#V)[W ](#W)[Y ](#Y)
+## [<img src="images/home.png"> Home ](https://github.com/VFPX/Win32API)[A ](#A)[B ](#B)[C ](#C)[D ](#D)[E ](#E)[F ](#F)[G ](#G)[H ](#H)[I ](#I)[J ](#J)[L ](#L)[M ](#M)[N ](#N)[O ](#O)[P ](#P)[Q ](#Q)[R ](#R)[S ](#S)[T ](#T)[U ](#U)[V ](#V)[W ](#W)[Y ](#Y)
 <a name="R"></a>
 ## [Reading Internet Query options](samples/sample_060.md)
 
@@ -931,7 +931,7 @@ This code sample retrieves the name of default printer on local computer and obt
 The msdos class allows issuing a set of MSDOS commands and getting back a response as a string. The MSDOS window is present but not visible. The code creates a child process running an msdos session and redirects its standard input and output handles to anonymous pipes.  
 ## [Running a regular FoxPro form while main VFP window is minimized](samples/sample_246.md)
 
-# [<img src="images/home.png"> Home ](https://github.com/VFPX/Win32API)[A ](#A)[B ](#B)[C ](#C)[D ](#D)[E ](#E)[F ](#F)[G ](#G)[H ](#H)[I ](#I)[J ](#J)[L ](#L)[M ](#M)[N ](#N)[O ](#O)[P ](#P)[Q ](#Q)[R ](#R)[S ](#S)[T ](#T)[U ](#U)[V ](#V)[W ](#W)[Y ](#Y)
+## [<img src="images/home.png"> Home ](https://github.com/VFPX/Win32API)[A ](#A)[B ](#B)[C ](#C)[D ](#D)[E ](#E)[F ](#F)[G ](#G)[H ](#H)[I ](#I)[J ](#J)[L ](#L)[M ](#M)[N ](#N)[O ](#O)[P ](#P)[Q ](#Q)[R ](#R)[S ](#S)[T ](#T)[U ](#U)[V ](#V)[W ](#W)[Y ](#Y)
 <a name="S"></a>
 ## [Saving available locale records into a cursor](samples/sample_076.md)
 
@@ -1017,7 +1017,7 @@ You know about "Other Files" section inside the Project Manager. I think, that w
 
 ## [System and Local Time values](samples/sample_064.md)
 
-# [<img src="images/home.png"> Home ](https://github.com/VFPX/Win32API)[A ](#A)[B ](#B)[C ](#C)[D ](#D)[E ](#E)[F ](#F)[G ](#G)[H ](#H)[I ](#I)[J ](#J)[L ](#L)[M ](#M)[N ](#N)[O ](#O)[P ](#P)[Q ](#Q)[R ](#R)[S ](#S)[T ](#T)[U ](#U)[V ](#V)[W ](#W)[Y ](#Y)
+## [<img src="images/home.png"> Home ](https://github.com/VFPX/Win32API)[A ](#A)[B ](#B)[C ](#C)[D ](#D)[E ](#E)[F ](#F)[G ](#G)[H ](#H)[I ](#I)[J ](#J)[L ](#L)[M ](#M)[N ](#N)[O ](#O)[P ](#P)[Q ](#Q)[R ](#R)[S ](#S)[T ](#T)[U ](#U)[V ](#V)[W ](#W)[Y ](#Y)
 <a name="T"></a>
 ## [Terminating VFP application using the FatalAppExit](samples/sample_229.md)
 
@@ -1048,7 +1048,7 @@ In Windows all input/output ports are presented as files, so work with ports is 
 
 ## [Transparent Menu Class (requires VFP9)](samples/sample_496.md)
 The SetLayeredWindowAttributes function sets the opacity and transparency color key of a layered window. All menu popups are layered windows, so this technique can be applied to them.  
-# [<img src="images/home.png"> Home ](https://github.com/VFPX/Win32API)[A ](#A)[B ](#B)[C ](#C)[D ](#D)[E ](#E)[F ](#F)[G ](#G)[H ](#H)[I ](#I)[J ](#J)[L ](#L)[M ](#M)[N ](#N)[O ](#O)[P ](#P)[Q ](#Q)[R ](#R)[S ](#S)[T ](#T)[U ](#U)[V ](#V)[W ](#W)[Y ](#Y)
+## [<img src="images/home.png"> Home ](https://github.com/VFPX/Win32API)[A ](#A)[B ](#B)[C ](#C)[D ](#D)[E ](#E)[F ](#F)[G ](#G)[H ](#H)[I ](#I)[J ](#J)[L ](#L)[M ](#M)[N ](#N)[O ](#O)[P ](#P)[Q ](#Q)[R ](#R)[S ](#S)[T ](#T)[U ](#U)[V ](#V)[W ](#W)[Y ](#Y)
 <a name="U"></a>
 ## [URL: converting unsafe characters and spaces into escape sequences](samples/sample_183.md)
 
@@ -1170,7 +1170,7 @@ The code sample explains how to broadcast system alerts using the NetMessageBuff
 
 ## [Using vendor-neutral SQL constructs](samples/sample_287.md)
 
-# [<img src="images/home.png"> Home ](https://github.com/VFPX/Win32API)[A ](#A)[B ](#B)[C ](#C)[D ](#D)[E ](#E)[F ](#F)[G ](#G)[H ](#H)[I ](#I)[J ](#J)[L ](#L)[M ](#M)[N ](#N)[O ](#O)[P ](#P)[Q ](#Q)[R ](#R)[S ](#S)[T ](#T)[U ](#U)[V ](#V)[W ](#W)[Y ](#Y)
+## [<img src="images/home.png"> Home ](https://github.com/VFPX/Win32API)[A ](#A)[B ](#B)[C ](#C)[D ](#D)[E ](#E)[F ](#F)[G ](#G)[H ](#H)[I ](#I)[J ](#J)[L ](#L)[M ](#M)[N ](#N)[O ](#O)[P ](#P)[Q ](#Q)[R ](#R)[S ](#S)[T ](#T)[U ](#U)[V ](#V)[W ](#W)[Y ](#Y)
 <a name="V"></a>
 ## [Validating URLs using moniker functions](samples/sample_194.md)
 
@@ -1180,7 +1180,7 @@ The code sample explains how to broadcast system alerts using the NetMessageBuff
 
 ## [Vertical Label control](samples/sample_398.md)
 
-# [<img src="images/home.png"> Home ](https://github.com/VFPX/Win32API)[A ](#A)[B ](#B)[C ](#C)[D ](#D)[E ](#E)[F ](#F)[G ](#G)[H ](#H)[I ](#I)[J ](#J)[L ](#L)[M ](#M)[N ](#N)[O ](#O)[P ](#P)[Q ](#Q)[R ](#R)[S ](#S)[T ](#T)[U ](#U)[V ](#V)[W ](#W)[Y ](#Y)
+## [<img src="images/home.png"> Home ](https://github.com/VFPX/Win32API)[A ](#A)[B ](#B)[C ](#C)[D ](#D)[E ](#E)[F ](#F)[G ](#G)[H ](#H)[I ](#I)[J ](#J)[L ](#L)[M ](#M)[N ](#N)[O ](#O)[P ](#P)[Q ](#Q)[R ](#R)[S ](#S)[T ](#T)[U ](#U)[V ](#V)[W ](#W)[Y ](#Y)
 <a name="W"></a>
 ## [WAV file player](samples/sample_417.md)
 
@@ -1234,8 +1234,8 @@ The code sample explains how to broadcast system alerts using the NetMessageBuff
 This code sample explains how to add entries to event logs using Event Logging API.  
 ## [Writing to INI file](samples/sample_137.md)
 
-# [<img src="images/home.png"> Home ](https://github.com/VFPX/Win32API)[A ](#A)[B ](#B)[C ](#C)[D ](#D)[E ](#E)[F ](#F)[G ](#G)[H ](#H)[I ](#I)[J ](#J)[L ](#L)[M ](#M)[N ](#N)[O ](#O)[P ](#P)[Q ](#Q)[R ](#R)[S ](#S)[T ](#T)[U ](#U)[V ](#V)[W ](#W)[Y ](#Y)
+## [<img src="images/home.png"> Home ](https://github.com/VFPX/Win32API)[A ](#A)[B ](#B)[C ](#C)[D ](#D)[E ](#E)[F ](#F)[G ](#G)[H ](#H)[I ](#I)[J ](#J)[L ](#L)[M ](#M)[N ](#N)[O ](#O)[P ](#P)[Q ](#Q)[R ](#R)[S ](#S)[T ](#T)[U ](#U)[V ](#V)[W ](#W)[Y ](#Y)
 <a name="Y"></a>
 ## [Yet another modal dialog: now HTML-based](samples/sample_561.md)
 
-# [<img src="images/home.png"> Home ](https://github.com/VFPX/Win32API)[A ](#A)[B ](#B)[C ](#C)[D ](#D)[E ](#E)[F ](#F)[G ](#G)[H ](#H)[I ](#I)[J ](#J)[L ](#L)[M ](#M)[N ](#N)[O ](#O)[P ](#P)[Q ](#Q)[R ](#R)[S ](#S)[T ](#T)[U ](#U)[V ](#V)[W ](#W)[Y ](#Y)
+## [<img src="images/home.png"> Home ](https://github.com/VFPX/Win32API)[A ](#A)[B ](#B)[C ](#C)[D ](#D)[E ](#E)[F ](#F)[G ](#G)[H ](#H)[I ](#I)[J ](#J)[L ](#L)[M ](#M)[N ](#N)[O ](#O)[P ](#P)[Q ](#Q)[R ](#R)[S ](#S)[T ](#T)[U ](#U)[V ](#V)[W ](#W)[Y ](#Y)
