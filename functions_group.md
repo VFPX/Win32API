@@ -2,8 +2,6 @@
 # List of functions grouped by group name
 
 # ![](images/fox1.png) Atom group
-***  
-
 <details>
 
 [GlobalGetAtomName](libraries/kernel32/GlobalGetAtomName.md)  
@@ -15,8 +13,6 @@ Retrieves a copy of the character string associated with the specified global at
 
 
 # ![](images/fox1.png) Authentication group
-***  
-
 <details>
 
 [SCardConnect](libraries/winscard/SCardConnect.md)  
@@ -98,8 +94,6 @@ Sends a service request to the smart card and expects to receive data back from 
 
 
 # ![](images/fox1.png) Authorization group
-***  
-
 <details>
 
 [AdjustTokenPrivileges](libraries/advapi32/AdjustTokenPrivileges.md)  
@@ -136,8 +130,6 @@ Opens the access token associated with a process.
 
 
 # ![](images/fox1.png) Bitmap group
-***  
-
 <details>
 
 [AlphaBlend](libraries/msimg32/AlphaBlend.md)  
@@ -189,8 +181,6 @@ The StretchDIBits function copies the color data for a rectangle of pixels in a 
 
 
 # ![](images/fox1.png) Brush group
-***  
-
 <details>
 
 [CreateSolidBrush](libraries/gdi32/CreateSolidBrush.md)  
@@ -207,8 +197,6 @@ Retrieves a handle identifying a logical brush that corresponds to the specified
 
 
 # ![](images/fox1.png) COM group
-***  
-
 <details>
 
 [CLSIDFromString](libraries/ole32/CLSIDFromString.md)  
@@ -245,8 +233,6 @@ Converts a globally unique identifier (GUID) into a string of printable characte
 
 
 # ![](images/fox1.png) Clipboard group
-***  
-
 <details>
 
 [AddClipboardFormatListener](libraries/user32/AddClipboardFormatListener.md)  
@@ -353,8 +339,6 @@ Adds the specified window to the chain of clipboard viewers.
 
 
 # ![](images/fox1.png) Color group
-***  
-
 <details>
 
 [GetNearestColor](libraries/gdi32/GetNearestColor.md)  
@@ -366,8 +350,6 @@ The GetNearestColor function returns a color value identifying a color from the 
 
 
 # ![](images/fox1.png) Common Dialog Box group
-***  
-
 <details>
 
 [ChooseColor](libraries/comdlg32/ChooseColor.md)  
@@ -434,8 +416,6 @@ Creates, displays, and operates a task dialog.
 
 
 # ![](images/fox1.png) Console group
-***  
-
 <details>
 
 [AllocConsole](libraries/kernel32/AllocConsole.md)  
@@ -502,8 +482,6 @@ The WriteConsole function writes a character string to a console screen buffer b
 
 
 # ![](images/fox1.png) Coordinate Space and Transformation group
-***  
-
 <details>
 
 [ClientToScreen](libraries/gdi32/ClientToScreen.md)  
@@ -555,8 +533,6 @@ Sets the mapping mode of the specified device context.
 
 
 # ![](images/fox1.png) Cryptography Reference group
-***  
-
 <details>
 
 [CertCloseStore](libraries/crypt32/CertCloseStore.md)  
@@ -707,8 +683,6 @@ Performs a trust verification action on a specified object. The function passes 
 
 
 # ![](images/fox1.png) Cursor group
-***  
-
 <details>
 
 [ClipCursor](libraries/user32/ClipCursor.md)  
@@ -740,8 +714,6 @@ The ShowCursor function displays or hides the cursor.
 
 
 # ![](images/fox1.png) DNS Functions group
-***  
-
 <details>
 
 [DnsValidateName](libraries/dnsapi/DnsValidateName.md)  
@@ -753,8 +725,6 @@ Validates the status of a specified DNS name.
 
 
 # ![](images/fox1.png) Data Decompression Library group
-***  
-
 <details>
 
 [RtlCompressBuffer](libraries/ntdll/RtlCompressBuffer.md)  
@@ -776,8 +746,6 @@ This function is used to determine the correct size of the WorkSpace buffer for 
 
 
 # ![](images/fox1.png) Debugging group
-***  
-
 <details>
 
 [ReadProcessMemory](libraries/kernel32/ReadProcessMemory.md)  
@@ -794,8 +762,6 @@ Writes data to an area of memory in a specified process.
 
 
 # ![](images/fox1.png) Desktop Window Manager (DWM) group
-***  
-
 <details>
 
 [DwmExtendFrameIntoClientArea](libraries/dwmapi/DwmExtendFrameIntoClientArea.md)  
@@ -807,8 +773,6 @@ Extends the window frame behind the client area.
 
 
 # ![](images/fox1.png) Device Context group
-***  
-
 <details>
 
 [ChangeDisplaySettings](libraries/user32/ChangeDisplaySettings.md)  
@@ -881,8 +845,6 @@ Selects an object into the specified device context (DC). The new object replace
 
 
 # ![](images/fox1.png) Device Input and Output group
-***  
-
 <details>
 
 [DeviceIoControl](libraries/kernel32/DeviceIoControl.md)  
@@ -894,8 +856,6 @@ Sends a control code directly to a specified device driver, causing the correspo
 
 
 # ![](images/fox1.png) Dialog Box group
-***  
-
 <details>
 
 [GetDlgCtrlID](libraries/user32/GetDlgCtrlID.md)  
@@ -933,8 +893,6 @@ The SetDlgItemText function sets the title or text of a control in a dialog box.
 
 
 # ![](images/fox1.png) Dynamic-Link Library group
-***  
-
 <details>
 
 [FreeLibrary](libraries/kernel32/FreeLibrary.md)  
@@ -975,8 +933,6 @@ Maps the specified executable module into the address space of the calling proce
 
 
 # ![](images/fox1.png) Error Handling group
-***  
-
 <details>
 
 [Beep](libraries/kernel32/Beep.md)  
@@ -1036,8 +992,6 @@ If you are defining an error code for your application, be sure that your error 
 
 
 # ![](images/fox1.png) Event Logging group
-***  
-
 <details>
 
 [ClearEventLog](libraries/advapi32/ClearEventLog.md)  
@@ -1094,8 +1048,6 @@ Writes an entry at the end of the specified event log.
 
 
 # ![](images/fox1.png) Extensible Storage Engine (ESE, Jet Blue) group
-***  
-
 <details>
 
 [JetAddColumn](libraries/esent/JetAddColumn.md)  
@@ -1225,8 +1177,6 @@ Performs an update operation including inserting a new row into a table or updat
 
 
 # ![](images/fox1.png) File Management group
-***  
-
 <details>
 
 [CopyFile](libraries/kernel32/CopyFile.md)  
@@ -1493,8 +1443,6 @@ Opens an existing file and sets the file pointer to the beginning of the file.
 
 
 # ![](images/fox1.png) File Mapping group
-***  
-
 <details>
 
 [CreateFileMapping](libraries/kernel32/CreateFileMapping.md)  
@@ -1521,8 +1469,6 @@ The UnmapViewOfFile function unmaps a mapped view of a file from the calling pro
 
 
 # ![](images/fox1.png) File System group
-***  
-
 <details>
 
 [DeleteVolumeMountPoint](libraries/kernel32/DeleteVolumeMountPoint.md)  
@@ -1627,8 +1573,6 @@ Mounts the specified volume at the specified volume mount point.
 
 
 # ![](images/fox1.png) Filled Shape group
-***  
-
 <details>
 
 [FillRect](libraries/gdi32/FillRect.md)  
@@ -1645,8 +1589,6 @@ The Polygon function draws a polygon consisting of two or more vertices connecte
 
 
 # ![](images/fox1.png) Font and Text group
-***  
-
 <details>
 
 [CreateFont](libraries/gdi32/CreateFont.md)  
@@ -1719,8 +1661,6 @@ Writes a character string at the specified location, using the currently selecte
 
 
 # ![](images/fox1.png) GDI+ group
-***  
-
 <details>
 
 [GdipGetImageDecoders](libraries/gdiplus/GdipGetImageDecoders.md)  
@@ -1757,8 +1697,6 @@ The GdiplusStartup function initializes Microsoft® Windows® GDI+.
 
 
 # ![](images/fox1.png) GDI+ Bitmap group
-***  
-
 <details>
 
 [GdipBitmapGetPixel](libraries/gdiplus/GdipBitmapGetPixel.md)  
@@ -1816,8 +1754,6 @@ Creates an icon from this Bitmap object.
 
 
 # ![](images/fox1.png) GDI+ Brush group
-***  
-
 <details>
 
 [GdipCreateSolidFill](libraries/gdiplus/GdipCreateSolidFill.md)  
@@ -1844,8 +1780,6 @@ Updates this texture brush"s current transformation matrix with the product of i
 
 
 # ![](images/fox1.png) GDI+ Font group
-***  
-
 <details>
 
 [GdipCreateFont](libraries/gdiplus/GdipCreateFont.md)  
@@ -1897,8 +1831,6 @@ Represents the fonts installed on the system
 
 
 # ![](images/fox1.png) GDI+ Graphics group
-***  
-
 <details>
 
 [GdipCreateFromHDC](libraries/gdiplus/GdipCreateFromHDC.md)  
@@ -2052,8 +1984,6 @@ Updates this Graphics object"s world transformation matrix with the product of i
 
 
 # ![](images/fox1.png) GDI+ Image group
-***  
-
 <details>
 
 [GdipDisposeImage](libraries/gdiplus/GdipDisposeImage.md)  
@@ -2164,8 +2094,6 @@ Sets a property item (piece of metadata) for this Image object.
 
 
 # ![](images/fox1.png) GDI+ ImageAttributes group
-***  
-
 <details>
 
 [GdipCreateImageAttributes](libraries/gdiplus/GdipCreateImageAttributes.md)  
@@ -2187,8 +2115,6 @@ Sets the color key (transparency range) for a specified ColorAdjustType.
 
 
 # ![](images/fox1.png) GDI+ Matrix group
-***  
-
 <details>
 
 [GdipCreateMatrix](libraries/gdiplus/GdipCreateMatrix.md)  
@@ -2251,8 +2177,6 @@ Updates this matrix with the product of itself and a translation matrix.
 
 
 # ![](images/fox1.png) GDI+ PathGradient Brush group
-***  
-
 <details>
 
 [GdipCreatePathGradientI](libraries/gdiplus/GdipCreatePathGradientI.md)  
@@ -2274,8 +2198,6 @@ Sets the center point of this path gradient brush.
 
 
 # ![](images/fox1.png) GDI+ Pen group
-***  
-
 <details>
 
 [GdipCreatePen1](libraries/gdiplus/GdipCreatePen1.md)  
@@ -2292,8 +2214,6 @@ Deletes the specified Pen object.
 
 
 # ![](images/fox1.png) GDI+ StringFormat group
-***  
-
 <details>
 
 [GdipCreateStringFormat](libraries/gdiplus/GdipCreateStringFormat.md)  
@@ -2310,8 +2230,6 @@ Deletes the specified StringFormat object .
 
 
 # ![](images/fox1.png) GDI+ Text group
-***  
-
 <details>
 
 [GdipDrawString](libraries/gdiplus/GdipDrawString.md)  
@@ -2329,8 +2247,6 @@ Measures the extent of the string in the specified font, format, and layout rect
 
 
 # ![](images/fox1.png) HTTP Functions (WinHTTP) group
-***  
-
 <details>
 
 [WinHttpAddRequestHeaders](libraries/winhttp/WinHttpAddRequestHeaders.md)  
@@ -2397,8 +2313,6 @@ The WinHttpSetCredentials function passes the required authorization credentials
 
 
 # ![](images/fox1.png) Handle and Object group
-***  
-
 <details>
 
 [CloseHandle](libraries/kernel32/CloseHandle.md)  
@@ -2443,8 +2357,6 @@ Sets certain properties of an object handle.
 
 
 # ![](images/fox1.png) Hook group
-***  
-
 <details>
 
 [SetWindowsHookEx](libraries/user32/SetWindowsHookEx.md)  
@@ -2461,8 +2373,6 @@ Removes a hook procedure installed in a hook chain by the SetWindowsHookEx funct
 
 
 # ![](images/fox1.png) IP Helper group
-***  
-
 <details>
 
 [GetAdaptersAddresses](libraries/iphlpapi/GetAdaptersAddresses.md)  
@@ -2591,8 +2501,6 @@ Converts the ANSI interface name for a network interface to the local index for 
 
 
 # ![](images/fox1.png) Icon group
-***  
-
 <details>
 
 [CopyIcon](libraries/user32/CopyIcon.md)  
@@ -2635,8 +2543,6 @@ Loads the specified icon resource from the executable (.exe) file associated wit
 
 
 # ![](images/fox1.png) Internet Functions (WinInet) group
-***  
-
 <details>
 
 [CreateMD5SSOHash](libraries/wininet/CreateMD5SSOHash.md)  
@@ -2890,8 +2796,6 @@ Writes data to an open Internet file.
 
 
 # ![](images/fox1.png) Kernel Transaction Manager group
-***  
-
 <details>
 
 [CommitTransaction](libraries/ktmw32/CommitTransaction.md)  
@@ -2913,8 +2817,6 @@ Requests that the specified transaction be rolled back. This function is synchro
 
 
 # ![](images/fox1.png) Keyboard Input group
-***  
-
 <details>
 
 [ActivateKeyboardLayout](libraries/user32/ActivateKeyboardLayout.md)  
@@ -3032,8 +2934,6 @@ Synthesizes a keystroke.
 
 
 # ![](images/fox1.png) MSHTML Reference group
-***  
-
 <details>
 
 [ShowHTMLDialog](libraries/mshtml/ShowHTMLDialog.md)  
@@ -3045,8 +2945,6 @@ Creates a modal dialog box that displays HTML.
 
 
 # ![](images/fox1.png) Mailslot group
-***  
-
 <details>
 
 [CreateMailslot](libraries/kernel32/CreateMailslot.md)  
@@ -3068,8 +2966,6 @@ The SetMailslotInfo function sets the time-out value used by the specified mails
 
 
 # ![](images/fox1.png) Memory Management group
-***  
-
 <details>
 
 [CopyMemory](libraries/kernel32/CopyMemory.md)  
@@ -3209,8 +3105,6 @@ Fills a block of memory with zeros.
 
 
 # ![](images/fox1.png) Menu group
-***  
-
 <details>
 
 [AppendMenu](libraries/user32/AppendMenu.md)  
@@ -3310,8 +3204,6 @@ The TrackPopupMenuEx function displays a shortcut menu at the specified location
 
 
 # ![](images/fox1.png) Message and Message Queue group
-***  
-
 <details>
 
 [BroadcastSystemMessage](libraries/user32/BroadcastSystemMessage.md)  
@@ -3379,8 +3271,6 @@ Sends the specified message to a window or windows. It calls the window procedur
 
 
 # ![](images/fox1.png) Metafile group
-***  
-
 <details>
 
 [CloseEnhMetaFile](libraries/gdi32/CloseEnhMetaFile.md)  
@@ -3417,8 +3307,6 @@ The PlayEnhMetaFile function displays the picture stored in the specified enhanc
 
 
 # ![](images/fox1.png) Monitor Configuration (Vista) group
-***  
-
 <details>
 
 [DestroyPhysicalMonitors](libraries/dxva2/DestroyPhysicalMonitors.md)  
@@ -3465,8 +3353,6 @@ Sets the contrast value for a monitor.
 
 
 # ![](images/fox1.png) Mouse Input group
-***  
-
 <details>
 
 [DragDetect](libraries/user32/DragDetect.md)  
@@ -3513,8 +3399,6 @@ The SwapMouseButton function reverses or restores the meaning of the left and ri
 
 
 # ![](images/fox1.png) Multilingual User Interface group
-***  
-
 <details>
 
 [GetProcessPreferredUILanguages](libraries/kernel32/GetProcessPreferredUILanguages.md)  
@@ -3541,8 +3425,6 @@ Sets the process preferred UI languages for the application process.
 
 
 # ![](images/fox1.png) Multiple Display Monitors group
-***  
-
 <details>
 
 [GetMonitorInfo](libraries/user32/GetMonitorInfo.md)  
@@ -3560,8 +3442,6 @@ Retrieves a handle to the display monitor that has the largest area of intersect
 
 
 # ![](images/fox1.png) National Language Support group
-***  
-
 <details>
 
 [CompareString](libraries/kernel32/CompareString.md)  
@@ -3668,8 +3548,6 @@ Sets the geographical location identifier for the user. This identifier should h
 
 
 # ![](images/fox1.png) Network Management group
-***  
-
 <details>
 
 [NetApiBufferFree](libraries/netapi32/NetApiBufferFree.md)  
@@ -3854,8 +3732,6 @@ The NetWkstaUserEnum function lists information about all users currently logged
 
 
 # ![](images/fox1.png) ODBC API group
-***  
-
 <details>
 
 [SQLAllocEnv](libraries/odbc32/SQLAllocEnv.md)  
@@ -4014,8 +3890,6 @@ Returns the list of table, catalog, or schema names, and table types, stored in 
 
 
 # ![](images/fox1.png) Painting and Drawing group
-***  
-
 <details>
 
 [DrawAnimatedRects](libraries/user32/DrawAnimatedRects.md)  
@@ -4108,8 +3982,6 @@ Returns a handle to the window associated with the specified display device cont
 
 
 # ![](images/fox1.png) Path group
-***  
-
 <details>
 
 [BeginPath](libraries/gdi32/BeginPath.md)  
@@ -4131,8 +4003,6 @@ Creates a region from the path that is selected into the specified device contex
 
 
 # ![](images/fox1.png) Performance Monitoring group
-***  
-
 <details>
 
 [CreateToolhelp32Snapshot](libraries/kernel32/CreateToolhelp32Snapshot.md)  
@@ -4199,8 +4069,6 @@ Retrieves information about the next process recorded in a system snapshot.
 
 
 # ![](images/fox1.png) Pipe group
-***  
-
 <details>
 
 [ConnectNamedPipe](libraries/kernel32/ConnectNamedPipe.md)  
@@ -4234,8 +4102,6 @@ Sets the read mode and the blocking mode of the specified named pipe. If the spe
 
 
 # ![](images/fox1.png) PnP Configuration Manager group
-***  
-
 <details>
 
 [CM_Connect_Machine](libraries/cfgmgr32/CM_Connect_Machine.md)  
@@ -4274,8 +4140,6 @@ Prepares a local or a remote device instance for safe removal, if the device is 
 
 
 # ![](images/fox1.png) Power Management group
-***  
-
 <details>
 
 [GetPwrCapabilities](libraries/powrprof/GetPwrCapabilities.md)  
@@ -4312,8 +4176,6 @@ Enables applications to inform the system that it is in use, thereby preventing 
 
 
 # ![](images/fox1.png) Printing and Print Spooler group
-***  
-
 <details>
 
 [AddPort](libraries/setupapi/AddPort.md)  
@@ -4497,8 +4359,6 @@ The StartPage function prepares the printer driver to accept data.
 
 
 # ![](images/fox1.png) Process and Thread group
-***  
-
 <details>
 
 [AssignProcessToJobObject](libraries/kernel32/AssignProcessToJobObject.md)  
@@ -4668,8 +4528,6 @@ Note  This function is provided only for compatibility with 16-bit Windows. Win3
 
 
 # ![](images/fox1.png) Raw Input group
-***  
-
 <details>
 
 [GetRawInputData](libraries/user32/GetRawInputData.md)  
@@ -4696,8 +4554,6 @@ Registers the devices that supply the raw input data.
 
 
 # ![](images/fox1.png) Region group
-***  
-
 <details>
 
 [CombineRgn](libraries/gdi32/CombineRgn.md)  
@@ -4739,8 +4595,6 @@ Retrieves the bounding rectangle of the specified region.
 
 
 # ![](images/fox1.png) Registry group
-***  
-
 <details>
 
 [GetPrivateProfileSectionNames](libraries/kernel32/GetPrivateProfileSectionNames.md)  
@@ -4852,8 +4706,6 @@ The WritePrivateProfileString function copies a string into the specified sectio
 
 
 # ![](images/fox1.png) Remote Access Service (RAS) group
-***  
-
 <details>
 
 [RasEnumAutodialAddresses](libraries/rasapi32/RasEnumAutodialAddresses.md)  
@@ -4885,8 +4737,6 @@ The RasPhonebookDlg function displays the main Dial-Up Networking dialog box. Fr
 
 
 # ![](images/fox1.png) Remote Application Programming (RAPI) group
-***  
-
 <details>
 
 [CeCloseHandle](libraries/rapi/CeCloseHandle.md)  
@@ -5138,8 +4988,6 @@ This function writes a set of properties to a single record, creating the record
 
 
 # ![](images/fox1.png) Remote Procedure Call (RPC) group
-***  
-
 <details>
 
 [RpcStringFree](libraries/rpcrt4/RpcStringFree.md)  
@@ -5181,8 +5029,6 @@ Converts a UUID to a string.
 
 
 # ![](images/fox1.png) Resource group
-***  
-
 <details>
 
 [BeginUpdateResource](libraries/kernel32/BeginUpdateResource.md)  
@@ -5239,8 +5085,6 @@ The UpdateResource function adds, deletes, or replaces a resource in an executab
 
 
 # ![](images/fox1.png) Security group
-***  
-
 <details>
 
 [ConvertSidToStringSid](libraries/advapi32/ConvertSidToStringSid.md)  
@@ -5362,8 +5206,6 @@ The RevertToSelf function terminates the impersonation of a client application.
 
 
 # ![](images/fox1.png) Service group
-***  
-
 <details>
 
 [CloseServiceHandle](libraries/advapi32/CloseServiceHandle.md)  
@@ -5431,8 +5273,6 @@ The UnlockServiceDatabase function unlocks a service control manager database by
 
 
 # ![](images/fox1.png) Setup API functions group
-***  
-
 <details>
 
 [SetupCloseInfFile](libraries/setupapi/SetupCloseInfFile.md)  
@@ -5477,8 +5317,6 @@ The SetupOpenInfFile function opens an INF file and returns a handle to it.
 
 
 # ![](images/fox1.png) Shell Functions group
-***  
-
 <details>
 
 [AssocQueryString](libraries/shlwapi/AssocQueryString.md)  
@@ -5685,8 +5523,6 @@ The WinHelp function starts Windows Help (WINHELP.EXE) and passes additional dat
 
 
 # ![](images/fox1.png) Shell Lightweight Utility APIs -- Path Functions group
-***  
-
 <details>
 
 [PathBuildRoot](libraries/shlwapi/PathBuildRoot.md)  
@@ -5794,8 +5630,6 @@ Converts escape sequences back into ordinary characters.
 
 
 # ![](images/fox1.png) Shell Lightweight Utility APIs -- misc. functions group
-***  
-
 <details>
 
 [DllInstall](libraries/shlwapi/DllInstall.md)  
@@ -5812,8 +5646,6 @@ Hashes an array of data.
 
 
 # ![](images/fox1.png) Shell Lightweight Utility APIs -- string functions group
-***  
-
 <details>
 
 [ChrCmpI](libraries/shlwapi/ChrCmpI.md)  
@@ -5840,8 +5672,6 @@ Takes a variable-length argument list and returns the values of the arguments as
 
 
 # ![](images/fox1.png) Simple MAPI group
-***  
-
 <details>
 
 [MAPIAddress](libraries/mapi32/MAPIAddress.md)  
@@ -5893,8 +5723,6 @@ The MAPISendMail function sends a message.
 
 
 # ![](images/fox1.png) String group
-***  
-
 <details>
 
 [CharLower](libraries/user32/CharLower.md)  
@@ -5953,8 +5781,6 @@ Removes (trims) specified leading and trailing characters from a string.
 
 
 # ![](images/fox1.png) Synchronization group
-***  
-
 <details>
 
 [CreateEvent](libraries/kernel32/CreateEvent.md)  
@@ -6026,8 +5852,6 @@ The WaitForSingleObject function returns when the specified object is in the sig
 
 
 # ![](images/fox1.png) System Information group
-***  
-
 <details>
 
 [ExpandEnvironmentStrings](libraries/kernel32/ExpandEnvironmentStrings.md)  
@@ -6152,8 +5976,6 @@ The SystemParametersInfo function retrieves or sets the value of one of the syst
 
 
 # ![](images/fox1.png) System Shutdown group
-***  
-
 <details>
 
 [ExitWindows](libraries/user32/ExitWindows.md)  
@@ -6185,8 +6007,6 @@ The LockWorkStation function locks the workstation"s display, protecting it from
 
 
 # ![](images/fox1.png) Terminal Services group
-***  
-
 <details>
 
 [WTSCloseServer](libraries/wtsapi32/WTSCloseServer.md)  
@@ -6248,8 +6068,6 @@ Unregisters the specified window so that it receives no further session change n
 
 
 # ![](images/fox1.png) Time group
-***  
-
 <details>
 
 [CompareFileTime](libraries/kernel32/CompareFileTime.md)  
@@ -6336,8 +6154,6 @@ The SystemTimeToFileTime function converts a system time to a file time.
 
 
 # ![](images/fox1.png) URL Monikers group
-***  
-
 <details>
 
 [CreateURLMonikerEx](libraries/urlmon/CreateURLMonikerEx.md)  
@@ -6379,8 +6195,6 @@ Retrieves options for the current Internet session.
 
 
 # ![](images/fox1.png) Unicode and Character Set group
-***  
-
 <details>
 
 [MultiByteToWideChar](libraries/kernel32/MultiByteToWideChar.md)  
@@ -6397,8 +6211,6 @@ The WideCharToMultiByte function maps a wide-character string (Unicode) to a new
 
 
 # ![](images/fox1.png) Version Information group
-***  
-
 <details>
 
 [GetFileVersionInfo](libraries/version/GetFileVersionInfo.md)  
@@ -6415,8 +6227,6 @@ The GetFileVersionInfoSize function determines whether the operating system can 
 
 
 # ![](images/fox1.png) Virtual Hard Disk (Win7) group
-***  
-
 <details>
 
 [AttachVirtualDisk](libraries/virtdisk/AttachVirtualDisk.md)  
@@ -6443,8 +6253,6 @@ Opens a virtual hard disk (VHD) for use.
 
 
 # ![](images/fox1.png) Window group
-***  
-
 <details>
 
 [BringWindowToTop](libraries/user32/BringWindowToTop.md)  
@@ -6639,8 +6447,6 @@ The function is called to switch focus to a specified window and bring it to the
 
 
 # ![](images/fox1.png) Window Class group
-***  
-
 <details>
 
 [GetClassInfo](libraries/user32/GetClassInfo.md)  
@@ -6687,8 +6493,6 @@ Unregisters a window class, freeing the memory required for the class.
 
 
 # ![](images/fox1.png) Window Procedure group
-***  
-
 <details>
 
 [CallWindowProc](libraries/user32/CallWindowProc.md)  
@@ -6710,8 +6514,6 @@ The WindowProc function is an application-defined function that processes messag
 
 
 # ![](images/fox1.png) Window Property group
-***  
-
 <details>
 
 [GetProp](libraries/user32/GetProp.md)  
@@ -6733,8 +6535,6 @@ Adds a new entry or changes an existing entry in the property list of the specif
 
 
 # ![](images/fox1.png) Window Station and Desktop group
-***  
-
 <details>
 
 [CloseDesktop](libraries/user32/CloseDesktop.md)  
@@ -6777,8 +6577,6 @@ Makes a desktop visible and activates it. This enables the desktop to receive in
 
 
 # ![](images/fox1.png) Windows Controls group
-***  
-
 <details>
 
 [ImageList_Add](libraries/comctl32/ImageList_Add.md)  
@@ -6825,8 +6623,6 @@ Registers specific common control classes from the common control dynamic-link l
 
 
 # ![](images/fox1.png) Windows Multimedia group
-***  
-
 <details>
 
 [AVIFileExit](libraries/avifil32/AVIFileExit.md)  
@@ -7221,8 +7017,6 @@ The waveOutWrite function sends a data block to the given waveform-audio output 
 
 
 # ![](images/fox1.png) Windows Networking group
-***  
-
 <details>
 
 [NetGetJoinInformation](libraries/netapi32/NetGetJoinInformation.md)  
@@ -7321,8 +7115,6 @@ The WNetOpenEnum function starts an enumeration of network resources or existing
 
 
 # ![](images/fox1.png) Windows Sockets 2 (Winsock) group
-***  
-
 <details>
 
 [WSACleanup](libraries/ws2_32/WSACleanup.md)  
