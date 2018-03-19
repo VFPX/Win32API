@@ -3367,3 +3367,4 @@ The Ping class uses several API functions -- IcmpCreateFile, IcmpCloseHandle, Ic
 ## [Winsock: retrieving the standard host name and IP address for the local machine](samples/sample_215.md)
 
 ## [Winsock: sending email messages (SMTP, port 25)](samples/sample_385.md)
+[<img src="images/home.png"> Home ](https://github.com/VFPX/Win32API)  

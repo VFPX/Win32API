@@ -897,7 +897,7 @@ This code sample includes a set of classes implementing several NTFS access cont
 
 ## [Retrieving the elapsed time since the system was started](samples/sample_066.md)
 
-## [Retrieving the interfaceï¿½toï¿½IP address mapping table](samples/sample_233.md)
+## [Retrieving the interface–to–IP address mapping table](samples/sample_233.md)
 
 ## [Retrieving the name and type of all available RAS-capable devices](samples/sample_325.md)
 
