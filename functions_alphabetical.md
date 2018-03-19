@@ -1,5 +1,66 @@
 
 # List of functions in alphabetical order
+# [A ](#A)[B ](#B)[C ](#C)[D ](#D)[E ](#E)[F ](#F)[G ](#G)[H ](#H)[I ](#I)[J ](#J)[K ](#K)[L ](#L)[M ](#M)[N ](#N)[O ](#O)[P ](#P)[Q ](#Q)[R ](#R)[S ](#S)[T ](#T)[U ](#U)[V ](#V)[W ](#W)[Z ](#Z)[_ ](#_)
+<a name="A"></a>[accept](libraries/ws2_32/accept.md)  
+The accept function permits an incoming connection attempt on a socket.  
+
+***  
+
+[ActivateKeyboardLayout](libraries/user32/ActivateKeyboardLayout.md)  
+The ActivateKeyboardLayout function sets the input locale identifier (formerly called the keyboard layout handle) for the calling thread or the current process. The input locale identifier specifies a locale as well as the physical layout of the keyboard.  
+
+***  
+
+[AddClipboardFormatListener](libraries/user32/AddClipboardFormatListener.md)  
+Places the given window in the system-maintained clipboard format listener list.  
+
+***  
+
+[AddPort](libraries/setupapi/AddPort.md)  
+Adds the name of a port to the list of supported ports. The AddPort function is exported by the port monitor.  
+
+***  
+
+[AddPrinter](libraries/winspool.drv/AddPrinter.md)  
+The AddPrinter function adds a printer to the list of supported printers for a specified server.   
+
+***  
+
+[AdjustTokenPrivileges](libraries/advapi32/AdjustTokenPrivileges.md)  
+Enables or disables privileges in the specified access token.  
+
+***  
+
+[AllocConsole](libraries/kernel32/AllocConsole.md)  
+The AllocConsole function allocates a new console for the calling process.  
+
+***  
+
+[AlphaBlend](libraries/msimg32/AlphaBlend.md)  
+The AlphaBlend function displays bitmaps that have transparent or semitransparent pixels.  
+
+***  
+
+[AppendMenu](libraries/user32/AppendMenu.md)  
+The AppendMenu function appends a new item to the end of the specified menu bar, drop-down menu, submenu, or shortcut menu.  
+
+***  
+
+[AssignProcessToJobObject](libraries/kernel32/AssignProcessToJobObject.md)  
+Assigns a process to an existing job object.  
+
+***  
+
+[AssocQueryString](libraries/shlwapi/AssocQueryString.md)  
+Searches for and retrieves a file or protocol association-related string from the registry.  
+
+***  
+
+[AttachVirtualDisk](libraries/virtdisk/AttachVirtualDisk.md)  
+Attaches a virtual hard disk (VHD) by locating an appropriate VHD provider to accomplish the attachment.  
+
+***  
+
 [AVIFileExit](libraries/avifil32/AVIFileExit.md)  
 The AVIFileExit function exits the AVIFile library and decrements the reference count for the library.  
 
@@ -81,62 +142,7 @@ The AVIStreamTimeToSample function converts from milliseconds to samples.
 
 ***  
 
-[ActivateKeyboardLayout](libraries/user32/ActivateKeyboardLayout.md)  
-The ActivateKeyboardLayout function sets the input locale identifier (formerly called the keyboard layout handle) for the calling thread or the current process. The input locale identifier specifies a locale as well as the physical layout of the keyboard.  
-
-***  
-
-[AddClipboardFormatListener](libraries/user32/AddClipboardFormatListener.md)  
-Places the given window in the system-maintained clipboard format listener list.  
-
-***  
-
-[AddPort](libraries/setupapi/AddPort.md)  
-Adds the name of a port to the list of supported ports. The AddPort function is exported by the port monitor.  
-
-***  
-
-[AddPrinter](libraries/winspool.drv/AddPrinter.md)  
-The AddPrinter function adds a printer to the list of supported printers for a specified server.   
-
-***  
-
-[AdjustTokenPrivileges](libraries/advapi32/AdjustTokenPrivileges.md)  
-Enables or disables privileges in the specified access token.  
-
-***  
-
-[AllocConsole](libraries/kernel32/AllocConsole.md)  
-The AllocConsole function allocates a new console for the calling process.  
-
-***  
-
-[AlphaBlend](libraries/msimg32/AlphaBlend.md)  
-The AlphaBlend function displays bitmaps that have transparent or semitransparent pixels.  
-
-***  
-
-[AppendMenu](libraries/user32/AppendMenu.md)  
-The AppendMenu function appends a new item to the end of the specified menu bar, drop-down menu, submenu, or shortcut menu.  
-
-***  
-
-[AssignProcessToJobObject](libraries/kernel32/AssignProcessToJobObject.md)  
-Assigns a process to an existing job object.  
-
-***  
-
-[AssocQueryString](libraries/shlwapi/AssocQueryString.md)  
-Searches for and retrieves a file or protocol association-related string from the registry.  
-
-***  
-
-[AttachVirtualDisk](libraries/virtdisk/AttachVirtualDisk.md)  
-Attaches a virtual hard disk (VHD) by locating an appropriate VHD provider to accomplish the attachment.  
-
-***  
-
-[Beep](libraries/kernel32/Beep.md)  
+<a name="B"></a>[Beep](libraries/kernel32/Beep.md)  
 Generates simple tones on the speaker. The function is synchronous; it does not return control to its caller until the sound finishes.  
 
 ***  
@@ -148,6 +154,11 @@ The BeginPath function opens a path bracket in the specified device context.
 
 [BeginUpdateResource](libraries/kernel32/BeginUpdateResource.md)  
 The BeginUpdateResource function returns a handle that can be used by the UpdateResource function to add, delete, or replace resources in an executable file.  
+
+***  
+
+[bind](libraries/ws2_32/bind.md)  
+The bind function associates a local address (IP address and port) with a socket.  
 
 ***  
 
@@ -171,45 +182,20 @@ Sends a message to the specified recipients. The recipients can be applications,
 
 ***  
 
-[CLSIDFromString](libraries/ole32/CLSIDFromString.md)  
-Converts a string generated by the StringFromCLSID function back into the original CLSID.  
-
-***  
-
-[CM_Connect_Machine](libraries/cfgmgr32/CM_Connect_Machine.md)  
-Creates a connection to a remote machine  
-
-***  
-
-[CM_Disconnect_Machine](libraries/cfgmgr32/CM_Disconnect_Machine.md)  
-Removes a connection to a remote machine established in a previous call to CM_Connect_Machine.  
-
-***  
-
-[CM_Get_Child_Ex](libraries/cfgmgr32/CM_Get_Child_Ex.md)  
-The function is used to retrieve a device instance handle to the first child node of a specified device node, in a local or a remote machine"s device tree.
-  
-
-***  
-
-[CM_Get_Sibling_Ex](libraries/cfgmgr32/CM_Get_Sibling_Ex.md)  
-Obtains a device instance handle to the next sibling node of a specified device node, in a local or a remote machine"s device tree.  
-
-***  
-
-[CM_Locate_DevNode_Ex](libraries/cfgmgr32/CM_Locate_DevNode_Ex.md)  
-Obtains a device instance handle to the device node that is associated with a specified device instance identifier, on a local machine or a remote machine.
-  
-
-***  
-
-[CM_Request_Device_Eject_Ex](libraries/setupapi/CM_Request_Device_Eject_Ex.md)  
-Prepares a local or a remote device instance for safe removal, if the device is removable.  
-
-***  
-
-[CallWindowProc](libraries/user32/CallWindowProc.md)  
+<a name="C"></a>[CallWindowProc](libraries/user32/CallWindowProc.md)  
 The CallWindowProc function passes message information to the specified window procedure.  
+
+***  
+
+[capCreateCaptureWindow](libraries/avicap32/capCreateCaptureWindow.md)  
+The capCreateCaptureWindow function creates a capture window.
+  
+
+***  
+
+[capGetDriverDescription](libraries/avicap32/capGetDriverDescription.md)  
+The capGetDriverDescription function retrieves the version description of the capture driver.
+  
 
 ***  
 
@@ -438,26 +424,6 @@ This function deletes an existing empty directory.
 
 ***  
 
-[CeSeekDatabase](libraries/rapi/CeSeekDatabase.md)  
-This function seeks the specified record in an open database.  
-
-***  
-
-[CeSetFilePointer](libraries/rapi/CeSetFilePointer.md)  
-This function moves the file pointer of an open file.  
-
-***  
-
-[CeWriteFile](libraries/rapi/CeWriteFile.md)  
-This function writes data to a file on remote Windows CE device.  
-
-***  
-
-[CeWriteRecordProps](libraries/rapi/CeWriteRecordProps.md)  
-This function writes a set of properties to a single record, creating the record if necessary.  
-
-***  
-
 [CertCloseStore](libraries/crypt32/CertCloseStore.md)  
 Closes a certificate store handle and reduces the reference count on the store.  
 
@@ -475,6 +441,26 @@ Frees a certificate context by decrementing its reference count.
 
 [CertOpenSystemStore](libraries/crypt32/CertOpenSystemStore.md)  
 This is a simplified function that opens the most common system certificate store.  
+
+***  
+
+[CeSeekDatabase](libraries/rapi/CeSeekDatabase.md)  
+This function seeks the specified record in an open database.  
+
+***  
+
+[CeSetFilePointer](libraries/rapi/CeSetFilePointer.md)  
+This function moves the file pointer of an open file.  
+
+***  
+
+[CeWriteFile](libraries/rapi/CeWriteFile.md)  
+This function writes data to a file on remote Windows CE device.  
+
+***  
+
+[CeWriteRecordProps](libraries/rapi/CeWriteRecordProps.md)  
+This function writes a set of properties to a single record, creating the record if necessary.  
 
 ***  
 
@@ -586,8 +572,50 @@ The CloseServiceHandle function closes a handle to a service control manager or 
 
 ***  
 
+[closesocket](libraries/ws2_32/closesocket.md)  
+The closesocket function closes an existing socket.  
+
+***  
+
 [CloseWindow](libraries/user32/CloseWindow.md)  
 The CloseWindow function minimizes (but does not destroy) the specified window.  
+
+***  
+
+[CLSIDFromString](libraries/ole32/CLSIDFromString.md)  
+Converts a string generated by the StringFromCLSID function back into the original CLSID.  
+
+***  
+
+[CM_Connect_Machine](libraries/cfgmgr32/CM_Connect_Machine.md)  
+Creates a connection to a remote machine  
+
+***  
+
+[CM_Disconnect_Machine](libraries/cfgmgr32/CM_Disconnect_Machine.md)  
+Removes a connection to a remote machine established in a previous call to CM_Connect_Machine.  
+
+***  
+
+[CM_Get_Child_Ex](libraries/cfgmgr32/CM_Get_Child_Ex.md)  
+The function is used to retrieve a device instance handle to the first child node of a specified device node, in a local or a remote machine"s device tree.
+  
+
+***  
+
+[CM_Get_Sibling_Ex](libraries/cfgmgr32/CM_Get_Sibling_Ex.md)  
+Obtains a device instance handle to the next sibling node of a specified device node, in a local or a remote machine"s device tree.  
+
+***  
+
+[CM_Locate_DevNode_Ex](libraries/cfgmgr32/CM_Locate_DevNode_Ex.md)  
+Obtains a device instance handle to the device node that is associated with a specified device instance identifier, on a local machine or a remote machine.
+  
+
+***  
+
+[CM_Request_Device_Eject_Ex](libraries/setupapi/CM_Request_Device_Eject_Ex.md)  
+Prepares a local or a remote device instance for safe removal, if the device is removable.  
 
 ***  
 
@@ -596,23 +624,18 @@ Creates a GUID, a unique 128-bit integer used for CLSIDs and interface identifie
 
 ***  
 
-[CoTaskMemFree](libraries/ole32/CoTaskMemFree.md)  
-Frees a block of task memory previously allocated through a call to the CoTaskMemAlloc or CoTaskMemRealloc function.  
-
-***  
-
 [CombineRgn](libraries/gdi32/CombineRgn.md)  
 The CombineRgn function combines two regions and stores the result in a third region. The two regions are combined according to the specified mode.  
 
 ***  
 
-[CommDlgExtendedError](libraries/comdlg32/CommDlgExtendedError.md)  
-The CommDlgExtendedError function returns a common dialog box error code. This code indicates the most recent error to occur during the execution of one of the common dialog box functions.   
+[CommandLineToArgvW](libraries/shell32/CommandLineToArgvW.md)  
+Parses a Unicode command-line string, and returns a pointer to a set of Unicode argument strings and a count of arguments, similar to the standard C run-time argv and argc values  
 
 ***  
 
-[CommandLineToArgvW](libraries/shell32/CommandLineToArgvW.md)  
-Parses a Unicode command-line string, and returns a pointer to a set of Unicode argument strings and a count of arguments, similar to the standard C run-time argv and argc values  
+[CommDlgExtendedError](libraries/comdlg32/CommDlgExtendedError.md)  
+The CommDlgExtendedError function returns a common dialog box error code. This code indicates the most recent error to occur during the execution of one of the common dialog box functions.   
 
 ***  
 
@@ -682,6 +705,11 @@ Creates a new image (icon, cursor, or bitmap) and copies the attributes of the s
 
 ***  
 
+[CoTaskMemFree](libraries/ole32/CoTaskMemFree.md)  
+Frees a block of task memory previously allocated through a call to the CoTaskMemAlloc or CoTaskMemRealloc function.  
+
+***  
+
 [CountClipboardFormats](libraries/user32/CountClipboardFormats.md)  
 The CountClipboardFormats function retrieves the number of different data formats currently on the clipboard  
 
@@ -702,13 +730,13 @@ The CreateDC function creates a device context (DC) for a device using the speci
 
 ***  
 
-[CreateDIBSection](libraries/gdi32/CreateDIBSection.md)  
-Creates a DIB that applications can write to directly.  
+[CreateDesktop](libraries/user32/CreateDesktop.md)  
+Creates a new desktop, associates it with the current window station of the calling process, and assigns it to the calling thread.  
 
 ***  
 
-[CreateDesktop](libraries/user32/CreateDesktop.md)  
-Creates a new desktop, associates it with the current window station of the calling process, and assigns it to the calling thread.  
+[CreateDIBSection](libraries/gdi32/CreateDIBSection.md)  
+Creates a DIB that applications can write to directly.  
 
 ***  
 
@@ -767,13 +795,13 @@ Creates or opens a job object.
 
 ***  
 
-[CreateMD5SSOHash](libraries/wininet/CreateMD5SSOHash.md)  
-Obtains the default Microsoft Passport password for a specified account or realm, creates an MD5 hash from it using a specified wide-character challenge string, and returns the result as a string of hexadecimal digit bytes.  
+[CreateMailslot](libraries/kernel32/CreateMailslot.md)  
+The CreateMailslot function creates a mailslot with the specified name and returns a handle that a mailslot server can use to perform operations on it.   
 
 ***  
 
-[CreateMailslot](libraries/kernel32/CreateMailslot.md)  
-The CreateMailslot function creates a mailslot with the specified name and returns a handle that a mailslot server can use to perform operations on it.   
+[CreateMD5SSOHash](libraries/wininet/CreateMD5SSOHash.md)  
+Obtains the default Microsoft Passport password for a specified account or realm, creates an MD5 hash from it using a specified wide-character challenge string, and returns the result as a string of hexadecimal digit bytes.  
 
 ***  
 
@@ -935,14 +963,14 @@ Encrypts data. The algorithm used to encrypt the data is designated by the key h
 
 ***  
 
-[CryptEnumProviderTypes](libraries/advapi32/CryptEnumProviderTypes.md)  
-Retrieves the first or next types of cryptographic service provider (CSP) supported on the computer. Used in a loop, this function retrieves in sequence all of the CSP types available on a computer.
-  
+[CryptEnumProviders](libraries/advapi32/CryptEnumProviders.md)  
+Retrieves the first or next available cryptographic service providers (CSPs). Used in a loop, this function can retrieve in sequence all of the CSPs available on a computer.  
 
 ***  
 
-[CryptEnumProviders](libraries/advapi32/CryptEnumProviders.md)  
-Retrieves the first or next available cryptographic service providers (CSPs). Used in a loop, this function can retrieve in sequence all of the CSPs available on a computer.  
+[CryptEnumProviderTypes](libraries/advapi32/CryptEnumProviderTypes.md)  
+Retrieves the first or next types of cryptographic service provider (CSP) supported on the computer. Used in a loop, this function retrieves in sequence all of the CSP types available on a computer.
+  
 
 ***  
 
@@ -1013,12 +1041,7 @@ Decrypts and does an integrity check of the data in a DATA_BLOB structure. Scope
 
 ***  
 
-[DPtoLP](libraries/gdi32/DPtoLP.md)  
-Converts device coordinates into logical coordinates.  
-
-***  
-
-[DefWindowProc](libraries/user32/DefWindowProc.md)  
+<a name="D"></a>[DefWindowProc](libraries/user32/DefWindowProc.md)  
 The DefWindowProc function calls the default window procedure to provide default processing for any window messages that an application does not process. This function ensures that every message is processed. DefWindowProc is called with the same parameters received by the window procedure.   
 
 ***  
@@ -1143,6 +1166,11 @@ The DocumentProperties function retrieves or modifies printer initialization inf
 
 ***  
 
+[DPtoLP](libraries/gdi32/DPtoLP.md)  
+Converts device coordinates into logical coordinates.  
+
+***  
+
 [DragAcceptFiles](libraries/user32/DragAcceptFiles.md)  
 Registers whether a window accepts dropped files.  
 
@@ -1229,7 +1257,7 @@ Extends the window frame behind the client area.
 
 ***  
 
-[EmptyClipboard](libraries/user32/EmptyClipboard.md)  
+<a name="E"></a>[EmptyClipboard](libraries/user32/EmptyClipboard.md)  
 The EmptyClipboard function empties the clipboard and frees handles to data in the clipboard  
 
 ***  
@@ -1299,16 +1327,6 @@ The EnumPorts function enumerates the ports that are available for printing on a
 
 ***  
 
-[EnumPrintProcessorDatatypes](libraries/winspool.drv/EnumPrintProcessorDatatypes.md)  
-The EnumPrintProcessorDatatypes function enumerates the data types that a specified print processor supports.  
-
-***  
-
-[EnumPrintProcessors](libraries/winspool.drv/EnumPrintProcessors.md)  
-The EnumPrintProcessors function enumerates the print processors installed on the specified server.  
-
-***  
-
 [EnumPrinterData](libraries/winspool.drv/EnumPrinterData.md)  
 The EnumPrinterData function enumerates configuration data for a specified printer.   
 
@@ -1324,13 +1342,23 @@ The EnumPrinters function enumerates available printers, print servers, domains,
 
 ***  
 
-[EnumProcessModules](libraries/psapi/EnumProcessModules.md)  
-The EnumProcessModules function retrieves a handle for each module in the specified process.  
+[EnumPrintProcessorDatatypes](libraries/winspool.drv/EnumPrintProcessorDatatypes.md)  
+The EnumPrintProcessorDatatypes function enumerates the data types that a specified print processor supports.  
+
+***  
+
+[EnumPrintProcessors](libraries/winspool.drv/EnumPrintProcessors.md)  
+The EnumPrintProcessors function enumerates the print processors installed on the specified server.  
 
 ***  
 
 [EnumProcesses](libraries/psapi/EnumProcesses.md)  
 The EnumProcesses function retrieves the process identifier for each process object in the system.  
+
+***  
+
+[EnumProcessModules](libraries/psapi/EnumProcessModules.md)  
+The EnumProcessModules function retrieves a handle for each module in the specified process.  
 
 ***  
 
@@ -1374,7 +1402,7 @@ Retrieves a handle to an icon from the specified executable file, dynamic-link l
 
 ***  
 
-[FatalAppExit](libraries/kernel32/FatalAppExit.md)  
+<a name="F"></a>[FatalAppExit](libraries/kernel32/FatalAppExit.md)  
 The FatalAppExit function displays a message box and terminates the application when the message box is closed.   
 
 ***  
@@ -1656,18 +1684,13 @@ Changes to a different working directory on the FTP server
 
 ***  
 
-[GdiFlush](libraries/gdi32/GdiFlush.md)  
+<a name="G"></a>[GdiFlush](libraries/gdi32/GdiFlush.md)  
 Flushes the calling thread`s current batch.  
 
 ***  
 
 [GdiGetBatchLimit](libraries/gdi32/GdiGetBatchLimit.md)  
 Returns the maximum number of function calls that can be accumulated in the calling thread`s current batch.   
-
-***  
-
-[GdiSetBatchLimit](libraries/gdi32/GdiSetBatchLimit.md)  
-Sets the maximum number of function calls that can be accumulated in the calling thread`s current batch. The system flushes the current batch whenever this limit is exceeded.   
 
 ***  
 
@@ -2042,6 +2065,16 @@ Creates an Image object based on a file.
 
 ***  
 
+[GdiplusShutdown](libraries/gdiplus/GdiplusShutdown.md)  
+The GdiplusShutdown function cleans up resources used by Microsoft® Windows® GDI+.  
+
+***  
+
+[GdiplusStartup](libraries/gdiplus/GdiplusStartup.md)  
+The GdiplusStartup function initializes Microsoft® Windows® GDI+.  
+
+***  
+
 [GdipMeasureString](libraries/gdiplus/GdipMeasureString.md)  
 Measures the extent of the string in the specified font, format, and layout rectangle.
   
@@ -2175,18 +2208,8 @@ Updates this Graphics object"s world transformation matrix with the product of i
 
 ***  
 
-[GdiplusShutdown](libraries/gdiplus/GdiplusShutdown.md)  
-The GdiplusShutdown function cleans up resources used by Microsoft® Windows® GDI+.  
-
-***  
-
-[GdiplusStartup](libraries/gdiplus/GdiplusStartup.md)  
-The GdiplusStartup function initializes Microsoft® Windows® GDI+.  
-
-***  
-
-[GetACP](libraries/kernel32/GetACP.md)  
-Retrieves the current ANSI code-page identifier for the system.  
+[GdiSetBatchLimit](libraries/gdi32/GdiSetBatchLimit.md)  
+Sets the maximum number of function calls that can be accumulated in the calling thread`s current batch. The system flushes the current batch whenever this limit is exceeded.   
 
 ***  
 
@@ -2199,6 +2222,11 @@ Obtains a pointer to an access control entry (ACE) in an access control list (AC
 [GetAclInformation](libraries/advapi32/GetAclInformation.md)  
 Retrieves information about an access control list (ACL).
   
+
+***  
+
+[GetACP](libraries/kernel32/GetACP.md)  
+Retrieves the current ANSI code-page identifier for the system.  
 
 ***  
 
@@ -2289,11 +2317,6 @@ Retrieves the coordinates of a window"s client area.
 
 ***  
 
-[GetClipCursor](libraries/user32/GetClipCursor.md)  
-Retrieves the screen coordinates of the rectangular area to which the cursor is confined.  
-
-***  
-
 [GetClipboardData](libraries/user32/GetClipboardData.md)  
 The GetClipboardData function retrieves data from the clipboard in a specified format. The clipboard must have been opened previously.  
 
@@ -2316,6 +2339,11 @@ Retrieves the clipboard sequence number for the current window station.
 
 [GetClipboardViewer](libraries/user32/GetClipboardViewer.md)  
 The GetClipboardViewer function retrieves the handle of the first window in the clipboard viewer chain  
+
+***  
+
+[GetClipCursor](libraries/user32/GetClipCursor.md)  
+Retrieves the screen coordinates of the rectangular area to which the cursor is confined.  
 
 ***  
 
@@ -2400,18 +2428,13 @@ Retrieves the cursor"s position, in screen coordinates.
 
 ***  
 
-[GetDC](libraries/user32/GetDC.md)  
-The GetDC function retrieves a handle of a display device context (DC) for the client area of the specified window  
-
-***  
-
-[GetDIBits](libraries/gdi32/GetDIBits.md)  
-The GetDIBits function retrieves the bits of the specified compatible bitmap and copies them into a buffer as a DIB using the specified format.   
-
-***  
-
 [GetDateFormat](libraries/kernel32/GetDateFormat.md)  
 Formats a date as a date string for a locale specified by the locale identifier. The function formats either a specified date or the local system date.  
+
+***  
+
+[GetDC](libraries/user32/GetDC.md)  
+The GetDC function retrieves a handle of a display device context (DC) for the client area of the specified window  
 
 ***  
 
@@ -2437,6 +2460,11 @@ The GetDeviceDriverBaseName function retrieves the base name of the specified de
 
 [GetDeviceDriverFileName](libraries/psapi/GetDeviceDriverFileName.md)  
 The GetDeviceDriverFileName function retrieves the fully qualified path for the specified device driver.  
+
+***  
+
+[GetDIBits](libraries/gdi32/GetDIBits.md)  
+The GetDIBits function retrieves the bits of the specified compatible bitmap and copies them into a buffer as a DIB using the specified format.   
 
 ***  
 
@@ -2578,13 +2606,18 @@ Retrieves the full path and file name of a specified file.
 
 ***  
 
+[GetGraphicsMode](libraries/gdi32/GetGraphicsMode.md)  
+Retrieves the current graphics mode for the specified device context.  
+
+***  
+
 [GetGUIThreadInfo](libraries/user32/GetGUIThreadInfo.md)  
 Retrieves information about the active window or a specified graphical user interface (GUI) thread.   
 
 ***  
 
-[GetGraphicsMode](libraries/gdi32/GetGraphicsMode.md)  
-Retrieves the current graphics mode for the specified device context.  
+[GetHandleInformation](libraries/kernel32/GetHandleInformation.md)  
+The GetHandleInformation function retrieves certain properties of an object handle.  
 
 ***  
 
@@ -2593,8 +2626,18 @@ The GetHGlobalFromStream function retrieves the global memory handle to a stream
 
 ***  
 
-[GetHandleInformation](libraries/kernel32/GetHandleInformation.md)  
-The GetHandleInformation function retrieves certain properties of an object handle.  
+[gethostbyaddr](libraries/ws2_32/gethostbyaddr.md)  
+The gethostbyaddr function retrieves the host information corresponding to a network address.  
+
+***  
+
+[gethostbyname](libraries/ws2_32/gethostbyname.md)  
+The gethostbyname function retrieves host information corresponding to a host name from a host database.  
+
+***  
+
+[gethostname](libraries/ws2_32/gethostname.md)  
+The gethostname function retrieves the standard host name for the local computer.  
 
 ***  
 
@@ -2633,16 +2676,6 @@ Returns the current code page.
 
 ***  
 
-[GetKeyNameText](libraries/user32/GetKeyNameText.md)  
-The GetKeyNameText function retrieves a string that represents the name of a key.  
-
-***  
-
-[GetKeyState](libraries/user32/GetKeyState.md)  
-The GetKeyState function retrieves the status of the specified virtual key. The status specifies whether the key is up, down, or toggled (on, off—alternating each time the key is pressed).   
-
-***  
-
 [GetKeyboardLayout](libraries/user32/GetKeyboardLayout.md)  
 The GetKeyboardLayout function retrieves the active input locale identifier (formerly called the keyboard layout) for the specified thread. If the idThread parameter is zero, the input locale identifier for the active thread is returned.  
 
@@ -2668,6 +2701,16 @@ Retrieves information about the current keyboard.
 
 ***  
 
+[GetKeyNameText](libraries/user32/GetKeyNameText.md)  
+The GetKeyNameText function retrieves a string that represents the name of a key.  
+
+***  
+
+[GetKeyState](libraries/user32/GetKeyState.md)  
+The GetKeyState function retrieves the status of the specified virtual key. The status specifies whether the key is up, down, or toggled (on, off—alternating each time the key is pressed).   
+
+***  
+
 [GetLastError](libraries/kernel32/GetLastError.md)  
 The GetLastError function retrieves the calling thread"s last-error code value.  
 
@@ -2678,23 +2721,23 @@ The GetLengthSid function returns the length, in bytes, of a valid security iden
 
 ***  
 
-[GetLocalTime](libraries/kernel32/GetLocalTime.md)  
-Retrieves the current local date and time.  
-
-***  
-
 [GetLocaleInfo](libraries/kernel32/GetLocaleInfo.md)  
 Retrieves information about a locale.  
 
 ***  
 
-[GetLogicalDriveStrings](libraries/kernel32/GetLogicalDriveStrings.md)  
-The GetLogicalDriveStrings function fills a buffer with strings that specify valid drives in the system  
+[GetLocalTime](libraries/kernel32/GetLocalTime.md)  
+Retrieves the current local date and time.  
 
 ***  
 
 [GetLogicalDrives](libraries/kernel32/GetLogicalDrives.md)  
 The GetLogicalDrives function retrieves a bitmask representing the currently available disk drives  
+
+***  
+
+[GetLogicalDriveStrings](libraries/kernel32/GetLogicalDriveStrings.md)  
+The GetLogicalDriveStrings function fills a buffer with strings that specify valid drives in the system  
 
 ***  
 
@@ -2804,6 +2847,11 @@ The GetNamedSecurityInfo function retrieves a copy of the security descriptor fo
 
 ***  
 
+[getnameinfo](libraries/ws2_32/getnameinfo.md)  
+Provides protocol-independent name resolution from an address to an ANSI host name and from a port number to the ANSI service name.  
+
+***  
+
 [GetNativeSystemInfo](libraries/kernel32/GetNativeSystemInfo.md)  
 Retrieves information about the current system to an application running under WOW64.   
 
@@ -2839,11 +2887,6 @@ Retrieves the number of physical monitors associated with an HMONITOR monitor ha
 
 ***  
 
-[GetOEMCP](libraries/kernel32/GetOEMCP.md)  
-Retrieves the current original equipment manufacturer (OEM) code-page identifier for the system.  
-
-***  
-
 [GetObject](libraries/gdi32/GetObject.md)  
 The GetObject function retrieves information for the specified graphics object.  
 
@@ -2851,6 +2894,11 @@ The GetObject function retrieves information for the specified graphics object.
 
 [GetObjectType](libraries/gdi32/GetObjectType.md)  
 The GetObjectType retrieves the type of the specified object.  
+
+***  
+
+[GetOEMCP](libraries/kernel32/GetOEMCP.md)  
+Retrieves the current original equipment manufacturer (OEM) code-page identifier for the system.  
 
 ***  
 
@@ -2884,11 +2932,6 @@ Retrieves the physical monitors associated with an HMONITOR monitor handle.
 
 ***  
 
-[GetPrintProcessorDirectory](libraries/winspool.drv/GetPrintProcessorDirectory.md)  
-The GetPrintProcessorDirectory function retrieves the path for the print processor on the specified server.   
-
-***  
-
 [GetPrinter](libraries/winspool.drv/GetPrinter.md)  
 The GetPrinter function retrieves information about a specified printer.   
 
@@ -2901,6 +2944,11 @@ The GetPrinterData function retrieves configuration data for the specified print
 
 [GetPrinterDriverDirectory](libraries/winspool.drv/GetPrinterDriverDirectory.md)  
 The GetPrinterDriverDirectory function retrieves the path of the printer-driver directory.   
+
+***  
+
+[GetPrintProcessorDirectory](libraries/winspool.drv/GetPrintProcessorDirectory.md)  
+The GetPrintProcessorDirectory function retrieves the path for the print processor on the specified server.   
 
 ***  
 
@@ -2980,6 +3028,16 @@ Retrieves a data handle from the property list of the specified window. The char
 
 ***  
 
+[getprotobyname](libraries/iphlpapi/getprotobyname.md)  
+The getprotobyname function retrieves the protocol information corresponding to a protocol name.  
+
+***  
+
+[getprotobynumber](libraries/ws2_32/getprotobynumber.md)  
+The getprotobynumber function retrieves protocol information corresponding to a protocol number.  
+
+***  
+
 [GetPwrCapabilities](libraries/powrprof/GetPwrCapabilities.md)  
 The GetPwrCapabilities function retrieves information about the system power capabilities.  
 
@@ -2987,11 +3045,6 @@ The GetPwrCapabilities function retrieves information about the system power cap
 
 [GetQueueStatus](libraries/user32/GetQueueStatus.md)  
 The GetQueueStatus function indicates the type of messages found in the calling thread"s message queue.  
-
-***  
-
-[GetRTTAndHopCount](libraries/iphlpapi/GetRTTAndHopCount.md)  
-The GetRTTAndHopCount function determines the round-trip time (RTT) and hop count to the specified destination.  
 
 ***  
 
@@ -3020,6 +3073,11 @@ Retrieves the bounding rectangle of the specified region.
 
 ***  
 
+[GetRTTAndHopCount](libraries/iphlpapi/GetRTTAndHopCount.md)  
+The GetRTTAndHopCount function determines the round-trip time (RTT) and hop count to the specified destination.  
+
+***  
+
 [GetSaveFileName](libraries/comdlg32/GetSaveFileName.md)  
 The GetSaveFileName function creates a Save dialog box that lets the user specify the drive, directory, and name of a file to save.  
 
@@ -3035,6 +3093,16 @@ The GetSecurityDescriptorOwner function retrieves the owner information from a s
 
 ***  
 
+[getservbyname](libraries/ws2_32/getservbyname.md)  
+The getservbyname function retrieves service information corresponding to a service name and protocol.  
+
+***  
+
+[getservbyport](libraries/ws2_32/getservbyport.md)  
+The getservbyport function retrieves service information corresponding to a port and protocol.  
+
+***  
+
 [GetShellWindow](libraries/user32/GetShellWindow.md)  
 The GetShellWindow function returns a handle to the Shell"s desktop window.  
 
@@ -3042,6 +3110,11 @@ The GetShellWindow function returns a handle to the Shell"s desktop window.
 
 [GetShortPathName](libraries/kernel32/GetShortPathName.md)  
 Retrieves the short path form of a specified input path  
+
+***  
+
+[getsockopt](libraries/ws2_32/getsockopt.md)  
+The getsockopt function retrieves a socket option.  
 
 ***  
 
@@ -3075,13 +3148,13 @@ Retrieves a handle identifying a logical brush that corresponds to the specified
 
 ***  
 
-[GetSystemDefaultLCID](libraries/kernel32/GetSystemDefaultLCID.md)  
-Retrieves the system default locale identifier.  
+[GetSystemDefaultLangID](libraries/kernel32/GetSystemDefaultLangID.md)  
+Retrieves the language identifier of the system locale.  
 
 ***  
 
-[GetSystemDefaultLangID](libraries/kernel32/GetSystemDefaultLangID.md)  
-Retrieves the language identifier of the system locale.  
+[GetSystemDefaultLCID](libraries/kernel32/GetSystemDefaultLCID.md)  
+Retrieves the system default locale identifier.  
 
 ***  
 
@@ -3249,13 +3322,13 @@ Retrieves information about a cache entry.
 
 ***  
 
-[GetUserDefaultLCID](libraries/kernel32/GetUserDefaultLCID.md)  
-Retrieves the user default–locale identifier.  
+[GetUserDefaultLangID](libraries/kernel32/GetUserDefaultLangID.md)  
+Retrieves the language identifier of the current user locale.  
 
 ***  
 
-[GetUserDefaultLangID](libraries/kernel32/GetUserDefaultLangID.md)  
-Retrieves the language identifier of the current user locale.  
+[GetUserDefaultLCID](libraries/kernel32/GetUserDefaultLCID.md)  
+Retrieves the user default–locale identifier.  
 
 ***  
 
@@ -3358,6 +3431,12 @@ Retrieves the dimensions of the tightest bounding rectangle for the window regio
 
 ***  
 
+[GetWindowsDirectory](libraries/kernel32/GetWindowsDirectory.md)  
+The GetWindowsDirectory function retrieves the path of the Windows directory. The Windows directory contains such files as applications, initialization files, and help files.
+  
+
+***  
+
 [GetWindowText](libraries/user32/GetWindowText.md)  
 The GetWindowText function copies the text of the specified window"s title bar (if it has one) into a buffer  
 
@@ -3370,12 +3449,6 @@ The GetWindowTextLength function retrieves the length, in characters, of the spe
 
 [GetWindowThreadProcessId](libraries/user32/GetWindowThreadProcessId.md)  
 Retrieves the identifier of the thread that created the specified window and, optionally, the identifier of the process that created the window.  
-
-***  
-
-[GetWindowsDirectory](libraries/kernel32/GetWindowsDirectory.md)  
-The GetWindowsDirectory function retrieves the path of the Windows directory. The Windows directory contains such files as applications, initialization files, and help files.
-  
 
 ***  
 
@@ -3430,7 +3503,7 @@ The GradientFill function fills rectangle and triangle structures.
 
 ***  
 
-[HashData](libraries/shlwapi/HashData.md)  
+<a name="H"></a>[HashData](libraries/shlwapi/HashData.md)  
 Hashes an array of data.  
 
 ***  
@@ -3482,6 +3555,16 @@ Enumerates the memory blocks in a specified heap created or manipulated by heap 
 
 ***  
 
+[htonl](libraries/ws2_32/htonl.md)  
+The htonl function converts a u_long from host to TCP/IP network byte order (which is big endian).  
+
+***  
+
+[htons](libraries/ws2_32/htons.md)  
+The htons function converts a u_short from host to TCP/IP network byte order (which is big-endian).  
+
+***  
+
 [HttpOpenRequest](libraries/wininet/HttpOpenRequest.md)  
 This function opens an HTTP request handle.  
 
@@ -3497,7 +3580,7 @@ This function sends the specified request to the HTTP server.
 
 ***  
 
-[IcmpCloseHandle](libraries/iphlpapi/IcmpCloseHandle.md)  
+<a name="I"></a>[IcmpCloseHandle](libraries/iphlpapi/IcmpCloseHandle.md)  
 Closes a handle opened by a call to IcmpCreateFile.  
 
 ***  
@@ -3510,6 +3593,16 @@ Opens a handle on which ICMP Echo Requests can be issued.
 
 [IcmpSendEcho](libraries/iphlpapi/IcmpSendEcho.md)  
 Sends an ICMP Echo request and returns any replies. The call returns when the time-out has expired or the reply buffer is filled.  
+
+***  
+
+[if_indextoname](libraries/iphlpapi/if_indextoname.md)  
+Converts the local index for a network interface to the ANSI interface name.  
+
+***  
+
+[if_nametoindex](libraries/iphlpapi/if_nametoindex.md)  
+Converts the ANSI interface name for a network interface to the local index for the interface.  
 
 ***  
 
@@ -3555,6 +3648,16 @@ The ImpersonateLoggedOnUser function lets the calling thread impersonate the sec
 
 [InetIsOffline](libraries/urlmon/InetIsOffline.md)  
 Determines whether or not the system is connected to the Internet.  
+
+***  
+
+[inet_addr](libraries/ws2_32/inet_addr.md)  
+The inet_addr function converts a string containing an (Ipv4) Internet Protocol dotted address into a proper address for the IN_ADDR structure.  
+
+***  
+
+[inet_ntoa](libraries/ws2_32/inet_ntoa.md)  
+The inet_ntoa function converts an (Ipv4) Internet network address into a string in Internet standard dotted format.  
 
 ***  
 
@@ -3795,7 +3898,7 @@ The IsZoomed function determines whether a window is maximized.
 
 ***  
 
-[JetAddColumn](libraries/esent/JetAddColumn.md)  
+<a name="J"></a>[JetAddColumn](libraries/esent/JetAddColumn.md)  
 Adds a new column to an existing table in an ESE database.  
 
 ***  
@@ -3918,13 +4021,19 @@ Performs an update operation including inserting a new row into a table or updat
 
 ***  
 
-[LCIDToLocaleName](libraries/kernel32/LCIDToLocaleName.md)  
+<a name="K"></a>[keybd_event](libraries/user32/keybd_event.md)  
+Synthesizes a keystroke. 
+  
+
+***  
+
+<a name="L"></a>[LCIDToLocaleName](libraries/kernel32/LCIDToLocaleName.md)  
 Converts a locale identifier to a locale name.  
 
 ***  
 
-[LPtoDP](libraries/gdi32/LPtoDP.md)  
-Converts logical coordinates into device coordinates.   
+[listen](libraries/ws2_32/listen.md)  
+The listen function places a socket in a state in which it is listening for an incoming connection.  
 
 ***  
 
@@ -3977,6 +4086,11 @@ The LocalAlloc function allocates the specified number of bytes from the heap.
 
 ***  
 
+[LocaleNameToLCID](libraries/kernel32/LocaleNameToLCID.md)  
+Converts a locale name to a locale identifier.  
+
+***  
+
 [LocalFileTimeToFileTime](libraries/kernel32/LocalFileTimeToFileTime.md)  
 Converts a local file time to a file time based on the Coordinated Universal Time (UTC).  
 
@@ -3989,11 +4103,6 @@ The LocalFree function frees the specified local memory object and invalidates i
 
 [LocalSize](libraries/kernel32/LocalSize.md)  
 The LocalSize function returns the current size of the specified local memory object, in bytes.  
-
-***  
-
-[LocaleNameToLCID](libraries/kernel32/LocaleNameToLCID.md)  
-Converts a locale name to a locale identifier.  
 
 ***  
 
@@ -4054,6 +4163,11 @@ Retrieves the locally unique identifier (LUID) used on a specified system to loc
 
 ***  
 
+[LPtoDP](libraries/gdi32/LPtoDP.md)  
+Converts logical coordinates into device coordinates.   
+
+***  
+
 [LsaClose](libraries/advapi32/LsaClose.md)  
 The LsaClose function closes a handle to a Policy or TrustedDomain object.  
 
@@ -4090,7 +4204,7 @@ The LsaOpenPolicy function opens a handle to the Policy object on a local or rem
 
 ***  
 
-[MAPIAddress](libraries/mapi32/MAPIAddress.md)  
+<a name="M"></a>[MAPIAddress](libraries/mapi32/MAPIAddress.md)  
 The MAPIAddress function creates or modifies a set of address list entries.  
 
 ***  
@@ -4135,6 +4249,199 @@ The MAPISendMail function sends a message.
 
 ***  
 
+[MapViewOfFile](libraries/kernel32/MapViewOfFile.md)  
+The MapViewOfFile function maps a view of a file mapping into the address space of the calling process.  
+
+***  
+
+[MapVirtualKey](libraries/user32/MapVirtualKey.md)  
+Translates (maps) a virtual-key code into a scan code or character value, or translates a scan code into a virtual-key code.  
+
+***  
+
+[mciGetDeviceID](libraries/winmm/mciGetDeviceID.md)  
+Retrieves the device identifier corresponding to the name of an open device.  
+
+***  
+
+[mciGetErrorString](libraries/winmm/mciGetErrorString.md)  
+The mciGetErrorString function retrieves a string that describes the specified MCI error code.   
+
+***  
+
+[mciSendCommand](libraries/winmm/mciSendCommand.md)  
+Sends a command message to the specified MCI device.  
+
+***  
+
+[mciSendString](libraries/winmm/mciSendString.md)  
+The <b>mciSendString</b> function sends a command string to an MCI device. The device that the command is sent to is specified in the command string.   
+
+***  
+
+[MessageBeep](libraries/user32/MessageBeep.md)  
+Plays a waveform sound. The waveform sound for each sound type is identified by an entry in the [sounds] section of the registry  
+
+***  
+
+[MessageBox](libraries/user32/MessageBox.md)  
+Creates, displays, and operates a message box. The message box contains an application-defined message and title, plus any combination of predefined icons and push buttons  
+
+***  
+
+[MessageBoxIndirect](libraries/user32/MessageBoxIndirect.md)  
+Creates, displays, and operates a message box. The message box contains application-defined message text and title, any icon, and any combination of predefined push buttons.
+  
+
+***  
+
+[midiOutClose](libraries/winmm/midiOutClose.md)  
+Closes the specified MIDI output device.
+  
+
+***  
+
+[midiOutGetDevCaps](libraries/winmm/midiOutGetDevCaps.md)  
+Queries a specified MIDI output device to determine its capabilities.
+  
+
+***  
+
+[midiOutGetNumDevs](libraries/winmm/midiOutGetNumDevs.md)  
+Retrieves the number of MIDI output devices present in the system.  
+
+***  
+
+[midiOutOpen](libraries/winmm/midiOutOpen.md)  
+Opens a MIDI output device for playback.
+  
+
+***  
+
+[midiOutReset](libraries/winmm/midiOutReset.md)  
+Turns off all notes on all MIDI channels for the specified MIDI output device.  
+
+***  
+
+[midiOutShortMsg](libraries/winmm/midiOutShortMsg.md)  
+Sends a short MIDI message to the specified MIDI output device.  
+
+***  
+
+[mixerClose](libraries/winmm/mixerClose.md)  
+The mixerClose function closes the specified mixer device.  
+
+***  
+
+[mixerGetControlDetails](libraries/winmm/mixerGetControlDetails.md)  
+Retrieves details about a single control associated with an audio line.  
+
+***  
+
+[mixerGetDevCaps](libraries/winmm/mixerGetDevCaps.md)  
+The mixerGetDevCaps function queries a specified mixer device to determine its capabilities.  
+
+***  
+
+[mixerGetID](libraries/winmm/mixerGetID.md)  
+Retrieves the device identifier for a mixer device associated with a specified device handle.  
+
+***  
+
+[mixerGetLineControls](libraries/winmm/mixerGetLineControls.md)  
+The mixerGetLineControls function retrieves one or more controls associated with an audio line.  
+
+***  
+
+[mixerGetLineInfo](libraries/winmm/mixerGetLineInfo.md)  
+The mixerGetLineInfo function retrieves information about a specific line of a mixer device.  
+
+***  
+
+[mixerGetNumDevs](libraries/winmm/mixerGetNumDevs.md)  
+The mixerGetNumDevs function retrieves the number of mixer devices present in the system.  
+
+***  
+
+[mixerOpen](libraries/winmm/mixerOpen.md)  
+The mixerOpen function opens a specified mixer device and ensures that the device will not be removed until the application closes the handle.  
+
+***  
+
+[mixerSetControlDetails](libraries/winmm/mixerSetControlDetails.md)  
+Sets properties of a single control associated with an audio line.  
+
+***  
+
+[mmioAscend](libraries/winmm/mmioAscend.md)  
+The mmioAscend function ascends out of a chunk in a RIFF file descended into with the mmioDescend function or created with the mmioCreateChunk function.  
+
+***  
+
+[mmioClose](libraries/winmm/mmioClose.md)  
+The mmioClose function closes a file that was opened by using the mmioOpen function.  
+
+***  
+
+[mmioCreateChunk](libraries/winmm/mmioCreateChunk.md)  
+The mmioCreateChunk function creates a chunk in a RIFF file that was opened by using the mmioOpen function.  
+
+***  
+
+[mmioDescend](libraries/winmm/mmioDescend.md)  
+The mmioDescend function descends into a chunk of a RIFF file that was opened by using the mmioOpen function. It can also search for a given chunk.  
+
+***  
+
+[mmioFlush](libraries/winmm/mmioFlush.md)  
+The mmioFlush function writes the I/O buffer of a file to disk if the buffer has been written to.  
+
+***  
+
+[mmioOpen](libraries/winmm/mmioOpen.md)  
+The mmioOpen function opens a file for unbuffered or buffered I/O. The file can be a standard file, a memory file, or an element of a custom storage system.  
+
+***  
+
+[mmioRead](libraries/winmm/mmioRead.md)  
+The mmioRead function reads a specified number of bytes from a file opened by using the mmioOpen function.  
+
+***  
+
+[mmioSeek](libraries/winmm/mmioSeek.md)  
+Changes the current file position in a file opened by using the mmioOpen function.   
+
+***  
+
+[mmioWrite](libraries/winmm/mmioWrite.md)  
+Writes a specified number of bytes to a file opened by using the mmioOpen function.
+  
+
+***  
+
+[MonitorFromWindow](libraries/user32/MonitorFromWindow.md)  
+Retrieves a handle to the display monitor that has the largest area of intersection with the bounding rectangle of a specified window. 
+  
+
+***  
+
+[MoveFile](libraries/kernel32/MoveFile.md)  
+The MoveFile function moves an existing file or a directory, including its children.
+
+To specify how to move the file, use the MoveFileEx function  
+
+***  
+
+[MoveFileTransacted](libraries/kernel32/MoveFileTransacted.md)  
+Moves an existing file or a directory, including its children, as a transacted operation.  
+
+***  
+
+[MoveWindow](libraries/user32/MoveWindow.md)  
+The MoveWindow function changes the position and dimensions of the specified window.  
+
+***  
+
 [MQCloseQueue](libraries/mqrt/MQCloseQueue.md)  
 Closes a given queue or subqueue.  
 
@@ -4165,61 +4472,12 @@ Deletes all of the messages in a queue.
 
 ***  
 
-[MapViewOfFile](libraries/kernel32/MapViewOfFile.md)  
-The MapViewOfFile function maps a view of a file mapping into the address space of the calling process.  
-
-***  
-
-[MapVirtualKey](libraries/user32/MapVirtualKey.md)  
-Translates (maps) a virtual-key code into a scan code or character value, or translates a scan code into a virtual-key code.  
-
-***  
-
-[MessageBeep](libraries/user32/MessageBeep.md)  
-Plays a waveform sound. The waveform sound for each sound type is identified by an entry in the [sounds] section of the registry  
-
-***  
-
-[MessageBox](libraries/user32/MessageBox.md)  
-Creates, displays, and operates a message box. The message box contains an application-defined message and title, plus any combination of predefined icons and push buttons  
-
-***  
-
-[MessageBoxIndirect](libraries/user32/MessageBoxIndirect.md)  
-Creates, displays, and operates a message box. The message box contains application-defined message text and title, any icon, and any combination of predefined push buttons.
-  
-
-***  
-
-[MonitorFromWindow](libraries/user32/MonitorFromWindow.md)  
-Retrieves a handle to the display monitor that has the largest area of intersection with the bounding rectangle of a specified window. 
-  
-
-***  
-
-[MoveFile](libraries/kernel32/MoveFile.md)  
-The MoveFile function moves an existing file or a directory, including its children.
-
-To specify how to move the file, use the MoveFileEx function  
-
-***  
-
-[MoveFileTransacted](libraries/kernel32/MoveFileTransacted.md)  
-Moves an existing file or a directory, including its children, as a transacted operation.  
-
-***  
-
-[MoveWindow](libraries/user32/MoveWindow.md)  
-The MoveWindow function changes the position and dimensions of the specified window.  
-
-***  
-
 [MultiByteToWideChar](libraries/kernel32/MultiByteToWideChar.md)  
 The MultiByteToWideChar function maps a character string to a wide-character (Unicode) string.  
 
 ***  
 
-[NetApiBufferFree](libraries/netapi32/NetApiBufferFree.md)  
+<a name="N"></a>[NetApiBufferFree](libraries/netapi32/NetApiBufferFree.md)  
 Frees the memory that the NetApiBufferAllocate function allocates. Call NetApiBufferFree to free the memory that other network management functions return on Windows NT, Windows 2000, and Windows XP.  
 
 ***  
@@ -4419,7 +4677,17 @@ Normalizes characters of a text string according to Unicode 4.0 TR#15.
 
 ***  
 
-[ObtainUserAgentString](libraries/urlmon/ObtainUserAgentString.md)  
+[ntohl](libraries/ws2_32/ntohl.md)  
+The ntohl function converts a u_long from TCP/IP network order to host byte order (which is little-endian on Intel processors).  
+
+***  
+
+[ntohs](libraries/ws2_32/ntohs.md)  
+The ntohs function converts a u_short from TCP/IP network byte order to host byte order (which is little-endian on Intel processors).  
+
+***  
+
+<a name="O"></a>[ObtainUserAgentString](libraries/urlmon/ObtainUserAgentString.md)  
 Retrieves the user agent string in use.  
 
 ***  
@@ -4503,7 +4771,7 @@ Opens an existing named waitable timer object.
 
 ***  
 
-[PageSetupDlg](libraries/comdlg32/PageSetupDlg.md)  
+<a name="P"></a>[PageSetupDlg](libraries/comdlg32/PageSetupDlg.md)  
 The PageSetupDlg function creates a Page Setup dialog box that enables the user to specify the attributes of a printed page.  
 
 ***  
@@ -4665,7 +4933,7 @@ Retrieves information about the next process recorded in a system snapshot.
 
 ***  
 
-[QueryDosDevice](libraries/kernel32/QueryDosDevice.md)  
+<a name="Q"></a>[QueryDosDevice](libraries/kernel32/QueryDosDevice.md)  
 Retrieves information about MS-DOS device names.  
 
 ***  
@@ -4680,7 +4948,7 @@ The QueryPerformanceFrequency function retrieves the frequency of the high-resol
 
 ***  
 
-[RasEnumAutodialAddresses](libraries/rasapi32/RasEnumAutodialAddresses.md)  
+<a name="R"></a>[RasEnumAutodialAddresses](libraries/rasapi32/RasEnumAutodialAddresses.md)  
 The RasEnumAutodialAddresses function returns a list of all addresses in the AutoDial mapping database.  
 
 ***  
@@ -4740,6 +5008,16 @@ Retrieves a string that specifies the window type
 
 ***  
 
+[recv](libraries/ws2_32/recv.md)  
+The <Strong>recv</Strong> function receives data from a connected or bound socket.  
+
+***  
+
+[recvfrom](libraries/ws2_32/recvfrom.md)  
+Receives a datagram and stores the source address.  
+
+***  
+
 [RegCloseKey](libraries/advapi32/RegCloseKey.md)  
 The RegCloseKey function releases a handle to the specified registry key.  
 
@@ -4775,31 +5053,6 @@ Enumerates the values for the specified open registry key.
 
 ***  
 
-[RegOpenKeyEx](libraries/advapi32/RegOpenKeyEx.md)  
-The RegOpenKeyEx function opens the specified registry key.  
-
-***  
-
-[RegQueryInfoKey](libraries/advapi32/RegQueryInfoKey.md)  
-The RegQueryInfoKey function retrieves information about the specified registry key.  
-
-***  
-
-[RegQueryValueEx](libraries/advapi32/RegQueryValueEx.md)  
-Retrieves the type and data for a specified value name associated with an open registry key.  
-
-***  
-
-[RegSaveKey](libraries/advapi32/RegSaveKey.md)  
-The RegSaveKey function saves the specified key and all of its subkeys and values to a new file.  
-
-***  
-
-[RegSetValueEx](libraries/advapi32/RegSetValueEx.md)  
-The RegSetValueEx function sets the data and type of a specified value under a registry key.  
-
-***  
-
 [RegisterClassEx](libraries/user32/RegisterClassEx.md)  
 Registers a window class for subsequent use in calls to the CreateWindow or CreateWindowEx function.  
 
@@ -4827,6 +5080,31 @@ Registers the devices that supply the raw input data.
 
 [RegisterServiceProcess](libraries/kernel32/RegisterServiceProcess.md)  
 The RegisterServiceProcess function registers or unregisters a service process. A service process continues to run after the user logs off.   
+
+***  
+
+[RegOpenKeyEx](libraries/advapi32/RegOpenKeyEx.md)  
+The RegOpenKeyEx function opens the specified registry key.  
+
+***  
+
+[RegQueryInfoKey](libraries/advapi32/RegQueryInfoKey.md)  
+The RegQueryInfoKey function retrieves information about the specified registry key.  
+
+***  
+
+[RegQueryValueEx](libraries/advapi32/RegQueryValueEx.md)  
+Retrieves the type and data for a specified value name associated with an open registry key.  
+
+***  
+
+[RegSaveKey](libraries/advapi32/RegSaveKey.md)  
+The RegSaveKey function saves the specified key and all of its subkeys and values to a new file.  
+
+***  
+
+[RegSetValueEx](libraries/advapi32/RegSetValueEx.md)  
+The RegSetValueEx function sets the data and type of a specified value under a registry key.  
 
 ***  
 
@@ -4920,7 +5198,7 @@ This function is used to determine the correct size of the WorkSpace buffer for 
 
 ***  
 
-[SCardConnect](libraries/winscard/SCardConnect.md)  
+<a name="S"></a>[SCardConnect](libraries/winscard/SCardConnect.md)  
 Establishes a connection (using a specific resource manager context) between the calling application and a smart card contained by a specific reader.
   
 
@@ -4995,251 +5273,6 @@ Sends a service request to the smart card and expects to receive data back from 
 
 ***  
 
-[SHAddToRecentDocs](libraries/shell32/SHAddToRecentDocs.md)  
-Adds a document to the Shell"s list of recently used documents or clears all documents from the list.  
-
-***  
-
-[SHBrowseForFolder](libraries/shell32/SHBrowseForFolder.md)  
-Displays a dialog box that enables the user to select a Shell folder.   
-
-***  
-
-[SHCreateDirectory](libraries/shell32/SHCreateDirectory.md)  
-Creates a folder.  
-
-***  
-
-[SHEmptyRecycleBin](libraries/shell32/SHEmptyRecycleBin.md)  
-Empties the Recycle Bin on the specified drive.   
-
-***  
-
-[SHEnumKeyEx](libraries/shlwapi/SHEnumKeyEx.md)  
-Enumerates the subkeys of the specified open registry key.  
-
-***  
-
-[SHFileOperation](libraries/shell32/SHFileOperation.md)  
-Copies, moves, renames, or deletes a file system object.  
-
-***  
-
-[SHFormatDrive](libraries/shell32/SHFormatDrive.md)  
-The SHFormatDrive API provides access to the Shell"s format dialog box. This allows applications that want to format disks to bring up the same dialog box that the Shell uses for disk formatting.
-  
-
-***  
-
-[SHGetFileInfo](libraries/shell32/SHGetFileInfo.md)  
-Retrieves information about an object in the file system, such as a file, a folder, a directory, or a drive root.
-  
-
-***  
-
-[SHGetFolderPath](libraries/shell32/SHGetFolderPath.md)  
-Takes the CSIDL of a folder and returns the pathname.  
-
-***  
-
-[SHGetPathFromIDList](libraries/shell32/SHGetPathFromIDList.md)  
-Converts an item identifier list to a file system path. 
-  
-
-***  
-
-[SHGetSpecialFolderLocation](libraries/shell32/SHGetSpecialFolderLocation.md)  
-Retrieves a pointer to the ITEMIDLIST structure of a special folder.  
-
-***  
-
-[SHGetStockIconInfo](libraries/shell32/SHGetStockIconInfo.md)  
-Retrieves information about system-defined Shell icons.  
-
-***  
-
-[SHParseDisplayName](libraries/shell32/SHParseDisplayName.md)  
-Translates a Shell namespace object"s display name into an item identifier list and returns the attributes of the object. This function is the preferred method to convert a string to a pointer to an item identifier list (PIDL).  
-
-***  
-
-[SHQueryRecycleBin](libraries/shell32/SHQueryRecycleBin.md)  
-Retrieves the size of the Recycle Bin, and the number of items in it, on the specified drive.   
-
-***  
-
-[SHRegCloseUSKey](libraries/shlwapi/SHRegCloseUSKey.md)  
-Closes a handle to a user-specific registry key.  
-
-***  
-
-[SHRegEnumUSKey](libraries/shlwapi/SHRegEnumUSKey.md)  
-Enumerates the subkeys of a user-specific key.  
-
-***  
-
-[SHRegOpenUSKey](libraries/shlwapi/SHRegOpenUSKey.md)  
-Opens a user-specific registry key.  
-
-***  
-
-[SHSimpleIDListFromPath](libraries/shell32/SHSimpleIDListFromPath.md)  
-Returns a pointer to an ITEMIDLIST structure when passed a path.  
-
-***  
-
-[SQLAllocEnv](libraries/odbc32/SQLAllocEnv.md)  
-In ODBC 3.x, the ODBC 2.x function SQLAllocEnv has been replaced by SQLAllocHandle.  
-
-***  
-
-[SQLAllocHandle](libraries/odbc32/SQLAllocHandle.md)  
-SQLAllocHandle allocates an environment, connection, statement, or descriptor handle.  
-
-***  
-
-[SQLBindCol](libraries/odbc32/SQLBindCol.md)  
-SQLBindCol binds application data buffers to columns in the result set.  
-
-***  
-
-[SQLBrowseConnect](libraries/odbc32/SQLBrowseConnect.md)  
-SQLBrowseConnect supports an iterative method of discovering and enumerating the attributes and attribute values required to connect to a data source. Each call to SQLBrowseConnect returns successive levels of attributes and attribute values.  
-
-***  
-
-[SQLConfigDataSource](libraries/odbc32/SQLConfigDataSource.md)  
-SQLConfigDataSource adds, modifies, or deletes data sources.  
-
-***  
-
-[SQLConnect](libraries/odbc32/SQLConnect.md)  
-SQLConnect establishes connections to a driver and a data source.   
-
-***  
-
-[SQLCreateDataSource](libraries/odbc32/SQLCreateDataSource.md)  
-SQLCreateDataSource displays a dialog box with which the user can add a data source.  
-
-***  
-
-[SQLDataSources](libraries/odbc32/SQLDataSources.md)  
-SQLDataSources returns information about a data source. This function is implemented solely by the Driver Manager.  
-
-***  
-
-[SQLDisconnect](libraries/odbc32/SQLDisconnect.md)  
-SQLDisconnect closes the connection associated with a specific connection handle.  
-
-***  
-
-[SQLDriverConnect](libraries/odbc32/SQLDriverConnect.md)  
-SQLDriverConnect is an alternative to SQLConnect. It supports data sources that require more connection information than the three arguments in SQLConnect, dialog boxes to prompt the user for all connection information, and data sources that are not defined in the system information.  
-
-***  
-
-[SQLDrivers](libraries/odbc32/SQLDrivers.md)  
-SQLDrivers lists driver descriptions and driver attribute keywords.  
-
-***  
-
-[SQLExecDirect](libraries/odbc32/SQLExecDirect.md)  
-SQLExecDirect executes a preparable statement, using the current values of the parameter marker variables if any parameters exist in the statement.  
-
-***  
-
-[SQLFetch](libraries/odbc32/SQLFetch.md)  
-SQLFetch fetches the next rowset of data from the result set and returns data for all bound columns.  
-
-***  
-
-[SQLFreeEnv](libraries/odbc32/SQLFreeEnv.md)  
-In ODBC 3.x, the ODBC 2.0 function SQLFreeEnv has been replaced by SQLFreeHandle.  
-
-***  
-
-[SQLFreeHandle](libraries/odbc32/SQLFreeHandle.md)  
-SQLFreeHandle frees resources associated with a specific environment, connection, statement, or descriptor handle.  
-
-***  
-
-[SQLGetConfigMode](libraries/odbc32/SQLGetConfigMode.md)  
-Retrieves the configuration mode that indicates where the Odbc.ini entry listing DSN values is in the system information.
-  
-
-***  
-
-[SQLGetConnectAttr](libraries/odbc32/SQLGetConnectAttr.md)  
-SQLGetConnectAttr returns the current setting of a connection attribute.  
-
-***  
-
-[SQLGetDiagRec](libraries/odbc32/SQLGetDiagRec.md)  
-SQLGetDiagRec returns the current values of multiple fields of a diagnostic record that contains error, warning, and status information.   
-
-***  
-
-[SQLGetEnvAttr](libraries/odbc32/SQLGetEnvAttr.md)  
-SQLGetEnvAttr returns the current setting of an environment attribute.  
-
-***  
-
-[SQLGetFunctions](libraries/odbc32/SQLGetFunctions.md)  
-SQLGetFunctions returns information about whether a driver supports a specific ODBC function.   
-
-***  
-
-[SQLGetInfo](libraries/odbc32/SQLGetInfo.md)  
-SQLGetInfo returns general information about the driver and data source associated with a connection.  
-
-***  
-
-[SQLGetInstalledDrivers](libraries/odbc32/SQLGetInstalledDrivers.md)  
-SQLGetInstalledDrivers reads the [ODBC Drivers] section of the system information and returns a list of descriptions of the installed drivers.  
-
-***  
-
-[SQLGetPrivateProfileString](libraries/odbc32/SQLGetPrivateProfileString.md)  
-SQLGetPrivateProfileString gets a list of names of values or data corresponding to a value of the system information.  
-
-***  
-
-[SQLInstallerError](libraries/odbccp32/SQLInstallerError.md)  
-SQLInstallerError returns error or status information for the ODBC installer functions.  
-
-***  
-
-[SQLManageDataSources](libraries/odbc32/SQLManageDataSources.md)  
-SQLManageDataSources displays a dialog box with which users can set up, add, and delete data sources in the system information.  
-
-***  
-
-[SQLNativeSql](libraries/odbc32/SQLNativeSql.md)  
-SQLNativeSql returns the SQL string as modified by the driver. SQLNativeSql does not execute the SQL statement.  
-
-***  
-
-[SQLRowCount](libraries/odbc32/SQLRowCount.md)  
-SQLRowCount returns the number of rows affected by an UPDATE, INSERT, or DELETE statement.  
-
-***  
-
-[SQLSetConfigMode](libraries/odbc32/SQLSetConfigMode.md)  
-Sets the configuration mode that indicates where the Odbc.ini entry listing DSN values is in the system information.
-  
-
-***  
-
-[SQLSetEnvAttr](libraries/odbc32/SQLSetEnvAttr.md)  
-SQLSetEnvAttr sets attributes that govern aspects of environments.  
-
-***  
-
-[SQLTables](libraries/odbc32/SQLTables.md)  
-Returns the list of table, catalog, or schema names, and table types, stored in a specific data source. The driver returns the information as a result set.  
-
-***  
-
 [ScreenToClient](libraries/user32/ScreenToClient.md)  
 The ScreenToClient function converts the screen coordinates of a specified point on the screen to client-area coordinates.  
 
@@ -5256,6 +5289,12 @@ Selects an object into the specified device context (DC). The new object replace
 
 ***  
 
+[send](libraries/ws2_32/send.md)  
+The <Strong>send</Strong> function sends data on a connected socket.
+  
+
+***  
+
 [SendARP](libraries/iphlpapi/SendARP.md)  
 Sends an ARP request to obtain the physical address that corresponds to the specified destination IP address.  
 
@@ -5263,6 +5302,11 @@ Sends an ARP request to obtain the physical address that corresponds to the spec
 
 [SendMessage](libraries/user32/SendMessage.md)  
 Sends the specified message to a window or windows. It calls the window procedure for the specified window and does not return until the window procedure has processed the message.   
+
+***  
+
+[sendto](libraries/ws2_32/sendto.md)  
+Sends data to a specific destination.  
 
 ***  
 
@@ -5481,6 +5525,11 @@ Sets the per-process mode that the SearchPath function uses when locating files.
 
 ***  
 
+[setsockopt](libraries/ws2_32/setsockopt.md)  
+The setsockopt function sets a socket option.  
+
+***  
+
 [SetSuspendState](libraries/powrprof/SetSuspendState.md)  
 The SetSuspendState function suspends the system by shutting power down. Depending on the Hibernate parameter, the system either enters a suspend (sleep) state or hibernation (S4).  
 
@@ -5531,51 +5580,6 @@ The SetTimeZoneInformation function sets the current time-zone parameters. These
 
 ***  
 
-[SetUserGeoID](libraries/kernel32/SetUserGeoID.md)  
-Sets the geographical location identifier for the user. This identifier should have one of the values described in Table of Geographical Locations.  
-
-***  
-
-[SetVolumeLabel](libraries/kernel32/SetVolumeLabel.md)  
-The SetVolumeLabel function sets the label of a file system volume.  
-
-***  
-
-[SetVolumeMountPoint](libraries/kernel32/SetVolumeMountPoint.md)  
-Mounts the specified volume at the specified volume mount point.  
-
-***  
-
-[SetWaitableTimer](libraries/kernel32/SetWaitableTimer.md)  
-Activates the specified waitable timer. When the due time arrives, the timer is signaled and the thread that set the timer calls the optional completion routine.  
-
-***  
-
-[SetWindowLong](libraries/user32/SetWindowLong.md)  
-Changes an attribute of the specified window. The function also sets the 32-bit (long) value at the specified offset into the extra window memory.  
-
-***  
-
-[SetWindowPos](libraries/user32/SetWindowPos.md)  
-The SetWindowPos function changes the size, position, and Z order of a child, pop-up, or top-level window.  
-
-***  
-
-[SetWindowRgn](libraries/user32/SetWindowRgn.md)  
-Sets the window region of a window. The window region determines the area within the window where the system permits drawing. The system does not display any portion of a window that lies outside of the window region  
-
-***  
-
-[SetWindowText](libraries/user32/SetWindowText.md)  
-Changes the text of the specified window"s title bar (if it has one). If the specified window is a control, the text of the control is changed.  
-
-***  
-
-[SetWindowsHookEx](libraries/user32/SetWindowsHookEx.md)  
-Installs an application-defined hook procedure into a hook chain.  
-
-***  
-
 [SetupCloseInfFile](libraries/setupapi/SetupCloseInfFile.md)  
 Closes the INF file opened by a call to SetupOpenInfFile and any INF files appended to it by SetupOpenAppendInfFile.  
 
@@ -5614,6 +5618,66 @@ The SetupOpenInfFile function opens an INF file and returns a handle to it.
 
 ***  
 
+[SetUserGeoID](libraries/kernel32/SetUserGeoID.md)  
+Sets the geographical location identifier for the user. This identifier should have one of the values described in Table of Geographical Locations.  
+
+***  
+
+[SetVolumeLabel](libraries/kernel32/SetVolumeLabel.md)  
+The SetVolumeLabel function sets the label of a file system volume.  
+
+***  
+
+[SetVolumeMountPoint](libraries/kernel32/SetVolumeMountPoint.md)  
+Mounts the specified volume at the specified volume mount point.  
+
+***  
+
+[SetWaitableTimer](libraries/kernel32/SetWaitableTimer.md)  
+Activates the specified waitable timer. When the due time arrives, the timer is signaled and the thread that set the timer calls the optional completion routine.  
+
+***  
+
+[SetWindowLong](libraries/user32/SetWindowLong.md)  
+Changes an attribute of the specified window. The function also sets the 32-bit (long) value at the specified offset into the extra window memory.  
+
+***  
+
+[SetWindowPos](libraries/user32/SetWindowPos.md)  
+The SetWindowPos function changes the size, position, and Z order of a child, pop-up, or top-level window.  
+
+***  
+
+[SetWindowRgn](libraries/user32/SetWindowRgn.md)  
+Sets the window region of a window. The window region determines the area within the window where the system permits drawing. The system does not display any portion of a window that lies outside of the window region  
+
+***  
+
+[SetWindowsHookEx](libraries/user32/SetWindowsHookEx.md)  
+Installs an application-defined hook procedure into a hook chain.  
+
+***  
+
+[SetWindowText](libraries/user32/SetWindowText.md)  
+Changes the text of the specified window"s title bar (if it has one). If the specified window is a control, the text of the control is changed.  
+
+***  
+
+[SHAddToRecentDocs](libraries/shell32/SHAddToRecentDocs.md)  
+Adds a document to the Shell"s list of recently used documents or clears all documents from the list.  
+
+***  
+
+[SHBrowseForFolder](libraries/shell32/SHBrowseForFolder.md)  
+Displays a dialog box that enables the user to select a Shell folder.   
+
+***  
+
+[SHCreateDirectory](libraries/shell32/SHCreateDirectory.md)  
+Creates a folder.  
+
+***  
+
 [ShellAbout](libraries/shell32/ShellAbout.md)  
 Displays a Shell About dialog box  
 
@@ -5639,6 +5703,54 @@ Sends a message to the taskbar"s status area.
 
 ***  
 
+[SHEmptyRecycleBin](libraries/shell32/SHEmptyRecycleBin.md)  
+Empties the Recycle Bin on the specified drive.   
+
+***  
+
+[SHEnumKeyEx](libraries/shlwapi/SHEnumKeyEx.md)  
+Enumerates the subkeys of the specified open registry key.  
+
+***  
+
+[SHFileOperation](libraries/shell32/SHFileOperation.md)  
+Copies, moves, renames, or deletes a file system object.  
+
+***  
+
+[SHFormatDrive](libraries/shell32/SHFormatDrive.md)  
+The SHFormatDrive API provides access to the Shell"s format dialog box. This allows applications that want to format disks to bring up the same dialog box that the Shell uses for disk formatting.
+  
+
+***  
+
+[SHGetFileInfo](libraries/shell32/SHGetFileInfo.md)  
+Retrieves information about an object in the file system, such as a file, a folder, a directory, or a drive root.
+  
+
+***  
+
+[SHGetFolderPath](libraries/shell32/SHGetFolderPath.md)  
+Takes the CSIDL of a folder and returns the pathname.  
+
+***  
+
+[SHGetPathFromIDList](libraries/shell32/SHGetPathFromIDList.md)  
+Converts an item identifier list to a file system path. 
+  
+
+***  
+
+[SHGetSpecialFolderLocation](libraries/shell32/SHGetSpecialFolderLocation.md)  
+Retrieves a pointer to the ITEMIDLIST structure of a special folder.  
+
+***  
+
+[SHGetStockIconInfo](libraries/shell32/SHGetStockIconInfo.md)  
+Retrieves information about system-defined Shell icons.  
+
+***  
+
 [ShowCursor](libraries/user32/ShowCursor.md)  
 The ShowCursor function displays or hides the cursor.  
 
@@ -5654,6 +5766,36 @@ The ShowWindow function sets the show state for the specified window.
 
 ***  
 
+[SHParseDisplayName](libraries/shell32/SHParseDisplayName.md)  
+Translates a Shell namespace object"s display name into an item identifier list and returns the attributes of the object. This function is the preferred method to convert a string to a pointer to an item identifier list (PIDL).  
+
+***  
+
+[SHQueryRecycleBin](libraries/shell32/SHQueryRecycleBin.md)  
+Retrieves the size of the Recycle Bin, and the number of items in it, on the specified drive.   
+
+***  
+
+[SHRegCloseUSKey](libraries/shlwapi/SHRegCloseUSKey.md)  
+Closes a handle to a user-specific registry key.  
+
+***  
+
+[SHRegEnumUSKey](libraries/shlwapi/SHRegEnumUSKey.md)  
+Enumerates the subkeys of a user-specific key.  
+
+***  
+
+[SHRegOpenUSKey](libraries/shlwapi/SHRegOpenUSKey.md)  
+Opens a user-specific registry key.  
+
+***  
+
+[SHSimpleIDListFromPath](libraries/shell32/SHSimpleIDListFromPath.md)  
+Returns a pointer to an ITEMIDLIST structure when passed a path.  
+
+***  
+
 [SizeofResource](libraries/kernel32/SizeofResource.md)  
 The SizeofResource function returns the size, in bytes, of the specified resource.  
 
@@ -5661,6 +5803,168 @@ The SizeofResource function returns the size, in bytes, of the specified resourc
 
 [Sleep](libraries/kernel32/Sleep.md)  
 The Sleep function suspends the execution of the current thread for the specified interval  
+
+***  
+
+[sndPlaySound](libraries/winmm/sndPlaySound.md)  
+The sndPlaySound function plays a waveform sound specified either by a filename or by an entry in the registry or the WIN.INI file.   
+
+***  
+
+[socket](libraries/ws2_32/socket.md)  
+The <B>socket</B> function creates a socket that is bound to a specific service provider.  
+
+***  
+
+[SQLAllocEnv](libraries/odbc32/SQLAllocEnv.md)  
+In ODBC 3.x, the ODBC 2.x function SQLAllocEnv has been replaced by SQLAllocHandle.  
+
+***  
+
+[SQLAllocHandle](libraries/odbc32/SQLAllocHandle.md)  
+SQLAllocHandle allocates an environment, connection, statement, or descriptor handle.  
+
+***  
+
+[SQLBindCol](libraries/odbc32/SQLBindCol.md)  
+SQLBindCol binds application data buffers to columns in the result set.  
+
+***  
+
+[SQLBrowseConnect](libraries/odbc32/SQLBrowseConnect.md)  
+SQLBrowseConnect supports an iterative method of discovering and enumerating the attributes and attribute values required to connect to a data source. Each call to SQLBrowseConnect returns successive levels of attributes and attribute values.  
+
+***  
+
+[SQLConfigDataSource](libraries/odbc32/SQLConfigDataSource.md)  
+SQLConfigDataSource adds, modifies, or deletes data sources.  
+
+***  
+
+[SQLConnect](libraries/odbc32/SQLConnect.md)  
+SQLConnect establishes connections to a driver and a data source.   
+
+***  
+
+[SQLCreateDataSource](libraries/odbc32/SQLCreateDataSource.md)  
+SQLCreateDataSource displays a dialog box with which the user can add a data source.  
+
+***  
+
+[SQLDataSources](libraries/odbc32/SQLDataSources.md)  
+SQLDataSources returns information about a data source. This function is implemented solely by the Driver Manager.  
+
+***  
+
+[SQLDisconnect](libraries/odbc32/SQLDisconnect.md)  
+SQLDisconnect closes the connection associated with a specific connection handle.  
+
+***  
+
+[SQLDriverConnect](libraries/odbc32/SQLDriverConnect.md)  
+SQLDriverConnect is an alternative to SQLConnect. It supports data sources that require more connection information than the three arguments in SQLConnect, dialog boxes to prompt the user for all connection information, and data sources that are not defined in the system information.  
+
+***  
+
+[SQLDrivers](libraries/odbc32/SQLDrivers.md)  
+SQLDrivers lists driver descriptions and driver attribute keywords.  
+
+***  
+
+[SQLExecDirect](libraries/odbc32/SQLExecDirect.md)  
+SQLExecDirect executes a preparable statement, using the current values of the parameter marker variables if any parameters exist in the statement.  
+
+***  
+
+[SQLFetch](libraries/odbc32/SQLFetch.md)  
+SQLFetch fetches the next rowset of data from the result set and returns data for all bound columns.  
+
+***  
+
+[SQLFreeEnv](libraries/odbc32/SQLFreeEnv.md)  
+In ODBC 3.x, the ODBC 2.0 function SQLFreeEnv has been replaced by SQLFreeHandle.  
+
+***  
+
+[SQLFreeHandle](libraries/odbc32/SQLFreeHandle.md)  
+SQLFreeHandle frees resources associated with a specific environment, connection, statement, or descriptor handle.  
+
+***  
+
+[SQLGetConfigMode](libraries/odbc32/SQLGetConfigMode.md)  
+Retrieves the configuration mode that indicates where the Odbc.ini entry listing DSN values is in the system information.
+  
+
+***  
+
+[SQLGetConnectAttr](libraries/odbc32/SQLGetConnectAttr.md)  
+SQLGetConnectAttr returns the current setting of a connection attribute.  
+
+***  
+
+[SQLGetDiagRec](libraries/odbc32/SQLGetDiagRec.md)  
+SQLGetDiagRec returns the current values of multiple fields of a diagnostic record that contains error, warning, and status information.   
+
+***  
+
+[SQLGetEnvAttr](libraries/odbc32/SQLGetEnvAttr.md)  
+SQLGetEnvAttr returns the current setting of an environment attribute.  
+
+***  
+
+[SQLGetFunctions](libraries/odbc32/SQLGetFunctions.md)  
+SQLGetFunctions returns information about whether a driver supports a specific ODBC function.   
+
+***  
+
+[SQLGetInfo](libraries/odbc32/SQLGetInfo.md)  
+SQLGetInfo returns general information about the driver and data source associated with a connection.  
+
+***  
+
+[SQLGetInstalledDrivers](libraries/odbc32/SQLGetInstalledDrivers.md)  
+SQLGetInstalledDrivers reads the [ODBC Drivers] section of the system information and returns a list of descriptions of the installed drivers.  
+
+***  
+
+[SQLGetPrivateProfileString](libraries/odbc32/SQLGetPrivateProfileString.md)  
+SQLGetPrivateProfileString gets a list of names of values or data corresponding to a value of the system information.  
+
+***  
+
+[SQLInstallerError](libraries/odbccp32/SQLInstallerError.md)  
+SQLInstallerError returns error or status information for the ODBC installer functions.  
+
+***  
+
+[SQLManageDataSources](libraries/odbc32/SQLManageDataSources.md)  
+SQLManageDataSources displays a dialog box with which users can set up, add, and delete data sources in the system information.  
+
+***  
+
+[SQLNativeSql](libraries/odbc32/SQLNativeSql.md)  
+SQLNativeSql returns the SQL string as modified by the driver. SQLNativeSql does not execute the SQL statement.  
+
+***  
+
+[SQLRowCount](libraries/odbc32/SQLRowCount.md)  
+SQLRowCount returns the number of rows affected by an UPDATE, INSERT, or DELETE statement.  
+
+***  
+
+[SQLSetConfigMode](libraries/odbc32/SQLSetConfigMode.md)  
+Sets the configuration mode that indicates where the Odbc.ini entry listing DSN values is in the system information.
+  
+
+***  
+
+[SQLSetEnvAttr](libraries/odbc32/SQLSetEnvAttr.md)  
+SQLSetEnvAttr sets attributes that govern aspects of environments.  
+
+***  
+
+[SQLTables](libraries/odbc32/SQLTables.md)  
+Returns the list of table, catalog, or schema names, and table types, stored in a specific data source. The driver returns the information as a result set.  
 
 ***  
 
@@ -5695,6 +5999,16 @@ Duplicates a string.
 
 ***  
 
+[StretchBlt](libraries/gdi32/StretchBlt.md)  
+Copies a bitmap from a source rectangle into a destination rectangle, stretching or compressing the bitmap to fit the dimensions of the destination rectangle, if necessary.  
+
+***  
+
+[StretchDIBits](libraries/gdi32/StretchDIBits.md)  
+The StretchDIBits function copies the color data for a rectangle of pixels in a DIB to the specified destination rectangle.  
+
+***  
+
 [StrFormatByteSize](libraries/shlwapi/StrFormatByteSize.md)  
 Converts a numeric value into a string that represents the number expressed as a size value in bytes, kilobytes, megabytes, or gigabytes, depending on the size.  
 
@@ -5702,6 +6016,11 @@ Converts a numeric value into a string that represents the number expressed as a
 
 [StrFromTimeInterval](libraries/shlwapi/StrFromTimeInterval.md)  
 Converts a time interval, specified in milliseconds, to a string.  
+
+***  
+
+[StringFromGUID2](libraries/ole32/StringFromGUID2.md)  
+Converts a globally unique identifier (GUID) into a string of printable characters.  
 
 ***  
 
@@ -5717,21 +6036,6 @@ Converts a decimal or hexadecimal string to an integer.
 
 [StrTrim](libraries/shlwapi/StrTrim.md)  
 Removes (trims) specified leading and trailing characters from a string.  
-
-***  
-
-[StretchBlt](libraries/gdi32/StretchBlt.md)  
-Copies a bitmap from a source rectangle into a destination rectangle, stretching or compressing the bitmap to fit the dimensions of the destination rectangle, if necessary.  
-
-***  
-
-[StretchDIBits](libraries/gdi32/StretchDIBits.md)  
-The StretchDIBits function copies the color data for a rectangle of pixels in a DIB to the specified destination rectangle.  
-
-***  
-
-[StringFromGUID2](libraries/ole32/StringFromGUID2.md)  
-Converts a globally unique identifier (GUID) into a string of printable characters.  
 
 ***  
 
@@ -5760,7 +6064,7 @@ The SystemTimeToFileTime function converts a system time to a file time.
 
 ***  
 
-[TaskDialog](libraries/comctl32/TaskDialog.md)  
+<a name="T"></a>[TaskDialog](libraries/comctl32/TaskDialog.md)  
 Creates, displays, and operates a task dialog.  
 
 ***  
@@ -5787,6 +6091,11 @@ Writes a character string at the specified location, using the currently selecte
 
 ***  
 
+[timeGetDevCaps](libraries/winmm/timeGetDevCaps.md)  
+Queries the timer device to determine its resolution.  
+
+***  
+
 [ToAscii](libraries/user32/ToAscii.md)  
 Translates the specified virtual-key code and keyboard state to the corresponding character or characters.  
 
@@ -5797,17 +6106,7 @@ The TrackPopupMenuEx function displays a shortcut menu at the specified location
 
 ***  
 
-[URLDownloadToCacheFile](libraries/urlmon/URLDownloadToCacheFile.md)  
-Downloads data into the Internet cache and returns the file name of the cache location for retrieving the bits.  
-
-***  
-
-[URLDownloadToFile](libraries/urlmon/URLDownloadToFile.md)  
-Downloads bits from the Internet and saves them to a file.  
-
-***  
-
-[UnhookWindowsHookEx](libraries/user32/UnhookWindowsHookEx.md)  
+<a name="U"></a>[UnhookWindowsHookEx](libraries/user32/UnhookWindowsHookEx.md)  
 Removes a hook procedure installed in a hook chain by the SetWindowsHookEx function.   
 
 ***  
@@ -5845,6 +6144,16 @@ The UnregisterHotKey function frees a hot key previously registered by the calli
 
 [UpdateResource](libraries/kernel32/UpdateResource.md)  
 The UpdateResource function adds, deletes, or replaces a resource in an executable file.  
+
+***  
+
+[URLDownloadToCacheFile](libraries/urlmon/URLDownloadToCacheFile.md)  
+Downloads data into the Internet cache and returns the file name of the cache location for retrieving the bits.  
+
+***  
+
+[URLDownloadToFile](libraries/urlmon/URLDownloadToFile.md)  
+Downloads bits from the Internet and saves them to a file.  
 
 ***  
 
@@ -5903,7 +6212,7 @@ Converts a UUID to a string.
 
 ***  
 
-[VirtualAllocEx](libraries/kernel32/VirtualAllocEx.md)  
+<a name="V"></a>[VirtualAllocEx](libraries/kernel32/VirtualAllocEx.md)  
 Reserves or commits a region of memory within the virtual address space of a specified process.  
 
 ***  
@@ -5918,636 +6227,8 @@ Translates a character to the corresponding virtual-key code and shift state for
 
 ***  
 
-[WNetAddConnection](libraries/mpr/WNetAddConnection.md)  
-The WNetAddConnection function enables the calling application to connect a local device to a network resource.   
-
-***  
-
-[WNetAddConnection2](libraries/mpr/WNetAddConnection2.md)  
-The WNetAddConnection2 function makes a connection to a network resource. The function can redirect a local device to the network resource.  
-
-***  
-
-[WNetCancelConnection2](libraries/mpr/WNetCancelConnection2.md)  
-The WNetCancelConnection2 function cancels an existing network connection. You can also call the function to remove remembered network connections that are not currently connected.  
-
-***  
-
-[WNetCloseEnum](libraries/mpr/WNetCloseEnum.md)  
-The WNetCloseEnum function ends a network resource enumeration started by a call to the WNetOpenEnum function.  
-
-***  
-
-[WNetConnectionDialog](libraries/mpr/WNetConnectionDialog.md)  
-The WNetConnectionDialog function starts a general browsing dialog box for connecting to network resources. The function requires a handle to the owner window for the dialog box.  
-
-***  
-
-[WNetConnectionDialog1](libraries/mpr/WNetConnectionDialog1.md)  
-Brings up a general browsing dialog for connecting to network resources.  
-
-***  
-
-[WNetDisconnectDialog](libraries/mpr/WNetDisconnectDialog.md)  
-The WNetDisconnectDialog function starts a general browsing dialog box for disconnecting from network resources. The function requires a handle to the owner window for the dialog box.  
-
-***  
-
-[WNetEnumResource](libraries/mpr/WNetEnumResource.md)  
-The WNetEnumResource function continues an enumeration of network resources that was started by a call to the WNetOpenEnum function.   
-
-***  
-
-[WNetGetConnection](libraries/mpr/WNetGetConnection.md)  
-The WNetGetConnection function retrieves the name of the network resource associated with a local device.  
-
-***  
-
-[WNetGetLastError](libraries/odbc32/WNetGetLastError.md)  
-The WNetGetLastError function retrieves the most recent extended error code set by a WNet function.   
-
-***  
-
-[WNetGetNetworkInformation](libraries/mpr/WNetGetNetworkInformation.md)  
-The WNetGetNetworkInformation function returns extended information about a specific network provider whose name was returned by a previous network enumeration.  
-
-***  
-
-[WNetGetProviderName](libraries/mpr/WNetGetProviderName.md)  
-The WNetGetProviderName function obtains the provider name for a specific type of network.   
-
-***  
-
-[WNetGetUniversalName](libraries/mpr/WNetGetUniversalName.md)  
-The WNetGetUniversalName function takes a drive-based path for a network resource and returns an information structure that contains a more universal form of the name.   
-
-***  
-
-[WNetGetUser](libraries/mpr/WNetGetUser.md)  
-The WNetGetUser function retrieves the current default user name, or the user name used to establish a network connection.   
-
-***  
-
-[WNetOpenEnum](libraries/mpr/WNetOpenEnum.md)  
-The WNetOpenEnum function starts an enumeration of network resources or existing connections. You can continue the enumeration by calling the WNetEnumResource function.  
-
-***  
-
-[WSACleanup](libraries/ws2_32/WSACleanup.md)  
-The WSACleanup function terminates use of the Ws2_32.dll.  
-
-***  
-
-[WSACloseEvent](libraries/ws2_32/WSACloseEvent.md)  
-The WSACloseEvent function closes an open event object handle.  
-
-***  
-
-[WSAConnect](libraries/ws2_32/WSAConnect.md)  
-Establishes a connection to another socket application, exchanges connect data, and specifies required quality of service based on the specified FLOWSPEC structure.
-  
-
-***  
-
-[WSACreateEvent](libraries/ws2_32/WSACreateEvent.md)  
-The WSACreateEvent function creates a new event object.  
-
-***  
-
-[WSAEnumProtocols](libraries/iphlpapi/WSAEnumProtocols.md)  
-The WSAEnumProtocols function retrieves information about available transport protocols.  
-
-***  
-
-[WSAEventSelect](libraries/ws2_32/WSAEventSelect.md)  
-The WSAEventSelect function specifies an event object to be associated with the specified set of FD_XXX network events.  
-
-***  
-
-[WSAGetLastError](libraries/ws2_32/WSAGetLastError.md)  
-The WSAGetLastError function returns the error status for the last operation that failed.  
-
-***  
-
-[WSARecv](libraries/ws2_32/WSARecv.md)  
-Receives data from a connected socket.  
-
-***  
-
-[WSASend](libraries/ws2_32/WSASend.md)  
-Sends data on a connected socket.  
-
-***  
-
-[WSAStartup](libraries/ws2_32/WSAStartup.md)  
-The WSAStartup function initiates use of Ws2_32.dll by a process.  
-
-***  
-
-[WSAWaitForMultipleEvents](libraries/ws2_32/WSAWaitForMultipleEvents.md)  
-The WSAWaitForMultipleEvents function returns either when one or all of the specified event objects are in the signaled state, or when the time-out interval expires.  
-
-***  
-
-[WTSCloseServer](libraries/wtsapi32/WTSCloseServer.md)  
-Closes an open handle to a terminal server.  
-
-***  
-
-[WTSEnumerateProcesses](libraries/wtsapi32/WTSEnumerateProcesses.md)  
-Retrieves information about the active processes on a specified terminal server.  
-
-***  
-
-[WTSEnumerateServers](libraries/wtsapi32/WTSEnumerateServers.md)  
-Returns a list of all terminal servers within the specified Windows NT domain.
-  
-
-***  
-
-[WTSEnumerateSessions](libraries/wtsapi32/WTSEnumerateSessions.md)  
-Retrieves a list of sessions on a specified terminal server.  
-
-***  
-
-[WTSFreeMemory](libraries/wtsapi32/WTSFreeMemory.md)  
-Frees memory allocated by a Terminal Services function.
-  
-
-***  
-
-[WTSOpenServer](libraries/wtsapi32/WTSOpenServer.md)  
-Opens a handle to the specified terminal server.
-  
-
-***  
-
-[WTSQuerySessionInformation](libraries/wtsapi32/WTSQuerySessionInformation.md)  
-Retrieves session information for the specified session on the specified terminal server. It can be used to query session information on local and remote terminal servers.
-  
-
-***  
-
-[WTSRegisterSessionNotification](libraries/wtsapi32/WTSRegisterSessionNotification.md)  
-Registers the specified window to receive session change notifications.
-  
-
-***  
-
-[WTSSendMessage](libraries/wtsapi32/WTSSendMessage.md)  
-Displays a message box on the client desktop of a specified Terminal Services session.  
-
-***  
-
-[WTSUnRegisterSessionNotification](libraries/wtsapi32/WTSUnRegisterSessionNotification.md)  
-Unregisters the specified window so that it receives no further session change notifications.  
-
-***  
-
-[WaitForSingleObject](libraries/kernel32/WaitForSingleObject.md)  
+<a name="W"></a>[WaitForSingleObject](libraries/kernel32/WaitForSingleObject.md)  
 The WaitForSingleObject function returns when the specified object is in the signaled state or when the time-out interval elapses  
-
-***  
-
-[WideCharToMultiByte](libraries/kernel32/WideCharToMultiByte.md)  
-The WideCharToMultiByte function maps a wide-character string (Unicode) to a new character string.  
-
-***  
-
-[WinExec](libraries/kernel32/WinExec.md)  
-The WinExec function runs the specified application. 
-
-Note  This function is provided only for compatibility with 16-bit Windows. Win32-based applications should use the CreateProcess function
-  
-
-***  
-
-[WinHelp](libraries/user32/WinHelp.md)  
-The WinHelp function starts Windows Help (WINHELP.EXE) and passes additional data indicating the nature of the help requested by the application  
-
-***  
-
-[WinHttpAddRequestHeaders](libraries/winhttp/WinHttpAddRequestHeaders.md)  
-The WinHttpAddRequestHeaders function adds one or more HTTP request headers to the HTTP request handle.  
-
-***  
-
-[WinHttpCloseHandle](libraries/winhttp/WinHttpCloseHandle.md)  
-The WinHttpCloseHandle function closes a single HINTERNET handle.  
-
-***  
-
-[WinHttpConnect](libraries/winhttp/WinHttpConnect.md)  
-Specifies the initial target server of an HTTP request and returns an HINTERNET connection handle to an HTTP session for that initial target.  
-
-***  
-
-[WinHttpCrackUrl](libraries/winhttp/WinHttpCrackUrl.md)  
-The WinHttpCrackUrl function separates a URL into its component parts such as host name and path.  
-
-***  
-
-[WinHttpOpen](libraries/winhttp/WinHttpOpen.md)  
-Initializes an application"s use of the WinHTTP functions and returns a WinHTTP-session handle.  
-
-***  
-
-[WinHttpOpenRequest](libraries/winhttp/WinHttpOpenRequest.md)  
-The WinHttpOpenRequest function creates an HTTP request handle.  
-
-***  
-
-[WinHttpQueryDataAvailable](libraries/winhttp/WinHttpQueryDataAvailable.md)  
-The WinHttpQueryDataAvailable function returns the number of bytes of data that are immediately available to be read with WinHttpReadData.  
-
-***  
-
-[WinHttpQueryHeaders](libraries/winhttp/WinHttpQueryHeaders.md)  
-The WinHttpQueryHeaders function retrieves header information associated with an HTTP request.  
-
-***  
-
-[WinHttpReadData](libraries/winhttp/WinHttpReadData.md)  
-The WinHttpReadData function reads data from a handle opened by the WinHttpOpenRequest function.  
-
-***  
-
-[WinHttpReceiveResponse](libraries/winhttp/WinHttpReceiveResponse.md)  
-The WinHttpReceiveResponse function waits to receive the response to an HTTP request initiated by WinHttpSendRequest.  
-
-***  
-
-[WinHttpSendRequest](libraries/winhttp/WinHttpSendRequest.md)  
-The WinHttpSendRequest function sends the specified request to the HTTP server.  
-
-***  
-
-[WinHttpSetCredentials](libraries/winhttp/WinHttpSetCredentials.md)  
-The WinHttpSetCredentials function passes the required authorization credentials to the server.  
-
-***  
-
-[WinVerifyTrust](libraries/wintrust/WinVerifyTrust.md)  
-Performs a trust verification action on a specified object. The function passes the inquiry to a trust provider that supports the action identifier, if one exists.  
-
-***  
-
-[WindowFromDC](libraries/user32/WindowFromDC.md)  
-Returns a handle to the window associated with the specified display device context (DC).
-  
-
-***  
-
-[WindowProc](libraries/kernel32/WindowProc.md)  
-The WindowProc function is an application-defined function that processes messages sent to a window. The WNDPROC type defines a pointer to this callback function. WindowProc is a placeholder for the application-defined function name.  
-
-***  
-
-[WriteConsole](libraries/kernel32/WriteConsole.md)  
-The WriteConsole function writes a character string to a console screen buffer beginning at the current cursor location.  
-
-***  
-
-[WriteFile](libraries/kernel32/WriteFile.md)  
-The WriteFile function writes data to a file and is designed for both synchronous and asynchronous operation.   
-
-***  
-
-[WritePrivateProfileSection](libraries/kernel32/WritePrivateProfileSection.md)  
-Replaces the keys and values for the specified section in an initialization file.  
-
-***  
-
-[WritePrivateProfileString](libraries/kernel32/WritePrivateProfileString.md)  
-The WritePrivateProfileString function copies a string into the specified section of an initialization file.  
-
-***  
-
-[WriteProcessMemory](libraries/kernel32/WriteProcessMemory.md)  
-Writes data to an area of memory in a specified process.   
-
-***  
-
-[ZeroMemory](libraries/kernel32/ZeroMemory.md)  
-Fills a block of memory with zeros.  
-
-***  
-
-[_lclose](libraries/kernel32/_lclose.md)  
-Closes the specified file so that it is no longer available for reading or writing.  
-
-***  
-
-[_lopen](libraries/kernel32/_lopen.md)  
-Opens an existing file and sets the file pointer to the beginning of the file.  
-
-***  
-
-[accept](libraries/ws2_32/accept.md)  
-The accept function permits an incoming connection attempt on a socket.  
-
-***  
-
-[bind](libraries/ws2_32/bind.md)  
-The bind function associates a local address (IP address and port) with a socket.  
-
-***  
-
-[capCreateCaptureWindow](libraries/avicap32/capCreateCaptureWindow.md)  
-The capCreateCaptureWindow function creates a capture window.
-  
-
-***  
-
-[capGetDriverDescription](libraries/avicap32/capGetDriverDescription.md)  
-The capGetDriverDescription function retrieves the version description of the capture driver.
-  
-
-***  
-
-[closesocket](libraries/ws2_32/closesocket.md)  
-The closesocket function closes an existing socket.  
-
-***  
-
-[gethostbyaddr](libraries/ws2_32/gethostbyaddr.md)  
-The gethostbyaddr function retrieves the host information corresponding to a network address.  
-
-***  
-
-[gethostbyname](libraries/ws2_32/gethostbyname.md)  
-The gethostbyname function retrieves host information corresponding to a host name from a host database.  
-
-***  
-
-[gethostname](libraries/ws2_32/gethostname.md)  
-The gethostname function retrieves the standard host name for the local computer.  
-
-***  
-
-[getnameinfo](libraries/ws2_32/getnameinfo.md)  
-Provides protocol-independent name resolution from an address to an ANSI host name and from a port number to the ANSI service name.  
-
-***  
-
-[getprotobyname](libraries/iphlpapi/getprotobyname.md)  
-The getprotobyname function retrieves the protocol information corresponding to a protocol name.  
-
-***  
-
-[getprotobynumber](libraries/ws2_32/getprotobynumber.md)  
-The getprotobynumber function retrieves protocol information corresponding to a protocol number.  
-
-***  
-
-[getservbyname](libraries/ws2_32/getservbyname.md)  
-The getservbyname function retrieves service information corresponding to a service name and protocol.  
-
-***  
-
-[getservbyport](libraries/ws2_32/getservbyport.md)  
-The getservbyport function retrieves service information corresponding to a port and protocol.  
-
-***  
-
-[getsockopt](libraries/ws2_32/getsockopt.md)  
-The getsockopt function retrieves a socket option.  
-
-***  
-
-[htonl](libraries/ws2_32/htonl.md)  
-The htonl function converts a u_long from host to TCP/IP network byte order (which is big endian).  
-
-***  
-
-[htons](libraries/ws2_32/htons.md)  
-The htons function converts a u_short from host to TCP/IP network byte order (which is big-endian).  
-
-***  
-
-[if_indextoname](libraries/iphlpapi/if_indextoname.md)  
-Converts the local index for a network interface to the ANSI interface name.  
-
-***  
-
-[if_nametoindex](libraries/iphlpapi/if_nametoindex.md)  
-Converts the ANSI interface name for a network interface to the local index for the interface.  
-
-***  
-
-[inet_addr](libraries/ws2_32/inet_addr.md)  
-The inet_addr function converts a string containing an (Ipv4) Internet Protocol dotted address into a proper address for the IN_ADDR structure.  
-
-***  
-
-[inet_ntoa](libraries/ws2_32/inet_ntoa.md)  
-The inet_ntoa function converts an (Ipv4) Internet network address into a string in Internet standard dotted format.  
-
-***  
-
-[keybd_event](libraries/user32/keybd_event.md)  
-Synthesizes a keystroke. 
-  
-
-***  
-
-[listen](libraries/ws2_32/listen.md)  
-The listen function places a socket in a state in which it is listening for an incoming connection.  
-
-***  
-
-[mciGetDeviceID](libraries/winmm/mciGetDeviceID.md)  
-Retrieves the device identifier corresponding to the name of an open device.  
-
-***  
-
-[mciGetErrorString](libraries/winmm/mciGetErrorString.md)  
-The mciGetErrorString function retrieves a string that describes the specified MCI error code.   
-
-***  
-
-[mciSendCommand](libraries/winmm/mciSendCommand.md)  
-Sends a command message to the specified MCI device.  
-
-***  
-
-[mciSendString](libraries/winmm/mciSendString.md)  
-The <b>mciSendString</b> function sends a command string to an MCI device. The device that the command is sent to is specified in the command string.   
-
-***  
-
-[midiOutClose](libraries/winmm/midiOutClose.md)  
-Closes the specified MIDI output device.
-  
-
-***  
-
-[midiOutGetDevCaps](libraries/winmm/midiOutGetDevCaps.md)  
-Queries a specified MIDI output device to determine its capabilities.
-  
-
-***  
-
-[midiOutGetNumDevs](libraries/winmm/midiOutGetNumDevs.md)  
-Retrieves the number of MIDI output devices present in the system.  
-
-***  
-
-[midiOutOpen](libraries/winmm/midiOutOpen.md)  
-Opens a MIDI output device for playback.
-  
-
-***  
-
-[midiOutReset](libraries/winmm/midiOutReset.md)  
-Turns off all notes on all MIDI channels for the specified MIDI output device.  
-
-***  
-
-[midiOutShortMsg](libraries/winmm/midiOutShortMsg.md)  
-Sends a short MIDI message to the specified MIDI output device.  
-
-***  
-
-[mixerClose](libraries/winmm/mixerClose.md)  
-The mixerClose function closes the specified mixer device.  
-
-***  
-
-[mixerGetControlDetails](libraries/winmm/mixerGetControlDetails.md)  
-Retrieves details about a single control associated with an audio line.  
-
-***  
-
-[mixerGetDevCaps](libraries/winmm/mixerGetDevCaps.md)  
-The mixerGetDevCaps function queries a specified mixer device to determine its capabilities.  
-
-***  
-
-[mixerGetID](libraries/winmm/mixerGetID.md)  
-Retrieves the device identifier for a mixer device associated with a specified device handle.  
-
-***  
-
-[mixerGetLineControls](libraries/winmm/mixerGetLineControls.md)  
-The mixerGetLineControls function retrieves one or more controls associated with an audio line.  
-
-***  
-
-[mixerGetLineInfo](libraries/winmm/mixerGetLineInfo.md)  
-The mixerGetLineInfo function retrieves information about a specific line of a mixer device.  
-
-***  
-
-[mixerGetNumDevs](libraries/winmm/mixerGetNumDevs.md)  
-The mixerGetNumDevs function retrieves the number of mixer devices present in the system.  
-
-***  
-
-[mixerOpen](libraries/winmm/mixerOpen.md)  
-The mixerOpen function opens a specified mixer device and ensures that the device will not be removed until the application closes the handle.  
-
-***  
-
-[mixerSetControlDetails](libraries/winmm/mixerSetControlDetails.md)  
-Sets properties of a single control associated with an audio line.  
-
-***  
-
-[mmioAscend](libraries/winmm/mmioAscend.md)  
-The mmioAscend function ascends out of a chunk in a RIFF file descended into with the mmioDescend function or created with the mmioCreateChunk function.  
-
-***  
-
-[mmioClose](libraries/winmm/mmioClose.md)  
-The mmioClose function closes a file that was opened by using the mmioOpen function.  
-
-***  
-
-[mmioCreateChunk](libraries/winmm/mmioCreateChunk.md)  
-The mmioCreateChunk function creates a chunk in a RIFF file that was opened by using the mmioOpen function.  
-
-***  
-
-[mmioDescend](libraries/winmm/mmioDescend.md)  
-The mmioDescend function descends into a chunk of a RIFF file that was opened by using the mmioOpen function. It can also search for a given chunk.  
-
-***  
-
-[mmioFlush](libraries/winmm/mmioFlush.md)  
-The mmioFlush function writes the I/O buffer of a file to disk if the buffer has been written to.  
-
-***  
-
-[mmioOpen](libraries/winmm/mmioOpen.md)  
-The mmioOpen function opens a file for unbuffered or buffered I/O. The file can be a standard file, a memory file, or an element of a custom storage system.  
-
-***  
-
-[mmioRead](libraries/winmm/mmioRead.md)  
-The mmioRead function reads a specified number of bytes from a file opened by using the mmioOpen function.  
-
-***  
-
-[mmioSeek](libraries/winmm/mmioSeek.md)  
-Changes the current file position in a file opened by using the mmioOpen function.   
-
-***  
-
-[mmioWrite](libraries/winmm/mmioWrite.md)  
-Writes a specified number of bytes to a file opened by using the mmioOpen function.
-  
-
-***  
-
-[ntohl](libraries/ws2_32/ntohl.md)  
-The ntohl function converts a u_long from TCP/IP network order to host byte order (which is little-endian on Intel processors).  
-
-***  
-
-[ntohs](libraries/ws2_32/ntohs.md)  
-The ntohs function converts a u_short from TCP/IP network byte order to host byte order (which is little-endian on Intel processors).  
-
-***  
-
-[recv](libraries/ws2_32/recv.md)  
-The <Strong>recv</Strong> function receives data from a connected or bound socket.  
-
-***  
-
-[recvfrom](libraries/ws2_32/recvfrom.md)  
-Receives a datagram and stores the source address.  
-
-***  
-
-[send](libraries/ws2_32/send.md)  
-The <Strong>send</Strong> function sends data on a connected socket.
-  
-
-***  
-
-[sendto](libraries/ws2_32/sendto.md)  
-Sends data to a specific destination.  
-
-***  
-
-[setsockopt](libraries/ws2_32/setsockopt.md)  
-The setsockopt function sets a socket option.  
-
-***  
-
-[sndPlaySound](libraries/winmm/sndPlaySound.md)  
-The sndPlaySound function plays a waveform sound specified either by a filename or by an entry in the registry or the WIN.INI file.   
-
-***  
-
-[socket](libraries/ws2_32/socket.md)  
-The <B>socket</B> function creates a socket that is bound to a specific service provider.  
-
-***  
-
-[timeGetDevCaps](libraries/winmm/timeGetDevCaps.md)  
-Queries the timer device to determine its resolution.  
 
 ***  
 
@@ -6672,8 +6353,258 @@ The waveOutWrite function sends a data block to the given waveform-audio output 
 
 ***  
 
+[WideCharToMultiByte](libraries/kernel32/WideCharToMultiByte.md)  
+The WideCharToMultiByte function maps a wide-character string (Unicode) to a new character string.  
+
+***  
+
+[WindowFromDC](libraries/user32/WindowFromDC.md)  
+Returns a handle to the window associated with the specified display device context (DC).
+  
+
+***  
+
+[WindowProc](libraries/kernel32/WindowProc.md)  
+The WindowProc function is an application-defined function that processes messages sent to a window. The WNDPROC type defines a pointer to this callback function. WindowProc is a placeholder for the application-defined function name.  
+
+***  
+
+[WinExec](libraries/kernel32/WinExec.md)  
+The WinExec function runs the specified application. 
+
+Note  This function is provided only for compatibility with 16-bit Windows. Win32-based applications should use the CreateProcess function
+  
+
+***  
+
+[WinHelp](libraries/user32/WinHelp.md)  
+The WinHelp function starts Windows Help (WINHELP.EXE) and passes additional data indicating the nature of the help requested by the application  
+
+***  
+
+[WinHttpAddRequestHeaders](libraries/winhttp/WinHttpAddRequestHeaders.md)  
+The WinHttpAddRequestHeaders function adds one or more HTTP request headers to the HTTP request handle.  
+
+***  
+
+[WinHttpCloseHandle](libraries/winhttp/WinHttpCloseHandle.md)  
+The WinHttpCloseHandle function closes a single HINTERNET handle.  
+
+***  
+
+[WinHttpConnect](libraries/winhttp/WinHttpConnect.md)  
+Specifies the initial target server of an HTTP request and returns an HINTERNET connection handle to an HTTP session for that initial target.  
+
+***  
+
+[WinHttpCrackUrl](libraries/winhttp/WinHttpCrackUrl.md)  
+The WinHttpCrackUrl function separates a URL into its component parts such as host name and path.  
+
+***  
+
+[WinHttpOpen](libraries/winhttp/WinHttpOpen.md)  
+Initializes an application"s use of the WinHTTP functions and returns a WinHTTP-session handle.  
+
+***  
+
+[WinHttpOpenRequest](libraries/winhttp/WinHttpOpenRequest.md)  
+The WinHttpOpenRequest function creates an HTTP request handle.  
+
+***  
+
+[WinHttpQueryDataAvailable](libraries/winhttp/WinHttpQueryDataAvailable.md)  
+The WinHttpQueryDataAvailable function returns the number of bytes of data that are immediately available to be read with WinHttpReadData.  
+
+***  
+
+[WinHttpQueryHeaders](libraries/winhttp/WinHttpQueryHeaders.md)  
+The WinHttpQueryHeaders function retrieves header information associated with an HTTP request.  
+
+***  
+
+[WinHttpReadData](libraries/winhttp/WinHttpReadData.md)  
+The WinHttpReadData function reads data from a handle opened by the WinHttpOpenRequest function.  
+
+***  
+
+[WinHttpReceiveResponse](libraries/winhttp/WinHttpReceiveResponse.md)  
+The WinHttpReceiveResponse function waits to receive the response to an HTTP request initiated by WinHttpSendRequest.  
+
+***  
+
+[WinHttpSendRequest](libraries/winhttp/WinHttpSendRequest.md)  
+The WinHttpSendRequest function sends the specified request to the HTTP server.  
+
+***  
+
+[WinHttpSetCredentials](libraries/winhttp/WinHttpSetCredentials.md)  
+The WinHttpSetCredentials function passes the required authorization credentials to the server.  
+
+***  
+
+[WinVerifyTrust](libraries/wintrust/WinVerifyTrust.md)  
+Performs a trust verification action on a specified object. The function passes the inquiry to a trust provider that supports the action identifier, if one exists.  
+
+***  
+
+[WNetAddConnection](libraries/mpr/WNetAddConnection.md)  
+The WNetAddConnection function enables the calling application to connect a local device to a network resource.   
+
+***  
+
+[WNetAddConnection2](libraries/mpr/WNetAddConnection2.md)  
+The WNetAddConnection2 function makes a connection to a network resource. The function can redirect a local device to the network resource.  
+
+***  
+
+[WNetCancelConnection2](libraries/mpr/WNetCancelConnection2.md)  
+The WNetCancelConnection2 function cancels an existing network connection. You can also call the function to remove remembered network connections that are not currently connected.  
+
+***  
+
+[WNetCloseEnum](libraries/mpr/WNetCloseEnum.md)  
+The WNetCloseEnum function ends a network resource enumeration started by a call to the WNetOpenEnum function.  
+
+***  
+
+[WNetConnectionDialog](libraries/mpr/WNetConnectionDialog.md)  
+The WNetConnectionDialog function starts a general browsing dialog box for connecting to network resources. The function requires a handle to the owner window for the dialog box.  
+
+***  
+
+[WNetConnectionDialog1](libraries/mpr/WNetConnectionDialog1.md)  
+Brings up a general browsing dialog for connecting to network resources.  
+
+***  
+
+[WNetDisconnectDialog](libraries/mpr/WNetDisconnectDialog.md)  
+The WNetDisconnectDialog function starts a general browsing dialog box for disconnecting from network resources. The function requires a handle to the owner window for the dialog box.  
+
+***  
+
+[WNetEnumResource](libraries/mpr/WNetEnumResource.md)  
+The WNetEnumResource function continues an enumeration of network resources that was started by a call to the WNetOpenEnum function.   
+
+***  
+
+[WNetGetConnection](libraries/mpr/WNetGetConnection.md)  
+The WNetGetConnection function retrieves the name of the network resource associated with a local device.  
+
+***  
+
+[WNetGetLastError](libraries/odbc32/WNetGetLastError.md)  
+The WNetGetLastError function retrieves the most recent extended error code set by a WNet function.   
+
+***  
+
+[WNetGetNetworkInformation](libraries/mpr/WNetGetNetworkInformation.md)  
+The WNetGetNetworkInformation function returns extended information about a specific network provider whose name was returned by a previous network enumeration.  
+
+***  
+
+[WNetGetProviderName](libraries/mpr/WNetGetProviderName.md)  
+The WNetGetProviderName function obtains the provider name for a specific type of network.   
+
+***  
+
+[WNetGetUniversalName](libraries/mpr/WNetGetUniversalName.md)  
+The WNetGetUniversalName function takes a drive-based path for a network resource and returns an information structure that contains a more universal form of the name.   
+
+***  
+
+[WNetGetUser](libraries/mpr/WNetGetUser.md)  
+The WNetGetUser function retrieves the current default user name, or the user name used to establish a network connection.   
+
+***  
+
+[WNetOpenEnum](libraries/mpr/WNetOpenEnum.md)  
+The WNetOpenEnum function starts an enumeration of network resources or existing connections. You can continue the enumeration by calling the WNetEnumResource function.  
+
+***  
+
 [wnsprintf](libraries/shlwapi/wnsprintf.md)  
 Takes a variable-length argument list and returns the values of the arguments as a printf-style formatted string.   
+
+***  
+
+[WriteConsole](libraries/kernel32/WriteConsole.md)  
+The WriteConsole function writes a character string to a console screen buffer beginning at the current cursor location.  
+
+***  
+
+[WriteFile](libraries/kernel32/WriteFile.md)  
+The WriteFile function writes data to a file and is designed for both synchronous and asynchronous operation.   
+
+***  
+
+[WritePrivateProfileSection](libraries/kernel32/WritePrivateProfileSection.md)  
+Replaces the keys and values for the specified section in an initialization file.  
+
+***  
+
+[WritePrivateProfileString](libraries/kernel32/WritePrivateProfileString.md)  
+The WritePrivateProfileString function copies a string into the specified section of an initialization file.  
+
+***  
+
+[WriteProcessMemory](libraries/kernel32/WriteProcessMemory.md)  
+Writes data to an area of memory in a specified process.   
+
+***  
+
+[WSACleanup](libraries/ws2_32/WSACleanup.md)  
+The WSACleanup function terminates use of the Ws2_32.dll.  
+
+***  
+
+[WSACloseEvent](libraries/ws2_32/WSACloseEvent.md)  
+The WSACloseEvent function closes an open event object handle.  
+
+***  
+
+[WSAConnect](libraries/ws2_32/WSAConnect.md)  
+Establishes a connection to another socket application, exchanges connect data, and specifies required quality of service based on the specified FLOWSPEC structure.
+  
+
+***  
+
+[WSACreateEvent](libraries/ws2_32/WSACreateEvent.md)  
+The WSACreateEvent function creates a new event object.  
+
+***  
+
+[WSAEnumProtocols](libraries/iphlpapi/WSAEnumProtocols.md)  
+The WSAEnumProtocols function retrieves information about available transport protocols.  
+
+***  
+
+[WSAEventSelect](libraries/ws2_32/WSAEventSelect.md)  
+The WSAEventSelect function specifies an event object to be associated with the specified set of FD_XXX network events.  
+
+***  
+
+[WSAGetLastError](libraries/ws2_32/WSAGetLastError.md)  
+The WSAGetLastError function returns the error status for the last operation that failed.  
+
+***  
+
+[WSARecv](libraries/ws2_32/WSARecv.md)  
+Receives data from a connected socket.  
+
+***  
+
+[WSASend](libraries/ws2_32/WSASend.md)  
+Sends data on a connected socket.  
+
+***  
+
+[WSAStartup](libraries/ws2_32/WSAStartup.md)  
+The WSAStartup function initiates use of Ws2_32.dll by a process.  
+
+***  
+
+[WSAWaitForMultipleEvents](libraries/ws2_32/WSAWaitForMultipleEvents.md)  
+The WSAWaitForMultipleEvents function returns either when one or all of the specified event objects are in the signaled state, or when the time-out interval expires.  
 
 ***  
 
@@ -6686,6 +6617,76 @@ The <Strong>connect</Strong> function establishes a connection to a specified so
 [ws_select](libraries/ws2_32/ws_select.md)  
 The <Strong>select</Strong> function determines the status of one or more sockets, waiting if necessary, to perform synchronous I/O.
   
+
+***  
+
+[WTSCloseServer](libraries/wtsapi32/WTSCloseServer.md)  
+Closes an open handle to a terminal server.  
+
+***  
+
+[WTSEnumerateProcesses](libraries/wtsapi32/WTSEnumerateProcesses.md)  
+Retrieves information about the active processes on a specified terminal server.  
+
+***  
+
+[WTSEnumerateServers](libraries/wtsapi32/WTSEnumerateServers.md)  
+Returns a list of all terminal servers within the specified Windows NT domain.
+  
+
+***  
+
+[WTSEnumerateSessions](libraries/wtsapi32/WTSEnumerateSessions.md)  
+Retrieves a list of sessions on a specified terminal server.  
+
+***  
+
+[WTSFreeMemory](libraries/wtsapi32/WTSFreeMemory.md)  
+Frees memory allocated by a Terminal Services function.
+  
+
+***  
+
+[WTSOpenServer](libraries/wtsapi32/WTSOpenServer.md)  
+Opens a handle to the specified terminal server.
+  
+
+***  
+
+[WTSQuerySessionInformation](libraries/wtsapi32/WTSQuerySessionInformation.md)  
+Retrieves session information for the specified session on the specified terminal server. It can be used to query session information on local and remote terminal servers.
+  
+
+***  
+
+[WTSRegisterSessionNotification](libraries/wtsapi32/WTSRegisterSessionNotification.md)  
+Registers the specified window to receive session change notifications.
+  
+
+***  
+
+[WTSSendMessage](libraries/wtsapi32/WTSSendMessage.md)  
+Displays a message box on the client desktop of a specified Terminal Services session.  
+
+***  
+
+[WTSUnRegisterSessionNotification](libraries/wtsapi32/WTSUnRegisterSessionNotification.md)  
+Unregisters the specified window so that it receives no further session change notifications.  
+
+***  
+
+<a name="Z"></a>[ZeroMemory](libraries/kernel32/ZeroMemory.md)  
+Fills a block of memory with zeros.  
+
+***  
+
+<a name="_"></a>[_lclose](libraries/kernel32/_lclose.md)  
+Closes the specified file so that it is no longer available for reading or writing.  
+
+***  
+
+[_lopen](libraries/kernel32/_lopen.md)  
+Opens an existing file and sets the file pointer to the beginning of the file.  
 
 ***  
 
