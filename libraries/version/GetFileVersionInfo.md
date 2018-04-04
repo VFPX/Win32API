@@ -1,7 +1,7 @@
 [<img src="../../images/home.png"> Home ](https://github.com/VFPX/Win32API)  
 
 ## Function name : GetFileVersionInfo
-Group: [Version Information](../../functions_group.md#Version_Information)  -  Library: [version](../../libraries.md#version)  
+Group: [Version Information](../../functions_group.md#Version_Information)  -  Library: [version](../../../libraries.md#version)  
 ***  
 
 

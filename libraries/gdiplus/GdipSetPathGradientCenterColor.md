@@ -1,7 +1,7 @@
 [<img src="../../images/home.png"> Home ](https://github.com/VFPX/Win32API)  
 
 ## Function name : GdipSetPathGradientCenterColor
-Group: [GDI+ PathGradient Brush](../../functions_group.md#GDIplus_PathGradient_Brush)  -  Library: [gdiplus](../../libraries.md#gdiplus)  
+Group: [GDI+ PathGradient Brush](../../functions_group.md#GDIplus_PathGradient_Brush)  -  Library: [gdiplus](../../../libraries.md#gdiplus)  
 ***  
 
 

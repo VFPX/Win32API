@@ -1,7 +1,7 @@
 [<img src="../../images/home.png"> Home ](https://github.com/VFPX/Win32API)  
 
 ## Function name : GetNearestColor
-Group: [Color](../../functions_group.md#Color)  -  Library: [gdi32](../../libraries.md#gdi32)  
+Group: [Color](../../functions_group.md#Color)  -  Library: [gdi32](../../../libraries.md#gdi32)  
 ***  
 
 

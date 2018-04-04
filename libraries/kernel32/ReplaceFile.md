@@ -1,7 +1,7 @@
 [<img src="../../images/home.png"> Home ](https://github.com/VFPX/Win32API)  
 
 ## Function name : ReplaceFile
-Group: [File Management](../../functions_group.md#File_Management)  -  Library: [kernel32](../../libraries.md#kernel32)  
+Group: [File Management](../../functions_group.md#File_Management)  -  Library: [kernel32](../../../libraries.md#kernel32)  
 ***  
 
 

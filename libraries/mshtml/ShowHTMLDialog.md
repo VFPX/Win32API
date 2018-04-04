@@ -1,7 +1,7 @@
 [<img src="../../images/home.png"> Home ](https://github.com/VFPX/Win32API)  
 
 ## Function name : ShowHTMLDialog
-Group: [MSHTML Reference](../../functions_group.md#MSHTML_Reference)  -  Library: [mshtml](../../libraries.md#mshtml)  
+Group: [MSHTML Reference](../../functions_group.md#MSHTML_Reference)  -  Library: [mshtml](../../../libraries.md#mshtml)  
 ***  
 
 

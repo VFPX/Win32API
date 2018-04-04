@@ -1,7 +1,7 @@
 [<img src="../../images/home.png"> Home ](https://github.com/VFPX/Win32API)  
 
 ## Function name : DllInstall
-Group: [Shell Lightweight Utility APIs -- misc. functions](../../functions_group.md#Shell_Lightweight_Utility_APIs_--_misc._functions)  -  Library: [shlwapi](../../libraries.md#shlwapi)  
+Group: [Shell Lightweight Utility APIs -- misc. functions](../../functions_group.md#Shell_Lightweight_Utility_APIs_--_misc._functions)  -  Library: [shlwapi](../../../libraries.md#shlwapi)  
 ***  
 
 

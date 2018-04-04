@@ -1,7 +1,7 @@
 [<img src="../../images/home.png"> Home ](https://github.com/VFPX/Win32API)  
 
 ## Function name : capGetDriverDescription
-Group: [Windows Multimedia](../../functions_group.md#Windows_Multimedia)  -  Library: [avicap32](../../libraries.md#avicap32)  
+Group: [Windows Multimedia](../../functions_group.md#Windows_Multimedia)  -  Library: [avicap32](../../../libraries.md#avicap32)  
 ***  
 
 

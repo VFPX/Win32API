@@ -1,7 +1,7 @@
 [<img src="../../images/home.png"> Home ](https://github.com/VFPX/Win32API)  
 
 ## Function name : GetIfEntry
-Group: [IP Helper](../../functions_group.md#IP_Helper)  -  Library: [iphlpapi](../../libraries.md#iphlpapi)  
+Group: [IP Helper](../../functions_group.md#IP_Helper)  -  Library: [iphlpapi](../../../libraries.md#iphlpapi)  
 ***  
 
 

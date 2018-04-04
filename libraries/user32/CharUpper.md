@@ -1,7 +1,7 @@
 [<img src="../../images/home.png"> Home ](https://github.com/VFPX/Win32API)  
 
 ## Function name : CharUpper
-Group: [String](../../functions_group.md#String)  -  Library: [user32](../../libraries.md#user32)  
+Group: [String](../../functions_group.md#String)  -  Library: [user32](../../../libraries.md#user32)  
 ***  
 
 

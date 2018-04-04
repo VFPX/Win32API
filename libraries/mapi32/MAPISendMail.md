@@ -1,7 +1,7 @@
 [<img src="../../images/home.png"> Home ](https://github.com/VFPX/Win32API)  
 
 ## Function name : MAPISendMail
-Group: [Simple MAPI](../../functions_group.md#Simple_MAPI)  -  Library: [mapi32](../../libraries.md#mapi32)  
+Group: [Simple MAPI](../../functions_group.md#Simple_MAPI)  -  Library: [mapi32](../../../libraries.md#mapi32)  
 ***  
 
 

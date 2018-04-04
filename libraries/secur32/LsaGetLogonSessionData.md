@@ -1,7 +1,7 @@
 [<img src="../../images/home.png"> Home ](https://github.com/VFPX/Win32API)  
 
 ## Function name : LsaGetLogonSessionData
-Group: [Security](../../functions_group.md#Security)  -  Library: [secur32](../../libraries.md#secur32)  
+Group: [Security](../../functions_group.md#Security)  -  Library: [secur32](../../../libraries.md#secur32)  
 ***  
 
 

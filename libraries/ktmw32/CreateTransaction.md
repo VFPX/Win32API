@@ -1,7 +1,7 @@
 [<img src="../../images/home.png"> Home ](https://github.com/VFPX/Win32API)  
 
 ## Function name : CreateTransaction
-Group: [Kernel Transaction Manager](../../functions_group.md#Kernel_Transaction_Manager)  -  Library: [ktmw32](../../libraries.md#ktmw32)  
+Group: [Kernel Transaction Manager](../../functions_group.md#Kernel_Transaction_Manager)  -  Library: [ktmw32](../../../libraries.md#ktmw32)  
 ***  
 
 

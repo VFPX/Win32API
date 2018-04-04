@@ -1,7 +1,7 @@
 [<img src="../../images/home.png"> Home ](https://github.com/VFPX/Win32API)  
 
 ## Function name : CreateSemaphore
-Group: [Synchronization](../../functions_group.md#Synchronization)  -  Library: [kernel32](../../libraries.md#kernel32)  
+Group: [Synchronization](../../functions_group.md#Synchronization)  -  Library: [kernel32](../../../libraries.md#kernel32)  
 ***  
 
 

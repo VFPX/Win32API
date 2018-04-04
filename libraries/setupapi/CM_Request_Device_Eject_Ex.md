@@ -1,7 +1,7 @@
 [<img src="../../images/home.png"> Home ](https://github.com/VFPX/Win32API)  
 
 ## Function name : CM_Request_Device_Eject_Ex
-Group: [PnP Configuration Manager](../../functions_group.md#PnP_Configuration_Manager)  -  Library: [setupapi](../../libraries.md#setupapi)  
+Group: [PnP Configuration Manager](../../functions_group.md#PnP_Configuration_Manager)  -  Library: [setupapi](../../../libraries.md#setupapi)  
 ***  
 
 

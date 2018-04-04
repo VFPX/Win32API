@@ -1,7 +1,7 @@
 [<img src="../../images/home.png"> Home ](https://github.com/VFPX/Win32API)  
 
 ## Function name : LoadBitmap
-Group: [Bitmap](../../functions_group.md#Bitmap)  -  Library: [user32](../../libraries.md#user32)  
+Group: [Bitmap](../../functions_group.md#Bitmap)  -  Library: [user32](../../../libraries.md#user32)  
 ***  
 
 

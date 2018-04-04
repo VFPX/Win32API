@@ -1,7 +1,7 @@
 [<img src="../../images/home.png"> Home ](https://github.com/VFPX/Win32API)  
 
 ## Function name : FillRect
-Group: [Filled Shape](../../functions_group.md#Filled_Shape)  -  Library: [gdi32](../../libraries.md#gdi32)  
+Group: [Filled Shape](../../functions_group.md#Filled_Shape)  -  Library: [gdi32](../../../libraries.md#gdi32)  
 ***  
 
 

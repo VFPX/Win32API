@@ -1,7 +1,7 @@
 [<img src="../../images/home.png"> Home ](https://github.com/VFPX/Win32API)  
 
 ## Function name : CloseHandle
-Group: [Handle and Object](../../functions_group.md#Handle_and_Object)  -  Library: [kernel32](../../libraries.md#kernel32)  
+Group: [Handle and Object](../../functions_group.md#Handle_and_Object)  -  Library: [kernel32](../../../libraries.md#kernel32)  
 ***  
 
 

@@ -1,7 +1,7 @@
 [<img src="../../images/home.png"> Home ](https://github.com/VFPX/Win32API)  
 
 ## Function name : MonitorFromWindow
-Group: [Multiple Display Monitors](../../functions_group.md#Multiple_Display_Monitors)  -  Library: [user32](../../libraries.md#user32)  
+Group: [Multiple Display Monitors](../../functions_group.md#Multiple_Display_Monitors)  -  Library: [user32](../../../libraries.md#user32)  
 ***  
 
 

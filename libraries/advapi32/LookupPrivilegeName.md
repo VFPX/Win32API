@@ -1,7 +1,7 @@
 [<img src="../../images/home.png"> Home ](https://github.com/VFPX/Win32API)  
 
 ## Function name : LookupPrivilegeName
-Group: [Authorization](../../functions_group.md#Authorization)  -  Library: [advapi32](../../libraries.md#advapi32)  
+Group: [Authorization](../../functions_group.md#Authorization)  -  Library: [advapi32](../../../libraries.md#advapi32)  
 ***  
 
 

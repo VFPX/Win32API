@@ -1,7 +1,7 @@
 [<img src="../../images/home.png"> Home ](https://github.com/VFPX/Win32API)  
 
 ## Function name : GetUserObjectInformation
-Group: [Service](../../functions_group.md#Service)  -  Library: [user32](../../libraries.md#user32)  
+Group: [Service](../../functions_group.md#Service)  -  Library: [user32](../../../libraries.md#user32)  
 ***  
 
 

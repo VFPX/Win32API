@@ -1,7 +1,7 @@
 [<img src="../../images/home.png"> Home ](https://github.com/VFPX/Win32API)  
 
 ## Function name : GetCursorPos
-Group: [Cursor](../../functions_group.md#Cursor)  -  Library: [user32](../../libraries.md#user32)  
+Group: [Cursor](../../functions_group.md#Cursor)  -  Library: [user32](../../../libraries.md#user32)  
 ***  
 
 

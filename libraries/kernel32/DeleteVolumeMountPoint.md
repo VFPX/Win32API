@@ -1,7 +1,7 @@
 [<img src="../../images/home.png"> Home ](https://github.com/VFPX/Win32API)  
 
 ## Function name : DeleteVolumeMountPoint
-Group: [File System](../../functions_group.md#File_System)  -  Library: [kernel32](../../libraries.md#kernel32)  
+Group: [File System](../../functions_group.md#File_System)  -  Library: [kernel32](../../../libraries.md#kernel32)  
 ***  
 
 

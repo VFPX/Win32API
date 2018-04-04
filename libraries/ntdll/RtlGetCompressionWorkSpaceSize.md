@@ -1,7 +1,7 @@
 [<img src="../../images/home.png"> Home ](https://github.com/VFPX/Win32API)  
 
 ## Function name : RtlGetCompressionWorkSpaceSize
-Group: [Data Decompression Library](../../functions_group.md#Data_Decompression_Library)  -  Library: [ntdll](../../libraries.md#ntdll)  
+Group: [Data Decompression Library](../../functions_group.md#Data_Decompression_Library)  -  Library: [ntdll](../../../libraries.md#ntdll)  
 ***  
 
 

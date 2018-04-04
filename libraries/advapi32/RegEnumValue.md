@@ -1,7 +1,7 @@
 [<img src="../../images/home.png"> Home ](https://github.com/VFPX/Win32API)  
 
 ## Function name : RegEnumValue
-Group: [Registry](../../functions_group.md#Registry)  -  Library: [advapi32](../../libraries.md#advapi32)  
+Group: [Registry](../../functions_group.md#Registry)  -  Library: [advapi32](../../../libraries.md#advapi32)  
 ***  
 
 

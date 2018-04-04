@@ -1,7 +1,7 @@
 [<img src="../../images/home.png"> Home ](https://github.com/VFPX/Win32API)  
 
 ## Function name : InetIsOffline
-Group: [Shell Functions](../../functions_group.md#Shell_Functions)  -  Library: [urlmon](../../libraries.md#urlmon)  
+Group: [Shell Functions](../../functions_group.md#Shell_Functions)  -  Library: [urlmon](../../../libraries.md#urlmon)  
 ***  
 
 

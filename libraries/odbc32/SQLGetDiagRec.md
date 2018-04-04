@@ -1,7 +1,7 @@
 [<img src="../../images/home.png"> Home ](https://github.com/VFPX/Win32API)  
 
 ## Function name : SQLGetDiagRec
-Group: [ODBC API](../../functions_group.md#ODBC_API)  -  Library: [odbc32](../../libraries.md#odbc32)  
+Group: [ODBC API](../../functions_group.md#ODBC_API)  -  Library: [odbc32](../../../libraries.md#odbc32)  
 ***  
 
 

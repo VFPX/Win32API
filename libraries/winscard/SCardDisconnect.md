@@ -1,7 +1,7 @@
 [<img src="../../images/home.png"> Home ](https://github.com/VFPX/Win32API)  
 
 ## Function name : SCardDisconnect
-Group: [Authentication](../../functions_group.md#Authentication)  -  Library: [winscard](../../libraries.md#winscard)  
+Group: [Authentication](../../functions_group.md#Authentication)  -  Library: [winscard](../../../libraries.md#winscard)  
 ***  
 
 

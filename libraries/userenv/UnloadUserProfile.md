@@ -1,7 +1,7 @@
 [<img src="../../images/home.png"> Home ](https://github.com/VFPX/Win32API)  
 
 ## Function name : UnloadUserProfile
-Group: [Shell Functions](../../functions_group.md#Shell_Functions)  -  Library: [userenv](../../libraries.md#userenv)  
+Group: [Shell Functions](../../functions_group.md#Shell_Functions)  -  Library: [userenv](../../../libraries.md#userenv)  
 ***  
 
 

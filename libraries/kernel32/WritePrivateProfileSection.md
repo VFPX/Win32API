@@ -1,7 +1,7 @@
 [<img src="../../images/home.png"> Home ](https://github.com/VFPX/Win32API)  
 
 ## Function name : WritePrivateProfileSection
-Group: [Registry](../../functions_group.md#Registry)  -  Library: [kernel32](../../libraries.md#kernel32)  
+Group: [Registry](../../functions_group.md#Registry)  -  Library: [kernel32](../../../libraries.md#kernel32)  
 ***  
 
 

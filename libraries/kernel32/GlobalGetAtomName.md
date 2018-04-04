@@ -1,7 +1,7 @@
 [<img src="../../images/home.png"> Home ](https://github.com/VFPX/Win32API)  
 
 ## Function name : GlobalGetAtomName
-Group: [Atom](../../functions_group.md#Atom)  -  Library: [kernel32](../../libraries.md#kernel32)  
+Group: [Atom](../../functions_group.md#Atom)  -  Library: [kernel32](../../../libraries.md#kernel32)  
 ***  
 
 
