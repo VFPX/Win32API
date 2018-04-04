@@ -1,9 +1,9 @@
 [<img src="images/home.png"> Home ](https://github.com/VFPX/Win32API)  
 
 # List of functions grouped by library name
+<a name="advapi32" />
 
 # ![](images/fox1.png) Library: advapi32
-<a name="advapi32" />
 <details>
 
 ***  
@@ -433,9 +433,9 @@ The UnlockServiceDatabase function unlocks a service control manager database by
 ***  
 
 </details>
+<a name="avicap32" />
 
 # ![](images/fox1.png) Library: avicap32
-<a name="avicap32" />
 <details>
 
 ***  
@@ -453,9 +453,9 @@ The capGetDriverDescription function retrieves the version description of the ca
 ***  
 
 </details>
+<a name="avifil32" />
 
 # ![](images/fox1.png) Library: avifil32
-<a name="avifil32" />
 <details>
 
 ***  
@@ -542,9 +542,9 @@ The AVIStreamTimeToSample function converts from milliseconds to samples.
 ***  
 
 </details>
+<a name="cfgmgr32" />
 
 # ![](images/fox1.png) Library: cfgmgr32
-<a name="cfgmgr32" />
 <details>
 
 ***  
@@ -577,9 +577,9 @@ Obtains a device instance handle to the device node that is associated with a sp
 ***  
 
 </details>
+<a name="comctl32" />
 
 # ![](images/fox1.png) Library: comctl32
-<a name="comctl32" />
 <details>
 
 ***  
@@ -630,9 +630,9 @@ Creates, displays, and operates a task dialog.
 ***  
 
 </details>
+<a name="comdlg32" />
 
 # ![](images/fox1.png) Library: comdlg32
-<a name="comdlg32" />
 <details>
 
 ***  
@@ -693,9 +693,9 @@ Creates, displays, and operates a task dialog.
 ***  
 
 </details>
+<a name="crypt32" />
 
 # ![](images/fox1.png) Library: crypt32
-<a name="crypt32" />
 <details>
 
 ***  
@@ -741,9 +741,9 @@ Decrypts and does an integrity check of the data in a DATA_BLOB structure. Scope
 ***  
 
 </details>
+<a name="dnsapi" />
 
 # ![](images/fox1.png) Library: dnsapi
-<a name="dnsapi" />
 <details>
 
 ***  
@@ -754,9 +754,9 @@ Validates the status of a specified DNS name.
 ***  
 
 </details>
+<a name="dwmapi" />
 
 # ![](images/fox1.png) Library: dwmapi
-<a name="dwmapi" />
 <details>
 
 ***  
@@ -767,9 +767,9 @@ Extends the window frame behind the client area.
 ***  
 
 </details>
+<a name="dxva2" />
 
 # ![](images/fox1.png) Library: dxva2
-<a name="dxva2" />
 <details>
 
 ***  
@@ -815,9 +815,9 @@ Sets the contrast value for a monitor.
 ***  
 
 </details>
+<a name="esent" />
 
 # ![](images/fox1.png) Library: esent
-<a name="esent" />
 <details>
 
 ***  
@@ -946,9 +946,9 @@ Performs an update operation including inserting a new row into a table or updat
 ***  
 
 </details>
+<a name="gdi32" />
 
 # ![](images/fox1.png) Library: gdi32
-<a name="gdi32" />
 <details>
 
 ***  
@@ -1286,9 +1286,9 @@ Writes a character string at the specified location, using the currently selecte
 ***  
 
 </details>
+<a name="gdiplus" />
 
 # ![](images/fox1.png) Library: gdiplus
-<a name="gdiplus" />
 <details>
 
 ***  
@@ -1808,9 +1808,9 @@ Updates this Graphics object"s world transformation matrix with the product of i
 ***  
 
 </details>
+<a name="iphlpapi" />
 
 # ![](images/fox1.png) Library: iphlpapi
-<a name="iphlpapi" />
 <details>
 
 ***  
@@ -1948,9 +1948,9 @@ The WSAEnumProtocols function retrieves information about available transport pr
 ***  
 
 </details>
+<a name="kernel32" />
 
 # ![](images/fox1.png) Library: kernel32
-<a name="kernel32" />
 <details>
 
 ***  
@@ -3284,9 +3284,9 @@ Opens an existing file and sets the file pointer to the beginning of the file.
 ***  
 
 </details>
+<a name="ktmw32" />
 
 # ![](images/fox1.png) Library: ktmw32
-<a name="ktmw32" />
 <details>
 
 ***  
@@ -3307,9 +3307,9 @@ Requests that the specified transaction be rolled back. This function is synchro
 ***  
 
 </details>
+<a name="mapi32" />
 
 # ![](images/fox1.png) Library: mapi32
-<a name="mapi32" />
 <details>
 
 ***  
@@ -3360,9 +3360,9 @@ The MAPISendMail function sends a message.
 ***  
 
 </details>
+<a name="mpr" />
 
 # ![](images/fox1.png) Library: mpr
-<a name="mpr" />
 <details>
 
 ***  
@@ -3438,9 +3438,9 @@ The WNetOpenEnum function starts an enumeration of network resources or existing
 ***  
 
 </details>
+<a name="mqrt" />
 
 # ![](images/fox1.png) Library: mqrt
-<a name="mqrt" />
 <details>
 
 ***  
@@ -3476,9 +3476,9 @@ Deletes all of the messages in a queue.
 ***  
 
 </details>
+<a name="mshtml" />
 
 # ![](images/fox1.png) Library: mshtml
-<a name="mshtml" />
 <details>
 
 ***  
@@ -3489,9 +3489,9 @@ Creates a modal dialog box that displays HTML.
 ***  
 
 </details>
+<a name="msimg32" />
 
 # ![](images/fox1.png) Library: msimg32
-<a name="msimg32" />
 <details>
 
 ***  
@@ -3507,9 +3507,9 @@ The GradientFill function fills rectangle and triangle structures.
 ***  
 
 </details>
+<a name="msvfw32" />
 
 # ![](images/fox1.png) Library: msvfw32
-<a name="msvfw32" />
 <details>
 
 ***  
@@ -3530,9 +3530,9 @@ The DrawDibOpen function opens the DrawDib library for use and creates a DrawDib
 ***  
 
 </details>
+<a name="netapi32" />
 
 # ![](images/fox1.png) Library: netapi32
-<a name="netapi32" />
 <details>
 
 ***  
@@ -3738,9 +3738,9 @@ Searches for a file.
 ***  
 
 </details>
+<a name="ntdll" />
 
 # ![](images/fox1.png) Library: ntdll
-<a name="ntdll" />
 <details>
 
 ***  
@@ -3761,9 +3761,9 @@ This function is used to determine the correct size of the WorkSpace buffer for 
 ***  
 
 </details>
+<a name="odbc32" />
 
 # ![](images/fox1.png) Library: odbc32
-<a name="odbc32" />
 <details>
 
 ***  
@@ -3921,9 +3921,9 @@ The WNetGetLastError function retrieves the most recent extended error code set 
 ***  
 
 </details>
+<a name="odbccp32" />
 
 # ![](images/fox1.png) Library: odbccp32
-<a name="odbccp32" />
 <details>
 
 ***  
@@ -3934,9 +3934,9 @@ SQLInstallerError returns error or status information for the ODBC installer fun
 ***  
 
 </details>
+<a name="ole32" />
 
 # ![](images/fox1.png) Library: ole32
-<a name="ole32" />
 <details>
 
 ***  
@@ -3972,9 +3972,9 @@ Converts a globally unique identifier (GUID) into a string of printable characte
 ***  
 
 </details>
+<a name="powrprof" />
 
 # ![](images/fox1.png) Library: powrprof
-<a name="powrprof" />
 <details>
 
 ***  
@@ -3995,9 +3995,9 @@ The SetSuspendState function suspends the system by shutting power down. Dependi
 ***  
 
 </details>
+<a name="psapi" />
 
 # ![](images/fox1.png) Library: psapi
-<a name="psapi" />
 <details>
 
 ***  
@@ -4048,9 +4048,9 @@ Retrieves information about the memory usage of the specified process in the PRO
 ***  
 
 </details>
+<a name="rapi" />
 
 # ![](images/fox1.png) Library: rapi
-<a name="rapi" />
 <details>
 
 ***  
@@ -4301,9 +4301,9 @@ This function writes a set of properties to a single record, creating the record
 ***  
 
 </details>
+<a name="rasapi32" />
 
 # ![](images/fox1.png) Library: rasapi32
-<a name="rasapi32" />
 <details>
 
 ***  
@@ -4329,9 +4329,9 @@ The RasGetCountryInfo function retrieves country-specific dialing information fr
 ***  
 
 </details>
+<a name="rasdlg" />
 
 # ![](images/fox1.png) Library: rasdlg
-<a name="rasdlg" />
 <details>
 
 ***  
@@ -4342,9 +4342,9 @@ The RasPhonebookDlg function displays the main Dial-Up Networking dialog box. Fr
 ***  
 
 </details>
+<a name="rpcrt4" />
 
 # ![](images/fox1.png) Library: rpcrt4
-<a name="rpcrt4" />
 <details>
 
 ***  
@@ -4385,9 +4385,9 @@ Converts a UUID to a string.
 ***  
 
 </details>
+<a name="secur32" />
 
 # ![](images/fox1.png) Library: secur32
-<a name="secur32" />
 <details>
 
 ***  
@@ -4419,9 +4419,9 @@ Retrieves information about a specified logon session.
 ***  
 
 </details>
+<a name="sensapi" />
 
 # ![](images/fox1.png) Library: sensapi
-<a name="sensapi" />
 <details>
 
 ***  
@@ -4432,9 +4432,9 @@ The IsNetworkAlive function determines whether the local system is connected to 
 ***  
 
 </details>
+<a name="setupapi" />
 
 # ![](images/fox1.png) Library: setupapi
-<a name="setupapi" />
 <details>
 
 ***  
@@ -4488,9 +4488,9 @@ The SetupOpenInfFile function opens an INF file and returns a handle to it.
 ***  
 
 </details>
+<a name="shell32" />
 
 # ![](images/fox1.png) Library: shell32
-<a name="shell32" />
 <details>
 
 ***  
@@ -4675,9 +4675,9 @@ Returns a pointer to an ITEMIDLIST structure when passed a path.
 ***  
 
 </details>
+<a name="shlwapi" />
 
 # ![](images/fox1.png) Library: shlwapi
-<a name="shlwapi" />
 <details>
 
 ***  
@@ -4858,9 +4858,9 @@ Takes a variable-length argument list and returns the values of the arguments as
 ***  
 
 </details>
+<a name="urlmon" />
 
 # ![](images/fox1.png) Library: urlmon
-<a name="urlmon" />
 <details>
 
 ***  
@@ -4906,9 +4906,9 @@ Retrieves options for the current Internet session.
 ***  
 
 </details>
+<a name="user32" />
 
 # ![](images/fox1.png) Library: user32
-<a name="user32" />
 <details>
 
 ***  
@@ -5917,9 +5917,9 @@ The WinHelp function starts Windows Help (WINHELP.EXE) and passes additional dat
 ***  
 
 </details>
+<a name="userenv" />
 
 # ![](images/fox1.png) Library: userenv
-<a name="userenv" />
 <details>
 
 ***  
@@ -5935,9 +5935,9 @@ Unloads a user"s profile that was loaded by the LoadUserProfile function.
 ***  
 
 </details>
+<a name="version" />
 
 # ![](images/fox1.png) Library: version
-<a name="version" />
 <details>
 
 ***  
@@ -5953,9 +5953,9 @@ The GetFileVersionInfoSize function determines whether the operating system can 
 ***  
 
 </details>
+<a name="virtdisk" />
 
 # ![](images/fox1.png) Library: virtdisk
-<a name="virtdisk" />
 <details>
 
 ***  
@@ -5981,9 +5981,9 @@ Opens a virtual hard disk (VHD) for use.
 ***  
 
 </details>
+<a name="winhttp" />
 
 # ![](images/fox1.png) Library: winhttp
-<a name="winhttp" />
 <details>
 
 ***  
@@ -6049,9 +6049,9 @@ The WinHttpSetCredentials function passes the required authorization credentials
 ***  
 
 </details>
+<a name="wininet" />
 
 # ![](images/fox1.png) Library: wininet
-<a name="wininet" />
 <details>
 
 ***  
@@ -6304,9 +6304,9 @@ Writes data to an open Internet file.
 ***  
 
 </details>
+<a name="winmm" />
 
 # ![](images/fox1.png) Library: winmm
-<a name="winmm" />
 <details>
 
 ***  
@@ -6592,9 +6592,9 @@ The waveOutWrite function sends a data block to the given waveform-audio output 
 ***  
 
 </details>
+<a name="winscard" />
 
 # ![](images/fox1.png) Library: winscard
-<a name="winscard" />
 <details>
 
 ***  
@@ -6675,9 +6675,9 @@ Sends a service request to the smart card and expects to receive data back from 
 ***  
 
 </details>
+<a name="winspool.drv" />
 
 # ![](images/fox1.png) Library: winspool.drv
-<a name="winspool.drv" />
 <details>
 
 ***  
@@ -6830,9 +6830,9 @@ The SetPrinter function sets the data for a specified printer or sets the state 
 ***  
 
 </details>
+<a name="wintrust" />
 
 # ![](images/fox1.png) Library: wintrust
-<a name="wintrust" />
 <details>
 
 ***  
@@ -6843,9 +6843,9 @@ Performs a trust verification action on a specified object. The function passes 
 ***  
 
 </details>
+<a name="ws2_32" />
 
 # ![](images/fox1.png) Library: ws2_32
-<a name="ws2_32" />
 <details>
 
 ***  
@@ -7035,9 +7035,9 @@ The <Strong>select</Strong> function determines the status of one or more socket
 ***  
 
 </details>
+<a name="wtsapi32" />
 
 # ![](images/fox1.png) Library: wtsapi32
-<a name="wtsapi32" />
 <details>
 
 ***  
