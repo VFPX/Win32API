@@ -1,7 +1,7 @@
 [<img src="../../images/home.png"> Home ](https://github.com/VFPX/Win32API)  
 
 ## Function name : GetTextFace
-Group: [Font and Text](../../functions_group.md#Font_and_Text)  -  Library: [gdi32](../../../libraries.md#gdi32)  
+Group: [Font and Text](../../functions_group.md#Font_and_Text)  -  Library: [gdi32](../../Libraries.md#gdi32)  
 ***  
 
 

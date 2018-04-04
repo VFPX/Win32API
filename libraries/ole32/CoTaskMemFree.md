@@ -1,7 +1,7 @@
 [<img src="../../images/home.png"> Home ](https://github.com/VFPX/Win32API)  
 
 ## Function name : CoTaskMemFree
-Group: [COM](../../functions_group.md#COM)  -  Library: [ole32](../../../libraries.md#ole32)  
+Group: [COM](../../functions_group.md#COM)  -  Library: [ole32](../../Libraries.md#ole32)  
 ***  
 
 

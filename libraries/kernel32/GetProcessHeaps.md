@@ -1,7 +1,7 @@
 [<img src="../../images/home.png"> Home ](https://github.com/VFPX/Win32API)  
 
 ## Function name : GetProcessHeaps
-Group: [Memory Management](../../functions_group.md#Memory_Management)  -  Library: [kernel32](../../../libraries.md#kernel32)  
+Group: [Memory Management](../../functions_group.md#Memory_Management)  -  Library: [kernel32](../../Libraries.md#kernel32)  
 ***  
 
 

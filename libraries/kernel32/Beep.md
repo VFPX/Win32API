@@ -1,7 +1,7 @@
 [<img src="../../images/home.png"> Home ](https://github.com/VFPX/Win32API)  
 
 ## Function name : Beep
-Group: [Error Handling](../../functions_group.md#Error_Handling)  -  Library: [kernel32](../../../libraries.md#kernel32)  
+Group: [Error Handling](../../functions_group.md#Error_Handling)  -  Library: [kernel32](../../Libraries.md#kernel32)  
 ***  
 
 

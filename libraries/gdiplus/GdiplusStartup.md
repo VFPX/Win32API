@@ -1,7 +1,7 @@
 [<img src="../../images/home.png"> Home ](https://github.com/VFPX/Win32API)  
 
 ## Function name : GdiplusStartup
-Group: [GDI+](../../functions_group.md#GDIplus)  -  Library: [gdiplus](../../../libraries.md#gdiplus)  
+Group: [GDI+](../../functions_group.md#GDIplus)  -  Library: [gdiplus](../../Libraries.md#gdiplus)  
 ***  
 
 

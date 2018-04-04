@@ -1,7 +1,7 @@
 [<img src="../../images/home.png"> Home ](https://github.com/VFPX/Win32API)  
 
 ## Function name : SetDoubleClickTime
-Group: [Mouse Input](../../functions_group.md#Mouse_Input)  -  Library: [user32](../../../libraries.md#user32)  
+Group: [Mouse Input](../../functions_group.md#Mouse_Input)  -  Library: [user32](../../Libraries.md#user32)  
 ***  
 
 

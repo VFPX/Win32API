@@ -1,7 +1,7 @@
 [<img src="../../images/home.png"> Home ](https://github.com/VFPX/Win32API)  
 
 ## Function name : DrawText
-Group: [Font and Text](../../functions_group.md#Font_and_Text)  -  Library: [user32](../../../libraries.md#user32)  
+Group: [Font and Text](../../functions_group.md#Font_and_Text)  -  Library: [user32](../../Libraries.md#user32)  
 ***  
 
 

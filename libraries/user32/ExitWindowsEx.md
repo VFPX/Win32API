@@ -1,7 +1,7 @@
 [<img src="../../images/home.png"> Home ](https://github.com/VFPX/Win32API)  
 
 ## Function name : ExitWindowsEx
-Group: [System Shutdown](../../functions_group.md#System_Shutdown)  -  Library: [user32](../../../libraries.md#user32)  
+Group: [System Shutdown](../../functions_group.md#System_Shutdown)  -  Library: [user32](../../Libraries.md#user32)  
 ***  
 
 

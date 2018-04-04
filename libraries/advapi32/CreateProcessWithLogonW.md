@@ -1,7 +1,7 @@
 [<img src="../../images/home.png"> Home ](https://github.com/VFPX/Win32API)  
 
 ## Function name : CreateProcessWithLogonW
-Group: [Process and Thread](../../functions_group.md#Process_and_Thread)  -  Library: [advapi32](../../../libraries.md#advapi32)  
+Group: [Process and Thread](../../functions_group.md#Process_and_Thread)  -  Library: [advapi32](../../Libraries.md#advapi32)  
 ***  
 
 

@@ -1,7 +1,7 @@
 [<img src="../../images/home.png"> Home ](https://github.com/VFPX/Win32API)  
 
 ## Function name : SetFileTime
-Group: [Time](../../functions_group.md#Time)  -  Library: [kernel32](../../../libraries.md#kernel32)  
+Group: [Time](../../functions_group.md#Time)  -  Library: [kernel32](../../Libraries.md#kernel32)  
 ***  
 
 

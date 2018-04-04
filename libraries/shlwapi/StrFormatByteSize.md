@@ -1,7 +1,7 @@
 [<img src="../../images/home.png"> Home ](https://github.com/VFPX/Win32API)  
 
 ## Function name : StrFormatByteSize
-Group: [String](../../functions_group.md#String)  -  Library: [shlwapi](../../../libraries.md#shlwapi)  
+Group: [String](../../functions_group.md#String)  -  Library: [shlwapi](../../Libraries.md#shlwapi)  
 ***  
 
 

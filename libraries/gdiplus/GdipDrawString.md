@@ -1,7 +1,7 @@
 [<img src="../../images/home.png"> Home ](https://github.com/VFPX/Win32API)  
 
 ## Function name : GdipDrawString
-Group: [GDI+ Text](../../functions_group.md#GDIplus_Text)  -  Library: [gdiplus](../../../libraries.md#gdiplus)  
+Group: [GDI+ Text](../../functions_group.md#GDIplus_Text)  -  Library: [gdiplus](../../Libraries.md#gdiplus)  
 ***  
 
 

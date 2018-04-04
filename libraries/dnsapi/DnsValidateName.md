@@ -1,7 +1,7 @@
 [<img src="../../images/home.png"> Home ](https://github.com/VFPX/Win32API)  
 
 ## Function name : DnsValidateName
-Group: [DNS Functions](../../functions_group.md#DNS_Functions)  -  Library: [dnsapi](../../../libraries.md#dnsapi)  
+Group: [DNS Functions](../../functions_group.md#DNS_Functions)  -  Library: [dnsapi](../../Libraries.md#dnsapi)  
 ***  
 
 

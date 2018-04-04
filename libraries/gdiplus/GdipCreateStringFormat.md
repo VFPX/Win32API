@@ -1,7 +1,7 @@
 [<img src="../../images/home.png"> Home ](https://github.com/VFPX/Win32API)  
 
 ## Function name : GdipCreateStringFormat
-Group: [GDI+ StringFormat](../../functions_group.md#GDIplus_StringFormat)  -  Library: [gdiplus](../../../libraries.md#gdiplus)  
+Group: [GDI+ StringFormat](../../functions_group.md#GDIplus_StringFormat)  -  Library: [gdiplus](../../Libraries.md#gdiplus)  
 ***  
 
 

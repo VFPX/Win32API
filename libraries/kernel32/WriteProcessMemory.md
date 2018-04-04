@@ -1,7 +1,7 @@
 [<img src="../../images/home.png"> Home ](https://github.com/VFPX/Win32API)  
 
 ## Function name : WriteProcessMemory
-Group: [Debugging](../../functions_group.md#Debugging)  -  Library: [kernel32](../../../libraries.md#kernel32)  
+Group: [Debugging](../../functions_group.md#Debugging)  -  Library: [kernel32](../../Libraries.md#kernel32)  
 ***  
 
 

@@ -1,7 +1,7 @@
 [<img src="../../images/home.png"> Home ](https://github.com/VFPX/Win32API)  
 
 ## Function name : GetClipboardFormatName
-Group: [Clipboard](../../functions_group.md#Clipboard)  -  Library: [user32](../../../libraries.md#user32)  
+Group: [Clipboard](../../functions_group.md#Clipboard)  -  Library: [user32](../../Libraries.md#user32)  
 ***  
 
 

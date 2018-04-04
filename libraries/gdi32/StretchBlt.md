@@ -1,7 +1,7 @@
 [<img src="../../images/home.png"> Home ](https://github.com/VFPX/Win32API)  
 
 ## Function name : StretchBlt
-Group: [Bitmap](../../functions_group.md#Bitmap)  -  Library: [gdi32](../../../libraries.md#gdi32)  
+Group: [Bitmap](../../functions_group.md#Bitmap)  -  Library: [gdi32](../../Libraries.md#gdi32)  
 ***  
 
 

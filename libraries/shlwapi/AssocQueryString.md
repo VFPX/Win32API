@@ -1,7 +1,7 @@
 [<img src="../../images/home.png"> Home ](https://github.com/VFPX/Win32API)  
 
 ## Function name : AssocQueryString
-Group: [Shell Functions](../../functions_group.md#Shell_Functions)  -  Library: [shlwapi](../../../libraries.md#shlwapi)  
+Group: [Shell Functions](../../functions_group.md#Shell_Functions)  -  Library: [shlwapi](../../Libraries.md#shlwapi)  
 ***  
 
 

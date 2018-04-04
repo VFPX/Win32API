@@ -1,7 +1,7 @@
 [<img src="../../images/home.png"> Home ](https://github.com/VFPX/Win32API)  
 
 ## Function name : GetSysColorBrush
-Group: [Brush](../../functions_group.md#Brush)  -  Library: [user32](../../../libraries.md#user32)  
+Group: [Brush](../../functions_group.md#Brush)  -  Library: [user32](../../Libraries.md#user32)  
 ***  
 
 

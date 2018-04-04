@@ -1,7 +1,7 @@
 [<img src="../../images/home.png"> Home ](https://github.com/VFPX/Win32API)  
 
 ## Function name : AllocConsole
-Group: [Console](../../functions_group.md#Console)  -  Library: [kernel32](../../../libraries.md#kernel32)  
+Group: [Console](../../functions_group.md#Console)  -  Library: [kernel32](../../Libraries.md#kernel32)  
 ***  
 
 

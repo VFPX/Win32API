@@ -1,7 +1,7 @@
 [<img src="../../images/home.png"> Home ](https://github.com/VFPX/Win32API)  
 
 ## Function name : GetUserName
-Group: [System Information](../../functions_group.md#System_Information)  -  Library: [advapi32](../../../libraries.md#advapi32)  
+Group: [System Information](../../functions_group.md#System_Information)  -  Library: [advapi32](../../Libraries.md#advapi32)  
 ***  
 
 

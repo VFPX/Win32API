@@ -1,7 +1,7 @@
 [<img src="../../images/home.png"> Home ](https://github.com/VFPX/Win32API)  
 
 ## Function name : SHEnumKeyEx
-Group: [Registry](../../functions_group.md#Registry)  -  Library: [shlwapi](../../../libraries.md#shlwapi)  
+Group: [Registry](../../functions_group.md#Registry)  -  Library: [shlwapi](../../Libraries.md#shlwapi)  
 ***  
 
 

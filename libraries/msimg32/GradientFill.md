@@ -1,7 +1,7 @@
 [<img src="../../images/home.png"> Home ](https://github.com/VFPX/Win32API)  
 
 ## Function name : GradientFill
-Group: [Bitmap](../../functions_group.md#Bitmap)  -  Library: [msimg32](../../../libraries.md#msimg32)  
+Group: [Bitmap](../../functions_group.md#Bitmap)  -  Library: [msimg32](../../Libraries.md#msimg32)  
 ***  
 
 

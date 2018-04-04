@@ -1,7 +1,7 @@
 [<img src="../../images/home.png"> Home ](https://github.com/VFPX/Win32API)  
 
 ## Function name : WinVerifyTrust
-Group: [Cryptography Reference](../../functions_group.md#Cryptography_Reference)  -  Library: [wintrust](../../../libraries.md#wintrust)  
+Group: [Cryptography Reference](../../functions_group.md#Cryptography_Reference)  -  Library: [wintrust](../../Libraries.md#wintrust)  
 ***  
 
 

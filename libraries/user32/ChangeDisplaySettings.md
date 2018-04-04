@@ -1,7 +1,7 @@
 [<img src="../../images/home.png"> Home ](https://github.com/VFPX/Win32API)  
 
 ## Function name : ChangeDisplaySettings
-Group: [Device Context](../../functions_group.md#Device_Context)  -  Library: [user32](../../../libraries.md#user32)  
+Group: [Device Context](../../functions_group.md#Device_Context)  -  Library: [user32](../../Libraries.md#user32)  
 ***  
 
 

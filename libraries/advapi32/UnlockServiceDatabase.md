@@ -1,7 +1,7 @@
 [<img src="../../images/home.png"> Home ](https://github.com/VFPX/Win32API)  
 
 ## Function name : UnlockServiceDatabase
-Group: [Service](../../functions_group.md#Service)  -  Library: [advapi32](../../../libraries.md#advapi32)  
+Group: [Service](../../functions_group.md#Service)  -  Library: [advapi32](../../Libraries.md#advapi32)  
 ***  
 
 

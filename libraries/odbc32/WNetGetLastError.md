@@ -1,7 +1,7 @@
 [<img src="../../images/home.png"> Home ](https://github.com/VFPX/Win32API)  
 
 ## Function name : WNetGetLastError
-Group: [Windows Networking](../../functions_group.md#Windows_Networking)  -  Library: [odbc32](../../../libraries.md#odbc32)  
+Group: [Windows Networking](../../functions_group.md#Windows_Networking)  -  Library: [odbc32](../../Libraries.md#odbc32)  
 ***  
 
 

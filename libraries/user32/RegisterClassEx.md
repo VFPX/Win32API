@@ -1,7 +1,7 @@
 [<img src="../../images/home.png"> Home ](https://github.com/VFPX/Win32API)  
 
 ## Function name : RegisterClassEx
-Group: [Window Class](../../functions_group.md#Window_Class)  -  Library: [user32](../../../libraries.md#user32)  
+Group: [Window Class](../../functions_group.md#Window_Class)  -  Library: [user32](../../Libraries.md#user32)  
 ***  
 
 

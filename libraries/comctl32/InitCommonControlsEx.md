@@ -1,7 +1,7 @@
 [<img src="../../images/home.png"> Home ](https://github.com/VFPX/Win32API)  
 
 ## Function name : InitCommonControlsEx
-Group: [Windows Controls](../../functions_group.md#Windows_Controls)  -  Library: [comctl32](../../../libraries.md#comctl32)  
+Group: [Windows Controls](../../functions_group.md#Windows_Controls)  -  Library: [comctl32](../../Libraries.md#comctl32)  
 ***  
 
 

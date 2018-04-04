@@ -1,7 +1,7 @@
 [<img src="../../images/home.png"> Home ](https://github.com/VFPX/Win32API)  
 
 ## Function name : CreateToolhelp32Snapshot
-Group: [Performance Monitoring](../../functions_group.md#Performance_Monitoring)  -  Library: [kernel32](../../../libraries.md#kernel32)  
+Group: [Performance Monitoring](../../functions_group.md#Performance_Monitoring)  -  Library: [kernel32](../../Libraries.md#kernel32)  
 ***  
 
 

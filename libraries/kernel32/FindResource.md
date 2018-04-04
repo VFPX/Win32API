@@ -1,7 +1,7 @@
 [<img src="../../images/home.png"> Home ](https://github.com/VFPX/Win32API)  
 
 ## Function name : FindResource
-Group: [Resource](../../functions_group.md#Resource)  -  Library: [kernel32](../../../libraries.md#kernel32)  
+Group: [Resource](../../functions_group.md#Resource)  -  Library: [kernel32](../../Libraries.md#kernel32)  
 ***  
 
 

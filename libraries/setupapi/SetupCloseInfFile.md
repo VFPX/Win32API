@@ -1,7 +1,7 @@
 [<img src="../../images/home.png"> Home ](https://github.com/VFPX/Win32API)  
 
 ## Function name : SetupCloseInfFile
-Group: [Setup API functions](../../functions_group.md#Setup_API_functions)  -  Library: [setupapi](../../../libraries.md#setupapi)  
+Group: [Setup API functions](../../functions_group.md#Setup_API_functions)  -  Library: [setupapi](../../Libraries.md#setupapi)  
 ***  
 
 

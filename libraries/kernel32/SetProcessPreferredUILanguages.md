@@ -1,7 +1,7 @@
 [<img src="../../images/home.png"> Home ](https://github.com/VFPX/Win32API)  
 
 ## Function name : SetProcessPreferredUILanguages
-Group: [Multilingual User Interface](../../functions_group.md#Multilingual_User_Interface)  -  Library: [kernel32](../../../libraries.md#kernel32)  
+Group: [Multilingual User Interface](../../functions_group.md#Multilingual_User_Interface)  -  Library: [kernel32](../../Libraries.md#kernel32)  
 ***  
 
 

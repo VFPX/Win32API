@@ -1,7 +1,7 @@
 [<img src="../../images/home.png"> Home ](https://github.com/VFPX/Win32API)  
 
 ## Function name : DeviceIoControl
-Group: [Device Input and Output](../../functions_group.md#Device_Input_and_Output)  -  Library: [kernel32](../../../libraries.md#kernel32)  
+Group: [Device Input and Output](../../functions_group.md#Device_Input_and_Output)  -  Library: [kernel32](../../Libraries.md#kernel32)  
 ***  
 
 

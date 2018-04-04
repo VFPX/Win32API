@@ -1,7 +1,7 @@
 [<img src="../../images/home.png"> Home ](https://github.com/VFPX/Win32API)  
 
 ## Function name : NetShareSetInfo
-Group: [Network Management](../../functions_group.md#Network_Management)  -  Library: [netapi32](../../../libraries.md#netapi32)  
+Group: [Network Management](../../functions_group.md#Network_Management)  -  Library: [netapi32](../../Libraries.md#netapi32)  
 ***  
 
 
