@@ -1,7 +1,7 @@
 [<img src="../../images/home.png"> Home ](https://github.com/VFPX/Win32API)  
 
 ## Function name : GdipDisposeImageAttributes
-Group: GDI+ ImageAttributes - Library: gdiplus    
+Group: [GDI+ ImageAttributes](../../functions_group.md#GDIplus_ImageAttributes)  -  Library: [gdiplus](../../libraries.md#gdiplus)  
 ***  
 
 

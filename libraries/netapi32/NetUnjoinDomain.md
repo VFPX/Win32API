@@ -1,7 +1,7 @@
 [<img src="../../images/home.png"> Home ](https://github.com/VFPX/Win32API)  
 
 ## Function name : NetUnjoinDomain
-Group: Windows Networking - Library: netapi32    
+Group: [Windows Networking](../../functions_group.md#Windows_Networking)  -  Library: [netapi32](../../libraries.md#netapi32)  
 ***  
 
 

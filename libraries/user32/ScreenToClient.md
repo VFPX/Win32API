@@ -1,7 +1,7 @@
 [<img src="../../images/home.png"> Home ](https://github.com/VFPX/Win32API)  
 
 ## Function name : ScreenToClient
-Group: Coordinate Space and Transformation - Library: user32    
+Group: [Coordinate Space and Transformation](../../functions_group.md#Coordinate_Space_and_Transformation)  -  Library: [user32](../../libraries.md#user32)  
 ***  
 
 

@@ -1,7 +1,7 @@
 [<img src="../../images/home.png"> Home ](https://github.com/VFPX/Win32API)  
 
 ## Function name : MultiByteToWideChar
-Group: Unicode and Character Set - Library: kernel32    
+Group: [Unicode and Character Set](../../functions_group.md#Unicode_and_Character_Set)  -  Library: [kernel32](../../libraries.md#kernel32)  
 ***  
 
 

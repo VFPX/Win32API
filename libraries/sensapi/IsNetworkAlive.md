@@ -1,7 +1,7 @@
 [<img src="../../images/home.png"> Home ](https://github.com/VFPX/Win32API)  
 
 ## Function name : IsNetworkAlive
-Group: System Information - Library: sensapi    
+Group: [System Information](../../functions_group.md#System_Information)  -  Library: [sensapi](../../libraries.md#sensapi)  
 ***  
 
 

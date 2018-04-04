@@ -1,7 +1,7 @@
 [<img src="../../images/home.png"> Home ](https://github.com/VFPX/Win32API)  
 
 ## Function name : CloseEventLog
-Group: Event Logging - Library: advapi32    
+Group: [Event Logging](../../functions_group.md#Event_Logging)  -  Library: [advapi32](../../libraries.md#advapi32)  
 ***  
 
 

@@ -1,7 +1,7 @@
 [<img src="../../images/home.png"> Home ](https://github.com/VFPX/Win32API)  
 
 ## Function name : UuidCreateNil
-Group: Remote Procedure Call (RPC) - Library: rpcrt4    
+Group: [Remote Procedure Call (RPC)](../../functions_group.md#Remote_Procedure_Call_(RPC))  -  Library: [rpcrt4](../../libraries.md#rpcrt4)  
 ***  
 
 

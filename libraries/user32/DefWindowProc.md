@@ -1,7 +1,7 @@
 [<img src="../../images/home.png"> Home ](https://github.com/VFPX/Win32API)  
 
 ## Function name : DefWindowProc
-Group: Window Procedure - Library: user32    
+Group: [Window Procedure](../../functions_group.md#Window_Procedure)  -  Library: [user32](../../libraries.md#user32)  
 ***  
 
 

@@ -1,7 +1,7 @@
 [<img src="../../images/home.png"> Home ](https://github.com/VFPX/Win32API)  
 
 ## Function name : DrawCaption
-Group: Painting and Drawing - Library: user32    
+Group: [Painting and Drawing](../../functions_group.md#Painting_and_Drawing)  -  Library: [user32](../../libraries.md#user32)  
 ***  
 
 

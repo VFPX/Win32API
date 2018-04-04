@@ -1,7 +1,7 @@
 [<img src="../../images/home.png"> Home ](https://github.com/VFPX/Win32API)  
 
 ## Function name : SetComputerName
-Group: System Information - Library: kernel32    
+Group: [System Information](../../functions_group.md#System_Information)  -  Library: [kernel32](../../libraries.md#kernel32)  
 ***  
 
 

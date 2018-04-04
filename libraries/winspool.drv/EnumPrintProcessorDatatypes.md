@@ -1,7 +1,7 @@
 [<img src="../../images/home.png"> Home ](https://github.com/VFPX/Win32API)  
 
 ## Function name : EnumPrintProcessorDatatypes
-Group: Printing and Print Spooler - Library: winspool.drv    
+Group: [Printing and Print Spooler](../../functions_group.md#Printing_and_Print_Spooler)  -  Library: [winspool.drv](../../libraries.md#winspool.drv)  
 ***  
 
 

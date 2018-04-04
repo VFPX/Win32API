@@ -1,7 +1,7 @@
 [<img src="../../images/home.png"> Home ](https://github.com/VFPX/Win32API)  
 
 ## Function name : RevertToSelf
-Group: Security - Library: advapi32    
+Group: [Security](../../functions_group.md#Security)  -  Library: [advapi32](../../libraries.md#advapi32)  
 ***  
 
 

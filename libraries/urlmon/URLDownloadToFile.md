@@ -1,7 +1,7 @@
 [<img src="../../images/home.png"> Home ](https://github.com/VFPX/Win32API)  
 
 ## Function name : URLDownloadToFile
-Group: URL Monikers - Library: urlmon    
+Group: [URL Monikers](../../functions_group.md#URL_Monikers)  -  Library: [urlmon](../../libraries.md#urlmon)  
 ***  
 
 

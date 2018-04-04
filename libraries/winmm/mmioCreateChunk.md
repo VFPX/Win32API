@@ -1,7 +1,7 @@
 [<img src="../../images/home.png"> Home ](https://github.com/VFPX/Win32API)  
 
 ## Function name : mmioCreateChunk
-Group: Windows Multimedia - Library: winmm    
+Group: [Windows Multimedia](../../functions_group.md#Windows_Multimedia)  -  Library: [winmm](../../libraries.md#winmm)  
 ***  
 
 

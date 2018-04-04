@@ -1,7 +1,7 @@
 [<img src="../../images/home.png"> Home ](https://github.com/VFPX/Win32API)  
 
 ## Function name : WTSEnumerateServers
-Group: Terminal Services - Library: wtsapi32    
+Group: [Terminal Services](../../functions_group.md#Terminal_Services)  -  Library: [wtsapi32](../../libraries.md#wtsapi32)  
 ***  
 
 

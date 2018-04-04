@@ -1,7 +1,7 @@
 [<img src="../../images/home.png"> Home ](https://github.com/VFPX/Win32API)  
 
 ## Function name : NetScheduleJobEnum
-Group: Network Management - Library: netapi32    
+Group: [Network Management](../../functions_group.md#Network_Management)  -  Library: [netapi32](../../libraries.md#netapi32)  
 ***  
 
 

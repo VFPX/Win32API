@@ -1,7 +1,7 @@
 [<img src="../../images/home.png"> Home ](https://github.com/VFPX/Win32API)  
 
 ## Function name : CommandLineToArgvW
-Group: Process and Thread - Library: shell32    
+Group: [Process and Thread](../../functions_group.md#Process_and_Thread)  -  Library: [shell32](../../libraries.md#shell32)  
 ***  
 
 

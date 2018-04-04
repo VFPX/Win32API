@@ -1,7 +1,7 @@
 [<img src="../../images/home.png"> Home ](https://github.com/VFPX/Win32API)  
 
 ## Function name : FtpSetCurrentDirectory
-Group: Internet Functions (WinInet) - Library: wininet    
+Group: [Internet Functions (WinInet)](../../functions_group.md#Internet_Functions_(WinInet))  -  Library: [wininet](../../libraries.md#wininet)  
 ***  
 
 

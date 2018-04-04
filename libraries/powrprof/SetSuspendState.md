@@ -1,7 +1,7 @@
 [<img src="../../images/home.png"> Home ](https://github.com/VFPX/Win32API)  
 
 ## Function name : SetSuspendState
-Group: Power Management - Library: powrprof    
+Group: [Power Management](../../functions_group.md#Power_Management)  -  Library: [powrprof](../../libraries.md#powrprof)  
 ***  
 
 

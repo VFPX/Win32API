@@ -1,7 +1,7 @@
 [<img src="../../images/home.png"> Home ](https://github.com/VFPX/Win32API)  
 
 ## Function name : GetSubMenu
-Group: Menu - Library: user32    
+Group: [Menu](../../functions_group.md#Menu)  -  Library: [user32](../../libraries.md#user32)  
 ***  
 
 

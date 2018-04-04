@@ -1,7 +1,7 @@
 [<img src="../../images/home.png"> Home ](https://github.com/VFPX/Win32API)  
 
 ## Function name : DrawDibClose
-Group: Windows Multimedia - Library: msvfw32    
+Group: [Windows Multimedia](../../functions_group.md#Windows_Multimedia)  -  Library: [msvfw32](../../libraries.md#msvfw32)  
 ***  
 
 

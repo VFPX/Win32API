@@ -1,7 +1,7 @@
 [<img src="../../images/home.png"> Home ](https://github.com/VFPX/Win32API)  
 
 ## Function name : GetUdpTable
-Group: IP Helper - Library: iphlpapi    
+Group: [IP Helper](../../functions_group.md#IP_Helper)  -  Library: [iphlpapi](../../libraries.md#iphlpapi)  
 ***  
 
 

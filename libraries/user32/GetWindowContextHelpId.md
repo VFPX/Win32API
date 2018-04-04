@@ -1,7 +1,7 @@
 [<img src="../../images/home.png"> Home ](https://github.com/VFPX/Win32API)  
 
 ## Function name : GetWindowContextHelpId
-Group: Shell Functions - Library: user32    
+Group: [Shell Functions](../../functions_group.md#Shell_Functions)  -  Library: [user32](../../libraries.md#user32)  
 ***  
 
 

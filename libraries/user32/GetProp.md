@@ -1,7 +1,7 @@
 [<img src="../../images/home.png"> Home ](https://github.com/VFPX/Win32API)  
 
 ## Function name : GetProp
-Group: Window Property - Library: user32    
+Group: [Window Property](../../functions_group.md#Window_Property)  -  Library: [user32](../../libraries.md#user32)  
 ***  
 
 

@@ -1,7 +1,7 @@
 [<img src="../../images/home.png"> Home ](https://github.com/VFPX/Win32API)  
 
 ## Function name : GetLocaleInfo
-Group: National Language Support - Library: kernel32    
+Group: [National Language Support](../../functions_group.md#National_Language_Support)  -  Library: [kernel32](../../libraries.md#kernel32)  
 ***  
 
 

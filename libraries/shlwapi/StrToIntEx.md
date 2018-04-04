@@ -1,7 +1,7 @@
 [<img src="../../images/home.png"> Home ](https://github.com/VFPX/Win32API)  
 
 ## Function name : StrToIntEx
-Group: String - Library: shlwapi    
+Group: [String](../../functions_group.md#String)  -  Library: [shlwapi](../../libraries.md#shlwapi)  
 ***  
 
 

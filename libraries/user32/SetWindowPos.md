@@ -1,7 +1,7 @@
 [<img src="../../images/home.png"> Home ](https://github.com/VFPX/Win32API)  
 
 ## Function name : SetWindowPos
-Group: Window - Library: user32    
+Group: [Window](../../functions_group.md#Window)  -  Library: [user32](../../libraries.md#user32)  
 ***  
 
 

@@ -1,7 +1,7 @@
 [<img src="../../images/home.png"> Home ](https://github.com/VFPX/Win32API)  
 
 ## Function name : SHGetPathFromIDList
-Group: Shell Functions - Library: shell32    
+Group: [Shell Functions](../../functions_group.md#Shell_Functions)  -  Library: [shell32](../../libraries.md#shell32)  
 ***  
 
 

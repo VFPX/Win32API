@@ -1,7 +1,7 @@
 [<img src="../../images/home.png"> Home ](https://github.com/VFPX/Win32API)  
 
 ## Function name : GetMapMode
-Group: Coordinate Space and Transformation - Library: gdi32    
+Group: [Coordinate Space and Transformation](../../functions_group.md#Coordinate_Space_and_Transformation)  -  Library: [gdi32](../../libraries.md#gdi32)  
 ***  
 
 

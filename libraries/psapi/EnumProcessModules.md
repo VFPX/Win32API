@@ -1,7 +1,7 @@
 [<img src="../../images/home.png"> Home ](https://github.com/VFPX/Win32API)  
 
 ## Function name : EnumProcessModules
-Group: Performance Monitoring - Library: psapi    
+Group: [Performance Monitoring](../../functions_group.md#Performance_Monitoring)  -  Library: [psapi](../../libraries.md#psapi)  
 ***  
 
 

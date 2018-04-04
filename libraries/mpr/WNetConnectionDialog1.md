@@ -1,7 +1,7 @@
 [<img src="../../images/home.png"> Home ](https://github.com/VFPX/Win32API)  
 
 ## Function name : WNetConnectionDialog1
-Group: Windows Networking - Library: mpr    
+Group: [Windows Networking](../../functions_group.md#Windows_Networking)  -  Library: [mpr](../../libraries.md#mpr)  
 ***  
 
 

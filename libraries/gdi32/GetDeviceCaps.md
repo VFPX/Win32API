@@ -1,7 +1,7 @@
 [<img src="../../images/home.png"> Home ](https://github.com/VFPX/Win32API)  
 
 ## Function name : GetDeviceCaps
-Group: Device Context - Library: gdi32    
+Group: [Device Context](../../functions_group.md#Device_Context)  -  Library: [gdi32](../../libraries.md#gdi32)  
 ***  
 
 

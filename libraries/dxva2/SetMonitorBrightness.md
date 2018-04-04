@@ -1,7 +1,7 @@
 [<img src="../../images/home.png"> Home ](https://github.com/VFPX/Win32API)  
 
 ## Function name : SetMonitorBrightness
-Group: Monitor Configuration (Vista) - Library: dxva2    
+Group: [Monitor Configuration (Vista)](../../functions_group.md#Monitor_Configuration_(Vista))  -  Library: [dxva2](../../libraries.md#dxva2)  
 ***  
 
 

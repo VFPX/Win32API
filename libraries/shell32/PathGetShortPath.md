@@ -1,7 +1,7 @@
 [<img src="../../images/home.png"> Home ](https://github.com/VFPX/Win32API)  
 
 ## Function name : PathGetShortPath
-Group: Shell Lightweight Utility APIs -- Path Functions - Library: shell32    
+Group: [Shell Lightweight Utility APIs -- Path Functions](../../functions_group.md#Shell_Lightweight_Utility_APIs_--_Path_Functions)  -  Library: [shell32](../../libraries.md#shell32)  
 ***  
 
 

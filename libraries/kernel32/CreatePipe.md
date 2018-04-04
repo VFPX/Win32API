@@ -1,7 +1,7 @@
 [<img src="../../images/home.png"> Home ](https://github.com/VFPX/Win32API)  
 
 ## Function name : CreatePipe
-Group: Pipe - Library: kernel32    
+Group: [Pipe](../../functions_group.md#Pipe)  -  Library: [kernel32](../../libraries.md#kernel32)  
 ***  
 
 

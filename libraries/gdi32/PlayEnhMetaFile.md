@@ -1,7 +1,7 @@
 [<img src="../../images/home.png"> Home ](https://github.com/VFPX/Win32API)  
 
 ## Function name : PlayEnhMetaFile
-Group: Metafile - Library: gdi32    
+Group: [Metafile](../../functions_group.md#Metafile)  -  Library: [gdi32](../../libraries.md#gdi32)  
 ***  
 
 

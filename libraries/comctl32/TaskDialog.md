@@ -1,7 +1,7 @@
 [<img src="../../images/home.png"> Home ](https://github.com/VFPX/Win32API)  
 
 ## Function name : TaskDialog
-Group: Common Dialog Box - Library: comctl32    
+Group: [Common Dialog Box](../../functions_group.md#Common_Dialog_Box)  -  Library: [comctl32](../../libraries.md#comctl32)  
 ***  
 
 

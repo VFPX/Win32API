@@ -1,7 +1,7 @@
 [<img src="../../images/home.png"> Home ](https://github.com/VFPX/Win32API)  
 
 ## Function name : MapViewOfFile
-Group: File Mapping - Library: kernel32    
+Group: [File Mapping](../../functions_group.md#File_Mapping)  -  Library: [kernel32](../../libraries.md#kernel32)  
 ***  
 
 

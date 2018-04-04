@@ -1,7 +1,7 @@
 [<img src="../../images/home.png"> Home ](https://github.com/VFPX/Win32API)  
 
 ## Function name : GetRawInputData
-Group: Raw Input - Library: user32    
+Group: [Raw Input](../../functions_group.md#Raw_Input)  -  Library: [user32](../../libraries.md#user32)  
 ***  
 
 

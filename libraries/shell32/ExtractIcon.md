@@ -1,7 +1,7 @@
 [<img src="../../images/home.png"> Home ](https://github.com/VFPX/Win32API)  
 
 ## Function name : ExtractIcon
-Group: Icon - Library: shell32    
+Group: [Icon](../../functions_group.md#Icon)  -  Library: [shell32](../../libraries.md#shell32)  
 ***  
 
 

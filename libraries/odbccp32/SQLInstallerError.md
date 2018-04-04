@@ -1,7 +1,7 @@
 [<img src="../../images/home.png"> Home ](https://github.com/VFPX/Win32API)  
 
 ## Function name : SQLInstallerError
-Group: ODBC API - Library: odbccp32    
+Group: [ODBC API](../../functions_group.md#ODBC_API)  -  Library: [odbccp32](../../libraries.md#odbccp32)  
 ***  
 
 

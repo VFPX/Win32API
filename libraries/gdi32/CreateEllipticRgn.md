@@ -1,7 +1,7 @@
 [<img src="../../images/home.png"> Home ](https://github.com/VFPX/Win32API)  
 
 ## Function name : CreateEllipticRgn
-Group: Region - Library: gdi32    
+Group: [Region](../../functions_group.md#Region)  -  Library: [gdi32](../../libraries.md#gdi32)  
 ***  
 
 

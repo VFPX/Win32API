@@ -1,7 +1,7 @@
 [<img src="../../images/home.png"> Home ](https://github.com/VFPX/Win32API)  
 
 ## Function name : SetupDiDestroyClassImageList
-Group: Setup API functions - Library: setupapi    
+Group: [Setup API functions](../../functions_group.md#Setup_API_functions)  -  Library: [setupapi](../../libraries.md#setupapi)  
 ***  
 
 

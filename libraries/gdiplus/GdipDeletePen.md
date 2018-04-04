@@ -1,7 +1,7 @@
 [<img src="../../images/home.png"> Home ](https://github.com/VFPX/Win32API)  
 
 ## Function name : GdipDeletePen
-Group: GDI+ Pen - Library: gdiplus    
+Group: [GDI+ Pen](../../functions_group.md#GDIplus_Pen)  -  Library: [gdiplus](../../libraries.md#gdiplus)  
 ***  
 
 

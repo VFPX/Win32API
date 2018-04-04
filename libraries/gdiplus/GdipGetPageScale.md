@@ -1,7 +1,7 @@
 [<img src="../../images/home.png"> Home ](https://github.com/VFPX/Win32API)  
 
 ## Function name : GdipGetPageScale
-Group: GDI+ Graphics - Library: gdiplus    
+Group: [GDI+ Graphics](../../functions_group.md#GDIplus_Graphics)  -  Library: [gdiplus](../../libraries.md#gdiplus)  
 ***  
 
 

@@ -1,7 +1,7 @@
 [<img src="../../images/home.png"> Home ](https://github.com/VFPX/Win32API)  
 
 ## Function name : GdipSaveImageToFile
-Group: GDI+ Image - Library: gdiplus    
+Group: [GDI+ Image](../../functions_group.md#GDIplus_Image)  -  Library: [gdiplus](../../libraries.md#gdiplus)  
 ***  
 
 

@@ -1,7 +1,7 @@
 [<img src="../../images/home.png"> Home ](https://github.com/VFPX/Win32API)  
 
 ## Function name : GdipBitmapGetPixel
-Group: GDI+ Bitmap - Library: gdiplus    
+Group: [GDI+ Bitmap](../../functions_group.md#GDIplus_Bitmap)  -  Library: [gdiplus](../../libraries.md#gdiplus)  
 ***  
 
 

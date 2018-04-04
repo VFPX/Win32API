@@ -1,7 +1,7 @@
 [<img src="../../images/home.png"> Home ](https://github.com/VFPX/Win32API)  
 
 ## Function name : GdipGetFontCollectionFamilyCount
-Group: GDI+ Font - Library: gdiplus    
+Group: [GDI+ Font](../../functions_group.md#GDIplus_Font)  -  Library: [gdiplus](../../libraries.md#gdiplus)  
 ***  
 
 

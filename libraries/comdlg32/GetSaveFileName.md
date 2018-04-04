@@ -1,7 +1,7 @@
 [<img src="../../images/home.png"> Home ](https://github.com/VFPX/Win32API)  
 
 ## Function name : GetSaveFileName
-Group: Common Dialog Box - Library: comdlg32    
+Group: [Common Dialog Box](../../functions_group.md#Common_Dialog_Box)  -  Library: [comdlg32](../../libraries.md#comdlg32)  
 ***  
 
 

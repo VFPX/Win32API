@@ -1,7 +1,7 @@
 [<img src="../../images/home.png"> Home ](https://github.com/VFPX/Win32API)  
 
 ## Function name : GetModuleFileName
-Group: Dynamic-Link Library - Library: kernel32    
+Group: [Dynamic-Link Library](../../functions_group.md#Dynamic-Link_Library)  -  Library: [kernel32](../../libraries.md#kernel32)  
 ***  
 
 

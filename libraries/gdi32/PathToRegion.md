@@ -1,7 +1,7 @@
 [<img src="../../images/home.png"> Home ](https://github.com/VFPX/Win32API)  
 
 ## Function name : PathToRegion
-Group: Path - Library: gdi32    
+Group: [Path](../../functions_group.md#Path)  -  Library: [gdi32](../../libraries.md#gdi32)  
 ***  
 
 

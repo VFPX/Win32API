@@ -1,7 +1,7 @@
 [<img src="../../images/home.png"> Home ](https://github.com/VFPX/Win32API)  
 
 ## Function name : MessageBox
-Group: Dialog Box - Library: user32    
+Group: [Dialog Box](../../functions_group.md#Dialog_Box)  -  Library: [user32](../../libraries.md#user32)  
 ***  
 
 

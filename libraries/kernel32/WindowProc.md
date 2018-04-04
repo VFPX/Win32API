@@ -1,7 +1,7 @@
 [<img src="../../images/home.png"> Home ](https://github.com/VFPX/Win32API)  
 
 ## Function name : WindowProc
-Group: Window Procedure - Library: kernel32    
+Group: [Window Procedure](../../functions_group.md#Window_Procedure)  -  Library: [kernel32](../../libraries.md#kernel32)  
 ***  
 
 

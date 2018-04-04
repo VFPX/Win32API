@@ -1,7 +1,7 @@
 [<img src="../../images/home.png"> Home ](https://github.com/VFPX/Win32API)  
 
 ## Function name : DwmExtendFrameIntoClientArea
-Group: Desktop Window Manager (DWM) - Library: dwmapi    
+Group: [Desktop Window Manager (DWM)](../../functions_group.md#Desktop_Window_Manager_(DWM))  -  Library: [dwmapi](../../libraries.md#dwmapi)  
 ***  
 
 
