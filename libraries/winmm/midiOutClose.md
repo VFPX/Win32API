@@ -43,7 +43,7 @@ Returns MMSYSERR_NOERROR (0) if successful or an error otherwise.
 
 
 ## Comments:
-See also: midiOutOpen, midiOutReset.  
+See also: [midiOutOpen](../winmm/midiOutOpen.md), [midiOutReset](../winmm/midiOutReset.md).  
   
 ***  
 

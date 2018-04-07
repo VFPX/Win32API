@@ -51,7 +51,7 @@ A MIDI output device must be open prior to calling this function.
   
 Read about <a href="http://www.midi.org/about-midi/table1.shtml">MIDI messages</a> (second parameter in the call) on MIDI.org.  
   
-See also: midiOutOpen   
+See also: [midiOutOpen](../winmm/midiOutOpen.md).  
   
 ***  
 

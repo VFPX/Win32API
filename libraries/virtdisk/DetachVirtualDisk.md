@@ -48,7 +48,7 @@ If the function succeeds, the return value is ERROR_SUCCESS (0).
 
 
 ## Comments:
-See also: AttachVirtualDisk, OpenVirtualDisk   
+See also: [AttachVirtualDisk](../virtdisk/AttachVirtualDisk.md), [OpenVirtualDisk](../virtdisk/OpenVirtualDisk.md).  
   
 ***  
 

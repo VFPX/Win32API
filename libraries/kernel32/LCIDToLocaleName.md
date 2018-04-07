@@ -53,7 +53,7 @@ Returns the count of characters, including the terminating null character, in th
 
 
 ## Comments:
-See also: LocaleNameToLCID, GetUserDefaultLCID   
+See also: [LocaleNameToLCID](../kernel32/LocaleNameToLCID.md), [GetUserDefaultLCID](../kernel32/GetUserDefaultLCID.md).  
   
 ***  
 

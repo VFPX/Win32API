@@ -46,7 +46,7 @@ Returns a value greater than 0 that indicates the length of the locale name, inc
 
 
 ## Comments:
-See also: GetUserDefaultLocaleName, GetSystemDefaultLCID   
+See also: [GetUserDefaultLocaleName](../kernel32/GetUserDefaultLocaleName.md), [GetSystemDefaultLCID](../kernel32/GetSystemDefaultLCID.md).  
   
 ***  
 

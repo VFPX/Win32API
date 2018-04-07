@@ -54,7 +54,7 @@ If the function succeeds, the return value is the length of the string copied to
 ## Comments:
 The short path means the 8.3 compliant path/filename.  
   
-See also: PathGetShortPath, GetLongPathName, GetFullPathName   
+See also: [PathGetShortPath](../shell32/PathGetShortPath.md), [GetLongPathName](../kernel32/GetLongPathName.md), [GetFullPathName](../kernel32/GetFullPathName.md).  
   
 ***  
 

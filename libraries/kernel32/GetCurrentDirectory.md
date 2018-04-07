@@ -50,7 +50,7 @@ If the function succeeds, the return value specifies the number of characters wr
 ## Comments:
 The difference between this function and SYS(2003) is next to negligible if any.  
   
-See also: SetCurrentDirectory, GetFullPathName   
+See also: [SetCurrentDirectory](../kernel32/SetCurrentDirectory.md), [GetFullPathName](../kernel32/GetFullPathName.md).  
   
 ***  
 

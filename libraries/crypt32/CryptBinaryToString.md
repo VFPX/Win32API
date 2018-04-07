@@ -63,7 +63,7 @@ If the function succeeds, the function returns nonzero (TRUE).
 ## Comments:
 Can be used for base64 encoding.  
   
-See also: CryptStringToBinary   
+See also: [CryptStringToBinary](../crypt32/CryptStringToBinary.md).  
   
 This is the output of CryptBinaryToString with <Em>dwFlags</Em> set to CRYPT_STRING_HEXASCIIADDR (0x000b).  
 <img src="images/crypt_string_hex.png" width=570>  

@@ -52,7 +52,7 @@ Visual FoxPro 9.0 introduces the AppState property, which indicates whether the 
   
 Using the BindEvent() function you can easily detect when your Visual FoxPro application loses or receives focus.  
   
-See also: SetFocus, GetFocus, GetForegroundWindow, GetActiveWindow.  
+See also: [SetFocus](../user32/SetFocus.md), [GetFocus](../user32/GetFocus.md), [GetForegroundWindow](../user32/GetForegroundWindow.md), [GetActiveWindow](../user32/GetActiveWindow.md).  
   
 ***  
 

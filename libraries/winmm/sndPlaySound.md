@@ -54,7 +54,7 @@ MSDN: the <Em>lpszSound</Em> parameter can be either an entry in the registry or
   
 If the function does not find the entry, the parameter is treated as a filename. If this parameter is NULL, any currently playing sound is stopped.   
   
-See also: PlaySound   
+See also: [PlaySound](../winmm/PlaySound.md).  
   
 ***  
 

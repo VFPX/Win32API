@@ -65,7 +65,7 @@ If the cchCurrency parameter is set to 0, the function returns the size of the b
 
 
 ## Comments:
-See also: GetNumberFormat, GetDateFormat   
+See also: [GetNumberFormat](../kernel32/GetNumberFormat.md), [GetDateFormat](../kernel32/GetDateFormat.md).  
   
 ***  
 

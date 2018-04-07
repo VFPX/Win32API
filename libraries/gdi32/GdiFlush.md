@@ -39,7 +39,7 @@ If not all functions in the current batch succeed, the return value is zero, ind
 ## Comments:
 Batching enhances drawing performance by minimizing the amount of time needed to call GDI drawing functions that return Boolean values. The batch limit is maintained for each thread separately.  
   
-See also: GdiGetBatchLimit, GdiSetBatchLimit   
+See also: [GdiGetBatchLimit](../gdi32/GdiGetBatchLimit.md), [GdiSetBatchLimit](../gdi32/GdiSetBatchLimit.md).  
   
 ***  
 

@@ -47,7 +47,7 @@ If the function succeeds, the return value is NERR_Success (0).
 
 
 ## Comments:
-See also: NetMessageNameEnum, NetMessageNameAdd.  
+See also: [NetMessageNameEnum](../netapi32/NetMessageNameEnum.md), [NetMessageNameAdd](../netapi32/NetMessageNameAdd.md).  
   
 ***  
 

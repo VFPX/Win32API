@@ -55,7 +55,7 @@ The application is responsible for calling the RpcStringFree to release the memo
   
 Note that the <Em>StringUuid</Em> is a pointer to a pointer, which adds one or two subtleties to the RPC declarations and calls in VFP.  
   
-See also: UuidFromString, RtlMoveMemory   
+See also: [UuidFromString](../rpcrt4/UuidFromString.md), [RtlMoveMemory](..//RtlMoveMemory.md).  
   
 ***  
 

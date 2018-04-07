@@ -51,7 +51,7 @@ If the function succeeds, the return value is nonzero.
 ## Comments:
 Normally I would declare COORD dwCursorPosition as STRING @dwCursorPosition. It did not work this way. Fortunately SHORT, SHORT does the job.  
   
-See also: GetConsoleCursorInfo, GetConsoleScreenBufferInfo, ReadConsole, WriteConsole.  
+See also: [GetConsoleCursorInfo](..//GetConsoleCursorInfo.md), [GetConsoleScreenBufferInfo](../kernel32/GetConsoleScreenBufferInfo.md), [ReadConsole](../kernel32/ReadConsole.md), [WriteConsole](../kernel32/WriteConsole.md).  
   
 ***  
 

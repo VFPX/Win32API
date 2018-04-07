@@ -60,7 +60,7 @@ If the function succeeds, the return value is a nonzero value.
 ## Comments:
 Call the FindNextPrinterChangeNotification function after a wait operation on a notification object created by FindFirstPrinterChangeNotification has been satisfied. Calling FindNextPrinterChangeNotification lets you obtain information about the change that satisfied the wait operation, and resets the notification object so it can be signaled when the next change occurs.  
   
-See also: FindClosePrinterChangeNotification, FreePrinterNotifyInfo.  
+See also: [FindClosePrinterChangeNotification](../winspool.drv/FindClosePrinterChangeNotification.md), [FreePrinterNotifyInfo](../winspool.drv/FreePrinterNotifyInfo.md).  
   
 ***  
 

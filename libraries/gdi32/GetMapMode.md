@@ -39,7 +39,7 @@ If the function succeeds, the return value specifies the mapping mode.
 
 
 ## Comments:
-See also: SetMapMode   
+See also: [SetMapMode](../gdi32/SetMapMode.md).  
   
 ***  
 

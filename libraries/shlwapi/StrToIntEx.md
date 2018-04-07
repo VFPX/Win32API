@@ -56,7 +56,7 @@ Returns TRUE if the string is converted, or FALSE otherwise.
 ## Comments:
 When using STIF_SUPPORT_HEX for a hexadecimal value, the string must be prefixed with "0x", as in hexadecimal values in C++. E.g. 0x800  
   
-See also: StrToInt, StrToInt64Ex   
+See also: [StrToInt](../shlwapi/StrToInt.md), [StrToInt64Ex](..//StrToInt64Ex.md).  
   
 ***  
 

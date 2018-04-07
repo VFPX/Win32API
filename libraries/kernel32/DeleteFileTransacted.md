@@ -45,7 +45,7 @@ If the function succeeds, the return value is nonzero.
 ## Comments:
 Minimal OS: Vista  
   
-See also: RemoveDirectoryTransacted, CreateTransaction, CommitTransaction, RollbackTransaction, DeleteFile   
+See also: [RemoveDirectoryTransacted](../kernel32/RemoveDirectoryTransacted.md), [CreateTransaction](../ktmw32/CreateTransaction.md), [CommitTransaction](../ktmw32/CommitTransaction.md), [RollbackTransaction](../ktmw32/RollbackTransaction.md), [DeleteFile](../kernel32/DeleteFile.md).  
   
 ***  
 

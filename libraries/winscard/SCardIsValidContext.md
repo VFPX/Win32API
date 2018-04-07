@@ -41,7 +41,7 @@ If the hContext parameter is valid, the function returns SCARD_S_SUCCESS (0).
 
 
 ## Comments:
-See also: SCardEstablishContext   
+See also: [SCardEstablishContext](../winscard/SCardEstablishContext.md).  
   
 ***  
 

@@ -59,7 +59,7 @@ If the operation succeeds, CM_Locate_DevNode returns CR_SUCCESS (0).
 
 
 ## Comments:
-See also: CM_Connect_Machine, CM_Get_Child_Ex, CM_Get_Sibling_Ex   
+See also: [CM_Connect_Machine](../cfgmgr32/CM_Connect_Machine.md), [CM_Get_Child_Ex](../cfgmgr32/CM_Get_Child_Ex.md), [CM_Get_Sibling_Ex](../cfgmgr32/CM_Get_Sibling_Ex.md).  
   
 ***  
 

@@ -42,7 +42,7 @@ SYS(16), SYS(2019), and PCOUNT() all give same amount of information about the c
   
 There is another difference. GetCommandLine keeps its data as long as the process is running, whereas using native VFP functions you must store the input parameters in global variables, if you want to reach them later.  
   
-See also: CommandLineToArgvW   
+See also: [CommandLineToArgvW](../shell32/CommandLineToArgvW.md).  
   
 ***  
 

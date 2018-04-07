@@ -46,7 +46,7 @@ If the function succeeds, the return value is nonzero.
 ## Comments:
 If this function is supported, the GetMonitorCapabilities function returns the MC_CAPS_CONTRAST flag.  
   
-See also: GetMonitorContrast, GetMonitorBrightness   
+See also: [GetMonitorContrast](../dxva2/GetMonitorContrast.md), [GetMonitorBrightness](../dxva2/GetMonitorBrightness.md).  
   
 ***  
 

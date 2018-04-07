@@ -46,7 +46,7 @@ pv
 
 
 ## Comments:
-See also: SHGetFolderPath, SHGetFolderLocation, SHSimpleIDListFromPath, SHGetPathFromIDList   
+See also: [SHGetFolderPath](../shell32/SHGetFolderPath.md), [SHGetFolderLocation](..//SHGetFolderLocation.md), [SHSimpleIDListFromPath](../shell32/SHSimpleIDListFromPath.md), [SHGetPathFromIDList](../shell32/SHGetPathFromIDList.md).  
   
 ***  
 

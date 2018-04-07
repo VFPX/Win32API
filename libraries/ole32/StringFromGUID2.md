@@ -59,7 +59,7 @@ The number of characters in the returned string, including the null terminator o
 The string that the <Em>lpsz</Em> parameter receives has a format like that of the following sample:  
 {557cf400-1a04-11d3-9a73-0000f81ef32e}  
   
-See also: CLSIDFromString   
+See also: [CLSIDFromString](../ole32/CLSIDFromString.md).  
   
 ***  
 

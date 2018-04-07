@@ -51,7 +51,7 @@ Returns MMSYSERR_NOERROR (0) if successful or an error otherwise.
 ## Comments:
 All members of the MIXERCONTROLDETAILS structure must be initialized before calling mixerSetControlDetails.  
   
-See also: mixerGetControlDetails.  
+See also: [mixerGetControlDetails](../winmm/mixerGetControlDetails.md).  
   
 ***  
 

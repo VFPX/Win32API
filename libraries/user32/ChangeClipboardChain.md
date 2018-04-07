@@ -51,7 +51,7 @@ It indicates the result of passing the WM_CHANGECBCHAIN message to the windows i
 ## Comments:
 The window identified by hWndNewNext replaces the hWndRemove window in the chain. The SetClipboardViewer function sends a WM_CHANGECBCHAIN message to the first window in the clipboard viewer chain.   
   
-See also: SetClipboardViewer, AddClipboardFormatListener, RemoveClipboardFormatListener   
+See also: [SetClipboardViewer](../user32/SetClipboardViewer.md), [AddClipboardFormatListener](../user32/AddClipboardFormatListener.md), [RemoveClipboardFormatListener](../user32/RemoveClipboardFormatListener.md).  
   
 ***  
 

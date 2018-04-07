@@ -65,7 +65,7 @@ Returns MMSYSERR_NOERROR (0) if successful or an error otherwise.
 
 
 ## Comments:
-See also: midiOutGetNumDevs, midiOutClose.  
+See also: [midiOutGetNumDevs](../winmm/midiOutGetNumDevs.md), [midiOutClose](../winmm/midiOutClose.md).  
   
 ***  
 

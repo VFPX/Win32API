@@ -86,7 +86,7 @@ The task dialog contains application-defined message text and title, icons, and 
   
 <img src="images/taskdlg_sample.png">  
   
-See also: TaskDialogIndirect, MessageBox, MessageBoxIndirect   
+See also: [TaskDialogIndirect](../comdlg32/TaskDialogIndirect.md), [MessageBox](../user32/MessageBox.md), [MessageBoxIndirect](../user32/MessageBoxIndirect.md).  
   
 ***  
 

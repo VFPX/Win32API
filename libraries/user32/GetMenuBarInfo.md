@@ -55,7 +55,7 @@ If the function succeeds, the return value is nonzero.
 ## Comments:
 Note that you must set MENUBARINFO.cbSize to sizeof(MENUBARINFO) before calling this function.   
   
-See also: GetMenuItemInfo, GetSystemMenu.  
+See also: [GetMenuItemInfo](../user32/GetMenuItemInfo.md), [GetSystemMenu](../user32/GetSystemMenu.md).  
   
 ***  
 

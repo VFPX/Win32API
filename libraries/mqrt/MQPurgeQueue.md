@@ -38,7 +38,7 @@ MQ_OK (0) indicates success.
 
 
 ## Comments:
-See also: MQOpenQueue, MQCloseQueue   
+See also: [MQOpenQueue](../mqrt/MQOpenQueue.md), [MQCloseQueue](../mqrt/MQCloseQueue.md).  
   
 #DEFINE MQ_ERROR_INVALID_HANDLE 0xC00E0007  
   

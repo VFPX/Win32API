@@ -48,7 +48,7 @@ Returns GpStatus value, 0 means success.
 
 
 ## Comments:
-See also: GdipGetImagePalette   
+See also: [GdipGetImagePalette](../gdiplus/GdipGetImagePalette.md).  
   
 ***  
 

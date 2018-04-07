@@ -46,7 +46,7 @@ Returns the JET_ERR datatype with one of predefined return codes.
 
 
 ## Comments:
-See also: JetCreateDatabase, JetAttachDatabase, JetCloseDatabase   
+See also: [JetCreateDatabase](../esent/JetCreateDatabase.md), [JetAttachDatabase](..//JetAttachDatabase.md), [JetCloseDatabase](../esent/JetCloseDatabase.md).  
   
 ***  
 

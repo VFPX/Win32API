@@ -47,7 +47,7 @@ If the function succeeds, the return value is STATUS_SUCCESS (0).
 
 
 ## Comments:
-See also: LsaGetLogonSessionData, LsaFreeReturnBuffer   
+See also: [LsaGetLogonSessionData](../secur32/LsaGetLogonSessionData.md), [LsaFreeReturnBuffer](../secur32/LsaFreeReturnBuffer.md).  
   
 ***  
 

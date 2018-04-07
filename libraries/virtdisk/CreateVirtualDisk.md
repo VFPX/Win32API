@@ -84,7 +84,7 @@ Structures and unions are subject to alignment considerations...
   
 (CREATE | OPEN) -> ATTACH -> USE -> DETACH  
   
-See also: OpenVirtualDisk, AttachVirtualDisk   
+See also: [OpenVirtualDisk](../virtdisk/OpenVirtualDisk.md), [AttachVirtualDisk](../virtdisk/AttachVirtualDisk.md).  
   
 ***  
 

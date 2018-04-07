@@ -69,7 +69,7 @@ The new name must not already exist. A new file may be on a different file syste
   
 A new directory must be on the same drive. Otherwise consider using SHFileOperation.  
   
-See also: CreateTransaction, CommitTransaction, RollbackTransaction, MoveFile, SHFileOperation   
+See also: [CreateTransaction](../ktmw32/CreateTransaction.md), [CommitTransaction](../ktmw32/CommitTransaction.md), [RollbackTransaction](../ktmw32/RollbackTransaction.md), [MoveFile](../kernel32/MoveFile.md), [SHFileOperation](../shell32/SHFileOperation.md).  
   
 ***  
 

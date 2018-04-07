@@ -80,7 +80,7 @@ Only members of the Administrators local group can successfully execute the NetM
   
 Note that this is Unicode function.  
   
-See also: NetMessageNameAdd, NetMessageNameDel.  
+See also: [NetMessageNameAdd](../netapi32/NetMessageNameAdd.md), [NetMessageNameDel](../netapi32/NetMessageNameDel.md).  
   
 ***  
 

@@ -44,7 +44,7 @@ If the function succeeds, the return value is nonzero.
 ## Comments:
 Requires Windows Vista.  
   
-See also: CreateTransaction, RollbackTransaction   
+See also: [CreateTransaction](../ktmw32/CreateTransaction.md), [RollbackTransaction](../ktmw32/RollbackTransaction.md).  
   
 ***  
 

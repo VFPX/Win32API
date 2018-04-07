@@ -44,7 +44,7 @@ If the function succeeds, the return value is a handle to the specified device, 
 
 
 ## Comments:
-See also:  SetStdHandle, WriteConsole, WriteFile, CloseHandle.  
+See also: [SetStdHandle](..//SetStdHandle.md), [WriteConsole](../kernel32/WriteConsole.md), [WriteFile](../kernel32/WriteFile.md), [CloseHandle](../kernel32/CloseHandle.md).  
   
 ***  
 

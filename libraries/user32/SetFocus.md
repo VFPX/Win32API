@@ -43,7 +43,7 @@ If the function succeeds, the return value is the handle to the window that prev
 	AS SetFocusAPI INTEGER hWindow  
 ? SetFocusAPI(_screen.HWnd)  
 </div>  
-See also: GetFocus, SetForegroundWindow, GetForegroundWindow, GetActiveWindow.  
+See also: [GetFocus](../user32/GetFocus.md), [SetForegroundWindow](../user32/SetForegroundWindow.md), [GetForegroundWindow](../user32/GetForegroundWindow.md), [GetActiveWindow](../user32/GetActiveWindow.md).  
   
 ***  
 

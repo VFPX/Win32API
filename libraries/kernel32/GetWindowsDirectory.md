@@ -52,7 +52,7 @@ Alternatives to calling this API function:
 <div class="precode">? GETENV("windir")  
 ? GETENV("SystemRoot")  
 </div>  
-See also: GetSystemDirectory, SHGetFolderPath   
+See also: [GetSystemDirectory](../kernel32/GetSystemDirectory.md), [SHGetFolderPath](../shell32/SHGetFolderPath.md).  
   
 ***  
 

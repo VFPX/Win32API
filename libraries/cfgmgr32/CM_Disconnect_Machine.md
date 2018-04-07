@@ -44,7 +44,7 @@ If the operation succeeds, the function returns CR_SUCCESS (0).
 
 
 ## Comments:
-See also: CM_Connect_Machine   
+See also: [CM_Connect_Machine](../cfgmgr32/CM_Connect_Machine.md).  
   
 ***  
 

@@ -58,7 +58,7 @@ IF GdipGetMatrixElements(m.hmatrix, @m.cCoords) = 0
 	dy = Float2Int(buf2dword(SUBSTR(m.cCoords, 21,4)))  
 ENDIF  
 </div>  
-See also: GdipSetMatrixElements.  
+See also: [GdipSetMatrixElements](../gdiplus/GdipSetMatrixElements.md).  
   
 ***  
 

@@ -70,7 +70,7 @@ If the function succeeds, the function returns nonzero (TRUE).
 ## Comments:
 If a large amount of data is to be decrypted, it can be done in sections. This is done by calling CryptDecrypt repeatedly. The Final parameter must be set to TRUE only on the last call to CryptDecrypt, so the decryption engine can properly finish the decryption process.  
   
-See also: CryptEncrypt, CryptCreateHash.  
+See also: [CryptEncrypt](../advapi32/CryptEncrypt.md), [CryptCreateHash](../advapi32/CryptCreateHash.md).  
   
 ***  
 

@@ -55,7 +55,7 @@ If the function succeeds, the return value specifies the number of characters wr
 
 
 ## Comments:
-See also: GetWindowsDirectory, SHGetFolderPath, GetSystemWow64Directory   
+See also: [GetWindowsDirectory](../kernel32/GetWindowsDirectory.md), [SHGetFolderPath](../shell32/SHGetFolderPath.md), [GetSystemWow64Directory](../kernel32/GetSystemWow64Directory.md).  
   
 ***  
 

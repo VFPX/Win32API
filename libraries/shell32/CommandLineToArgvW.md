@@ -54,7 +54,7 @@ Windows 95/98/Me: Unsupported.
   
 MSDN: if the first parameter is the empty string, "", the function returns the path to the current executable file.   
   
-See also: GetCommandLine   
+See also: [GetCommandLine](../kernel32/GetCommandLine.md).  
   
 ***  
 

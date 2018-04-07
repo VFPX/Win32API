@@ -37,7 +37,7 @@ If the function succeeds, the return value is the batch limit. If the function f
 ## Comments:
 The batch limit is set by using the GdiSetBatchLimit function. Setting the limit to 1 effectively disables batching.  
   
-See also: GdiSetBatchLimit, GdiFlush   
+See also: [GdiSetBatchLimit](../gdi32/GdiSetBatchLimit.md), [GdiFlush](../gdi32/GdiFlush.md).  
   
 ***  
 

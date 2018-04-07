@@ -54,7 +54,7 @@ If the function succeeds, the return value is the length of the string copied to
 
 
 ## Comments:
-See also: GetShortPathName, PathGetShortPath, GetFullPathName   
+See also: [GetShortPathName](../kernel32/GetShortPathName.md), [PathGetShortPath](../shell32/PathGetShortPath.md), [GetFullPathName](../kernel32/GetFullPathName.md).  
   
 ***  
 

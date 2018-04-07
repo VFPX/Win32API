@@ -49,7 +49,7 @@ This function returns the JET_ERR datatype with a predefined return code.
 ## Comments:
 This API will rollback any open transactions (not committed to level 0). Also all cursors associated with this session, and any sort tables that have been created or opened will be cleaned up.  
   
-See also: JetBeginSession   
+See also: [JetBeginSession](../esent/JetBeginSession.md).  
   
 ***  
 

@@ -64,7 +64,7 @@ If the function succeeds, the return value is nonzero.
 ## Comments:
 This function provides a way to know when the process has started.  
   
-See also: GetProcessIoCounters, GetProcessVersion, GetProcessMemoryInfo   
+See also: [GetProcessIoCounters](../kernel32/GetProcessIoCounters.md), [GetProcessVersion](../kernel32/GetProcessVersion.md), [GetProcessMemoryInfo](../psapi/GetProcessMemoryInfo.md).  
   
 ***  
 

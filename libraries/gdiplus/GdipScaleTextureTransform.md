@@ -55,7 +55,7 @@ Returns 0 on success.
 
 
 ## Comments:
-See also: GdipCreateTexture, GdipResetTextureTransform   
+See also: [GdipCreateTexture](../gdiplus/GdipCreateTexture.md), [GdipResetTextureTransform](..//GdipResetTextureTransform.md).  
   
 ***  
 

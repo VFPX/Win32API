@@ -64,7 +64,7 @@ If the function succeeds, it returns Ok (0).
 
 
 ## Comments:
-See also: GdipResetClip   
+See also: [GdipResetClip](..//GdipResetClip.md).  
   
 ***  
 

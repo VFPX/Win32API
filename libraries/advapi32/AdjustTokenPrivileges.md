@@ -70,7 +70,7 @@ If the function succeeds, the return value is nonzero.
 ## Comments:
 Enabling or disabling privileges in an access token requires TOKEN_ADJUST_PRIVILEGES access.  
   
-See also: OpenProcessToken, GetTokenInformation    
+See also: [OpenProcessToken](../advapi32/OpenProcessToken.md), [GetTokenInformation](../advapi32/GetTokenInformation.md).  
   
 ***  
 

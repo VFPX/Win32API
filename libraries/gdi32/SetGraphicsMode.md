@@ -43,7 +43,7 @@ If the function succeeds, the return value is the old graphics mode.
 
 
 ## Comments:
-See also: GetGraphicsMode   
+See also: [GetGraphicsMode](../gdi32/GetGraphicsMode.md).  
   
 ***  
 

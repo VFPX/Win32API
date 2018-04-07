@@ -50,7 +50,7 @@ When used to delete a file, SHFileOperation will attempt to place the deleted fi
   
 While operating on a file this function displays a standard progress dialog box unless the FOF_SILENT flag is set in fFlags. The lpszProgressTitle parameter sets the title of this dialog.   
   
-See also: CopyFile, CopyFileTransacted, MoveFile, MoveFileTransacted, DeleteFile, DeleteFileTransacted   
+See also: [CopyFile](../kernel32/CopyFile.md), [CopyFileTransacted](../kernel32/CopyFileTransacted.md), [MoveFile](../kernel32/MoveFile.md), [MoveFileTransacted](../kernel32/MoveFileTransacted.md), [DeleteFile](../kernel32/DeleteFile.md), [DeleteFileTransacted](../kernel32/DeleteFileTransacted.md).  
   
 ***  
 

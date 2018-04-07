@@ -60,7 +60,7 @@ The return value is zero if the operation was successful. Otherwise, the value S
 
 
 ## Comments:
-See also: WSAStartup   
+See also: [WSAStartup](../ws2_32/WSAStartup.md).  
   
 ***  
 

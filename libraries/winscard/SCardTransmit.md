@@ -73,7 +73,7 @@ Purchase complete VFP solution.
   
 The SCardTransmit function is a smart card and reader access function.  
   
-See also: SCardConnect   
+See also: [SCardConnect](../winscard/SCardConnect.md).  
   
 ***  
 

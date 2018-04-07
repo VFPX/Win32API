@@ -74,7 +74,7 @@ If the fMode parameter is zero, the return value is the size of the buffer requi
 ## Comments:
 Read also Microsoft Help and Support article (former Q102966) <a href="http://support.microsoft.com/kb/q102966/">Registry Entries for Printing</a>.  
   
-See also: PrintDlg   
+See also: [PrintDlg](../comdlg32/PrintDlg.md).  
   
 ***  
 

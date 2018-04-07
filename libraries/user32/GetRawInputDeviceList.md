@@ -52,7 +52,7 @@ If the function is successful, the return value is the number of devices stored 
 
 
 ## Comments:
-See also: GetRawInputDeviceInfo   
+See also: [GetRawInputDeviceInfo](../user32/GetRawInputDeviceInfo.md).  
   
 ***  
 

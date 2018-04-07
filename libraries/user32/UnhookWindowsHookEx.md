@@ -40,7 +40,7 @@ If the function succeeds, the return value is nonzero.
 ## Comments:
 To be called from FLL or DLL rather then declared in VFP code.  
   
-See also: SetWindowsHookEx   
+See also: [SetWindowsHookEx](../user32/SetWindowsHookEx.md).  
   
 ***  
 

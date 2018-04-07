@@ -51,7 +51,7 @@ For setting security attributes on a new folder, use SHCreateDirectoryEx.
   
 This function creates directory even if one or more intermediate directories on the path do not exist.  
   
-See also: CreateDirectory   
+See also: [CreateDirectory](../kernel32/CreateDirectory.md).  
   
 ***  
 

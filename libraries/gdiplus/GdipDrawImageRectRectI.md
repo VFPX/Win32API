@@ -104,7 +104,7 @@ Returns GpStatus value, 0 means success.
 ## Comments:
 This function can be used for drawing images with colors or color ranges made transparent.  
   
-See also: GdipDrawImageRectI, AlphaBlend   
+See also: [GdipDrawImageRectI](../gdiplus/GdipDrawImageRectI.md), [AlphaBlend](../msimg32/AlphaBlend.md).  
   
 ***  
 

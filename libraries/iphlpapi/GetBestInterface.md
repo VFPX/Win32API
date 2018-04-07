@@ -52,7 +52,7 @@ IF GetBestInterface(nDstIP, @nIIndex) = 0
 	? "Index of the interface", nIIndex  
 ENDIF  
 </div>  
-See also: GetBestRoute, GetNumberOfInterfaces, GetIfEntry.  
+See also: [GetBestRoute](../iphlpapi/GetBestRoute.md), [GetNumberOfInterfaces](../iphlpapi/GetNumberOfInterfaces.md), [GetIfEntry](../iphlpapi/GetIfEntry.md).  
   
 ***  
 

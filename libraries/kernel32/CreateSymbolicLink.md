@@ -69,7 +69,7 @@ The <Em>junction points</Em> in Windows are known starting with Windows 2000.
   
 <a href="http://en.wikipedia.org/wiki/Symbolic_link">Symbolic link on Wikipedia</a>  
   
-See also: CreateHardLink   
+See also: [CreateHardLink](../kernel32/CreateHardLink.md).  
   
 ***  
 

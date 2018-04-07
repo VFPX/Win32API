@@ -62,7 +62,7 @@ If pData is NULL and the function is successful, the return value is 0. If pData
 
 
 ## Comments:
-See also: RegisterRawInputDevices   
+See also: [RegisterRawInputDevices](../user32/RegisterRawInputDevices.md).  
   
 ***  
 

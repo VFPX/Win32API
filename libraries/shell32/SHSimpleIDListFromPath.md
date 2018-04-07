@@ -41,7 +41,7 @@ Returns a pointer to an ITEMIDLIST structure if successful, or NULL otherwise.
 
 
 ## Comments:
-See also: SHGetPathFromIDList, SHParseDisplayName   
+See also: [SHGetPathFromIDList](../shell32/SHGetPathFromIDList.md), [SHParseDisplayName](../shell32/SHParseDisplayName.md).  
   
 ***  
 

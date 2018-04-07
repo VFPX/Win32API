@@ -69,7 +69,7 @@ The caller must have SE_MANAGE_VOLUME_PRIVILEGE access rights (SeManageVolumePri
   
 <img src="images/compmgmt_virtdisk.png" width=568 height=452>  
   
-See also: DetachVirtualDisk, OpenVirtualDisk,  
+See also: [DetachVirtualDisk](../virtdisk/DetachVirtualDisk.md), [OpenVirtualDisk,](..//OpenVirtualDisk,.md).  
 <a href="?example=552">How to enable the SE_SHUTDOWN_NAME privilege for the application</a>  
   
 ***  

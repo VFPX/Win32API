@@ -53,7 +53,7 @@ Returns 0 on success.
 
 
 ## Comments:
-See also: GdipBitmapSetPixel   
+See also: [GdipBitmapSetPixel](../gdiplus/GdipBitmapSetPixel.md).  
   
 ***  
 

@@ -43,7 +43,7 @@ Returns GpStatus value, 0 means success.
 
 
 ## Comments:
-See also: GdipGetDpiX, GdipGetImageVerticalResolution, GdipBitmapSetResolution   
+See also: [GdipGetDpiX](../gdiplus/GdipGetDpiX.md), [GdipGetImageVerticalResolution](../gdiplus/GdipGetImageVerticalResolution.md), [GdipBitmapSetResolution](../gdiplus/GdipBitmapSetResolution.md).  
   
 ***  
 

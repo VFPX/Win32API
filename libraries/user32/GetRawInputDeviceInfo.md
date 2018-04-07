@@ -61,7 +61,7 @@ If successful, this function returns a non-negative number indicating the number
 ## Comments:
 If uiCommand is RIDI_DEVICEINFO, set the cbSize member of RID_DEVICE_INFO to sizeof(RID_DEVICE_INFO) before calling GetRawInputDeviceInfo.  
   
-See also: GetRawInputDeviceList   
+See also: [GetRawInputDeviceList](../user32/GetRawInputDeviceList.md).  
   
 ***  
 

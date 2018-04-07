@@ -65,7 +65,7 @@ If the function succeeds, the return value is NERR_Success (0).
 ## Comments:
 Only users or applications having administrative privileges can call the NetUserSetInfo function to change a user"s password.   
   
-See also: NetUserGetInfo, NetUserAdd, NetUserDel, NetUserChangePassword.  
+See also: [NetUserGetInfo](../netapi32/NetUserGetInfo.md), [NetUserAdd](../netapi32/NetUserAdd.md), [NetUserDel](../netapi32/NetUserDel.md), [NetUserChangePassword](../netapi32/NetUserChangePassword.md).  
   
 ***  
 

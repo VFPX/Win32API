@@ -38,7 +38,7 @@ Returns TRUE if successful or FALSE otherwise.
 
 
 ## Comments:
-See also: GetUserGeoID   
+See also: [GetUserGeoID](../kernel32/GetUserGeoID.md).  
   
 <a href="http://msdn.microsoft.com/en-us/library/windows/desktop/dd374073(v=vs.85).aspx">Table of Geographical Locations</a>  
   

@@ -43,7 +43,7 @@ If the function succeeds, the return value is a class atom that uniquely identif
 
 
 ## Comments:
-See also: UnregisterClass, GlobalGetAtomName   
+See also: [UnregisterClass](../user32/UnregisterClass.md), [GlobalGetAtomName](../kernel32/GlobalGetAtomName.md).  
   
 ***  
 

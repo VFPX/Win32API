@@ -40,7 +40,7 @@ If the function succeeds, the return value is NO_ERROR (0). If the function fail
 ## Comments:
 The number of network interfaces returned by this function is one more ( that is the loopback interface ) than the number of adapters returned by the GetAdaptersInfo and GetInterfaceInfo functions.  
   
-See also: if_indextoname, if_nametoindex   
+See also: [if_indextoname](../iphlpapi/if_indextoname.md), [if_nametoindex](../iphlpapi/if_nametoindex.md).  
   
 ***  
 

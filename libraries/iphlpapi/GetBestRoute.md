@@ -67,7 +67,7 @@ cBuffer = oBuffer.GetValue()
 nHopIP = buf2dword(SUBSTR(cBuffer, 13, 4))  
 ? inet_ntoa(nSrcIP)  
 </div>  
-See also: GetBestInterface.  
+See also: [GetBestInterface](../iphlpapi/GetBestInterface.md).  
   
 ***  
 

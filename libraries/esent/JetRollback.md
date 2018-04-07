@@ -51,7 +51,7 @@ On success, any changes made to the database during the current save point for t
   
 On failure, the transactional state of the session will remain unchanged. No change to the database state will occur. A failure during rollback is considered to be a catastrophic database error.  
   
-See also: JetBeginTransaction, JetCommitTransaction   
+See also: [JetBeginTransaction](../esent/JetBeginTransaction.md), [JetCommitTransaction](../esent/JetCommitTransaction.md).  
   
 ***  
 

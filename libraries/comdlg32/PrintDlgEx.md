@@ -51,7 +51,7 @@ When the PrintDlgEx returns, the PRINTDLGEX structure contains information about
   
 On successful return the dwResultAction member of the PRINTDLGEX structure contains one of the following values: PD_RESULT_APPLY, PD_RESULT_CANCEL, PD_RESULT_PRINT.  
   
-See also: PrintDlg, DocumentProperties   
+See also: [PrintDlg](../comdlg32/PrintDlg.md), [DocumentProperties](../winspool.drv/DocumentProperties.md).  
   
 ***  
 

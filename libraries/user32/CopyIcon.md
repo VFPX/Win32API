@@ -44,7 +44,7 @@ The CopyIcon function enables an application or dynamic-link library (DLL) to ge
   
 Before closing, an application must call the DestroyIcon function to free any system resources associated with the icon.  
   
-See also: LoadIcon, DrawIcon.  
+See also: [LoadIcon](../user32/LoadIcon.md), [DrawIcon](../user32/DrawIcon.md).  
   
 ***  
 

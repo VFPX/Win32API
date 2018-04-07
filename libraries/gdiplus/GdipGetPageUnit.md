@@ -56,7 +56,7 @@ Returns GpStatus value, 0 means success.
 1 Point Unit = 1/72 inch.  
 1 Document Unit = 1/300 inch.  
   
-See also: GdipSetPageUnit   
+See also: [GdipSetPageUnit](../gdiplus/GdipSetPageUnit.md).  
   
 ***  
 

@@ -57,7 +57,7 @@ The DeletePort function returns an error if a printer is currently connected to 
   
 The caller of the DeletePort function must have SERVER_ACCESS_ADMINISTER access to the server to which the port is connected.  
   
-See also: AddPort, EnumPorts.  
+See also: [AddPort](../setupapi/AddPort.md), [EnumPorts](../winspool.drv/EnumPorts.md).  
   
 ***  
 

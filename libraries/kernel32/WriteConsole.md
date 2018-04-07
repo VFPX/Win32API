@@ -67,7 +67,7 @@ The total size of the buffer must be less than 64K.
   
 Use GetStdHandle with STD_OUTPUT_HANDLE to obtain the handle to the console screen buffer. Also you may create a screen buffer and attach it to the console.  
   
-See also: GetConsoleScreenBufferInfo, ReadConsole, SetConsoleCP, SetConsoleCursorPosition, SetConsoleTextAttribute, WriteFile.  
+See also: [GetConsoleScreenBufferInfo](../kernel32/GetConsoleScreenBufferInfo.md), [ReadConsole](../kernel32/ReadConsole.md), [SetConsoleCP](..//SetConsoleCP.md), [SetConsoleCursorPosition](../kernel32/SetConsoleCursorPosition.md), [SetConsoleTextAttribute](../kernel32/SetConsoleTextAttribute.md), [WriteFile](../kernel32/WriteFile.md).  
   
 ***  
 

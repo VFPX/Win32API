@@ -50,7 +50,7 @@ If the function fails to find any volumes, the return value is the INVALID_HANDL
 ## Comments:
 If the function succeeds, the return value is a search handle used in a subsequent call to the FindNextVolume and FindVolumeClose functions.  
   
-See also: FindFirstVolumeMountPoint, GetVolumeInformation   
+See also: [FindFirstVolumeMountPoint](../kernel32/FindFirstVolumeMountPoint.md), [GetVolumeInformation](../kernel32/GetVolumeInformation.md).  
   
 ***  
 

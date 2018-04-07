@@ -54,7 +54,7 @@ If the function succeeds, the return value is nonzero.
 
 
 ## Comments:
-See also: SetMonitorContrast   
+See also: [SetMonitorContrast](../dxva2/SetMonitorContrast.md).  
   
 ***  
 

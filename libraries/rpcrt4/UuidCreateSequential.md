@@ -45,7 +45,7 @@ For security reasons, UuidCreate was modified so that it no longer uses a machin
   
 UuidCreateSequential was introduced to allow creation of UUIDs using the MAC address of a machine"s Ethernet card.  
   
-See also: UuidCreate, UuidCreateNil, UuidCompare, CoCreateGuid   
+See also: [UuidCreate](../rpcrt4/UuidCreate.md), [UuidCreateNil](../rpcrt4/UuidCreateNil.md), [UuidCompare](../rpcrt4/UuidCompare.md), [CoCreateGuid](../ole32/CoCreateGuid.md).  
   
 ***  
 

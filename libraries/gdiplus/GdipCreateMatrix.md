@@ -44,7 +44,7 @@ Returns GpStatus value, 0 means success.
 ## Comments:
 A transformation matrix that doesn"t have any effect when applied to a point. Technically, the matrix is composed of all zeros with just the diagonal having ones.  
   
-See also: GdipCreateMatrix2, GdipDeleteMatrix.  
+See also: [GdipCreateMatrix2](../gdiplus/GdipCreateMatrix2.md), [GdipDeleteMatrix](../gdiplus/GdipDeleteMatrix.md).  
   
 ***  
 

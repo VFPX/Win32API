@@ -48,7 +48,7 @@ If the function succeeds, the return value is nonzero and the function fills in 
 
 
 ## Comments:
-See also: ExtractIcon, SHGetStockIconInfo   
+See also: [ExtractIcon](../shell32/ExtractIcon.md), [SHGetStockIconInfo](../shell32/SHGetStockIconInfo.md).  
   
 ***  
 

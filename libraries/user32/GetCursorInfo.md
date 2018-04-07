@@ -42,7 +42,7 @@ If the function succeeds, the return value is nonzero.
 ## Comments:
 The CURSORINFO structure contains global cursor information: cursor state, handle, position.  
   
-See also: ShowCursor.  
+See also: [ShowCursor](../user32/ShowCursor.md).  
   
 ***  
 

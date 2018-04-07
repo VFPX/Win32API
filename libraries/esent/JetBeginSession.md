@@ -62,7 +62,7 @@ Sessions control all access to the database and are used to control the scope of
   
 The session is also used to attach, create, or open a database. To increase concurrency and parallel access to the database, multiple sessions can be begun.  
   
-See also: JetEndSession   
+See also: [JetEndSession](../esent/JetEndSession.md).  
   
 ***  
 

@@ -47,7 +47,7 @@ The function can be used for extending as well as for making files smaller. Be c
   
 Files can also be truncated to zero size by calling the CreateFile by itself with the TRUNCATE_EXISTING flag.  
   
-See also: SetFileValidData   
+See also: [SetFileValidData](..//SetFileValidData.md).  
   
 ***  
 

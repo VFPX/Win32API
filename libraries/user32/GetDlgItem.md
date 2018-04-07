@@ -43,7 +43,7 @@ If the function succeeds, the return value is the window handle of the specified
 
 
 ## Comments:
-See also: SetDlgItemText, GetDlgCtrlID   
+See also: [SetDlgItemText](../user32/SetDlgItemText.md), [GetDlgCtrlID](../user32/GetDlgCtrlID.md).  
   
 ***  
 

@@ -52,7 +52,7 @@ Returns nonzero if successful, or zero otherwise.
 
 
 ## Comments:
-See also: ImageList_GetImageInfo   
+See also: [ImageList_GetImageInfo](../comctl32/ImageList_GetImageInfo.md).  
   
 ***  
 

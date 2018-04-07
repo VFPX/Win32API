@@ -46,7 +46,7 @@ Returns nonzero if successful, or zero otherwise.
 
 
 ## Comments:
-See also: ImageList_Add, ImageList_GetImageCount   
+See also: [ImageList_Add](../comctl32/ImageList_Add.md), [ImageList_GetImageCount](../comctl32/ImageList_GetImageCount.md).  
   
 ***  
 

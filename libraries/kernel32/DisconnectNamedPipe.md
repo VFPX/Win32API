@@ -41,7 +41,7 @@ If the function succeeds, the return value is nonzero.
 
 
 ## Comments:
-See also: ConnectNamedPipe, FlushFileBuffers, CloseHandle.  
+See also: [ConnectNamedPipe](../kernel32/ConnectNamedPipe.md), [FlushFileBuffers](../kernel32/FlushFileBuffers.md), [CloseHandle](../kernel32/CloseHandle.md).  
   
 ***  
 

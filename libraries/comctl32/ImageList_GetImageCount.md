@@ -46,7 +46,7 @@ Returns the number of images.
 ## Comments:
 <div class="precode">nImageCount = ImageList_GetImageCount(THIS.imagelist32.himl)  
 </div>  
-See also: ImageList_Add, ImageList_Remove   
+See also: [ImageList_Add](../comctl32/ImageList_Add.md), [ImageList_Remove](../comctl32/ImageList_Remove.md).  
   
 ***  
 

@@ -53,7 +53,7 @@ Returns the JET_ERR datatype with a predefined return code.
 
 
 ## Comments:
-See also: JetCloseTable   
+See also: [JetCloseTable](../esent/JetCloseTable.md).  
   
 ***  
 

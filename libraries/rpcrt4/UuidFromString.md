@@ -45,7 +45,7 @@ Returns RPC_S_OK (0) if the call succeeded.
 ## Comments:
 This function converts the string representation of a UUID, for example E911188C-E98C-478F-97E6-19F365143953, to the binary form.  
   
-See also: UuidToString, UuidCreate   
+See also: [UuidToString](../rpcrt4/UuidToString.md), [UuidCreate](../rpcrt4/UuidCreate.md).  
   
 ***  
 

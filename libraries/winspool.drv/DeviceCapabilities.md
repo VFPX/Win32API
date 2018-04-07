@@ -60,7 +60,7 @@ If the function fails, the return value is -1.
 
 
 ## Comments:
-See also: EnumForms, DocumentProperties   
+See also: [EnumForms](../winspool.drv/EnumForms.md), [DocumentProperties](../winspool.drv/DocumentProperties.md).  
   
 ***  
 

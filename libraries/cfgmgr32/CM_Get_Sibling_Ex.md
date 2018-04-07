@@ -60,7 +60,7 @@ If the operation succeeds, the function returns CR_SUCCESS (0).
 ## Comments:
 The CM_Get_Child_Ex and the CM_Get_Sibling_Ex calls make possible  to enumerate all device nodes in the device tree for a machine specified by the mean of CM_Connect_Machine call.  
   
-See also: CM_Connect_Machine, CM_Get_Child_Ex   
+See also: [CM_Connect_Machine](../cfgmgr32/CM_Connect_Machine.md), [CM_Get_Child_Ex](../cfgmgr32/CM_Get_Child_Ex.md).  
   
 ***  
 

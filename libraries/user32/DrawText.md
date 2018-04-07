@@ -66,7 +66,7 @@ If the function fails, the return value is zero.
 
 
 ## Comments:
-See also: TextOut, CreateFont   
+See also: [TextOut](../gdi32/TextOut.md), [CreateFont](../gdi32/CreateFont.md).  
   
 ***  
 

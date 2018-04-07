@@ -44,7 +44,7 @@ Returns the locale identifier corresponding to the locale name if successful.
 
 
 ## Comments:
-See also: LCIDToLocaleName, GetUserDefaultLocaleName   
+See also: [LCIDToLocaleName](../kernel32/LCIDToLocaleName.md), [GetUserDefaultLocaleName](../kernel32/GetUserDefaultLocaleName.md).  
   
 ***  
 

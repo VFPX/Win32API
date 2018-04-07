@@ -50,7 +50,7 @@ TRUE if successful; otherwise, FALSE.
 ## Comments:
 LoadUserProfile fails and returns ERROR_INVALID_PARAMETER if the dwSize member of the structure is not set to sizeof(PROFILEINFO) or if the lpUserName member is NULL.  
   
-See also: UnloadUserProfile   
+See also: [UnloadUserProfile](../userenv/UnloadUserProfile.md).  
   
 ***  
 

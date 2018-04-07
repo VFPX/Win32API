@@ -70,7 +70,7 @@ If the function succeeds, the return value is a handle to the newly created desk
 ## Comments:
 If the specified desktop already exists, the function succeeds and returns a handle to the existing desktop. When you are finished using the handle, call the CloseDesktop function to close it.  
   
-See also: CloseDesktop, SwitchDesktop  
+See also: [CloseDesktop](../user32/CloseDesktop.md), [SwitchDesktop](../user32/SwitchDesktop.md).  
   
 ***  
 

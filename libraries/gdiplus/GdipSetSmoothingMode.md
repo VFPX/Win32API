@@ -45,7 +45,7 @@ Returns Ok (0) if succeeded.
 
 
 ## Comments:
-See also: GdipGetSmoothingMode   
+See also: [GdipGetSmoothingMode](../gdiplus/GdipGetSmoothingMode.md).  
   
 <a href="http://msdn.microsoft.com/en-us/library/windows/desktop/ms534173(v=vs.85).aspx">SmoothingMode</a> enumeration.  
   

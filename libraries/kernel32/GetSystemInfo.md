@@ -42,7 +42,7 @@ This function does not return a value.
 ## Comments:
 WinNT: much of this info you can find in environment strings. Skip to the examples with GetEnvironmentStrings.  
   
-See also: GetNativeSystemInfo   
+See also: [GetNativeSystemInfo](../kernel32/GetNativeSystemInfo.md).  
   
 ***  
 

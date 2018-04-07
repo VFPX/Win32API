@@ -65,7 +65,7 @@ If the function succeeds, the return value is nonzero.
 ## Comments:
 The entire area to be written to must be accessible or the operation fails.  
   
-See also: ReadProcessMemory, VirtualAllocEx   
+See also: [ReadProcessMemory](../kernel32/ReadProcessMemory.md), [VirtualAllocEx](../kernel32/VirtualAllocEx.md).  
   
 ***  
 

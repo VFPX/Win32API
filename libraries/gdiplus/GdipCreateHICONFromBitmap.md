@@ -47,7 +47,7 @@ Returns 0 on success.
 
 
 ## Comments:
-See also: GdipCreateBitmapFromHICON, GdipCreateBitmapFromHBITMAP.  
+See also: [GdipCreateBitmapFromHICON](../gdiplus/GdipCreateBitmapFromHICON.md), [GdipCreateBitmapFromHBITMAP](../gdiplus/GdipCreateBitmapFromHBITMAP.md).  
   
 ***  
 

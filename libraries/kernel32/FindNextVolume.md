@@ -52,7 +52,7 @@ If the function succeeds, the return value is nonzero.
 
 
 ## Comments:
-See also: FindFirstVolume, FindVolumeClose, FindFirstVolumeMountPoint, GetVolumeInformation   
+See also: [FindFirstVolume](../kernel32/FindFirstVolume.md), [FindVolumeClose](../kernel32/FindVolumeClose.md), [FindFirstVolumeMountPoint](../kernel32/FindFirstVolumeMountPoint.md), [GetVolumeInformation](../kernel32/GetVolumeInformation.md).  
   
 ***  
 

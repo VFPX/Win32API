@@ -74,7 +74,7 @@ Otherwise, the encryption and decryption must be done on the same computer. Poss
   
 When no longer required, the <Em>pbData</Em> member is to be freed by calling the LocalFree function.  
   
-See also: CryptUnprotectData, CryptProtectMemory, CryptUnprotectMemory    
+See also: [CryptUnprotectData](../crypt32/CryptUnprotectData.md), [CryptProtectMemory](..//CryptProtectMemory.md), [CryptUnprotectMemory](..//CryptUnprotectMemory.md).  
   
 ***  
 

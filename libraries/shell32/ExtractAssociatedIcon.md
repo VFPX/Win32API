@@ -54,7 +54,7 @@ If the function succeeds, the return value is an icon handle. If the function fa
 
 
 ## Comments:
-See also: ExtractIcon   
+See also: [ExtractIcon](../shell32/ExtractIcon.md).  
   
 ***  
 

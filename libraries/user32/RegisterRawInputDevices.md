@@ -55,7 +55,7 @@ To receive WM_INPUT messages, an application must first register the raw input d
   
 By default, an application does not receive raw input.  
   
-See also: GetRawInputData, GetRawInputDeviceList   
+See also: [GetRawInputData](../user32/GetRawInputData.md), [GetRawInputDeviceList](../user32/GetRawInputDeviceList.md).  
   
 ***  
 

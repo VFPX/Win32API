@@ -49,7 +49,7 @@ Returns TRUE if successful, or FALSE otherwise.
 
 
 ## Comments:
-See also: SHSimpleIDListFromPath, SHParseDisplayName   
+See also: [SHSimpleIDListFromPath](../shell32/SHSimpleIDListFromPath.md), [SHParseDisplayName](../shell32/SHParseDisplayName.md).  
   
 ***  
 

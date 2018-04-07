@@ -57,7 +57,7 @@ MQ_OK (0) indicates success.
 
 
 ## Comments:
-See also: MQCloseQueue, MQPathNameToFormatName   
+See also: [MQCloseQueue](../mqrt/MQCloseQueue.md), [MQPathNameToFormatName](../mqrt/MQPathNameToFormatName.md).  
   
 #DEFINE MQ_RECEIVE_ACCESS 1  
 #DEFINE MQ_SEND_ACCESS 2  

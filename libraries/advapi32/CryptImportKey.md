@@ -68,7 +68,7 @@ If the function succeeds, the function returns nonzero.
 ## Comments:
 When you have finished using the key, release the handle by calling the CryptDestroyKey function.  
   
-See also: CryptGenKey, CryptExportKey   
+See also: [CryptGenKey](../advapi32/CryptGenKey.md), [CryptExportKey](../advapi32/CryptExportKey.md).  
   
 ***  
 

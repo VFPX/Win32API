@@ -48,7 +48,7 @@ Returns the JET_ERR datatype with a predefined return code.
 
 
 ## Comments:
-See also: JetCreateTable, JetOpenTable   
+See also: [JetCreateTable](../esent/JetCreateTable.md), [JetOpenTable](../esent/JetOpenTable.md).  
   
 ***  
 

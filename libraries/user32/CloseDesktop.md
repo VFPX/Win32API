@@ -47,7 +47,7 @@ Do not specify the handle returned by the GetThreadDesktop function.
   
 The CloseDesktop function will fail if any thread in the calling process is using the specified desktop handle or if the handle refers to the initial desktop of the calling process.  
   
-See also: CreateDesktop, OpenDesktop, OpenInputDesktop.  
+See also: [CreateDesktop](../user32/CreateDesktop.md), [OpenDesktop](../user32/OpenDesktop.md), [OpenInputDesktop](../user32/OpenInputDesktop.md).  
   
 ***  
 

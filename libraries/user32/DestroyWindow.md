@@ -50,7 +50,7 @@ If the function succeeds, the return value is nonzero.
 
 
 ## Comments:
-See also: EndTask, PostMessage.  
+See also: [EndTask](../user32/EndTask.md), [PostMessage](../user32/PostMessage.md).  
   
 ***  
 

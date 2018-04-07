@@ -59,7 +59,7 @@ However, all hard links to a file must be on the same volume. Also <Em>lpFileNam
   
 <a href="http://en.wikipedia.org/wiki/Hard_link">Hard link on Wikipedia</a>  
   
-See also: CreateSymbolicLink   
+See also: [CreateSymbolicLink](../kernel32/CreateSymbolicLink.md).  
   
 ***  
 

@@ -57,7 +57,7 @@ If the function succeeds, the return value is nonzero.
 
 
 ## Comments:
-See also: RemoveMenu, DestroyMenu, GetMenu   
+See also: [RemoveMenu](..//RemoveMenu.md), [DestroyMenu](../user32/DestroyMenu.md), [GetMenu](../user32/GetMenu.md).  
   
 If you are not into Windows API yet, get yourself a cup of coffee or a drink and start musing about possible functional differences of three Menu API functions with somewhat close names:  
   

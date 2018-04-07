@@ -51,7 +51,7 @@ MQ_OK (0) indicates success.
 
 
 ## Comments:
-See also: MQHandleToFormatName, MQOpenQueue   
+See also: [MQHandleToFormatName](../mqrt/MQHandleToFormatName.md), [MQOpenQueue](../mqrt/MQOpenQueue.md).  
   
 MQPathNameToFormatName fails if a queue does not exist, not accessible, the name is invalid etc.  
   

@@ -53,7 +53,7 @@ If the method succeeds, it returns S_OK (0). Otherwise, it returns an HRESULT er
 ## Comments:
 If this function returns an icon handle in the hIcon member of the SHSTOCKICONINFO structure pointed to by psii, you are responsible for freeing the icon with DestroyIcon when you no longer need it.  
   
-See also: ExtractIcon, ExtractAssociatedIcon, GetIconInfo   
+See also: [ExtractIcon](../shell32/ExtractIcon.md), [ExtractAssociatedIcon](../shell32/ExtractAssociatedIcon.md), [GetIconInfo](../user32/GetIconInfo.md).  
   
 ***  
 

@@ -60,7 +60,7 @@ If the function succeeds, the return value is NERR_Success (0).
 ## Comments:
 Windows NT:  Only members of the Administrators or Account Operators local group can successfully execute the NetUserAdd function. Only members of the Administrators local group can add an Administrators privilege account.  
   
-See also: NetUserEnum, NetUserSetInfo, NetUserDel.  
+See also: [NetUserEnum](../netapi32/NetUserEnum.md), [NetUserSetInfo](../netapi32/NetUserSetInfo.md), [NetUserDel](../netapi32/NetUserDel.md).  
   
 ***  
 

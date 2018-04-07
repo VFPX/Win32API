@@ -74,7 +74,7 @@ If fails returns INVALID_HANDLE_VALUE (-1). Otherwise retrurns a handle to the t
 ## Comments:
 Requires Windows Vista. Allows conducting various file operations protected by transactions: creating, copying, moving, deleting and more.  
   
-See also: CommitTransaction, RollbackTransaction   
+See also: [CommitTransaction](../ktmw32/CommitTransaction.md), [RollbackTransaction](../ktmw32/RollbackTransaction.md).  
   
 ***  
 

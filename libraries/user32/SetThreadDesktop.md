@@ -42,7 +42,7 @@ If the function succeeds, the return value is nonzero.
 
 
 ## Comments:
-See also: CreateDesktop, GetThreadDesktop, OpenDesktop, SetProcessWindowStation  
+See also: [CreateDesktop](../user32/CreateDesktop.md), [GetThreadDesktop](../user32/GetThreadDesktop.md), [OpenDesktop](../user32/OpenDesktop.md), [SetProcessWindowStation](..//SetProcessWindowStation.md).  
   
 ***  
 

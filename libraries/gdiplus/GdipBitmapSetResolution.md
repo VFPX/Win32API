@@ -48,7 +48,7 @@ Returns 0 on success.
 
 
 ## Comments:
-See also: GdipGetDpiX, GdipGetDpiY, GdipGetImageHorizontalResolution, GdipGetImageVerticalResolution   
+See also: [GdipGetDpiX](../gdiplus/GdipGetDpiX.md), [GdipGetDpiY](../gdiplus/GdipGetDpiY.md), [GdipGetImageHorizontalResolution](../gdiplus/GdipGetImageHorizontalResolution.md), [GdipGetImageVerticalResolution](../gdiplus/GdipGetImageVerticalResolution.md).  
   
 ***  
 

@@ -43,7 +43,7 @@ If the function succeeds, the return value is nonzero.
 ## Comments:
 This function uses either Unicode characters or 8-bit characters from the current code page for the console.  
   
-See also:  GetConsoleTitle, SetConsoleCP, SetConsoleOutputCP.  
+See also: [GetConsoleTitle](..//GetConsoleTitle.md), [SetConsoleCP](..//SetConsoleCP.md), [SetConsoleOutputCP](..//SetConsoleOutputCP.md).  
   
 ***  
 

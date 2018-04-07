@@ -51,7 +51,7 @@ On success, any changes made to the database during the current save point for t
   
 On failure, the transactional state of the session will remain unchanged. No change to the database state will occur. The application should call JetRollback to abort the transaction.  
   
-See also: JetBeginTransaction, JetRollback   
+See also: [JetBeginTransaction](../esent/JetBeginTransaction.md), [JetRollback](../esent/JetRollback.md).  
   
 ***  
 

@@ -45,7 +45,7 @@ If the function succeeds, the return value is a nonzero value.
 ## Comments:
 After this call, the printer or print server associated with the change notification object will no longer be monitored by that object.  
   
-See also: FindNextPrinterChangeNotification.  
+See also: [FindNextPrinterChangeNotification](../winspool.drv/FindNextPrinterChangeNotification.md).  
   
 ***  
 

@@ -43,7 +43,7 @@ If the function succeeds, the return value is the version of the system on which
 ## Comments:
 The version number returned by this function is the version number stamped in the image header of the .exe file the process is running. Linker programs set this value.   
   
-See also: GetProcessIoCounters, GetProcessTimes,  GetProcessMemoryInfo   
+See also: [GetProcessIoCounters](../kernel32/GetProcessIoCounters.md), [GetProcessTimes](../kernel32/GetProcessTimes.md), [GetProcessMemoryInfo](../psapi/GetProcessMemoryInfo.md).  
   
 ***  
 

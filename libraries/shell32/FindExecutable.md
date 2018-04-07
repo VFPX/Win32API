@@ -54,7 +54,7 @@ Returns a value greater than 32 if successful, or a value less than or equal to 
 
 
 ## Comments:
-See also: ShellExecute, AssocQueryString   
+See also: [ShellExecute](../shell32/ShellExecute.md), [AssocQueryString](../shlwapi/AssocQueryString.md).  
   
 ***  
 

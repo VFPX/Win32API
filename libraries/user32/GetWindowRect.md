@@ -66,7 +66,7 @@ If the function succeeds, the return value is nonzero.
 
 
 ## Comments:
-See also: GetClientRect, ScreenToClient, SetWindowPos   
+See also: [GetClientRect](../user32/GetClientRect.md), [ScreenToClient](../user32/ScreenToClient.md), [SetWindowPos](../user32/SetWindowPos.md).  
   
 ***  
 

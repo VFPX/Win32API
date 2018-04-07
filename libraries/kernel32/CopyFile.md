@@ -57,7 +57,7 @@ With the CopyFile, both the source and the destination can stay open -- like tex
   
 To copy files with a progress dialog box use the SHFileOperation function.   
   
-See also: CopyFileTransacted   
+See also: [CopyFileTransacted](../kernel32/CopyFileTransacted.md).  
   
 ***  
 

@@ -62,7 +62,7 @@ If the function fails, the return value is zero. To get extended error informati
 
 
 ## Comments:
-See also: ShellExecute, WinExec   
+See also: [ShellExecute](../shell32/ShellExecute.md), [WinExec](../kernel32/WinExec.md).  
   
 ***  
 

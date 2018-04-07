@@ -58,7 +58,7 @@ To retrieve a text description of return values, pass the return value to the mc
 ## Comments:
 <a href="http://msdn.microsoft.com/en-us/library/dd743571(VS.85).aspx">List of Multimedia Commands</a> on MSDN.  
   
-See also: mciSendString, mciGetDeviceID   
+See also: [mciSendString](../winmm/mciSendString.md), [mciGetDeviceID](../winmm/mciGetDeviceID.md).  
   
 ***  
 

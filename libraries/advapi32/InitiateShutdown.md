@@ -64,7 +64,7 @@ To shut down a remote computer, the calling thread must have the SE_REMOTE_SHUTD
   
 Minimum supported client: Windows Vista  
   
-See also: InitiateSystemShutdown   
+See also: [InitiateSystemShutdown](../advapi32/InitiateSystemShutdown.md).  
   
 ***  
 

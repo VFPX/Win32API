@@ -66,7 +66,7 @@ If the function succeeds, the function returns nonzero (TRUE).
 
 
 ## Comments:
-See also: CryptImportKey, CryptGenKey   
+See also: [CryptImportKey](../advapi32/CryptImportKey.md), [CryptGenKey](../advapi32/CryptGenKey.md).  
   
 ***  
 

@@ -52,7 +52,7 @@ Returns MMSYSERR_NOERROR (0) if successful or an error otherwise.
 ## Comments:
 All members of the MIXERCONTROLDETAILS structure must be initialized before calling this function.  
   
-See also: mixerSetControlDetails.  
+See also: [mixerSetControlDetails](../winmm/mixerSetControlDetails.md).  
   
 ***  
 

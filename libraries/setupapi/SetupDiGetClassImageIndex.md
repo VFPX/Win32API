@@ -57,7 +57,7 @@ In the Usage, the value of <Em>cImageListData</Em> is obtained through call to t
   
 The cClassGuid is 16-byte string variable containing the GUID of a installed class. For example, the Class GUID for the <Em>USB Root Hub</Em> is {36fc9e60-c465-11cf-8056-444553540000}.  
   
-See also: CLSIDFromString, CM_Locate_DevNode_Ex,  
+See also: [CLSIDFromString](../ole32/CLSIDFromString.md), [CM_Locate_DevNode_Ex,](..//CM_Locate_DevNode_Ex,.md).  
 	CM_Get_DevNode_Registry_Property_Ex   
   
 ***  

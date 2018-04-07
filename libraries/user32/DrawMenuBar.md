@@ -42,7 +42,7 @@ If the function succeeds, the return value is nonzero.
 
 
 ## Comments:
-See also: DeleteMenu, RemoveMenu   
+See also: [DeleteMenu](../user32/DeleteMenu.md), [RemoveMenu](..//RemoveMenu.md).  
   
 ***  
 

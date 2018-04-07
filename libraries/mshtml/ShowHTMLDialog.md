@@ -67,7 +67,7 @@ This is yet another modal dialog functionally similar to the dialogs created by 
   
 A very attractive feature of this dialog is its HTML-defined content. In other words, the whole client part of the dialog is described in HTML terms. This is like a miniature IE window.  
   
-See also: CreateURLMonikerEx, MessageBox, MessageBoxIndirect, TaskDialog, TaskDialogIndirect   
+See also: [CreateURLMonikerEx](../urlmon/CreateURLMonikerEx.md), [MessageBox](../user32/MessageBox.md), [MessageBoxIndirect](../user32/MessageBoxIndirect.md), [TaskDialog](../comctl32/TaskDialog.md), [TaskDialogIndirect](../comdlg32/TaskDialogIndirect.md).  
   
 ***  
 

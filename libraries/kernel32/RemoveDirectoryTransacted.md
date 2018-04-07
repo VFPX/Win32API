@@ -48,7 +48,7 @@ Minimal OS: Vista
   
 To recursively delete the files in a directory, use the SHFileOperation function.  
   
-See also: DeleteFileTransacted, CreateTransaction, CommitTransaction, RollbackTransaction, RemoveDirectory   
+See also: [DeleteFileTransacted](../kernel32/DeleteFileTransacted.md), [CreateTransaction](../ktmw32/CreateTransaction.md), [CommitTransaction](../ktmw32/CommitTransaction.md), [RollbackTransaction](../ktmw32/RollbackTransaction.md), [RemoveDirectory](../kernel32/RemoveDirectory.md).  
   
 ***  
 

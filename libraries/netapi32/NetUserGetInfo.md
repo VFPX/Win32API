@@ -61,7 +61,7 @@ If the function succeeds, the return value is NERR_Success (0).
 ## Comments:
 Important: the <Em>bufptr</Em> is allocated by the system and must be freed using the NetApiBufferFree function.  
   
-See also: NetUserSetInfo, NetUserGetGroups, NetUserEnum.  
+See also: [NetUserSetInfo](../netapi32/NetUserSetInfo.md), [NetUserGetGroups](../netapi32/NetUserGetGroups.md), [NetUserEnum](../netapi32/NetUserEnum.md).  
   
 ***  
 

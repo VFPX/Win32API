@@ -73,7 +73,7 @@ Returns the JET_ERR datatype with a predefined return code.
 ## Comments:
 The function can overwrite an existing value, add a new value to a sequence of values in a multi-valued column, remove a value from a sequence of values in a multi-valued column, or update all or part of a long value, a column of type JET_coltypLongText or JET_coltypeLongBinary.   
   
-See also: JetPrepareUpdate. JetSetColumns, JetUpdate   
+See also: [JetPrepareUpdate. JetSetColumns](..//JetPrepareUpdate. JetSetColumns.md), [JetUpdate](../esent/JetUpdate.md).  
   
 ***  
 

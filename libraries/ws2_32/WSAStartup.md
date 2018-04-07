@@ -73,7 +73,7 @@ The WSAStartup function returns zero if successful. Otherwise, it returns one of
 ## Comments:
 MSDN: An application cannot call WSAGetLastError to determine the error code as is normally done in Windows Sockets if WSAStartup fails.   
   
-See also: WSACleanup   
+See also: [WSACleanup](../ws2_32/WSACleanup.md).  
   
 ***  
 

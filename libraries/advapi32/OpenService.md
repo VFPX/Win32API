@@ -60,7 +60,7 @@ Unicode: Implemented as OpenServiceW (Unicode) and OpenServiceA (ANSI).
   
 The returned handle is only valid for the process that called OpenService. It can be closed by calling the CloseServiceHandle function.  
   
-See also: StartService, ControlService.  
+See also: [StartService](../advapi32/StartService.md), [ControlService](../advapi32/ControlService.md).  
   
 ***  
 

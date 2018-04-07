@@ -49,7 +49,7 @@ Disable safe process search mode for the process.
 BASE_SEARCH_PATH_PERMANENT (0x00008000)  
 Optional flag to use in combination with BASE_SEARCH_PATH_ENABLE_SAFE_SEARCHMODE to make this mode permanent for this process.  
   
-See also: SearchPath   
+See also: [SearchPath](../kernel32/SearchPath.md).  
   
 ***  
 

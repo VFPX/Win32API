@@ -53,7 +53,7 @@ If the function succeeds, the return value is a handle to the newly created mute
 ## Comments:
 If the mutex is a named mutex and the object existed before this function call, the return value is a handle to the existing object and GetLastError returns ERROR_ALREADY_EXISTS.  
   
-See also: ReleaseMutex, CloseHandle, CreateSemaphore, WaitForSingleObject.  
+See also: [ReleaseMutex](../kernel32/ReleaseMutex.md), [CloseHandle](../kernel32/CloseHandle.md), [CreateSemaphore](../kernel32/CreateSemaphore.md), [WaitForSingleObject](../kernel32/WaitForSingleObject.md).  
   
 ***  
 

@@ -49,7 +49,7 @@ Returns nonzero if the drop occurred in the client area of the window, or zero i
 ## Comments:
 The window for which coordinates are returned is the window that received the WM_DROPFILES message.   
   
-See also: DragAcceptFiles, DragQueryFile.  
+See also: [DragAcceptFiles](../user32/DragAcceptFiles.md), [DragQueryFile](../shell32/DragQueryFile.md).  
   
 ***  
 

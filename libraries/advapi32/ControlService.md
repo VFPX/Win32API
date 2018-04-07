@@ -56,7 +56,7 @@ If the function succeeds, the return value is nonzero.
 ## Comments:
 The ControlService function asks the Service Control Manager (SCM) to send the requested control code to the service. The SCM sends the code if the service has specified that it will accept the code, and is in a state in which a control code can be sent to it.  
   
-See also: OpenService, StartService.  
+See also: [OpenService](../advapi32/OpenService.md), [StartService](../advapi32/StartService.md).  
   
 ***  
 

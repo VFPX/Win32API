@@ -42,7 +42,7 @@ Returns GpStatus value, 0 means success.
 
 
 ## Comments:
-See also: GdipCreateMatrix.  
+See also: [GdipCreateMatrix](../gdiplus/GdipCreateMatrix.md).  
   
 ***  
 

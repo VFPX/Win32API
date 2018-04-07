@@ -54,7 +54,7 @@ MSDN: the MoveFile function will move (rename) either a file or a directory (inc
   
 The one caveat is that the MoveFile function will fail on directory moves when the destination is on a different volume -- use SHFileOperation instead.  
   
-See also: CopyFile, DeleteFile, MoveFileTransacted, SHFileOperation   
+See also: [CopyFile](../kernel32/CopyFile.md), [DeleteFile](../kernel32/DeleteFile.md), [MoveFileTransacted](../kernel32/MoveFileTransacted.md), [SHFileOperation](../shell32/SHFileOperation.md).  
   
 ***  
 

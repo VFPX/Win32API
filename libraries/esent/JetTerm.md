@@ -43,7 +43,7 @@ This function returns the JET_ERR datatype with one of predefined return codes (
 
 
 ## Comments:
-See also: JetInit, JetCreateInstance   
+See also: [JetInit](../esent/JetInit.md), [JetCreateInstance](../esent/JetCreateInstance.md).  
   
 ***  
 

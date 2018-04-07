@@ -50,7 +50,7 @@ Returns TRUE if the SID at pSid matches the well known SID indicated by WellKnow
 The WELL_KNOWN_SID_TYPE enumeration type is a list of commonly used security identifiers (SIDs).  
 Dec.29, 2006: members from 0 to 60.  
   
-See also: CreateWellKnownSid.  
+See also: [CreateWellKnownSid](..//CreateWellKnownSid.md).  
   
 ***  
 

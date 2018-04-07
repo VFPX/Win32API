@@ -76,7 +76,7 @@ The affine transformation is a transformation that is a combination of single tr
   
 Read <a href="http://www.bobpowell.net/mappingmodes.htm">Comparing GDI mapping modes with GDI+ transforms</a> and other articles on GDI+ written by Bob Powell, MVP.  
   
-See also: GdipCreateMatrix, GdipDeleteMatrix.  
+See also: [GdipCreateMatrix](../gdiplus/GdipCreateMatrix.md), [GdipDeleteMatrix](../gdiplus/GdipDeleteMatrix.md).  
   
 ***  
 

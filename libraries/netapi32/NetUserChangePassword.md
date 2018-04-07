@@ -61,7 +61,7 @@ For this function as for other NetUser functions, convert string input parameter
   
 The NetUserSetInfo can change passwords too when called with levels 21 and 1003.  
   
-See also: NetUserSetInfo, NetUserGetInfo.  
+See also: [NetUserSetInfo](../netapi32/NetUserSetInfo.md), [NetUserGetInfo](../netapi32/NetUserGetInfo.md).  
   
 ***  
 

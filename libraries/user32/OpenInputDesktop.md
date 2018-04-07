@@ -55,7 +55,7 @@ If the function succeeds, the return value is a handle to the desktop that recei
 ## Comments:
 When you are finished using the handle, call the CloseDesktop function to close it.  
   
-See also: CloseDesktop, SetProcessWindowStation, SwitchDesktop  
+See also: [CloseDesktop](../user32/CloseDesktop.md), [SetProcessWindowStation](..//SetProcessWindowStation.md), [SwitchDesktop](../user32/SwitchDesktop.md).  
   
 ***  
 

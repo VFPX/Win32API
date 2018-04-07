@@ -55,7 +55,7 @@ If the function succeeds, the function returns SCARD_S_SUCCESS (0).
 ## Comments:
 The resource manager context can be set by a previous call to SCardEstablishContext. This parameter cannot be NULL.  
   
-See also: SCardListReaders   
+See also: [SCardListReaders](../winscard/SCardListReaders.md).  
   
 ***  
 

@@ -52,7 +52,7 @@ By default, a VFP process does not have any preferred UI languages set.
   
 MSDN: Ideally, applications will call SetProcessPreferredUILanguages as soon as possible after launching. Use of MUI_LANGUAGE_NAME is recommended over MUI_LANGUAGE_ID.  
   
-See also: GetProcessPreferredUILanguages   
+See also: [GetProcessPreferredUILanguages](../kernel32/GetProcessPreferredUILanguages.md).  
   
 ***  
 

@@ -73,7 +73,7 @@ Returns GpStatus value; 0 means success.
 
 
 ## Comments:
-See also: GdipGetMatrixElements.  
+See also: [GdipGetMatrixElements](../gdiplus/GdipGetMatrixElements.md).  
   
 ***  
 

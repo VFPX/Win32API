@@ -44,7 +44,7 @@ Returns the INT value of a string.
 
 
 ## Comments:
-See also: StrToIntEx, StrToInt64Ex   
+See also: [StrToIntEx](../shlwapi/StrToIntEx.md), [StrToInt64Ex](..//StrToInt64Ex.md).  
   
 Both functions work identically. The difference is 4 bytes for the INT and 8 bytes for the LONG.  
   

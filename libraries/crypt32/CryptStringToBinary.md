@@ -74,7 +74,7 @@ If the function succeeds, the return value is nonzero (TRUE).
 ## Comments:
 Can be used for base64 decoding.  
   
-See also: CryptBinaryToString   
+See also: [CryptBinaryToString](../crypt32/CryptBinaryToString.md).  
   
 ***  
 

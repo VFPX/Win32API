@@ -66,7 +66,7 @@ Returns STATUS_SUCCESS (0) or an appropriate error code.
 
 
 ## Comments:
-See also: RtlCompressBuffer, RtlDecompressFragment, RtlGetCompressionWorkSpaceSize   
+See also: [RtlCompressBuffer](../ntdll/RtlCompressBuffer.md), [RtlDecompressFragment](..//RtlDecompressFragment.md), [RtlGetCompressionWorkSpaceSize](../ntdll/RtlGetCompressionWorkSpaceSize.md).  
   
 ***  
 

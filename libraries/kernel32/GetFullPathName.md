@@ -55,7 +55,7 @@ If the function succeeds, the return value is the length, in TCHARs, of the stri
 
 
 ## Comments:
-See also: GetLongPathName, GetShortPathName, GetModuleFileName, GetTempFileName, PathFindFileName, FindExecutable   
+See also: [GetLongPathName](../kernel32/GetLongPathName.md), [GetShortPathName](../kernel32/GetShortPathName.md), [GetModuleFileName](../kernel32/GetModuleFileName.md), [GetTempFileName](../kernel32/GetTempFileName.md), [PathFindFileName](../shlwapi/PathFindFileName.md), [FindExecutable](../shell32/FindExecutable.md).  
   
 ***  
 

@@ -67,7 +67,7 @@ Minimum supported client: Windows 7
   
 When an application is finished using the object handle returned in the Handle parameter, use the CloseHandle function to close the handle.  
   
-See also: CreateVirtualDisk, AttachVirtualDisk   
+See also: [CreateVirtualDisk](../virtdisk/CreateVirtualDisk.md), [AttachVirtualDisk](../virtdisk/AttachVirtualDisk.md).  
   
 ***  
 

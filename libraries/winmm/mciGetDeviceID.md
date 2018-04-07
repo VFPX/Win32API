@@ -39,7 +39,7 @@ Returns the device identifier assigned to the device when it was opened if succe
 ## Comments:
 The identifier is used in the mciSendCommand function.  
   
-See also: mciSendCommand, mciSendString   
+See also: [mciSendCommand](../winmm/mciSendCommand.md), [mciSendString](../winmm/mciSendString.md).  
   
 ***  
 

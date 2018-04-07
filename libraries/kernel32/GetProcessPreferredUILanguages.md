@@ -55,7 +55,7 @@ Returns TRUE if successful or FALSE otherwise.
 ## Comments:
 By default, a VFP process does not have any preferred UI languages set.  
   
-See also: SetProcessPreferredUILanguages   
+See also: [SetProcessPreferredUILanguages](../kernel32/SetProcessPreferredUILanguages.md).  
   
 ***  
 

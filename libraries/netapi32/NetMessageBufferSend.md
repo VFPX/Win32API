@@ -68,7 +68,7 @@ Can be used as NET SEND replacement.
 Note that this is Unicode function.  
 Not supported on Win9* systems.  
   
-See also: NetMessageNameEnum, NetMessageNameAdd, NetMessageNameDel.  
+See also: [NetMessageNameEnum](../netapi32/NetMessageNameEnum.md), [NetMessageNameAdd](../netapi32/NetMessageNameAdd.md), [NetMessageNameDel](../netapi32/NetMessageNameDel.md).  
   
 ***  
 

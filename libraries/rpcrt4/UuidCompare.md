@@ -48,7 +48,7 @@ Returns -1 (1st is less), 0 (equal) or 1 (greater) based on the comparison of th
 
 
 ## Comments:
-See also: UuidCreate, UuidCreateSequential   
+See also: [UuidCreate](../rpcrt4/UuidCreate.md), [UuidCreateSequential](../rpcrt4/UuidCreateSequential.md).  
   
 ***  
 

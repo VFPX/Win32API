@@ -45,7 +45,7 @@ The windows that are part of the clipboard viewer chain, called clipboard viewer
   
 Each clipboard viewer window calls the SendMessage function to pass these messages to the next window in the clipboard viewer chain.  
   
-See also: ChangeClipboardChain, AddClipboardFormatListener, RemoveClipboardFormatListener   
+See also: [ChangeClipboardChain](../user32/ChangeClipboardChain.md), [AddClipboardFormatListener](../user32/AddClipboardFormatListener.md), [RemoveClipboardFormatListener](../user32/RemoveClipboardFormatListener.md).  
   
 ***  
 

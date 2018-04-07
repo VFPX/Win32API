@@ -45,7 +45,7 @@ If the function succeeds, the return value is nonzero, and all dirty pages withi
 ## Comments:
 Although an application may close the file handle used to create a file mapping object, the system holds the corresponding file open until the last view of the file is unmapped.  
   
-See also: MapViewOfFile, MapViewOfFileEx.  
+See also: [MapViewOfFile](../kernel32/MapViewOfFile.md), [MapViewOfFileEx](..//MapViewOfFileEx.md).  
   
 ***  
 

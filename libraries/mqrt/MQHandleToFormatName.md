@@ -50,7 +50,7 @@ MQ_OK (0) indicates success.
 ## Comments:
 On output, <Em>lpdwCount</Em> indicates the length of the returned format name string, including the null-terminating character.  
   
-See also: MQPathNameToFormatName, MQOpenQueue   
+See also: [MQPathNameToFormatName](../mqrt/MQPathNameToFormatName.md), [MQOpenQueue](../mqrt/MQOpenQueue.md).  
   
 ***  
 

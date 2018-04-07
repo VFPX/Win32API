@@ -57,7 +57,7 @@ Windows 95/98/Me: Unsupported.
   
 See also WinNT Performance Monitor.  
   
-See also: GetProcessIoCounters, GetProcessTimes, GetProcessVersion   
+See also: [GetProcessIoCounters](../kernel32/GetProcessIoCounters.md), [GetProcessTimes](../kernel32/GetProcessTimes.md), [GetProcessVersion](../kernel32/GetProcessVersion.md).  
   
 ***  
 

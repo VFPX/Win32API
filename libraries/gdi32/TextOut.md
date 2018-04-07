@@ -69,7 +69,7 @@ If the function succeeds, the return value is nonzero
 
 
 ## Comments:
-See also: DrawText, CreateFont   
+See also: [DrawText](../user32/DrawText.md), [CreateFont](../gdi32/CreateFont.md).  
   
 ***  
 

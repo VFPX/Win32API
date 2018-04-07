@@ -50,7 +50,7 @@ Returns 0 on success.
 
 
 ## Comments:
-See also: GdipBitmapGetPixel   
+See also: [GdipBitmapGetPixel](../gdiplus/GdipBitmapGetPixel.md).  
   
 ***  
 

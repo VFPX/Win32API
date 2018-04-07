@@ -87,7 +87,7 @@ Minimal OS: Vista
   
 To perform this operation as a nontransacted operation or to access objects other than files (for example, named pipes, physical devices, mailslots), use the CreateFile function.  
   
-See also: CreateTransaction, CommitTransaction, RollbackTransaction, CreateFile   
+See also: [CreateTransaction](../ktmw32/CreateTransaction.md), [CommitTransaction](../ktmw32/CommitTransaction.md), [RollbackTransaction](../ktmw32/RollbackTransaction.md), [CreateFile](../kernel32/CreateFile.md).  
   
 ***  
 

@@ -52,7 +52,7 @@ Also consider using Windows scripting objects:
 <div class="precode">ws = CreateObject("WScript.Network")  
 ws.SetDefaultPrinter("\\MyServer\HP5")  
 </div>  
-See also: GetDefaultPrinter, EnumPrinters, PrinterProperties.  
+See also: [GetDefaultPrinter](../winspool.drv/GetDefaultPrinter.md), [EnumPrinters](../winspool.drv/EnumPrinters.md), [PrinterProperties](../winspool.drv/PrinterProperties.md).  
   
 * * *  
 As you prpobably noticed the Printer And Faxes OS Window immediately reflects a change in default printer. Here is a screen copy of a tap put on the messages received by a member of this window subtree (window class CtrlNotifySink).  

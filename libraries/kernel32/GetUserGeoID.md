@@ -38,7 +38,7 @@ Returns the geographical location identifier of the user if SetUserGeoID has bee
 
 
 ## Comments:
-See also: SetUserGeoID   
+See also: [SetUserGeoID](../kernel32/SetUserGeoID.md).  
   
 <a href="http://msdn.microsoft.com/en-us/library/windows/desktop/dd374073(v=vs.85).aspx">Table of Geographical Locations</a>  
   

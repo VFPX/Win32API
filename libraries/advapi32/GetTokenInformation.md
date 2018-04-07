@@ -65,7 +65,7 @@ An access token contains the security information for a logon session. The syste
   
 The token identifies the user, the user"s groups, and the user"s privileges.  
   
-See also: OpenProcessToken   
+See also: [OpenProcessToken](../advapi32/OpenProcessToken.md).  
   
 ***  
 

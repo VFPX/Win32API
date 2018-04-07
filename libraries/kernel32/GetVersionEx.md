@@ -44,7 +44,7 @@ If the function succeeds, the return value is TRUE
 
 
 ## Comments:
-See also: GetVersion, GetProductInfo   
+See also: [GetVersion](../kernel32/GetVersion.md), [GetProductInfo](../kernel32/GetProductInfo.md).  
   
 ***  
 

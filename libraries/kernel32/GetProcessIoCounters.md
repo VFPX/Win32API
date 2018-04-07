@@ -48,7 +48,7 @@ If the function succeeds, the return value is nonzero.
 
 
 ## Comments:
-See also: GetProcessTimes, GetProcessVersion, GetProcessMemoryInfo   
+See also: [GetProcessTimes](../kernel32/GetProcessTimes.md), [GetProcessVersion](../kernel32/GetProcessVersion.md), [GetProcessMemoryInfo](../psapi/GetProcessMemoryInfo.md).  
   
 ***  
 

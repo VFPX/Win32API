@@ -92,7 +92,7 @@ If the function succeeds, the return value is TRUE.
 
 
 ## Comments:
-See also: GdipDrawImageRectRectI   
+See also: [GdipDrawImageRectRectI](../gdiplus/GdipDrawImageRectRectI.md).  
   
 ***  
 

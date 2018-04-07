@@ -78,7 +78,7 @@ If the function succeeds, it returns Ok (0).
 
 
 ## Comments:
-See also: GdipFillPieI.  
+See also: [GdipFillPieI](../gdiplus/GdipFillPieI.md).  
   
 ***  
 

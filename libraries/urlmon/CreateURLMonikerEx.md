@@ -58,7 +58,7 @@ Returns S_OK (0) if successful, or an error value otherwise.
 ## Comments:
 While URL Monitor can be created in VFP code, I am not sure yet if it has to be released and how without resorting to using external routines (IUnknown::Release).  
   
-See also: ShowHTMLDialog   
+See also: [ShowHTMLDialog](../mshtml/ShowHTMLDialog.md).  
   
 ***  
 

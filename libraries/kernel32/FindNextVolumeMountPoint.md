@@ -52,7 +52,7 @@ If the function succeeds, the return value is nonzero.
 
 
 ## Comments:
-See also: FindVolumeMountPointClose   
+See also: [FindVolumeMountPointClose](../kernel32/FindVolumeMountPointClose.md).  
   
 ***  
 

@@ -61,7 +61,7 @@ DECLARE INTEGER PostMessage IN user32;
   
 = PostMessage(GetActiveWindow(), WM_CLOSE, 0,0)  
 </font></code>  
-See also: IsWindow.  
+See also: [IsWindow](../user32/IsWindow.md).  
   
 ***  
 

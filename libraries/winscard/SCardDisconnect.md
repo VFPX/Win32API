@@ -44,7 +44,7 @@ Returns SCARD_S_SUCCESS (0) or error code.
 
 
 ## Comments:
-See also: SCardConnect, SCardReconnect   
+See also: [SCardConnect](../winscard/SCardConnect.md), [SCardReconnect](..//SCardReconnect.md).  
   
 ***  
 

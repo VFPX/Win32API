@@ -50,7 +50,7 @@ If the function succeeds, the return value is TRUE.
 ## Comments:
 Session change notifications are sent in the form of a WM_WTSSESSION_CHANGE message. When a window no longer requires these notifications, it must call WTSUnRegisterSessionNotification before being destroyed.  
   
-See also: LockWorkStation.  
+See also: [LockWorkStation](../user32/LockWorkStation.md).  
   
 ***  
 

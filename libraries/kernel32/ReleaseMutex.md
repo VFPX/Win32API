@@ -48,7 +48,7 @@ When the thread no longer needs to own the mutex object, it calls the ReleaseMut
   
 Use the CloseHandle function to close the handle of a mutex object. The system closes the handle automatically when the process terminates. The mutex object is destroyed when its last handle has been closed.  
   
-See also: CreateMutex, CreateSemaphore.  
+See also: [CreateMutex](../kernel32/CreateMutex.md), [CreateSemaphore](../kernel32/CreateSemaphore.md).  
   
 ***  
 

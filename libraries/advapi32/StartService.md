@@ -56,7 +56,7 @@ If the function succeeds, the return value is nonzero.
 ## Comments:
 A call to the StartService function to start a service in a locked database fails.  
   
-See also: ControlService, CreateService, OpenService, UnlockServiceDatabase.  
+See also: [ControlService](../advapi32/ControlService.md), [CreateService](../advapi32/CreateService.md), [OpenService](../advapi32/OpenService.md), [UnlockServiceDatabase](../advapi32/UnlockServiceDatabase.md).  
   
 ***  
 

@@ -51,7 +51,7 @@ If the function succeeds, the return value is nonzero
 ## Comments:
 If one or more intermediate directories do not exist, no directory is created (error code 3). To create all intermediate directories on the path, use the SHCreateDirectory function.  
   
-See also: SHCreateDirectory   
+See also: [SHCreateDirectory](../shell32/SHCreateDirectory.md).  
   
 ***  
 

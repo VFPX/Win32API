@@ -58,7 +58,7 @@ If the function succeeds, the return value is one of the predefined menu-item va
 
 
 ## Comments:
-See also: MessageBoxIndirect, TaskDialog, TaskDialogIndirect, SetWindowsHookEx   
+See also: [MessageBoxIndirect](../user32/MessageBoxIndirect.md), [TaskDialog](../comctl32/TaskDialog.md), [TaskDialogIndirect](../comdlg32/TaskDialogIndirect.md), [SetWindowsHookEx](../user32/SetWindowsHookEx.md).  
   
 Right-to-left MessageBox (see Usage code above):  
   

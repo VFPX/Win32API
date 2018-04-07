@@ -50,7 +50,7 @@ If the function succeeds, the return value is NO_ERROR (0). If the user cancels 
   
 Not much of input parameters this function accepts: nor a drive letter neither a network path.  
   
-See also: WNetDisconnectDialog, WNetConnectionDialog1   
+See also: [WNetDisconnectDialog](../mpr/WNetDisconnectDialog.md), [WNetConnectionDialog1](../mpr/WNetConnectionDialog1.md).  
   
 ***  
 

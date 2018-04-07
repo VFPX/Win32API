@@ -80,7 +80,7 @@ The return value is the handle to the window with the keyboard focus. If the cal
 ## Comments:
 This function returns a window handle to an active form, or for the main VFP window if it has the keyboard focus. In this case its result is equivalent to the one of GetActiveWindow.  
   
-See also: SetFocus, SetForegroundWindow, GetForegroundWindow, GetActiveWindow.  
+See also: [SetFocus](../user32/SetFocus.md), [SetForegroundWindow](../user32/SetForegroundWindow.md), [GetForegroundWindow](../user32/GetForegroundWindow.md), [GetActiveWindow](../user32/GetActiveWindow.md).  
   
 ***  
 

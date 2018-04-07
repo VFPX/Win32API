@@ -52,7 +52,7 @@ Returns 0 on success.
 
 
 ## Comments:
-See also: GdipCreateSolidFill, GdipDeleteBrush, GdipFillRectangle   
+See also: [GdipCreateSolidFill](../gdiplus/GdipCreateSolidFill.md), [GdipDeleteBrush](../gdiplus/GdipDeleteBrush.md), [GdipFillRectangle](../gdiplus/GdipFillRectangle.md).  
   
 ***  
 

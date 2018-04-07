@@ -43,7 +43,7 @@ If the function succeeds, the return value is nonzero
 
 
 ## Comments:
-See also: RemoveDirectory, SHFileOperation, DeleteFileTransacted   
+See also: [RemoveDirectory](../kernel32/RemoveDirectory.md), [SHFileOperation](../shell32/SHFileOperation.md), [DeleteFileTransacted](../kernel32/DeleteFileTransacted.md).  
   
 ***  
 

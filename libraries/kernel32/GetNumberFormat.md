@@ -66,7 +66,7 @@ If the cchNumber parameter is set to 0, the function returns the number of chara
 
 
 ## Comments:
-See also: GetCurrencyFormat, GetDateFormat   
+See also: [GetCurrencyFormat](../kernel32/GetCurrencyFormat.md), [GetDateFormat](../kernel32/GetDateFormat.md).  
   
 ***  
 

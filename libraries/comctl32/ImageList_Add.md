@@ -57,7 +57,7 @@ Returns the index of the first new image if successful, or -1 otherwise.
 ## Comments:
 The Usage shows how the image from an icon resource can be added to an Image List specified by its HIMAGELIST handle, THIS.himl.  
   
-See also: ImageList_Remove, ImageList_GetImageCount, LoadIcon, ExtractIcon, GetIconInfo, LoadImage    
+See also: [ImageList_Remove](../comctl32/ImageList_Remove.md), [ImageList_GetImageCount](../comctl32/ImageList_GetImageCount.md), [LoadIcon](../user32/LoadIcon.md), [ExtractIcon](../shell32/ExtractIcon.md), [GetIconInfo](../user32/GetIconInfo.md), [LoadImage](../user32/LoadImage.md).  
   
 ***  
 

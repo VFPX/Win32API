@@ -61,7 +61,7 @@ If the function succeeds, the return value is the number of points in the buffer
 
 
 ## Comments:
-See also: GetCursorPos, GetTickCount   
+See also: [GetCursorPos](../user32/GetCursorPos.md), [GetTickCount](../kernel32/GetTickCount.md).  
   
 ***  
 

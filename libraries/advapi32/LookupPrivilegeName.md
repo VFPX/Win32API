@@ -65,7 +65,7 @@ Default privileges for VFP9 process on Vista:
   
 <img src="images/vfpprivilegesonvista.png">  
   
-See also: LookupPrivilegeDisplayName, LookupPrivilegeValue   
+See also: [LookupPrivilegeDisplayName](../advapi32/LookupPrivilegeDisplayName.md), [LookupPrivilegeValue](../advapi32/LookupPrivilegeValue.md).  
   
 ***  
 

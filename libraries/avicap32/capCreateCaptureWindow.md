@@ -81,7 +81,7 @@ Returns a handle of the capture window if successful or NULL otherwise.
 ## Comments:
 Use BITOR(WS_CHILD, WS_VISIBLE) for <Em>dwStyle</Em> parameter. The class name for the window created with this function is usually ClsCapWin.  
   
-See also: CreateWindowEx, DestroyWindow   
+See also: [CreateWindowEx](../user32/CreateWindowEx.md), [DestroyWindow](../user32/DestroyWindow.md).  
   
 ***  
 

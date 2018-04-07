@@ -76,7 +76,7 @@ Attribute FILE_FLAG_DELETE_ON_CLOSE -- is handy for creating temporary files. In
 The huge variety of avilable attributes makes this command very strong and sophisticated.  
 The function also can be used to put a message in a mailslot.  
   
-See also: CreateFileTransacted   
+See also: [CreateFileTransacted](../kernel32/CreateFileTransacted.md).  
   
 ***  
 

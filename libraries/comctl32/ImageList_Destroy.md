@@ -45,7 +45,7 @@ Returns nonzero if successful, or zero otherwise.
 
 
 ## Comments:
-See also: ImageList_Create   
+See also: [ImageList_Create](../comctl32/ImageList_Create.md).  
   
 ***  
 

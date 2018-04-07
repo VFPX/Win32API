@@ -42,7 +42,7 @@ If the function succeeds, the return value is nonzero.
 
 
 ## Comments:
-See also: CreateDesktop, OpenDesktop   
+See also: [CreateDesktop](../user32/CreateDesktop.md), [OpenDesktop](../user32/OpenDesktop.md).  
   
 ***  
 

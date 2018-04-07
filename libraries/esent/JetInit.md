@@ -44,7 +44,7 @@ This function returns the JET_ERR datatype with one of predefined return codes (
 ## Comments:
 For Windows 2000, <Em>pinstance</Em> parameter is ignored and should always be NULL.   
   
-See also: JetTerm, JetCreateInstance   
+See also: [JetTerm](../esent/JetTerm.md), [JetCreateInstance](../esent/JetCreateInstance.md).  
   
 ***  
 

@@ -63,7 +63,7 @@ Returns the number of characters written to the lpDateStr buffer if successful.
 
 
 ## Comments:
-See also: GetCurrencyFormat, GetNumberFormat   
+See also: [GetCurrencyFormat](../kernel32/GetCurrencyFormat.md), [GetNumberFormat](../kernel32/GetNumberFormat.md).  
   
 ***  
 

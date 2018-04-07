@@ -49,7 +49,7 @@ This function returns the JET_ERR datatype with one of predefined return codes (
 ## Comments:
 W2K: not supported.  
   
-See also: JetInit, JetTerm   
+See also: [JetInit](../esent/JetInit.md), [JetTerm](../esent/JetTerm.md).  
   
 ***  
 

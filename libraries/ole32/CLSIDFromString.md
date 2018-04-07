@@ -57,7 +57,7 @@ iidImageList = "{46EB5926-582E-4017-9FDF-E8998DAA0950}"
 = CLSIDFromString(STRCONV(iidImageList,5), @cBuffer)  
 ? cBuffer  
 </div>  
-See also: StringFromGUID2   
+See also: [StringFromGUID2](../ole32/StringFromGUID2.md).  
   
 ***  
 

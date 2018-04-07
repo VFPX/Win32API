@@ -45,7 +45,7 @@ Returns TRUE if successful, FALSE otherwise. Call GetLastError for additional de
 ## Comments:
 When a window has been removed from the clipboard format listener list, it will no longer receive WM_CLIPBOARDUPDATE (0x031D) messages.  
   
-See also: AddClipboardFormatListener, ChangeClipboardChain, SetClipboardViewer   
+See also: [AddClipboardFormatListener](../user32/AddClipboardFormatListener.md), [ChangeClipboardChain](../user32/ChangeClipboardChain.md), [SetClipboardViewer](../user32/SetClipboardViewer.md).  
   
 ***  
 

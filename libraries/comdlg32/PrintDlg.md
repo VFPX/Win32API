@@ -50,7 +50,7 @@ If the user clicks the OK button, the return value is nonzero. The members of th
 ## Comments:
 This function can be used to get a device context for a printer.  
   
-See also: PrintDlgEx, DocumentProperties   
+See also: [PrintDlgEx](../comdlg32/PrintDlgEx.md), [DocumentProperties](../winspool.drv/DocumentProperties.md).  
   
 ***  
 

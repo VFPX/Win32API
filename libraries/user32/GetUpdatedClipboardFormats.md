@@ -54,7 +54,7 @@ The function returns TRUE if successful; otherwise, FALSE.
 ## Comments:
 If I am not mistaken, this is clipboard format enumeration performed in a single call, rather than via multiple EnumClipboardFormats calls.  
   
-See also: EnumClipboardFormats, CountClipboardFormats, IsClipboardFormatAvailable    
+See also: [EnumClipboardFormats](../user32/EnumClipboardFormats.md), [CountClipboardFormats](../user32/CountClipboardFormats.md), [IsClipboardFormatAvailable](../user32/IsClipboardFormatAvailable.md).  
   
 ***  
 

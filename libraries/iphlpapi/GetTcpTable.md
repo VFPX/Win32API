@@ -51,7 +51,7 @@ If the function succeeds, the return value is NO_ERROR.
 
 
 ## Comments:
-See also: GetTcp6Table   
+See also: [GetTcp6Table](../iphlpapi/GetTcp6Table.md).  
   
 ***  
 

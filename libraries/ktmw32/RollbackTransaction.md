@@ -45,7 +45,7 @@ If the function succeeds, the return value is nonzero.
 ## Comments:
 Requires Windows Vista.  
   
-See also: CreateTransaction, CommitTransaction   
+See also: [CreateTransaction](../ktmw32/CreateTransaction.md), [CommitTransaction](../ktmw32/CommitTransaction.md).  
   
 ***  
 

@@ -45,7 +45,7 @@ Returns RPC_S_OK (0) if the call succeeded.
 ## Comments:
 An application is responsible for calling RpcStringFree once for each character string allocated and returned by calls to other RPC run-time library routines.  
   
-See also: UuidToString   
+See also: [UuidToString](../rpcrt4/UuidToString.md).  
   
 ***  
 

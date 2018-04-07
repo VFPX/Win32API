@@ -40,7 +40,7 @@ If the function succeeds, the return value is nonzero
 ## Comments:
 To recursively delete the files in a directory, use the SHFileOperation function.  
   
-See also: RemoveDirectoryTransacted   
+See also: [RemoveDirectoryTransacted](../kernel32/RemoveDirectoryTransacted.md).  
   
 ***  
 

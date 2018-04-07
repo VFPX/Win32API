@@ -43,7 +43,7 @@ If the function succeeds, the return value is nonzero.
 
 
 ## Comments:
-See also: ScreenToClient   
+See also: [ScreenToClient](../user32/ScreenToClient.md).  
   
 ***  
 

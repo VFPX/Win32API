@@ -65,7 +65,7 @@ Returns the address of the converted string, or NULL if the conversion fails.
 
 
 ## Comments:
-See also: StrFormatByteSize64, StrFormatByteSizeEx, StrFormatKBSize   
+See also: [StrFormatByteSize64](..//StrFormatByteSize64.md), [StrFormatByteSizeEx](..//StrFormatByteSizeEx.md), [StrFormatKBSize](..//StrFormatKBSize.md).  
   
 ***  
 

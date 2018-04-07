@@ -47,7 +47,7 @@ Example: C:\Windows\SysWOW64
   
 WoW64 means <Em><a href="http://en.wikipedia.org/wiki/WOW64">Windows-on-Windows 64-bit</a></Em>.  
   
-See also: GetSystemDirectory   
+See also: [GetSystemDirectory](../kernel32/GetSystemDirectory.md).  
   
 ***  
 

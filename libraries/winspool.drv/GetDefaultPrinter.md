@@ -53,7 +53,7 @@ If the function succeeds, the return value is a nonzero value and the variable p
 Windows NT/2000/XP: Included in Windows 2000 and later.  
 Windows 95/98/Me: Unsupported.  
   
-See also: SetDefaultPrinter, EnumPrinters, PrinterProperties.  
+See also: [SetDefaultPrinter](../winspool.drv/SetDefaultPrinter.md), [EnumPrinters](../winspool.drv/EnumPrinters.md), [PrinterProperties](../winspool.drv/PrinterProperties.md).  
   
 ***  
 

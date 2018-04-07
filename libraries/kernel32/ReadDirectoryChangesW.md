@@ -82,7 +82,7 @@ If the function fails, the return value is zero. To get extended error informati
 ## Comments:
 Deleting a directory with subdirectories into the Recycle Bin produces a single FILE_NOTIFY_INFORMATION structure with the directory data. While a direct delete (the Recycle Bin is bypassed) triggers ReadDirectoryChangesW for each subdirectory, and finally for the directory.  
   
-See also: NetFileEnum, FindFirstChangeNotification   
+See also: [NetFileEnum](../netapi32/NetFileEnum.md), [FindFirstChangeNotification](../kernel32/FindFirstChangeNotification.md).  
   
 ***  
 

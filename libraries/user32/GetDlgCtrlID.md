@@ -37,7 +37,7 @@ If the function succeeds, the return value is the identifier of the control.
 
 
 ## Comments:
-See also: GetDlgItem   
+See also: [GetDlgItem](../user32/GetDlgItem.md).  
   
 ***  
 

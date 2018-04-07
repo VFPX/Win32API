@@ -61,7 +61,7 @@ Returns the handle to the image list if successful, or NULL otherwise.
 
 
 ## Comments:
-See also: ImageList_Destroy   
+See also: [ImageList_Destroy](../comctl32/ImageList_Destroy.md).  
   
 ***  
 

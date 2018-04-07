@@ -45,7 +45,7 @@ The function returns TRUE if it is successful.
 
 
 ## Comments:
-See also: SetupDiGetClassImageListEx, SetupDiGetClassImageIndex   
+See also: [SetupDiGetClassImageListEx](../setupapi/SetupDiGetClassImageListEx.md), [SetupDiGetClassImageIndex](../setupapi/SetupDiGetClassImageIndex.md).  
   
 ***  
 

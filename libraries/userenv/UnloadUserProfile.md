@@ -50,7 +50,7 @@ TRUE if successful; otherwise, FALSE.
 ## Comments:
 Before calling UnloadUserProfile you should ensure that all handles to keys that you have opened in the user"s registry hive are closed. If you do not close all open registry handles, the user"s profile fails to unload.  
   
-See also: LoadUserProfile   
+See also: [LoadUserProfile](../userenv/LoadUserProfile.md).  
   
 ***  
 

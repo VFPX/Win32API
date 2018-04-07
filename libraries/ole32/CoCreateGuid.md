@@ -45,7 +45,7 @@ To a very high degree of certainty, this function returns a unique value – no ot
   
 Read article <a href="http://betterexplained.com/articles/the-quick-guide-to-guids/">GUIDs and UUIDs explained</a> on the BetterExplained.  
   
-See also: StringFromGUID2, UuidCreate   
+See also: [StringFromGUID2](../ole32/StringFromGUID2.md), [UuidCreate](../rpcrt4/UuidCreate.md).  
   
 ***  
 

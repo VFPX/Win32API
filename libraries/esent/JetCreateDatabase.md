@@ -64,7 +64,7 @@ This function returns the JET_ERR datatype with one of predefined return codes.
 ## Comments:
 Currently, up to seven databases can be created per instance. JetCreateDatabase will implicitly open the database. It is not necessarily to subsequently call JetOpenDatabase.  
   
-See also: JetAttachDatabase, JetOpenDatabase, JetCloseDatabase   
+See also: [JetAttachDatabase](..//JetAttachDatabase.md), [JetOpenDatabase](..//JetOpenDatabase.md), [JetCloseDatabase](../esent/JetCloseDatabase.md).  
   
 ***  
 

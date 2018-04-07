@@ -53,7 +53,7 @@ If the function succeeds, the return value is the handle to the hook procedure.
 
 
 ## Comments:
-See also: UnhookWindowsHookEx, MessageBox   
+See also: [UnhookWindowsHookEx](../user32/UnhookWindowsHookEx.md), [MessageBox](../user32/MessageBox.md).  
   
 It is highly unlikely someone would call this function from pure VFP code. This page might easily contain no VFP declaration for that reason.   
   

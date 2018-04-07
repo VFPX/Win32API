@@ -47,7 +47,7 @@ On success, if_indextoname returns a pointer to NULL-terminated ANSI string cont
 ## Comments:
 Minimum OS: Vista.  
   
-See also: if_nametoindex, GetNumberOfInterfaces, GetIfEntry   
+See also: [if_nametoindex](../iphlpapi/if_nametoindex.md), [GetNumberOfInterfaces](../iphlpapi/GetNumberOfInterfaces.md), [GetIfEntry](../iphlpapi/GetIfEntry.md).  
   
 ***  
 

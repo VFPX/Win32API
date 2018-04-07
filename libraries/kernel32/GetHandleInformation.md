@@ -49,7 +49,7 @@ If the function succeeds, the return value is nonzero.
 ## Comments:
 You can specify a handle to one of the following types of objects: access token, event, file, file mapping, job, mailslot, mutex, pipe, printer, process, registry key, semaphore, serial communication device, socket, thread, or waitable timer.  
   
-See also: SetHandleInformation   
+See also: [SetHandleInformation](../kernel32/SetHandleInformation.md).  
   
 ***  
 

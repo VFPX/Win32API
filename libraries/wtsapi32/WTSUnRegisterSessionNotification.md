@@ -46,7 +46,7 @@ If the function succeeds, the return value is TRUE.
 ## Comments:
 This function must be called once for every call to the WTSRegisterSessionNotification function.  
   
-See also: LockWorkStation.  
+See also: [LockWorkStation](../user32/LockWorkStation.md).  
   
 ***  
 

@@ -58,7 +58,7 @@ If the function succeeds, the return value is a nonzero value.
 
 
 ## Comments:
-See also: GetSystemMetrics   
+See also: [GetSystemMetrics](../user32/GetSystemMetrics.md).  
   
 ***  
 

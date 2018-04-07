@@ -48,7 +48,7 @@ This function can be used when an error prevents closure by any other means. You
   
 If <Em>servername</Em> parameter is NULL, the local computer is used.   
   
-See also: NetFileEnum, NetFileGetInfo   
+See also: [NetFileEnum](../netapi32/NetFileEnum.md), [NetFileGetInfo](../netapi32/NetFileGetInfo.md).  
   
 ***  
 

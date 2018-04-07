@@ -70,7 +70,7 @@ ITEMIDLIST structure contains a list of item identifiers.
 }</div>  
 A pointer to this structure, called a PIDL, is used to identify objects in the Shell namespace.  
   
-See also: SHSimpleIDListFromPath, SHGetPathFromIDList   
+See also: [SHSimpleIDListFromPath](../shell32/SHSimpleIDListFromPath.md), [SHGetPathFromIDList](../shell32/SHGetPathFromIDList.md).  
   
 ***  
 

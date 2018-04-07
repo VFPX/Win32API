@@ -52,7 +52,7 @@ If the function succeeds, the return value is NO_ERROR (0).
 ## Comments:
 Requires Windows Vista.  
   
-See also: GetTcpTable   
+See also: [GetTcpTable](../iphlpapi/GetTcpTable.md).  
   
 ***  
 

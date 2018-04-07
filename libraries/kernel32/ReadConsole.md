@@ -66,7 +66,7 @@ The total size of the buffer required will be less than 64K.
   
 Use GetStdHandle with STD_INPUT_HANDLE to obtain the handle to the console input buffer.  
   
-See also: WriteConsole.  
+See also: [WriteConsole](../kernel32/WriteConsole.md).  
   
 ***  
 

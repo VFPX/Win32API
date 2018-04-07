@@ -48,7 +48,7 @@ If the function succeeds, the return value is STATUS_SUCCESS.
 ## Comments:
 The SECURITY_LOGON_SESSION_DATA structure is allocated by the LSA. When the information is no longer needed, call the LSAFreeReturnBuffer function to free the memory used by this structure.  
   
-See also: LsaEnumerateLogonSessions, LSAFreeReturnBuffer   
+See also: [LsaEnumerateLogonSessions](../secur32/LsaEnumerateLogonSessions.md), [LSAFreeReturnBuffer](..//LSAFreeReturnBuffer.md).  
   
 ***  
 

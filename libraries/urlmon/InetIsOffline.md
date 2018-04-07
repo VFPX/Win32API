@@ -42,7 +42,7 @@ Returns TRUE if the local system is not currently connected to the Internet. Ret
 
 
 ## Comments:
-See also: InternetAttemptConnect, GetRTTAndHopCount, IcmpSendEcho.  
+See also: [InternetAttemptConnect](../wininet/InternetAttemptConnect.md), [GetRTTAndHopCount](../iphlpapi/GetRTTAndHopCount.md), [IcmpSendEcho](../iphlpapi/IcmpSendEcho.md).  
   
 ***  
 

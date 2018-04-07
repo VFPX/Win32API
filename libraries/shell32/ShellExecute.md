@@ -85,7 +85,7 @@ Returns a value greater than 32 if successful, or an error value that is less th
 ## Comments:
 The following verbs are commonly used: <Em>edit, explore, find, open, print</Em> and <Em>properties</Em>.  
   
-See also: ShellExecuteEx, CreateProcess, AssocQueryString    
+See also: [ShellExecuteEx](../shell32/ShellExecuteEx.md), [CreateProcess](../kernel32/CreateProcess.md), [AssocQueryString](../shlwapi/AssocQueryString.md).  
   
 ***  
 

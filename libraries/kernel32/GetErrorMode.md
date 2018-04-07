@@ -36,7 +36,7 @@ Returns the error mode for the current process.
 ## Comments:
 Minimum OS: Vista  
   
-See also: SetErrorMode   
+See also: [SetErrorMode](../kernel32/SetErrorMode.md).  
   
 ***  
 

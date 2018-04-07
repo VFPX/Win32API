@@ -67,7 +67,7 @@ If the function succeeds, the function returns TRUE.
 ## Comments:
 When you have finished using sensitive information, clear it from memory by calling the SecureZeroMemory function.  
   
-See also: CryptProtectData, CryptProtectMemory, CryptUnprotectMemory    
+See also: [CryptProtectData](../crypt32/CryptProtectData.md), [CryptProtectMemory](..//CryptProtectMemory.md), [CryptUnprotectMemory](..//CryptUnprotectMemory.md).  
   
 ***  
 

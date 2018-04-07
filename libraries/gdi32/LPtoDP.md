@@ -65,7 +65,7 @@ cBuffer = num2dword(100) + num2dword(100)
 = ReleaseDC(hWindow, hDC)  
 </div>  
   
-See also: DPtoLP   
+See also: [DPtoLP](../gdi32/DPtoLP.md).  
   
 ***  
 

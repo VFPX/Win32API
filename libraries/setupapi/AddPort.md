@@ -56,7 +56,7 @@ The AddPort function browses the network to find existing ports, and displays a 
   
 The caller of the AddPort function must have SERVER_ACCESS_ADMINISTER access to the server to which the port is connected.  
   
-See also: DeletePort, EnumPorts.  
+See also: [DeletePort](../winspool.drv/DeletePort.md), [EnumPorts](../winspool.drv/EnumPorts.md).  
   
 ***  
 

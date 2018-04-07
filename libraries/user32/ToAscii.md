@@ -65,7 +65,7 @@ The function translates the code using the input language and physical keyboard 
   
 To specify a handle to the keyboard layout to use to translate the specified code, use the ToAsciiEx function.  
   
-See also: MapVirtualKey, GetKeyboardState   
+See also: [MapVirtualKey](../user32/MapVirtualKey.md), [GetKeyboardState](../user32/GetKeyboardState.md).  
   
 ***  
 

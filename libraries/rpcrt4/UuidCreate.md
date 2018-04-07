@@ -47,7 +47,7 @@ UuidCreateSequential was introduced to allow creation of UUIDs using the MAC add
   
 Read article <a href="http://betterexplained.com/articles/the-quick-guide-to-guids/">GUIDs and UUIDs explained</a> on the BetterExplained.  
   
-See also: UuidCreateSequential, UuidCreateNil, CoCreateGuid   
+See also: [UuidCreateSequential](../rpcrt4/UuidCreateSequential.md), [UuidCreateNil](../rpcrt4/UuidCreateNil.md), [CoCreateGuid](../ole32/CoCreateGuid.md).  
   
 ***  
 

@@ -45,7 +45,7 @@ If the function succeeds, the return value identifies the previous mapping mode.
 ## Comments:
 The mapping mode defines the unit of measure used to transform page-space units into device-space units, and also defines the orientation of the device"s x and y axes.   
   
-See also: GetMapMode   
+See also: [GetMapMode](../gdi32/GetMapMode.md).  
   
 ***  
 

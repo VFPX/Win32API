@@ -68,7 +68,7 @@ The attribute values at the positions written are not changed. Use the FillConso
   
 Normally I would declare COORD dwWriteCoord as STRING @dwCursorPosition. It did not work this way. Fortunately SHORT, SHORT does the job.  
   
-See also: FillConsoleOutputAttribute, SetConsoleTextAttribute.  
+See also: [FillConsoleOutputAttribute](../kernel32/FillConsoleOutputAttribute.md), [SetConsoleTextAttribute](../kernel32/SetConsoleTextAttribute.md).  
   
 ***  
 

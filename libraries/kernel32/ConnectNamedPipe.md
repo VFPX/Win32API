@@ -48,7 +48,7 @@ If the function succeeds, the return value is nonzero.
 ## Comments:
 A client process connects by calling either the CreateFile or CallNamedPipe function.  
   
-See also: DisconnectNamedPipe, CloseHandle.  
+See also: [DisconnectNamedPipe](../kernel32/DisconnectNamedPipe.md), [CloseHandle](../kernel32/CloseHandle.md).  
   
 ***  
 

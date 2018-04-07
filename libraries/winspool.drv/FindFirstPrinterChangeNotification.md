@@ -61,7 +61,7 @@ If the function succeeds, the return value is a handle to a change notification 
 ## Comments:
 To monitor a printer or print server, call the FindFirstPrinterChangeNotification function, then use the returned change notification object handle in a call to one of the wait functions, like WaitForSingleObject.  
   
-See also: FindNextPrinterChangeNotification, FindClosePrinterChangeNotification, OpenPrinter.  
+See also: [FindNextPrinterChangeNotification](../winspool.drv/FindNextPrinterChangeNotification.md), [FindClosePrinterChangeNotification](../winspool.drv/FindClosePrinterChangeNotification.md), [OpenPrinter](../winspool.drv/OpenPrinter.md).  
   
 ***  
 

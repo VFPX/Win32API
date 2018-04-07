@@ -54,7 +54,7 @@ The return value specifies the type of drive
 #DEFINE DRIVE_CDROM 5  
 #DEFINE DRIVE_RAMDISK 6  
 </div>  
-See also: RealDriveType   
+See also: [RealDriveType](../shell32/RealDriveType.md).  
   
 ***  
 

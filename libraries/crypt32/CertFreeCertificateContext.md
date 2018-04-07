@@ -39,7 +39,7 @@ The function always returns nonzero.
 
 
 ## Comments:
-See also: CertFindCertificateInStore.  
+See also: [CertFindCertificateInStore](../crypt32/CertFindCertificateInStore.md).  
   
 ***  
 

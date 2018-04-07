@@ -45,7 +45,7 @@ Returns the JET_ERR datatype with a predefined return code.
 ## Comments:
 This function can be called more than once on a single session to cause the creation of additional save points. These save points can be used to selectively keep or discard changes to the state of the database.  
   
-See also: JetCommitTransaction, JetRollback   
+See also: [JetCommitTransaction](../esent/JetCommitTransaction.md), [JetRollback](../esent/JetRollback.md).  
   
 ***  
 

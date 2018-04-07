@@ -83,7 +83,7 @@ If the function fails, the return value is zero.
 ## Comments:
 This function, as well as GetModuleHandle, retrieves a handle to the application instance; but not only.  
   
-See also: SetWindowLong   
+See also: [SetWindowLong](../user32/SetWindowLong.md).  
   
 ***  
 

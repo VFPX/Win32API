@@ -68,7 +68,7 @@ The error code SCARD_E_NO_SERVICE (0x8010001D), <Em>"The smart card resource man
   
 The error code SCARD_E_NO_READERS_AVAILABLE (0x8010002E) speaks for itself.  
   
-See also: SCardReleaseContext   
+See also: [SCardReleaseContext](../winscard/SCardReleaseContext.md).  
   
 ***  
 

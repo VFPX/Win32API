@@ -48,7 +48,7 @@ A valid CEOID indicates success. Zero indicates failure or a lack of additional 
 ## Comments:
 To find all matching databases, CeFindNextDatabaseEx (RAPI) is called in a loop until 0 is returned. When enumeration is complete, the hEnum handle must be closed by calling the CeCloseHandle (RAPI) function.  
   
-See also: CeFindFirstDatabaseEx.  
+See also: [CeFindFirstDatabaseEx](../rapi/CeFindFirstDatabaseEx.md).  
   
 ***  
 

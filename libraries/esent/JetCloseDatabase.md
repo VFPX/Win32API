@@ -52,7 +52,7 @@ This function returns the JET_ERR data type with one of predefined return codes.
 
 
 ## Comments:
-See also: JetCreateDatabase, JetOpenDatabase   
+See also: [JetCreateDatabase](../esent/JetCreateDatabase.md), [JetOpenDatabase](..//JetOpenDatabase.md).  
   
 ***  
 

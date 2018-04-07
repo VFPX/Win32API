@@ -55,7 +55,7 @@ The return value is a handle to an icon, otherwise it is NULL.
 ## Comments:
 You must destroy the icon handle returned by ExtractIcon by calling the DestroyIcon function.  
   
-See also: ExtractAssociatedIcon, GetIconInfo, SHGetStockIconInfo   
+See also: [ExtractAssociatedIcon](../shell32/ExtractAssociatedIcon.md), [GetIconInfo](../user32/GetIconInfo.md), [SHGetStockIconInfo](../shell32/SHGetStockIconInfo.md).  
   
 ***  
 

@@ -61,7 +61,7 @@ If the index value is 0xFFFFFFFF, the return value is a count of the dropped fil
   
 If the index value is between zero and the total number of dropped files and the lpszFile buffer address is NULL, the return value is the required size, in characters, of the buffer, not including the terminating null character.  
   
-See also: DragAcceptFiles, DragFinish.  
+See also: [DragAcceptFiles](../user32/DragAcceptFiles.md), [DragFinish](../shell32/DragFinish.md).  
   
 ***  
 

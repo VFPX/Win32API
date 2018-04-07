@@ -84,7 +84,7 @@ If the function succeeds, the return value is NERR_Success.
 ## Comments:
 You can call the NetFileGetInfo function to retrieve information about a particular opening of a server resource.  
   
-See also: ReadDirectoryChangesW   
+See also: [ReadDirectoryChangesW](../kernel32/ReadDirectoryChangesW.md).  
   
   
 ***  

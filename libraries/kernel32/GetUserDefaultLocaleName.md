@@ -45,7 +45,7 @@ Returns the size of the buffer containing the locale name, including the termina
 
 
 ## Comments:
-See also: GetSystemDefaultLocaleName, GetUserDefaultLCID   
+See also: [GetSystemDefaultLocaleName](../kernel32/GetSystemDefaultLocaleName.md), [GetUserDefaultLCID](../kernel32/GetUserDefaultLCID.md).  
   
 ***  
 

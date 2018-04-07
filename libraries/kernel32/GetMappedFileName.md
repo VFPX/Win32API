@@ -57,7 +57,7 @@ If the function succeeds, the return value specifies the length of the string co
 
 
 ## Comments:
-See also: EnumProcesses, GetCurrentProcess.  
+See also: [EnumProcesses](../psapi/EnumProcesses.md), [GetCurrentProcess](../kernel32/GetCurrentProcess.md).  
   
 ***  
 

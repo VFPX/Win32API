@@ -70,7 +70,7 @@ For Windows versions 98, NT4 the SHGetFolderPath is obtained through SHFolder.dl
   
 SHFolder.dll continues to be included for backward compatibility, though the function is now implemented in Shell32.dll.  
   
-See also: SHGetSpecialFolderLocation, SHGetKnownFolderPath, SHGetPathFromIDList    
+See also: [SHGetSpecialFolderLocation](../shell32/SHGetSpecialFolderLocation.md), [SHGetKnownFolderPath](..//SHGetKnownFolderPath.md), [SHGetPathFromIDList](../shell32/SHGetPathFromIDList.md).  
   
 ***  
 

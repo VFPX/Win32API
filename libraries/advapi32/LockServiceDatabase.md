@@ -46,7 +46,7 @@ The <Em>hSCManager</Em> handle is returned by the OpenSCManager function, and mu
   
 A call to the StartService function to start a service in a locked database fails. No other service control manager functions are affected by a lock.  
   
-See also: UnlockServiceDatabase, OpenSCManager.  
+See also: [UnlockServiceDatabase](../advapi32/UnlockServiceDatabase.md), [OpenSCManager](../advapi32/OpenSCManager.md).  
   
 ***  
 

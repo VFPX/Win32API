@@ -54,7 +54,7 @@ If the method succeeds, it returns S_OK (0). Otherwise, it returns an HRESULT er
 ## Comments:
  It is the responsibility of the calling application to free the returned IDList by using CoTaskMemFree.  
   
-See also: SHGetFolderPath, SHGetKnownFolderPath, SHGetPathFromIDList   
+See also: [SHGetFolderPath](../shell32/SHGetFolderPath.md), [SHGetKnownFolderPath](..//SHGetKnownFolderPath.md), [SHGetPathFromIDList](../shell32/SHGetPathFromIDList.md).  
   
 ***  
 

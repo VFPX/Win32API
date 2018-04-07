@@ -41,7 +41,7 @@ The return value is the previous state of the error-mode bit flags.
 
 
 ## Comments:
-See also: GetErrorMode   
+See also: [GetErrorMode](../kernel32/GetErrorMode.md).  
   
 ***  
 

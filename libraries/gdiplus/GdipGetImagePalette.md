@@ -55,7 +55,7 @@ Returns GpStatus value, 0 means success.
 ## Comments:
 Call GdipGetImagePaletteSize function to determine the size.  
   
-See also: GdipSetImagePalette   
+See also: [GdipSetImagePalette](../gdiplus/GdipSetImagePalette.md).  
   
 ***  
 

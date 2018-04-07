@@ -41,7 +41,7 @@ On success, if_nametoindex returns the local interface index. On failure, zero i
 ## Comments:
 Minimum OS: Vista.  
   
-See also: if_indextoname, GetNumberOfInterfaces, GetIfEntry   
+See also: [if_indextoname](../iphlpapi/if_indextoname.md), [GetNumberOfInterfaces](../iphlpapi/GetNumberOfInterfaces.md), [GetIfEntry](../iphlpapi/GetIfEntry.md).  
   
 ***  
 

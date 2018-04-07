@@ -65,7 +65,7 @@ If the function succeeds, the return value is the base address of the allocated 
 ## Comments:
 The function initializes the memory it allocates to zero, unless MEM_RESET is used.  
   
-See also: VirtualFreeEx   
+See also: [VirtualFreeEx](../kernel32/VirtualFreeEx.md).  
   
 ***  
 

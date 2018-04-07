@@ -65,7 +65,7 @@ If the function succeeds, the return value is nonzero.
 ## Comments:
 Normally I would declare COORD dwWriteCoord as STRING @dwCursorPosition. It did not work this way. Fortunately SHORT, SHORT does the job.  
   
-See also: FillConsoleOutputCharacter, SetConsoleTextAttribute.  
+See also: [FillConsoleOutputCharacter](../kernel32/FillConsoleOutputCharacter.md), [SetConsoleTextAttribute](../kernel32/SetConsoleTextAttribute.md).  
   
 ***  
 

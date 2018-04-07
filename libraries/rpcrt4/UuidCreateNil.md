@@ -40,7 +40,7 @@ Returns RPC_S_OK (0) if the call succeeded.
 ## Comments:
 {00000000-0000-0000-0000-000000000000}  
   
-See also: UuidCreate, UuidCreateSequential   
+See also: [UuidCreate](../rpcrt4/UuidCreate.md), [UuidCreateSequential](../rpcrt4/UuidCreateSequential.md).  
   
 ***  
 

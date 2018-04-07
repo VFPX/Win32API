@@ -63,7 +63,7 @@ Below is FoxPro equivalent to sndAlias("S", "W") macro (SND_ALIAS_SYSTEMWELCOME)
 This will play the SND_ALIAS_SYSTEMWELCOME sound:  
 <div class="precode">= PlaySound(22355, 0, BITOR(SND_ALIAS_ID, SND_ASYNC))  
 </div>  
-See also: sndPlaySound   
+See also: [sndPlaySound](../winmm/sndPlaySound.md).  
   
 ***  
 

@@ -58,7 +58,7 @@ If the function succeeds, the return value is nonzero.
 ## Comments:
 If this function is supported, the GetMonitorCapabilities function returns the MC_CAPS_BRIGHTNESS flag.  
   
-See also: SetMonitorBrightness   
+See also: [SetMonitorBrightness](../dxva2/SetMonitorBrightness.md).  
   
 ***  
 

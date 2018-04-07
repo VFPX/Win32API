@@ -122,7 +122,7 @@ Windows 98/Me and Windows NT 4.0 SP3 and later: To get the window handle to the 
   
 Starting with version 7th the Visual FoxPro includes window handle in standard properties of the Form object.  
   
-See also: GetFocus, GetForegroundWindow, SwitchToThisWindow   
+See also: [GetFocus](../user32/GetFocus.md), [GetForegroundWindow](../user32/GetForegroundWindow.md), [SwitchToThisWindow](../user32/SwitchToThisWindow.md).  
   
 ***  
 

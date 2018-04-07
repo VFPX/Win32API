@@ -46,7 +46,7 @@ If the function succeeds, the return value is nonzero.
 
 
 ## Comments:
-See also: ClientToScreen   
+See also: [ClientToScreen](../gdi32/ClientToScreen.md).  
   
 ***  
 

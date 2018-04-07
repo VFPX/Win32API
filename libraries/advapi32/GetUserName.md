@@ -50,7 +50,7 @@ If the function succeeds, the return value is a nonzero value.
 ## Comments:
 SYS(0) -- the network machine information -- returns computer name and user name in one string.  
   
-See also: GetUserNameEx, GetComputerName, GetComputerNameEx   
+See also: [GetUserNameEx](../secur32/GetUserNameEx.md), [GetComputerName](../kernel32/GetComputerName.md), [GetComputerNameEx](../kernel32/GetComputerNameEx.md).  
   
 ***  
 

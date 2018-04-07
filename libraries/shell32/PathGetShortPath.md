@@ -43,7 +43,7 @@ Minimum OS: Windows 2000
   
 Note that same parameter is used for both input and output. The short name most of the times takes less space than the buffer allocates, so the trailing part has to be cut off.  
   
-See also: GetLongPathName, GetShortPathName.  
+See also: [GetLongPathName](../kernel32/GetLongPathName.md), [GetShortPathName](../kernel32/GetShortPathName.md).  
   
 ***  
 

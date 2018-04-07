@@ -51,7 +51,7 @@ Windows NT:  This <Em>servername</Em> must begin with \\.
   
 Only members of the Administrators or the Account Operators local group can successfully execute NetUserDel on a remote server or on a computer that has local security enabled. Only members of the Administrators local group can delete an Administrators privilege account.  
   
-See also: NetUserAdd, NetUserEnum, NetUserSetInfo.  
+See also: [NetUserAdd](../netapi32/NetUserAdd.md), [NetUserEnum](../netapi32/NetUserEnum.md), [NetUserSetInfo](../netapi32/NetUserSetInfo.md).  
   
 ***  
 

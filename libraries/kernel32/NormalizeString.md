@@ -61,7 +61,7 @@ Returns the length of the normalized string in the destination buffer.
 ## Comments:
 MSDN: <a href="https://msdn.microsoft.com/en-us/library/windows/desktop/dd374126(v=vs.85).aspx">Using Unicode Normalization to Represent Strings</a>  
   
-See also: IsNormalizedString   
+See also: [IsNormalizedString](..//IsNormalizedString.md).  
   
 ***  
 

@@ -48,7 +48,7 @@ If the function succeeds, the return value is nonzero.
 
 
 ## Comments:
-See also: GetHandleInformation, CloseHandle   
+See also: [GetHandleInformation](../kernel32/GetHandleInformation.md), [CloseHandle](../kernel32/CloseHandle.md).  
   
 ***  
 

@@ -64,7 +64,7 @@ If the function succeeds, the return value is a nonzero value.
 ## Comments:
 To free <Em>ppSessionInfo</Em>, call the WTSFreeMemory function.   
   
-See also: WTSEnumerateProcesses, WTSEnumerateServers.  
+See also: [WTSEnumerateProcesses](../wtsapi32/WTSEnumerateProcesses.md), [WTSEnumerateServers](../wtsapi32/WTSEnumerateServers.md).  
   
 ***  
 
