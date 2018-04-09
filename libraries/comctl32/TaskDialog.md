@@ -83,9 +83,9 @@ Minimum operating systems: <Em>Windows Vista</Em>
 All strings passed to this function must be in <Em>Unicode</Em> format.  
   
 The task dialog contains application-defined message text and title, icons, and any combination of predefined push buttons.  
-  
-<img src="images/taskdlg_sample.png">  
-  
+
+![](../../images/taskdlg_sample.png)  
+
 See also: [TaskDialogIndirect](../comdlg32/TaskDialogIndirect.md), [MessageBox](../user32/MessageBox.md), [MessageBoxIndirect](../user32/MessageBoxIndirect.md).  
   
 ***  

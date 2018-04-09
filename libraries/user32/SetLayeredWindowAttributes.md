@@ -65,11 +65,17 @@ If the function succeeds, the return value is nonzero.
 ## Comments:
 A layered window is created by specifying WS_EX_LAYERED when creating the window with the CreateWindowEx function or by setting WS_EX_LAYERED via SetWindowLong after the window has been created.  
   
-<a href="?example=453"><img src="images/transform.png" width=440 height=375 border=0></a>  
+[![](../../images/transform.png)](../../samples/sample_453.md)
+
+[![](../../images/applecorp.jpg)](../../samples/sample_143.md)
+
+[![](../../images/transparentmenu.jpg)](../../samples/sample_496.md)
+
+<!-- <a href="?example=453"><img src="images/transform.png" width=440 height=375 border=0></a>  
   
 <a href="?example=143"><img src="images/applecorp.jpg" width=319 height=348 border=0></a>  
   
-<a href="?example=496"><img src="images/transparentmenu.jpg" width=399 height=331 border=0></a>  
+<a href="?example=496"><img src="images/transparentmenu.jpg" width=399 height=331 border=0></a>  -->
   
 ***  
 

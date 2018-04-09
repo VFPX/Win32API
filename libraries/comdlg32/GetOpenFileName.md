@@ -43,7 +43,7 @@ If the user specifies a file name and clicks the OK button, the return value is 
 ## Comments:
 The GetFileNameFromBrowse provides similar functionality.  
   
-<img src="images/getopenfilename.png" width=570>  
-  
+![](../../images/getopenfilename.png)  
+
 ***  
 

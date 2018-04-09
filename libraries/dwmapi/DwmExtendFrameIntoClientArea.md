@@ -51,11 +51,11 @@ Note: works for <Em>top-level forms</Em> only (ShowWindow=2).
   
 This function is used to extend the application frame into the client area. With some extra work, controls can be integrated into the extra space on the frame.  
   
-<img src="images/dwm_extendedframe.png">  
-  
+![](../../images/dwm_extendedframe.png)
+
 A transparent form is created by calling this function with all negative margins.  
   
-<img src="images/dwm_extendedframe_01.png">  
-  
+![](../../images/dwm_extendedframe_01.png)
+
 ***  
 

@@ -60,8 +60,8 @@ Returns S_OK (0) on success.
 ## Comments:
 The task dialog contains application-defined icons, messages, title, verification check box, command links, push buttons, and radio buttons. This function can register a callback function to receive notification messages.  
   
-<img src="images/taskdlgindirect_sample.png">  
-  
+![](../../images/taskdlgindirect_sample.png)
+
 This is Unicode function. The minimum OS is Vista.  
   
 ***  

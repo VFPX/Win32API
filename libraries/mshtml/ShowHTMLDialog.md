@@ -63,8 +63,8 @@ Returns S_OK (0) if successful, or an error value otherwise.
 ## Comments:
 This is yet another modal dialog functionally similar to the dialogs created by calling the MessageBox or the TaskDialog.  
   
-<img src="images/htmlmodaldlg.png">  
-  
+![](../../images/htmlmodaldlg.png)
+
 A very attractive feature of this dialog is its HTML-defined content. In other words, the whole client part of the dialog is described in HTML terms. This is like a miniature IE window.  
   
 See also: [CreateURLMonikerEx](../urlmon/CreateURLMonikerEx.md), [MessageBox](../user32/MessageBox.md), [MessageBoxIndirect](../user32/MessageBoxIndirect.md), [TaskDialog](../comctl32/TaskDialog.md), [TaskDialogIndirect](../comdlg32/TaskDialogIndirect.md).  

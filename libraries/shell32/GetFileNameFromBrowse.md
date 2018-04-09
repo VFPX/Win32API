@@ -73,8 +73,8 @@ If the user specifies a file name and clicks OK, the return value is TRUE. The b
 
 ## Comments:
 Evidently this function is a wrapper around the GetOpenFileName.  
-  
-<img src="http://news2news.com/vfp/images/opendlg.png">  
-  
+
+![](../../images/opendlg.png)  
+
 ***  
 

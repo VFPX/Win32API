@@ -66,11 +66,11 @@ If the function succeeds, the return value is ERROR_SUCCESS (0).
 Minimum supported client: Windows 7  
   
 The caller must have SE_MANAGE_VOLUME_PRIVILEGE access rights (SeManageVolumePrivilege).  
-  
-<img src="images/compmgmt_virtdisk.png" width=568 height=452>  
-  
-See also: [DetachVirtualDisk](../virtdisk/DetachVirtualDisk.md), [OpenVirtualDisk,](..//OpenVirtualDisk,.md).  
-<a href="?example=552">How to enable the SE_SHUTDOWN_NAME privilege for the application</a>  
-  
-***  
 
+![](../../images/compmgmt_virtdisk.png)  
+
+See also: [DetachVirtualDisk](../virtdisk/DetachVirtualDisk.md), [OpenVirtualDisk,](..//OpenVirtualDisk,.md).  
+
+[How to enable the SE_SHUTDOWN_NAME privilege for the application](../../samples/sample_552.md)
+
+***  

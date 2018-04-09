@@ -41,13 +41,14 @@ dwType
 
 
 ## Return value:
-If the function succeeds, the return value is NO_ERROR (0). If the user cancels the dialog box, the function returns –1.  
+If the function succeeds, the return value is NO_ERROR (0). If the user cancels the dialog box, the function returns ï¿½1.  
 ***  
 
 
 ## Comments:
-<img src="images/mapnetworkdrive_dlg.jpg">  
-  
+
+![](../../images/mapnetworkdrive_dlg.jpg)
+
 Not much of input parameters this function accepts: nor a drive letter neither a network path.  
   
 See also: [WNetDisconnectDialog](../mpr/WNetDisconnectDialog.md), [WNetConnectionDialog1](../mpr/WNetConnectionDialog1.md).  

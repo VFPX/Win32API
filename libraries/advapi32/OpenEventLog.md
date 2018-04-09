@@ -53,7 +53,7 @@ To close the handle to the event log, use the CloseEventLog function.
   
 With Event Viewer, users can monitor events recorded in the Application, Security, and System logs.  
   
-<img src="images/eventviewer.png" width=549 height=323>  
-  
+![](../../images/eventviewer.png)
+
 ***  
 
