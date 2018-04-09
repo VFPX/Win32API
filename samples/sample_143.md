@@ -3,9 +3,9 @@
 # Round FoxPro form
 
 ## Before you begin:
-Download <A href="http://www.news2news.com/vfp/downloads/badge.zip">badge.zip</A> and extract an image file before testing this code sample:[](sample_000.md)  
+Download [Badge.zip](../downloads/badge.zip) and extract an image file before testing this code sample:[](sample_000.md)  
 
-![](../images\rnd.png)  
+![](../images/rnd.png)  
 See also:
 
 * [Creating irregularly shaped FoxPro form using transparency color key](sample_033.md)  
@@ -136,8 +136,8 @@ Read MSDN article <a href="http://support.microsoft.com/support/kb/articles/Q114
 * * *  
 Nov.7, 2005:   
   
-<img src="images/applecorp.jpg" width=319 height=348>  
-  
+![](../images/applecorp.jpg)
+
 With the SetLayeredWindowAttributes function, parts of the form with the same color can be cut off. Note that the frame of the form still must be removed using Region API calls.  
   
 * * *  
