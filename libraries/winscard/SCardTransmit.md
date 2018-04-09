@@ -69,7 +69,7 @@ Returns SCARD_S_SUCCESS (0) or error code.
 
 ## Comments:
 Purchase complete VFP solution.  
-<a href="http://www.news2news.com/vfp/?solution=2&src=fn1143"><img src="images/acos3_270_48.png" width=270 height=48 border=0  vspace=5 hspace=5 alt="Download ACOS3 Class Library"></a>  
+<a href="http://www.news2news.com/vfp/?solution=2&src=fn1143"><img src="../../images/acos3_270_48.png" width=270 height=48 border=0  vspace=5 hspace=5 alt="Download ACOS3 Class Library"></a>  
   
 The SCardTransmit function is a smart card and reader access function.  
   

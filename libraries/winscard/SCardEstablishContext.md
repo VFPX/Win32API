@@ -58,7 +58,7 @@ If the function succeeds, the function returns SCARD_S_SUCCESS (0).
 
 ## Comments:
 Purchase complete VFP solution.  
-<a href="http://www.news2news.com/vfp/?solution=2&src=fn1132"><img src="images/acos3_270_48.png" width=270 height=48 border=0  vspace=5 hspace=5 alt="Download ACOS3 Class Library"></a>  
+<a href="http://www.news2news.com/vfp/?solution=2&src=fn1132"><img src="../../images/acos3_270_48.png" width=270 height=48 border=0  vspace=5 hspace=5 alt="Download ACOS3 Class Library"></a>  
   
 Upon successful call the <Em>phContext</Em> handle can be supplied to other functions attempting to do work within this context.  
   

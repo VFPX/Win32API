@@ -71,11 +71,5 @@ A layered window is created by specifying WS_EX_LAYERED when creating the window
 
 [![](../../images/transparentmenu.jpg)](../../samples/sample_496.md)
 
-<!-- <a href="?example=453"><img src="images/transform.png" width=440 height=375 border=0></a>  
-  
-<a href="?example=143"><img src="images/applecorp.jpg" width=319 height=348 border=0></a>  
-  
-<a href="?example=496"><img src="images/transparentmenu.jpg" width=399 height=331 border=0></a>  -->
-  
 ***  
 

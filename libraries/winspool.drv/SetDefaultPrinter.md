@@ -56,12 +56,14 @@ See also: [GetDefaultPrinter](../winspool.drv/GetDefaultPrinter.md), [EnumPrinte
   
 * * *  
 As you prpobably noticed the Printer And Faxes OS Window immediately reflects a change in default printer. Here is a screen copy of a tap put on the messages received by a member of this window subtree (window class CtrlNotifySink).  
+
   
-<img src="images/printerandfaxes_spy.png" width=430 height=270>  
-  
+![](../../images/printerandfaxes_spy.png)  
+
+
 Each successful SetDefaultPrinter call broadcasts the <a href="http://msdn2.microsoft.com/en-us/library/ms725497(VS.85).aspx">WM_SETTINGCHANGE message</a>.  
   
-<img src="images/SetDefaultPrinter_notification.png" width=498 height=549>  
-  
+![](../../images/SetDefaultPrinter_notification.png) 
+
 ***  
 

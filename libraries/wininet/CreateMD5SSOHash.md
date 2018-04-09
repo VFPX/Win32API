@@ -66,8 +66,8 @@ cHash = STRTRAN(cHash, CHR(0))
 ? LEN(cHash), "[" + cHash + "]"  
 </div>  
 For this code to return a valid result, a .Net Passport (<a href="http://en.wikipedia.org/wiki/Microsoft_Passport_Network">Microsoft Passport</a>) must be installed on the Windows XP computer.  
-  
-<img src="images/netpassportwizard.png" width=487 height=390>  
-  
+
+![](../../images/netpassportwizard.png)  
+
 ***  
 
