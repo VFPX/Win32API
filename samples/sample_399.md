@@ -3,7 +3,7 @@
 # How to set Creation Date/Time for a folder (WinNT)
 
 ## Before you begin:
-This code sample has been translated from VB code. The original link is <a href="http://www.mvps.org/vbnet/index.html?code/fileapi/folderdatetime.htm">Modifying the Date/Time of Folders and Files Under Windows NT+</a> at <a href="http://www.mvps.org/vbnet/index.html">VBNet</a> developers resource centre.[Modifying the Date/Time of Folders and Files Under Windows NT+](sample_000.md)  
+This code sample has been translated from VB code. The original link is [Modifying the Date/Time of Folders and Files Under Windows NT+](http://www.mvps.org/vbnet/index.html) at <a href="http://www.mvps.org/vbnet/index.html">VBNet</a> developers resource centre.  
   
 ***  
 

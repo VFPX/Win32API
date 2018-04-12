@@ -3,22 +3,22 @@
 # How to change the name and the size of the font in the MessageBox dialog
 
 ## Before you begin:
-<a href="?solution=3&src=x434" target=_blank><img src="images/xmsg_270_48.png" border=0></a>[](sample_000.md)  
+<a href="?solution=3&src=x434" target=_blank><img src="../images/xmsg_270_48.png" border=0></a>[](sample_000.md)  
 There is more advanced version of this code.   
-Click to open the<a href="?solution=3&src=x434" target=_blank> Extended MessageBox Library (FLL)</a> web page.[ Extended MessageBox Library (FLL)](sample_000.md)  
+Click to open the [Extended MessageBox Library (FLL)](?solution=3&src=x434) web page.  
 
 * * *  
-<a href="http://www.news2news.com/vfp/?solution=3"><img src="images/msgboxfont.png" width=406 height=255 border=0 alt="Download MsgBox FLL"></a>[](sample_000.md)  
-This code sample demonstrates another hidden MessageBox capability that can be reached by FoxPro applications. See also <a href="?example=424">Using Extended MessageBox() Class</a> example in this reference.[Using Extended MessageBox() Class](sample_424.md)  
+<a href="http://www.news2news.com/vfp/?solution=3"><img src="../images/msgboxfont.png" width=406 height=255 border=0 alt="Download MsgBox FLL"></a>[](sample_000.md)  
+This code sample demonstrates another hidden MessageBox capability that can be reached by FoxPro applications. See also [Using Extended MessageBox() Class](sample_424.md) example in this reference.  
 
-See also:<UL><LI style="padding-bottom: 7px;"><a href="?example=482">How to position the GETPRINTER() dialog</a>
-
-<LI style="padding-bottom: 7px;"><a href="?example=500">How to display a user-defined icon in the MessageBox dialog</a>[How to display a user-defined icon in the MessageBox dialog](sample_500.md)  
-<LI style="padding-bottom: 7px;"><a href="?example=418">Extended MessageBox Class</a>[Extended MessageBox Class](sample_418.md)  
-<LI style="padding-bottom: 7px;"><a href="?example=365">Creating an Open dialog box to specify the drive, directory, and name of a file to open (Shell32 version)</a>[Creating an Open dialog box to specify the drive, directory, and name of a file to open (Shell32 version)](sample_365.md)  
-<LI style="padding-bottom: 7px;"><a href="?example=363">Creating the Open dialog box to specify the drive, directory, and name of a file to open</a>[Creating the Open dialog box to specify the drive, directory, and name of a file to open](sample_363.md)  
-<LI style="padding-bottom: 7px;"><a href="?example=265">Creating the Save dialog box to specify the drive, directory, and name of a file to save</a>[Creating the Save dialog box to specify the drive, directory, and name of a file to save](sample_265.md)  
-<LI style="padding-bottom: 7px;"><a href="?example=364">How to display a dialog box that enables the user to select a folder (an alternative to the GETDIR)</a>[How to display a dialog box that enables the user to select a folder (an alternative to the GETDIR)](sample_364.md)  
+See also:
+* [How to position the GETPRINTER() dialog](sample_482.md)
+* [How to display a user-defined icon in the MessageBox dialog](sample_500.md)  
+* [Extended MessageBox Class](sample_418.md)  
+* [Creating an Open dialog box to specify the drive, directory, and name of a file to open (Shell32 version)](sample_365.md)  
+* [Creating the Open dialog box to specify the drive, directory, and name of a file to open](sample_363.md)  
+* [Creating the Save dialog box to specify the drive, directory, and name of a file to save](sample_265.md)  
+* [How to display a dialog box that enables the user to select a folder (an alternative to the GETDIR)](sample_364.md)  
   
 ***  
 
@@ -180,14 +180,14 @@ Ideally the size of the message rectangle must be re-calculated by the calling a
   
 * * *  
 Even better MessageBox customization can be achieved by creating an external library (ActiveX, DLL or FLL) and calling it from VFP application.   
-<a href="http://www.news2news.com/vfp/?solution=3"><img src="images/xmsg_fll.png" vspace=10 border=0 alt="Download MsgBox FLL"></a>  
+<a href="http://www.news2news.com/vfp/?solution=3"><img src="../images/xmsg_fll.png" vspace=10 border=0 alt="Download MsgBox FLL"></a>  
 The background color, the message text font & color, button fonts and captions, not to mention other customizable parameters, can be controlled by the calling application.  
   
 * * *  
 The MessageBox dialog consists of several windows.  
   
-<img src="images/messagebox_wnidows.png" width=537 height=473>  
-  
+![](../images/messagebox_wnidows.png)
+
 The *Dialog Window* is the parent window, and all others are its children: the message window, the icon window and the buttons.  
   
 The Tool window  (its Control ID 0x0000CAFE always makes me feel good) is an addition to the MessageBox child windows that came with the Vista.  

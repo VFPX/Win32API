@@ -14,7 +14,8 @@ Each item in the collection is an instance of the *winservice* class that wraps 
 
 Here is an example of how these classes can be used to start/stop the MSSQLSERVER service on local computer:  
 
-<div class=precode>#DEFINE SERVICE_WIN32 0x30  
+```foxpro
+#DEFINE SERVICE_WIN32 0x30  
 #DEFINE SERVICE_RUNNING 4  
 
 LOCAL ws As winservices, srv As winservice  
@@ -31,9 +32,9 @@ ENDIF
 
 srv.StartService()  
 *srv.PauseService()  
-*srv.StopService()  
-</div>  
-  
+*srv.StopService()
+```
+
 ***  
 
 
@@ -371,11 +372,12 @@ When starting a service you may encounter error code 1058 (<a href="http://suppo
 * * *  
 WMI approach:  
   
-<img src="images/wmi_sqlserver.png" width=423 height=253>  
-  
+![](../images/wmi_sqlserver.png)
+
 This is how to to start-restart the Messenger service using WMI objects:  
   
-<div class="precode">oWmi = GetObject("winmgmts:\\" +;  
+```foxpro
+oWmi = GetObject("winmgmts:\\" +;  
 	"." + "\root\cimv2")  
   
 oServices = oWmi.ExecQuery([SELECT * FROM ] +;  
@@ -389,8 +391,8 @@ FOR EACH oService IN oServices
 		oService.StartService  
 	ENDIF  
 	RETURN  
-NEXT  
-</div>  
+NEXT
+```
 Note that the Messenger service usually takes a few seconds to start. It does not happen immediately. Also the changing the start mode for this service from Disabled to Manual may pose security risk.  
   
 Win32_Service inherits the ChangeStartMode method from the <a href="http://msdn2.microsoft.com/en-US/library/aa394073.aspx">Win32_BaseService</a> class.  
@@ -398,10 +400,13 @@ Win32_Service inherits the ChangeStartMode method from the <a href="http://msdn2
 * * *  
 SC is a command line program used for communicating with the Service Control Manager and services.    
   
-USAGE:<div class="precode">sc <server> [command] [service name] < option 1 > < option 2 > ...</div>  
-EXAMPLE: <div class="precode">sc start MyService  
-sc query type= interact  
-</div>  
-  
+USAGE:  
+`sc <server> [command] [service name] < option 1 > < option 2 > ...`  
+EXAMPLE: 
+```foxpro
+sc start MyService  
+sc query type= interact
+```
+
 ***  
 

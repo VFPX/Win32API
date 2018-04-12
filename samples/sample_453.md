@@ -165,11 +165,11 @@ Hit testing of a layered window is based on the shape and transparency of the wi
 However, if the layered window has the WS_EX_TRANSPARENT extended window style, the shape of the layered window will be ignored and the mouse events will be passed to other windows underneath the layered window.  
   
 See also:  
-<LI><a href="?example=33">Creating irregularly shaped FoxPro form using transparency color key</a>  
-<LI><a href="?example=499">How to draw a custom Window Caption on FoxPro form</a>  
-<LI><a href="?example=126">A way to make a transparent area in a form -- a hole in the form</a>  
-<LI><a href="?example=143">Round FoxPro form</a>  
-<LI><a href="?example=496">Transparent Menu on top-level form (requires VFP9)</a>  
-  
+* [Creating irregularly shaped FoxPro form using transparency color key](sample_033.md)  
+* [How to draw a custom Window Caption on FoxPro form](sample_499.md)  
+* [A way to make a transparent area in a form -- a hole in the form](sample_126.md)  
+* [Round FoxPro form](sample_143.md)  
+* [Transparent Menu on top-level form (requires VFP9)](sample_496.md)  
+    
 ***  
 

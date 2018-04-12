@@ -14,7 +14,8 @@ Presented on this page, the AdobeAcrobat7 class enumerates opened pdf documents.
 
 Use the following code to test the class:  
 
-<div class=precode>LOCAL oReader As AdobeAcrobat7, oDoc As AdobeDocument  
+```foxpro
+LOCAL oReader As AdobeAcrobat7, oDoc As AdobeDocument  
 oReader = CREATEOBJECT("AdobeAcrobat7")  
 
 IF NOT oReader.AcrobatIsRunning()  
@@ -40,8 +41,8 @@ NEXT
 
 IF MESSAGEBOX("Exit Acrobat?",32+4)=6  
 	oReader.ExitAcrobat  
-ENDIF  
-</div>  
+ENDIF
+```
 See also:
 
 * [How to control Adobe Reader 9.0 from VFP application](sample_550.md)  
@@ -257,18 +258,23 @@ Once the window class name is known, it is easy to find the process linked to th
 It is possible to enumerate all *AcrobatMDIChildWnd*windows currently existing. Yet no such window can be closed by calling the DestroyWindow: *a thread cannot use DestroyWindow to destroy a window created by a different thread*.   
   
 Acrobat document window closes upon receiving a special window message:  
-<div class=precode>PostMessage(hDocument, WM_SYSCOMMAND, SC_CLOSE, 0)  
-</div>where *hDocument* is the handle for a document window parented by the main Acrobat window.  
+```foxpro
+PostMessage(hDocument, WM_SYSCOMMAND, SC_CLOSE, 0)
+```
+where *hDocument* is the handle for a document window parented by the main Acrobat window.  
   
 * * *  
-Finally, I decided to go through using the Acrobat`s menu. First I obtained identifiers for several submenu popups and menu items, like *Close All, Exit, File, Window* etc. For that I used program code similar to <a href="?example=337">Reading structure of a menu attached to the main VFP window</a> code sample.  
+Finally, I decided to go through using the Acrobat`s menu. First I obtained identifiers for several submenu popups and menu items, like *Close All, Exit, File, Window* etc. For that I used program code similar to [Reading structure of a menu attached to the main VFP window](sample_337.md) code sample.  
   
 Once the identifier for a menu item is known, it is simple to create a virtual click on this item without even moving the mouse:   
-<div class=precode>= SendMessage(hWindow, WM_COMMAND, nMenuItemID, 0)  
-</div>where *hWindow* is the main Acrobat window handle, and *nMenuItemID* is a menu item`s identifier. For example, identifier 6026 is assigned to *File - Exit* menu item.  
+```foxpro
+= SendMessage(hWindow, WM_COMMAND, nMenuItemID, 0)
+```
+
+where *hWindow* is the main Acrobat window handle, and *nMenuItemID* is a menu item`s identifier. For example, identifier 6026 is assigned to *File - Exit* menu item.  
   
 * * *  
-An article called <a href="http://www.codeproject.com/cpp/ReaderWrapper.asp">A simple wrapper to control Acrobat Reader from your application</a> written by *seasidetech* explains how to use selected DDE messages to control the reader from outside.  
+An article called [A simple wrapper to control Acrobat Reader from your application](https://www.codeproject.com/articles/8763/a-simple-wrapper-to-control-acrobat-reader-from-yo) written by *seasidetech* explains how to use selected DDE messages to control the reader from outside.  
   
 * * *  
 If AdobeAcrobat settings are configured to display each PDF document in a separate window, then all document windows are created with window class AcrobatSDIWindow. Which means the code sample will not work, since it searches windows with AdobeAcrobat class name.  

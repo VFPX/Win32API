@@ -87,8 +87,9 @@ In my tests, API routines presented on this page encoded and decoded strings app
   
 * * *  
 This is an output from call to CryptBinaryToString with *dwFlags* set to CRYPT_STRING_HEXASCIIADDR (0x000b). Can make a good starting point for developing a simple binary viewer.  
-<img src="images/crypt_string_hex.png" width=570>  
-  
+
+![](../images/crypt_string_hex.png)
+
 * * *  
 From *Burkhard Stiller`s* VFP Blog:  
 <a href="http://myvfpblog.blogspot.com/2007/10/encoded-your-images-base64-binary.html">Another way to encode and store picture-data inside your classes</a> -- relates to base64 encoding, and is an interesting sample of code by itself.  

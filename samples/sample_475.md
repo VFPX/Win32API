@@ -8,7 +8,7 @@ Based on GdiPlus class, this code shows how to retrieve an image stored on the c
 
 
 ## Before you begin:
-The code is based on <a href="?example=450">custom GDI+ class</a>. Download the class module first and save it in **gdiplus.prg** file. [custom GDI+ class](sample_450.md)  
+The code is based on [custom GDI+ class](sample_450.md). Download the class module first and save it in **gdiplus.prg** file.   
 
 Related code samples:  
 * [Storing content of the Clipboard to a bitmap file using GDI API](sample_189.md)  

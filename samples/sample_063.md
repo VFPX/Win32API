@@ -3,7 +3,7 @@
 # Downloading files from the FTP server using InternetReadFile
 
 ## Before you begin:
-<table cellspacing=3 cellpadding=0 border=0><tr><td valign=top><img src="images/readarticle.gif" border=0></td><td valign=top class=fdescr><a href="?article=3">Programming File Transfer Protocol in Visual FoxPro </a></td></tr></table>[Programming File Transfer Protocol in Visual FoxPro ](sample_000.md)  
+<table cellspacing=3 cellpadding=0 border=0><tr><td valign=top><img src="../images/readarticle.gif" border=0></td><td valign=top class=fdescr><a href="?article=3">Programming File Transfer Protocol in Visual FoxPro </a></td></tr></table>[Programming File Transfer Protocol in Visual FoxPro ](sample_000.md)  
 Make sure that source and target files are valid path values.  
   
 ***  
@@ -178,7 +178,7 @@ FUNCTION ftp2local (hConnect, lcSource, lcTarget)
 		IF InternetReadFile (hSource, @lcBuffer, lnLength, @lnLength) = 1
 			= FWRITE (hTarget, lcBuffer, lnLength)
 			lnBytesRead = lnBytesRead + lnLength
-			?? "·"
+			?? "ï¿½"
 			IF lnLength < lnChunkSize
 				EXIT
 			ENDIF

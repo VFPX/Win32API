@@ -7,11 +7,13 @@ Citing from the <a href="http://www.wlug.org.nz/WPAD">WLUG Wiki</a>:[WLUG Wiki](
 &nbsp;&nbsp;&nbsp;Internet Explorer has an **[x] Automatically detect settings** check box. This will cause the browser to search for the configuration file.   
 
 If your *DomainName* is **machine.something.meta.net.nz** then InternetExplorer will request the following urls until it finds a WPAD configuration file.   
-<code><font color=#0000a0>  
+  
+```txt
 http://wpad.something.meta.net.nz/wpad.dat   
 http://wpad.meta.net.nz/wpad.dat   
 http://wpad.net.nz/wpad.dat   
-http://wpad.nz/wpad.dat </font></code>  
+http://wpad.nz/wpad.dat
+```
 
 WPAD stands for *Web Proxy Auto-Discovery*.   
   
@@ -71,7 +73,8 @@ PROCEDURE decl
 
 ## Comment:
 An example of WPAD.DAT file:  
-<code><font color=#0000a0>  
+  
+```csharp
 function FindProxyForURL(url, host)  
 {  
 	// We only cache http and ftp  
@@ -80,10 +83,8 @@ function FindProxyForURL(url, host)
   
 	// Otherwise use direct connection  
 	return "DIRECT";  
-}  
-</font></code>  
-  
-#kwd: sln_http.  
-  
+}
+```
+
 ***  
 

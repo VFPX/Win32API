@@ -9,8 +9,8 @@ The latter returns populated BY_HANDLE_FILE_INFORMATION structure.
 See also:
 
 * [How to retrieve version information for the specified file](sample_480.md)  
-* [](sample_320.md)  
-* [Basic Volume Information](sample_000.md)  
+* [Showing the Properties dialog box for a file (ShellExecuteEx)](sample_320.md)  
+* [Basic Volume Information](sample_098.md)  
   
 ***  
 
@@ -129,7 +129,7 @@ PROCEDURE  decl
 [OpenFile](../libraries/kernel32/OpenFile.md)  
 
 ## Comment:
-The *Volume Serial Number* value obtained through this code is more accurate comparing to this example: <a href=?example=98>Basic Volume Information</a>. Since the result of the latter is often interpreted by the VFP as a signed integer.  
+The *Volume Serial Number* value obtained through this code is more accurate comparing to this example: [Basic Volume Information ](sample_98.md). Since the result of the latter is often interpreted by the VFP as a signed integer.  
   
 ***  
 

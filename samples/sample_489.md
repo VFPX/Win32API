@@ -165,11 +165,11 @@ ENDDEFINE
 Under VFP8 the code works in a bit limited way. It does disable the PrintScreen key, but the OnPrintScreen method of the form can not be binded to the WM_HOTKEY notification.  
   
 * * *  
-Read article <a href="http://msdn.microsoft.com/msdnmag/issues/05/11/CatWork/">Disabling Print Screen, Calling Derived Destructors, and More</a> by Paul DiLascia published in Nov.2005 MSDN Magazine.  
+Read article [Disabling Print Screen, Calling Derived Destructors, and More](http://www.dotnetspark.com/links/2457-c-work-disabling-print-screen-calling-derived.aspx) by Paul DiLascia published in Nov.2005 MSDN Magazine.  
   
-<div class=precode>#DEFINE IDHOT_SNAPDESKTOP -2  
-#DEFINE IDHOT_SNAPWINDOW -1  
-</div>  
-  
+```txt
+#DEFINE IDHOT_SNAPDESKTOP -2  
+#DEFINE IDHOT_SNAPWINDOW -1
+```
 ***  
 

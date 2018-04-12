@@ -3,7 +3,7 @@
 # Uploading file to the FTP server using InternetWriteFile
 
 ## Before you begin:
-<table cellspacing=3 cellpadding=0 border=0><tr><td valign=top><img src="images/readarticle.gif" border=0></td><td valign=top class=fdescr><a href="?article=3">Programming File Transfer Protocol in Visual FoxPro </a></td></tr></table>[Programming File Transfer Protocol in Visual FoxPro ](sample_000.md)  
+<table cellspacing=3 cellpadding=0 border=0><tr><td valign=top><img src="../images/readarticle.gif" border=0></td><td valign=top class=fdescr><a href="?article=3">Programming File Transfer Protocol in Visual FoxPro </a></td></tr></table>[Programming File Transfer Protocol in Visual FoxPro ](sample_000.md)  
   
 ***  
 
@@ -110,7 +110,7 @@ FUNCTION local2ftp(hConnect, lcSource, lcTarget)
 				* at this point you can display the progress
 				* and test events: keyboard, mouse etc.
 				* to decide on aborting the upload
-				?? "·"	&& you can put link to a progress bar here instead
+				?? "ï¿½"	&& you can put link to a progress bar here instead
 			ELSE
 				EXIT
 			ENDIF

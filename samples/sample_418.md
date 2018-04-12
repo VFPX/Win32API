@@ -5,10 +5,11 @@
 ## Before you begin:
 <a href="?solution=3&src=x418" target=_blank><img src="images/xmsg_270_48.png" border=0></a>[](sample_000.md)  
 There is more advanced version of this code.   
-Click to open the <a href="?solution=3&src=x418" target=_blank> Extended MessageBox Library (FLL)</a> web page.[ Extended MessageBox Library (FLL)](sample_000.md)  
+Click to open the [Extended MessageBox Library (FLL)](?solution=3&src=x418) web page.  
 
-<a href="http://www.news2news.com/vfp/?solution=5&src=x418"><img src="images/xmsg_net_270_48.bmp" width=270 height=48 border=0 vspace=5 alt="Download Extended MessageBox .NET Assembly"></a>[](sample_000.md)  
-Click to open the <a href="?solution=5&src=x418" target=_blank> Extended MessageBox .NET Assembly</a> web page.[ Extended MessageBox .NET Assembly](sample_000.md)  
+<a href="http://www.news2news.com/vfp/?solution=5&src=x418"><img src="../images/xmsg_net_270_48.bmp" width=270 height=48 border=0 vspace=5 alt="Download Extended MessageBox .NET Assembly"></a>
+
+Click to open the [Extended MessageBox .NET Assembly](?solution=5&src=x418) web page.  
 
 * * *  
 For all VFP versions this class extends regular MessageBox() function with:*  
@@ -22,18 +23,18 @@ MessageBox() with changed button captions:
 MessageBox() with timeout:  
 ![](../images/mboxtimeout.png)  
 
-Here is a <a href="?example=424">sample code</a> showing how to use this class.[sample code](sample_424.md)  
+Here is a [sample code](sample_424.md) showing how to use this class.  
 
-See also:<UL><LI style="padding-bottom: 7px;"><a href="?example=482">How to position the GETPRINTER() dialog</a>
-
-<LI style="padding-bottom: 7px;"><a href="?example=424">Using Extended MessageBox() Class</a>[Using Extended MessageBox() Class](sample_424.md)  
-<LI style="padding-bottom: 7px;"><a href="?example=434">How to change font name and size in the MessageBox dialog</a>[How to change font name and size in the MessageBox dialog](sample_434.md)  
-<LI style="padding-bottom: 7px;"><a href="?example=500">How to display a user-defined icon in the MessageBox dialog</a>[How to display a user-defined icon in the MessageBox dialog](sample_500.md)  
-<LI style="padding-bottom: 7px;"><a href="?example=365">Creating an Open dialog box to specify the drive, directory, and name of a file to open (Shell32 version)</a>[Creating an Open dialog box to specify the drive, directory, and name of a file to open (Shell32 version)](sample_365.md)  
-<LI style="padding-bottom: 7px;"><a href="?example=363">Creating the Open dialog box to specify the drive, directory, and name of a file to open</a>[Creating the Open dialog box to specify the drive, directory, and name of a file to open](sample_363.md)  
-<LI style="padding-bottom: 7px;"><a href="?example=265">Creating the Save dialog box to specify the drive, directory, and name of a file to save</a>[Creating the Save dialog box to specify the drive, directory, and name of a file to save](sample_265.md)  
-<LI style="padding-bottom: 7px;"><a href="?example=364">How to display a dialog box that enables the user to select a folder (an alternative to the GETDIR)</a>[How to display a dialog box that enables the user to select a folder (an alternative to the GETDIR)](sample_364.md)  
-<LI style="padding-bottom: 7px;"><a href="?example=558">How to display advanced Task Dialog (Vista)</a>[How to display advanced Task Dialog (Vista)](sample_558.md)  
+See also:
+* [How to position the GETPRINTER() dialog](sample_482.md)
+* [Using Extended MessageBox() Class](sample_424.md)  
+* [How to change font name and size in the MessageBox dialog](sample_434.md)  
+* [How to display a user-defined icon in the MessageBox dialog](sample_500.md)  
+* [Creating an Open dialog box to specify the drive, directory, and name of a file to open (Shell32 version)](sample_365.md)  
+* [Creating the Open dialog box to specify the drive, directory, and name of a file to open](sample_363.md)  
+* [Creating the Save dialog box to specify the drive, directory, and name of a file to save](sample_265.md)  
+* [How to display a dialog box that enables the user to select a folder (an alternative to the GETDIR)](sample_364.md)  
+* [How to display advanced Task Dialog (Vista)](sample_558.md)  
   
 ***  
 
@@ -204,13 +205,15 @@ ENDDEFINE
 
 ## Comment:
 Even better MessageBox customization can be achieved by creating an external library (ActiveX, DLL or FLL) and calling it from VFP application.   
-<a href="http://www.news2news.com/vfp/?solution=3"><img src="images/xmsg_fll.png" vspace=10 border=0 alt="Download MsgBox FLL"></a>  
+<a href="http://www.news2news.com/vfp/?solution=3"><img src="../images/xmsg_fll.png" vspace=10 border=0 alt="Download MsgBox FLL"></a>  
 The background color, the message text font & color, button fonts and captions, not to mention other customizable parameters, can be controlled by the calling application.  
   
 * * *  
 C# and C++ versions of this code use the SetWindowsHookEx API function to monitor either window messages or CBT notifications within the thread. Upon detecting the WM_INITDIALOG message the code moves the recipient window -- a MessageBox dialog.  
   
-<img src="images/SetWindowsHookEx.png">  
+![](../images/SetWindowsHookEx.png)
+
+
   
 * * *  
 To close the dialog through virtually pressing a button, consider also sending BM_CLICK message.  This message causes the button to receive the WM_LBUTTONDOWN and WM_LBUTTONUP messages, and the button"s parent window to receive a BN_CLICKED notification message.  
@@ -220,8 +223,8 @@ More common way of closing the dialog is calling the EndDialog function.
 * * *  
 The MessageBox dialog consists of several windows.  
   
-<img src="images/messagebox_wnidows.png" width=537 height=473>  
-  
+![](../images/messagebox_wnidows.png)
+
 The *Dialog Window* is the parent window, and all others are its children.   
   
 All *Button Windows* and three *Static Windows* (the Icon Window, the Message Window and the window surrounding the buttons) have very specific window identifiers (control ids). These values appear to be undocumented though stay unchanged through the all Windows versions since Windows 95.  
@@ -241,7 +244,7 @@ When the MESSAGEBOX() is called without the Timeout parameter, it runs on VFP de
 No mater how subtle this difference may appear, it renders the GetActiveWindow useless for finding the dialog window. Calling the SetWindowsHookEx should also be performed with the consideration for the separate thread.  
   
 * * *  
-<img src="images/XMsgNet_001.png" width=580>  
-  
+![](../images/XMsgNet_001.png)
+
 ***  
 

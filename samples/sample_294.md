@@ -5,7 +5,9 @@
 ## Before you begin:
 The splash screen object hides your VFP application window, disables user input and displays series of text messages while some initialization or maintenance procedures running on the background.  
 
-Download this bitmap <a href="images/splash.bmp">Splash.bmp</a> or test this example with any other valid bitmap file.[Splash.bmp](sample_000.md)  
+Download this bitmap [splash.bmp](../images/splash.bmp) or test this example with any other valid bitmap file. 
+
+![](../images/splash.bmp)
   
 ***  
 

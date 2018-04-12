@@ -16,7 +16,7 @@ In VFP9, this form also tracks input language changes initiated by a hot key or 
 See also:
 
 
-* [LanguageBar ActiveX control](sample_000.md)  
+* [LanguageBar ActiveX control](sample_000.md) <!-- TBL --> 
 
 <a href="?solution=7"><img src="solutions/images/langbar_control/langbar_contextmenu.png" border="0"></a>[](sample_000.md)  
 

@@ -5,7 +5,7 @@
 ## Before you begin:
 Call this code from a VFP form to store its snapshot to a file in EMF format . Make sure that the target file (ccOutput) is a valid filename.  
 
-This code is much more compact and easy to understand comparing to <a href="?example=187">Storing screen shot of a form to a bitmap file</a> code sample.[Storing screen shot of a form to a bitmap file](sample_187.md)  
+This code is much more compact and easy to understand comparing to [Storing screen shot of a form to a bitmap file](sample_187.md) code sample.  
   
 ***  
 

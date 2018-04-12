@@ -91,8 +91,11 @@ PROCEDURE decl
 [SQLRowCount](../libraries/odbc32/SQLRowCount.md)  
 
 ## Comment:
-The SQLRowCount requires a connection handle as a parameter. Such handle can be obtained by calling FoxPro **SQLGetProp()** function like this:<code>  
-	<font color=#0000a0>hStmt = SQLGetProp(hConn, "ODBChstmt")</font></code>  
+The SQLRowCount requires a connection handle as a parameter. Such handle can be obtained by calling FoxPro **SQLGetProp()** function like this: 
+```foxpro
+hStmt = SQLGetProp(hConn, "ODBChstmt")
+```
+
 where **hConn** is a connection handle returned by **SQLConnect()** function.  
   
 I could not get a valid response from the SQLRowCount in combination with native SQLExec() function. All the way I got ODBC error **SQLSTATE=S1010** *(Function sequence error)*. I use VFP 6, so I may expect it works properly with a newer FoxPro version.  

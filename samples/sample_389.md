@@ -431,7 +431,5 @@ Some useful links:
 <LI><a href="http://www.vbip.com/winsock/winsock_control.asp">How to use Winsock Control in order to build Internet applications</a>  
   
   
-#kwd: sln_winsock.  
-  
 ***  
 

@@ -4,7 +4,7 @@
 
 ## Before you begin:
 ![](../images/portcfg.png)  
-<a href="?example=334">Another example</a> shows how to enumerate ports available for printing. Run it to determine valid port names.[Another example](sample_334.md)  
+[Another example](sample_334.md) shows how to enumerate ports available for printing. Run it to determine valid port names.
   
 ***  
 

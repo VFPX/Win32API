@@ -3,14 +3,18 @@
 # Using FoxTray ActiveX control: System Tray Icon and menu attached to VFP form
 
 ## Before you begin:
-Download an archive file with <a href="downloads/FoxTray.zip">FoxTray.ocx</a>. Check the <a href="downloads/FoxTray_Readme.txt" target=_new>Readme</a> file.[FoxTray.ocx](sample_000.md)  
+Download an archive file with [FoxTray.ocx](../downloads/FoxTray.zip). Check the [Readme](../downloads/FoxTray_Readme.txt) file.  
 
 ![](../images/trayicon.png)  
 
-Register control before testing the VFP code below:   
-<code>REGSVR32 FoxTray.ocx          </code> *(use full path to the file)*.  
+Register control before testing the VFP code below:
 
-This control has been created in VB6 and so -- alas! -- requires certain VB support files installed on your computer: <code>MSVBVM60.DLL</code>  
+`REGSVR32 FoxTray.ocx`
+
+*(use full path to the file)*.  
+
+This control has been created in VB6 and so -- alas! -- requires certain VB support files installed on your computer: 
+`MSVBVM60.DLL`
 
 See also:
 
@@ -153,13 +157,14 @@ ENDDEFINE
 ## Comment:
 A fragment of Visual Studion Spy++ screen shows windows inside the system tray:  
   
-<img src="images/Shell_TrayWnd.png" border=0>  
-  
+![](../images/Shell_TrayWnd.png)
+
 Among those windows you may notice Windows Start button, Quick Launch toolbar, minimized windows for running applications, system tray clock, window with system tray icons and more.  
   
 With quite simple code you may hide the whole system tray:  
   
-<div class=precode>#DEFINE SW_HIDE  0  
+```foxpro
+#DEFINE SW_HIDE  0  
 #DEFINE SW_SHOWNORMAL 1  
   
 DECLARE INTEGER ShowWindow IN user32 AS ShowWindowA;  
@@ -169,14 +174,15 @@ DECLARE INTEGER FindWindow IN user32;
 	STRING lpClassName, STRING lpWindowName  
   
 hWindow = FindWindow("Shell_TrayWnd", Null)  
-= ShowWindowA(hWindow, SW_HIDE)  
-</div>  
+= ShowWindowA(hWindow, SW_HIDE)
+```
+
 Call ShowWindow with SW_SHOWNORMAL to make the system tray visible again. You may try same code with TrayNotifyWnd and other child windows.  
   
 * * *  
 Take a look at this example as well <a href="?example=432">How to block the ALT+TAB shortcut (WinXP)</a>:  
   
-<a href="?example=432"><img src="images/alttab.png" border=0 width=410 height=242></a>  
-  
+[![](../images/alttab.png)](sample_432.md)
+
 ***  
 

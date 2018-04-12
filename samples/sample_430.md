@@ -13,7 +13,7 @@ See also:
 * [Displaying animated images](sample_355.md)  
 * [Form Magnifier](sample_414.md)  
 
-<a href="?solution=3&src=x430" target=_blank><img src="images/xmsg_270_48.png" border=0></a>[](sample_000.md)  
+<a href="?solution=3&src=x430" target=_blank><img src="../images/xmsg_270_48.png" border=0></a>[](sample_000.md)  
 
   
 ***  
@@ -271,7 +271,7 @@ RETURN Asc(SUBSTR(lcBuffer, 1,1)) + ;
 ## Comment:
 Any other window can be used as a target (or a silver screen, if you like) for playing AVI files: FoxPro form, Windows desktop etc. Use that window handle instead of the handle obtained through the GetActiveWindow in the code above.   
   
-Technically, you can even play AVIs on a MessageBox window, once you know its window handle (examples <a href="?example=424">424</a> and <a href="?example=434">434</a> explain how to obtain such handle).  
+Technically, you can even play AVIs on a MessageBox window, once you know its window handle (examples [424](sample_424.md) and [434](sample_434.md) explain how to obtain such handle).  
   
 Note that on the last sample, the *DrawFrame* method either stops playing the AVI or resumes it from the first sample, depending on the *nonstop* property.  
   

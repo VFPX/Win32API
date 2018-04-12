@@ -8,7 +8,7 @@ In Windows all input/output ports are presented as files, so work with ports is 
 
 
 ## Before you begin:
-Another example: <a href="?example=334">Enumerating the ports that are available for printing on a specified server</a>[Enumerating the ports that are available for printing on a specified server](sample_334.md)  
+Another example: [Enumerating the ports that are available for printing on a specified server](sample_334.md)
   
 ***  
 
@@ -102,11 +102,11 @@ FUNCTION GetErrorMessage(lnErr)
 ## Comment:
 In Windows all input/output ports are presented as files, so work with ports is performed through file functions like CreateFile, CloseHandle, ReadFile, ReadFileEx, WriteFile and WriteFileEx.   
   
-Code sample <a href="?example=433">Get the owner of an NTFS file</a> works with serial ports as well as with regular files.  
+Code sample [Get the owner of an NTFS file](sample_433.md) works with serial ports as well as with regular files.  
   
 Check this MSDN article <a href="http://msdn.microsoft.com/library/default.asp?url=/library/en-us/dnwbgen/html/msdn_serial.asp">"Serial Communications in Win32"</a>.  
   
-Check VB example <a href="http://vbnet.mvps.org/index.html?code/system/comtestapi.htm">Using CreateFile to Determine Available COM Ports</a> on <a href="http://vbnet.mvps.org">VBNet</a>.  
+Check VB example [Using CreateFile to Determine Available COM Ports](http://vbnet.mvps.org/index.html?code/system/comtestapi.htm) on [VBNet](http://vbnet.mvps.org).  
   
 ***  
 

@@ -7,7 +7,7 @@ See also:
 
 * [How to ping a remote site using IP Helper API calls](sample_382.md)  
 * [How to ping a remote site using ICMP API calls](sample_486.md)  
-* InternetAttemptConnect function  
+* [Function InternetAttemptConnect](../libraries/wininet/InternetAttemptConnect.md)
 
   
 ***  

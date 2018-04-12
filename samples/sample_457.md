@@ -3,7 +3,7 @@
 # GDI+: copying to the Clipboard (a) image of active FoxPro window/form, (b) image file
 
 ## Before you begin:
-The code is based on <a href="?example=450">custom GDI+ class</a>. Download the class module first and save it in **gdiplus.prg** file. [custom GDI+ class](sample_450.md)  
+The code is based on [custom GDI+ class](sample_450.md). Download the class module first and save it in **gdiplus.prg** file.   
 
 Related code samples:  
 * [GDI+: Storing content of the Clipboard to a bitmap file](sample_475.md)  
@@ -148,10 +148,10 @@ Call the *FormToClip* function from a method or event of a FoxPro form when that
 For the *FileToClip* make sure the source file name is valid. The source file can be in any of graphics formats supported by the GDI+: BMP, GIF, JPG, TIF, EMF...  
   
 The *LockClipboardData* function is kind of a lazy way to avoid complexities of locking data on the Clipboard. The SetClipboardData in the code above creates three sets of data on the Clipboard:  
-*  
-<LI>Bitmap handle (2)  
-<LI>BITMAPINFO structure (8)  
-<LI>BITMAPV5HEADER structure (17)*  
+  
+* Bitmap handle (2)  
+* BITMAPINFO structure (8)  
+* BITMAPV5HEADER structure (17)*  
   
 The last two, if not locked properly, are getting wiped out as soon as gdi+ *img* object is out of scope or released.   
   
@@ -163,9 +163,7 @@ August 2, 2004: Alexander Golovlev in his <a href="http://www.universalthread.co
 To disconnect image handle from the GDI+ object he applies the CopyImage API function that creates a duplicate of the bitmap handle and then passes this new handle to the SetClipboardData function. That simple :)  
   
 * * *  
-An article <a href="http://support.microsoft.com/default.aspx?scid=kb;EN-US;q240653">How To Copy the Screen or Active Window to the Clipboard from Visual Basic</a> published on Microsoft Help and Support page describes a different approach -- the picture of the whole screen is sent to the clipboard by virtually pressing (through the keybd_event call) PrtScr key.  
-  
-#kwd: sln_gdiplus.  
-  
+An article [How To Copy the Screen or Active Window to the Clipboard from Visual Basic](https://support.microsoft.com/en-us/help/240653/how-to-copy-the-screen-or-active-window-to-the-clipboard-from-visual-b) published on Microsoft Help and Support page describes a different approach -- the picture of the whole screen is sent to the clipboard by virtually pressing (through the keybd_event call) PrtScr key.  
+
 ***  
 

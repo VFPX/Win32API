@@ -346,8 +346,6 @@ RETURN Chr(b0)+Chr(b1)+Chr(b2)+Chr(b3)
 
 ## Comment:
 Windows CE does not support the HKEY_CURRENT_CONFIG, HKEY_PERFORMANCE_DATA, or HKEY_DYN_DATA predefined reserved handle values.  
-  
-#kwd: sln_pocketpc.  
-  
+
 ***  
 

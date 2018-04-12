@@ -65,7 +65,7 @@ The parent window for the Windows calculator is usually the Windows Desktop. Cha
   
 *SciCalc* is the window class for the Calculator.  
   
-<img src="images/winformcalc.png">  
-  
+![](../images/winformcalc.png)
+
 ***  
 

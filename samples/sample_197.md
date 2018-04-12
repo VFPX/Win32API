@@ -10,15 +10,6 @@ Downloadable code samples are available for <a href="?generic=project#membership
 
 Try similar example <a href="?example=469">Accessing examples contained in this reference through Web Services</a> (requires VFP8).[Accessing examples contained in this reference through Web Services](sample_469.md)  
 
-* * *  
-See also:
-
-
-* [ApiViewer for Visual FoxPro](sample_000.md)  
-
-![](../http://www.news2news.com/vfp/articles/apiviewer5.png)  
-
-  
 ***  
 
 
@@ -160,7 +151,7 @@ ENDDEFINE
 
 ## Comment:
 This is how the interaction between VFP and remote data works (*almost a Web service* :). The VFP code sends a request to a remote script. Two request types are supported:  
-*  
+
 - list of examples  
 - the source code of a particular example (<a href="?generic=project#membership">membership</a> is required)*  
   

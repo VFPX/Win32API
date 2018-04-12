@@ -60,23 +60,27 @@ PROCEDURE declare
 [StringFromGUID2](../libraries/ole32/StringFromGUID2.md)  
 
 ## Comment:
-The <a href="http://sbc.webopedia.com/TERM/G/GUID.html">GUID</a> is a *unique* 128-bit integer used for <a href="http://www.google.ca/search?hl=en&lr=&ie=UTF-8&oi=defmore&q=define:CLSID">CLSID</a>s and interface identifiers.  
+The [GUID](https://en.wikipedia.org/wiki/Universally_unique_identifier) is a *unique* 128-bit integer used for [CLSID](https://msdn.microsoft.com/en-us/library/windows/desktop/ms691424(v=vs.85).aspx)s and interface identifiers.  
   
 See also Microsoft Knowledge Base Article 269387 <a href="http://support.microsoft.com/default.aspx?scid=http://support.microsoft.com:80/support/kb/articles/Q269/3/87.asp&NoWebContent=1">How To Obtain a GUID in Visual FoxPro</a>  
   
 * * *  
-Having a connection to SQL Server, Guids can be generated with the NewId() function.   
-<div class="precode">FUNCTION NewGuid() As String  
+Having a connection to SQL Server, Guids can be generated with the NewId() function.
+
+```foxpro
+FUNCTION NewGuid() As String  
 	IF SQLEXEC(1, "SELECT NewId() As guid", "csGuid") > 0  
 		RETURN csGuid.guid  
 	ELSE  
 		RETURN NULL  
-	ENDIF  
-</div>  
+	ENDIF
+```
+
 Another way is using the Scriptlet.TypeLib COM. Note that you must create a new instance of the class for each Guid to be generated, which probably produces some overhead.  
-<div class="precode">obj = CreateObject("Scriptlet.TypeLib")  
-? SUBSTR(obj.GUID,2,36)  
-</div>  
+```foxpro
+obj = CreateObject("Scriptlet.TypeLib")  
+? SUBSTR(obj.GUID,2,36)
+```
 After a simple test I can estimate that the COM procedure is 5 to 10% faster than the SQL one (local server); and API is the winner creating GUID 15-20 times faster than COM -- for example, 0.24 seconds versus 4 seconds per 10,000 guids created.   
   
 On the same computer C# code generated 1,000,000 guids in 1.05 seconds.  

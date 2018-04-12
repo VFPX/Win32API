@@ -318,8 +318,8 @@ A visible canvas is the Device Context created either for an instance of a Form 
   
 * * *  
 WPF XAML for the C# sample code:  
-  
-<img src="images/DoubleAnimationXaml.png">  
-  
+
+![](../images/DoubleAnimationXaml.png)  
+
 ***  
 

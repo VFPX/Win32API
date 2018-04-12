@@ -17,8 +17,8 @@ This class is used as a base class for several custom RAPI classes created to ac
 
 See also:
 
-* [FoxPro Advisor article: Access a Pocket PC from Visual FoxPro](sample_000.md)  
-* [FoxPro Advisor article: Access a Palm OS PDA from Visual FoxPro](sample_000.md)  
+* [FoxPro Advisor article: Access a Pocket PC from Visual FoxPro](?article=6)  
+* [FoxPro Advisor article: Access a Palm OS PDA from Visual FoxPro](?article=7)  
   
 ***  
 
@@ -213,10 +213,5 @@ RETURN STRCONV(m.cStr, 6)
 [LocalFree](../libraries/kernel32/LocalFree.md)  
 [WaitForSingleObject](../libraries/kernel32/WaitForSingleObject.md)  
 
-## Comment:
-  
-  
-#kwd: sln_pocketpc.  
-  
 ***  
 

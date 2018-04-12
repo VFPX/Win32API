@@ -3,7 +3,7 @@
 # Retrieving configuration information for the specified workstation (Win2000/XP)
 
 ## Before you begin:
-Check similar example <a href="?example=425">Retrieving configuration information for the specified server (Win2000/XP)</a>.[Retrieving configuration information for the specified server (Win2000/XP)](sample_425.md)  
+Check similar example [Retrieving configuration information for the specified server (Win2000/XP)](sample_425.md).  
   
 ***  
 

@@ -3,19 +3,21 @@
 # Class for sound recording
 
 ## Before you begin:
-This class is able to record audio input from playback devices like Wave, Microphone etc. It implements methods<code><font color=#0000a0>  
+This class is able to record audio input from playback devices like Wave, Microphone etc. It implements methods  
+```txt
 OpenDevice  
 CloseDevice  
 StartRecording  
 StopRecording  
-CreateWaveFile(cFilename)</font></code>  
+CreateWaveFile(cFilename)
+```
 
 Some parameters are hard-coded: max recording time, *bits per sample*, *samples per second* and *channels*. Though it is easy to make this basic class more flexible.  
 
-Click to open an example based on this class: <a href="?example=421">WAV file recorder</a>:[WAV file recorder](sample_421.md)  
+Click to open an example based on this class: [WAV file recorder](sample_421.md):  
 
-<a href="?example=421"><img src="images/waverecorder.png" width=507 height=303 border=0></a>[](sample_421.md)  
-  
+[![](../images/waverecorder.png)](sample_421.md)
+
 ***  
 
 

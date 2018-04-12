@@ -6,11 +6,11 @@
 This code enumerates print jobs for default printer (*if both the jobs and the printer exist* :). The **JOB_INFO_1** structure is used, which includes such members as printer name, machine name, user name, document etc.  
 
 Check another examples:  
-<a href="?example=146">Enumerating locally installed printers</a>[Enumerating locally installed printers](sample_146.md)  
-<a href="?example=82">Enumerating printer drivers installed</a>[Enumerating printer drivers installed](sample_082.md)  
-<a href="?example=333">Enumerating the print processors and supporting data types installed on the specified server</a>[Enumerating the print processors and supporting data types installed on the specified server](sample_333.md)  
-<a href="?example=367">How to retrieve number of print jobs that have been queued for the printer</a>[How to retrieve number of print jobs that have been queued for the printer](sample_367.md)  
-<a href="?example=334">Enumerating the ports that are available for printing on a specified server</a>[Enumerating the ports that are available for printing on a specified server](sample_334.md)  
+* [Enumerating locally installed printers](sample_146.md)  
+* [Enumerating printer drivers installed](sample_082.md)  
+* [Enumerating the print processors and supporting data types installed on the specified server](sample_333.md)  
+* [How to retrieve number of print jobs that have been queued for the printer](sample_367.md)  
+* [Enumerating the ports that are available for printing on a specified server](sample_334.md)  
   
 ***  
 

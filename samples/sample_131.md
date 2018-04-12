@@ -3,7 +3,7 @@
 # Reading VFP settings from the Windows Registry
 
 ## Before you begin:
-![](../)  
+![](../images/foxregistry.gif)  
   
 ***  
 

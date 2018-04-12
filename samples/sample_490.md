@@ -329,15 +329,16 @@ ENDDEFINE  && pchar
 ## Comment:
 Use the following code to test NetScheduleJobs and NetScheduleJob classes:  
   
-<div class=precode>LOCAL oJobs As NetScheduleJobs, oJob As NetScheduleJob  
+```foxpro
+LOCAL oJobs As NetScheduleJobs, oJob As NetScheduleJob  
 oJobs = CREATEOBJECT("NetScheduleJobs")  
   
 oJob = CREATEOBJECT("NetScheduleJob")  
-WITH oJob<font color=#00a000>  
+WITH oJob
 *	.jobtime = 9.5 * 3600 * 1000  && 09:30 AM  
 *	.SetDOM(5, 20)  && payroll days :)  
 *	.SetDOW(0, 3)  && Monday to Thursday<font color=#0000a0>  
-	.jobtime = (60 + VAL(SYS(2))) * 1000  <font color=#00a000>&& now + 1 minute<font color=#0000a0>  
+	.jobtime = (60 + VAL(SYS(2))) * 1000 && now + 1 minute  
 	.jobcommand = "notepad.exe"  
 ENDWITH  
   
@@ -350,8 +351,8 @@ FOR EACH oJob IN oJobs
 		? "ID=" + TRANSFORM(.jobid) + ", " +;  
 			.jobcommand  
 	ENDWITH  
-NEXT  
-</div>  
-  
+NEXT
+```
+
 ***  
 

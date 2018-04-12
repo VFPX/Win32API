@@ -255,20 +255,20 @@ RETURN Chr(MOD(m.lnValue,256)) + CHR(INT(m.lnValue/256))
 
 ## Comment:
 A screenshot of C# version of this code sample.  
-<a href="?example=374&ver=vcs"><img src="images/ChangeDisplaySettings_cs.png" border=0 width=284 height=323></a>  
-  
+![](../images/ChangeDisplaySettings_cs.png)
+
 * * *  
 Five ways of obtaining current monitor resolution:  
   
-<LI>The SYSMETRIC(1 | 2) is the simplest one. Very likely it is a wrapper around either GetSystemMetrics (SM_CXFULLSCREEN | SM_CYFULLSCREEN) call or SystemParametersInfo call. Each of three reports data for the primary monitor only.  
+* The SYSMETRIC(1 | 2) is the simplest one. Very likely it is a wrapper around either GetSystemMetrics (SM_CXFULLSCREEN | SM_CYFULLSCREEN) call or SystemParametersInfo call. Each of three reports data for the primary monitor only.  
   
-<LI>Presented in the code sample above, the EnumDisplaySettings populates the DEVMODE structure. Members *dmPelsWidth* and *dmPelsHeight* of this structure contain the width and the height for enumerated monitor.   
+* Presented in the code sample above, the EnumDisplaySettings populates the DEVMODE structure. Members *dmPelsWidth* and *dmPelsHeight* of this structure contain the width and the height for enumerated monitor.   
   
-<LI>The GetMonitorInfo populates the MONITORINFO structure. The *rcMonitor member* in this structure is the RECT structure itself. It contains the display monitor rectangle expressed in virtual-screen coordinates.  
+* The GetMonitorInfo populates the MONITORINFO structure. The *rcMonitor member* in this structure is the RECT structure itself. It contains the display monitor rectangle expressed in virtual-screen coordinates.  
   
-<LI>The GetWindowPlacement populates a rectangle -- RECT rcNormalPosition. Call this function with the handle to the desktop window. For multiple monitor configuration, such desktop rectanlge is a combination of all active monitor rectangles.  
+* The GetWindowPlacement populates a rectangle -- RECT rcNormalPosition. Call this function with the handle to the desktop window. For multiple monitor configuration, such desktop rectanlge is a combination of all active monitor rectangles.  
   
-<LI>Normally the mouse cursor is confined inside the desktop window. The GetClipCursor copies the desktop window dimensions into the RECT structure.  
+* Normally the mouse cursor is confined inside the desktop window. The GetClipCursor copies the desktop window dimensions into the RECT structure.  
   
 ***  
 

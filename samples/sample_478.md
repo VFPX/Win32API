@@ -10,7 +10,7 @@ FoxPro class UserAccount wraps NetUserAdd, NetUserDel, NetUserGetInfo and NetUse
 ## Before you begin:
 The class below wraps NetUserAdd, NetUserDel, NetUserGetInfo and NetUserSetInfo API calls with methods that can add, delete and modify user accounts on a server.  
 
-Use another example, <a href="?example=249">Obtaining information about all user accounts on a server</a>, to review the user accounts.[Obtaining information about all user accounts on a server](sample_249.md)  
+Use another example, [Obtaining information about all user accounts on a server](sample_249.md), to review the user accounts.  
   
 ***  
 
@@ -326,7 +326,9 @@ RETURN Chr(b0)+Chr(b1)+Chr(b2)+Chr(b3)
 In VFP versions 3 to 6 you may have to declare RtlMoveMemory as MemToStr and StrToMem not once but every time you call this function with either interface. Newer VFP versions allow at least two API declarations exist simultaneously.  
   
 Use this program code to test the class. Replace "MyServer" with an empty string to access user accounts on the local computer.  
-<div class=precode>#DEFINE ERROR_ACCESS_DENIED 5  
+
+```foxpro
+#DEFINE ERROR_ACCESS_DENIED 5  
 #DEFINE ERROR_BAD_NETPATH 53  
 #DEFINE NERR_UserNotFound 2221  
 #DEFINE NERR_UserExists 2224  
@@ -379,8 +381,9 @@ ENDCASE
 IF oUser.UserExists()  
 	oUser.SetComment("Temporary account. Delete after the testing.")  
 *	oUser.UserDel  
-ENDIF  
-</div>  
+ENDIF
+```
+
 * * *  
 Read an article <a href="http://support.microsoft.com/default.aspx?scid=kb;en-us;306273">HOW TO: Add a User to the Local System by Using Directory Services and Visual C# .NET</a> on Microsoft Help and Support web site.  
   

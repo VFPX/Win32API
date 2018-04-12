@@ -9,7 +9,8 @@ Presented below the *SharedMemory* class uses FileMapping API calls to allocate 
 
 To test this class, start two or more VFP executables and run this code in each session:  
 
-<div class=precode>LOCAL oForm As TForm  
+```foxpro
+LOCAL oForm As TForm  
 oForm = CREATEOBJECT("Tform")  
 oForm.Show(1)  
 * end of main  
@@ -45,8 +46,8 @@ PROCEDURE cmdWriteToMemory.Click
 	cBuffer = PADR(ThisForm.txtSharedMemory.Value,;  
 		ThisForm.smObject.GetSharedMemorySize())  
 	ThisForm.smObject.WriteToSharedMemory(m.cBuffer)  
-ENDDEFINE  
-</div>  
+ENDDEFINE
+```
 See also:
 
 * [Using a Semaphore object to prevent VFP application from running more than one instance](sample_147.md)  

@@ -2,18 +2,13 @@
 
 # Testing Transparent Menu Class with top-level form (requires VFP9)
 
-## Short description:
-The code creates top-level form with a menu. An instance of the <a href="?example=496">MenuManager class</a> is used to make this menu semi-transparent. The form records to a cursor menu-related Windows messages and displays them in a listbox.
-  
-***  
-
 
 ## Before you begin:
-The code creates top-level form with a menu. An instance of the <a href="?example=496">MenuManager class</a> is used to make this menu semi-transparent. The form records menu-related window messages to a cursor and displays them in a listbox.[MenuManager class](sample_496.md)  
+The code creates top-level form with a menu. An instance of the [MenuManager class](sample_496.md) is used to make this menu semi-transparent. The form records menu-related window messages to a cursor and displays them in a listbox.  
 
 ![](../images/transparentmenu.jpg)  
 
-Before testing the following code, save another code sample, <a href="?example=496">Transparent Menu Class</a>, to MenuManager.prg module.[Transparent Menu Class](sample_496.md)  
+Before testing the following code, save another code sample, [MenuManager class](sample_496.md), to MenuManager.prg module.
 
   
 ***  

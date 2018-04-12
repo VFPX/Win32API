@@ -4,7 +4,8 @@
 
 ## Before you begin:
 Normally this information is available through the DOS call:  
-<code><font color=#0000a0>ipconfig /all</font></code>  
+
+`ipconfig /all`
   
 ***  
 
@@ -117,10 +118,6 @@ PROCEDURE decl
 [gethostbyaddr](../libraries/ws2_32/gethostbyaddr.md)  
 [inet_addr](../libraries/ws2_32/inet_addr.md)  
 
-## Comment:
-  
-  
-#kwd: sln_winsock.  
-  
+
 ***  
 

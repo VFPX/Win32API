@@ -14,7 +14,8 @@ The class calls CeCreateProcess RAPI function to create new process on PocketPC 
 Use the following code to test   
 **TRapiExec** class:  
 
-<div class=precode>LOCAL rapi As TRapiExec  
+```foxpro
+LOCAL rapi As TRapiExec  
 rapi = CREATEOBJECT("TRapiExec")  
 IF NOT rapi.Connected  
 	= MESSAGEBOX("Could not detect connection " +;  
@@ -26,9 +27,9 @@ IF NOT rapi.RunApp("\Windows\Notes.exe",;
 	= MESSAGEBOX("Error code: " + TRANSFORM(rapi.errorcode) +;  
 		" (" + TRANSFORM(rapi.errorcode, "@0") +;  
 		")    ", 48, "Error")  
-ENDIF  
-</div>  
-  
+ENDIF
+```
+
 ***  
 
 
@@ -149,12 +150,14 @@ CeRapiInvoke function, I am still struggling with, can be used to remotely execu
 So far I was successful only in calling functions, which do not require input parameters, like *Random* and *GetProcessHeap* (both located in Coredll.dll) and similar to them. Hopefully I will be able to add this functionality to the class some time later.  
   
 * * *  
-This is how to create new email message on your Pocket PC:<code><font color=#0000a0>  
+This is how to create new email message on your Pocket PC:
+```foxpro
 cApp="\Windows\tmail.exe"  
 cCmd=[-TO "info@yourcompany.com" -SUBJECT "Test message" ] +;  
 	[-BODY "Wake up!"]  
-rapi.RunApp(cApp, cCmd)  
-</font></code>  
+rapi.RunApp(cApp, cCmd)
+```
+
 Note that the message will be stored in Drafts folder, not sent. Use other command line options: -CC, -BCC, -ATTACHMENT.  
   
 ***  

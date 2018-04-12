@@ -82,8 +82,8 @@ Microsoft Knowledge Base Article - 191584: <a href="http://support.microsoft.com
 Another option is starting external program in a different desktop. With no calls to the WaitForSingleObject made, the host VFP program stays active. Though it becomes invisible and is cut off from keyboard and mouse input.  
   
 See also:  
-<LI><a href="?example=492">How to prevent users from accessing the Windows Desktop and from switching to other applications</a>  
-  
+* [How to prevent users from accessing the Windows Desktop and from switching to other applications](sample_492.md)
+
 * * *  
 C#:  This is asynchronous notification that relies on the Exited event (EnableRaisingEvents must be set to true for the Process instance). Synchronous notification relies on calling the WaitForExit method.  
   

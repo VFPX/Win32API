@@ -11,7 +11,7 @@ The CryptoAPI Providers class presents collection of cryptographic service provi
 This class presents a collection of cryptographic service providers (CSP) available on a computer. Each provider is described with type, name, collections of available containers and algorithms.  
 
 Code samples based on this class:  
-<LI style="margin-bottom: 5px;"><a href="?example=464">list of cryptographic service providers</a>[list of cryptographic service providers](sample_464.md)  
+* [list of cryptographic service providers](sample_464.md)  
 
 See also:
 

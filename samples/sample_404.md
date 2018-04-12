@@ -6,7 +6,7 @@
 This sample code shows how to copy the image of an active form to the Clipboard in CF_ENHMETAFILE format.  
 
 There is a similar example using Bitmap API functions copying data in CF_BITMAP format:   
-<a href="?example=91">Copying picture of the active form to the Clipboard using Bitmap API functions</a>[Copying picture of the active form to the Clipboard using Bitmap API functions](sample_091.md)  
+[Copying picture of the active form to the Clipboard using Bitmap API functions](sample_091.md)  
   
 ***  
 

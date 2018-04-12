@@ -12,7 +12,7 @@ Related exampleSee also:
 * [Using FTPCommand](sample_059.md)  
 
 Complete FTP solution:  
-<a href="http://www.news2news.com/vfp/?solution=1&src=x386"><img src="images/ftplib_270_48.jpg" width=270 height=48 border=0  vspace=5 hspace=5 alt="Download FTP Class Library"></a>[](sample_000.md)  
+<a href="http://www.news2news.com/vfp/?solution=1&src=x386"><img src="../images/ftplib_270_48.jpg" width=270 height=48 border=0  vspace=5 hspace=5 alt="Download FTP Class Library"></a> 
   
 ***  
 

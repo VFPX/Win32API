@@ -3,7 +3,7 @@
 # How to Start a Process as Another User (NT/XP/2K)
 
 ## Before you begin:
-The following code offers solution, which is similar to **Microsoft Knowledge Base Article - 285879:** <a href="http://support.microsoft.com/default.aspx?scid=kb%3Ben-us%3B285879">HOWTO: Start a Process as Another User from Visual Basic</a>.[HOWTO: Start a Process as Another User from Visual Basic](sample_000.md)  
+The following code offers solution, which is similar to **Microsoft Knowledge Base Article - 285879:** [HOWTO: Start a Process as Another User from Visual Basic](http://support.microsoft.com/default.aspx?scid=kb%3Ben-us%3B285879).  
 
 Other code samples you might be interested in:  
 * [Running external applications from VFP using WinExec](sample_002.md)  

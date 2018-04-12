@@ -9,11 +9,16 @@ It all started with a question I have noticed in the Universal Thread Visual Fox
 
 
 ## Before you begin:
-It all started with a question a developer posted in the Universal Thread Visual FoxPro forum:<blockquote>*Does anyone know how to create a monochrome bitmap or monochrome tiff file from a VFP report?   
-...  
-I need to automate the process. We are using this for a faxing application and it must work in a multi-user environment*</blockquote>Well, there is <a href="http://msdn.microsoft.com/library/default.asp?url=/library/en-us/dv_foxhelp9/html/5709df40-166a-439b-8d9a-9504c1f631c1.asp">ReportListener</a> object in VFP9 that can solve at least a part of this task. Its *OutputPage* method can render the output of a report to a bitmap file. The code is very simple (requires VFP9):[ReportListener](sample_000.md)  
+It all started with a question a developer posted in the Universal Thread Visual FoxPro forum:
 
-<div class=precode>LOCAL oListener As ReportListener, nPageIndex  
+<*Does anyone know how to create a monochrome bitmap or monochrome tiff file from a VFP report?   
+<...  
+<I need to automate the process. We are using this for a faxing application and it must work in a multi-user environment*
+
+Well, there is ReportListener object in VFP9 that can solve at least a part of this task. Its *OutputPage* method can render the output of a report to a bitmap file. The code is very simple (requires VFP9):  
+
+```foxpro
+LOCAL oListener As ReportListener, nPageIndex  
 oListener = CREATEOBJECT("ReportListener")  
 oListener.ListenerType=3  && renders all pages at once  
 
@@ -23,9 +28,10 @@ REPORT FORM MyReport PREVIEW OBJECT oListener
 FOR nPageIndex=1 TO oListener.PageTotal  
 	cOutputFile = "tmp"+TRANS(nPageIndex)+".bmp"  
 	oListener.OutputPage(nPageIndex,;  
-		cOutputFile, 105, 0,0,768,1024)  && 105=bitmap</font>  
-NEXT  
-</div>  
+		cOutputFile, 105, 0,0,768,1024)  && 105=bitmap
+NEXT
+```
+
 I run the code and voila! It created one bitmap file for each page of my report. But the output files were nothing but small: 32 bits per pixel, 3.28 MB each. Still I was half way through.  
 
 Then I spent some time in Visual FoxPro trying in vain to convert bitmaps to monochromes using GDI+ API along with several GDI calls like CreateCompatibleBitmap, BitBlt and so on. The GdipGetImageGraphicsContext absolutely refused to accept monochrome HBITMAP handles.  
@@ -229,9 +235,11 @@ RETURN Chr(MOD(m.lnValue,256)) + CHR(INT(m.lnValue/256))
 
 ## Comment:
 The code above implements:  
-<code><font color=#0000a0>  
-PROCEDURE SaveBitmapAsMonochrome(srcfile As String, dstfile As String)  
-</font></code>  
+
+```foxpro
+PROCEDURE SaveBitmapAsMonochrome(srcfile As String, dstfile As String)
+```
+
 To create HBITMAP from a bitmap file I use the LoadImage with LR_LOADFROMFILE and LR_MONOCHROME flags. This way, it takes care of all color-to-monochrome mumbo-jumbos, which fact I am very happy with.  
   
 The source HBITMAP is selected into a memory device context. Then both of them are passed to the SaveBitmapToFile procedure.  

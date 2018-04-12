@@ -150,10 +150,5 @@ RETURN Asc(SUBSTR(lcBuffer, 1,1)) + ;
 [GlobalAlloc](../libraries/kernel32/GlobalAlloc.md)  
 [GlobalFree](../libraries/kernel32/GlobalFree.md)  
 
-## Comment:
-  
-  
-#kwd: sln_http.  
-  
 ***  
 

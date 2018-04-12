@@ -371,16 +371,9 @@ Note:  Visual FoxPro stores a single image in memory internally. If you use that
   
 If you want to display the same image multiple times in various rotations, rename each copy of the image that you use. If you issue the CLEAR...RESOURCES command, Visual FoxPro reloads the image into memory and loses any prior GDI+ settings.  
   
-See also:  
-<LI><a href="http://www.vfpskin.com.ar/">VFPSkin</a> *(Pablo J. Molina and Daniel Diaz)*  
-<LI><a href="http://www.vfpskin.com.ar/files/FT/FT_article.htm">More than one way to skin a fox...</a> *(Andy Kramek and Marcia Akins)*  
-<LI><a href="http://www.sweetpotatosoftware.com/SPSBlog/PermaLink,guid,9a91dea3-6413-42e9-aeff-f0097937474d.aspx">Skinning a Form in Visual FoxPro</a> *(Craig Boyd)*  
-<LI><a href="http://weblogs.foxite.com/boudewijnlutgerink/archive/2009/07/14/Skin_da_Fox.aspx">The skinny fox *(Boudewijn Lutgerink)*</a>  
-  
-A possible follow-up for VFP9:  
-<LI><a href="http://support.microsoft.com/kb/q99046/">How To Draw a Custom Window Caption</a>  
-After doing a quick test I think it may work, though it is better be programmed outside of VFP.  
-  
+See also:
+* [VFPSkin](https://vfpskin-version-3-0-single.jaleco.com/) *(Pablo J. Molina and Daniel Diaz)* 
+
 The WM_NCACTIVATE message is sent to a window when its nonclient area needs to be changed to indicate an active or inactive state. FoxPro form receives this message only when it is top-level form (ShowWindow=2) -- ?  
   
 The WM_NCPAINT message is sent to a window when its frame must be painted.   

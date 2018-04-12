@@ -18,7 +18,8 @@ If *CreateMsdosSession* method returns *True*, then *RunCommand* method can be u
 
 Use this program code to test the class:  
 
-<div class=precode>LOCAL cmd As msdos, cResponse  
+```foxpro
+LOCAL cmd As msdos, cResponse  
 cmd = CREATEOBJECT("msdos")  
 
 IF NOT cmd.createmsdossession()  
@@ -28,14 +29,15 @@ ENDIF
 
 cmd.runcommand("dir *.bmp")  
 cmd.runcommand("ipconfig")  
-= INKEY(2)  <span style="color: #008000; font-style: italic;">&& gives MSDOS some time to return</span>  
+= INKEY(2) && gives MSDOS some time to return
 
 cResponse = cmd.getresponse()  
 STORE cResponse TO _cliptext  && for reviewing later  
 
 SET MEMOWIDTH TO 120  
-? cResponse  
-</div>  
+? cResponse
+```
+
 The INKEY() is here to provide some time for the command processor to generate an output. The WaitForSingleObject API, which could be an ideal solution, does not wait for a console output. May be the Timer object can do better than the INKEY() does.  
 
 See also:
@@ -304,9 +306,9 @@ The VFP class starts the command processor (cmd.exe) as a child process using th
   
 The msdos window is put in a hidden state by placing STARTF_USESHOWWINDOW  in STARTUPINFO structure. So the usual black msdos window does not blink and does not appear in the Task Bar.   
   
-Though it has an unexpected effect:<code><font color=#0000a0>  
+Though it has an unexpected effect:
   
-cmd.RunCommand("C:\myprog.exe")</font></code>  
+`cmd.RunCommand("C:\myprog.exe")`
   
 The code line above will start myprog.exe and place it in a hidden state. Only after the *cmd* object is released, the myprog.exe becomes visible and appears in the Task Bar.   
   
@@ -318,10 +320,10 @@ Through one pipe the command processor receives commands (RunCommand method). Th
 This is like a temporary file that is shared by two processes. One of these processes can write to the pipe, and the other one can read from the pipe, which is what "one-way" means.  
   
 MSDN links:  
-  
-<LI><a href="http://msdn.microsoft.com/library/default.asp?url=/library/en-us/dllproc/base/creating_a_child_process_with_redirected_input_and_output.asp">Creating a Child Process with Redirected Input and Output</a> -- *the FoxPro class above actually uses a translation of a large part of this C code*  
-  
-<LI><a href="http://support.microsoft.com/default.aspx?scid=kb;en-us;190351">How To Spawn Console Processes with Redirected Standard Handles</a>  
+
+* [Creating a Child Process with Redirected Input and Output ](https://msdn.microsoft.com/en-us/library/windows/desktop/ms682499(v=vs.85).aspx) -- *the FoxPro class above actually uses a translation of a large part of this C code*   
+
+* <a href="http://support.microsoft.com/default.aspx?scid=kb;en-us;190351">How To Spawn Console Processes with Redirected Standard Handles</a>  
   
 ***  
 

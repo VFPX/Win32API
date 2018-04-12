@@ -13,7 +13,7 @@ After pressing the **Stop** button sometimes you have to wait 2-3 seconds for th
 
 The server processes requests from clients. That means you need a Winsock client program to communicate with the server.  
 
-Run the <a href="?example=413">client part for this server</a> on any other computer connected to your network, or even on the same computer, which runs the Winsock server. A client program initiates a network connection using IP address and listening port of the server.[client part for this server](sample_413.md)  
+Run the [client part for this server](sample_413.md) on any other computer connected to your network, or even on the same computer, which runs the Winsock server. A client program initiates a network connection using IP address and listening port of the server.  
 
 See also:
 
@@ -342,7 +342,7 @@ Some local ports are already used by the system and other applications. So if yo
   
 The Winsock error code returned is **10048** -- WSAEADDRINUSE *Only one usage of each socket address (protocol/network address/port) is normally permitted*.  
   
-List of local ports already used can be obtained through the system **NETSTAT** command, or use example in this reference <a href="?example=222">Displaying all TCP connections for the local system</a> to get the list.  
+List of local ports already used can be obtained through the system **NETSTAT** command, or use example in this reference [Displaying all TCP connections for the local system](sample_222.md) to get the list.  
   
 Also take a look at this article <a href="http://networking.earthweb.com/netsysm/article.php/937411">Working with the NETSTAT Command</a>.  
   
@@ -355,8 +355,7 @@ To test a connection to the non-blocking server through the Internet, first I st
 Feb.28, 2005: Note that once the server connects to a remote client and processes a request, all other clients are not able to connect during that short time because nobody is listening.  
   
 A robust Winsock server actually should create a thread for each new connection or use a pool of, say, 10 threads to serve connections. This kind of functionality can not be programmed using just FoxPro code.  
-  
-#kwd: sln_winsock.  
+
   
 ***  
 

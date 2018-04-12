@@ -3,7 +3,7 @@
 # Retrieving the state of your Internet connection
 
 ## Before you begin:
-<table cellspacing=3 cellpadding=0 border=0><tr><td valign=top><img src="images/readarticle.gif" border=0></td><td valign=top class=fdescr><a href="?article=3">Programming File Transfer Protocol in Visual FoxPro </a></td></tr></table>[Programming File Transfer Protocol in Visual FoxPro ](sample_000.md)  
+<table cellspacing=3 cellpadding=0 border=0><tr><td valign=top><img src="../images/readarticle.gif" border=0></td><td valign=top class=fdescr><a href="?article=3">Programming File Transfer Protocol in Visual FoxPro </a></td></tr></table>[Programming File Transfer Protocol in Visual FoxPro ](sample_000.md)  
   
 ***  
 
@@ -89,7 +89,7 @@ RETURN  Iif(BitAnd(lnBase, lnValue)=lnValue, "Yes","No")
 [InternetGetConnectedStateEx](../libraries/wininet/InternetGetConnectedStateEx.md)  
 
 ## Comment:
-Remote Access Service (RAS) provides remote access capabilities to client applications on computers using Microsoft® Windows® 95 or later and Windows NT® version 3.5 and later, including Windows 2000, operating systems.   
+Remote Access Service (RAS) provides remote access capabilities to client applications on computers using Microsoftï¿½ Windowsï¿½ 95 or later and Windows NTï¿½ version 3.5 and later, including Windows 2000, operating systems.   
   
 <a href="http://msdn.microsoft.com/library/default.asp?url=/library/en-us/rras/hh/network/ras4over_71k5.asp">More on RAS</a>  
   

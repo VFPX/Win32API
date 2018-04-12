@@ -4,7 +4,7 @@
 
 ## Before you begin:
 ![](../images/ws_cli.png)  
-This code is a client part created for testing the <a href="?example=412">non-blocking Winsock server</a> sample code.[non-blocking Winsock server](sample_412.md)  
+This code is a client part created for testing the [non-blocking Winsock server](sample_412.md) sample code.  
 
 First run server code on any computer on your network. Enter acting server IP and port values on the client form.  
 
@@ -244,13 +244,11 @@ RETURN Chr(MOD(m.lnValue,256)) + CHR(INT(m.lnValue/256))
 ## Comment:
 After establishing a connection and sending messages the client program usually keeps several local ports in the **TIME_WAIT** state for a short time.  
   
-List of local ports in use can be obtained through the system **NETSTAT** command, or use example in this reference <a href="?example=222">Displaying all TCP connections for the local system</a> to get the list.  
+List of local ports in use can be obtained through the system **NETSTAT** command, or use example in this reference [Displaying all TCP connections for the local system](sample_222.md) to get the list.  
   
 <a href="http://networking.earthweb.com/netsysm/article.php/937411">Working with the NETSTAT Command</a>.  
   
 And there is a link with some TIME_WAIT related info on <a href="http://beta.experts-exchange.com/Programming/Programming_Languages/Visual_Basic/Q_20386408.html">Experts-Exchange</a> site.  
-  
-#kwd: sln_winsock.  
-  
+
 ***  
 

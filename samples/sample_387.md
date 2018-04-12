@@ -396,9 +396,11 @@ Jan.30, 2005: The FoxPro code has been rewritten with API functionality moved to
   
 * * *  
 Use Windows Script to map a network drive as follows:  
-<div class=precode>oNet = CreateObject("WScript.Network")  
-oNet.MapNetworkDrive("Z:", "\\MyServer\Data")  
-</div>  
-  
+
+```foxpro
+oNet = CreateObject("WScript.Network")  
+oNet.MapNetworkDrive("Z:", "\\MyServer\Data")
+```
+
 ***  
 

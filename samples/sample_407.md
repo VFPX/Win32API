@@ -130,10 +130,6 @@ RETURN Asc(SUBSTR(lcBuffer, 1,1)) + ;
 [MAPIAddress](../libraries/mapi32/MAPIAddress.md)  
 [MAPIFreeBuffer](../libraries/mapi32/MAPIFreeBuffer.md)  
 
-## Comment:
-  
-  
-#kwd: sln_reademail.  
-  
+
 ***  
 

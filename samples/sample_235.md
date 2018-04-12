@@ -397,18 +397,19 @@ RETURN Chr(b0)+Chr(b1)+Chr(b2)+Chr(b3)
 [Shell_NotifyIcon](../libraries/shell32/Shell_NotifyIcon.md)  
 
 ## Comment:
-The NOTIFYICONDATA structure is simplified here, considering the *(_WIN32_IE < 0x0500)* condition. MSDN Library contains <a href="http://msdn.microsoft.com/library/default.asp?url=/library/en-us/shellcc/platform/Shell/Structures/NOTIFYICONDATA.asp">complete description of this structure</a>  
+The NOTIFYICONDATA structure is simplified here, considering the *(_WIN32_IE < 0x0500)* condition. MSDN Library contains 
+[complete description of this structure](http://msdn.microsoft.com/library/default.asp?url=/library/en-us/shellcc/platform/Shell/Structures/NOTIFYICONDATA.asp)
   
 * * *  
 This code sample calls LoadImage or ExtractAssociatedIcon to obtain HICON values. The other possible ways of loading icons can be implemented through calls to SHGetStockIconInfo, SHGetFileInfo, ExtractIcon and GetIconInfo.  
-  
-<a href="?example=502"><img src="images/imageres_icons.jpg" alt="Storing DLL icon resources in .ICO files"></a>  
-  
-  
+
+ 
+[![Storing DLL icon resources in .ICO files](../images/imageres_icons.jpg)](sample_502.md)
+
 * * *  
 Microsoft .NET Framework conveniently includes *NotifyIcon* control that is to be simply dropped on Windows form.  
   
-<img src="images/systraynet.png" border=0>  
-  
+![](../images/systraynet.png)
+
 ***  
 

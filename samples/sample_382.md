@@ -3,9 +3,9 @@
 # How to ping a remote site using IP Helper API calls
 
 ## Before you begin:
-An article "**A New Way to Ping**" published on <a href="http://www.codeguru.com/internet/NewPing.html">CodeGuru</a> pages by <a href="mailto:billnolde@ieee.org">Bill Nolde</a> is a source for this example, which is a direct C++ to VFP translation.[CodeGuru](sample_000.md)  
+An article "**A New Way to Ping**" published on <a href="http://www.codeguru.com/internet/NewPing.html">CodeGuru</a> pages by <a href="mailto:billnolde@ieee.org">Bill Nolde</a> is a source for this example, which is a direct C++ to VFP translation.  
 
-Another <a href="?example=216">example</a> shows how to convert a host name (*like "www.myhost.com", "microsoft.com", "aol.com" etc.*) to IP address in dotted format (like 192.168.0.1).[example](sample_216.md)  
+Another [example](sample_216.md) shows how to convert a host name (*like "www.myhost.com", "microsoft.com", "aol.com" etc.*) to IP address in dotted format (like 192.168.0.1).  
 
 See also:
 

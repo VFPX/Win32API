@@ -18,7 +18,7 @@ The *FileVersionInfo* class encapsulates GetFileVersionInfo API call and provide
 
 See also:
 
-<a href="?example=242">Retrieving file information for the VFP executable running</a>[Retrieving file information for the VFP executable running](sample_242.md)  
+[Retrieving file information for the VFP executable running](sample_242.md)  
   
 ***  
 
@@ -241,7 +241,7 @@ RETURN Asc(SUBSTR(lcBuffer, 1,1)) + ;
 ## Comment:
 VFP <a href="http://msdn.microsoft.com/en-us/library/7tb3a512(VS.80).aspx">AGETFILEVERSION() Function</a> returns similar data.  
   
-See also <a href="http://msdn.microsoft.com/library/default.asp?url=/library/en-us/winui/winui/windowsuserinterface/resources/versioninformation.asp">Version Information</a> article on MSDN.  
+See also [Version Information](https://msdn.microsoft.com/en-us/library/windows/desktop/ms646981(v=vs.85).aspx) article on MSDN.  
   
 The presence of *OleSelfRegister* in the version resource means that the file (DLL or EXE) can self-register itself. The developer decides whether to add this string to the version information.  
   

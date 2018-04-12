@@ -5,7 +5,7 @@
 ## Before you begin:
 See also:
 
-* SendARP function  
+* [SendARP function](../libraries/iphlpapi/SendARP.md)  
 * [How to retrieve adapter information for the local computer (including MAC address)](sample_347.md)  
 * [Obtaining addresses for the adapters on the local computer (Win XP/2003/Vista)](sample_506.md)  
 * [How to ping a remote site using IP Helper API calls](sample_382.md)  

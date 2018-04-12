@@ -12,12 +12,14 @@ The following code includes classes *registry*, *regkey*, *regkeys*, *regvalue* 
 
 Create *Registry* object before using any other class from this library. This object contains API declarations the other classes use.  
 
-<div class="precode">LOCAL rg As Registry  
-rg = CREATEOBJECT("Registry")  
-</div>  
+```foxpro
+LOCAL rg As Registry  
+rg = CREATEOBJECT("Registry")
+```
 The next snip opens Software key in HKEY_LOCAL_MACHINE and adds _test subkey to it.  
 
-<div class="precode">LOCAL rgkey As regkey  
+```foxpro
+LOCAL rgkey As regkey  
 rgkey = CREATEOBJECT("regkey",;  
 	HKEY_LOCAL_MACHINE, "Software")  
 
@@ -25,19 +27,20 @@ WITH rgkey
 	IF .OpenKey()  
 		.CreateSubkey("_test", "")  
 	ENDIF  
-ENDWITH  
-</div>  
+ENDWITH
+```
 And the last one adds several values to a key.  
 
-<div class="precode">WITH rgkey  
+```foxpro
+WITH rgkey  
 	IF .OpenKey()  
 		.SetValue("TestValue0", 0, 16)  && REG_NONE  
 		.SetValue("TestValue1", 1, "abc")  && REG_SZ  
 		.SetValue("TestValue3", 3, "abc")  && REG_BINARY  
 		.SetValue("TestValue4", 4, "128")  && REG_DWORD  
 	ENDIF  
-ENDWITH  
-</div>  
+ENDWITH
+```
 
 Usage samples:  
 * [Enumerating Windows Sound Schemes avaialble to the current user](sample_593.md)  

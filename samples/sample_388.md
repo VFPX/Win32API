@@ -19,12 +19,12 @@ See also:
 * [MAPI example (file attachments enabled)](sample_343.md)  
 * [MAPI: sending email messages](sample_193.md)  
 * [MAPI: reading email messages](sample_270.md)  
-* Function MAPISendDocuments   
+* [Function MAPISendDocuments](../libraries/mapi32/MAPISendDocuments.md)   
 
 FoxTalk articles:  
-* [Sending SMTP Messages in Visual FoxPro Applications, Part 1](sample_000.md)  
-* [Sending SMTP Messages in Visual FoxPro Applications, Part 2](sample_000.md)  
-* [Accessing Hotmail and MSN Accounts in Visual FoxPro](sample_000.md)  
+* [Sending SMTP Messages in Visual FoxPro Applications, Part 1](?article=10)  
+* [Sending SMTP Messages in Visual FoxPro Applications, Part 2](?article=11)  
+* [Accessing Hotmail and MSN Accounts in Visual FoxPro](?article=9)   
   
 ***  
 
@@ -334,8 +334,7 @@ Connecting to pop3.fastmail.com, 192.168.0.1 ...
 There is a couple of links that might be interesting:  
 <LI><a href="http://www.faqs.org/rfcs/std/std53.html">STD/STD53. Post Office Protocol - Version 3</a>  
 <LI><a href="http://www.vbip.com/winsock/winsock_pop3.asp">How to receive an e-mail (Introduction to POP3 protocol)</a>  
-  
-#kwd: sln_reademail, sln_winsock  
+ 
   
 ***  
 

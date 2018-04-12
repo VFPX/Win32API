@@ -12,8 +12,8 @@ See also:
 * [MAPI: reading email messages](sample_270.md)  
 * [Winsock: sending email messages (SMTP, port 25)](sample_385.md)  
 * [Winsock: reading email messages (POP3, port 110)](sample_388.md)  
-* Function MAPISendDocuments   
-  
+* [Function MAPISendDocument](../libraries/mapi32/MAPISendDocuments.md)
+
 ***  
 
 

@@ -19,7 +19,7 @@ No ActiveX controls are required, actually not much of programming is required e
 
 See also:
 
-* [FoxTalk article: Using the Video Capture API in Visual FoxPro](sample_000.md)  
+* [FoxTalk article: Using the Video Capture API in Visual FoxPro](?article=8)  
   
 ***  
 
@@ -324,7 +324,8 @@ You may have several capture windows created and fed from different Video Source
   
 For example, now I have two digital cameras connected through USB -- Dimera 350C and Logitech QuickCam -- and one more video source, ATI TV Wonder Pro card that receives TV channels through coaxial cable.   
   
-<img src=images/capwinsrc.png width=371 height=409>  
+![](../images/capwinsrc.png)  
+
 With slightly modified code I can create three capture windows, one for each video source. All three windows simultaneously display preview from their sources.  
   
 * * *  

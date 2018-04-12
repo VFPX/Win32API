@@ -122,7 +122,7 @@ RETURN Asc(SUBSTR(lcBuffer, 1,1)) + ;
 ## Comment:
 The Microsoft AVI file format is a RIFF file specification. That means that functions like mmioOpen, mmioDescend, mmioWrite, mmioRead and others can be applied to AVI files.  
   
-Read <a href="http://msdn.microsoft.com/archive/default.asp?url=/archive/en-us/directx9_c/directx/htm/avirifffilereference.asp">AVI RIFF File Reference</a> on MSDN.  
+Read <a href="https://msdn.microsoft.com/en-us/library/windows/desktop/dd318189(v=vs.85).aspx">AVI RIFF File Reference</a> on MSDN.  
   
 ***  
 

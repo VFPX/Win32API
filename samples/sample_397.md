@@ -5,8 +5,9 @@
 ## Before you begin:
 Use this class to send HTTP POST, HTTP GET and other HTTP requests. Use the following code to test it:  
 
-<div class=precode>SET MEMOWIDTH TO 120  
-#DEFINE ccUrl "http://www.news2news.com/vfp/?example=397"  
+```foxpro
+SET MEMOWIDTH TO 120  
+#DEFINE ccUrl "https://github.com/VFPX/Win32API/blob/master/samples/sample_397.md"  
 
 oHttp = CreateObject("WinHttpRequest")  
 WITH oHttp  
@@ -27,9 +28,9 @@ WITH oHttp
 			MODI FILE tmp.txt NOWAIT  
 		ENDIF  
 	ENDIF  
-ENDWITH  
-</div>  
-There is a similar class built on WinINet functions: <a href="?example=185">Custom HttpRequest class (WinINet)</a>.[Custom HttpRequest class (WinINet)](sample_185.md)  
+ENDWITH
+```
+There is a similar class built on WinINet functions: [Custom HttpRequest class (WinINet)](sample_185.md).  
   
 ***  
 
@@ -495,9 +496,7 @@ RETURN Chr(b0)+Chr(b1)+Chr(b2)+Chr(b3)
 Take a look at <a href="http://msdn.microsoft.com/library/default.asp?url=/library/en-us/winhttp/http/winhttp_reference.asp">About WinHTTP</a> page on MSDN.  
   
 * * *  
-Dec.26, 2006: For C++ part, install WinHttp 5.1 SDK. The most straightforward way of doing that is downloading 400Mb of <a href="http://www.microsoft.com/downloads/details.aspx?familyid=A55B6B43-E24F-4EA3-A93E-40C0EC4F68E5&displaylang=en">Windows® Server 2003 R2 Platform SDK</a>.  
-  
-#kwd: sln_http.  
-  
+Dec.26, 2006: For C++ part, install WinHttp 5.1 SDK. The most straightforward way of doing that is downloading 400Mb of <a href="http://www.microsoft.com/downloads/details.aspx?familyid=A55B6B43-E24F-4EA3-A93E-40C0EC4F68E5&displaylang=en">Windowsï¿½ Server 2003 R2 Platform SDK</a>.  
+
 ***  
 

@@ -220,18 +220,19 @@ Visual FoxPro hides real file handle values. The FOPEN() returns the value from 
 Technically you may try to call the CloseHandle API for some handles on this list.  
   
 * * *  
-<img src="images/dosdevices.png" width=316 height=144>  
+![](../images/dosdevices.png)
+
 \Device\HarddiskVolume1 is the name of an object in the Windows kernel object hierarchy. It represents a device with the name HarddiskVolume1, which is the first volume of the hard disk. This device is normally mounted under the file-system name "c:", so the path is equivalent to c:\...   
   
 In the code sample above, the QueryDosDevice function is used to find the drive letters corresponding to the names like \Device\HarddiskVolume1 -- open cursor csDosDevices to see all.  
   
 * * *  
-Some links:  
-<LI><a href="http://msdn.microsoft.com/library/default.asp?url=/library/en-us/fileio/base/file_mapping.asp">File Mapping</a>, an article on MSDN  
-<LI><a href="http://msdn.microsoft.com/library/default.asp?url=/library/en-us/fileio/base/obtaining_a_file_name_from_a_file_handle.asp">Obtaining a File Name From a File Handle</a>, an article on MSDN  
-<LI><a href="http://www.freevbcode.com/ShowCode.asp?ID=3370">File Mapping Class Module</a> on FreeVBcode.com  
-<LI><a href="http://www.flipcode.com/articles/article_filemapping.shtml">Faster File Access With File Mapping</a>, an article written by *Hernán Moraldo*  
-<LI><a href="http://fox.wikis.com/wc.dll?Wiki~LowLevelFileFunctions">Low Level File Functions</a> on FoxPro Wiki  
+Some links:
+* [File Mapping](https://msdn.microsoft.com/en-us/library/windows/desktop/aa366556(v=vs.85).aspx), an article on MSDN 
+* [Obtaining a File Name From a File Handle](https://msdn.microsoft.com/en-us/library/windows/desktop/aa366789(v=vs.85).aspx), an article on MSDN  
+* <a href="http://www.freevbcode.com/ShowCode.asp?ID=3370">File Mapping Class Module</a> on FreeVBcode.com  
+* <a href="http://www.flipcode.com/articles/article_filemapping.shtml">Faster File Access With File Mapping</a>, an article written by *Hernï¿½n Moraldo*  
+* <a href="http://fox.wikis.com/wc.dll?Wiki~LowLevelFileFunctions">Low Level File Functions</a> on FoxPro Wiki  
   
 ***  
 

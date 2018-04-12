@@ -8,30 +8,32 @@ it requires at least VFP8.</span>
 
 The *gdiplusinit* object must be created before instantiating first gdi+ object in the application.  
 
-Code samples based on this class:<OL><LI style="margin-bottom: 5px;"><a href="?example=451">converting image file to another graphics format </a>[converting image file to another graphics format ](sample_451.md)  
-<LI style="margin-bottom: 7px;"><a href="?example=452">sending image file to printer</a>[sending image file to printer](sample_452.md)  
-<LI style="margin-bottom: 7px;"><a href="?example=454">saving image of FoxPro form to file</a>[saving image of FoxPro form to file](sample_454.md)  
-<LI style="margin-bottom: 7px;"><a href="?example=455">printing image file</a>[printing image file](sample_455.md)  
-<LI style="margin-bottom: 7px;"><a href="?example=457">sending image of FoxPro form or image file to the Clipboard</a>[sending image of FoxPro form or image file to the Clipboard](sample_457.md)  
-<LI style="margin-bottom: 7px;"><a href="?example=475">copying data from the Clipboard to an image file</a>[copying data from the Clipboard to an image file](sample_475.md)  
-<LI style="margin-bottom: 7px;"><a href="?example=461">reading and writing metadata in JPEG and TIFF files</a>[reading and writing metadata in JPEG and TIFF files](sample_461.md)  
-<LI style="margin-bottom: 7px;"><a href="?example=458">loading image file, drawing on it, saving the result to another file</a>[loading image file, drawing on it, saving the result to another file](sample_458.md)  
-<LI style="margin-bottom: 7px;"><a href="?example=460">scaling images</a>[scaling images](sample_460.md)  
-<LI style="margin-bottom: 7px;"><a href="?example=515">cropping images</a>[cropping images](sample_515.md)  
-<LI style="margin-bottom: 7px;"><a href="?example=525">rotating images</a>[rotating images](sample_525.md)  
-<LI style="margin-bottom: 7px;"><a href="?example=479">using Scale and Shear transformations</a>[using Scale and Shear transformations](sample_479.md)  
-<LI style="margin-bottom: 7px;"><a href="?example=501">extracting icon resources and saving in image files</a>[extracting icon resources and saving in image files](sample_501.md)  
-<LI style="margin-bottom: 7px;"><a href="?example=503">converting image file to .ICO file</a>[converting image file to .ICO file](sample_503.md)  
-<LI style="margin-bottom: 7px;"><a href="?example=462">enumerating fonts installed on the system</a>[enumerating fonts installed on the system](sample_462.md)  
-<LI style="margin-bottom: 7px;"><a href="?example=509">GDI+: printing vertical text on VFP reports via generated images</a>[GDI+: printing vertical text on VFP reports via generated images](sample_509.md)  
-<LI style="margin-bottom: 7px;"><a href="?example=513">converting lines of text to an image and saving in a graphics file</a>[converting lines of text to an image and saving in a graphics file](sample_513.md)  
-<LI style="margin-bottom: 7px;"><a href="?example=459">obtaining list of installed image encoders and decoders</a>[obtaining list of installed image encoders and decoders](sample_459.md)  
-<LI style="margin-bottom: 7px;"><a href="?example=514">drawing a Pie Chart</a>[drawing a Pie Chart](sample_514.md)  
-<li style="margin-bottom: 7px;"><a href="?example=596">creating a gradient</a>[creating a gradient](sample_596.md)  
-<LI style="margin-bottom: 7px;"><a href="?example=546">scrolling through large image with the mouse</a>[scrolling through large image with the mouse](sample_546.md)  
-<LI style="margin-bottom: 7px;"><a href="?example=526">extending user interface: controls that shake</a>[extending user interface: controls that shake](sample_526.md)  
-<LI style="margin-bottom: 7px;"><a href="?example=595">image scrolling with inertia</a>[image scrolling with inertia](sample_595.md)  
-<LI style="margin-bottom: 7px;"><a href="?example=597">custom Clock Control</a></OL>The library contains 14 classes and about 70 GDI+ declarations.[custom Clock Control](sample_597.md)  
+Code samples based on this class:
+
+* [converting image file to another graphics format ](sample_451.md)  
+* [sending image file to printer](sample_452.md)  
+* [saving image of FoxPro form to file](sample_454.md)  
+* [printing image file](sample_455.md)  
+* [sending image of FoxPro form or image file to the Clipboard](sample_457.md)  
+* [copying data from the Clipboard to an image file](sample_475.md)  
+* [reading and writing metadata in JPEG and TIFF files](sample_461.md)  
+* [loading image file, drawing on it, saving the result to another file](sample_458.md)  
+* [scaling images](sample_460.md)  
+* [cropping images](sample_515.md)  
+* [rotating images](sample_525.md)  
+* [using Scale and Shear transformations](sample_479.md)  
+* [extracting icon resources and saving in image files](sample_501.md)  
+* [converting image file to .ICO file](sample_503.md)  
+* [enumerating fonts installed on the system](sample_462.md)  
+* [GDI+: printing vertical text on VFP reports via generated images](sample_509.md)  
+* [converting lines of text to an image and saving in a graphics file](sample_513.md)  
+* [obtaining list of installed image encoders and decoders](sample_459.md)  
+* [drawing a Pie Chart](sample_514.md)  
+* [creating a gradient](sample_596.md)  
+* [scrolling through large image with the mouse](sample_546.md)  
+* [extending user interface: controls that shake](sample_526.md)  
+* [image scrolling with inertia](sample_595.md)  
+* [custom Clock Control](sample_597.md) The library contains 14 classes and about 70 GDI+ declarations.
   
 ***  
 
@@ -1319,7 +1321,7 @@ RETURN Chr(MOD(m.lnValue,256)) + CHR(INT(m.lnValue/256))
 [StringFromGUID2](../libraries/ole32/StringFromGUID2.md)  
 
 ## Comment:
-Microsoft® Windows® GDI+ exposes a <a href="http://msdn.microsoft.com/library/default.asp?url=/library/en-us/gdicpp/GDIPlus/GDIPlusreference/flatapi.asp">flat application programming interface</a> (API) that consists of about 600 functions implemented in Gdiplus.dll.  
+Microsoftï¿½ Windowsï¿½ GDI+ exposes a <a href="http://msdn.microsoft.com/library/default.asp?url=/library/en-us/gdicpp/GDIPlus/GDIPlusreference/flatapi.asp">flat application programming interface</a> (API) that consists of about 600 functions implemented in Gdiplus.dll.  
   
 <div class="precode">C:\Program Files\Common Files\Microsoft Shared\VFP\gdiplus.dll  
 </div>Check if you have <a href="http://msdn.microsoft.com/library/default.asp?url=/library/en-us/gdicpp/GDIPlus/GDIPlus.asp">the latest version of gdiplus library</a> installed.  
@@ -1338,9 +1340,6 @@ Articles of <a href="http://fox.wikis.com/wc.dll?Wiki~MarkusEgger~People">Markus
 <a href="http://foxpro.advisor.com/doc/14141">Using GDI+ in the VFP 9 Report Writer</a> by <a href="http://fox.wikis.com/wc.dll?Wiki~ChristofWollenhaupt">Christof Wollenhaupt</a> published in July 2004 issue of FoxPro Advisor.  
   
 <a href="http://foxproadvisor.com/doc/12044">Get to Know .NET GDI+</a> by <a href="http://advisor.com/whome.nsf/y/YGETZK">Ken Getz</a> published in March 2003 issue of FoxPro Advisor.  
-  
-* * *  
-There is <a href="http://www.universalthread.com/wconnect/wc.dll?FournierTransformation~2,54,33,18584">another GDI+ class</a> written by Alexander Golovlev that you can find in <a href="http://www.universalthread.com">UniversalThread</a> download section. This class is freeware and contains lot of useful functionality.  
   
 * * *  
 Aug.04, 2004: GDI+ Foundation Class to be shipped with VFP9 final release. Read <a href="http://www.pinpub.com./ME2/Audiences/dirmod.asp?sid=&nm=&type=pub&mod=Publications%3A%3AArticle&mid=8F3A7027421841978F18BE895F87F791&AudID=301888DF3BCF483382FC8A1382F3050B&tier=3&aid=C70E8322312C4E4E871C722D714B5937">Using GDI+ in VFP 9.0 with the FFC Library, Part 1</a> article in Fox Talk.  

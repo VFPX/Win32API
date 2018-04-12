@@ -73,8 +73,7 @@ PROCEDURE decl
 
 ## Comment:
 Links:  
-<LI><a href="http://fox.wikis.com/wc.dll?Wiki~RunAsAnotherUser">Run As Another User</a> on FoxPro Wiki  
-<LI><a href="http://www.universalthread.com/wconnect/wc.dll?FournierTransformation~2,41,15,948554">RUNAS topic</a> on UT.  
-  
+* <a href="http://fox.wikis.com/wc.dll?Wiki~RunAsAnotherUser">Run As Another User</a> on FoxPro Wiki  
+
 ***  
 

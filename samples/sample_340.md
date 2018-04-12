@@ -222,8 +222,6 @@ Between the FtpFindFirstFile and  the InternetCloseHandle calls, the application
 The handle returned by the FtpFindFirstFile must be closed with the InternetCloseHandle function when no longer needed.  
   
 The FindFirstFile has no such limit; it can have muliple handles opened at the same time.   
-  
-#kwd: sln_ftp.  
-  
+
 ***  
 

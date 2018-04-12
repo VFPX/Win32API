@@ -3,7 +3,7 @@
 # Enumerating Volumes and Volume Mounting Points (NTFS)
 
 ## Before you begin:
-![](../mount)  
+![](../images/mountedvolume.png)  
 
 After the volume mount points have been established, they are maintained through computer restarts automatically.  
 

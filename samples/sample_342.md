@@ -6,11 +6,13 @@
 Based on **Simple MAPI** functions this Custom class allows sending email messages from your *default email client* to multiple recipients with file attachments.  
 
 The interface:  
-<div class=precode>PROCEDURE AddRecipient(lcRcpName, lcRcpAddr)  
+```txt
+PROCEDURE AddRecipient(lcRcpName, lcRcpAddr)  
 PROCEDURE AddAttachment(lcFilename)  
-PROCEDURE SndMessage  
-</div>  
-Find a code sample using this class <a href="?example=343">here</a>.[here](sample_343.md)  
+PROCEDURE SndMessage
+```
+
+Find a code sample using this class [here.](sample_343.md)  
   
 ***  
 
@@ -362,8 +364,6 @@ Be sure that all attached files are accessible at the moment when you are invoki
 This class does not use MAPILogon and MAPILogoff functions (hSession=0). In this case -- it is called an *implicit* logon -- the MAPI session is temporary. The implicit session opened for the call is closed by the time the call returns.  
   
 Tested on Windows XP Home Edition, Outlook Express 6.  
-  
-#kwd: sln_sendemail.  
-  
+
 ***  
 

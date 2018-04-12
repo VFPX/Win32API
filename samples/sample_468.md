@@ -186,17 +186,17 @@ Same should be true for files transferred to remote server through HTTP POST req
 * * *  
 **Question:** how to obtain file type, the one Explorer displays in Type column, for a given extension?  
   
-<img src="images/getfiletype.png">  
-  
+![](../images/getfiletype.png)
+
 **Solution:**  
   
-<font color=#0000a0>Step 1.</font> Read default value for *HKEY_CLASSES_ROOT\.vbw*  
+**Step 1.** Read default value for *HKEY_CLASSES_ROOT\.vbw*  
   
-<img src="images/getfiletype1.png">  
+![](../images/getfiletype1.png)
+
+**Step 2.** Read default value for *HKEY_CLASSES_ROOT\VisualBasic.VBWFile* or for *HKEY_LOCAL_MACHINE\SOFTWARE\Classes\VisualBasic.VBWFile*  
   
-<font color=#0000a0>Step 2.</font> Read default value for *HKEY_CLASSES_ROOT\VisualBasic.VBWFile* or for *HKEY_LOCAL_MACHINE\SOFTWARE\Classes\VisualBasic.VBWFile*  
-  
-<img src="images/getfiletype2.png">  
-  
+![](../images/getfiletype2.png)
+
 ***  
 

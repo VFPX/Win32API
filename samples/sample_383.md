@@ -206,8 +206,6 @@ RETURN Chr(MOD(m.lnValue,256)) + CHR(INT(m.lnValue/256))
 As well you can store received data in a temporary file and load this file to a browser.  
   
 Same functionality can be achieved using Wininet functions -- InternetOpenUrl, HttpOpenRequest -- or using the URLDownloadToFile function from URL Monikers.  
-  
-#kwd: sln_winsock.  
-  
+
 ***  
 

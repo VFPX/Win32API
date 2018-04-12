@@ -83,7 +83,7 @@ RETURN Asc(SUBSTR(cBuffer, 1,1)) + ;
 According to the Microsoft all WinExec calls are translated directly into corresponding CreateProcess calls.  
   
 Microsoft Knowledge Base Article - 175986  
-<a href="http://support.microsoft.com/default.aspx?scid=http://support.microsoft.com:80/support/kb/articles/q175/9/86.asp&NoWebContent=1">Understanding CreateProcess_and Command-line Arguments</a>.  
+[Understanding CreateProcess_and Command-line Arguments](https://support.microsoft.com/en-us/help/175986/info-understanding-createprocess-and-command-line-arguments).
   
 * * *  
 Note overloaded Run methods in C# code.  

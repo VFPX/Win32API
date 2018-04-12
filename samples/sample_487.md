@@ -138,7 +138,8 @@ c:\dir1
 c:\dir2  
 c:\documents\dir1</font>*  
   
-<img src="images/arrofstrings.png" width=499 height=262>  
+![](../images/arrofstrings.png)
+
 As the first step, I use the GlobalAlloc to allocate each directory name in memory. Three GlobalAlloc calls return three memory addresses.  
   
 To become a null-terminated array, these memory addresses must be put one after another to a memory buffer and padded by some null characters. As I said, each address must occupy four bytes.  

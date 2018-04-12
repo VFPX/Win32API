@@ -48,8 +48,8 @@ Every process, when created, acquires its own separate environment block. And to
   
 * * *  
 After C# code executes:  
-  
-<img src=images/setenvvariable.png width=518 height=336>  
-  
+
+![](../images/setenvvariable.png)  
+
 ***  
 

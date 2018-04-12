@@ -3,7 +3,7 @@
 # GDI+: saving image of FoxPro form to graphics file (BMP, GIF, JPG, PNG, TIF)
 
 ## Before you begin:
-The code is based on <a href="?example=450">custom GDI+ class</a>. Download the class module first and save it in **gdiplus.prg** file. [custom GDI+ class](sample_450.md)  
+The code is based on [custom GDI+ class](sample_450.md). Download the class module first and save it in **gdiplus.prg** file.   
 
 Make sure the target file name is valid. The target file can be created in several graphics format supported by the GDI+: BMP, GIF, JPG, TIF.  
 
@@ -91,10 +91,5 @@ PROCEDURE decl
 [GetWindowRect](../libraries/user32/GetWindowRect.md)  
 [ReleaseDC](../libraries/user32/ReleaseDC.md)  
 
-## Comment:
-  
-  
-#kwd: sln_gdiplus.  
-  
 ***  
 

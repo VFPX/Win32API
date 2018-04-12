@@ -5,7 +5,7 @@
 ## Before you begin:
 This code sample reads the structure of VFP main menu and saves it in an XML document (the Microsoft.XMLDOM object is used for that).   
 
-This is an output this code produces -- <a href="images/vfp9menu.xml">the structure of VFP9 main menu</a>.[the structure of VFP9 main menu](sample_000.md)  
+This is an output this code produces -- [the structure of VFP9 main menu](../images/vfp9menu.xml).
 
 See also:
 

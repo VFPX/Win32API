@@ -13,7 +13,9 @@ Here is an example:
 
 ![](../images/jpegmetadata.png)  
 
-Microsoft SDK includes <a href="downloads/GdiPlusImaging.h" target="_blank">GdiplusImaging.h</a> header file with definitions of many (not all) PropertyItem IDs. For example:<code><font color=#0000a0>[GdiplusImaging.h](sample_000.md)  
+Microsoft SDK includes [GdiPlusImaging.h](../downloads/GdiPlusImaging.h) header file with definitions of many (not all) PropertyItem IDs. For example:
+
+```foxpro
 #define PropertyTagImageDescription    0x010E  
 #define PropertyTagEquipMake           0x010F  
 #define PropertyTagEquipModel          0x0110  
@@ -22,12 +24,12 @@ Microsoft SDK includes <a href="downloads/GdiPlusImaging.h" target="_blank">Gdip
 #define PropertyTagExifAperture       0x9202  
 #define PropertyTagExifBrightness     0x9203  
 #define PropertyTagExifExposureBias   0x9204  
-#define PropertyTagExifMaxAperture    0x9205  
-...</font></code>  
+#define PropertyTagExifMaxAperture    0x9205
+```
 
 The following code shows how to read this data from JPEG and TIFF image files. PNG files have limited support of this functionality. BMP and GIF files, afaik, do not support metadata storage.  
 
-The code is based on <a href="?example=450">custom GDI+ class</a>. Download the class module first and save it in **gdiplus.prg** file. [custom GDI+ class](sample_450.md)  
+The code is based on [custom GDI+ class](sample_450.md). Download the class module first and save it in **gdiplus.prg** file.   
   
 ***  
 
@@ -283,33 +285,39 @@ ENDDEFINE
 
 ## Comment:
 There are several PropertyTag IDs not included in GdiplusImaging.h header file:  
-<code><font color=#0000a0>  
+
+```foxpro
 #DEFINE PropertyTagPropTitle    0x9c9b  
 #DEFINE PropertyTagPropComments 0x9c9c  
 #DEFINE PropertyTagPropAuthor   0x9c9d  
 #DEFINE PropertyTagPropKeywords 0x9c9e  
-#DEFINE PropertyTagPropSubject  0x9c9f  
-</font></code>  
+#DEFINE PropertyTagPropSubject  0x9c9f
+```
+
 This picture shows corresponding properties:  
   
-<img src="images/jpegmetadata1.png" width=364 height=499>  
-  
+![](../images/jpegmetadata1.png)
+
 So with GDI+ you can scan JPEG and TIFF image files and check, for example, keywords or author name included. As you can see from this particular example, it is possible to add or modify metadata in image files.  
   
 Some links I saved for later on:  
 <LI><a href="http://www.php-websource.com/php436/source-exif.htm">http://www.php-websource.com/php436/source-exif.htm</a>  
 <LI><a href="http://www.opensource.apple.com/darwinsource/10.3/apache_mod_php-12/php/ext/exif/exif.c">http://www.opensource.apple.com/darwinsource/10.3/apache_mod_php-12/php/ext/exif/exif.c</a>  
   
-And how do you like that:<code>  
-<font color=#00a000>/* Olympus specific tags */</font><font color=#0000a0>  
+And how do you like that:
+
+```txt
+/* Olympus specific tags */
 #define TAG_OLYMPUS_SPECIALMODE         0x0200  
 #define TAG_OLYMPUS_JPEGQUAL            0x0201  
 #define TAG_OLYMPUS_MACRO               0x0202  
 #define TAG_OLYMPUS_DIGIZOOM            0x0204  
 #define TAG_OLYMPUS_SOFTWARERELEASE     0x0207  
 #define TAG_OLYMPUS_PICTINFO            0x0208  
-#define TAG_OLYMPUS_CAMERAID            0x0209</font>  
-<font color=#00a000>/* end Olympus specific tags */</font></code>  
+#define TAG_OLYMPUS_CAMERAID            0x0209
+/* end Olympus specific tags */
+```
+
   
 * * *  
 Naturally you would like to open image file, add or change property, then close the file saving the updates. It does not work this way for current GDI+ version.  
@@ -317,8 +325,6 @@ Naturally you would like to open image file, add or change property, then close 
 You may create gdiplus image object from a disk file and add new or change existing property item for this object. But you have to save it to *another image file* to keep this new property. The original file can not be rewritten until this inherited image object is released.  
   
 Save comments and descriptions using either *PropertyTagPropComments* or *PropertyTagImageDescription* property ids (some other ids may suit too). For saving Unicode strings use *PropertyTagTypeByte* type, for regular ASCII the *PropertyTagTypeASCII* is Ok.  
-  
-#kwd: sln_gdiplus.  
-  
+
 ***  
 

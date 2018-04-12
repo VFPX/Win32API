@@ -477,11 +477,9 @@ MSDN:*"Databases provide storage, access, and sorting of property-set records.
   
 The Windows CE database model is that of a small, flat structure, optimized for small, efficient storage. As such, the Windows CE database APIs do not correspond to the Win32 database APIs.   
   
-Data operations are transactioned within the object store or a database volume, which protects against data loss. If a Windows CE–based device loses power (reset or suspend/resume, where the RAM is refreshed) during a data transaction, Windows CE reverts all partial database operations to the last known good state. "*  
+Data operations are transactioned within the object store or a database volume, which protects against data loss. If a Windows CEï¿½based device loses power (reset or suspend/resume, where the RAM is refreshed) during a data transaction, Windows CE reverts all partial database operations to the last known good state. "*  
   
 Read complete topic <a href="http://msdn.microsoft.com/library/default.asp?url=/library/en-us/wcemain4/html/_wcefiles_using_a_windows_ce_database.asp">Microsoft Windows CE Databases</a> at the MSDN web site.  
-  
-#kwd: sln_pocketpc.  
-  
+
 ***  
 

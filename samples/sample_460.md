@@ -7,7 +7,7 @@ The code creates source image object from an image file. It also creates empty d
 
 Then the code uses the graphics of the destination bitmap both as a tool and canvas to draw the scaled source image on it. Finally the destination bitmap saves itself to file.  
 
-The code is based on <a href="?example=450">custom GDI+ class</a>. Download the class module first and save it in **gdiplus.prg** file. [custom GDI+ class](sample_450.md)  
+The code is based on [custom GDI+ class](sample_450.md). Download the class module first and save it in **gdiplus.prg** file.   
 
 Make sure the source and destination file names are valid. The source file can be in any of graphics formats supported by the GDI+: BMP, GIF, JPG, TIF, EMF... The destination file type is limited to BMP, JPG, GIF, PNG and TIFF.  
 

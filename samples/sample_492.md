@@ -22,18 +22,19 @@ The following items should be concealed:
 * all icons on the desktop  
 * ...  
 
-An article <a href="http://www.codeproject.com/win32/AntonioWinLock.asp">Lock Windows Desktop</a> written by *António Feijão* describes several techniques of restricting users from accessing the desktop and running other applications. [Lock Windows Desktop](sample_000.md)  
+An article [Lock Windows Desktop](https://www.codeproject.com/kb/winsdk/antoniowinlock.aspx?msg=2415660) written by *Antonio Feijao* describes several techniques of restricting users from accessing the desktop and running other applications. 
 
 The one that switches to a new desktop seems to be efficient, easy to understand and can be accomplished in just FoxPro code with no external libraries other than WinAPI.   
 
 Use the following code to test the AppLauncher class:  
-<div class=precode>LOCAL obj, ex As Exception  
+```foxpro
+LOCAL obj, ex As Exception  
 TRY  
 	obj = CREATEOBJECT("AppLauncher")  
 	WITH obj  
 		.StartProcessInNewDesktop(;  
 		"C:\Program Files\Internet Explorer\iexplore.exe",;  
-		 "www.universalthread.com")  
+		 "https://www.levelextreme.com")  
 
 		IF .errorno <> 0  
 			? .errorno, .message  
@@ -42,8 +43,9 @@ TRY
 
 CATCH TO ex  
 	? ex.ErrorNo, ex.Message  
-ENDTRY  
-</div>  
+ENDTRY
+```
+
 An Internet Explorer window will appear inside a new desktop. ALT+TAB, CTRL+ESC and CTRL+ALT+DEL keys are disabled. The Windows Taskbar and Start Menu are not visible. Close IE window to get back to the default Windows Desktop.  
 
 Requires Win XP/NT/2K, VFP8.  
@@ -311,8 +313,8 @@ A desktop is a securable object contained within a window station. A desktop has
   
 * * *  
 C++ code shows how to enumerate window stations and window desktops. The enumerations are based on callback functions and for that reason can not be programmed directly in VFP code.  
-  
-<img src="images/winstations.png" width=480 height=288 alt="EnumWindowStationProc">  
-  
+
+![](../images/winstations.png)  
+
 ***  
 

@@ -51,13 +51,16 @@ Not much of options exists for this function: one can not specify a disk letter 
   
 The *NET USE* command connects a computer to, or disconnects a computer from a shared resource; or displays information about computer connections. The command also controls persistent net connections.  
   
-*Syntax:*<DIV style="color: #000080">  
+*Syntax:*
+
+```txt
 net use [devicename | *] [\\computername\sharename[\volume]] [password | *]  
 [/user:[domainname\]username] [[/delete] | [/persistent:{yes | no}]]  
   
 net use devicename [/home [password | *]] [/delete: {yes | no}]  
   
-net use [/persistent: {yes | no}]</DIV>  
+net use [/persistent: {yes | no}]
+```
   
 ***  
 

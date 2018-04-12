@@ -7,7 +7,7 @@ To stop the following code after it has been started, open and save any file in 
 
 See also:
 
-* [FileSystemWatcher ActiveX Control for Visual FoxPro](sample_000.md)  
+* [FileSystemWatcher ActiveX Control for Visual FoxPro](../downloads/DirectoryWatch.zip)  
 * [Monitoring changes in a directory](sample_117.md)  
 * [Enumerating files opened on the network](sample_121.md)  
   
@@ -94,7 +94,7 @@ To stop the following code after it has been started, open and save any file in 
 * * *  
 The C++ sample displays file and directory changes for drive C in a console window. Close the window when you no longer need it.   
   
-This code itself makes an interesting tool. <a href="downloads/DirectoryWatch.zip">Download C++ project</a>, compile and start the executable. Then open VFP or IE window, or even move the mouse above the Windows taskbar -- you will see how many files and directory modifications may hide behind such a simple action.  
+This code itself makes an interesting tool. [Download C++ project](../downloads/DirectoryWatch.zip) , compile and start the executable. Then open VFP or IE window, or even move the mouse above the Windows taskbar -- you will see how many files and directory modifications may hide behind such a simple action.  
   
 * * *  
 Deleting a directory with subdirectories into the Recycle Bin produces a single FILE_NOTIFY_INFORMATION structure with the directory data. While a direct delete (the Recycle Bin is bypassed) triggers ReadDirectoryChangesW for each subdirectory, and finally for the directory.  

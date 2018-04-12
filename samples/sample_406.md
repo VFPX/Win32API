@@ -5,7 +5,7 @@
 ## Before you begin:
 Call this code from a method or event of FoxPro form to print image of the form on your default printer. Window handle of the form is obtained through GetFocus function. That is why this form has to be active, possessing the keyboard focus.  
 
-This code sample is based on Enhanced Metafile API functions. In a similar example <a href="?example=158">How to print a FoxPro form</a> a "bitmap" approach is used.[How to print a FoxPro form](sample_158.md)  
+This code sample is based on Enhanced Metafile API functions. In a similar example [How to print a FoxPro form](sample_158.md) a "bitmap" approach is used.  
 
 Enhanced metfaile functions make this code sample comparatively short and easy to understand.  
 
@@ -161,10 +161,6 @@ RETURN Chr(b0)+Chr(b1)+Chr(b2)+Chr(b3)
 [StartDoc](../libraries/gdi32/StartDoc.md)  
 [StartPage](../libraries/gdi32/StartPage.md)  
 
-## Comment:
-  
-  
-#kwd: sln_printform.  
-  
+
 ***  
 

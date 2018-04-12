@@ -177,7 +177,7 @@ Now you can see that _CLIPTEXT is just a small tip of an iceberg, which is the C
 * * *  
 A screen shot of the C# example:  
   
-<img src="images/enumclipcs.png">  
-  
+![](../images/enumclipcs.png)
+
 ***  
 

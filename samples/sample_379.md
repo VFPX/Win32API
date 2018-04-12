@@ -3,7 +3,7 @@
 # Saving local machine ODBC Registry Entries to XML file
 
 ## Before you begin:
-This is an example of <a href="downloads/odbc.xml" target=_blank>resulting XMl file</a>.[resulting XMl file](sample_000.md)  
+This is an example of [resulting XML file](downloads/odbc.xml).
   
 ***  
 

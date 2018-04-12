@@ -3,13 +3,16 @@
 # How to intercept window messages sent to VFP form
 
 ## Before you begin:
-Before testing this code download <a href=downloads\WinProcXT.dll>WinProcXT.dll</a> to a local directory and register it:[WinProcXT.dll](sample_000.md)  
+Before testing this code download [WinProcXT.dll](../downloads\WinProcXT.dll) to a local directory and register it:
 
-	<code>**regsvr32 c:\temp\WinProcXT.dll**</code>  
+```txt
+regsvr32 c:\temp\WinProcXT.dll
+```
+
 
 Change "c:\temp" to the name of a directory where you copied the DLL file.  
 
-This is an ActiveX DLL. The VB code is available <a href="downloads/winproc.zip">here</a>.[here](sample_000.md)  
+This is an ActiveX DLL. The VB code is available [here.](../downloads/winproc.zip)
 
 The DLL reassignes the WindowProc address of the VFP form to its own function and sends system messages to a text file. Change in the following program code the "c:\temp\log.txt" to any appropriate file name.  
 
@@ -17,7 +20,7 @@ Every system message has three parameters to be saved: message identifier, first
 
 Run the following code. Right after you close the form a list of system messages saved during its execution appears. Usually this list ends with message identifiers 2 (WM_DESTROY) and 130 (WM_NCDESTROY).  
 
-List of some message identifiers is available <a href="downloads/wm.dbf">here</a>.[here](sample_000.md)  
+List of some message identifiers is available [here.](../downloads/wm.dbf)
 
 * * *  
 For VFP9 use BINDEVENT() to trap Windows messages.  

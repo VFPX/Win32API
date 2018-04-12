@@ -8,7 +8,7 @@ This code sample retrieves the name of default printer on local computer and obt
 
 
 ## Before you begin:
-This code sample retrieves the name of default printer on local computer and obtains detailed information for this printer in <a href="http://msdn.microsoft.com/library/default.asp?url=/library/en-us/gdi/prntspol_8gz6.asp">PRINTER_INFO_5</a> format. [PRINTER_INFO_5](sample_000.md)  
+This code sample retrieves the name of default printer on local computer and obtains detailed information for this printer in   [PRINTER_INFO_5](http://msdn.microsoft.com/library/default.asp?url=/library/en-us/gdi/prntspol_8gz6.asp) format. 
 
 See also:
 

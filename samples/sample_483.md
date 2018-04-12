@@ -8,20 +8,19 @@ MD-5 is a one-way message-digest hash function. The algorithm processes input te
 
 
 ## Before you begin:
-Test the presented class as follows:<code><font color=#0000a0>  
-obj = CREATEOBJECT("TheHash")  
+Test the presented class as follows:
+```foxpro
+obj = CREATEOBJECT("TheHash")
 
-? obj.CreateSHA1("test string")</font>  
-<font color=#00a000>* returns 661295C9CBF9D6B2F6428414504A8DEED3020641</font>  
+? obj.CreateSHA1("test string") && returns 661295C9CBF9D6B2F6428414504A8DEED3020641</font>  
 
-<font color=#0000a0>? obj.CreateMD5("test string")</font>  
-<font color=#00a000>* returns 6F8DB599DE986FAB7A21625B7916589C</font>  
-</code>  
+? obj.CreateMD5("test string") && returns 6F8DB599DE986FAB7A21625B7916589C
+```
 See also:
 
 * [Simple class that encrypts and decrypts files using Cryptography API Functions ](sample_511.md)  
 * [CryptoAPI: Collection of Providers class](sample_463.md)  
-[<LI>WinINet function](../wininet/CreateMD5SSOHash.md)  
+* [WinINet function CreateMD5SSOHash](../wininet/CreateMD5SSOHash.md)  
   
 ***  
 
@@ -185,8 +184,8 @@ ENDDEFINE
 ## Comment:
 Transact-SQL HASHBYTES() function computes MD5 and SHA1 hashes identical to those produced by VFP and C# code samples above.  
   
-<img src= "images/tsqlhash.png">  
-  
+![](../images/tsqlhash.png)
+
 * * *  
 One-way hash functions can be used for creating a fingerprint for a block of data.   
   
@@ -210,13 +209,13 @@ MD-5 is a one-way message-digest hash function. The algorithm processes input te
 MD-5 was developed by <a href="http://theory.lcs.mit.edu/~rivest/">Ron Rivest</a> and is intended to be used in digital signatures applications. Earlier message digest algorithms include obsolete MD-2 and MD-4.  
   
 See also:   
-<LI><a href="http://www.faqs.org/rfcs/rfc1321.html">RFC 1321 - The MD5 Message-Digest Algorithm</a>  
-<LI><a href="http://www.rsasecurity.com/rsalabs/node.asp?id=2253">What are MD2, MD4, and MD5?</a>  
-<LI><a href="http://msdn.microsoft.com/library/default.asp?url=/library/en-us/seccrypto/security/example_c_program__creating_an_md-5_hash_from_file_content.asp">Example C Program: Creating an MD-5 Hash From File Content</a>.  
-<LI><a href="http://passcracking.com/">MD5 Online Cracking using Rainbow Tables</a>  
- <LI><a href="http://www.faqs.org/rfcs/rfc3174">RFC 3174 - US Secure Hash Algorithm 1 (SHA1)</a>  
-<LI><a href="http://www.bloglines.com/blog/AlexFeldstein?id=273">More on Newly Broken SHA1 on Alex Feldstein"s blog</a>  
-<LI><a href="http://www.cryptography.com/cnews/hash.html">Hash Collisions Q&A</a>  
+* <a href="http://www.faqs.org/rfcs/rfc1321.html">RFC 1321 - The MD5 Message-Digest Algorithm</a>  
+* <a href="http://x5.net/faqs/crypto/q99.html">What are MD2, MD4, and MD5?</a>  
+* [Example C Program: Creating an MD-5 Hash From File Content.](https://msdn.microsoft.com/en-us/library/windows/desktop/aa382380(v=vs.85).aspx)
+* [MD5 Online Cracking using Rainbow Tables.](https://www.go4expert.com/articles/cracking-md5-hashes-using-rainbow-tables-t17240/)
+* <a href="http://www.faqs.org/rfcs/rfc3174">RFC 3174 - US Secure Hash Algorithm 1 (SHA1)</a>  
+* <a href="http://www.bloglines.com/blog/AlexFeldstein?id=273">More on Newly Broken SHA1 on Alex Feldstein"s blog</a>  
+* <a href="http://www.cryptography.com/cnews/hash.html">Hash Collisions Q&A</a>  
   
 ***  
 

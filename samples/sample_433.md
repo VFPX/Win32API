@@ -3,7 +3,7 @@
 # GetFileOwner - Get the owner of an NTFS file
 
 ## Before you begin:
-The first version of this code sample was based on VB-to-VFP translation from VB example posted on <a href="http://www.devx.com/vb2themax/Tip/19292">DevX.com</a>. For a given file the function returns account and domain names in a string.[DevX.com](sample_000.md)  
+The first version of this code sample was based on VB-to-VFP translation from VB example posted on [DevX.com](http://www.devx.com/vb2themax/Tip/19292). For a given file the function returns account and domain names in a string.  
   
 ***  
 

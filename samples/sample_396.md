@@ -3,7 +3,7 @@
 # Converting characters in a URL into corresponding escape sequences and backwards
 
 ## Before you begin:
-Similar <a href="?example=396&function=616">example</a> using InternetCanonicalizeUrl function.[example](sample_616.md)  
+Similar [example](sample_616.md) using InternetCanonicalizeUrl function.  
   
 ***  
 

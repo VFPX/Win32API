@@ -3,19 +3,20 @@
 # Creating an Open dialog box to specify the drive, directory, and name of a file to open (Shell32 version)
 
 ## Before you begin:
-This is exactly the same functionality as in <a href="?example=363">another example</a> using the GetOpenFileName function. [another example](sample_363.md)  
+This is exactly the same functionality as in [another example](sample_363.md) using the GetOpenFileName function.   
 
 ![](../images/opendlg.png)  
 And it is achieved with less amount of more simple code, which is because of Shell32 functions being generally more friendly to developer :)  
 
-See also:<UL><LI style="padding-bottom: 7px;"><a href="?example=482">How to position the GETPRINTER() dialog</a>
+See also:
 
-<LI style="padding-bottom: 7px;"><a href="?example=424">Using Extended MessageBox() Class</a>[Using Extended MessageBox() Class](sample_424.md)  
-<LI style="padding-bottom: 7px;"><a href="?example=418">Extended MessageBox Class</a>[Extended MessageBox Class](sample_418.md)  
-<LI style="padding-bottom: 7px;"><a href="?example=434">How to change font name and size in the MessageBox dialog</a>[How to change font name and size in the MessageBox dialog](sample_434.md)  
-<LI style="padding-bottom: 7px;"><a href="?example=363">Creating the Open dialog box to specify the drive, directory, and name of a file to open</a>[Creating the Open dialog box to specify the drive, directory, and name of a file to open](sample_363.md)  
-<LI style="padding-bottom: 7px;"><a href="?example=265">Creating the Save dialog box to specify the drive, directory, and name of a file to save</a>[Creating the Save dialog box to specify the drive, directory, and name of a file to save](sample_265.md)  
-<LI style="padding-bottom: 7px;"><a href="?example=364">How to display a dialog box that enables the user to select a folder (an alternative to the GETDIR)</a>[How to display a dialog box that enables the user to select a folder (an alternative to the GETDIR)](sample_364.md)  
+* [How to position the GETPRINTER() dialog](sample_482.md)
+* [Using Extended MessageBox() Class](sample_424.md)  
+* [Extended MessageBox Class](sample_418.md)  
+* [How to change font name and size in the MessageBox dialog](sample_434.md)  
+* [Creating the Open dialog box to specify the drive, directory, and name of a file to open](sample_363.md)  
+* [Creating the Save dialog box to specify the drive, directory, and name of a file to save](sample_265.md)  
+* [How to display a dialog box that enables the user to select a folder (an alternative to the GETDIR)](sample_364.md)  
   
 ***  
 

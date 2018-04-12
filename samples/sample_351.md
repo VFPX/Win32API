@@ -8,7 +8,8 @@ This code sample presents the SharedResources class that encapsulates a collecti
 Note that all NetShare API calls require Unicode string parameters.  
 
 Use the following code to test the SharedResources class:  
-<code style="color=#0000a0;">  
+ 
+```foxpro
 LOCAL oShares As SharedResources, oShare As Share_Info_2  
 oShares = CREATEOBJECT("SharedResources")  <span style="color=#00a000;">&& local computer</span>  
 
@@ -17,8 +18,9 @@ FOR EACH oShare IN oShares.shares
 		? FromUnicode(oShare.sharename) + "=" +;  
 			FromUnicode(oShare.localpath)  
 	ENDIF  
-NEXT  
-</code>  
+NEXT
+```
+
 See also:
 
 
@@ -411,8 +413,9 @@ Administrator, Power User, Print Operator, or Server Operator group membership i
 The <a href="http://msdn.microsoft.com/library/default.asp?url=/library/en-us/dv_foxhelp/html/lngANETRESOURCESLP_RP.asp">ANETRESOURCES( )</a> function places the names of network shares or printers into an array and then returns the number of resources.  
   
 * * *  
-<img src="images/wmiprops.png" width=467 height=416>  
-  
+
+![](../images/wmiprops.png)
+
 Take a look at <a href="http://www.activexperts.com/activmonitor/windowsmanagement/adminscripts/filesfolders/sharedfolders/#EnumNetworkShares.htm">Scripts to manage Shared Folders</a> on ActiveXperts Software.  
   
 ***  

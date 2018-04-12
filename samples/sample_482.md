@@ -16,18 +16,19 @@ The GETPRINTER() dialog normaly appears at the left top corner of the main windo
 
 The interface has no input parameters that can be used to position the dialog. Still the Timer control and several API calls can solve this small problem.  
 
-The same technique is used in another example <a href="?example=424">Using Extended MessageBox() Class</a>. First you start a Timer, then call the GETPRINTER(). Amazingly, the Timer keeps ticking behind this otherwise perfectly modal window. So from the Timer event you can access the dialog and move it.[Using Extended MessageBox() Class](sample_424.md)  
+The same technique is used in another example [Using Extended MessageBox() Class](sample_424.md). First you start a Timer, then call the GETPRINTER(). Amazingly, the Timer keeps ticking behind this otherwise perfectly modal window. So from the Timer event you can access the dialog and move it.  
 
 This is not the ideal solution, because the dialog may "jump" -- *fixed [May 9, 2006] by locking and subsequently unlocking drawing in the Windows desktop*.   
 
-See also:<UL><LI style="padding-bottom: 7px;"><a href="?example=424">Using Extended MessageBox() Class</a>
+See also:
 
-<LI style="padding-bottom: 7px;"><a href="?example=418">Extended MessageBox Class</a>[Extended MessageBox Class](sample_418.md)  
-<LI style="padding-bottom: 7px;"><a href="?example=434">How to change font name and size in the MessageBox dialog</a>[How to change font name and size in the MessageBox dialog](sample_434.md)  
-<LI style="padding-bottom: 7px;"><a href="?example=365">Creating an Open dialog box to specify the drive, directory, and name of a file to open (Shell32 version)</a>[Creating an Open dialog box to specify the drive, directory, and name of a file to open (Shell32 version)](sample_365.md)  
-<LI style="padding-bottom: 7px;"><a href="?example=363">Creating the Open dialog box to specify the drive, directory, and name of a file to open</a>[Creating the Open dialog box to specify the drive, directory, and name of a file to open](sample_363.md)  
-<LI style="padding-bottom: 7px;"><a href="?example=265">Creating the Save dialog box to specify the drive, directory, and name of a file to save</a>[Creating the Save dialog box to specify the drive, directory, and name of a file to save](sample_265.md)  
-<LI style="padding-bottom: 7px;"><a href="?example=364">How to display a dialog box that enables the user to select a folder (an alternative to the GETDIR)</a>[How to display a dialog box that enables the user to select a folder (an alternative to the GETDIR)](sample_364.md)  
+* [Using Extended MessageBox() Class](sample_424.md)
+* [Extended MessageBox Class](sample_418.md)  
+* [How to change font name and size in the MessageBox dialog](sample_434.md)  
+* [Creating an Open dialog box to specify the drive, directory, and name of a file to open (Shell32 version)](sample_365.md)  
+* [Creating the Open dialog box to specify the drive, directory, and name of a file to open](sample_363.md)  
+* [Creating the Save dialog box to specify the drive, directory, and name of a file to save](sample_265.md)  
+* [How to display a dialog box that enables the user to select a folder (an alternative to the GETDIR)](sample_364.md)  
   
 ***  
 
@@ -132,7 +133,7 @@ ENDDEFINE
 ## Comment:
 Try this approach with other dialogs, like GETFONT(), GETFILE(). Note that in case of another dialog you must use the window title constant different from GETPRINTER_CAPTION.  
   
-Technically, you can even play an AVI on the dialog. Take a look at <a href="?example=430">How to play AVI file on the _screen</a> example. BTW, the *TAvi* also inherits the Timer class.  
+Technically, you can even play an AVI on the dialog. Take a look at [How to play AVI file on the _screen](sample_430.md) example. BTW, the *TAvi* also inherits the Timer class.  
   
 ***  
 

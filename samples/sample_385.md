@@ -12,12 +12,12 @@ See also:
 * [MAPI example (file attachments enabled)](sample_343.md)  
 * [MAPI: sending email messages](sample_193.md)  
 * [MAPI: reading email messages](sample_270.md)  
-* Function MAPISendDocuments   
+* [Function MAPISendDocuments](../libraries/mapi32/MAPISendDocuments.md)   
 
 FoxTalk articles:  
-* [Sending SMTP Messages in Visual FoxPro Applications, Part 1](sample_000.md)  
-* [Sending SMTP Messages in Visual FoxPro Applications, Part 2](sample_000.md)  
-* [Accessing Hotmail and MSN Accounts in Visual FoxPro](sample_000.md)  
+* [Sending SMTP Messages in Visual FoxPro Applications, Part 1](?article=10)  
+* [Sending SMTP Messages in Visual FoxPro Applications, Part 2](?article=11)  
+* [Accessing Hotmail and MSN Accounts in Visual FoxPro](?article=9)  
   
 ***  
 
@@ -344,8 +344,6 @@ For each BCC: recipient issue RCPT TO: command only, <U>not include</U> this ema
   
 * * *  
 Consider using the setsockopt function to adjust the buffer space used for the sending (the default value is 8192 bytes). Because of this, the large message bodies must be chopped and sent by chunks.  
-  
-#kwd: sln_sendemail, sln_winsock.  
-  
+
 ***  
 

@@ -160,9 +160,10 @@ ENDDEFINE
 ## Comment:
 It is important to have the background perfectly solid. Conversion to JPEG may create color artefacts because of the way the image is compressed with removing supposedly unnecessary part of it.  
   
-Observe the difference between the masked bitmap image and originated from it masked JPEG image. As I mentioned above, only bitmap images provide mouse event transparency.  
-<img src="images/bmp_and_jpeg.gif" width=554 height=280>  
-  
+Observe the difference between the masked bitmap image and originated from it masked JPEG image. As I mentioned above, only bitmap images provide mouse event transparency. 
+
+![](../images/bmp_and_jpeg.gif)
+
 Note that the Region API functions are still used to hide the frame of the form.   
   
 This combined approach can create irregular forms effortlessly, if compared to using solely Region API calls. After all, truly irregular forms may not be easily shaped with a combination of regions.  
@@ -172,12 +173,12 @@ The SetLayeredWindowAttributes requires at least Win2K, and works with top-level
 * * *  
 .NET WinForm implementation:  
   
-<img src="images/irregular_form_cs.jpg" alt="Irregular Form .NET WinForm" width=422 height=440>  
-  
+![](../images/irregular_form_cs.jpg)
+
 * * *  
 .NET WPF implementation is as brief as it is simple. In this case the background of PNG image must be transparent.  
   
-<img src="images/irregular_form_wpf.png" alt="Irregular Form .NET WPF" width=580>  
-  
+![](../images/irregular_form_wpf.png)
+
 ***  
 

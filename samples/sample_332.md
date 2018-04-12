@@ -173,10 +173,5 @@ PROCEDURE decl
 [GetUrlCacheEntryInfo](../libraries/wininet/GetUrlCacheEntryInfo.md)  
 [InternetTimeFromSystemTime](../libraries/wininet/InternetTimeFromSystemTime.md)  
 
-## Comment:
-  
-  
-#kwd: sln_http.  
-  
 ***  
 

@@ -3,9 +3,10 @@
 # GDI+: retrieving list of available image encoders and image decoders
 
 ## Before you begin:
-The code is based on <a href="?example=450">custom GDI+ class</a>. Download the class module first and save it in **gdiplus.prg** file. [custom GDI+ class](sample_450.md)  
+The code is based on [custom GDI+ class](sample_450.md). Download the class module first and save it in **gdiplus.prg** file.   
 
-<div class=precode>{557CF400-1A04-11D3-9A73-0000F81EF32E}  
+```txt
+{557CF400-1A04-11D3-9A73-0000F81EF32E}  
 {B96B3CAB-0728-11D3-9D7B-0000F81EF32E}  
 Built-in BMP Codec  
 BMP *.BMP;*.DIB;*.RLE image/bmp  
@@ -17,8 +18,9 @@ JPEG *.JPG;*.JPEG;*.JPE;*.JFIF image/jpeg
 
 {557CF402-1A04-11D3-9A73-0000F81EF32E}  
 {B96B3CB0-0728-11D3-9D7B-0000F81EF32E}  
-Built-in GIF Codec GIF *.GIF image/gif</div>  
-...  
+Built-in GIF Codec GIF *.GIF image/gif
+...
+```
   
 ***  
 

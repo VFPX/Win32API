@@ -163,9 +163,10 @@ May.24, 2007: rewritten from scratch
   
 Only members of the Administrators or Server Operators local group can successfully execute the NetFileEnum function.  
   
-Here is an example of data this code sample returns:  
-<img src="images/netfileenum_usage.png" width=535 height=505>  
-  
+Here is an example of data this code sample returns: 
+
+![](../images/netfileenum_usage.png)
+
 The number of file locks in FILE_INFO_3 structure does not relate to whether a VFP table or database open in exclusive or shared mode. This structure member shows zero.  
   
 For RPC communication, the Server service opens a named pipe SRVSVC.  

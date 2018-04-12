@@ -3,7 +3,7 @@
 # GDI+: printing image file
 
 ## Before you begin:
-The code is based on <a href="?example=450">custom GDI+ class</a>. Download the class module first and save it in **gdiplus.prg** file. [custom GDI+ class](sample_450.md)  
+The code is based on [custom GDI+ class](sample_450.md). Download the class module first and save it in **gdiplus.prg** file.  
 
 Make sure the source file name is valid. The source file can be in any of graphics formats supported by the GDI+: BMP, GIF, JPG, TIF, EMF...  
 
@@ -76,10 +76,5 @@ PROCEDURE decl
 [StartDoc](../libraries/gdi32/StartDoc.md)  
 [StartPage](../libraries/gdi32/StartPage.md)  
 
-## Comment:
-  
-  
-#kwd: sln_gdiplus.  
-  
 ***  
 

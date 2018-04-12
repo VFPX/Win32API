@@ -7,8 +7,9 @@ The code presents the *PrinterPort * and *PrinterPorts* classes. The latter is a
 
 The *PrinterPort* object has properties *portname, monitorname, description* and *porttype*.  
 
-See also:<UL><LI><a href="?example=146">Enumerating locally installed printers</a>
+See also:
 
+* [Enumerating locally installed printers](sample_146.md)
 * [Enumerating printer drivers installed](sample_082.md)  
 * [Enumerating the print processors and supporting data types installed on the specified server](sample_333.md)  
 * [Enumerating print jobs and retrieving information for default printer](sample_368.md)  
@@ -173,8 +174,9 @@ RETURN Asc(SUBSTR(lcBuffer, 1,1)) + ;
 March 14, 2005. *The code has been completely rewritten.*  
   
 * * *  
-Test this class:<code>  
-<div class=precode>LOCAL oPorts, oPort  
+Test this class:
+```foxpro
+LOCAL oPorts, oPort  
 oPorts = CREATEOBJECT("PrinterPorts", "") && local computer  
   
 FOR EACH oPort IN oPorts  
@@ -182,8 +184,8 @@ FOR EACH oPort IN oPorts
 NEXT  
   
 ? oPorts.AddPort("Local Port")  
-? oPorts.DeletePort("FILE:")  
-</div>  
-  
+? oPorts.DeletePort("FILE:")
+```
+
 ***  
 

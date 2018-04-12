@@ -3,9 +3,9 @@
 # How to display a user-defined icon in the MessageBox dialog
 
 ## Before you begin:
-Download <a href="downloads/ResourceContainer.dll">ResourceContainer.dll</a> before testing this code. This DLL is nothing more but a resource storage containing five icons. It does not require any installation procedure; just copy it to your FoxPro directory.[ResourceContainer.dll](sample_000.md)  
+Download [../downloads/ResourceContainer.dll](ResourceContainer.dll) before testing this code. This DLL is nothing more but a resource storage containing five icons. It does not require any installation procedure; just copy it to your FoxPro directory.
 
-<a href="http://www.news2news.com/vfp/?solution=3"><img src="images/messageboxindirect.png" width=321 height=129 border=0 alt="Download MsgBox FLL"></a>[](sample_000.md)  
+<a href="http://www.news2news.com/vfp/?solution=3"><img src="../images/messageboxindirect.png" width=321 height=129 border=0 alt="Download MsgBox FLL"></a>  
 See also:
 
 * [How to change font name and size in the MessageBox dialog](sample_434.md)  
@@ -156,11 +156,12 @@ A <a href="http://msdn.microsoft.com/library/default.asp?url=/library/en-us/vcco
   
 Any other file containing compatible icon resources can be used, for example Shell32.dll. Normally this file locates in System32 directory and contains plenty colorful icons the system readily uses itself.  
   
-<a href="?example=19"><img src="images/iconview_list.png" width=507 height=386 border=0></a>  
-  
+[![](../images/iconview_list.png)](sample_019.md)
+
 Change the code sample as shown below:  
   
-<div class="precode">hResource = LoadLibraryEx(GETENV("windir") + "\system32\shell32.dll",;  
+```foxpro
+hResource = LoadLibraryEx(GETENV("windir") + "\system32\shell32.dll",;  
 	0, LOAD_LIBRARY_AS_DATAFILE)  
 ...  
 cBuffer = num2dword(MSGBOXPARAMS_SIZE) +;  
@@ -172,11 +173,11 @@ cBuffer = num2dword(MSGBOXPARAMS_SIZE) +;
 	num2dword(47) +;  
 	num2dword(0) +;  
 	num2dword(0) +;  
-	num2dword(VAL(SYS(3004)))  
-</div>  
+	num2dword(VAL(SYS(3004)))
+```
 which should provide  this or similar result  
   
-<img src="images/messageboxindirect_shell32.png" width=318 height=131>  
+![](../images/messageboxindirect_shell32.png)
   
 * * *  
 Changing the dialog icon by sending the STM_SETICON message to the icon window is another approach (requires extra programming in C++). The STM_SETICON is usually sent before the dialog activates. The WMPARAM in this message is the HICON handle.   
@@ -185,7 +186,7 @@ There are several ways of obtaining the HICON: loading icon from ICO file (call 
   
 On the screenshot below, the icon inside the MessageBox is retrieved from the Skype executable by calling the SHGetFileInfo. Such functionality can be programmed in FLL or DLL library.  
   
-<a href="http://www.news2news.com/vfp/?solution=3"><img src="images/udficon_skype.png" border=0 alt="Download MsgBox FLL"></a>  
+<a href="http://www.news2news.com/vfp/?solution=3"><img src="../images/udficon_skype.png" border=0 alt="Download MsgBox FLL"></a>  
   
 ***  
 

@@ -9,7 +9,7 @@ This sample code returns a good amount of network parameters for your computer: 
 
 See also:
 
-* SendARP function  
+* [SendARP function](../libraries/iphlpapi/SendARP.md)  
 * [Obtaining addresses for the adapters on the local computer (Win XP/2003/Vista)](sample_506.md)  
 * [Using NetWkstaTransportEnum to obtain MAC Address of remote server](sample_435.md)  
 * [How to ping a remote site using IP Helper API calls](sample_382.md)  

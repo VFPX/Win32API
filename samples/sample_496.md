@@ -8,11 +8,11 @@ The SetLayeredWindowAttributes function sets the opacity and transparency color 
 
 
 ## Before you begin:
-The SetLayeredWindowAttributes function sets the opacity and the transparency color key of a layered window. Find an example of using this function in <a href="?example=453">Semi-transparent Form</a> code sample in this reference.[Semi-transparent Form](sample_453.md)  
+The SetLayeredWindowAttributes function sets the opacity and the transparency color key of a layered window. Find an example of using this function in [Semi-transparent Form](sample_453.md) code sample in this reference.  
 
 All menu popups are layered windows, which makes this technique applicable to them.  
 
-All VFP menus are <a href="http://msdn.microsoft.com/en-us/library/bb756947.aspx">owner-draw menus</a>. The WM_DRAWITEM message is sent to the parent window of an owner-drawn menu when its visual aspect has changed. Through this message the window procedure obtains a pointer to the <a href="http://msdn.microsoft.com/en-us/library/bb775802(v=vs.85).aspx">DRAWITEMSTRUCT structure</a>.[owner-draw menus](sample_000.md)  
+All VFP menus are [owner-draw menus](http://msdn.microsoft.com/en-us/library/bb756947.aspx). The WM_DRAWITEM message is sent to the parent window of an owner-drawn menu when its visual aspect has changed. Through this message the window procedure obtains a pointer to the <a href="http://msdn.microsoft.com/en-us/library/bb775802(v=vs.85).aspx">DRAWITEMSTRUCT structure</a>.  
 
 This structure contains the hDC for a menu popup window. Pass this hDC to the WindowFromDC function to obtain the window handle (HWND) for the menu pop window.  
 
@@ -21,10 +21,11 @@ In VFP9, BINDEVENT() function can intercept Windows messages including the WM_DR
 ![](../images/transparentmenu.jpg)  
 
 To test the MenuManager class, copy the code sample to MenuManager.prg and type in the Command Window:  
-<code><font color=#0000a0>  
+ 
+```foxpro
 oManager = NEWOBJECT("MenuManager", "MenuManager.prg")  
-oManager.SetHook(Application.hWnd)  <span style="color:#00a000;">&& VFP9 required</span>  
-</font></code>  
+oManager.SetHook(Application.hWnd)  && VFP9 required</span>
+```
 After that the VFP System Menu will show semi-transparent. Release the MenuManager object to return the menu back to its normal state.  
 
 See also:

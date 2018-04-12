@@ -10,10 +10,12 @@ Simple FTP manager form built on this class:
 
 ![](../images/ftpform.png)  
 
-Here is a <a href="?example=345">sample code</a> that uses this class.[sample code](sample_345.md)  
+Here is a [sample code](sample_345.md) that uses this class.  
 
 The interface:  
-<div class=precode>FUNCTION  FtpConnect(lcHost, lcUsr, lcPswd)  
+
+```foxpro
+FUNCTION  FtpConnect(lcHost, lcUsr, lcPswd)  
 PROCEDURE FtpDisconnect  
 PROPERTY  IsConnected  
 
@@ -35,15 +37,16 @@ PROCEDURE OnPutChunk(lcLocalFile, lcRemoteFile, lnBytesWritten)
 
 FUNCTION  BeforeGetFile(lcRemoteFile, lcLocalFile)  
 PROCEDURE AfterGetFile(lcRemoteFile, lcLocalFile, lResult)  
-PROCEDURE OnGetChunk(lcRemoteFile, lcLocalFile, lnBytesWritten)  
-</div>  
+PROCEDURE OnGetChunk(lcRemoteFile, lcLocalFile, lnBytesWritten)
+```
+
 See also:
 
 * [Winsock: accessing FTP](sample_386.md)  
 * [Using FTPCommand](sample_059.md)  
 
 More advanced VFP-based FTP solution:  
-<a href="http://www.news2news.com/vfp/?solution=1&src=x344"><img src="images/ftplib_270_48.jpg" width=270 height=48 border=0  vspace=5 hspace=5 alt="Download FTP Class Library"></a>[](sample_000.md)  
+<a href="http://www.news2news.com/vfp/?solution=1&src=x344"><img src="../images/ftplib_270_48.jpg" width=270 height=48 border=0  vspace=5 hspace=5 alt="Download FTP Class Library"></a>[](sample_000.md)  
   
 ***  
 
@@ -585,7 +588,8 @@ Because of the VFP one-process and one-thread nature such FTP class -- under som
 * * *  
 To create a passive data connection to an FTP server, use INTERNET_FLAG_PASSIVE for *dwFlags* parameter in the InternetConnect call:  
   
-<div class=precode>#DEFINE INTERNET_INVALID_PORT_NUMBER 0  
+```foxpro
+#DEFINE INTERNET_INVALID_PORT_NUMBER 0  
 #DEFINE INTERNET_SERVICE_FTP         1  
 #DEFINE INTERNET_FLAG_PASSIVE 0x08000000  
   
@@ -593,9 +597,8 @@ nFlags = INTERNET_FLAG_PASSIVE  </font><font color=#008000>&& use 0 for the acti
   
 hConnection = InternetConnect(m.hInternet, m.host,;  
 	INTERNET_INVALID_PORT_NUMBER,;  
-	m.usr, m.cPsw, INTERNET_SERVICE_FTP, m.nFlags, 0)  
-</div>  
-#kwd: sln_ftp.  
-  
+	m.usr, m.cPsw, INTERNET_SERVICE_FTP, m.nFlags, 0)
+```
+
 ***  
 

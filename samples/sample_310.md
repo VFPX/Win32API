@@ -5,8 +5,8 @@
 ## Before you begin:
 See also:
 
-* Function GetUserName   
-* Function IsUserAnAdmin   
+* [Function GetUserName](../libraries/advapi32/GetUserName.md)   
+* [Function IsUserAnAdmin](../libraries/shell32/IsUserAnAdmin.md)
 * [Finding out if the current user is the Guest account](sample_566.md)  
   
 ***  

@@ -8,14 +8,15 @@ This code uses GetListOfExamples  and GetExample  functions wrapped in XML Web S
 
 
 ## Before you begin:
-Get WSDL and description of exposed functions in this <a href="http://www.news2news.com/vfp/?article=5">article</a>. [article](sample_000.md)  
+Get WSDL and description of exposed functions in this <a href="http://www.news2news.com/vfp/?article=5">article</a>. 
+
 Use at least VFP8 to test this example.  
 
-![](../http://www.news2news.com/vfp/images/rmt_shell.png)  
+![](../images/rmt_shell.png)  
 
 See also:
 
-* [ApiViewer for Visual FoxPro](sample_000.md)  
+* [ApiViewer for Visual FoxPro](http://www.news2news.com/vfp/?article=12)  
 
   
 ***  
@@ -180,14 +181,14 @@ ENDDEFINE
 [ShellExecute](../libraries/shell32/ShellExecute.md)  
 
 ## Comment:
-C# version of this code sample. Click on the image below to <a href="http://www.news2news.com/vfp/downloads/Win32_ExampleViewer_VS2008_prj.zip">download VS2008 C# project</a>.  
-  
-<a href="http://www.news2news.com/vfp/downloads/Win32_ExampleViewer_VS2008_prj.zip"><img src=images/rmt_shell_cs.png border=0 alt="Download VS2008 project"></a>  
-  
+C# version of this code sample. Click on the image below to [download VS2008 C# project](../site/downloads/Win32_ExampleViewer_VS2008_prj.zip).   
+
+[![Download VS2008 project](../images/rmt_shell_cs.png)](http://www.news2news.com/vfp/downloads/Win32_ExampleViewer_VS2008_prj.zi)  
+
 VB.Net version of this code sample.  
-  
-<img src=images/rmt_shell_vb.png width=469 height=344>  
-  
+
+![](../images/rmt_shell_vb.png)  
+
 Start new Windows Application project. Place on the form TabControl, ListBox, TextBox and LinkLabel controls.  
   
 Add to the project new Web Reference pointing at <a href="http://www.news2news.com/vfp/wsdl/webservices.WSDL">http://www.news2news.com/vfp/wsdl/webservices.WSDL</a>.   

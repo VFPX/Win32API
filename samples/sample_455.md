@@ -3,14 +3,14 @@
 # GDI+: sending image of FoxPro form to printer
 
 ## Before you begin:
-The code is based on <a href="?example=450">custom GDI+ class</a>. Download the class module first and save it in **gdiplus.prg** file. [custom GDI+ class](sample_450.md)  
+The code is based on [custom GDI+ class](sample_450.md). Download the class module first and save it in **gdiplus.prg** file.    
 
 Call this code from a method or event of a FoxPro form when that form is active, i.e. posesses the keyboard focus.  
 
 See also:
 
 
-<a href="http://www.news2news.com/vfp/?solution=9"><img src="images/screencapture_270_48.png" width=270 height=48 border=0 alt="Download ScreenCapture Library"></a>[](sample_000.md)  
+<a href="http://www.news2news.com/vfp/?solution=9"><img src="../images/screencapture_270_48.png" width=270 height=48 border=0 alt="Download ScreenCapture Library"></a>  
 
 * [How to print FoxPro form](sample_158.md)  
 * [How to print FoxPro form -- II (using metafile)](sample_406.md)  
@@ -132,9 +132,6 @@ PROCEDURE decl
 [StartDoc](../libraries/gdi32/StartDoc.md)  
 [StartPage](../libraries/gdi32/StartPage.md)  
 
-## Comment:
-  
-#kwd: sln_gdiplus, sln_printform  
-  
+
 ***  
 

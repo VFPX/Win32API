@@ -184,20 +184,23 @@ ENDDEFINE
 ## Comment:
 More functionality like printing and saving the scaled image to another file can be added to this class in a short time from code examples already included in this reference.  
   
-The native FoxPro function <a href="http://msdn.microsoft.com/library/default.asp?url=/library/en-us/fox7help/html/lngloadpicturelp_rp.asp">LoadPicture</a> returns valid bitmap handle when applied to bitmap files (GIF and JPEG files also):  
-<code>  
-	obj = LoadPicture("mybitmap.bmp")  
-	? "Bitmap handle:", obj.handle  
-</code>  
+The native FoxPro function **LoadPicture** returns valid bitmap handle when applied to bitmap files (GIF and JPEG files also):  
   
+```foxpro
+obj = LoadPicture("mybitmap.bmp")  
+? "Bitmap handle:", obj.handle
+```
+
 Actually LoadPicture() returns an object with properties *Handle, Height, hPal, Type,*and *Width*.  
   
-Also it has a single method *Render* called with parameters (VB syntax)<code>  
-	hdc As Long, x As Long, y As Long,   
-	cx As Long, cy As Long,  
-	xSrc As OLE_XPOS_HIMETRIC, ySrc As OLE_YPOS_HIMETRIC,  
-	cxSrc As OLE_XSIZE_HIMETRIC, cySrc As OLE_YSIZE_HIMETRIC,  
-	prcWBounds As Any</code>  
+Also it has a single method *Render* called with parameters (VB syntax)
+```vbnet
+hdc As Long, x As Long, y As Long,   
+cx As Long, cy As Long,  
+xSrc As OLE_XPOS_HIMETRIC, ySrc As OLE_YPOS_HIMETRIC,  
+cxSrc As OLE_XSIZE_HIMETRIC, cySrc As OLE_YSIZE_HIMETRIC,  
+prcWBounds As Any
+```
   
   
   

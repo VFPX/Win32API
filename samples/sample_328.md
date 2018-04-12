@@ -61,10 +61,5 @@ RETURN Asc(SUBSTR(lcBuffer, 1,1)) + ;
 [InternetTimeFromSystemTime](../libraries/wininet/InternetTimeFromSystemTime.md)  
 [InternetTimeToSystemTime](../libraries/wininet/InternetTimeToSystemTime.md)  
 
-## Comment:
-  
-  
-#kwd: sln_http.  
-  
 ***  
 

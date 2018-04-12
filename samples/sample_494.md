@@ -15,9 +15,10 @@ On Windows XP computer, make sure that the Messenger service is running:
 ![](../images/messengerservice.png)  
 If the Messenger service is not running, upon creating an instance of the NetMessages object you will get error code 2184 (The service has not been started).  
 
-If a service is stopped and not disabled, you can start it programmatically using <a href="?example=476">VFP Windows Services class library</a> :[VFP Windows Services class library](sample_476.md)  
+If a service is stopped and not disabled, you can start it programmatically using [VFP Windows Services class library](sample_476.md):  
 
-<div class="precode">#DEFINE SERVICE_WIN32 0x30  
+```foxpro
+#DEFINE SERVICE_WIN32 0x30  
 #DEFINE SERVICE_RUNNING 4  
 
 LOCAL ws As winservices, srv As winservice  
@@ -28,7 +29,9 @@ srv = ws.GetService("Messenger")
 IF srv.currentstate <> SERVICE_RUNNING  
 	= MESSAGEBOX("The Messenger service is off!")  
 *	srv.StartService  
-ENDIF</div>  
+ENDIF
+```
+
 
 See also:
 
@@ -217,23 +220,26 @@ RETURN Asc(SUBSTR(lcBuffer, 1,1)) + ;
 Note that this code sample does not work on Win9* computers.  
   
 Sending a message:  
-<div class=precode>obj = CREATEOBJECT("NetMessages")  
+```foxpro
+obj = CREATEOBJECT("NetMessages")  
 IF obj.errorno = 0  
 	obj.SendMessage("WKSTATION1", "Test message")  
-ENDIF  
-</div>  
+ENDIF
+```
 Sending a message from a server (must have admin rights):  
-<div class=precode>obj = CREATEOBJECT("NetMessages", "MYSERVER")  
+```foxpro
+obj = CREATEOBJECT("NetMessages", "MYSERVER")  
 IF obj.errorno = 0  
 	obj.SendMessage("WKSTATION1", "Test message")  
-ENDIF  
-</div>  
+ENDIF
+```
 Sending a message to all domain computers (note an asterick after the domain name):  
-<div class=precode>obj = CREATEOBJECT("NetMessages")  
+```foxpro
+obj = CREATEOBJECT("NetMessages")  
 IF obj.errorno = 0  
 	obj.SendMessage("MYDOMAIN*", "Test message")  
-ENDIF  
-</div>  
+ENDIF
+```
 Sometimes it takes time for the NetMessageBufferSend to return control. The mailslot approach turns around much faster.  
   
 Use [domain name]* to broadcast a message to all domain computers.  

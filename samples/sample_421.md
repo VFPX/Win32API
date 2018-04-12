@@ -3,7 +3,7 @@
 # WAV file recorder
 
 ## Before you begin:
-This code is based on **TWaveRecorder** class defined in example <a href="?example=420">Custom class for .WAV recording</a>.[Custom class for .WAV recording](sample_420.md)  
+This code is based on **TWaveRecorder** class defined in example [Custom class for .WAV recording](sample_420.md).  
 
 ![](../images/waverecorder.png)  
 The recorder is able to record audio coming from playback devices like Wave, Microphone etc. Check active playback and recording devices and their volumes before running this code.  

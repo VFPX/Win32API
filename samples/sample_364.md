@@ -4,18 +4,18 @@
 
 ## Before you begin:
 ![](../images/shbrowse.png)  
-Starting with VFP7 the original <a href="http://msdn.microsoft.com/library/default.asp?url=/library/en-us/fox7help/html/lnggetdirlp_rp.asp">GETDIR</a> function is changed to be a wrapper around the SHBrowseForFolder function.[GETDIR](sample_000.md)  
+Starting with VFP7 the original <a href="http://msdn.microsoft.com/library/default.asp?url=/library/en-us/fox7help/html/lnggetdirlp_rp.asp">GETDIR</a> function is changed to be a wrapper around the SHBrowseForFolder function.  
 
-Check a <a href="http://www.tek-tips.com/gfaqs.cfm/pid/184/fid/1760">similar code</a> published in FoxTalk November 1999 by <a href="http://fox.wikis.com/wc.dll?Wiki~AndrewCoates~People">Andrew Coates</a>.[similar code](sample_000.md)  
+Check a <a href="http://www.tek-tips.com/gfaqs.cfm/pid/184/fid/1760">similar code</a> published in FoxTalk November 1999 by <a href="http://fox.wikis.com/wc.dll?Wiki~AndrewCoates~People">Andrew Coates</a>.
 
-See also:<UL><LI style="padding-bottom: 7px;"><a href="?example=482">How to position the GETPRINTER() dialog</a>
-
-<LI style="padding-bottom: 7px;"><a href="?example=424">Using Extended MessageBox() Class</a>[Using Extended MessageBox() Class](sample_424.md)  
-<LI style="padding-bottom: 7px;"><a href="?example=418">Extended MessageBox Class</a>[Extended MessageBox Class](sample_418.md)  
-<LI style="padding-bottom: 7px;"><a href="?example=434">How to change font name and size in the MessageBox dialog</a>[How to change font name and size in the MessageBox dialog](sample_434.md)  
-<LI style="padding-bottom: 7px;"><a href="?example=365">Creating an Open dialog box to specify the drive, directory, and name of a file to open (Shell32 version)</a>[Creating an Open dialog box to specify the drive, directory, and name of a file to open (Shell32 version)](sample_365.md)  
-<LI style="padding-bottom: 7px;"><a href="?example=363">Creating the Open dialog box to specify the drive, directory, and name of a file to open</a>[Creating the Open dialog box to specify the drive, directory, and name of a file to open](sample_363.md)  
-<LI style="padding-bottom: 7px;"><a href="?example=265">Creating the Save dialog box to specify the drive, directory, and name of a file to save</a>[Creating the Save dialog box to specify the drive, directory, and name of a file to save](sample_265.md)  
+See also:
+* [How to position the GETPRINTER() dialog](sample_482.md)
+* [Using Extended MessageBox() Class](sample_424.md)  
+* [Extended MessageBox Class](sample_418.md)  
+* [How to change font name and size in the MessageBox dialog](sample_434.md)  
+* [Creating an Open dialog box to specify the drive, directory, and name of a file to open (Shell32 version)](sample_365.md)  
+* [Creating the Open dialog box to specify the drive, directory, and name of a file to open](sample_363.md)  
+* [Creating the Save dialog box to specify the drive, directory, and name of a file to save](sample_265.md)  
   
 ***  
 
@@ -196,23 +196,23 @@ RETURN Asc(SUBSTR(lcBuffer, 1,1)) + ;
 ## Comment:
 I use the GlobalFree function to release the allocated memory.  
   
-In Andrew Coates code this is  
-<code>= CoTaskMemFree(lpIDList)</code>  
-which is probably a better way.  
+In Andrew Coates code this is `= CoTaskMemFree(lpIDList)` which is probably a better way.  
   
 The SHParseDisplayName translates the initial path to the pointer to an item identifier list (PIDL).  
   
 * * *  
 Windows Shell script:  
-<div class=precode>oShell = CREATEOBJECT("Shell.Application")  
+
+```foxpro
+oShell = CREATEOBJECT("Shell.Application")  
   
 oFolder = oShell.Application.BrowseForFolder(_screen.HWnd,;  
 	"Select Folder", 1, "c:\Program Files")  
   
 IF NOT ISNULL(oFolder)  
 	? oFolder.self.Path  
-ENDIF  
-</div>  
-  
+ENDIF
+```
+
 ***  
 
