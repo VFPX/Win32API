@@ -46,10 +46,13 @@ If the function succeeds, the return value is nonzero.
 
 
 ## Comments:
+```cpp
 typedef struct _FILETIME {   
     DWORD dwLowDateTime;   
     DWORD dwHighDateTime;   
-} FILETIME, *PFILETIME; // 8 bytes  
+} FILETIME, *PFILETIME; // 8 bytes
+```
+  
   
 ***  
 

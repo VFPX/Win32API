@@ -54,7 +54,7 @@ If the function succeeds, the return value is a search handle used in a subseque
 
 
 ## Comments:
-Read article <a href="http://msdn.microsoft.com/library/default.asp?url=/library/en-us/fileio/fs/volume_mount_points.asp">Volume Mount Points</a> on MSDN.  
+Read article [Volume Mount Points](https://technet.microsoft.com/en-us/library/cc938934.aspx) on TechNet.  
   
 ***  
 

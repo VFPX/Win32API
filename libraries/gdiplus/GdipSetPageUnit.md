@@ -45,7 +45,7 @@ Returns GpStatus value, 0 means success.
 ## Comments:
 The page unit belongs to the page transformation, which converts page coordinates to device coordinates.  
   
-See Also: GdipGetPageUnit   
+See Also: [GdipGetPageUnit](GdipGetPageUnit.md)   
   
 ***  
 

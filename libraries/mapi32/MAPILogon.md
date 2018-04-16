@@ -72,7 +72,7 @@ In my testing this function used to change active directory to the one of the Ou
   
 MSDN: Determine that Simple MAPI is available by checking the [MAIL] section in the computer"s WIN.INI file for the MAPI entry. This entry will have a value of 1 if Simple MAPI is installed, or 0 if uninstalled.   
   
-Check example in this reference: <a href="?example=136">Reading keys in the specified section of the Win.ini file</a> -- this is how to test Simple MAPI availabliilty on the local computer.  
+Check example in this reference: [Reading keys in the specified section of the Win.ini file](../../samples/sample_136.md) -- this is how to test Simple MAPI availabliilty on the local computer.  
   
 ***  
 

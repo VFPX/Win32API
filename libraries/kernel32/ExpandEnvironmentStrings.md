@@ -52,7 +52,7 @@ If the function succeeds, the return value is the number of TCHARs stored in the
 
 
 ## Comments:
-See also GetEnvironmentStrings, GetSystemInfo.  
+See also: [GetEnvironmentStrings](GetEnvironmentStrings.md), [GetSystemInfo](GetSystemInfo.md).  
   
 ***  
 
