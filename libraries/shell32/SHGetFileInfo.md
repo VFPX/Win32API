@@ -68,7 +68,7 @@ Returns a value whose meaning depends on the uFlags parameter.
 ## Comments:
 If SHGetFileInfo returns an icon handle (HICON) in the hIcon member of the SHFILEINFO structure pointed to by psfi.   
   
-Not so many applications in Visual FoxPro for this HICON handle I can think of. But there are two I am pretty sure about: displaying an icon in the [System Tray](../../sample_235.md) and displaying an icon [inside the MessageBox dialog window](../../sample_500.md).
+Not so many applications in Visual FoxPro for this HICON handle I can think of. But there are two I am pretty sure about: displaying an icon in the [System Tray](../../samples/sample_235.md) and displaying an icon [inside the MessageBox dialog window](../../samples/sample_500.md).
   
 The application is responsible for freeing the icon handle with DestroyIcon when it is no longer needed.  
   
