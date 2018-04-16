@@ -60,7 +60,7 @@ The return value specifies the value of the desired item.
 
 
 ## Comments:
-See also: [VFP <a href="http://msdn.microsoft.com/en-us/library/39ddf2h2(VS.80).aspx">SYSMETRIC()</a> function](..//VFP <a href="http://msdn.microsoft.com/en-us/library/39ddf2h2(VS.80).aspx">SYSMETRIC()</a> function.md).  
-  
+See also: [SYSMETRIC()](http://msdn.microsoft.com/en-us/library/39ddf2h2(VS.80).aspx)  
+
 ***  
 

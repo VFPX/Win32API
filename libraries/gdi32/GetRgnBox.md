@@ -42,10 +42,12 @@ lprc
 
 ## Return value:
 The return value specifies the region"s complexity:
+```txt
 #DEFINE NULLREGION     1
 #DEFINE SIMPLEREGION   2
 #DEFINE COMPLEXREGION  3
 #DEFINE RGN_ERROR      0
+```
   
 ***  
 

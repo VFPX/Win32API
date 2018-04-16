@@ -59,7 +59,9 @@ If the function succeeds, the return value is nonzero.
 ## Comments:
 The string does not need to be zero-terminated, because the cbString parameter specifies the length of the string.  
   
-See also: [GdipMeasureString](../gdiplus/GdipMeasureString.md), [<a href="http://msdn2.microsoft.com/en-us/library/fhfdf28k(VS.80).aspx">FONTMETRICS()</a>](..//<a href="http://msdn2.microsoft.com/en-us/library/fhfdf28k(VS.80).aspx">FONTMETRICS()</a>.md), [<a href="http://msdn2.microsoft.com/en-us/library/a93d7wy7(VS.80).aspx">TXTWIDTH()</a>](..//<a href="http://msdn2.microsoft.com/en-us/library/a93d7wy7(VS.80).aspx">TXTWIDTH()</a>.md), [<a href="http://msdn2.microsoft.com/en-us/library/bx88s7fs(VS.80).aspx">WFONT( )</a>](..//<a href="http://msdn2.microsoft.com/en-us/library/bx88s7fs(VS.80).aspx">WFONT( )</a>.md).  
-  
+See also: [GdipMeasureString](../gdiplus/GdipMeasureString.md), [TXTWIDTH()](http://msdn2.microsoft.com/en-us/library/a93d7wy7(VS.80).aspx), 
+[WFONT( )](http://msdn2.microsoft.com/en-us/library/bx88s7fs(VS.80).aspx)  
+
+
 ***  
 

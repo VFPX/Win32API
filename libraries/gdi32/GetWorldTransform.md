@@ -48,7 +48,7 @@ Conversion function <Strong>float2int</Strong> is described in <a href="http://f
   
 The SetWorldTransform function will fail unless the graphics mode for the given device context has been set to GM_ADVANCED by previously calling the SetGraphicsMode function.  
   
-See also: [SetWorldTransform](..//SetWorldTransform.md).  
+See also: [SetWorldTransform](https://msdn.microsoft.com/en-us/library/windows/desktop/dd145104%28v=vs.85%29.aspx?f=255&MSPPError=-2147217396).  
   
 ***  
 
