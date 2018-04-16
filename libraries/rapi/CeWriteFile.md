@@ -63,7 +63,7 @@ Nonzero indicates success.
 
 
 ## Comments:
-See also CeSetFilePointer, CeReadFile and CeCloseHandle functions.  
+See also: [CeSetFilePointer](CeSetFilePointer.md), [CeReadFile](CeReadFile.md) and [CeCloseHandle](CeCloseHandle.md) functions.  
   
 ***  
 

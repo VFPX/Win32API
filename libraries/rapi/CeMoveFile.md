@@ -5,7 +5,7 @@ Group: [Remote Application Programming (RAPI)](../../functions_group.md#Remote_A
 ***  
 
 
-#### This function renames an existing file or a directory — including all its children.
+#### This function renames an existing file or a directory ï¿½ including all its children.
 ***  
 
 
@@ -51,7 +51,7 @@ The new name must not already exist. A new file may be on a different file syste
   
 Note that the concept of a current directory <Em>does not exist</Em> in Windows CE.   
   
-See also CeCopyFile and CeDeleteFile functions.  
+See also: [CeCopyFile](CeCopyFile.md) and [CeDeleteFile](CeDeleteFile.md) functions.  
   
 ***  
 

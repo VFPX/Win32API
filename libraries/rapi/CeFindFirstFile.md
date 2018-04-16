@@ -47,7 +47,7 @@ A search handle, used in a subsequent call to CeFindNextFile or CeFindClose, ind
 
 
 ## Comments:
-See also CeCloseHandle, CeFindNextFile functions.  
+See also: [CeCloseHandle](CeCloseHandle.md), [CeFindNextFile](CeFindNextFile.md) functions.  
   
 ***  
 

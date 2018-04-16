@@ -41,7 +41,7 @@ Nonzero indicates success.
 
 
 ## Comments:
-See also CeMoveFile and CeCopyFile functions.  
+See also: [CeMoveFile](CeMoveFile.md) and [CeCopyFile](CeCopyFile.md) functions.  
   
 ***  
 

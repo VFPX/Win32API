@@ -47,7 +47,7 @@ Nonzero indicates success.
 
 
 ## Comments:
-See also CeRemoveDirectory function.  
+See also: [CeRemoveDirectory](CeRemoveDirectory.md) function.  
   
 ***  
 

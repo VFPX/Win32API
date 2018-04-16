@@ -43,7 +43,7 @@ None.
 ## Comments:
 Total and available physical memory, memory utilization, paging file...  
   
-See also CeGetStoreInformation function.  
+See also: [CeGetStoreInformation](CeGetStoreInformation.md) function.  
   
 ***  
 

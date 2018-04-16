@@ -77,9 +77,8 @@ Not all ODBC drivers support this function. As well not all of them support esca
 SQLNativeSql returns the SQL string as modified by the driver. SQLNativeSql does not execute the SQL statement..  
   
 Some links on vendor-neutral constructs:  
-<a href="http://msdn.microsoft.com/library/default.asp?url=/library/en-us/odbc/htm/odbcescape_sequences_in_odbc.asp">Escape Sequences in ODBC</a>  
-<a href="http://www.devx.com/premier/mgznarch/vbpj/1997/06jun97/whgg.pdf">Step Up to Advanced SQL</a>  
-<a href="http://www.webtechniques.com/archives/1997/07/north/">Using Interoperable SQL. By Ken North</a>  
+[Escape Sequences in ODBC](https://docs.microsoft.com/en-us/sql/odbc/reference/develop-app/escape-sequences-in-odbc?view=ssdt-18vs2017)  
+[Using Interoperable SQL. By Ken North](https://people.apache.org/~jim/NewArchitect/webtech/1997/07/north/index.html)  
   
 ***  
 

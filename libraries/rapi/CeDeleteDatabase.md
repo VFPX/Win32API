@@ -41,7 +41,7 @@ TRUE indicates success.
 
 
 ## Comments:
-See also CeCreateDatabase, CeOpenDatabase and CeOidGetInfoEx functions.  
+See also: [CeCreateDatabase](CeCreateDatabase.md), [CeOpenDatabase](CeOpenDatabase.md) and [CeOidGetInfoEx](CeOidGetInfoEx.md) functions.  
   
 ***  
 

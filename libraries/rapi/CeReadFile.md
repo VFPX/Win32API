@@ -63,7 +63,7 @@ Nonzero indicates success. The CeReadFile function returns when one of the follo
 
 
 ## Comments:
-See also CeSetFilePointer, CeWriteFile and CeCloseHandle functions.  
+See also: [CeSetFilePointer](CeSetFilePointer.md), [CeWriteFile](CeWriteFile.md) and [CeCloseHandle](CeCloseHandle.md) functions.  
   
 ***  
 

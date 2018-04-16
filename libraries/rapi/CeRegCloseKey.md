@@ -45,7 +45,7 @@ The handle for a specified key should not be used after it has been closed, beca
   
 The CeRegCloseKey function always writes information to the registry before returning, eliminating the need to flush keys in the Windows CE registry.  
   
-See also CeRegOpenKeyEx function.  
+See also: [CeRegOpenKeyEx](CeRegOpenKeyEx.md) function.  
   
 ***  
 

@@ -59,7 +59,7 @@ The object identifier of the record to which the properties were written indicat
 ## Comments:
 To delete a property set the CEDB_PROPDELETE flag in the appropriate property value. Even if you have all properties for the record deleted, it still stays in the database. Use CeDeleteRecord function to delete a record.  
   
-See also CeReadRecordProps, CeOpenDatabase, CeDeleteRecord functions.  
+See also: [CeReadRecordProps](CeReadRecordProps.md), [CeOpenDatabase](CeOpenDatabase.md), [CeDeleteRecord](CeDeleteRecord.md) functions.  
   
 ***  
 

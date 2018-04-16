@@ -43,7 +43,7 @@ Nonzero indicates success.
 ## Comments:
 The path must specify an empty directory, and the calling process must have delete access to the directory.   
   
-See also CeCreateDirectory, CeCreateFile and CeDeleteFile functions.  
+See also: [CeCreateDirectory](CeCreateDirectory.md), [CeCreateFile](CeCreateFile.md) and [CeDeleteFile](CeDeleteFile.md) functions.  
   
 ***  
 

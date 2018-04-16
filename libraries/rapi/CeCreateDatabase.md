@@ -52,14 +52,14 @@ rgSortSpecs
 
 
 ## Return value:
-The object identifier of the newly created database — not a handle to an open database — indicates success.  
+The object identifier of the newly created database ï¿½ not a handle to an open database ï¿½ indicates success.  
 ***  
 
 
 ## Comments:
 The name can have up to 32 characters, including the terminating null character.  
   
-See also CeOpenDatabase, CeDeleteDatabase, CeWriteRecordProps and CeDeleteRecord functions.  
+See also: [CeOpenDatabase](CeOpenDatabase.md), [CeDeleteDatabase](CeDeleteDatabase.md), [CeWriteRecordProps](CeWriteRecordProps.md) and [CeDeleteRecord](CeDeleteRecord.md) functions.  
   
 ***  
 

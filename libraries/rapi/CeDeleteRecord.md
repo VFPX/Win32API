@@ -49,7 +49,7 @@ TRUE indicates success.
 ## Comments:
 To add new record call CeWriteRecordProps with <Em>oidRecord</Em> set to zero. To delete a property of a record call CeWriteRecordProps with the CEDB_PROPDELETE flag set.  
   
-See also CeOpenDatabase, CeWriteRecordProps functions.  
+See also [CeOpenDatabase](CeOpenDatabase.md), [CeWriteRecordProps](CeWriteRecordProps.md) functions.  
   
 ***  
 
