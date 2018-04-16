@@ -70,9 +70,9 @@ This function is a wrapper for the IQueryAssociations interface in Shell namespa
   
 See also: 
 
-* [FindExecutable](../shell32/FindExecutable .md)   
+* [FindExecutable](../shell32/FindExecutable.md)   
 * [ShellExecute](../shell32/ShellExecute.md)   
-* [Displaying associated icons and descriptions for files and folders](../../sample_530.md)  
+* [Displaying associated icons and descriptions for files and folders](../../samples/sample_530.md)  
   
 ***  
 
