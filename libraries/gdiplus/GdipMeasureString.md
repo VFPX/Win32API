@@ -85,7 +85,7 @@ If the method succeeds, it returns OK (0).
 ## Comments:
 Read Doug Hennig"s article <a href="http://doughennig.blogspot.com/2006/04/forget-txtwidth-use-gdipmeasurestring.html">Forget TXTWIDTH - use GdipMeasureString</a>.  
   
-See also: [GetTextExtentPoint32](../gdi32/GetTextExtentPoint32.md), [<a href="http://msdn2.microsoft.com/en-us/library/fhfdf28k(VS.80).aspx">FONTMETRICS()</a>](..//<a href="http://msdn2.microsoft.com/en-us/library/fhfdf28k(VS.80).aspx">FONTMETRICS()</a>.md), [<a href="http://msdn2.microsoft.com/en-us/library/a93d7wy7(VS.80).aspx">TXTWIDTH()</a>](..//<a href="http://msdn2.microsoft.com/en-us/library/a93d7wy7(VS.80).aspx">TXTWIDTH()</a>.md), [<a href="http://msdn2.microsoft.com/en-us/library/bx88s7fs(VS.80).aspx">WFONT( )</a>](..//<a href="http://msdn2.microsoft.com/en-us/library/bx88s7fs(VS.80).aspx">WFONT( )</a>.md).  
-  
+See also: [GetTextExtentPoint32](../gdi32/GetTextExtentPoint32.md), [FONTMETRICS()](http://msdn2.microsoft.com/en-us/library/fhfdf28k(VS.80).aspx), [TXTWIDTH()](http://msdn2.microsoft.com/en-us/library/a93d7wy7(VS.80).aspx), [WFONT( )](http://msdn2.microsoft.com/en-us/library/bx88s7fs(VS.80).aspx)
+
 ***  
 
