@@ -51,7 +51,7 @@ The Graphics class provides methods for drawing lines, curves, figures, images, 
   
 When no longer needed the Graphics object must be deleted with the GdipDeleteGraphics function.  
   
-See also: [GdipCreateFromHWND](../gdiplus/GdipCreateFromHWND.md), [GdipCreateFromHDC2 functions](..//GdipCreateFromHDC2 functions.md).  
+See also: [GdipCreateFromHWND](GdipCreateFromHWND.md), [GdipCreateFromHDC2](GdipCreateFromHDC2.md) functions.  
   
 ***  
 
