@@ -51,7 +51,7 @@ Returns TRUE if successful, or FALSE otherwise.
 
 
 ## Comments:
-See InternetGetCookie.  
+See also: [InternetGetCookie](InternetGetCookie.md).  
   
 Cookies created by this function without an expiration date are stored in memory and are available only in the same process that created them. Cookies that include an expiration date are stored in the windows\cookies directory.  
   
