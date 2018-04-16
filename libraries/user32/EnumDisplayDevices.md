@@ -63,7 +63,7 @@ To get information on the display adapter, call EnumDisplayDevices with lpDevice
   
 To obtain information on a display monitor, first call EnumDisplayDevices with lpDevice set to NULL. Then call EnumDisplayDevices with lpDevice set to DISPLAY_DEVICE.DeviceName from the first call to EnumDisplayDevices and with iDevNum set to zero. Then DISPLAY_DEVICE.DeviceString is the monitor name.   
   
-See also MonitorFromWindow, GetMonitorInfo, EnumDisplaySettings functions.  
+See also [MonitorFromWindow](MonitorFromWindow.md), [GetMonitorInfo](GetMonitorInfo.md), [EnumDisplaySettings](EnumDisplaySettings.md) functions.  
   
 ***  
 
