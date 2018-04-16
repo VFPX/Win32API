@@ -56,7 +56,7 @@ The function returns a handle to the opened INF file if it is successful. Otherw
 
 
 ## Comments:
-See SetupCloseInfFile.  
+See: [SetupCloseInfFile](SetupCloseInfFile.md).  
   
 ***  
 

@@ -60,16 +60,7 @@ The return is either one of the SHFMT_* values, or if the returned DWORD value i
 ## Comments:
 This function looks some undocumented. Though there is a MSDN link describing it, it is not really a regular description as it is for other Shell functions.  
   
-Links:  
-  
-<a href="http://support.microsoft.com/default.aspx?scid=KB;EN-US;q173688&">HOWTO: Call SHFormatDrive in Windows 95/98/Me and Windows NT/2000/XP</a>.  
-  
-<a href="http://www.mvps.org/btmtz/shformat/">The undocumented SHFormatDrive function</a>.  
-  
-<a href="http://delphi.about.com/library/weekly/aa070699.htm">Disk in drive  A:</a>.  
-  
-<a href="http://community.borland.com/article/0,1410,16307,00.html">Formatting a drive under Win32 - by Borland Developer Support Staff</a>.  
-  
+
   
 ***  
 

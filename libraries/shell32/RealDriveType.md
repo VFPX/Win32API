@@ -47,7 +47,7 @@ Returns a predefined value.
 
 
 ## Comments:
-See also GetDriveType function.  
+See also [GetDriveType](../kernel32/GetDriveType.md) function.  
   
 ***  
 
