@@ -44,7 +44,7 @@ RETURN
 [InternetGetLastResponseInfo](../libraries/wininet/InternetGetLastResponseInfo.md)  
 
 ## Comment:
-This procedure retrieves the last Microsoft® Win32® Internet function error description or server response on the thread calling it.  
+This procedure retrieves the last Microsoft&reg; Win32&reg; Internet function error description or server response on the thread calling it.  
   
 Do not expect any valid response of this function unless you have a connection to a server.  
   

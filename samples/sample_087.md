@@ -11,9 +11,10 @@ The picture shows local CDDRIVE device mounted to D:\mnt\cddrive directory.
 
 Handle this set of functions with care. Do not unmount root directories like C:, unless you know what you are doing.  
 
-MSDN article <a href="http://support.microsoft.com/?kbid=205524">How to create and manipulate NTFS junction points</a> covers the usage of Mountvol.exe, Linkd.exe and Delrp.exe utilities.</span>[How to create and manipulate NTFS junction points](sample_000.md)  
+MSDN article <a href="http://support.microsoft.com/?kbid=205524">How to create and manipulate NTFS junction points</a> covers the usage of Mountvol.exe, Linkd.exe and Delrp.exe utilities.</span>  
 </td></tr></table>  
-<div class=precode>LOCAL oVolumes As TVolumes, oVolume As TVolume, oMountPoint  
+```foxpro
+LOCAL oVolumes As TVolumes, oVolume As TVolume, oMountPoint  
 oVolumes = CREATEOBJECT("TVolumes")  
 
 *!*	? "[" + oVolumes.PointToVolume("Z") + "]"  
@@ -29,9 +30,9 @@ FOR EACH oVolume IN oVolumes.volumes
 			? oMountPoint  
 		NEXT  
 	ENDWITH  
-NEXT  
-</div>  
-  
+NEXT
+```
+
 ***  
 
 
@@ -267,7 +268,8 @@ HKEY_LOCAL_MACHINE\SYSTEM\MountedDevices
 HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\MountPoints2  
   
 * * *   
-Function GetVolumeNameForVolumeMountPoint returns the volume name for a given drive letter. Same do the Volume names enumeration calls. The volume names, I think, can be used to uniquely identify computers. Example: \\?\Volume{9da8b072-8130-22d6-ff8f-806d6172699f}\  
+Function GetVolumeNameForVolumeMountPoint returns the volume name for a given drive letter. Same do the Volume names enumeration calls. The volume names, I think, can be used to uniquely identify computers. Example:  
+> \\?\Volume{9da8b072-8130-22d6-ff8f-806d6172699f}\  
   
 ***  
 

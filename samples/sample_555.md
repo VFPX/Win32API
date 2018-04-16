@@ -8,7 +8,7 @@ The images in this code sample are handled with the help of GDI+ objects instant
 See also:
 
 
-<a href="http://www.news2news.com/vfp/?solution=9"><img src="images/screencapture_270_48.png" width=270 height=48 border=0 alt="Download ScreenCapture Library"></a>[](sample_000.md)  
+<a href="http://www.news2news.com/vfp/?solution=9"><img src="../images/screencapture_270_48.png" width=270 height=48 border=0 alt="Download ScreenCapture Library"></a>  
 
   
 ***  

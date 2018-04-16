@@ -255,27 +255,32 @@ RETURN Asc(SUBSTR(lcBuffer, 1,1)) + ;
 ## Comment:
 The BINDEVENT() is used to intercept WM_DRAWITEM messages. This message is sent to the form each time when a menu item is about to be redrawn. The *lpDrawItem* parameter passed with this message points to the <a href="http://www.google.com/search?q=DRAWITEMSTRUCT">DRAWITEMSTRUCT</a> structure.  
   
-<div class="precode">typedef struct tagDRAWITEMSTRUCT {  
-&nbsp;UINT CtlType;  
-&nbsp;UINT CtlID;  
-&nbsp;UINT itemID;  
-&nbsp;UINT itemAction;  
-&nbsp;UINT itemState;  
-&nbsp;HWND hwndItem;  
-&nbsp;HDC hDC;  
-&nbsp;RECT rcItem;  
-&nbsp;ULONG_PTR itemData;  
-} DRAWITEMSTRUCT;  
-</div>  
+```cpp
+typedef struct tagDRAWITEMSTRUCT {  
+    UINT CtlType;  
+    UINT CtlID;  
+    UINT itemID;  
+    UINT itemAction;  
+    UINT itemState;  
+    HWND hwndItem;  
+    HDC hDC;  
+    RECT rcItem;  
+    ULONG_PTR itemData;  
+} DRAWITEMSTRUCT;
+```
+
 Read the DRAWITEMSTRUCT structure to find out whether the item is selected or unselected, enabled or disabled and more. The last member points at application-defined value associated with the menu item. This application-defined value seems to be another structure (VFP undocumented) having at least four members.  
   
-<Div class="precode">typedef struct VFPMenuItem {  
-&nbsp;DWORD Signature;  
-&nbsp;DWORD CaptionLength;  
-&nbsp;LPWSTR Caption;  
-&nbsp;DWORD PopupId;  
-}  
-</div>  
+```cpp
+typedef struct VFPMenuItem {  
+    DWORD Signature;  
+    DWORD CaptionLength;  
+    LPWSTR Caption;  
+    DWORD PopupId;  
+}
+```
+
+ 
 *Signature*  
 A constant value; so far I have nothing more on this member.  
   

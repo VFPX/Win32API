@@ -9,7 +9,7 @@ The picture above is just an example. Your user credentials on this web site are
 
 See also:
 
-<a href="?example=558">How to display advanced Task Dialog (Vista)</a>[How to display advanced Task Dialog (Vista)](sample_558.md)  
+[How to display advanced Task Dialog (Vista)](sample_558.md)  
   
 ***  
 

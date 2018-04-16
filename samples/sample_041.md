@@ -141,7 +141,7 @@ PROCEDURE declare
 ## Comment:
 **SYS(0)** returns current computer and user names.   
   
-Same information can be retrieved with either **GETENV()** function with "COMPUTERNAME" and "USERNAME" parameters, or with the GetEnvironmentStrings function -- a <a href="?example=89">sample code</a>.  
+Same information can be retrieved with either **GETENV()** function with "COMPUTERNAME" and "USERNAME" parameters, or with the GetEnvironmentStrings function -- a [sample code](sample_089.md).  
   
 ***  
 

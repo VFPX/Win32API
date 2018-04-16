@@ -49,14 +49,15 @@ Returns NOERROR (0) if the CLSID was obtained successfully.
 
 
 ## Comments:
-<div class="precode">LOCAL cBuffer, iidImageList  
+```foxpro
+LOCAL cBuffer, iidImageList  
   
 cBuffer = REPLICATE(CHR(0), 16)  
 iidImageList = "{46EB5926-582E-4017-9FDF-E8998DAA0950}"  
   
 = CLSIDFromString(STRCONV(iidImageList,5), @cBuffer)  
-? cBuffer  
-</div>  
+? cBuffer
+```
 See also: [StringFromGUID2](../ole32/StringFromGUID2.md).  
   
 ***  

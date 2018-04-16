@@ -3,19 +3,19 @@
 # GDI+: Scrolling through large image using the mouse
 
 ## Before you begin:
-The code is based on <a href="?example=450">custom GDI+ class</a>. Download the class module first and save it in **gdiplus.prg** file. [custom GDI+ class](sample_450.md)  
+The code is based on [custom GDI+ class](sample_450.md). Download the class module first and save it in **gdiplus.prg** file.  
 
 * * *  
 The pictures taken with modern digital cameras are usually wider and taller than average display resolution.   
 
-![](../images/picturescroll.jpg)  
+![](../images/picturescroll.jpg)    
 1920 by 1080 pixels, which requires fairly regular video card and monitor these days, is only 2 megapixel size. Uncropped 10.1 megapixel shot taken with Canon EOS is 3888 by 2592 pixels -- roughly two times taller and wider.  
 
 To view so large picture in its original size you need a scrollable form. Normally it is programmed by setting the form`s ScrollBars to 3 and having the image control`s Stretch property set to 0 (default). The picture automatically stretches the image control. After that any part of it can be conveniently scrolled to with the form`s two scroll bars.  
 
 ![](../images/scrollableform.jpg)  
 
-An example demonstrating this approach (the picture above) is provided in the article <a href="http://support.microsoft.com/kb/190818">How To Programmatically Scroll a Visual FoxPro Form</a> published on the Microsoft Help and Support web site. [How To Programmatically Scroll a Visual FoxPro Form](sample_000.md)  
+An example demonstrating this approach (the picture above) is provided in the article <a href="http://support.microsoft.com/kb/190818">How To Programmatically Scroll a Visual FoxPro Form</a> published on the Microsoft Help and Support web site.  
 
 In the Microsoft`s code I replaced the Shape control with the Image control and changed the ScrollBars property from 2 to 3. Also I added the HorisScrollPos property modelled by the VertScrollPos and tweaked the code a little bit.  
 

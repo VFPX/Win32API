@@ -58,8 +58,8 @@ If the function succeeds, the return value is a handle to the mailslot, for use 
 
 ## Comments:
 The mailslot exists until one of the following conditions is true:  
-<LI>The last (possibly inherited or duplicated) handle to it is closed using the CloseHandle function.  
-<LI>The process owning the last (possibly inherited or duplicated) handle exits.  
+* The last (possibly inherited or duplicated) handle to it is closed using the CloseHandle function.  
+* The process owning the last (possibly inherited or duplicated) handle exits.  
   
 The system uses the second method to destroy mailslots.   
   

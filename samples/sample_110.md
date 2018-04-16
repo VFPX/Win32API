@@ -3,7 +3,7 @@
 # How to download this reference`s archive through WinInet functions using InternetOpenUrl
 
 ## Before you begin:
-Check <a href="?example=175">similar example</a> based on URL Monikers functions.[similar example](sample_175.md)  
+Check [similar example](sample_175.md) based on URL Monikers functions.  
   
 ***  
 
@@ -78,7 +78,7 @@ FUNCTION http2local (hSource, lcTarget)
 			ENDIF
 
 			lnTotalBytesRead = lnTotalBytesRead + lnBytesRead
-			?? "·"
+			?? "ï¿½"
 		ELSE
 			EXIT
 		ENDIF
@@ -119,10 +119,10 @@ PROCEDURE  decl
 
 ## Comment:
 This particular example let you download VFP tables containing the recent data of this reference:  
-     - list of functions  
-     - list of examples  
-     - function groups  
-     - list of libraries  
+\- list of functions  
+\- list of examples  
+\- function groups  
+\- list of libraries  
   
 After that you can work with this data locally.   
   
@@ -130,7 +130,7 @@ Through Hypertext Transfer Protocol -- also known as HTTP -- this program opens 
   
 Though the primary task of this code is to demonstrate InternetOpenUrl function.  
   
-And of course, you can download it directly <a href=http://www.news2news.com/vfp/downloads/w32data.zip>here</a>.  
+And of course, you can [download it directly here](../downloads/w32data.zip).  
   
 ***  
 

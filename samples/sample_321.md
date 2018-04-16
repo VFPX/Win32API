@@ -136,8 +136,8 @@ ENDDEFINE
 
 ## Comment:
 Check similar examples:  
-<li><a href="http://support.microsoft.com/default.aspx?scid=kb;en-us;Q154005">HOWTO: Delete a File into the Win95/98/Me Recycle Bin</a>.  
-<li><a href="http://216.26.168.92/files/tip48.html">VB World: Moving files into the Recycle Bin</a>.  
+* <a href="http://support.microsoft.com/default.aspx?scid=kb;en-us;Q154005">HOWTO: Delete a File into the Win95/98/Me Recycle Bin</a>.  
+* <a href="http://216.26.168.92/files/tip48.html">VB World: Moving files into the Recycle Bin</a>.  
 
 
 In .NET sending file to the Recycle Bin is as simple as calling [FileSystem.DeleteFile](https://msdn.microsoft.com/en-us/library/ms127976(v=vs.100).aspx) with *RecycleOption* parameter set to 

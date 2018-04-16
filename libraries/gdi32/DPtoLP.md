@@ -50,7 +50,8 @@ If the function succeeds, the return value is nonzero.
 ## Comments:
 The conversion depends on the mapping mode of the device context, the settings of the origins and extents for the window and viewport, and the world transformation.   
   
-<div class="precode">LOCAL hWindow, hDC, cBuffer  
+```foxpro
+LOCAL hWindow, hDC, cBuffer  
 hWindow = _screen.HWnd  
 hDC = GetWindowDC(hWindow)  
   
@@ -60,9 +61,9 @@ cBuffer = num2dword(100) + num2dword(100)
 ? buf2dword(SUBSTR(cBuffer,1,4)),;  
 	buf2dword(SUBSTR(cBuffer,5,4))  
   
-= ReleaseDC(hWindow, hDC)  
-</div>  
-  
+= ReleaseDC(hWindow, hDC)
+```
+
 See also: [LPtoDP](../gdi32/LPtoDP.md).  
   
 ***  

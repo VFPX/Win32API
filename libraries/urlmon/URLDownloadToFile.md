@@ -40,7 +40,7 @@ DECLARE INTEGER URLDownloadToFile IN urlmon.dll;
 
 ## Parameters:
 pCaller
-Pointer to the controlling IUnknown interface of the calling Microsoft® ActiveX® component (if the caller is an ActiveX component). If the calling application is not an ActiveX component, this value can be set to NULL. 
+Pointer to the controlling IUnknown interface of the calling Microsoft&reg; ActiveX&reg; component (if the caller is an ActiveX component). If the calling application is not an ActiveX component, this value can be set to NULL. 
 
 szURL
 Pointer to a string value containing the URL to be downloaded. Cannot be set to NULL. 

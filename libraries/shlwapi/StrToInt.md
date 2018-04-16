@@ -57,7 +57,8 @@ In VFP9, for converting between binary character representations and numbers use
   
 In all VFP versions, for the same task use <Em>buf2word, buf2dword, num2word</Em> and <Em>num2dword</Em> functions.   
   
-<div class="precode">FUNCTION buf2dword(cBuffer)  
+```foxpro
+FUNCTION buf2dword(cBuffer)  
 RETURN Asc(SUBSTR(cBuffer, 1,1)) + ;  
 	BitLShift(Asc(SUBSTR(cBuffer, 2,1)),  8) +;  
 	BitLShift(Asc(SUBSTR(cBuffer, 3,1)), 16) +;  
@@ -82,11 +83,12 @@ FUNCTION num2dword(lnValue)
 RETURN Chr(b0)+Chr(b1)+Chr(b2)+Chr(b3)  
   
 FUNCTION num2word(lnValue)  
-RETURN Chr(MOD(m.lnValue,256)) + CHR(INT(m.lnValue/256))  
-</div>  
+RETURN Chr(MOD(m.lnValue,256)) + CHR(INT(m.lnValue/256))
+```
 Rarely a conversion to and from float binary representation is required. In this reference only a few GDI+ functions may need that.  
   
-<div class="precode">#DEFINE REAL_BIAS 127  
+```foxpro
+#DEFINE REAL_BIAS 127  
 #DEFINE REAL_MANTISSA_SIZE 23  
 #DEFINE REAL_NEGATIVE 0x80000000  
 #DEFINE EXPONENT_MASK 0x7F800000  
@@ -120,8 +122,8 @@ FUNCTION Int2Float(num)
 	exponent = FLOOR(LOG(num)/LOG(2))  
 	mantissa = (num - 2^exponent)* 2^(REAL_MANTISSA_SIZE-exponent)  
 	exponent = BITLSHIFT(exponent+REAL_BIAS, REAL_MANTISSA_SIZE)  
-RETURN BITOR(sgn, exponent, mantissa)  
-</div>  
-  
+RETURN BITOR(sgn, exponent, mantissa)
+```
+
 ***  
 

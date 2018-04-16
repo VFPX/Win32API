@@ -76,7 +76,7 @@ PROCEDURE declare
 
 ## Comment:
 Recommended reading:  
-<a href="http://msdn.microsoft.com/msdnmag/issues/02/02/PE/default.aspx">An In-Depth Look into the Win32 Portable Executable File Format</a> by Matt Pietrek  
+[An In-Depth Look into the Win32 Portable Executable File Format](http://bytepointer.com/resources/pietrek_in_depth_look_into_pe_format_pt1.htm) by Matt Pietrek  
   
 ***  
 

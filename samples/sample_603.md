@@ -79,9 +79,10 @@ PROCEDURE declare
 [MQPathNameToFormatName](../libraries/mqrt/MQPathNameToFormatName.md)  
 
 ## Comment:
-Same functionality can be accessed via <a href="https://msdn.microsoft.com/en-us/library/ms704064(v=vs.85).aspx">MSMQ.MSMQQueueInfo COM components</a>  
+Same functionality can be accessed via [MSMQ.MSMQQueueInfo COM components](https://msdn.microsoft.com/en-us/library/ms704064(v=vs.85).aspx)  
   
-<div class="precode">#DEFINE MQ_PEEK_ACCESS 32  
+```foxpro
+#DEFINE MQ_PEEK_ACCESS 32  
 #DEFINE MQ_DENY_NONE 0  
   
 LOCAL oQueueInfo as MSMQ.MSMQQueueInfo  
@@ -101,10 +102,11 @@ oQueueInfo.Open(MQ_PEEK_ACCESS, MQ_DENY_NONE)
 ? oQueueInfo.Quota  
 ? oQueueInfo.Journal  
 ? oQueueInfo.JournalQuota  
-? oQueueInfo.MulticastAddress  
+? oQueueInfo.MulticastAddress
+```
   
-</div>  
-<img src="images/msmq_new_queue.png" width="540">  
+ 
+![](../images/msmq_new_queue.png)  
   
 ***  
 

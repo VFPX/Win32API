@@ -3,7 +3,8 @@
 # Uploading file to the FTP server using InternetWriteFile
 
 ## Before you begin:
-<table cellspacing=3 cellpadding=0 border=0><tr><td valign=top><img src="../images/readarticle.gif" border=0></td><td valign=top class=fdescr><a href="?article=3">Programming File Transfer Protocol in Visual FoxPro </a></td></tr></table>[Programming File Transfer Protocol in Visual FoxPro ](sample_000.md)  
+<table cellspacing=3 cellpadding=0 border=0><tr><td valign=top><img src="../images/readarticle.gif" border=0></td><td valign=top class=fdescr><a href="?article=3">Programming File Transfer Protocol in Visual FoxPro </a></td></tr></table>    
+
   
 ***  
 
@@ -136,8 +137,6 @@ RETURN lnBytesWritten
 Unlike the FtpPutFile using this function you have control through the whole uploading process. Of course, it depends on how many chunks you split the source file to.  
   
 Between chunks you can display the progress of uploading. As well you can test pressed keys or other events and stop the uploading.  
-  
-#kwd: sln_ftp.  
   
 ***  
 

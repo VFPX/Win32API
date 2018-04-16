@@ -53,14 +53,15 @@ Upon receiving WM_CLOSE, by default, the DefWindowProc function calls the Destro
   
 The following code is most likely invoked when the EndTask called with <Em>fForce=False</Em> :  
   
-<code><font color=#0000a0>#DEFINE WM_CLOSE 0x0010  
+```foxpro
+#DEFINE WM_CLOSE 0x0010  
 DECLARE INTEGER GetActiveWindow IN user32  
 DECLARE INTEGER PostMessage IN user32;  
 	INTEGER hWindow, INTEGER Msg,;  
 	INTEGER wParam, INTEGER lParam  
   
-= PostMessage(GetActiveWindow(), WM_CLOSE, 0,0)  
-</font></code>  
+= PostMessage(GetActiveWindow(), WM_CLOSE, 0,0)
+```
 See also: [IsWindow](../user32/IsWindow.md).  
   
 ***  

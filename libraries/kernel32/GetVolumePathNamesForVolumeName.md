@@ -60,7 +60,8 @@ If the function succeeds, the return value is nonzero.
 ## Comments:
 <Em>lpcchReturnLength</Em> -- allocate large buffer and rely on AT(Chr(0)+Chr(0), cBuffer) rather than on this parameter.  
   
-<div class=precode>nBufsize=0  
+```foxpro
+nBufsize=0  
 cBuffer = REPLICATE(CHR(0), 0x4000)  
   
 GetVolumePathNamesForVolumeName(;  
@@ -68,8 +69,8 @@ GetVolumePathNamesForVolumeName(;
 	@cBuffer, LEN(cBuffer), @nBufsize)  
   
 cBuffer = SUBSTR(cBuffer, 1, AT(CHR(0)+CHR(0), cBuffer))  
-* returns "A:\"  
-</div>  
-  
+* returns "A:\"
+```
+
 ***  
 

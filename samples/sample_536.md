@@ -304,10 +304,12 @@ Comparing to other ways of interprocess communication (named pipes, mailslots, W
   
 * * *  
 http://blogs.msdn.com/oldnewthing/archive/2003/12/11/56043.aspx  
-<blockquote>if you need to pass more than 32767 characters of information to a child process, you`ll have to use something other than the command line. </blockquote>* * *  
+> if you need to pass more than 32767 characters of information to a child process, you`ll have to use something other than the command line. 
+***
+
 Articles:  
-<LI><a href="http://msdn2.microsoft.com/en-us/library/aa365574.aspx">Interprocess Communications</a> chapter on MSDN.  
-<LI>Foxpro Advisor <a href="http://my.advisor.com/articles.nsf/aid/14609">Exchange Data Between Applications with Visual FoxPro 9</a> by Christof Wollenhaupt (recommended).  
+* <a href="http://msdn2.microsoft.com/en-us/library/aa365574.aspx">Interprocess Communications</a> chapter on MSDN.  
+ 
   
 ***  
 

@@ -398,7 +398,9 @@ ENDDEFINE
 
 ## Comment:
 The effect is achieved by placing a semi-transparent window below a top-level VFP form. By appying a combination of window styles and extended styles such window is made borderless and inactive.  
-<img src="images/lightbox.png">  
+
+![](../images/lightbox.png)
+
 VFP application can change window`s transparency and color.  
   
 ***  

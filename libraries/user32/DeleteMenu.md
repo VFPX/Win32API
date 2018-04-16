@@ -61,9 +61,9 @@ See also: [RemoveMenu](..//RemoveMenu.md), [DestroyMenu](../user32/DestroyMenu.m
   
 If you are not into Windows API yet, get yourself a cup of coffee or a drink and start musing about possible functional differences of three Menu API functions with somewhat close names:  
   
-<li>RemoveMenu  
-<li>DeleteMenu  
-<li>DestroyMenu  
+* RemoveMenu  
+* DeleteMenu  
+* DestroyMenu  
   
   
 ***  

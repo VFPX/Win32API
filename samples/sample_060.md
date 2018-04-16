@@ -134,10 +134,9 @@ If an application receives ERROR_INTERNET_CLIENT_AUTH_CERT_NEEDED, it must call 
   
 * * *  
 There is an article of Ayhan AVCI   
-<a href="http://www.codeproject.com/internet/wininet_ssl___certificate.asp">Connecting to a HTTPS server with SSL using Wininet, sending client certificate and reading response</a>,  
-which I have found recently at the <a href="http://www.codeproject.com/">Code Project</a>. Though based on VB code it may still save your time.  
-  
-#kwd: sln_http.  
+[Connecting to a HTTPS server with SSL using Wininet, sending client certificate and reading response](https://www.codeproject.com/Articles/3898/Connecting-to-a-HTTPS-server-with-SSL-using-Winine),  
+which I have found recently at the [Code Project](http://www.codeproject.com/). Though based on VB code it may still save your time.  
+ 
   
 ***  
 

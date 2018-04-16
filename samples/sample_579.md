@@ -285,9 +285,9 @@ RETURN Chr(b0)+Chr(b1)+Chr(b2)+Chr(b3)
 
 ## Comment:
 On the picture below, the window with title "FolderView" and class "SysListView32" is actually a ListView control. The OS uses this ListView control for displaying shortcuts on the Windows desktop.  
-<img src="images/SysListView32.png">  
+![](../images/SysListView32.png)  
   
-For manipulating ListViews, Windows has an exhaustive set of <a href="http://msdn.microsoft.com/en-us/library/windows/desktop/ff485961(v=vs.85).aspx">LVM macros</a>. Each LVM macro wraps a call to the SendMessage API function.  
+For manipulating ListViews, Windows has an exhaustive set of [LVM macros](http://msdn.microsoft.com/en-us/library/windows/desktop/ff485961(v=vs.85).aspx). Each LVM macro wraps a call to the SendMessage API function.  
   
 Take in account that the Desktop ListView belongs to a different process. That makes calling the LVM macros a bit more complex than if both a caller and a ListView had shared the same process. Some memory needs to be allocated directly in the address space of that process, and some data moved back and forth.  
   

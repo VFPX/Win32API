@@ -62,7 +62,8 @@ If the function succeeds, the return value is nonzero (TRUE).
 
 
 ## Comments:
-<code><font color=#0000a0>#DEFINE PROV_RSA_FULL       1  
+```txt
+#DEFINE PROV_RSA_FULL       1  
 #DEFINE PROV_RSA_SIG        2  
 #DEFINE PROV_DSS            3  
 #DEFINE PROV_FORTEZZA       4  
@@ -74,8 +75,8 @@ If the function succeeds, the return value is nonzero (TRUE).
 #DEFINE PROV_EC_ECNRA_SIG   15  
 #DEFINE PROV_EC_ECDSA_FULL  16  
 #DEFINE PROV_EC_ECNRA_FULL  17  
-#DEFINE PROV_SPYRUS_LYNKS   20  
-</font></code>  
-  
+#DEFINE PROV_SPYRUS_LYNKS   20
+```
+
 ***  
 

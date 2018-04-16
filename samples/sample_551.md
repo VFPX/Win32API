@@ -8,9 +8,9 @@ This code sample is an extension of  "#309. Starting a dialog box for connecting
 
 
 ## Before you begin:
-This code sample is an extension of  <a href="?example=309">Starting a dialog box for connecting to network resources</a>. The code is written around the WNetConnectionDialog1 function and provides to some extent better control of the network connection dialog through input parameters.[Starting a dialog box for connecting to network resources](sample_309.md)  
+This code sample is an extension of  [Starting a dialog box for connecting to network resources](sample_309.md). The code is written around the WNetConnectionDialog1 function and provides to some extent better control of the network connection dialog through input parameters.  
 
-![](../http://www.news2news.com/vfp/images/mapnetworkdrive_dlg.jpg)  
+![](../images/mapnetworkdrive_dlg.jpg)
 
 See also:
 

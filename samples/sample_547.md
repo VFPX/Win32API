@@ -8,7 +8,7 @@ This code sample displays thumbnails for JPEG images found in a specified direct
 
 
 ## Before you begin:
-The code is based on <a href="?example=450">custom GDI+ class</a>. Download the class module first and save it in **gdiplus.prg** file. [custom GDI+ class](sample_450.md)  
+The code is based on [custom GDI+ class](sample_450.md). Download the class module first and save it in **gdiplus.prg** file.   
 
 ![](../images/thumbnails.jpg)  
 This code sample displays thumbnails for JPEG images found in a specified directory. The thumbnails on the form are dynamically highlighted following the movements of the cursor.  
@@ -371,11 +371,12 @@ The highlighting of images (more accurate would be calling it the *lowlighting*)
 For using with top-level forms (ShowWindow=2) the code must be slightly modified.   
   
 A regular in-screen form is just a single window. But a top-level form always consists of two windows. The external window (ThisForm.hWnd) hosts a single child window. That child window is the working surface for a top-level form.  
-  
-<img src="images/toplevelform.jpg" width=493 height=457>  
+
+![](../images/toplevelform.jpg)  
 That is why when creating a Graphics object from hWnd, the handle of the child window must be passed instead of the ThisForm.hWnd :  
-<div class="precode">THIS.hWindow = GetWindow(ThisForm.hWnd, GW_CHILD)  
-</div>  
-  
+```foxpro
+THIS.hWindow = GetWindow(ThisForm.hWnd, GW_CHILD)
+```
+
 ***  
 

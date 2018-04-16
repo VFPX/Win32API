@@ -5,7 +5,7 @@ Group: [Internet Functions (WinInet)](../../functions_group.md#Internet_Function
 ***  
 
 
-#### Initializes an application"s use of the Microsoft® Win32® Internet functions
+#### Initializes an application"s use of the Microsoft&reg; Win32&reg; Internet functions
 ***  
 
 

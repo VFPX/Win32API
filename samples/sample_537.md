@@ -225,6 +225,8 @@ ENDDEFINE
 
 ## Comment:
 This is a list of MIDI instruments (a.k.a. voices, timbres, programs and patches):  
+
+```txt
 0. AcousticGrandPiano  
 1. BrightAcousticPiano  
 2. ElectricGrandPiano  
@@ -352,7 +354,9 @@ This is a list of MIDI instruments (a.k.a. voices, timbres, programs and patches
 124. TelephoneRing  
 125. Helicopter  
 126. Applause  
-127. Gunshot  
+127. Gunshot
+```
+
   
 ***  
 

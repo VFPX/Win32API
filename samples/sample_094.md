@@ -8,7 +8,8 @@ This class implements adding documents to the system *Recent Documents* list.
 ![](../images/recentdocuments.png)  
 
 
-Under Windows 7, it also allows adding VFP related documents to the *Recent* section of the <a href="http://windows.microsoft.com/en-CA/windows7/products/features/jump-lists">jump list</a> attached to the current VFP instance.[jump list](sample_000.md)  
+Under Windows 7, it also allows adding VFP related documents to the *Recent* section of the <a href="http://windows.microsoft.com/en-CA/windows7/products/features/jump-lists">jump list</a> attached to the current VFP instance.
+
 ![](../images/jumplistvfp.png)  
 
 See also:
@@ -203,11 +204,12 @@ When application starts, the system restores its jump list, if one exists for th
   
 Under Windows 7, a VFP application on start receives a generic application ID. Apparently the system generates such ID based on the file that initiated the application (a shortcut, an executable). For example, two VFP instances launched by identical shortcuts (except different paths) have separate jump lists.  
   
-<a href="?example=38">Changing the application ID</a> does not immediately refresh the jump list attached to the main VFP window. But any top-level window created after the change will display the jump list linked to new application ID.  
+[Changing the application ID](sample_038.md) does not immediately refresh the jump list attached to the main VFP window. But any top-level window created after the change will display the jump list linked to new application ID.  
   
-After setting a new application ID, hide and show again VFP main window. That refreshes the jump list attached to the VFP taskbar icon. That simple:<div class="precode">_screen.Visible = .F.  
-_screen.Visible = .T.  
-</div>  
-  
+After setting a new application ID, hide and show again VFP main window. That refreshes the jump list attached to the VFP taskbar icon. That ```foxpro
+_screen.Visible = .F.  
+_screen.Visible = .T.
+```
+
 ***  
 

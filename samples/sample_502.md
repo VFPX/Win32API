@@ -16,7 +16,8 @@ This code includes definitions for three classes: IconGroups, IconGroupResource 
 The IconGroups is a collection of the IconGroupResource objects. The *icons* property of the IconGroupResource class is a collection of the IconResource objects.  
 
 The following code employs classes from this code sample to store VFP Icon resources to ICO files.  
-<div class="precode">oIconGroups = CREATEOBJECT("IconGroups",;  
+```foxpro
+oIconGroups = CREATEOBJECT("IconGroups",;  
 	_vfp.ServerName)  
 
 oIconGroups.EnumIconGroupResources  
@@ -46,9 +47,9 @@ IF NOT EMPTY(m.cTargetPath)
 		nGroupIndex = nGroupIndex + 1  
 	NEXT  
 	SET SAFETY ON  
-ENDIF  
-</div>  
-<div style="width:300;padding-bottom:25;"><a href="downloads/imageres_selected_icons.zip" rel="nofollow"><img src="images/filearchive.png" alt="Selected Windows icons" align="left"></a>*Download a small selection of Windows icons from System32\Imageres.dll library.*</div>[](sample_000.md)  
+ENDIF
+```
+[![](../images/filearchive.png)](../downloads/imageres_selected_icons.zip) *Download a small selection of Windows icons from System32\Imageres.dll library.* 
 
 See also:
 
@@ -338,14 +339,14 @@ RETURN Chr(MOD(m.lnValue,256)) + CHR(INT(m.lnValue/256))
 ## Comment:
 To see a variety of system icons, test this code with Shell32.dll and Imageres.dll files located in System32 folder.  
   
-<img src="images/imageres_icons.jpg" border=0 alt="Storing DLL icon resources in .ICO files">  
+![Storing DLL icon resources in .ICO files](../images/imageres_icons.jpg)
+ 
   
 * * *  
 VFP versions 3..9 do not support callback functions. This prevents using the EnumResourceNames function to enumerate available resources in executable or dynamic library files. For that reason, the IconGroups class enumerates IconGroup resources with only integer identifiers in 1..0xffff range.  
   
-Read on MSDN:  
-<LI><a href="http://msdn.microsoft.com/library/default.asp?url=/library/en-us/dnwui/html/msdn_icons.asp">Icons in Win32</a>  
-<LI><a href="http://msdn.microsoft.com/library/default.asp?url=/library/en-us/winui/winui/windowsuserinterface/resources/icons/usingicons.asp">Using Icons</a>  
-  
-***  
+Read on MSDN: 
+* [Icons in Win32](https://msdn.microsoft.com/en-us/library/ms997538.aspx)
+* [Using Icons](https://msdn.microsoft.com/en-us/library/windows/desktop/ms648051(v=vs.85).aspx)
 
+***  

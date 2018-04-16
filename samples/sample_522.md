@@ -255,34 +255,36 @@ ENDDEFINE
 ## Comment:
 Use the following code to run pipe server.  
   
-<div class="precode">LOCAL oServer As NamedPipeServer  
+```foxpro
+LOCAL oServer As NamedPipeServer  
 oServer = CREATEOBJECT("NamedPipeServer", "\\.\pipe\tpipe")  
 WITH oServer  
 	IF NOT .Listen()  
 		? .errorcode, .errormsg  
 	ENDIF  
-ENDWITH  
-</div>  
+ENDWITH
+```
 Starting the pipe server switches current VFP session to a waiting state. Thus it stays frozen until receiving a request from a pipe client.   
   
 This is a sample client code.  
   
-<div class="precode">LOCAL oClient As NamedPipeClient  
+```foxpro
+LOCAL oClient As NamedPipeClient  
 oClient = CREATEOBJECT("NamedPipeClient", "\\.\pipe\tpipe")  
   
 WITH oClient  
 	IF NOT .SendMessage(SYS(0))  
 		? .errorcode, .errormsg  
 	ENDIF  
-ENDWITH  
-</div>  
+ENDWITH
+```
 Normally a pipe server application, written in programming language other than FoxPro, would create a separate threads for listening and for processing incoming requests.  
   
 If the pipe client code runs on a different computer than the pipe server, in the pipe client code substitute the dot "." in the pipe name with the computer name or ip address of the pipe server.  
   
 Pipe server accepts connections on TCP port 139 (NetBIOS).  
   
-<img src="images/namedpipeserver.png">  
-  
+![](../images/namedpipeserver.png)
+
 ***  
 

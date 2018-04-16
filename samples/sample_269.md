@@ -102,7 +102,7 @@ PROCEDURE  decl
 [WriteFile](../libraries/kernel32/WriteFile.md)  
 
 ## Comment:
-**\\**[destination]**\mailslot\\messngr** is undocumented mailslot name, though it is widely used exactly for this purpose -- for sending popup messages. As I already mentioned, this is an equivalent of NET SEND command.   
+`\\[destination]\mailslot\\messngr` is undocumented mailslot name, though it is widely used exactly for this purpose -- for sending popup messages. As I already mentioned, this is an equivalent of NET SEND command.   
   
 In this example a message is sent to the local computer, just to avoid disturbing others. As a destination, you also can choose any computer or server name on your LAN. An asterick (*) is for the primary domain. With this name chosen as a destination you will be granted an immediate attention of all your co-workers.   
   
@@ -117,7 +117,7 @@ Also the NetMessageBufferSend function (Unicode-based) can be used for sending m
   
 <a href="http://support.microsoft.com/default.aspx?scid=KB;EN-US;Q302089&ID=KB;EN-US;Q302089&LN=EN-US&rnk=21&SD=tech&FR=0&qry=Type%20your%20Keywords%20or%20Question%20here%20and%20click%20go&src=DHCS_MSPSS_tech_SRCH&SPR=WINXP&">How to Prevent Windows Messenger from Running on a Windows XP-Based Computer</a>  
   
-<a href="http://www.theeldergeek.com/messenger_removal.htm">Microsoft Messenger Removal</a>  
+[Microsoft Messenger Removal](http://www.theeldergeek.com/messenger_removal.htm)  
   
 ***  
 

@@ -7,7 +7,7 @@ VFP application can receive system notifications when a disk drive gets connecte
 
 In this code sample, a ListView control on VFP form displays available disk drives using matching icons and descriptions.   
 ![](../images/listofdrives.png)  
-Note that this code sample requires VFP9 version of the <a href="http://msdn.microsoft.com/en-us/library/w42fek8t(VS.80).aspx">BINDEVENT()</a> function. The one that can handle <a href="http://msdn.microsoft.com/en-us/library/ms644927(v=vs.85).aspx">Windows messages</a>.[BINDEVENT()](sample_000.md)  
+Note that this code sample requires VFP9 version of the [BINDEVENT()](http://msdn.microsoft.com/en-us/library/w42fek8t(VS.80).aspx) function. The one that can handle [Windows messages](http://msdn.microsoft.com/en-us/library/ms644927(v=vs.85).aspx).
 
 See also:
 
@@ -395,32 +395,34 @@ The <a href="http://msdn.microsoft.com/en-us/library/aa363480(v=vs.85).aspx">WM_
 Upon locking and ejection of removable storage devices (not limited to), the system broadcasts the WM_DEVICECHANGE message to notify applications and device drivers about changes in the configuration.   
   
 Examples of events that trigger the broadcasting of WM_DEVICECHANGE message:  
-*  
-<li>USB flash drive inserted or ejected  
-<li>external hard drive connected to USB port, or ejected  
-<li>network drive mapped or disconnected  
-<li>CD inserted in CD drive, or ejected  
-*  
+  
+* USB flash drive inserted or ejected  
+* external hard drive connected to USB port, or ejected  
+* network drive mapped or disconnected  
+* CD inserted in CD drive, or ejected  
+  
 The main Visual FoxPro window ( <a href="http://msdn.microsoft.com/en-US/library/7cx3y946(v=VS.80).aspx">_vfp.HWnd</a> ) and any top-level form ( <a href="http://msdn.microsoft.com/en-US/library/h0ea0kz8(v=VS.80).aspx">ShowWindow=2</a>, ThisForm.HWnd ) normally receive WM_DEVICECHANGE messages.  
   
 VFP application can also deny or grant system requests for device removal (*yet to be covered in this or another code sample*).  
   
 * * *  
-.NET version of this code sample:  
-<img src="images/listofdrives_net.png">  
-* * *  
+.NET version of this code sample:
+![](../images/listofdrives_net.png)
+***  
 An installation CD/DVD disk may contain *Autorun.inf* file. Here is an example of the content.   
-<div class="PreCode">[AutoRun]  
+```txt
+[AutoRun]  
 open=Setup.exe  
 icon=Setup.exe  
 label=Linksys Router Setup  
-action=@Setup.exe,-10001  
-</div>  
+action=@Setup.exe,-10001
+```
+  
 It makes sense, *and Windows Explorer apparently behaves this way*, depicting a device using whenever available the *AutoRun.Label* string, and the icon retrieved from the file the *AutoRun.Open* points at.   
   
 Use GetPrivateProfileString function for retrieving values from *.ini* and *.inf* files.  
   
-* * *  
+***  
 MIcrosoft Support, Article 163503. <a href="http://support.microsoft.com/kb/163503">How to receive notification of CD-ROM insertion or removal</a>  
   
 ***  

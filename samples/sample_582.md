@@ -6,9 +6,10 @@
 ![](../images/onscreenkbd.png)  
 For data entry, instead of relying on the physical keyboard, user may choose using Windows On-Screen Keyboard instead. This virtual keyboard gives access to all standard keys.  
 
-On-Screen Keyboard executable file, *osk.exe*, resides in System32 directory. Note that on 64-bit systems this file cannot be launched from 32-bit process. <a href="http://msdn.microsoft.com/en-us/library/aa384187(v=vs.85).aspx">"File System Redirector"</a> article on MSDN explains why:["File System Redirector"](sample_000.md)  
-<div style="margin:15;">*32-bit applications can access the native system directory by substituting %windir%\Sysnative for %windir%\System32. WOW64 recognizes Sysnative as a special alias used to indicate that the file system should not redirect the access.*</div>  
-  
+On-Screen Keyboard executable file, *osk.exe*, resides in System32 directory. Note that on 64-bit systems this file cannot be launched from 32-bit process. ["File System Redirector"](http://msdn.microsoft.com/en-us/library/aa384187(v=vs.85).aspx) article on MSDN explains why:  
+
+> 32-bit applications can access the native system directory by substituting %windir%\Sysnative for %windir%\System32. WOW64 recognizes Sysnative as a special alias used to indicate that the file system should not redirect the access.
+
 ***  
 
 
@@ -89,7 +90,8 @@ PROCEDURE declare
 [ShellExecute](../libraries/shell32/ShellExecute.md)  
 
 ## Comment:
-<img src="images/onscreenkbdclass.png">  
+![](../images/onscreenkbdclass.png)
+
 On-Screen Keyboard`s window class name is "OSKMainClass". Knowing this, a VFP application can test the visibility of the On-Screen Keyboard by calling the FindWindow. By calling the SetWindowPos or similar API function, the virtual keyboard can be shown, hidden, or positioned at a specified point on the screen.  
   
 ***  

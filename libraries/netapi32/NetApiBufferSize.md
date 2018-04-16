@@ -58,15 +58,16 @@ If the function succeeds, the return value is NERR_Success (0).
 
 ## Comments:
 Various NetApi functions  
-<LI>NetServerEnum   
-<LI>NetConnectionEnum   
-<LI>NetUserEnum   
-<LI>NetWkstaUserEnum   
-<LI>NetShareEnum   
-<LI>NetGetDCName   
-<LI>NetGroupEnum   
-<LI>NetLocalGroupEnum   
-<Em>and more...</Em>  
+* NetServerEnum   
+* NetConnectionEnum   
+* NetUserEnum   
+* NetWkstaUserEnum   
+* NetShareEnum   
+* NetGetDCName   
+* NetGroupEnum   
+* NetLocalGroupEnum   
+*and more...*  
+
 implicitly allocate a memory buffer and require it to be freed after the call is complete.  
   
 ***  

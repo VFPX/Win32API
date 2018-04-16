@@ -3,8 +3,8 @@
 # Custom GDI+ class
 
 ## Before you begin:
-<span style="color: #9000A1">Note: since this CGI+ class library uses Collections and Try/Catch error handling,   
-it requires at least VFP8.</span>   
+***Note: since this CGI+ class library uses Collections and Try/Catch error handling,   
+it requires at least VFP8.***   
 
 The *gdiplusinit* object must be created before instantiating first gdi+ object in the application.  
 
@@ -1321,10 +1321,13 @@ RETURN Chr(MOD(m.lnValue,256)) + CHR(INT(m.lnValue/256))
 [StringFromGUID2](../libraries/ole32/StringFromGUID2.md)  
 
 ## Comment:
-Microsoft� Windows� GDI+ exposes a <a href="http://msdn.microsoft.com/library/default.asp?url=/library/en-us/gdicpp/GDIPlus/GDIPlusreference/flatapi.asp">flat application programming interface</a> (API) that consists of about 600 functions implemented in Gdiplus.dll.  
+Microsoft&reg; Windows&reg; GDI+ exposes a <a href="http://msdn.microsoft.com/library/default.asp?url=/library/en-us/gdicpp/GDIPlus/GDIPlusreference/flatapi.asp">flat application programming interface</a> (API) that consists of about 600 functions implemented in Gdiplus.dll.  
   
-<div class="precode">C:\Program Files\Common Files\Microsoft Shared\VFP\gdiplus.dll  
-</div>Check if you have <a href="http://msdn.microsoft.com/library/default.asp?url=/library/en-us/gdicpp/GDIPlus/GDIPlus.asp">the latest version of gdiplus library</a> installed.  
+```dos
+C:\Program Files\Common Files\Microsoft Shared\VFP\gdiplus.dll
+```
+Check if you have <a href="http://msdn.microsoft.com/library/default.asp?url=/library/en-us/gdicpp/GDIPlus/GDIPlus.asp">the latest version of gdiplus library</a> installed.  
+
   
 For C++ developers the functions in the GDI+ flat API are wrapped in about 40 C++ classes. Visual FoxPro developers are not able to instantiate any such class in pure FoxPro code. That is why the flat API makes a good choice.  
   
@@ -1333,9 +1336,9 @@ July 5, 2004: Visual FoxPro 9 presents new property GdiPlusGraphics. My understa
 Recommended reading:   
   
 Articles of <a href="http://fox.wikis.com/wc.dll?Wiki~MarkusEgger~People">Markus Egger</a>.  
-<LI><a href="http://www.markusegger.com/Articles/Article.aspx?quickid=0305031">The Basics of GDI+</a>   
-<LI><a href="http://www.markusegger.com/Articles/Article.aspx?quickid=03050801">Using GDI+ in ASP.NET Web Applications, Part 1</a>  
-<LI><a href="http://www.markusegger.com/Articles/Article.aspx?quickid=0307031">Using GDI+ in ASP.NET Web Applications, Part 2</a>  
+* <a href="http://www.markusegger.com/Articles/Article.aspx?quickid=0305031">The Basics of GDI+</a>   
+* <a href="http://www.markusegger.com/Articles/Article.aspx?quickid=03050801">Using GDI+ in ASP.NET Web Applications, Part 1</a>  
+* <a href="http://www.markusegger.com/Articles/Article.aspx?quickid=0307031">Using GDI+ in ASP.NET Web Applications, Part 2</a>  
   
 <a href="http://foxpro.advisor.com/doc/14141">Using GDI+ in the VFP 9 Report Writer</a> by <a href="http://fox.wikis.com/wc.dll?Wiki~ChristofWollenhaupt">Christof Wollenhaupt</a> published in July 2004 issue of FoxPro Advisor.  
   

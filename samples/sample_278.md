@@ -7,9 +7,9 @@ When you select a fragment of an application data to the Windows Clipboard, most
 
 ![](../images/clipboardmore.png)  
 
-<div style="font-style: italic; margin-left: 40px; margin-right: 30px;">On the picture above a web page is shown that has a fragment selected and copied to the clipboard. Windows Clipboard stores this fragment in at least four different formats. The HTML format is shown.</div>  
+> On the picture above a web page is shown that has a fragment selected and copied to the clipboard. Windows Clipboard stores this fragment in at least four different formats. The HTML format is shown.
 
-To find out how many of them are involved when a fragment from a MS Word document is copied to the clipboard -- run <a href="?example=32">this code</a>.[this code](sample_032.md)  
+To find out how many of them are involved when a fragment from a MS Word document is copied to the clipboard -- run [this code](sample_032.md).  
 
 This code sample shows how to access several text-related data formats stored in the Clipboard. To test it **Cut** or **Copy** some data to the clipboard. Select data from MS Office documents, web pages, Notepad files and so on.  
   
@@ -216,7 +216,7 @@ Two Clipboard Data Formats: ***HTML Format*** and ***Rich Text Format*** are not
   
 Differently from the standard Clipboard Formats with constant numeric Ids, these two are linked to constant strings.  
   
-Read the <a href="http://msdn.microsoft.com/library/default.asp?url=/workshop/networking/clipboard/htmlclipboard.asp">HTML Clipboard Format</a> article on the MSDN.  
+Read the [HTML Clipboard Format](https://msdn.microsoft.com/en-us/library/windows/desktop/ms649015(v=vs.85).aspx) article on the MSDN.  
   
 The Netscape 6 browser supports the ***HTML Format***. Its earlier version 4.75, and the Opera 5 -- both do not. So after all, this is how the application decides: to store or not to store.  
   

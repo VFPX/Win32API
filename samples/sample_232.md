@@ -133,9 +133,8 @@ PROCEDURE declare
 [socket](../libraries/ws2_32/socket.md)  
 
 ## Comment:
-Check this article <a href="http://support.microsoft.com/default.aspx?scid=kb;EN-US;q237688">HOWTO: Using getsockopt() and setsockopt() in Visual Basic (Q237688)</a>.  
+Check this article [HOWTO: Using getsockopt() and setsockopt() in Visual Basic (Q237688)](http://www.ecs.syr.edu/faculty/Fawcett/handouts/cse686/Summer01/Socket%20Stuff/Q237688%20-%20HOWTO%20Using%20getsockopt()%20and%20setsockopt()%20in%20Visual%20Basic.htm).  
   
-#kwd: sln_winsock.  
-  
+
 ***  
 

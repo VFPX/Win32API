@@ -34,7 +34,7 @@ dwReserved
 
 
 ## Return value:
-Returns 0 (ERROR_SUCCESS) if successful, or a Microsoft® Win32® error value otherwise.  
+Returns 0 (ERROR_SUCCESS) if successful, or a Microsoft&reg; Win32&reg; error value otherwise.  
 ***  
 
 

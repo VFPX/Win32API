@@ -296,7 +296,8 @@ Read also:
 * * *  
 As you know, VFP strings are widely used instead of pointers in many API calls. Here is an example of GetFileSecurity API function being declared and called using such string as the third parameter passed by reference.  
   
-<div class="precode">DECLARE INTEGER GetFileSecurity IN advapi32;  
+```foxpro
+DECLARE INTEGER GetFileSecurity IN advapi32;  
 	STRING lpFileName, INTEGER RequestedInformation,;  
 	STRING @pSecurityDescriptor, INTEGER nLength,;  
 	INTEGER @lpnLengthNeeded  
@@ -306,17 +307,19 @@ cDescriptor=REPLICATE(Chr(0), 256)
 nBufsize=0  
   
 = GetFileSecurity(cFile, OWNER_SECURITY_INFORMATION,;  
-	@cDescriptor, LEN(cDescriptor), @nBufsize)  
-</div>  
+	@cDescriptor, LEN(cDescriptor), @nBufsize)
+```
+
 The code returns no error and the cDescriptor contains meaningful data on exit. But under certain circumstances, the cDescriptor fails while used in subsequent API calls like, for instance, GetSecurityDescriptorDacl.  
   
 I have found it far more reliable for this particular function to be declared with pSecurityDescriptor parameter set as Integer.  
   
-<div class="precode">DECLARE INTEGER GetFileSecurity IN advapi32;  
+```foxpro
+DECLARE INTEGER GetFileSecurity IN advapi32;  
 	STRING lpFileName, INTEGER RequestedInformation,;  
 	INTEGER pSecurityDescriptor, INTEGER nLength,;  
-	INTEGER @lpnLengthNeeded  
-</div>  
+	INTEGER @lpnLengthNeeded
+```
 Of course, it adds some extra code before and after the call. A memory block must be allocated and eventually released. A very simple LocalMem class handles this with no glitch.  
   
 ***  

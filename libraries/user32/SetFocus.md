@@ -39,10 +39,11 @@ If the function succeeds, the return value is the handle to the window that prev
 
 
 ## Comments:
-<div class="precode">DECLARE INTEGER SetFocus IN user32;  
+```foxpro
+DECLARE INTEGER SetFocus IN user32;  
 	AS SetFocusAPI INTEGER hWindow  
-? SetFocusAPI(_screen.HWnd)  
-</div>  
+? SetFocusAPI(_screen.HWnd)
+```
 See also: [GetFocus](../user32/GetFocus.md), [SetForegroundWindow](../user32/SetForegroundWindow.md), [GetForegroundWindow](../user32/GetForegroundWindow.md), [GetActiveWindow](../user32/GetActiveWindow.md).  
   
 ***  

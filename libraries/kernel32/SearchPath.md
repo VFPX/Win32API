@@ -66,12 +66,13 @@ If the function succeeds, the value returned is the length, in TCHARs, of the st
 
 
 ## Comments:
-If the path to be searched for the file is NULL, the function searches for a matching file in the following directories in the following sequence: <UL><LI>The directory from which the application loaded.   
-<LI>The current directory.   
-<LI>The Windows system directory.  
-<LI>The Windows directory.  
-<LI>The directories that are listed in the PATH environment variable.   
-</UL>  
-  
+If the path to be searched for the file is NULL, the function searches for a matching file in the following directories in the following sequence: 
+
+* The directory from which the application loaded.   
+* The current directory.   
+* The Windows system directory.  
+* The Windows directory.  
+* The directories that are listed in the PATH environment variable.   
+
 ***  
 

@@ -3,10 +3,12 @@
 # Reading current hardware profile
 
 ## Before you begin:
-This code returns something like:<code><font color=#0000a0>  
-&nbsp;Docking state: 7  
-&nbsp;GUID: {374a...696a}  
-&nbsp;Profile name: Profile 1</font></code>  
+This code returns something like:
+```txt
+Docking state: 7  
+GUID: {374a...696a}  
+Profile name: Profile 1
+```
   
 ***  
 

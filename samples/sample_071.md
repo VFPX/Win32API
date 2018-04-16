@@ -83,7 +83,5 @@ RETURN .T.
 ## Comment:
 No wildcards accepted; valid file name only  
   
-#kwd: sln_ftp.  
-  
 ***  
 

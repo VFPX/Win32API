@@ -49,13 +49,15 @@ Returns GpStatus value, 0 means success.
 
 ## Comments:
 If the item already exists, then its contents are updated; otherwise, a new item is added. Certain image formats (for example, ICON and EMF) do not support properties.  
-<code>  
+  
+```cpp
 struct PropertyItem {   
-&nbsp;&nbsp;LONG id;       //type of metadata  
-&nbsp;&nbsp;ULONG length;  // size in bytes of the value array  
-&nbsp;&nbsp;WORD type;     // data type  
-&nbsp;&nbsp;LPVOID value;  // pointer to array of values  
-};</code>  
+    LONG id;       //type of metadata  
+    ULONG length;  // size in bytes of the value array  
+    WORD type;     // data type  
+    LPVOID value;  // pointer to array of values  
+};
+```
   
 ***  
 

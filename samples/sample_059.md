@@ -3,13 +3,13 @@
 # Using FtpCommand
 
 ## Before you begin:
-<table cellspacing=3 cellpadding=0 border=0><tr><td valign=top><img src="../images/readarticle.gif" border=0></td><td valign=top class=fdescr><a href="?article=3">Programming File Transfer Protocol in Visual FoxPro </a></td></tr></table>[Programming File Transfer Protocol in Visual FoxPro ](sample_000.md)  
+<table cellspacing=3 cellpadding=0 border=0><tr><td valign=top><img src="../images/readarticle.gif" border=0></td><td valign=top class=fdescr><a href="?article=3">Programming File Transfer Protocol in Visual FoxPro </a></td></tr></table>  
 See also:
 
 * [Winsock: accessing FTP](sample_386.md)  
 
 Complete FTP solution:  
-<a href="http://www.news2news.com/vfp/?solution=1&src=x59"><img src="../images/ftplib_270_48.jpg" width=270 height=48 border=0  vspace=5 hspace=5 alt="Download FTP Class Library"></a>[](sample_000.md)  
+<a href="http://www.news2news.com/vfp/?solution=1&src=x59"><img src="../images/ftplib_270_48.jpg" width=270 height=48 border=0  vspace=5 hspace=5 alt="Download FTP Class Library"></a>  
 
   
 ***  
@@ -168,13 +168,11 @@ PROCEDURE  decl
 ## Comment:
 Example revised: Feb.24, 2003  
   
-<LI><a href="http://www.faqs.org/rfcs/rfc765.html">RFC 765 (RFC765 ) File Transfer Protocol</a>  
-<LI><a href="http://msdn.microsoft.com/msdn-files/026/001/985/Server Components/Visual Basic COM/FBLL (Fullfillment Business Logic Layer)/wininet_bas.htm">WinInet_VB_library</a>  
-<LI><a href="http://support.microsoft.com/support/kb/articles/Q168/4/92.ASP">PRB: FTP_WinInet_APIs Report Error 12003</a>  
-<LI><a href="http://support.microsoft.com/support/kb/articles/Q255/2/04.ASP">FtpCommand() WinInet_Function_Stops_Responding</a>  
-<LI><a href="http://www.vbip.com/wininet/wininet-ftp-command-01.asp">How to use WinInet FTPCommand function from Visual Basic</a>  
-  
-#kwd: sln_ftp.  
-  
+* [RFC 765 (RFC765 ) File Transfer Protocol](http://www.faqs.org/rfcs/rfc765.html)  
+* <a href="http://msdn.microsoft.com/msdn-files/026/001/985/Server Components/Visual Basic COM/FBLL (Fullfillment Business Logic Layer)/wininet_bas.htm">WinInet_VB_library</a>  
+* <a href="http://support.microsoft.com/support/kb/articles/Q168/4/92.ASP">PRB: FTP_WinInet_APIs Report Error 12003</a>  
+* <a href="http://support.microsoft.com/support/kb/articles/Q255/2/04.ASP">FtpCommand() WinInet_Function_Stops_Responding</a>  
+* [How to use WinInet FTPCommand function from Visual Basic](http://www.planetsourcecode.com/vb/scripts/ShowCode.asp?txtCodeId=38947&lngWId=1)  
+
 ***  
 

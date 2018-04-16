@@ -2,19 +2,12 @@
 
 # Clipping mouse cursor area
 
-## Short description:
-Mauricio Henao Romero
-maohenao@hotmail.com
-http://www.codefox.net/modules.php?name=News&file=article&sid=193  
-***  
 
 
 ## Before you begin:
 By clicking on the **Clip** button you are confining the mouse cursor to the rectangle of the form.  
 To restore the previous state click on the **Restore** button or move the form.  
 
-This code you can also find on CodeFox.Net web site <a href="http://www.codefox.net/modules.php?name=News&file=print&sid=193">Limitar el campo de acción del Mouse</a>. All comments are nicely translated to Spanish, the origin of the code somehow is not clarified. Good "copy and paste" job.[Limitar el campo de acción del Mouse](sample_000.md)  
-  
 ***  
 
 

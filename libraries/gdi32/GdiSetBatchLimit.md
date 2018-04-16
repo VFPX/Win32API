@@ -45,9 +45,9 @@ The batch limit is maintained for each thread separately. In order to completely
   
 When started the Visual FoxPro 09.00.0000.5815 for Windows sets the batch limit to 20.  
   
-See also: [](..//.md).  
-<LI><a href="http://fox.wikis.com/wc.dll?Wiki~VistaAeroIssues">Vista Aero Issues</a> on FoxPro Wiki.  
-<LI><a href="http://www.west-wind.com/wconnect/weblog/ShowEntry.blog?id=571">Visual FoxPro and Vista RTM</a> as blogged by Rick Strahl  
+See also: .  
+* <a href="http://fox.wikis.com/wc.dll?Wiki~VistaAeroIssues">Vista Aero Issues</a> on FoxPro Wiki.  
+* <a href="http://www.west-wind.com/wconnect/weblog/ShowEntry.blog?id=571">Visual FoxPro and Vista RTM</a> as blogged by Rick Strahl  
   
 ***  
 

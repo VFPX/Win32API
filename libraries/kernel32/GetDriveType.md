@@ -46,14 +46,16 @@ The return value specifies the type of drive
 
 
 ## Comments:
-<div class="precode">#DEFINE DRIVE_UNKNOWN 0  
+```txt
+#DEFINE DRIVE_UNKNOWN 0  
 #DEFINE DRIVE_NO_ROOT_DIR 1  
 #DEFINE DRIVE_REMOVABLE 2  
 #DEFINE DRIVE_FIXED 3  
 #DEFINE DRIVE_REMOTE 4  
 #DEFINE DRIVE_CDROM 5  
-#DEFINE DRIVE_RAMDISK 6  
-</div>  
+#DEFINE DRIVE_RAMDISK 6
+```
+  
 See also: [RealDriveType](../shell32/RealDriveType.md).  
   
 ***  

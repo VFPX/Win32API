@@ -3,7 +3,7 @@
 # URL: converting unsafe characters and spaces into escape sequences
 
 ## Before you begin:
-Similar <a href="?example=183&function=292">example</a> using UrlEscape and UrlUnescape functions.[example](sample_292.md)  
+Similar [example](sample_292.md) using UrlEscape and UrlUnescape functions.  
   
 ***  
 
@@ -41,10 +41,5 @@ ENDIF
 ## Listed functions:
 [InternetCanonicalizeUrl](../libraries/wininet/InternetCanonicalizeUrl.md)  
 
-## Comment:
-  
-  
-#kwd: sln_http.  
-  
 ***  
 

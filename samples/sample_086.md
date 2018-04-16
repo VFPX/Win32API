@@ -33,8 +33,10 @@ c:\winnt\system32\vfp300.esl
 c:\Program Files\Microsoft Visual Studio\VFP98\VFP6.Exe  
 ...  
   
-* * *  
-<code>? _vfp.servername</code>  
+***  
+```foxpro
+? _vfp.servername
+```
   
   
   

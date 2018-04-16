@@ -66,7 +66,7 @@ PROCEDURE declare
 [AssocQueryString](../libraries/shlwapi/AssocQueryString.md)  
 
 ## Comment:
-<img src="images/findfileassociation.png">  
-  
+![](../images/findfileassociation.png)
+
 ***  
 

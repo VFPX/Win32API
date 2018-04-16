@@ -83,10 +83,12 @@ RETURN  Left(lpReturnedString, lnResult)
 [GetProfileString](../libraries/kernel32/GetProfileString.md)  
 
 ## Comment:
-A section in the Win.ini file must have the following form: *  
+A section in the Win.ini file must have the following form:  
+```txt
 [section]  
-key=string  
-*  
+key=string
+```
+
         
   
 ***  

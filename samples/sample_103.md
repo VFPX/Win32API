@@ -52,8 +52,9 @@ ENDIF
 Pass a file name to this procedure. This code sets read-only and clears archive attributes for the selected file.  
   
 DOS command ATTRIB can be used for the same purpose:  
-<div class="precode">ATTRIB -R c:\mydir\*.* /S  
-</div>  
-  
+```dos
+ATTRIB -R c:\mydir\*.* /S
+```
+
 ***  
 

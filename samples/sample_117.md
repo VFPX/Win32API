@@ -9,7 +9,7 @@ After starting this code sample, try to add, change or delete files in the targe
 
 See also::
 
-* [FileSystemWatcher ActiveX Control for Visual FoxPro](sample_000.md)  
+* [FileSystemWatcher ActiveX Control for Visual FoxPro](?solution=8)  
 * [Monitoring changes occurring within a directory](sample_400.md)  
 * [Enumerating files opened on the network](sample_121.md)  
   

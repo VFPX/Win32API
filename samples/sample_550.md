@@ -18,13 +18,14 @@ Each Adobe SDI window has a menu attached to it. It is possible to read the stru
 
 No captions can be retrieved though -- due to the fact that the menu has substantial dynamic (run-time) building part. That part hides, shows, disables and enables items on the fly. Same, for example, as VFP shell does with its main menu.  
 
-From looking at the XML-formatted <a href="images/adobereader9_menu.xml">AdobeReader 9 menu structure</a> and comparing it to the actual menu, some pretty obvious conclusions can be made. [AdobeReader 9 menu structure](sample_000.md)  
+From looking at the XML-formatted AdobeReader 9 menu structure and comparing it to the actual menu, some pretty obvious conclusions can be made.   
 
 ![](../images/adobereader9_menu.png)  
 The most important things is the menu item Ids. If the Id of a menu item is known, as well as the handle of the window hosting the menu, then the menu item can be virtually "clicked on" by calling the SendMessage with specific parameters.  
 
-<div class="precode">= SendMessage(hWindow, WM_COMMAND, m.nItemId, 0)  
-</div>  
+```foxpro
+= SendMessage(hWindow, WM_COMMAND, m.nItemId, 0)
+```
 The *hWindow* above is the handle to AdobeReader SDI window. The *nItemId* is a numeric value that can be recognized by this menu as a valid menu item id.   
 
 For example, passing *nItemId=6019* will close the document open in the SDI window, leaving the window empty. And passing *nItemId=6033* will close a given SDI window.  
@@ -255,13 +256,14 @@ ENDDEFINE
 [SwitchToThisWindow](../libraries/user32/SwitchToThisWindow.md)  
 
 ## Comment:
-The AdobeReaderSDIWindow class is able to virtually "click on" an item in the main menu of Adobe Reader 9 window. This is a part of what you can do:<UL><LI style="margin-bottom: 3px;">enumerate titles of all open Adobe documents  
-<LI style="margin-bottom: 3px;">activate a document (the document moves to the front)  
-<LI style="margin-bottom: 3px;">switch a document to Full Screen Mode  
-<LI style="margin-bottom: 3px;">copy a document to the Clipboard  
-<LI style="margin-bottom: 3px;">close a specified document or all documents  
-<LI style="margin-bottom: 3px;">open Print Setup dialog for a document  
-<LI style="margin-bottom: 3px;">open Print dialog for a document  
+The AdobeReaderSDIWindow class is able to virtually "click on" an item in the main menu of Adobe Reader 9 window. This is a part of what you can do:
+* enumerate titles of all open Adobe documents  
+* activate a document (the document moves to the front)  
+* switch a document to Full Screen Mode  
+* copy a document to the Clipboard  
+* close a specified document or all documents  
+* open Print Setup dialog for a document  
+* open Print dialog for a document  
   
 You can also open a PDF document either by a file name or by invoking File Open dialog.  
   

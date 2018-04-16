@@ -5,7 +5,7 @@ Group: [GDI+ Bitmap](../../functions_group.md#GDIplus_Bitmap)  -  Library: [gdip
 ***  
 
 
-#### Creates a Microsoft® Windows® Graphics Device Interface (GDI) bitmap from this GDI+ Bitmap handle.
+#### Creates a Microsoft&reg; Windows&reg; Graphics Device Interface (GDI) bitmap from this GDI+ Bitmap handle.
 
 ***  
 

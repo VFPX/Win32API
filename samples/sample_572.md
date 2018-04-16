@@ -3,15 +3,15 @@
 # Capturing keyboard activity of another application with the Raw Input API (VFP9)
 
 ## Before you begin:
-In this code sample, VFP form registers for receiving the <a href="http://msdn.microsoft.com/en-us/library/ms645543(v=vs.85).aspx">raw input</a> from each and any keyboard type device connected to the computer. That includes keyboards, numeric keypads, keyboard wedge scanners and so on.[raw input](sample_000.md)  
+In this code sample, VFP form registers for receiving the [raw input](http://msdn.microsoft.com/en-us/library/ms645543(v=vs.85).aspx) from each and any keyboard type device connected to the computer. That includes keyboards, numeric keypads, keyboard wedge scanners and so on.  
 
 The testing is simple. Any text typed in another Windows application (like text editor, spreadsheet, browser) will be duplicated in an EditBox on the VFP form.  
 ![](../images/rawinputdemo.png)  
-Note that this code sample requires VFP9 version of the <a href="http://msdn.microsoft.com/en-us/library/w42fek8t(VS.80).aspx">BINDEVENT()</a> function. The one that can handle <a href="http://msdn.microsoft.com/en-us/library/ms644927(v=vs.85).aspx">Windows messages</a>.[BINDEVENT()](sample_000.md)  
+Note that this code sample requires VFP9 version of the <a href="http://msdn.microsoft.com/en-us/library/w42fek8t(VS.80).aspx">BINDEVENT()</a> function. The one that can handle [Windows messages](http://msdn.microsoft.com/en-us/library/ms644927(v=vs.85).aspx).  
 
 See also:
 
-* [LanguageBar ActiveX control](sample_000.md)  
+* [LanguageBar ActiveX control](?solution=7)  
 * [Enumerating raw input devices attached to the system](sample_571.md)  
 * [Switching between keyboard layouts](sample_275.md)  
 * [Disabling mouse and keyboard input for the main VFP window](sample_083.md)  

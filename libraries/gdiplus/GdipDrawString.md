@@ -50,7 +50,7 @@ string
 [in] Pointer to a wide-character string to be drawn. 
 
 length
-[in] Integer that specifies the number of characters in the string array. The length parameter can be set to –1 if the string is null terminated. 
+[in] Integer that specifies the number of characters in the string array. The length parameter can be set to 1 if the string is null terminated. 
 
 font
 [in] Pointer to a Font object that specifies the font attributes (the family name, the size, and the style of the font) to use. 
@@ -75,11 +75,13 @@ If the method succeeds, it returns Ok (0), which is an element of the Status enu
 ## Comments:
 Note that the <Em>layoutRect</Em> structure contains four 32-bit float numbers, not four 32-bit INT numbers.  
   
-Presented in this reference <a href="?example=450">GDI+ class</a> uses <Em>float2int</Em> conversion routine to populate this structure:<code><font color=#0000a0>  
+Presented in this reference <a href="?example=450">GDI+ class</a> uses <Em>float2int</Em> conversion routine to populate this structure:
+
+```foxpro
 FUNCTION RECTF(nLeft, nTop, nRight, nBottom)  
 RETURN num2dword(Int2Float(nLeft)) + num2dword(Int2Float(nTop)) +;  
-	num2dword(Int2Float(nRight)) + num2dword(Int2Float(nBottom))  
-</font></code>  
-  
+	num2dword(Int2Float(nRight)) + num2dword(Int2Float(nBottom))
+```
+
 ***  
 

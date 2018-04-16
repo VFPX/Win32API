@@ -3,7 +3,7 @@
 # Reading and setting explicit Application User Model ID for the current process (Win7)
 
 ## Before you begin:
-Application User Model IDs (<a href="http://msdn.microsoft.com/en-us/library/dd378459(v=vs.85).aspx">AppUserModelIDs</a>) are used extensively by the <a href="http://windows.microsoft.com/en-CA/windows7/products/features/windows-taskbar">taskbar in Windows 7</a> and later systems to associate processes, files, and windows with a particular application.[AppUserModelIDs](sample_000.md)  
+Application User Model IDs ([AppUserModelIDs](http://msdn.microsoft.com/en-us/library/dd378459(v=vs.85).aspx)) are used extensively by the [taskbar in Windows 7](http://windows.microsoft.com/en-CA/windows7/products/features/windows-taskbar) and later systems to associate processes, files, and windows with a particular application.  
 
 ![](../images/jumplistvfp.png)  
 
@@ -119,13 +119,15 @@ If an application uses an explicit AppUserModelID, it must also assign the same 
 * * *  
 An explicit application ID better be created before the main application window shows on. When VFP main window appears on the screen, the system has already assigned a default application ID to this VFP instance.  
   
-After setting an explicit application ID, hide and show again VFP main window. That refreshes the jump list attached to the VFP taskbar icon. That simple:<div class="precode">_screen.Visible = .F.  
-_screen.Visible = .T.  
-</div>  
+After setting an explicit application ID, hide and show again VFP main window. That refreshes the jump list attached to the VFP taskbar icon. That simple:
+```foxpro
+_screen.Visible = .F.  
+_screen.Visible = .T.
+```
 Another option is using SCREEN=OFF and COMMAND settings in VFP configuration file. The COMMAND should start a program that sets application ID and then turns the main window on.  
   
 * * *  
-Setting application ID for an individual VFP top-level form requires access to the <a href="http://msdn.microsoft.com/en-us/library/bb761474(v=vs.85).aspx">IPropertyStore</a> interface. Apparently it can be done only through writing an external library. A fragment of such FLL is shown in <a href="?example=38&ver=vcpp">C++ section</a> of this code sample.  
+Setting application ID for an individual VFP top-level form requires access to the [IPropertyStore](http://msdn.microsoft.com/en-us/library/bb761474(v=vs.85).aspx) interface. Apparently it can be done only through writing an external library. A fragment of such FLL is shown in <a href="?example=38&ver=vcpp">C++ section</a> of this code sample.  
   
 * * *  
 If a window owns an explicit application ID, calling the GetProp with this window handle and property name "{9F4C2855-9F79-4B39-A8D0-E1D42DE1D5F3} 5" returns valid data handle (IPropertyStore ?).  

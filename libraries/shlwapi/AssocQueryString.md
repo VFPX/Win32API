@@ -68,10 +68,11 @@ On success retuns S_OK (0), otherwise returns a standard COM error value.
 ## Comments:
 This function is a wrapper for the IQueryAssociations interface in Shell namespace.  
   
-See also: [](..//.md).  
-<li>FindExecutable   
-<li>ShellExecute   
-<li><a href="?example=530">Displaying associated icons and descriptions for files and folders</a>  
+See also: 
+
+* [FindExecutable](../shell32/FindExecutable .md)   
+* [ShellExecute](../shell32/ShellExecute.md)   
+* [Displaying associated icons and descriptions for files and folders](../../sample_530.md)  
   
 ***  
 

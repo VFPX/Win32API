@@ -336,12 +336,13 @@ ENDDEFINE
 [GetLogicalDrives](../libraries/kernel32/GetLogicalDrives.md)  
 
 ## Comment:
-<div class="precode">#DEFINE CLASS_GUID_USBCONTROLLER;  
+```txt
+#DEFINE CLASS_GUID_USBCONTROLLER;  
 	"{36fc9e60-c465-11cf-8056-444553540000}"  
   
 #DEFINE CLASS_GUID_DISKDRIVE;  
-	"{4d36e967-e325-11ce-bfc1-08002be10318}"  
-</div>  
-  
+	"{4d36e967-e325-11ce-bfc1-08002be10318}"
+```
+
 ***  
 

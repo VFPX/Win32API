@@ -5,7 +5,7 @@ Group: [Internet Functions (WinInet)](../../functions_group.md#Internet_Function
 ***  
 
 
-#### Retrieves the last Microsoft® Win32® Internet function error description or server response on the thread calling this function.
+#### Retrieves the last Microsoft&reg; Win32&reg; Internet function error description or server response on the thread calling this function.
 ***  
 
 

@@ -3,7 +3,7 @@
 # GDI+: Storing DLL icon resources in image files
 
 ## Before you begin:
-The code is based on <a href="?example=450">custom GDI+ class</a>. Download the class module first and save it in **gdiplus.prg** file. [custom GDI+ class](sample_450.md)  
+The code is based on [custom GDI+ class](sample_450.md). Download the class module first and save it in **gdiplus.prg** file.   
 
 It shows how to save icon resources in image files (BMP, GIF, PNG, TIF and JPEG).  
 
@@ -11,7 +11,7 @@ See also:
 
 * [Storing DLL icon resources in .ICO files](sample_502.md)  
 * [How to view icons stored in executable files (Icon Viewer)](sample_113.md)  
-[<LI>GDI+ function](../gdiplus/GdipCreateBitmapFromHICON.md)  
+* [GDI+ function](../libraries/gdiplus/GdipCreateBitmapFromHICON.md)  
 
   
 ***  
@@ -88,13 +88,14 @@ PROCEDURE declare
 ## Comment:
 To load the icon data from a .ICO file, not from resource, use this code:  
   
-<div class=precode>#DEFINE LR_LOADFROMFILE 0x0010  
+```foxpro
+#DEFINE LR_LOADFROMFILE 0x0010  
 #DEFINE LR_SHARED 0x8000  
 #DEFINE IMAGE_ICON 1  
   
 hIcon = LoadImage(0, cIconFile, IMAGE_ICON,;  
-	0, 0, BITOR(LR_LOADFROMFILE, LR_SHARED))  
-</div>  
+	0, 0, BITOR(LR_LOADFROMFILE, LR_SHARED))
+```
 While Windows imposes no restrictions on the sizes of icons, common sizes include 16, 32, and 48 pixels square.  
   
 ***  

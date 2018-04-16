@@ -6,13 +6,6 @@
 The CryptKeyHelper class defined in the code sample below is a wrapper around Windows API Cryptography functions. It implements methods allowing to generate a random cryptographic key, to export the key to a specified file, and to import a key from a specified file.  
 ***  
 
-
-## Before you begin:
-The *CryptKeyHelper* class defined in the code sample below is a wrapper around *Windows API Cryptography* functions. It implements methods allowing to generate a random cryptographic key, to export the key to a specified file, and to import a key from a specified file.  
-  
-***  
-
-
 ## Code:
 ```foxpro  
 #DEFINE CALG_DES 0x00006601  && 56 bits

@@ -42,7 +42,7 @@ DECLARE INTEGER URLDownloadToCacheFile IN urlmon;
 
 ## Parameters:
 lpUnkcaller
-Pointer to the controlling IUnknown interface of the calling Microsoft® ActiveX® component (if the caller is an ActiveX component).
+Pointer to the controlling IUnknown interface of the calling Microsoft&reg; ActiveX&reg; component (if the caller is an ActiveX component).
 
 szURL
 Pointer to a string value that contains the URL to be downloaded. This cannot be set to NULL. 

@@ -343,19 +343,19 @@ For downloading a file from the server change LIST to RETR command accompanied w
 FTP is an unusual service in that it utilizes two ports, a "data" port and a "command" port (also known as the control port). Another article I want to recommend is <a href="http://slacksite.com/other/ftp.html">Active FTP vs. Passive FTP, a Definitive Explanation</a> by Jay Ribak.  
   
 * * *  
-To create a passive data connection to an FTP server with WinINet, use INTERNET_FLAG_PASSIVE for *dwFlags* parameter in the InternetConnect call:<code><font color=#0000a0>  
+To create a passive data connection to an FTP server with WinINet, use INTERNET_FLAG_PASSIVE for *dwFlags* parameter in the InternetConnect call:  
   
+```foxpro
 #DEFINE INTERNET_INVALID_PORT_NUMBER 0  
 #DEFINE INTERNET_SERVICE_FTP         1  
 #DEFINE INTERNET_FLAG_PASSIVE 0x08000000  
   
-nFlags = INTERNET_FLAG_PASSIVE  </font><font color=#008000>&& use 0 for the active mode</font><font color=#0000a0>  
+nFlags = INTERNET_FLAG_PASSIVE  && use 0 for the active mode  
   
 hConnection = InternetConnect(m.hInternet, m.host,;  
 	INTERNET_INVALID_PORT_NUMBER,;  
-	m.usr, m.cPsw, INTERNET_SERVICE_FTP, m.nFlags, 0)</font></code>  
-  
-#kwd: sln_ftp, sln_winsock  
-  
+	m.usr, m.cPsw, INTERNET_SERVICE_FTP, m.nFlags, 0)
+```
+
 ***  
 

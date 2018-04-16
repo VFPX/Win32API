@@ -8,7 +8,7 @@ In this code sample, the CurrentUser class wraps call to the NetUserGetInfo that
 
 
 ## Before you begin:
-In the code sample below, the *CurrentUser* class wraps call to the NetUserGetInfo that populates <a href="http://msdn.microsoft.com/en-us/library/aa371109(v=VS.85).aspx">USER_INFO_1</a> structure for the current user.[USER_INFO_1](sample_000.md)  
+In the code sample below, the *CurrentUser* class wraps call to the NetUserGetInfo that populates [USER_INFO_1](http://msdn.microsoft.com/en-us/library/aa371109(v=VS.85).aspx) structure for the current user.  
 
 The *usri1_priv* member of this struture indicates if the user account is Guest or Admin.  
   

@@ -3,13 +3,13 @@
 # Creating hash values for the list of names
 
 ## Before you begin:
-<a href="http://www.webopedia.com/TERM/H/hashing.html">Webopedia: Hashing</A>[](sample_000.md)  
+<a href="http://www.webopedia.com/TERM/H/hashing.html">Webopedia: Hashing</A>)  
 
 Hashing is also a common method of accessing data records. Considering a list of names, you can create an index, called a *hash table*, for all these names, when you would apply a formula to each name to produce a ***unique*** numeric value.  
 
 See also:
 
-<a href="?example=483">How to create an MD-5 Hash from a string</a>[How to create an MD-5 Hash from a string](sample_483.md)  
+[How to create an MD-5 Hash from a string](sample_483.md)  
   
 ***  
 

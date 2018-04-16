@@ -174,11 +174,11 @@ ENDDEFINE
 ## Comment:
 Visual FoxPro 8.0 Samples: <a href="http://msdn.microsoft.com/library/default.asp?url=/library/en-us/dv_foxhelp/html/samirregular_shaped_windows.asp">Creating Irregularly Shaped Windows Sample</a>.  
   
-The SetLayeredWindowAttributes function can be used for creating transparent areas on forms, and even for making a <a href="?example=453">whole form partially or totally transparent</a>. A layered window is created by specifying WS_EX_LAYERED when creating the window with the CreateWindowEx function or by setting WS_EX_LAYERED via SetWindowLong after the window has been created.  
+The SetLayeredWindowAttributes function can be used for creating transparent areas on forms, and even for making a [whole form partially or totally transparent](sample_453.md). A layered window is created by specifying WS_EX_LAYERED when creating the window with the CreateWindowEx function or by setting WS_EX_LAYERED via SetWindowLong after the window has been created.  
   
 Only top-level windows (<a href="http://msdn.microsoft.com/en-us/library/h0ea0kz8(v=vs.80).aspx">ShowWindow</a>=2) can be made layered windows, whereas through using GDI regions even a child window can be "punched out".  
   
-Read <a href="http://msdn.microsoft.com/library/default.asp?url=/library/en-us/winui/winui/windowsuserinterface/windowing/windows/windowfeatures.asp">Window Features</a> article on MSDN.  
+Read [Window Features](https://msdn.microsoft.com/en-us/library/windows/desktop/ms632599(v=vs.85).aspx) article on MSDN.  
   
 ***  
 

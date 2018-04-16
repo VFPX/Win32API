@@ -9,7 +9,7 @@ Bugs are frantically running for shelter in all directions all over the main VFP
 Download four files with images of bugs before testing this code sample.  
 ![](../images/bug01.bmp)  
 
-The code is based on <a href="?example=450">custom GDI+ class</a>. Download the class module first and save it in **gdiplus.prg** file. [custom GDI+ class](sample_450.md)  
+The code is based on [custom GDI+ class](sample_450.md). Download the class module first and save it in **gdiplus.prg** file.   
   
 ***  
 
@@ -523,22 +523,27 @@ ENDDEFINE
 ## Comment:
 While walking is no brainer for any 6-legged chitin creature, the understanding of the process for a human poses quite a challenge.   
   
-Thanks to Google, I found a diagram along with several nicely formulated rules of the <a href="http://chabin.laurent.free.fr/gaits.htm">Insect Locomotion</a> :<UL style="width:500;"><LI style="margin-bottom: 5;">A wave of protractions runs from posterior to anterior. No leg protracts until one behind is placed in a supporting position.  
-<LI style="margin-bottom: 5;">Contralateral legs of the same segment alternate in phase  
-<LI style="margin-bottom: 5;">Protraction time is constant  
-<LI style="margin-bottom: 5;">Frequency varies (retraction time decreases as frequency increases).  
-<LI style="margin-bottom: 5;">The intervals between steps of the hind leg and middle leg and between middle leg and foreleg are constant, while the interval between the foreleg hind leg steps varies inversely with frequency.  
-<LI>Understood ?  
-So much fun as when coding this code sample I did not have for a while. Just a few of small tasks I have been working on. <UL style="width:500;"><LI style="margin-bottom: 5;">The guys cannot keep running all the time, they need short breaks.   
-<LI style="margin-bottom: 5;">They cannot be identical in speed and endurance.  
-<LI style="margin-bottom: 5;">They do not run along straight lines, the direction angle must fluctuate.   
-<LI style="margin-bottom: 5;">I cannot allow them to escape outside of the main screen, what if they get lost in the display memory forever?  
-<LI style="margin-bottom: 5;">They collide -- still an open issue.  
-<LI style="margin-bottom: 5;">I wanted them to be able to home to a point on the screen where I click the mouse.  
-<LI style="margin-bottom: 5;">and more...  
+Thanks to Google, I found a diagram along with several nicely formulated rules of the <a href="http://chabin.laurent.free.fr/gaits.htm">Insect Locomotion</a> :
+
+* A wave of protractions runs from posterior to anterior. No leg protracts until one behind is placed in a supporting position.  
+* Contralateral legs of the same segment alternate in phase  
+* Protraction time is constant  
+* Frequency varies (retraction time decreases as frequency increases).  
+* The intervals between steps of the hind leg and middle leg and between middle leg and foreleg are constant, while the interval between the foreleg hind leg steps varies inversely with frequency.  
+* Understood ?  
+
+So much fun as when coding this code sample I did not have for a while. Just a few of small tasks I have been working on. 
+* The guys cannot keep running all the time, they need short breaks.   
+* They cannot be identical in speed and endurance.  
+* They do not run along straight lines, the direction angle must fluctuate.   
+* I cannot allow them to escape outside of the main screen, what if they get lost in the display memory forever?  
+* They collide -- still an open issue.  
+* I wanted them to be able to home to a point on the screen where I click the mouse.  
+* and more...  
+
 It was hard to stop.  
   
-* * *  
+***  
 Each insect is a form inside the main VFP window -- no title, no border, white background, always on the bottom. An image of bug is drawn on the form -- legs positioned, the body rotated to certain angle -- via GDI+ calls.  
   
 Child forms cannot be made transparent or partially transparent. This creates some visual issues when insects collide or run close to other windows.  

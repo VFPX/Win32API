@@ -48,7 +48,8 @@ If the system store name provided in <Em>szSubsystemProtocol</Em> parameter is n
   
 After use, the store should be closed by using CertCloseStore.  
   
-<div class="precode">#DEFINE CERT_CLOSE_STORE_FORCE_FLAG 1  
+```foxpro
+#DEFINE CERT_CLOSE_STORE_FORCE_FLAG 1  
 #DEFINE CERT_CLOSE_STORE_CHECK_FLAG 2  
   
 LOCAL hStore  
@@ -59,8 +60,8 @@ IF hStore = 0
 	? "Error:", GetLastError()  
 ELSE  
 	= CertCloseStore(hStore, 0)  
-ENDIF  
-</div>  
-  
+ENDIF
+```
+
 ***  
 

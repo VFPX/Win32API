@@ -162,7 +162,10 @@ By the way, this is how a window handle to the Command window can be obtained. E
   
 Try to start scanning not from the main VFP window, but from the Windows Taskbar:  
   
-<code>hAppWindow = FindWindow("Shell_TrayWnd", Null)</code>  
+```dos
+hAppWindow = FindWindow("Shell_TrayWnd", Null)
+```
+  
   
 Where *Shell_TrayWnd* is Window class name for the Taskbar.  
   

@@ -73,9 +73,9 @@ SQLGetPrivateProfileString returns an integer value that indicates the number of
 
 
 ## Comments:
-MSDN: SQLGetPrivateProfileString is provided as a simple way to port drivers and driver setup DLLs from Microsoft® Windows® to Microsoft Windows NT®/Windows 2000.   
+MSDN: SQLGetPrivateProfileString is provided as a simple way to port drivers and driver setup DLLs from Microsoft&reg; Windows&reg; to Microsoft Windows NT&reg;/Windows 2000.   
   
-Calls to GetPrivateProfileString that retrieve a profile string from the Odbc.ini file should be replaced with calls to SQLGetPrivateProfileString. SQLGetPrivateProfileString calls functions in the Win32® API to retrieve the requested names of values or data corresponding to a value of the Odbc.ini subkey of the system information.  
+Calls to GetPrivateProfileString that retrieve a profile string from the Odbc.ini file should be replaced with calls to SQLGetPrivateProfileString. SQLGetPrivateProfileString calls functions in the Win32&reg; API to retrieve the requested names of values or data corresponding to a value of the Odbc.ini subkey of the system information.  
   
 The configuration mode (as set by SQLSetConfigMode) indicates where the Odbc.ini entry listing DSN values is in the system information.   
   

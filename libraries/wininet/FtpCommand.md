@@ -73,8 +73,8 @@ The complete list of service commands can be found in the <a href="http://www.fa
   
 Wininet has some limitations on this command. Sometimes it returns 12003 error code. Follow two Microsoft links on this subject:  
   
-<LI><a href="http://support.microsoft.com/support/kb/articles/Q168/4/92.ASP">PRB: FTP WinInet APIs Report Error 12003</a></LI>  
-<LI><a href="http://support.microsoft.com/support/kb/articles/Q255/2/04.ASP">FtpCommand() WinInet Function Stops Responding</a></LI>  
+* <a href="http://support.microsoft.com/support/kb/articles/Q168/4/92.ASP">PRB: FTP WinInet APIs Report Error 12003</a>  
+* <a href="http://support.microsoft.com/support/kb/articles/Q255/2/04.ASP">FtpCommand() WinInet Function Stops Responding</a>  
   
 ***  
 

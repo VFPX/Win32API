@@ -49,9 +49,11 @@ The function is as simple as it is and hardly requires a sample code. If SetDefa
 #DEFINE ERROR_INVALID_PRINTER_NAME 1801  
   
 Also consider using Windows scripting objects:  
-<div class="precode">ws = CreateObject("WScript.Network")  
-ws.SetDefaultPrinter("\\MyServer\HP5")  
-</div>  
+```foxpro
+ws = CreateObject("WScript.Network")  
+ws.SetDefaultPrinter("\\MyServer\HP5")
+```
+
 See also: [GetDefaultPrinter](../winspool.drv/GetDefaultPrinter.md), [EnumPrinters](../winspool.drv/EnumPrinters.md), [PrinterProperties](../winspool.drv/PrinterProperties.md).  
   
 * * *  

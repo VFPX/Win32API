@@ -11,10 +11,10 @@ Use the following code to test the SharedResources class:
  
 ```foxpro
 LOCAL oShares As SharedResources, oShare As Share_Info_2  
-oShares = CREATEOBJECT("SharedResources")  <span style="color=#00a000;">&& local computer</span>  
+oShares = CREATEOBJECT("SharedResources")  && local computer  
 
 FOR EACH oShare IN oShares.shares  
-	IF oShare.sharetype=0  <span style="color=#00a000;">&& disk drive</span>  
+	IF oShare.sharetype=0  && disk drive  
 		? FromUnicode(oShare.sharename) + "=" +;  
 			FromUnicode(oShare.localpath)  
 	ENDIF  

@@ -5,7 +5,7 @@ Group: [Shell Functions](../../functions_group.md#Shell_Functions)  -  Library: 
 ***  
 
 
-#### Implemented by many of the Microsoft® Windows® Shell dynamic-link libraries (DLLs) to allow applications to obtain DLL-specific version information.
+#### Implemented by many of the Microsoft&reg; Windows&reg; Shell dynamic-link libraries (DLLs) to allow applications to obtain DLL-specific version information.
 ***  
 
 

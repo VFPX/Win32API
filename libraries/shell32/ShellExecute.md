@@ -78,7 +78,7 @@ Flags that specify how an application is to be displayed when it is opened.
 
 
 ## Return value:
-Returns a value greater than 32 if successful, or an error value that is less than or equal to 32 otherwise. . The return value is cast as an HINSTANCE for backward compatibility with 16-bit Microsoft® Windows® applications. It is not a true HINSTANCE, however.  
+Returns a value greater than 32 if successful, or an error value that is less than or equal to 32 otherwise. . The return value is cast as an HINSTANCE for backward compatibility with 16-bit Microsoft&reg; Windows&reg; applications. It is not a true HINSTANCE, however.  
 ***  
 
 

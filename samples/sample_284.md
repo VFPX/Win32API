@@ -163,9 +163,9 @@ PROCEDURE decl
 
 ## Comment:
 Variable *mDirection* defines whether System, User or both DSNs will be retrieved depending on value assigned:  
-<LI>SQL_FETCH_FIRST_SYSTEM  
-<LI>SQL_FETCH_FIRST_USER  
-<LI>SQL_FETCH_FIRST  
+* SQL_FETCH_FIRST_SYSTEM  
+* SQL_FETCH_FIRST_USER  
+* SQL_FETCH_FIRST  
   
 ***  
 

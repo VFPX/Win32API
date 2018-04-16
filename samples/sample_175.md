@@ -3,7 +3,7 @@
 # How to download a file from HTTP server using URL Monikers functions
 
 ## Before you begin:
-Check <a href="?example=110">similar example</a> based on WinInet functions (HTTP)[similar example](sample_110.md)  
+Check [similar example](sample_110.md) based on WinInet functions (HTTP)  
   
 ***  
 
@@ -40,7 +40,7 @@ The simplicity and small size of this code does impress. Though there is no way 
   
 The URLDownloadToFile sends HTTP GET and receives a response back from a server. Upon success the response contains a requested file.  
   
-See also: DeleteUrlCacheEntry   
+See also: [DeleteUrlCacheEntry](.../libraries/wininet/DeleteUrlCacheEntry.md)   
   
 ***  
 

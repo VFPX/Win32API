@@ -3,7 +3,7 @@
 # How to delete a service object
 
 ## Before you begin:
-This code sample shows how to delete the service object created in <a href="?example=517">How to create a service object code</a> sample.[How to create a service object code](sample_517.md)  
+This code sample shows how to delete the service object created in [How to create a service object code](sample_517.md) sample.  
 
 See also:
 

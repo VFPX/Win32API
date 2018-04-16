@@ -7,7 +7,7 @@
 
 On each timer tick, an instance of control creates a temporary bitmap and draws on it the clock face, then calculates hand angles and draws the hands. Once all drawing is complete the temporary bitmap (the back buffer) is copied to the control rectangle (the front buffer).   
 
-Such <a href="http://en.wikipedia.org/wiki/Multiple_buffering">double buffering</a> allows drawing graphics with less flicker and tearing.[double buffering](sample_000.md)  
+Such [double buffering](http://en.wikipedia.org/wiki/Multiple_buffering) allows drawing graphics with less flicker and tearing.  
 
 The code is based on:  
 * [custom GDI+ class](sample_450.md)  
@@ -533,8 +533,9 @@ By default the drawing procedure produces a generic picture of a clock. Otherwis
   
 Download one of these images and use it as a clock face (the ClockfaceFile parameter). Otherwise the instance will create a generic image of clock face.  
   
-<dev><img src="images/Clock_Face_2_by_AGF81.png" alt="devianart.com"> &nbsp; <img src="images/8-Roman-Square-Grey-Example.png" alt="devianart.com"></dev>  
-  
+![devianart.com](../images/Clock_Face_2_by_AGF81.png)  
+![devianart.com](../images/8-Roman-Square-Grey-Example.png)  
+
 Such background image should be well centered and with sufficiently good symmetry.  
   
 * * *  

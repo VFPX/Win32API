@@ -8,7 +8,7 @@ This code sample explains how to load an image from a file, crop it using GdipDr
 
 
 ## Before you begin:
-The code is based on <a href="?example=450">custom GDI+ class</a>. Download the class module first and save it in **gdiplus.prg** file. [custom GDI+ class](sample_450.md)  
+The code is based on [custom GDI+ class](sample_450.md). Download the class module first and save it in **gdiplus.prg** file.   
 
 ![](../images/cropimage.jpg)  
 See also:

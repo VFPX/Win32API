@@ -187,19 +187,16 @@ RETURN Asc(SUBSTR(lcBuffer, 1,1)) + ;
 In the cursor created by this code sample, each connected monitor is indicated by non-empty *MonitorName* value.   
   
 For an active monitor (*the desktop extends to such monitor*), several other values are populated:  
-*  
-<LI>Screenwidth  
-<LI>Screenheight  
-<LI>Bitsperpixel  
-<LI>DsppositionX  
-<LI>DsppositionY*  
+  
+* Screenwidth  
+* Screenheight  
+* Bitsperpixel  
+* DsppositionX  
+* DsppositionY
   
 From the screen dimensions and the display position it is possible to determine whether a given window is visible on a particular display.  
-  
-* * *  
-Read <a href="http://www.microsoft.com/athome/moredone/twomonitors.mspx">Two monitors are better than one</a> by *Tony Northrup* published on Microsoft website. Bet he might be busy writing a sequel "N+1 monitors better than N".  
-  
-* * *  
+
+***  
 Some graphics cards and external units (Matrox) support connections to multiple monitors, three and more.  
   
 ***  

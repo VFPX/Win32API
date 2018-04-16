@@ -6,7 +6,7 @@
 See also:
 
 * [Custom FTP Class for Visual FoxPro application](sample_344.md)  
-* [Programming File Transfer Protocol in Visual FoxPro ](sample_000.md)  
+* [Programming File Transfer Protocol in Visual FoxPro ](?article=3)  
   
 ***  
 
@@ -134,8 +134,6 @@ PROCEDURE  decl
 This example is simplified: I know that this remote file exists on the FTP, and it is of the ASCII type.  
   
 Well I suggest you better choose another FTP and a file name to test. Just to avoid disturbing folks at the GNU ftp.  
-  
-#kwd: sln_ftp.  
-  
+
 ***  
 

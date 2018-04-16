@@ -38,7 +38,7 @@ matrix
 [in] Handle to a Matrix object.
 
 matrixOut
-[out] Pointer to an array that receives the matrix elements. The size of the array should be 6 ×sizeof( REAL).   
+[out] Pointer to an array that receives the matrix elements. The size of the array should be 6 ï¿½sizeof( REAL).   
 ***  
 
 
@@ -48,7 +48,8 @@ Returns GpStatus value; 0 means success.
 
 
 ## Comments:
-<div class="precode">cCoords = REPLICATE(CHR(0), 24)  
+```foxpro
+cCoords = REPLICATE(CHR(0), 24)  
 IF GdipGetMatrixElements(m.hmatrix, @m.cCoords) = 0  
 	m11 = Float2Int(buf2dword(SUBSTR(m.cCoords, 1,4)))  
 	m12 = Float2Int(buf2dword(SUBSTR(m.cCoords, 5,4)))  
@@ -56,8 +57,8 @@ IF GdipGetMatrixElements(m.hmatrix, @m.cCoords) = 0
 	m22 = Float2Int(buf2dword(SUBSTR(m.cCoords, 13,4)))  
 	dx = Float2Int(buf2dword(SUBSTR(m.cCoords, 17,4)))  
 	dy = Float2Int(buf2dword(SUBSTR(m.cCoords, 21,4)))  
-ENDIF  
-</div>  
+ENDIF
+```
 See also: [GdipSetMatrixElements](../gdiplus/GdipSetMatrixElements.md).  
   
 ***  

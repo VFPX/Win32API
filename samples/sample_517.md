@@ -92,7 +92,7 @@ PROCEDURE declare
 ## Comment:
 Windows Registry entry for the newly created service:  
   
-<img src="images/service_registry.png" width=493 height=260>  
-  
+![](../images/service_registry.png)
+
 ***  
 

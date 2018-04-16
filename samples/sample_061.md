@@ -3,10 +3,10 @@
 # Uploading local file to FTP server with FtpPutFile
 
 ## Before you begin:
-<table cellspacing=3 cellpadding=0 border=0><tr><td valign=top><img src="../images/readarticle.gif" border=0></td><td valign=top class=fdescr><a href="?article=3">Programming File Transfer Protocol in Visual FoxPro </a></td></tr></table>[Programming File Transfer Protocol in Visual FoxPro ](sample_000.md)  
+<table cellspacing=3 cellpadding=0 border=0><tr><td valign=top><img src="../images/readarticle.gif" border=0></td><td valign=top class=fdescr><a href="?article=3">Programming File Transfer Protocol in Visual FoxPro </a></td></tr></table>  
 The FtpPutFile stores a file on the FTP server in a single operation. You can not have a close control over the file transfer that you may need, for example, for displaying a progress bar. For those situations you should use the FtpOpenFile and InternetWriteFile functions.  
 
-See also: <a href="?example=62">Uploading file to the FTP server using InternetWriteFile</a>.
+See also: [Uploading file to the FTP server using InternetWriteFile](sample_062.md).
 
   
 ***  
@@ -131,8 +131,6 @@ PROCEDURE declare
 
 ## Comment:
 Note that you can test this example only on FTP server for which you have sufficient access level.  
-  
-#kwd: sln_ftp.  
   
 ***  
 

@@ -62,15 +62,17 @@ See also: [MessageBoxIndirect](../user32/MessageBoxIndirect.md), [TaskDialog](..
   
 Right-to-left MessageBox (see Usage code above):  
   
-<img src="images/messagebox_rtl.png">  
+<img src="../../images/messagebox_rtl.png">  
   
 * * *  
 Click on the picture below to download   
 Extended MessageBox library (FLL) for Visual FoxPro.  
   
-<a href="http://www.news2news.com/vfp/?solution=3"><img src="images/udficon_skype.png" border=0 alt="Download MsgBox FLL"></a>  
+<a href="http://www.news2news.com/vfp/?solution=3"><img src="../../images/udficon_skype.png" border=0 alt="Download MsgBox FLL"></a>  
+
   
-* * *  
+***
+
 The Visual FoxPro contains a limited edition of this function, which is implemented via MESSAGEBOX() function. In most of the cases that is enough. Through the Win32 function you can reach all functionality of this dialog box.  
   
 The VFP, up to the version 6, gives an access to three groups of constants defining the contents and behavior of this object. There are several more groups (see the examples), which could be helpful.  
@@ -82,15 +84,20 @@ Another application of this function you might be interested in is to invoke a d
   
 * * *  
 There are so many interfaces to this simple function from various programming languages. Here is another one from the Windows Scripting with the <Em>Timeout</Em> parameter puzzlingly positioned at the second place:  
+
   
-<code>Usage:  
-object.Popup (Message [, TimeOut][, Title] [, Format])</code>  
+**Usage:**  
+```foxpro
+object.Popup (Message [, TimeOut][, Title] [, Format])
+```
   
-<div class="precode">WshShell = CREATEOBJECT("WScript.Shell")  
+  
+```foxpro
+WshShell = CREATEOBJECT("WScript.Shell")  
 Result = WshShell.Popup("This is a popup box!", 10, "Title", 65)  
-? Result  
-</div>  
-  
+? Result
+```
+
 * * *  
 An enhancement in the MessageBox implementation in Vista: the OS wraps long messages maintaining a reasonable width of the dialog window.  
   

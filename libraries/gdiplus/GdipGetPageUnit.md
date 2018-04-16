@@ -44,7 +44,8 @@ Returns GpStatus value, 0 means success.
 
 ## Comments:
 <a href="http://msdn.microsoft.com/en-us/library/ms534405(VS.85).aspx">Unit Enumerated Type</a>  
-<div class="precode">typedef enum {  
+```cpp
+typedef enum {  
 	UnitWorld = 0,  
 	UnitDisplay = 1,  
 	UnitPixel = 2,  
@@ -52,7 +53,9 @@ Returns GpStatus value, 0 means success.
 	UnitInch = 4,  
 	UnitDocument = 5,  
 	UnitMillimeter = 6  
-} Unit;</div>  
+} Unit;
+```
+
 1 Point Unit = 1/72 inch.  
 1 Document Unit = 1/300 inch.  
   

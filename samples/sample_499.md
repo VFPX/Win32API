@@ -19,7 +19,8 @@ Basically what is done: the caption and the border of VFP form are mercilessly :
 
 Download the images prior to testing this code:  
 
-<table border=1 cellpadding=3 cellspacing=0 bgcolor=#e0e0e0><tr valign=top><td><img src="images/e2005_lefttopcorner.bmp"></td><td align=center><img src="images/e2005_topbar.bmp"></td><td align=right><img src="images/e2005_righttopcorner.bmp"></td></tr><tr valign=top><td><img src="images/e2005_leftsidebar.bmp"></td><td width=100 align=center><a href="downloads/customcaption.zip">zip file</a></td><td align=right><img src="images/e2005_rightsidebar.bmp"></td><tr valign=bottom><td><img src="images/e2005_leftbottomcorner.bmp"></td><td align=center><img src="images/e2005_bottombar.bmp"></td><td align=right><img src="images/e2005_rightbottomcorner.bmp"></td></tr></table>[zip file](sample_000.md)  
+<table border=1 cellpadding=3 cellspacing=0 bgcolor=#e0e0e0><tr valign=top><td><img src="../images/e2005_lefttopcorner.bmp"></td><td align=center><img src="../images/e2005_topbar.bmp"></td><td align=right><img src="../images/e2005_righttopcorner.bmp"></td></tr><tr valign=top><td><img src="../images/e2005_leftsidebar.bmp"></td><td width=100 align=center><a href="../downloads/customcaption.zip">zip file</a></td><td align=right><img src="../images/e2005_rightsidebar.bmp"></td><tr valign=bottom><td><img src="../images/e2005_leftbottomcorner.bmp"></td><td align=center><img src="../images/e2005_bottombar.bmp"></td><td align=right><img src="../images/e2005_rightbottomcorner.bmp"></td></tr></table>  
+
 
 See also:
 

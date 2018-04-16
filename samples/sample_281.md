@@ -82,8 +82,10 @@ ENDDEFINE
 The DragDetect function captures the mouse and tracks its movement until the user releases the left mouse button, presses the ESC key, or moves the mouse outside the drag rectangle around the specified point.  
   
 To obtain the width and height for this rectangle call the GetSystemMetrics function with the SM_CXDRAG and SM_CYDRAG values as a parameter.  
+```txt
 #DEFINE SM_CXDRAG  68  
-#DEFINE SM_CYDRAG  69  
+#DEFINE SM_CYDRAG  69
+```
   
 ***  
 

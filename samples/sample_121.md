@@ -4,7 +4,8 @@
 
 ## Before you begin:
 Usage:  
-<div class="precode">LOCAL oFiles As TOpenFiles, oFile As TOpenFile  
+```foxpro
+LOCAL oFiles As TOpenFiles, oFile As TOpenFile  
 oFiles = CREATEOBJECT("TOpenFiles", "SOME_SERVER")  
 
 CREATE CURSOR csFiles (fileid I, permissions I, numlocks I,;  
@@ -22,13 +23,12 @@ NEXT
 
 SELECT csFiles  
 GO TOP  
-BROWSE NORMAL NOWAIT  
-</div>  
+BROWSE NORMAL NOWAIT
+```
 See also:
 
-* [FileSystemWatcher ActiveX Control for Visual FoxPro](sample_000.md)  
+* [FileSystemWatcher ActiveX Control for Visual FoxPro](?solution=8)  
 * [Monitoring changes in a directory](sample_117.md)  
-
 * [Enumerating global and local group accounts on a server](sample_411.md)  
 * [Obtaining names of local and global groups for current user](sample_431.md)  
 * [How to enumerate, add and delete shares on the local computer](sample_351.md)  

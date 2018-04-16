@@ -4,10 +4,11 @@
 
 ## Before you begin:
 This is an equivalent of two DOS commands  
-<div class=precode>IPCONFIG /release  
-IPCONFIG /renew   
-</div>  
-  
+```dos
+IPCONFIG /release  
+IPCONFIG /renew
+```
+
 ***  
 
 

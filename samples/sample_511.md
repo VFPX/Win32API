@@ -15,7 +15,8 @@ Do you think there are some similarities?
 ![](../images/dancingmen.jpg)  
 
 Here is an example of code that encrypts a file:  
-<div class="precode">LOCAL oEnc As EncryptDecrypt  
+```foxpro
+LOCAL oEnc As EncryptDecrypt  
 oEnc = CREATEOBJECT("EncryptDecrypt")  
 
 WITH oEnc  
@@ -27,9 +28,11 @@ WITH oEnc
 			? .errorno, .errormessage  
 		ENDIF  
 	ENDIF  
-ENDWITH</div>  
+ENDWITH
+```
 The decryption is same simple:  
-<div class="precode">WITH oEnc  
+```foxpro
+WITH oEnc  
 	IF NOT .GenerateKey("foxpro")  && use same password  
 		? .errorno, .errormessage  
 	ELSE  
@@ -38,7 +41,8 @@ The decryption is same simple:
 			? .errorno, .errormessage  
 		ENDIF  
 	ENDIF  
-ENDWITH</div>  
+ENDWITH
+```
 See also:
 
 * [How to create MD-5 and SHA-1 hash values from a string](sample_483.md)  

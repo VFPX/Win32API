@@ -5,7 +5,7 @@ Group: [GDI+](../../functions_group.md#GDIplus)  -  Library: [gdiplus](../../Lib
 ***  
 
 
-#### The GdiplusShutdown function cleans up resources used by Microsoft® Windows® GDI+.
+#### The GdiplusShutdown function cleans up resources used by Microsoft&reg; Windows&reg; GDI+.
 ***  
 
 

@@ -19,9 +19,9 @@ Note: *VFP9 SP1 is required*. I have found that on older VFP9 versions (e.g. 09.
 
 For more VFP9 BINDEVENT() examples see also:  
 * [Adding icon to the systray (requires VFP9)](sample_235.md)  
-* [](sample_489.md)  
-* [](sample_323.md)  
-* [](sample_496.md)  
+* [How to block the PrintScreen key](sample_489.md)  
+* [Dragging files from Explorer window and dropping them on FoxPro control (requires VFP9)](sample_323.md)  
+* [Transparent Menu Class (requires VFP9)](sample_496.md)  
 
 See also:
 

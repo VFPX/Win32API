@@ -215,20 +215,20 @@ RETURN STRCONV(m.cResult, 6)
 [GdipGetImageEncodersSize](../libraries/gdiplus/GdipGetImageEncodersSize.md)  
 
 ## Comment:
-The members of the Encoders/Decoderes Collection are instances of ImageCodecInfo class with properties:*  
-<LI>clsid  
-<LI>formatid  
-<LI>codecname  
-<LI>dllname  
-<LI>formatdescription  
-<LI>filenameextension  
-<LI>mimetype  
-<LI>flags  
-<LI>version  
-<LI>sigcount  
-<LI>sigsize  
-<LI>sigpattern  
-<LI>sigmask*  
+The members of the Encoders/Decoderes Collection are instances of ImageCodecInfo class with properties:  
+* clsid  
+* formatid  
+* codecname  
+* dllname  
+* formatdescription  
+* filenameextension  
+* mimetype  
+* flags  
+* version  
+* sigcount  
+* sigsize  
+* sigpattern  
+* sigmask  
   
 On WinXP system (gdiplus.dll, Mar.29,2004) collection of Encoders includes 5 members: BMP, GIF, JPEG, PNG and TIFF.  
   

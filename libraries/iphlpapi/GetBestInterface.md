@@ -43,15 +43,16 @@ If the function succeeds, the return value is NO_ERROR (0).
 
 
 ## Comments:
-<div class="precode">LOCAL nDstIP, nIIndex  
+```foxpro
+LOCAL nDstIP, nIIndex  
   
 nDstIP = inet_addr("66.94.234.13")  
 nIIndex=0  
   
 IF GetBestInterface(nDstIP, @nIIndex) = 0  
 	? "Index of the interface", nIIndex  
-ENDIF  
-</div>  
+ENDIF
+```
 See also: [GetBestRoute](../iphlpapi/GetBestRoute.md), [GetNumberOfInterfaces](../iphlpapi/GetNumberOfInterfaces.md), [GetIfEntry](../iphlpapi/GetIfEntry.md).  
   
 ***  

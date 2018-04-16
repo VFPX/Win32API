@@ -4,7 +4,7 @@
 
 ## Before you begin:
 
-<table cellspacing=3 cellpadding=0 border=0><tr><td valign=top><img src="../images/readarticle.gif" border=0></td><td valign=top class=fdescr><a href="?article=3">Programming File Transfer Protocol in Visual FoxPro </a></td></tr></table>[Programming File Transfer Protocol in Visual FoxPro ](sample_000.md)  
+<table cellspacing=3 cellpadding=0 border=0><tr><td valign=top><img src="../images/readarticle.gif" border=0></td><td valign=top class=fdescr><a href="?article=3">Programming File Transfer Protocol in Visual FoxPro </a></td></tr></table>  
   
 ***  
 
@@ -231,9 +231,6 @@ ENDDEFINE
 
 ## Comment:
 The struct_WIN32_FIND_DATA class emulates the structure"s behaviour. The SETVALUE method receives a string of bytes (a buffer) and splits it into the properties resembling fields of a structure.  
-  
-  
-#kwd: sln_ftp.  
   
 ***  
 

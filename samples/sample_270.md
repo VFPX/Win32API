@@ -230,12 +230,11 @@ Code for retrieving name and address for the recipient is not included. The rout
   
 If you are not able to logon, try use your messaging system profile name as a parameter. e.g. "Novell Default Settings".  
   
-Check the VB link -- <a href="http://support.microsoft.com/default.aspx?scid=kb;EN-US;q163216">Updated Mapivb32.bas for Simple MAPI on 32-Bit Platforms (Q163216)</a>.  
+Check the VB link -- [Updated Mapivb32.bas for Simple MAPI on 32-Bit Platforms (Q163216)](https://support.microsoft.com/en-us/help/163216/updated-mapivb32-bas-for-simple-mapi-on-32-bit-platforms).  
   
 * * *  
 Each time the MAPIReadMail called without applying the MAPI_SUPPRESS_ATTACH flag, all attachments to messages in Inbox folder are copied to temp files. Continuous trying may seriously deplete the hard drive free space. Actually the MSDN suggests those temp files to be deleted once they are no longer needed.  
   
-#kwd: sln_reademail.  
-  
+
 ***  
 

@@ -14,9 +14,11 @@ As you know, a call to RMDIR() generates an error (#1962) if the target director
 The most obvious way to overcome this sometimes useful obstacle is writing a recursion that combines ADIR and DELETE FILE | RMDIR calls.   
 
 As an alternative, the Windows Scripting has its own solution:  
-<div class="precode">fso = CREATEOBJECT("Scripting.FileSystemObject")  
-fso.DeleteFolder("c:\temp\test")  
-</div>  
+```foxpro
+fso = CREATEOBJECT("Scripting.FileSystemObject")  
+fso.DeleteFolder("c:\temp\test")
+```
+
 And still one more way exists, presented in the code sample below. A directory can be recursively deleted by calling the SHFileOperation API function.  
 
 See also:
@@ -157,11 +159,12 @@ The file deletion process aborts whenever it encounters an undeletable object. T
 .NET has more than one way for deleting a directory.  
   
 System.IO <a href="http://msdn.microsoft.com/en-us/library/fxeahc5f.aspx">Directory.Delete</a> throws an exception when the path is not an empty directory.  
-<img src="images/DirectoryDeleteNet.png">  
-  
+
+![](../images/DirectoryDeleteNet.png)
+
 While System.IO <a href="http://msdn.microsoft.com/en-us/library/c66e2tts">DirectoryInfo.Delete</a> can delete files and directories recursively.  
-  
-<img src="images/DirectoryDeleteNet01.png">  
-  
+
+![](../images/DirectoryDeleteNet01.pn)  
+
 ***  
 

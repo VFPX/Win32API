@@ -61,11 +61,13 @@ RETURN  Left(lcTarget, lnResult)
 ## Comment:
 This is quite unusual situation for a Win32 function requiring a variable number of parameters. So is the approach to declare the wnsprintf function through a macro substitution.   
   
-Valid % specifiers (quite possible there could be some more)*<UL><LI>%d, %i - integer  
-<LI>%u - unsigned decimal  
-<LI>%s - string  
-<LI>%x, %X - unsigned hex value  
-*This function does not support the %o option (unsigned octal value), that is strange.  
+Valid % specifiers (quite possible there could be some more)
+* %d, %i - integer  
+* %u - unsigned decimal  
+* %s - string  
+* %x, %X - unsigned hex value  
+
+This function does not support the %o option (unsigned octal value), that is strange.  
   
 ***  
 

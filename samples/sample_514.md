@@ -12,7 +12,7 @@ This code sample shows how to use PieChart GDI+ functions to build a simple char
 
 ![](../images/gdiplus_pieslice.png)  
 
-The code is based on <a href="?example=450">custom GDI+ class</a>. Download the class module first and save it in **gdiplus.prg** file. [custom GDI+ class](sample_450.md)  
+The code is based on [custom GDI+ class](sample_450.md). Download the class module first and save it in **gdiplus.prg** file.   
 
   
 ***  

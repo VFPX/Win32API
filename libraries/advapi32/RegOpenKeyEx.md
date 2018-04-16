@@ -75,18 +75,21 @@ June 2, 2010. Contributed by <Em>Igor Nikiforov</Em>:
 Under Windows 2008 Server 64-bit, a call to RegOpenKeyEx returns error code 2 (ERROR_FILE_NOT_FOUND) for some keys.  
   
 Example:  
-<div class="precode">RegOpenKeyEx(HKEY_LOCAL_MACHINE ,;   
+```foxpro
+RegOpenKeyEx(HKEY_LOCAL_MACHINE ,;   
 	[SOFTWARE\Microsoft\Windows\CurrentVersion\Installer\ ... ;  
 	... \InstallProperties], 0, ;  
-	KEY_READ, @hKey)   
-</div>  
-Changing <Em>samDesired</Em> input parameter from KEY_READ to ( KEY_READ | <span style="color: a00;">KEY_WOW64_64KEY</span> ) resolves the issue.  
+	KEY_READ, @hKey)
+```
+
+Changing <Em>samDesired</Em> input parameter from KEY_READ to ( KEY_READ | ***KEY_WOW64_64KEY*** ) resolves the issue.  
   
-<div class="precode">RegOpenKeyEx(HKEY_LOCAL_MACHINE , ;  
+```foxpro
+RegOpenKeyEx(HKEY_LOCAL_MACHINE , ;  
 	[SOFTWARE\Microsoft\Windows\CurrentVersion\Installer\ ... ;  
 	... \InstallProperties], 0, ;  
-	BITOR(KEY_READ, KEY_WOW64_64KEY), @hKey)   
-</div>  
+	BITOR(KEY_READ, KEY_WOW64_64KEY), @hKey)
+```
 Find more in <a href="http://msdn.microsoft.com/en-us/library/ms724878(VS.85).aspx">Registry Key Security and Access Rights</a> article on MSDN web site.  
   
 ***  

@@ -13,7 +13,7 @@ See also:
 * [Displaying animated images](sample_355.md)  
 * [Form Magnifier](sample_414.md)  
 
-<a href="?solution=3&src=x430" target=_blank><img src="../images/xmsg_270_48.png" border=0></a>[](sample_000.md)  
+<a href="?solution=3&src=x430" target=_blank><img src="../images/xmsg_270_48.png" border=0></a>  
 
   
 ***  

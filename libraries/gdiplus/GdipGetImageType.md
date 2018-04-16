@@ -48,11 +48,13 @@ Returns GpStatus value, 0 means success.
 
 
 ## Comments:
-<code>typedef enum {  
+```cpp
+typedef enum {  
 	ImageTypeUnknown = 0,  
 	ImageTypeBitmap = 1,  
 	ImageTypeMetafile = 2  
-} ImageType;</code>  
+} ImageType;
+```
   
 ***  
 

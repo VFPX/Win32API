@@ -5,7 +5,7 @@
 ## Before you begin:
 See also:
 
-* [How to: Use Command-Line Options When Starting Visual FoxPro](sample_000.md)  
+* [How to: Use Command-Line Options When Starting Visual FoxPro](http://msdn.microsoft.com/en-us/library/bzb50fbk(VS.80).aspx)  
 
   
 ***  

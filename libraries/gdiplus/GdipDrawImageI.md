@@ -55,9 +55,9 @@ If succeeds, it returns Ok, which is an element of the Status enumeration.
 
 ## Comments:
 This function can be used for cropping images:  
-<LI>load a source image  
-<LI>create a blank image the size of the valid part of the source image  
-<LI>use negative x and y offsets to draw the source image on the target image  
+* load a source image  
+* create a blank image the size of the valid part of the source image  
+* use negative x and y offsets to draw the source image on the target image  
   
 ***  
 

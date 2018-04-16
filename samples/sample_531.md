@@ -3,7 +3,7 @@
 # How to display the Print property sheet
 
 ## Before you begin:
-The <a href="http://msdn2.microsoft.com/en-us/library/ms646966.aspx">Print property sheet</a> is a standard user interface that enables the user to specify the properties of a particular print job. [Print property sheet](sample_000.md)  
+The [Print property sheet](http://msdn2.microsoft.com/en-us/library/ms646966.aspx) is a standard user interface that enables the user to specify the properties of a particular print job.   
 
 ![](../images/print_property_sheet.png)  
 

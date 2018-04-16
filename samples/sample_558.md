@@ -9,7 +9,7 @@ The task dialog contains application-defined icons, messages, title, verificatio
 
 See also:
 
-<a href="?example=557">How to display a Task Dialog (Vista)</a>[How to display a Task Dialog (Vista)](sample_557.md)  
+[How to display a Task Dialog (Vista)](sample_557.md)  
   
 ***  
 

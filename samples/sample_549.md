@@ -12,7 +12,7 @@ Download the original image file before testing this code sample. Otherwise use 
 
 ![](../images/applecorp_plt01.bmp)  
 
-The code is based on <a href="?example=450">custom GDI+ class</a>. Download the class module first and save it in **gdiplus.prg** file. [custom GDI+ class](sample_450.md)  
+The code is based on [custom GDI+ class](sample_450.md). Download the class module first and save it in **gdiplus.prg** file. [custom GDI+ class](sample_450.md)  
 
 * * *  
 The source image on the left is displayed in VFP Image control. The image on the right is loaded from the same graphics file and drawn on the the form via GDI+ calls with a single color made transparent.   

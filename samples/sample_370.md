@@ -97,10 +97,12 @@ For Windows NT/2000/XP you must open the printer with a certain level of access:
   
 * * *  
 Having sufficient rights, a user can manually stop the spooler, delete files from the spooler directory (c:\windows\system32\spool\printers), and then re-start the spooler:  
-<div class="precode">NET STOP spooler  
+```dos
+NET STOP spooler  
 REM DEL *.*  
-NET START spooler  
-</div>  
+NET START spooler
+```
+  
   
 ***  
 

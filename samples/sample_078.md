@@ -78,10 +78,11 @@ RETURN Asc(SUBSTR(cBuffer, 1,1)) + ;
 [GetWindowRect](../libraries/user32/GetWindowRect.md)  
 
 ## Comment:
-_SCREEN Width and Height are affected by the state of:<ul><li>VFP System Menu (try RELEASE MENU _msysmenu)  
-<li>VFP status bar  (try SET STATUS BAR ON/OFF)  
-<li>VFP toolbar: where it is docked, how many controls it contains  
-<li>VFP Command Window: whether it is dockable or notChange the state of these objects, and check how it affects the output of this code.  
+_SCREEN Width and Height are affected by the state of:  
+* VFP System Menu (try RELEASE MENU _msysmenu)  
+* VFP status bar  (try SET STATUS BAR ON/OFF)  
+* VFP toolbar: where it is docked, how many controls it contains  
+* VFP Command Window: whether it is dockable or notChange the state of these objects, and check how it affects the output of this code.  
   
 ***  
 

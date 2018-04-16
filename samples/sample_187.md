@@ -5,12 +5,12 @@
 ## Before you begin:
 Call this code from a VFP form to store its snapshot to a bitmap file (24-bpp). Make sure that the target file *(m.lcFilename)* is a valid path.  
 
-Check similar example <a href="?example=402">Storing screen shot of a form to enhanced metafile (*.emf)</a>.[Storing screen shot of a form to enhanced metafile (*.emf)](sample_402.md)  
+Check similar example [Storing screen shot of a form to enhanced metafile (*.emf)](sample_402.md).  
 
 See also:
 
 
-<a href="http://www.news2news.com/vfp/?solution=9"><img src="../images/screencapture_270_48.png" width=270 height=48 border=0 alt="Download ScreenCapture Library"></a>[](sample_000.md)  
+<a href="http://www.news2news.com/vfp/?solution=9"><img src="../images/screencapture_270_48.png" width=270 height=48 border=0 alt="Download ScreenCapture Library">  
 
 * [GDI+: saving image of FoxPro form to graphics file (BMP, GIF, JPG, PNG, TIF) ](sample_454.md)  
 * [Printing the image of a FoxPro form](sample_158.md)  
@@ -358,7 +358,7 @@ The part of DIB (Device-Independent Bitmap), that contains pixel data, can be to
 The WriteFile function is declared in two different ways: one for strings and another for pointers.  
   
 Microsoft Knowledge Base Article - 161299  
-<a href="http://support.microsoft.com/default.aspx?scid=KB;en-us;q161299">HOWTO: Capture and Print the Screen, a Form, or Any Window</a>  
+[HOWTO: Capture and Print the Screen, a Form, or Any Window](https://jeffpar.github.io/kbarchive/kb/161/Q161299/)  
   
 * * *  
 April 5, 2006: a procedure added that draws current mouse cursor on the bitmap.  

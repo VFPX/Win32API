@@ -48,8 +48,9 @@ If the function succeeds, the return value is nonzero.
 
 ## Comments:
 DOS command ATTRIB can be used for the same purpose:  
-<div class="precode">ATTRIB -R c:\mydir\*.* /S  
-</div>  
-  
+```txt
+ATTRIB -R c:\mydir\*.* /S
+```
+
 ***  
 

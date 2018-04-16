@@ -16,7 +16,7 @@ In this code sample lines of text are printed on GDI+ bitmap object using a spec
 
 Also an image is downloaded from VFP Home website and placed on the background before drawing the text.  
 
-The code is based on <a href="?example=450">custom GDI+ class</a>. Download the class module first and save it in **gdiplus.prg** file. [custom GDI+ class](sample_450.md)  
+The code is based on [custom GDI+ class](sample_450.md). Download the class module first and save it in **gdiplus.prg** file.   
   
 ***  
 

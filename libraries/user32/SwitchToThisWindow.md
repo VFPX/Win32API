@@ -52,20 +52,22 @@ Requires Windows XP/2K. You can access this function by using LoadLibrary and Ge
 MSDN: This function is deprecated and not intended for general use. It is recommended that you do not use it in new programs because it might be altered or unavailable in subsequent versions of Windows.   
   
 * * *  
-To bring the FoxPro window to the front, in VFP version 7+:<code><font color=#0000a0>  
+To bring the FoxPro window to the front, in VFP version 7+:
+```foxpro
 DECLARE SwitchToThisWindow IN user32;  
 	INTEGER hWindow, INTEGER fAltTab  
-= SwitchToThisWindow(_Screen.HWND, 0)  
-</font></code>  
-In older VFP versions:<code><font color=#00a000>  
+= SwitchToThisWindow(_Screen.HWND, 0)
+```
+In older VFP versions:
+```foxpro
 * save the value on app start<font color=#0000a0>  
 DECLARE INTEGER GetActiveWindow IN user32  
 hScreen = GetActiveWindow()<font color=#00a000>  
 * ... later ...<font color=#0000a0>  
 DECLARE SwitchToThisWindow IN user32;  
 	INTEGER hWindow, INTEGER fAltTab  
-= SwitchToThisWindow(m.hScreen, 0)  
-</font></code>  
-  
+= SwitchToThisWindow(m.hScreen, 0)
+```
+
 ***  
 

@@ -445,7 +445,8 @@ RETURN Chr(MOD(m.lnValue,256)) + CHR(INT(m.lnValue/256))
 
 ## Comment:
 The Date and Time Picker can be programmed in nearly identical way.   
-<img src="images/datetimepicker.png">  
-  
+
+![](../images/datetimepicker.png)
+
 ***  
 

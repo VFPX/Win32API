@@ -223,9 +223,9 @@ RETURN Asc(SUBSTR(lcBuffer, 1,1)) + ;
 ## Comment:
 Unsolved issues:  
   
-<LI>the closing of opened console window automatically closes the whole FoxPro session; the SetWindowLong can not change attributes for the console window (error=5, access denied);  
+* the closing of opened console window automatically closes the whole FoxPro session; the SetWindowLong can not change attributes for the console window (error=5, access denied);  
   
-<LI>main FoxPro window stops redrawing itself after a console window is created.  
+* main FoxPro window stops redrawing itself after a console window is created.  
   
 And of course, the main unsolved issue is finding a practicality in console windows.  
   

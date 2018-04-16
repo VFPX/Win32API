@@ -142,8 +142,8 @@ ENDDEFINE
 
 ## Comment:
 Check these MSDN links:  
-<LI><a href="http://msdn.microsoft.com/library/default.asp?url=/library/en-us/multimed/mmcmdstr_8eyc.asp">The set command for the Windows Multimedia SDK</a>  
-<LI><a href="http://msdn.microsoft.com/library/default.asp?url=/library/en-us/multimed/mmcmdstr_4nub.asp">Multimedia Command Strings</a>  
+* <a href="http://msdn.microsoft.com/library/default.asp?url=/library/en-us/multimed/mmcmdstr_8eyc.asp">The set command for the Windows Multimedia SDK</a>  
+* [Multimedia Command Strings](https://msdn.microsoft.com/en-us/library/dd743572(v=vs.85).aspx)  
   
 ***  
 

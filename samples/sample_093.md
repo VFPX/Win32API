@@ -76,16 +76,14 @@ There is one more action type -- EDIT.
   
 For some actions failed, GetLastError returns() value 1155, that means ERROR_NO_ASSOCIATION | No application is associated with the specified file for this operation..  
   
-Links:  
-<a href="http://support.microsoft.com/default.aspx?scid=kb;EN-US;q170918">HOWTO: Use ShellExecute to Launch Associated File (32-bit) (Q170918)</a>.  
+Links: 
+
+* [HOWTO: Use ShellExecute to Launch Associated File (32-bit) (Q170918)](https://jeffpar.github.io/kbarchive/kb/170/Q170918/).  
+* [Tip 168: Using the ShellExecute Function to Print Files](http://www.visualbasicsource.net/redirectpage.html?http://www.visualbasicsource.net/VBTips/168.html).  
+* [An easy way sending emails from a Visual FoxPro application](http://www.ml-consult.co.uk/foxst-22.htm) -- an article of Mike Lewis.  
+* VBNet: [Sending Large Emails via ShellExecute](http://www.mvps.org/vbnet/index.html?code/internet/shellexecutelargeemail.htm).  
   
-<a href="http://msdn.microsoft.com/archive/default.asp?url=/archive/en-us/dnarvbtips/html/msdn_msdn168.asp">Tip 168: Using the ShellExecute Function to Print Files</a>.  
-  
-<a href="http://www.ml-consult.demon.co.uk/foxst-22.htm">An easy way sending emails from a Visual FoxPro application</a> -- an article of Mike Lewis.  
-  
-VBNet: <a href="http://www.mvps.org/vbnet/index.html?code/internet/shellexecutelargeemail.htm">Sending Large Emails via ShellExecute</a>.  
-  
-#kwd: sln_sendemail.  
+
   
 ***  
 

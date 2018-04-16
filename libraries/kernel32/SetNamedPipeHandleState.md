@@ -57,7 +57,8 @@ If the function succeeds, the return value is nonzero.
 
 ## Comments:
 This is a part of pipe client code  
-<div class="precode">hPipe = CreateFile(cPipename,;  
+```foxpro
+hPipe = CreateFile(cPipename,;  
 	BITOR(GENERIC_WRITE, GENERIC_READ),;  
 	0, 0, OPEN_EXISTING, 0, 0)  
   
@@ -65,8 +66,8 @@ IF hPipe <> INVALID_HANDLE_VALUE
 	nPipeMode = PIPE_READMODE_MESSAGE  
 	nResult = SetNamedPipeHandleState(m.hPipe,;  
 		@nPipeMode, 0, 0)  
-ENDIF  
-</div>  
-  
+ENDIF
+```
+
 ***  
 

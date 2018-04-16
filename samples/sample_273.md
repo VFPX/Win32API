@@ -65,7 +65,5 @@ PROCEDURE  decl
 ## Comment:
 Provide this function with a handle to your VFP application main window to keep it on the top after the sending dialog window closes. The Outlook Express changes the default directory, that is why it needs to be saved and restored. Just another way how to send email from FoxPro application.  
   
-#kwd: sln_sendemail.  
-  
 ***  
 

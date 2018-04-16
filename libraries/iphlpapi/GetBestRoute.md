@@ -49,7 +49,8 @@ If the function succeeds, the return value is NO_ERROR (0).
 
 
 ## Comments:
-<div class="precode">#DEFINE MIB_IPFORWARDROW_SIZE 56  
+```foxpro
+#DEFINE MIB_IPFORWARDROW_SIZE 56  
   
 nSrcIP = inet_addr("192.168.0.200")  
 nDstIP = inet_addr("66.94.234.13")  
@@ -65,8 +66,9 @@ ENDIF
   
 cBuffer = oBuffer.GetValue()  
 nHopIP = buf2dword(SUBSTR(cBuffer, 13, 4))  
-? inet_ntoa(nSrcIP)  
-</div>  
+? inet_ntoa(nSrcIP)
+```
+
 See also: [GetBestInterface](../iphlpapi/GetBestInterface.md).  
   
 ***  

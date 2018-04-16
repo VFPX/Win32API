@@ -67,7 +67,8 @@ If the function succeeds, the function returns a pointer to a read-only CERT_CON
 ## Comments:
 A non-NULLCERT_CONTEXT that CertFindCertificateInStore returns must be freed by CertFreeCertificateContext or by being passed as the pPrevCertContext parameter on a subsequent call to CertFindCertificateInStore.  
   
-<div class="precode">#DEFINE PKCS_7_ASN_ENCODING 0x00010000  
+```foxpro
+#DEFINE PKCS_7_ASN_ENCODING 0x00010000  
 #DEFINE X509_ASN_ENCODING 1  
 #DEFINE CERT_FIND_ANY 0  
   
@@ -82,8 +83,8 @@ hBuffer = CertFindCertificateInStore(hStore,;
   
 IF hBuffer <> 0  
 	= CertFreeCertificateContext(hBuffer)  
-ENDIF  
-</div>  
-  
+ENDIF
+```
+
 ***  
 

@@ -68,10 +68,5 @@ PROCEDURE  decl
 [InternetConnect](../libraries/wininet/InternetConnect.md)  
 [InternetOpen](../libraries/wininet/InternetOpen.md)  
 
-## Comment:
-  
-  
-#kwd: sln_ftp.  
-  
 ***  
 

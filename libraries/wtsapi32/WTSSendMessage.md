@@ -83,7 +83,8 @@ If the function succeeds, the return value is a nonzero value.
 
 
 ## Comments:
-<div class="precode">#DEFINE WTS_CURRENT_SERVER_HANDLE 0  
+```foxpro
+#DEFINE WTS_CURRENT_SERVER_HANDLE 0  
   
 LOCAL cTitle, cMsg, nResponse  
 cTitle = "Test Message"  
@@ -92,8 +93,8 @@ nResponse = 0
   
 ? WTSSendMessage(hServer, 0,;  
 	@cTitle, LEN(cTitle),;  
-	@cMsg, LEN(m.cMsg), 0, 15, @nResponse, 1)  
-</div>  
-  
+	@cMsg, LEN(m.cMsg), 0, 15, @nResponse, 1)
+```
+
 ***  
 

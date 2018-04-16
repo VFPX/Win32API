@@ -82,13 +82,16 @@ This code demonstrates how to move binary data to and from global memory blocks.
 In some situations you need to pass to a structure *(not to a function, that is easy)* the 4-byte pointer to a string -- LPCSTR, or LPCTSTR.   
   
 As an example, to run some printer functions you must supply the DOCINFO structure:  
-<Span style="font-face: Courier; Color: #0000a0"><pre>typedef struct {   
+```cpp
+typedef struct {   
     int     cbSize;   
     LPCTSTR lpszDocName;   
     LPCTSTR lpszOutput;   
     LPCTSTR lpszDatatype;  
     DWORD   fwType;   
-} DOCINFO, *LPDOCINFO;</pre></Span>  
+} DOCINFO, *LPDOCINFO;
+```
+
 Within this structure **lpszDocName** is not a string, but a pointer to a string with a defined document name -- e.g. *"My Printer Job"*.   
   
 That means, you must allocate this string in memory and pass the pointer to the structure. Using global memory functions makes this task possible. At that time -- to my knowledge -- there is no regular function in VFP to return a pointer to a string.  

@@ -1,13 +1,13 @@
 [<img src="../images/home.png"> Home ](https://github.com/VFPX/Win32API)  
 
-# Retrieving the interface–to–IP address mapping table
+# Retrieving the interfaceï¿½toï¿½IP address mapping table
 
 ## Before you begin:
 ![](../images/int2iptable.png)  
 
 See also:
 
-<a href="?example=234">Retrieving the User Datagram Protocol (UDP) listener table</a>[Retrieving the User Datagram Protocol (UDP) listener table](sample_234.md)  
+[Retrieving the User Datagram Protocol (UDP) listener table](sample_234.md)  
   
 ***  
 
@@ -156,10 +156,6 @@ PROCEDURE declare
 [gethostbyaddr](../libraries/ws2_32/gethostbyaddr.md)  
 [inet_ntoa](../libraries/ws2_32/inet_ntoa.md)  
 
-## Comment:
-  
-  
-#kwd: sln_winsock.  
-  
+
 ***  
 

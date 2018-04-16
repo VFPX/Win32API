@@ -3,7 +3,7 @@
 # Extended MessageBox Class
 
 ## Before you begin:
-<a href="?solution=3&src=x418" target=_blank><img src="images/xmsg_270_48.png" border=0></a>[](sample_000.md)  
+<a href="?solution=3&src=x418" target=_blank><img src="images/xmsg_270_48.png" border=0></a>  
 There is more advanced version of this code.   
 Click to open the [Extended MessageBox Library (FLL)](?solution=3&src=x418) web page.  
 

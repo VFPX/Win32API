@@ -436,19 +436,22 @@ RETURN Chr(b0)+Chr(b1)+Chr(b2)+Chr(b3)
 When switched to *Report* mode (View=3), the ListView control displays the resource file and ICO resource index for each icon displayed (*szPath* and *iIcon* members of <a href="http://msdn.microsoft.com/en-us/library/bb759805(v=VS.85).aspx">SHSTOCKICONINFO</a> structure).  
   
 That reveals that Windows 7 stores Shell icons in at least 4 files residing in System32 directory:  
-*<li>Shell32.dll  
-<li>Imageres.dll  
-<li>Imagesp1.dll  
-<li>Mydocs.dll*  
+* Shell32.dll  
+* Imageres.dll  
+* Imagesp1.dll  
+* Mydocs.dll  
+
   
-<div style="padding-left:50;padding-right:120;font-size:140%;font-style:italic;color:#a04000;">With known resource file and resource index, saving a Shell icon to ICO file is an easy task.</div>  
-Here is <a href="?example=502">another code sample</a> on this web site that explains how. It defines VFP classes *IconGroupResource* and *IconResource*. The former creates ICO files holding multiple versions of the same icon (size & color depth vary). The latter creates ICO files holding a single icon version, for example 48x48, 8 bit.  
+## *With known resource file and resource index, saving a Shell icon to ICO file is an easy task.*  
+
+Here is [another code sample](sample_502.md) on this web site that explains how. It defines VFP classes *IconGroupResource* and *IconResource*. The former creates ICO files holding multiple versions of the same icon (size & color depth vary). The latter creates ICO files holding a single icon version, for example 48x48, 8 bit.  
+
+[![Selected Windows icons](../images/filearchive.png)](downloads/imageres_selected_icons.zip) *Download a small selection of Windows icons from System32\Imageres.dll library.*
   
-  
-<div style="width:300;padding-bottom:25;"><a href="downloads/imageres_selected_icons.zip" rel="nofollow"><img src="images/filearchive.png" alt="Selected Windows icons" align="left"></a>*Download a small selection of Windows icons from System32\Imageres.dll library.*</div>  
-  
+
 The code below stores *Imageres.dll* Icon resources to ICO files.  
-<div class="precode">oIconGroups = CREATEOBJECT("IconGroups",;  
+```foxpro
+oIconGroups = CREATEOBJECT("IconGroups",;  
 	GETENV("SystemRoot") + "\system32\imageres.dll")  
   
 oIconGroups.EnumIconGroupResources  
@@ -478,12 +481,13 @@ IF NOT EMPTY(m.cTargetPath)
 		nGroupIndex = nGroupIndex + 1  
 	NEXT  
 	SET SAFETY ON  
-ENDIF  
-</div>  
-<a href="?example=502"><img src="images/imageres_icons.jpg" border=0 alt="Storing DLL icon resources in .ICO files"></a>  
-  
-* * *  
-Another <a href="?example=19">Icon Viewer</a> code sample on this web site reads icons directly from .EXE or .DLL file calling ExtractIcon and GetIconInfo functions. If pointed at Shell32.dll, that viewer displays even larger number of icons then the one presented.   
+ENDIF
+```
+[![Storing DLL icon resources in .ICO files](../images/imageres_icons.jpg)](sample_502.md)
+
+
+***  
+Another [Icon Viewer](sample_019.md) code sample on this web site reads icons directly from .EXE or .DLL file calling ExtractIcon and GetIconInfo functions. If pointed at Shell32.dll, that viewer displays even larger number of icons then the one presented.   
   
 But the former has a deficiency. The Shell icons are retrieved based on their respective resource index in Shell32.dll. This index may fluctuate through OS versions. In contrast, the SHGetStockIconInfo uses OS-approved <a href="http://msdn.microsoft.com/en-us/library/bb762542(v=VS.85).aspx">SHSTOCKICONID enumeration</a>.  
   

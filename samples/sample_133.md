@@ -126,10 +126,12 @@ RETURN SUBSTR(lpBuffer, 1, nSizeRet)
 [GetWindowsDirectory](../libraries/kernel32/GetWindowsDirectory.md)  
 
 ## Comment:
-The target file should conform to the regular INI file format: *  
+The target file should conform to the regular INI file format:  
+```txt
 [section]  
 key=string  
-...*  
+...
+```
   
 Under some conditions this function applied to Win.Ini can read the corresponding Registry values instead the real file.  
   

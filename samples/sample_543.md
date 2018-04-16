@@ -8,7 +8,9 @@ The Monitor Configuration API was first made available in Windows Vista. These f
 
 
 ## Before you begin:
-<img src="images/syncmaster_t240.jpg" align=left>The Monitor Configuration API was first made available in Windows Vista. These functions are applicable only if the monitor supports the <a href="http://en.wikipedia.org/wiki/Display_Data_Channel">Display Data Channel</a> (DDC/CI) connection with the graphics adapter.[Display Data Channel](sample_000.md)  
+![](../images/syncmaster_t240.jpg)  
+
+The Monitor Configuration API was first made available in Windows Vista. These functions are applicable only if the monitor supports the [Display Data Channel](http://en.wikipedia.org/wiki/Display_Data_Channel) (DDC/CI) connection with the graphics adapter.  
 
 At least thirteen Monitor Configuration functions exist. Those include GETs and/or SETs for brightness, color temperature, contrast, display area position & size, factory defaults and more. Some models may have limited Monitor Configuration support.  
 

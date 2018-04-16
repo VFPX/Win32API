@@ -214,11 +214,7 @@ RETURN Chr(b0)+Chr(b1)+Chr(b2)+Chr(b3)
 
 ## Comment:
 Take a note that the Sh0wWindow property for the form should be set to 2. That means *"a top-level form in which child forms can be placed"*.   
-  
-See also:  
-<LI><a href="http://msdn.microsoft.com/library/default.asp?url=/library/en-us/dv_foxhelp9/html/e0aaf535-c606-44bd-b7c1-7d0341331d8f.asp">BINDEVENT()</a>  
-<LI><a href="http://msdn.microsoft.com/library/default.asp?url=/library/en-us/fox7help/html/lngshowwindow_property.asp">Sh0wWindow</a>  
-<LI><a href="http://msdn.microsoft.com/library/default.asp?url=/library/en-us/fox7help/html/dgtskAddingMenuToTop-LevelForm.asp">Adding a Menu to a Top-Level Form</a>.  
+ 
   
 ***  
 

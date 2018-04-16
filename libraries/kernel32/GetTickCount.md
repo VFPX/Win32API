@@ -58,7 +58,9 @@ The GetTickCount64 function is free of the 49.71 limitation, if only one can fin
   
 * * *  
 The timeGetTime function (Winmm.dll) is the absolute twin of the GetTickCount.  
-<div class="precode">DECLARE LONG timeGetTime IN winmm</div>  
-  
+```foxpro
+DECLARE LONG timeGetTime IN winmm
+```
+
 ***  
 

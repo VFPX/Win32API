@@ -56,15 +56,16 @@ Returns TRUE if successful, or FALSE otherwise.
 There is no need to call the InternetOpen before calling the CreateMD5SSOHash.  
   
 The usage is as simple as it can be:  
-<div class="precode">cSource=STRCONV("challenge"+CHR(0),5)  
+```foxpro
+cSource=STRCONV("challenge"+CHR(0),5)  
 cRealm=NULL  
-cTarget=NULL <span style="color: #0a0;">&& "myaddress@msn.com"</span>  
+cTarget=NULL && "myaddress@msn.com"  
 cHash = REPLICATE(CHR(0), 33)  
   
 ? CreateMD5SSOHash(cSource, cRealm, cTarget, @cHash)  
 cHash = STRTRAN(cHash, CHR(0))  
-? LEN(cHash), "[" + cHash + "]"  
-</div>  
+? LEN(cHash), "[" + cHash + "]"
+```
 For this code to return a valid result, a .Net Passport (<a href="http://en.wikipedia.org/wiki/Microsoft_Passport_Network">Microsoft Passport</a>) must be installed on the Windows XP computer.  
 
 ![](../../images/netpassportwizard.png)  

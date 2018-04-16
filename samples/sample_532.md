@@ -3,15 +3,15 @@
 # Extensible Storage Engine class library
 
 ## Before you begin:
-The <a href="http://en.wikipedia.org/wiki/Extensible_Storage_Engine">Extensible Storage Engine</a> (ESE), also known as JET Blue, is an Indexed Sequential Access Method (ISAM) data storage technology from Microsoft. ESE is notably a core of Microsoft Exchange Server and Active Directory. [Extensible Storage Engine](sample_000.md)  
+The [Extensible Storage Engine](http://en.wikipedia.org/wiki/Extensible_Storage_Engine) (ESE), also known as JET Blue, is an Indexed Sequential Access Method (ISAM) data storage technology from Microsoft. ESE is notably a core of Microsoft Exchange Server and Active Directory.   
 
 Its purpose is to allow applications to store and retrieve data via indexed and sequential access. Windows Mail and Desktop Search in the Windows Vista operating system also make use of ESE to store indexes and property information respectively.  
 
 The ESE Runtime (ESENT.DLL) has shipped in every Windows release since Windows 2000, with native x64 version of the ESE runtime shipping with x64 versions of Windows XP and Windows Server 2003.   
 
-<a href="downloads/esent.h">Esent.h</a> header file is included in the <a href="http://en.wikipedia.org/wiki/Microsoft_Windows_SDK">Microsoft Windows SDK</a>.[Esent.h](sample_000.md)  
+[Esent.h](../downloads/essent.h)  header file is included in the <a href="http://en.wikipedia.org/wiki/Microsoft_Windows_SDK">Microsoft Windows SDK</a>.  
 
-The ESE (Jet Blue) has no relation to the database engine used in Microsoft Access, the one dubbed <a href="http://en.wikipedia.org/wiki/Microsoft_Jet_Database_Engine">JET Red</a>.[JET Red](sample_000.md)  
+The ESE (Jet Blue) has no relation to the database engine used in Microsoft Access, the one dubbed [JET Red](http://en.wikipedia.org/wiki/Microsoft_Jet_Database_Engine).  
   
 ***  
 
@@ -455,8 +455,8 @@ RETURN Chr(MOD(m.lnValue,256)) + CHR(INT(m.lnValue/256))
 The VFP class library is on an early stage of development with some corners cut.  
   
 See also:  
-<LI><a href="http://msdn2.microsoft.com/en-us/library/ms684493(VS.85).aspx">Extensible Storage Engine</a> on MSDN  
-<LI><a href="http://en.wikipedia.org/wiki/Extensible_Storage_Engine">Extensible Storage Engine</a> on Wikipedia  
-  
+* <a href="https://msdn.microsoft.com/en-us/library/5c485eff-4329-4dc1-aa45-fb66e6554792.aspx">Extensible Storage Engine</a> on MSDN  
+* <a href="http://en.wikipedia.org/wiki/Extensible_Storage_Engine">Extensible Storage Engine</a> on Wikipedia  
+
 ***  
 

@@ -3,7 +3,7 @@
 # Customizing the frame of top-level form: removing the standard frame (VFP9, Vista)
 
 ## Before you begin:
-This minimalistic looking *About* form is created by calling the DwmExtendFrameIntoClientArea, and subsequent processing of the <a href="http://msdn.microsoft.com/en-us/library/ms632634(v=vs.85).aspx">WM_NCCALCSIZE</a> and <a href="http://msdn.microsoft.com/en-us/library/ms645618(v=vs.85).aspx">WM_NCHITTEST</a> windows messages.[WM_NCCALCSIZE](sample_000.md)  
+This minimalistic looking *About* form is created by calling the DwmExtendFrameIntoClientArea, and subsequent processing of the [WM_NCCALCSIZE](http://msdn.microsoft.com/en-us/library/ms632634(v=vs.85).aspx) and [WM_NCHITTEST](http://msdn.microsoft.com/en-us/library/ms645618(v=vs.85).aspx) windows messages.  
 
 ![](../images/appaboutsample.png)  
 
@@ -57,7 +57,7 @@ DEFINE CLASS AboutForm As Form
 	ADD OBJECT LabelCopyright As Label WITH;
 	Left=20, Top=60, Width=500, Height=200,;
 	Caption="Microsoft Visual FoxPro 9.0 SP2"+CHR(13)+;
-		"Copyright © 1988-2006 Microsoft Corp."+CHR(13)+;
+		"Copyright ï¿½ 1988-2006 Microsoft Corp."+CHR(13)+;
 		"All rights reserved.",;
 	FontName="Segoe UI", FontSize=13,;
 	Backstyle=0, ForeColor=RGB(0,0,0)
@@ -227,7 +227,8 @@ RETURN Chr(b0)+Chr(b1)+Chr(b2)+Chr(b3)
 
 ## Comment:
 Download transparent PNG file to be used with this code sample.  
-<img src="images/foxPro_transp.png">  
-  
+
+![](../images/foxPro_transp.png)
+
 ***  
 

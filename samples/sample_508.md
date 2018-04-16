@@ -333,7 +333,8 @@ A variety of flags the *fFlags* member can take provides great flexibility. For 
 * * *  
 The Shell is as usual brief and efficient. The following code copies all files from the source folder to the target folder. Test with care:  
   
-<div class=precode>LOCAL oShell, oSrcFolder, oDstFolder  
+```foxpro
+LOCAL oShell, oSrcFolder, oDstFolder  
   
 oShell = CREATEOBJECT("Shell.Application")  
 oSrcFolder = oShell.NameSpace("c:\temp1")  
@@ -341,8 +342,8 @@ oDstFolder = oShell.NameSpace("c:\temp")
   
 IF VARTYPE(oDstFolder)="O" AND VARTYPE(oSrcFolder.Items)="O"  
 	oDstFolder.CopyHere(oSrcFolder.Items)  
-ENDIF  
-</div>  
-  
+ENDIF
+```
+
 ***  
 

@@ -5,7 +5,7 @@ Group: [Shell Functions](../../functions_group.md#Shell_Functions)  -  Library: 
 ***  
 
 
-#### Displays a dialog box that prompts the user to restart Microsoft® Windows®. When the user clicks the button, the function calls ExitWindowsEx to attempt to restart Windows.
+#### Displays a dialog box that prompts the user to restart Microsoft&reg; Windows&reg;. When the user clicks the button, the function calls ExitWindowsEx to attempt to restart Windows.
 ***  
 
 

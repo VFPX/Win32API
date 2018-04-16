@@ -398,20 +398,22 @@ RETURN Asc(SUBSTR(cBuffer, 1,1)) + ;
 
 ## Comment:
 The SysLink control is able to parse properly formed anchor tags within a string. It recognizes http, ftp, and mailto protocols.  
-  
-<img src="images/syslink_ctrl.png">  
+
+![](../images/syslink_ctrl.png)  
+
 The list of links on the screenshot above is formed with a *single string*:  
   
-<div class="precode">TEXT TO m.cCaption NOSHOW  
-&lt;a href="http://atoutfox.org/"&gt;AtoutFox&lt;/a&gt;  
+```foxpro
+TEXT TO m.cCaption NOSHOW  
+<a href="http://atoutfox.org/">AtoutFox</a>  
 French based community Web site for Visual FoxPro.  
   
-&lt;a href="http://www.devug.com/"&gt;Developers User Group&lt;/a&gt;  
+<a href="http://www.devug.com/">Developers User Group</a>  
 UK based community Web site for Visual FoxPro.  
   
 ...  
-TEXT  
-</div>  
+TEXT
+```
 When a link is clicked, the control does not start an associated application (a browser, for example) to open the link. Instead it notifies the parent form. The form receives the url and the zero-based index of the link.  
   
 Two alternatives to the SysLink that I could think of are the Web Browser Control and a chain of Label controls.  

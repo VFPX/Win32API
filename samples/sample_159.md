@@ -180,7 +180,10 @@ RETURN Asc(SUBSTR(lcBuffer, 1,1)) + ;
 [GlobalFree](../libraries/kernel32/GlobalFree.md)  
 
 ## Comment:
-<div class="precode">GETFONT(cFontName [, nFontSize [, cFontStyle [, nFontCharSet])</div>  
+```foxpro
+GETFONT(cFontName [, nFontSize [, cFontStyle [, nFontCharSet])
+```
+  
   
 ***  
 

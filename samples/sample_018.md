@@ -7,7 +7,7 @@ NTFS supports aliases (hard links) for files. Up to 1023 aliases can be created 
 
 See also:
 
-<a href="?example=55">Converting long file names to the short format and vice versa</a>[Converting long file names to the short format and vice versa](sample_055.md)  
+[Converting long file names to the short format and vice versa](sample_055.md)  
 
   
 ***  

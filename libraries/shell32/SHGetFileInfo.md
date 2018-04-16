@@ -75,18 +75,19 @@ The application is responsible for freeing the icon handle with DestroyIcon when
 * * *  
 It seems that this function makes an addition to the system image list (aka Shell Icon Cache, HIMAGELIST), if the list has no element for the specified file type.  
   
-<div class="precode">#DEFINE SHGFI_ICON 0x000000100  
+```foxpro
+#DEFINE SHGFI_ICON 0x000000100  
 #DEFINE SHGFI_TYPENAME 0x000000400  
 #DEFINE SHGFI_USEFILEATTRIBUTES 0x000000010  
 #DEFINE FILE_ATTRIBUTE_NORMAL 0x00000080  
   
-<span style="color:#00a000;">*!*typedef struct _SHFILEINFO {  
+*!*typedef struct _SHFILEINFO {  
 *!*	HICON hIcon;  
 *!*	int iIcon;  
 *!*	DWORD dwAttributes;  
 *!*	TCHAR szDisplayName[MAX_PATH];  
 *!*	TCHAR szTypeName[80];  
-*!*} SHFILEINFO;</span>  
+*!*} SHFILEINFO;  
   
 LOCAL cFilename, nBufsize, cBuffer, nFlags,;  
 	nResult, hIcon  
@@ -103,8 +104,9 @@ nResult = SHGetFileInfo(cFilename, FILE_ATTRIBUTE_NORMAL,;
 hIcon = buf2dword(SUBSTR(cBuffer, 1, 4))  
 IF hIcon <> 0  
 	= DestroyIcon(hIcon)  
-ENDIF  
-</div>  
+ENDIF
+```
+
 All system icons can be accessed through this function and drawn, for example, on ListView ActiveX control:  
 
 ![](../../images/sysimagelist.png)  

@@ -42,12 +42,13 @@ If the meaning of the mouse buttons was not reversed, the return value is zero
 ## Comments:
 The usage is simple:  
   
-<div class="precode">DECLARE INTEGER SwapMouseButton IN user32;  
+```foxpro
+DECLARE INTEGER SwapMouseButton IN user32;  
 	INTEGER bSwap  
   
 = SwapMouseButton(1)  && swaps  
-= SwapMouseButton(0)  && restores defaults  
-</div>  
+= SwapMouseButton(0)  && restores defaults
+```
 Also GetSystemMetrics can read the swap state (SM_SWAPBUTTON).  
   
 ***  

@@ -50,7 +50,8 @@ Returns GpStatus value, 0 means success.
 
 
 ## Comments:
-<code>typedef enum {  
+```cpp
+typedef enum {  
 	ImageFlagsNone = 0,  
 	ImageFlagsScalable = 0x0001,  
 	ImageFlagsHasAlpha = 0x0002,  
@@ -65,7 +66,8 @@ Returns GpStatus value, 0 means success.
 	ImageFlagsHasRealPixelSize = 0x2000,  
 	ImageFlagsReadOnly = 0x00010000,  
 	ImageFlagsCaching = 0x00020000  
-} ImageFlags;</code>  
+} ImageFlags;
+```
   
 ***  
 

@@ -5,7 +5,7 @@ Group: [GDI+ Bitmap](../../functions_group.md#GDIplus_Bitmap)  -  Library: [gdip
 ***  
 
 
-#### Creates a Bitmap object based on a handle to a Windows Microsoft® Windows® Graphics Device Interface (GDI) bitmap and a handle to a GDI palette.
+#### Creates a Bitmap object based on a handle to a Windows Microsoft&reg; Windows&reg; Graphics Device Interface (GDI) bitmap and a handle to a GDI palette.
 ***  
 
 

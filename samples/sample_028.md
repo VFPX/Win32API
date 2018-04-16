@@ -25,7 +25,10 @@ ENDIF
 
 ## Comment:
 The operation above can be done with much less trouble in VFP code:  
-<div class=precode>_cliptext=""</pre>  
+```foxpro
+_cliptext=""
+```
+ 
   
 ***  
 

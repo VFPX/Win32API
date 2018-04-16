@@ -48,15 +48,16 @@ The SHGetPathFromIDList will return the path of the selected folder.
   
 * * *  
 Windows Shell script:  
-<div class=precode>oShell = CREATEOBJECT("Shell.Application")  
+```foxpro
+oShell = CREATEOBJECT("Shell.Application")  
   
 oFolder = oShell.Application.BrowseForFolder(_screen.HWnd,;  
 	"Select Folder", 1, "c:\Program Files")  
   
 IF NOT ISNULL(oFolder)  
 	? oFolder.self.Path  
-ENDIF  
-</div>  
-  
+ENDIF
+```
+
 ***  
 

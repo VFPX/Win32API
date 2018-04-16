@@ -10,10 +10,11 @@ This class is used for sending "GET" and "POST" HTTP requests to webserver and r
 ## Before you begin:
 This class is used for sending "GET" and "POST" HTTP requests. Use the following code to test it:  
 
-<div class=precode>LOCAL oHttp  
+```foxpro
+LOCAL oHttp  
 oHttp = CreateObject("THttpRequest")  
 WITH oHttp  
-	.Open("GET", "http://msdn.microsoft.com/vfoxpro/")  
+	.Open("GET", "https://github.com/VFPX/Win32API/blob/master/samples/sample_185.md")  
 	.Send()  
 
 	? .Status, .StatusText  
@@ -23,8 +24,8 @@ WITH oHttp
 
 	STRTOFILE(.ResponseText, "response.txt")  
 	MODI FILE response.txt NOWAIT  
-ENDWITH  
-</div>  
+ENDWITH
+```
 See also:
 
 * [Custom WinHTTP HttpRequest class (WinHTTP)](sample_397.md)  
@@ -320,7 +321,8 @@ Create ASP.Net Web application and call it SendRequest. Add new web form and cal
   
 Remove all HTML code from the web form. It is not going to be used anyway; moreover it may affect sending HTTP response headers. Open the code part (C#) and add the following method to ExchangeData class.  
   
-<div class="precode">private void ProcessRequest()  
+```cpp
+private void ProcessRequest()  
 {  
 	//read HTTP Request header  
 	string sender = Request.Headers["Request_Sender"];  
@@ -343,13 +345,14 @@ Remove all HTML code from the web form. It is not going to be used anyway; moreo
 	//send back data as HTTP Response body  
 	Response.Write("Request received: " + b);  
 	Response.End();  
-}  
-</div>  
+}
+```
 Call ProcessRequest from Page_Load method of the web form. Compile .Net SendRequest project.  
   
 Then create a VFP part for sending requests and obtaining responses from ASP.Net page. As I said, this part must include URL for the webpage. The local server is used for simplicity.  
   
-<div class="precode">#DEFINE DESTINATION_URL;  
+```foxpro
+#DEFINE DESTINATION_URL;  
 	"http://localhost/sendrequest/exchangedata.aspx"  
 SET PROCEDURE TO HttpRequest ADDITIVE  
   
@@ -367,8 +370,8 @@ WITH oHttp
 	? .status  && returns "200"  
 	? .GetResponseHeader("Request_Confirmation")  
 	? .ResponseText  
-ENDWITH  
-</div>  
-  
+ENDWITH
+```
+
 ***  
 

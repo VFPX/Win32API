@@ -9,7 +9,8 @@ The UdpBase class uses several Winsock API functions. It implements the basic fu
 
 The WaitForRequest method of the class indefinitely waits for incoming datagrams. Upon receiving a datagram it sends a message back to the client.  
 
-<div class="precode">DEFINE CLASS UdpServer As UdpBase  
+```foxpro
+DEFINE CLASS UdpServer As UdpBase  
 
 PROCEDURE WaitForRequest(nPort)  
 	IF NOT THIS.StartServer(nPort)  
@@ -45,8 +46,8 @@ PROCEDURE WaitForRequest(nPort)
 	THIS.SendDatagram(m.cConfirmation,;  
 		THIS.SenderIP, THIS.SenderPort)  
 
-ENDDEFINE  
-</div>  
+ENDDEFINE
+```
 See also:
 
 * [How to create non-blocking Winsock server](sample_412.md)  

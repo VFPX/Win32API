@@ -3,15 +3,17 @@
 # Winsock: retrieving information from a host database for a given host name
 
 ## Before you begin:
-An example of return for this sample code:<code>  
+An example of return for this sample code:  
+```txt
 Host name: microsoft.com  
 IP 1: 207.46.249.190  
 IP 2: 207.46.249.222  
 IP 3: 207.46.249.27  
 IP 4: 207.46.134.155  
 IP 5: 207.46.134.190  
-IP 6: 207.46.134.222  
-</code>  
+IP 6: 207.46.134.222
+```
+
   
 ***  
 
@@ -139,10 +141,6 @@ PROCEDURE decl
 [gethostbyname](../libraries/ws2_32/gethostbyname.md)  
 [inet_ntoa](../libraries/ws2_32/inet_ntoa.md)  
 
-## Comment:
-  
-  
-#kwd: sln_winsock.  
-  
+
 ***  
 

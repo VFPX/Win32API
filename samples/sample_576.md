@@ -5,7 +5,7 @@
 ## Before you begin:
 Special Folders are folders which are presented to the user through an interface as an abstract concept, instead of an absolute folder path.   
 
-As of Windows Vista, those folders are referenced by a new set of GUID values called <a href="http://msdn.microsoft.com/en-us/library/bb776911(v=vs.85).aspx">Known Folder IDs</a>, replacing  the older system of referring to standard folders by a CSIDL value.[Known Folder IDs](sample_000.md)  
+As of Windows Vista, those folders are referenced by a new set of GUID values called [Known Folder IDs](http://msdn.microsoft.com/en-us/library/bb776911(v=vs.85).aspx), replacing  the older system of referring to standard folders by a CSIDL value.  
 
 ![](../images/windowsknownfolders.png)  
 
@@ -499,8 +499,9 @@ RETURN Chr(b0)+Chr(b1)+Chr(b2)+Chr(b3)
 [SetWindowLong](../libraries/user32/SetWindowLong.md)  
 
 ## Comment:
-<img src="images/windowsknownfolders_xp.png">  
-  
+
+![](../images/windowsknownfolders_xp.png)
+
 The Known Folders can be enumerated through call to GetFolderIds method of a class that implements IKnownFolderManager interface.  
   
 ***  

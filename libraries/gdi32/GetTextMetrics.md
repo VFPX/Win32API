@@ -47,7 +47,8 @@ If the function succeeds, the return value is nonzero.
 
 ## Comments:
 The TEXTMETRIC structure is filled in GetTextMetrics call:  
-<div class="precode">typedef struct tagTEXTMETRIC {   
+```cpp
+typedef struct tagTEXTMETRIC {   
 	LONG tmHeight;   
 	LONG tmAscent;   
 	LONG tmDescent;   
@@ -68,8 +69,8 @@ The TEXTMETRIC structure is filled in GetTextMetrics call:
 	BYTE tmStruckOut;   
 	BYTE tmPitchAndFamily;   
 	BYTE tmCharSet;   
-} TEXTMETRIC, *PTEXTMETRIC;   
-</div>  
-  
+} TEXTMETRIC, *PTEXTMETRIC;
+```
+
 ***  
 

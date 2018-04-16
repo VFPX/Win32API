@@ -9,7 +9,7 @@ The smart card resource manager manages the access to readers and smart cards. I
 
 The Smart Card Database contains a list of known smart cards, the interfaces and primary service provider of each card, and known smart card readers and reader groups.</td></tr></table>  
 Purchase complete VFP solution.  
-<a href="http://www.news2news.com/vfp/?solution=2&src=x539"><img src="images/acos3_270_48.png" width=270 height=48 border=0  vspace=5 hspace=5 alt="Download ACOS3 Class Library"></a>[](sample_000.md)  
+<a href="http://www.news2news.com/vfp/?solution=2&src=x539"><img src="../images/acos3_270_48.png" width=270 height=48 border=0  vspace=5 hspace=5 alt="Download ACOS3 Class Library"></a>  
   
 ***  
 
@@ -162,7 +162,8 @@ ENDDEFINE
 ## Comment:
 Use the following code to test the SmartCard classes:  
   
-<div class="precode">LOCAL oSmartCards As SmartCards  
+```foxpro
+LOCAL oSmartCards As SmartCards  
 oSmartCards = CREATEOBJECT("SmartCards")  
   
 FOR EACH cReaderGroup IN oSmartCards.ReaderGroups  
@@ -171,7 +172,8 @@ NEXT
   
 FOR EACH cReader IN oSmartCards.Readers  
 	? cReader  
-NEXT</div>  
+NEXT
+```
   
 ***  
 

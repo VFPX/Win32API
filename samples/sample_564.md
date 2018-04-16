@@ -8,7 +8,7 @@ This code sample explains how to add entries to event logs using Event Logging A
 
 
 ## Before you begin:
-Before testing this code sample, <a href="?example=563">register custom event log</a> **MyEventLog**. Without MyEventLog properly registered, the code will automatically target the Application log[register custom event log](sample_563.md)  
+Before testing this code sample, [register custom event log](sample_563.md) **MyEventLog**. Without MyEventLog properly registered, the code will automatically target the Application log.  
 
 ![](../http://news2news.com/vfp/images/customeventlog.png)  
 
@@ -244,8 +244,5 @@ ENDDEFINE
 [GlobalFree](../libraries/kernel32/GlobalFree.md)  
 [GlobalSize](../libraries/kernel32/GlobalSize.md)  
 
-## Comment:
-Read article <a href="http://www.craigberntson.com/articles/eventlog.pdf">Using the Windows Event Log from Visual FoxPro</a> written by Craig Berntson and Cole Gleave.  
-  
 ***  
 

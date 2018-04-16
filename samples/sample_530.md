@@ -7,7 +7,8 @@ When the list of files and folders is to be displayed inside a VFP form, the Lis
 
 The ListBox`s presentation style can only be described as the minimalistic :) , while the ListView shows items in much fancier manner, and can even accompany each file and folder with an icon.
 
-<img src="images/sysimagelist.png" width=507 height=338>
+![](../images/sysimagelist.png)
+
 And an imminent question arises: where are those icons stored and how to put them to work?  
 ***  
 
@@ -376,8 +377,8 @@ RETURN Chr(b0)+Chr(b1)+Chr(b2)+Chr(b3)
 ## Comment:
 Ouput produced by C# version of  this code:  
   
-<img src="images/filebrowser_cs.png">  
-  
+![](../images/filebrowser_cs.png)
+
 * * *  
 The associated icon and the description for each file type are stored in the Registry.   
   
@@ -387,19 +388,20 @@ The latter has the default value "Microsoft Visual FoxPro Table", which is the a
   
 The "DefaultIcon" subkey for this key has value "C:\Program Files\Microsoft Visual FoxPro 9\vfp9.exe,-103". That means that Group Icon #103 resource exists in VFP9 executable.   
   
-<img src="images/sysimagelist_000.png" width=544 height=214>  
-  
+![](../images/sysimagelist_000.png)
+
 This resource contains several icons that the OS uses for representing Visual FoxPro DBF files whenever required; for example, when displaying list of files in Explorer window.  
   
 A Resource Viewer shows this and other resources stored in VFP9 executable.  
   
-<img src="images/sysimagelist_001.png" width=444 height=321>  
-  
+![](../images/sysimagelist_001.png)
+
 In a similar way any other file type (read "file extension") can be traced to an icon+description pair.   
   
 There is no single rule, and the ways of finding associations are tricky if not messy. Going this way would require rather extensive coding. Luckily, MS had bothered to hide the complexity of the process inside the SHGetFileInfo API call.  
   
-<div class="precode">nBufsize=1024  
+```foxpro
+nBufsize=1024  
 cBuffer = REPLICATE(CHR(0), nBufsize)  
   
 nFlags = BITOR(SHGFI_SYSICONINDEX, SHGFI_SMALLICON,;  
@@ -408,32 +410,35 @@ nFlags = BITOR(SHGFI_SYSICONINDEX, SHGFI_SMALLICON,;
   
 	nResult = SHGetFileInfo(m.cFilename,;  
 		FILE_ATTRIBUTE_NORMAL,;  
-		@cBuffer, nBufsize, nFlags)  
-</div>  
+		@cBuffer, nBufsize, nFlags)
+```
+
 For the specified cFilename, the call above populates the SHFILEINFO structure with valuable information. That includes the description for the file type as well as the associated icon presented as the index in the System Image List.  
   
 The OS creates the System Image List for each running process, with the process mainly responsible for populating the list with ListImage items via SHGetFileInfo calls and may be by some other means.  
   
 This is how the handle to the System Image List (HIMAGELIST) can be obtained.  
   
-<div class="precode">cBuffer = REPLICATE(CHR(0), 1024)  
+```foxpro
+cBuffer = REPLICATE(CHR(0), 1024)  
 hSysImageList = SHGetFileInfo("", FILE_ATTRIBUTE_NORMAL,;  
 	@cBuffer, LEN(cBuffer),;  
 	BITOR(SHGFI_SYSICONINDEX, SHGFI_SMALLICON,;  
 		SHGFI_ICON, SHGFI_TYPENAME,;  
-		SHGFI_USEFILEATTRIBUTES))  
-</div>  
+		SHGFI_USEFILEATTRIBUTES))
+```
+
 Such System Image List is very similar if not identical to the ImageList ActiveX control. That is why the list can be linked to Icons or SmallIcons property of a MS Common Control (ListView or TreeView) placed on VFP form, which hence allows this control to display images found in the System Image List.  
   
 * * *  
 As stated in MSDN, the SHGetFileInfo may not be the best way, even if the simplest, for retrieving associated icons.   
   
-The <a href="http://msdn.microsoft.com/library/default.asp?url=/library/en-us/shellcc/platform/shell/reference/ifaces/iextracticon/iextracticon.asp">IExtractIcon Interface</a> performs this task better. The Shell uses nothing else bu the the IExtractIcon for retrieving icons when displaying the contents of a folder.  
+The [ExtractIcon Interface](https://msdn.microsoft.com/en-us/library/windows/desktop/bb761854%28v=vs.85%29.aspx?f=255&MSPPError=-2147217396)  performs this task better. The Shell uses nothing else bu the the IExtractIcon for retrieving icons when displaying the contents of a folder.  
   
 * * *  
 Calling AssocQueryString API provides yet another way of obtaining the path to the associated icon as well as so called friendly names for the application and the file.   
   
-<a href="?example=584"><img src="images/findfileassociation.png" border="0" alt="Finding the application, icon and friendly names associated with a file name"></a>  
-  
+[![Finding the application, icon and friendly names associated with a file name](../images/findfileassociation.png)](sample_584.md)
+
 ***  
 

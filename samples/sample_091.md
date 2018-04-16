@@ -6,7 +6,7 @@
 This sample code shows how to copy the image of an active form to the Clipboard in CF_BITMAP format.  
 
 There is a similar example using Bitmap API functions copying data in CF_ENHMETAFILE format:   
-<a href="?example=404">Copying picture of the active form to the Clipboard using Enhanced Metafile API functions</a>[Copying picture of the active form to the Clipboard using Enhanced Metafile API functions](sample_404.md)  
+[Copying picture of the active form to the Clipboard using Enhanced Metafile API functions](sample_404.md)  
 
 Check other Bitmap API examples:  
 * [Storing clipboard contents to a BMP file](sample_189.md)  
@@ -126,7 +126,7 @@ If you call this procedure from a form you will get an image of this form on  th
 Being called from the main VFP window, with no other forms running, this procedures copies to the clipboard the whole main window itself.  
   
 * * *  
-An article <a href="http://support.microsoft.com/default.aspx?scid=kb;EN-US;q240653">How To Copy the Screen or Active Window to the Clipboard from Visual Basic</a> published on Microsoft Help and Support page describes a different approach -- the picture of the whole screen is sent to the clipboard by virtually pressing (through the keybd_event call) PrtScr key.  
+An article [How To Copy the Screen or Active Window to the Clipboard from Visual Basic](https://support.microsoft.com/en-us/help/240653/how-to-copy-the-screen-or-active-window-to-the-clipboard-from-visual-b) published on Microsoft Help and Support page describes a different approach -- the picture of the whole screen is sent to the clipboard by virtually pressing (through the keybd_event call) PrtScr key.  
   
 ***  
 

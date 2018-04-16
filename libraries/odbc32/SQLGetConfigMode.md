@@ -41,12 +41,12 @@ The function returns TRUE if it is successful, FALSE if it fails.
 
 
 ## Comments:
-The value in <Em>*pwConfigMode</Em> can be:   
-<LI>ODBC_USER_DSN  
-<LI>ODBC_SYSTEM_DSN  
-<LI>ODBC_BOTH_DSN   
+The value in *pwConfigMode* can be:   
+* ODBC_USER_DSN  
+* ODBC_SYSTEM_DSN  
+* ODBC_BOTH_DSN   
   
-See also SQLSetConfigMode function.  
+See also [SQLSetConfigMode](SQLSetConfigMode.md) function.  
   
 ***  
 

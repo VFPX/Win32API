@@ -5,7 +5,7 @@ Group: [GDI+](../../functions_group.md#GDIplus)  -  Library: [gdiplus](../../Lib
 ***  
 
 
-#### The GdiplusStartup function initializes Microsoft® Windows® GDI+.
+#### The GdiplusStartup function initializes Microsoft&reg; Windows&reg; GDI+.
 ***  
 
 

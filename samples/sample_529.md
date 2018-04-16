@@ -9,19 +9,27 @@ Depending on its bit per pixel mode, an image file can store a color palette ins
 
 
 ## Before you begin:
-The code is based on <a href="?example=450">custom GDI+ class</a>. Download the class module first and save it in **gdiplus.prg** file.[custom GDI+ class](sample_450.md)  
+The code is based on [custom GDI+ class](sample_450.md) custom GDI+ class</a>. Download the class module first and save it in **gdiplus.prg** file.  
 
-Depending on its bit per pixel mode, an image file can store a color palette inside its data. GDI+ functions GdipGetImagePalette and GdipGetImagePaletteSize allow to retrieve the palette in a form of ColorPalette structure.  
-<div class="precode">typedef struct {  
+Depending on its bit per pixel mode, an image file can store a color palette inside its data. GDI+ functions GdipGetImagePalette and GdipGetImagePaletteSize allow to retrieve the palette in a form of ColorPalette structure.
+
+```txt
+typedef struct {  
 	UINT Flags;  
 	UINT Count;  
 	ARGB Entries[1];  
-} ColorPalette;  
-</div>  
+} ColorPalette;
+```
+ 
+
 The palettes below are retrieved from various image files:  
+
 ![](../images/palette00.png)  
+
 ![](../images/palette02.png)  
+
 ![](../images/palette04.png)  
+
 ![](../images/palette06.png)  
 
   

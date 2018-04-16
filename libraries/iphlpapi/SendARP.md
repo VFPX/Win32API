@@ -65,7 +65,8 @@ The ARP (<a href="http://www.erg.abdn.ac.uk/users/gorry/course/inet-pages/arp.ht
   
 Christian Ehlscheid offered this code on UniversalThread as a solution for obtaining physical address for a given ip address:  
   
-<div class=precode>? IpToMacAddress("192.168.1.0")  
+```foxpro
+? IpToMacAddress("192.168.1.0")  
   
 FUNCTION IpToMacAddress(lcIP)  
 	DECLARE INTEGER inet_addr IN ws2_32.dll STRING cIP  
@@ -90,9 +91,9 @@ FUNCTION BinaryToMac(lcMacAddr, lnLen)
 	lcMac = lcMac + RIGHT(TRANSFORM(ASC(;  
 		SUBSTR(lcMacAddr,lnLen,1)),"@0"),2)  
 	RETURN lcMac  
-ENDFUNC  
+ENDFUNC
+```
   
-</div>  
 The Address Resolution Protocol (ARP) is a protocol used by the Internet Protocol (IP) [RFC826], specifically IPv4, to map IP network addresses to the hardware addresses used by a data link protocol.  
   
 ***  

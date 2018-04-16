@@ -7,7 +7,7 @@
 DO declare
 
 LOCAL lcUrl, lcCookieName, lcCookieData, lnLen
-lcUrl = "http://www.news2news.com/vfp"
+lcUrl = "https://github.com/VFPX/Win32API"
 lcCookieName = "user settings"
 lcCookieData = "regular,54,126,-1,0"
 	
@@ -81,8 +81,6 @@ PROCEDURE declare
 
 ## Comment:
   
-  
-#kwd: sln_http.  
   
 ***  
 

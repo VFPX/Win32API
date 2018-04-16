@@ -15,7 +15,7 @@ The UDP listener table contains information about this computer`s UDP end-points
 
 See also:
 
-<a href="?example=233">Retrieving the interface–to–IP address mapping table</a>[Retrieving the interface–to–IP address mapping table](sample_233.md)  
+Retrieving the interface-to-IP address mapping table](sample_233.md)  
   
 ***  
 

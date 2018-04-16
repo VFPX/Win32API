@@ -58,8 +58,8 @@ PROCEDURE declare
 
 ## Comment:
 Compare the results when:  
-- running this code using DO in the Command Window;  
-- running from an open Program Edit window using Ctrl+E  
+\- running this code using DO in the Command Window;  
+\- running from an open Program Edit window using Ctrl+E  
   
 ***  
 

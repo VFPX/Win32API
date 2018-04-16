@@ -61,7 +61,7 @@ PROCEDURE declare
 ## Comment:
 The "short path" means the 8.3 compliant path/filename. The source path must be always valid. You can not convert the name of a file that does not exist.  
   
-See also: PathGetShortPath.  
+See also: [PathGetShortPath](../libraries/shell32/PathGetShortPath.md)
   
 ***  
 

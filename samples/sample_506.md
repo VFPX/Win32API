@@ -6,8 +6,7 @@
 ![](../images/adapteraddresses.png)  
 
 See also:
-
-* SendARP function  
+* [SendARP function](../libraries/iphlpapi/SendARP.md)
 * [How to retrieve adapter information for the local computer (including MAC address)](sample_347.md)  
 * [Using NetWkstaTransportEnum to obtain MAC Address of remote server](sample_435.md)  
 * [How to ping a remote site using IP Helper API calls](sample_382.md)  
@@ -221,7 +220,8 @@ RETURN Asc(SUBSTR(cBuffer, 1,1)) + ;
   
 Christian Ehlscheid offered this code on UniversalThread as a solution for obtaining physical address (MAC address) for a given ip address:  
   
-<div class=precode>? IpToMacAddress("192.168.1.0")  
+```foxpro
+? IpToMacAddress("192.168.1.0")  
   
 FUNCTION IpToMacAddress(lcIP)  
 	DECLARE INTEGER inet_addr IN ws2_32.dll STRING cIP  
@@ -246,9 +246,9 @@ FUNCTION BinaryToMac(lcMacAddr, lnLen)
 	lcMac = lcMac + RIGHT(TRANSFORM(ASC(;  
 		SUBSTR(lcMacAddr,lnLen,1)),"@0"),2)  
 	RETURN lcMac  
-ENDFUNC  
+ENDFUNC
+```
   
-</div>  
 The Address Resolution Protocol (ARP) is a protocol used by the Internet Protocol (IP) [RFC826], specifically IPv4, to map IP network addresses to the hardware addresses used by a data link protocol.  
   
 ***  

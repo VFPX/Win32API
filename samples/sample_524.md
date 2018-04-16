@@ -368,7 +368,9 @@ RETURN Asc(SUBSTR(lcBuffer, 1,1)) + ;
 [ReadEventLog](../libraries/advapi32/ReadEventLog.md)  
 
 ## Comment:
-Test as follows:<div class="precode">LOCAL welog As WindowsEventLog,;  
+Test as follows:
+```foxpro
+LOCAL welog As WindowsEventLog,;  
 	werecord As WindowsEventRecord, nReccount  
   
 welog = CREATEOBJECT("WindowsEventLog",;  
@@ -397,10 +399,11 @@ FOR EACH werecord IN welog.WindowEventRecords
 			.strings, .eventdata, .eventbuffer,;  
 			.sysname, .source)  
 	ENDWITH  
-NEXT  
-</div>  
-* * *  
-Read also: <a href="http://www.craigberntson.com/articles/eventlog.pdf">Using the Windows Event Log from Visual FoxPro</a> by Craig Berntson.  
+NEXT
+```
+
+***  
+ 
   
 ***  
 

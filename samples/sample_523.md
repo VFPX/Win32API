@@ -8,7 +8,7 @@ This code is written in response to a question posted on UT: Ride two WAVs at on
 
 
 ## Before you begin:
-This code is written in response to a question posted on UT: <a href="http://www.universalthread.com/wconnect/wc.dll?2,15,1194808">Ride two WAVs at once?</a>[Ride two WAVs at once?](sample_000.md)  
+This code is written in response to a question posted on UT: Ride two WAVs at once?
 
 The sndPlaySound is not suitable for this. To play multiple sounds simultaneously, the waveOut* functions must be used.  
 
@@ -320,7 +320,8 @@ The code above contains two classes. The *WavPlayer* class wraps API declaration
 On Init, an instance of * WavSound* opens specified WAV file, loads it in memory, and makes ready to be played.  
   
 Here is a code for testing WavPlayer and WavSound classes.  
-<div class="precode">PUBLIC wp As WavPlayer  
+```foxpro
+PUBLIC wp As WavPlayer  
 wp = CREATEOBJECT("WavPlayer")  
   
 wp.LoadWavSound("C:\WINDOWS\Media\Windows XP Logoff Sound.wav")  
@@ -336,8 +337,8 @@ FOR nTimes=1 TO 1
 		wp.PlayWavSound(m.nIndex)  
 		= INKEY(0.1)  
 	NEXT  
-NEXT  
-</div>  
+NEXT
+```
 Note that *wp* variable must not be released while the sounds are being played. For that reason it is declared PUBLIC.  
   
 API function mmioRead is declared twice with two different interfaces. In VFP versions 3 to 7, these declarations must be moved to LoadWaveFile method of WavSound class and placed each before corresponding call.  

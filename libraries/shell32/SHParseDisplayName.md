@@ -65,9 +65,11 @@ Returns S_OK (0) if successful, or an error value otherwise.
 The calling application is responsible for freeing the returned PIDL.  
   
 ITEMIDLIST structure contains a list of item identifiers.   
-<div class="precode">typedef struct _ITEMIDLIST {  
+```cpp
+typedef struct _ITEMIDLIST {  
 	SHITEMID mkid;  
-}</div>  
+}
+```
 A pointer to this structure, called a PIDL, is used to identify objects in the Shell namespace.  
   
 See also: [SHSimpleIDListFromPath](../shell32/SHSimpleIDListFromPath.md), [SHGetPathFromIDList](../shell32/SHGetPathFromIDList.md).  

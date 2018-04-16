@@ -3,7 +3,7 @@
 # Round FoxPro form
 
 ## Before you begin:
-Download [Badge.zip](../downloads/badge.zip) and extract an image file before testing this code sample:[](sample_000.md)  
+Download [Badge.zip](../downloads/badge.zip) and extract an image file before testing this code sample:  
 
 ![](../images/rnd.png)  
 See also:

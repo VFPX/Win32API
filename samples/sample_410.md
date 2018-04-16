@@ -348,10 +348,10 @@ Maislots provide no confirmation of receipt. For that reason the Tmsg object on 
 For sending a message to another computer -- say with DESK3011 name -- the Tmsg object creates file handle using mailslot name \\DESK3011\Maislot\foxapp, and writes message data to this handle using WriteFile function.  
   
 A message has a simple format:  
-<LI>sender - 24 bytes -- local computer name  
-<LI>confirmation flag - 1 byte  
-<LI>system message flag - 1 byte  
-<LI>message body - the rest of the message  
+* sender - 24 bytes -- local computer name  
+* confirmation flag - 1 byte  
+* system message flag - 1 byte  
+* message body - the rest of the message  
   
 The GetMessages method is invoked on each Timer event checking for incoming messages.  
   

@@ -14,7 +14,7 @@ When a VFP form is released, usually it disappears immediately. Wouldn`t it be n
 
 An obvious way of doing that is covering the form with another window, which holds the image of the original form. Once covered, the original form disappears. After that the covering window gradually changes its opacity (alpha channel) from opaque (255) to completely transparent (0).  
 
-The code is based on <a href="?example=450">custom GDI+ class</a>. Download the class module first and save it in **gdiplus.prg** file. GDI+ routines are used to save the image of the original form then drawing it on the covering window. [custom GDI+ class](sample_450.md)  
+The code is based on [custom GDI+ class](sample_450.md). Download the class module first and save it in **gdiplus.prg** file. GDI+ routines are used to save the image of the original form then drawing it on the covering window.   
 
 See also:
 
@@ -315,25 +315,27 @@ ENDDEFINE
 ## Comment:
 So the succession of events should be as follows:  
   
-<UL><LI>form`s Destroy event occurs  
-<LI>form`s image is copied into a memory object (within the Destroy, the form and all controls are still visible, though some doubts exist about PageFrame control and ActiveX controls)  
-<LI>a cover window is created and placed exactly on the same spot where the original VFP form is  
-<LI>a timer is turned on and gradually changes the opacity of the covering window from 255 to 0By the first tick of the timer the original form does not exist anymore, the Destroy has completed its job.   
+1. form`s Destroy event occurs  
+1. form`s image is copied into a memory object (within the Destroy, the form and all controls are still visible, though some doubts exist about PageFrame control and ActiveX controls)  
+1. a cover window is created and placed exactly on the same spot where the original VFP form is  
+1. a timer is turned on and gradually changes the opacity of the covering window from 255 to 0By the first tick of the timer the original form does not exist anymore, the Destroy has completed its job.   
   
 Certainly, the timer and an object responsible for performing steps 2 to 4 must reside outside of the form. That probably can be a master form or _SCREEN container.  
   
-This approach works with all VFP forms, with top-level as well as with child ones. Here is a code that has to be called in the form`s Destroy event<div class="precode">  
+This approach works with all VFP forms, with top-level as well as with child ones. Here is a code that has to be called in the form`s Destroy event
+
+```foxpro
 IF VARTYPE(_screen.FormFader1) <> "O"  
 	_screen.AddObject("FormFader1", "FormFader")  
 ENDIF  
-_screen.FormFader1.FadeWindow(ThisForm)  
+_screen.FormFader1.FadeWindow(ThisForm)
+```
   
-</div>  
 At the moment when the covering window appears and the original form disappears, the former stays blank for a very small fraction of time. It is barely noticeable, but is still an issue I will be working on.  
   
 Links to similar solutions:  
-<LI><a href="http://www.ml-consult.co.uk/foxst-40.htm">Add a fading effect to your forms</a> by <a href="http://fox.wikis.com/wc.dll?Wiki~MikeLewis~People">Mike Lewis</a>  
-<LI><a href="http://www.codeproject.com/vb/net/faderform.asp">How to create a fading .Net form</a> on The Code Project  
+* <a href="http://www.ml-consult.co.uk/foxst-40.htm">Add a fading effect to your forms</a> by <a href="http://fox.wikis.com/wc.dll?Wiki~MikeLewis~People">Mike Lewis</a>  
+* [How to create a fading .Net form](https://www.codeproject.com/Articles/4122/How-to-create-a-fading-form) on The Code Project 
   
 ***  
 

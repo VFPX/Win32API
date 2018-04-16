@@ -78,12 +78,14 @@ This is an asynchronous function, that means it returns immediately after beginn
   
 Once the handle of a window is known, it is possible to flash the window with a caption and/or taskbar button.   
   
-Another code sample shows how to <a href="?example=261">enumerate handles for the child windows</a> of the main VFP window. Apply the FlashWindowEx to any of these windows and watch the result.  
+Another code sample shows how to [enumerate handles for the child windows](sample_261.md) of the main VFP window. Apply the FlashWindowEx to any of these windows and watch the result.  
   
 * * *  
 The *FlashWindowManager* class shown here once added to C# WinForm project automatically adds *Fla;shWindow* and *FlashStop* extension methods to every form in the project.  
   
-With fairly small changes the *FlashWindowManager* class can be used with .NET WPF forms. <div class="precode">public static void FlashWindow(  
+With fairly small changes the *FlashWindowManager* class can be used with .NET WPF forms. 
+```cpp
+public static void FlashWindow(  
 	this Window window,  
 	FlashWinFlags flags = FlashWinFlags.FlashAll,  
 	int count = int.MaxValue,  
@@ -91,7 +93,8 @@ With fairly small changes the *FlashWindowManager* class can be used with .NET W
 {  
 	var windowInteropHelper = new WindowInteropHelper(window);  
 	FlashWindow(windowInteropHelper.Handle, flags, count, timeout);  
-}</div>  
+}
+```
   
 ***  
 

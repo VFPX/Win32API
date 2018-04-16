@@ -10,7 +10,7 @@ The window handle of the form is obtained through GetFocus function. For that a 
 See also:
 
 
-<a href="http://www.news2news.com/vfp/?solution=9"><img src="../images/screencapture_270_48.png" width=270 height=48 border=0 alt="Download ScreenCapture Library"></a>[](sample_000.md)  
+<a href="http://www.news2news.com/vfp/?solution=9"><img src="../images/screencapture_270_48.png" width=270 height=48 border=0 alt="Download ScreenCapture Library"></a>  
 
 * [How to print a FoxPro form using Metafile API functions](sample_406.md)  
 * [GDI+: sending image of FoxPro form to printer ](sample_455.md)  
@@ -279,9 +279,9 @@ PROCEDURE declare
 [StretchDIBits](../libraries/gdi32/StretchDIBits.md)  
 
 ## Comment:
-At the beginning two <a href="http://msdn.microsoft.com/library/default.asp?url=/library/en-us/vccore/html/_core_device_contexts.asp">device contexts</a> are retrieved:   
-- source device context from an active form  
-- destination device context from a default printer -- PrintDlg is used  
+At the beginning two [device contexts](https://msdn.microsoft.com/en-us/library/windows/desktop/dd183553(v=vs.85).aspx) are retrieved:   
+\- source device context from an active form  
+\- destination device context from a default printer -- PrintDlg is used  
   
 It is not possible to transfer bitmap data directly between these device contexts -- at least to my knowledge. That is why you need a mediator -- the *compatible device context* and the *compatible bitmap* selected into it.   
   
@@ -293,7 +293,7 @@ The last transfer is wrapped into the StartDoc | StartPage ... EndPage | EndDoc 
   
 To keep the code short several simplifications have been made: only one page is printed regardless of the size of the form; no control of the page orientation.   
   
-The PRINTDLG structure, one used to initialize the printer settings, is mostly populated with zeros. That means all default printing settings are applied: one copy, all pages, portrait etc. To switch, for example,  to the album orientation, populate correspondent members of this structure. Check <a href="?example=150">this example</a>.  
+The PRINTDLG structure, one used to initialize the printer settings, is mostly populated with zeros. That means all default printing settings are applied: one copy, all pages, portrait etc. To switch, for example,  to the album orientation, populate correspondent members of this structure. Check [this example](sample_150.md).  
   
 ***  
 

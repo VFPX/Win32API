@@ -46,13 +46,14 @@ Returns TRUE on success.
 ## Comments:
 This function is available through Microsoft Windows XP Service Pack 2 (SP2) and Windows Server 2003. It might be altered or unavailable in subsequent versions of Windows.  
   
-<div class="precode">LOCAL hImg, hImgSmall  
+```foxpro
+LOCAL hImg, hImgSmall  
 STORE 0 TO hImg, hImgSmall  
   
 ? Shell_GetImageLists(@hImg, @hImgSmall)  
-? hImg, hImgSmall  
+? hImg, hImgSmall
+```
   
-</div>  
-  
+
 ***  
 

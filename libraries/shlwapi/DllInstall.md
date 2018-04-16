@@ -49,7 +49,10 @@ Minimum operating systems: Windows 2000, Windows NT 4.0 with Internet Explorer 4
   
 To use DllInstall with regsvr32, add a "/i" flag followed by a colon (:) and a string. The string will be passed to DllInstall as the pszCmdLine parameter. If you omit the colon and string, pszCmdLine will be set to NULL. The following example would be used to install a DLL:   
   
-<code>regsvr32 /i:"Install_1" dllname.dll</code>  
+```dos
+regsvr32 /i:"Install_1" dllname.dll
+```
+
   
   
 ***  

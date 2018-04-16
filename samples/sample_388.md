@@ -313,7 +313,8 @@ RETURN Chr(MOD(m.lnValue,256)) + CHR(INT(m.lnValue/256))
 
 ## Comment:
 A screen output will be similar to the following:  
-<code><font color=#0000a0>  
+
+```txt
 Connecting to pop3.fastmail.com, 192.168.0.1 ...  
 +OK POP3 server ready.  
   
@@ -326,14 +327,15 @@ Connecting to pop3.fastmail.com, 192.168.0.1 ...
 >> STAT 5 67312  
   
 >> QUIT  
-+OK POP3 server signing off.</font></code>  
++OK POP3 server signing off.
+```
   
 "STAT 5" means that there is 5 messages waiting.  
   
 * * *  
 There is a couple of links that might be interesting:  
-<LI><a href="http://www.faqs.org/rfcs/std/std53.html">STD/STD53. Post Office Protocol - Version 3</a>  
-<LI><a href="http://www.vbip.com/winsock/winsock_pop3.asp">How to receive an e-mail (Introduction to POP3 protocol)</a>  
+* <a href="http://www.faqs.org/rfcs/std/std53.html">STD/STD53. Post Office Protocol - Version 3</a>  
+* <a href="http://www.vbip.com/winsock/winsock_pop3.asp">How to receive an e-mail (Introduction to POP3 protocol)</a>  
  
   
 ***  

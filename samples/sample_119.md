@@ -3,7 +3,7 @@
 # Saying "Hello World!" with VFP and WinAPI
 
 ## Before you begin:
-A <a href="http://en.wikipedia.org/wiki/Hello_world_program#Windows_API_.28in_C.29">hello world program</a> is a frequently used programming example, usually designed to show the easiest possible application on a system that can actually do something (i.e. print a line that says "Hello World").[hello world program](sample_000.md)  
+A [hello world program](http://en.wikipedia.org/wiki/Hello_world_program#Windows_API_.28in_C.29) is a frequently used programming example, usually designed to show the easiest possible application on a system that can actually do something (i.e. print a line that says "Hello World").  
 
 ![](../images/helloworld.png)  
 This message is great to start a day with!  
@@ -43,20 +43,25 @@ DECLARE INTEGER WriteConsole IN kernel32;
 [WriteConsole](../libraries/kernel32/WriteConsole.md)  
 
 ## Comment:
-*&nbsp;&nbsp; The original hello-world program in the Windows 1.0 SDK was a bit of a scandal. HELLO.C was about 150 lines long, and the HELLO.RC resource script had another 20 or so more lines. (...) Veteran C programmers often curled up in horror or laughter when encountering the Windows hello-world program.*  
+>The original hello-world program in the Windows 1.0 SDK was a bit of a scandal. HELLO.C was about 150 lines long, and the HELLO.RC resource script had another 20 or so more lines. (...) Veteran C programmers often curled up in horror or laughter when encountering the Windows hello-world program.*  
   
-— Charles Petzold, Programming Microsoft Windows with C#  
+&reg; Charles Petzold, Programming Microsoft Windows with C#  
   
 * * *  
-What could be easier of that?<div class="precode">? "Hello World!"</div>  
+What could be easier of that?
+```foxpro
+? "Hello World!"
+```
+ 
 or this  
-<div class="precode">DEFINE WINDOW helloworld FROM 10,10 TO 20,50 SYSTEM CLOSE  
+```foxpro
+DEFINE WINDOW helloworld FROM 10,10 TO 20,50 SYSTEM CLOSE  
 ACTIVATE WINDOW helloworld  
-? "Hello World!"  
-</div>  
+? "Hello World!"
+```
 * * *  
-Find more than 20 different ways of saying <a href="http://fox.wikis.com/wc.dll?Wiki~HelloWorld">Hello World on FoxPro Wiki</a>.  
-Read about <a href="http://en.wikipedia.org/wiki/Hello_world_program">Hello World program in Wikipedia</a>.  
+Find more than 20 different ways of saying [Hello World on FoxPro Wiki](http://fox.wikis.com/wc.dll?Wiki~HelloWorld).  
+Read about [Hello World program in Wikipedia](http://en.wikipedia.org/wiki/Hello_world_program).  
   
 ***  
 

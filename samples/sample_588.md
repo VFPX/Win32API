@@ -3,7 +3,7 @@
 # Generating UUID values from numbers
 
 ## Before you begin:
-The <a href="http://msdn.microsoft.com/en-us/library/windows/desktop/aa379358(v=vs.85).aspx">UUID structure</a> is an array of 16 bytes. Therefore a GUID value can be produced simply by stuffing array with bytes.[UUID structure](sample_000.md)  
+The [UUID structure](http://msdn.microsoft.com/en-us/library/windows/desktop/aa379358(v=vs.85).aspx) is an array of 16 bytes. Therefore a GUID value can be produced simply by stuffing array with bytes.  
   
 ***  
 

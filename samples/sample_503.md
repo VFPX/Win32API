@@ -10,7 +10,7 @@ This code sample shows how to load an image file (BMP, GIF, JPEG, PNG, TIFF), sc
 ## Before you begin:
 This code sample shows how to load an image file (BMP, GIF, JPEG, PNG, TIFF), scale it and save as .ICO file. It creates a simple icon file containing one 32x32 icon in 32 bit per pixel format and assigns the new icon to the Icon property.  
 
-The code instantiates objects defined in <a href="?example=450">custom GDI+ class</a>. Download the class module first and save it in **gdiplus.prg** file. [custom GDI+ class](sample_450.md)  
+The code instantiates objects defined in [custom GDI+ class](sample_450.md). Download the class module first and save it in **gdiplus.prg** file.   
 
 ![](../images/picture2icon.jpg)  
 
@@ -18,7 +18,7 @@ See also:
 
 * [How to extract icon resources from EXE or DLL and save them in image files](sample_501.md)  
 * [How to extract icon resources from EXE or DLL and save them in .ICO files](sample_502.md)  
-[<LI>GDI+ function](../gdiplus/GdipCreateHICONFromBitmap.md)  
+* [GDI+ function](../libraries/gdiplus/GdipCreateHICONFromBitmap.md)  
 
   
 ***  
@@ -247,7 +247,7 @@ As I can find, VFP supports only 16x16 and 32x32 icons. Also note that CLEAR RES
   
 * * *  
 Worthy to read:  
-<a href="http://msdn.microsoft.com/library/default.asp?url=/library/en-us/dnwui/html/msdn_icons.asp">Icons in Win32</a> by John Hornick, Microsoft Corp.  
+[Icons in Win32](https://msdn.microsoft.com/en-us/library/ms997538.aspx) by John Hornick, Microsoft Corp.  
   
 * * *  
 The *bWidth* and *bHeight* members of the ICONDIRENTRY structure occupy 1 byte each. This effectively restricts sizes of icons to 1..255 pixels range. While there are no other restrictions, common icon sizes include 16, 32, and 48 pixels *square*.  

@@ -76,7 +76,8 @@ If the function succeeds, the return value is a handle to the server end of a na
 
 
 ## Comments:
-<div class="precode">LOCAL hPipe, cPipeName, nOpenMode, nPipeMode  
+```foxpro
+LOCAL hPipe, cPipeName, nOpenMode, nPipeMode  
 cPipeName = "\\.\pipe\tpipe"  
   
 nOpenMode = BITOR(PIPE_ACCESS_DUPLEX,;  
@@ -94,8 +95,8 @@ IF hPipe = INVALID_HANDLE_VALUE
 	RETURN  
 ENDIF  
   
-= CloseHandle(m.hPipe)  
-</div>  
-  
+= CloseHandle(m.hPipe)
+```
+
 ***  
 

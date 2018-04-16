@@ -56,13 +56,16 @@ Returns SCARD_S_SUCCESS (0) or error code.
 ## Comments:
 In Winsmcrd.h file the SCARD_ATTR_VALUE macro is used to define the attribute constants.  
   
-<div class="precode">#define SCARD_ATTR_VENDOR_NAME  
-	SCARD_ATTR_VALUE(SCARD_CLASS_VENDOR_INFO, 0x0100)  
-</div>  
+```foxpro
+#define SCARD_ATTR_VENDOR_NAME  
+	SCARD_ATTR_VALUE(SCARD_CLASS_VENDOR_INFO, 0x0100)
+```
 The statement above can be translated into VFP code as follows:  
   
-<div class="precode">#DEFINE SCARD_ATTR_VENDOR_NAME;  
-	BITOR(BITLSHIFT(SCARD_CLASS_VENDOR_INFO, 16), 0x0100)</div>  
+```foxpro
+#DEFINE SCARD_ATTR_VENDOR_NAME;  
+	BITOR(BITLSHIFT(SCARD_CLASS_VENDOR_INFO, 16), 0x0100)
+```
   
 ***  
 

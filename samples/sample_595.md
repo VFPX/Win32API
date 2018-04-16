@@ -2,20 +2,17 @@
 
 # GDI+: Implementing image scrolling with inertia
 
-## Short description:
-The inertial scrolling can be described as below: 
-After releasing the mouse button, the image scrolling coninues while decelerating slowly, simulating the presence of inertia. The level of the deceleration depends on the momentum the mouse cursor obtains at the button release.
-  
-***  
-
 
 ## Before you begin:
-![](../middle)  
 
-*&nbsp;&nbsp;&nbsp;After releasing the mouse button, the image scrolling coninues while decelerating slowly, simulating the presence of inertia. The level of the deceleration depends on the momentum the mouse cursor obtains at the button release.*</td></tr></table>  
-The code is based on <a href="?example=450">custom GDI+ class</a>. Download the class module first and save it in **gdiplus.prg** file. [custom GDI+ class](sample_450.md)  
+![](../images/touchscrolling.png)
+The inertial scrolling can be described as below:
 
-Download <a href="downloads/widetext005.zip">image file (10,000 x 64 pixels)</a> to be used with this code sample. [image file (10,000 x 64 pixels)](sample_000.md)  
+After releasing the mouse button, the image scrolling coninues while decelerating slowly, simulating the presence of inertia. The level of the deceleration depends on the momentum the mouse cursor obtains at the button release.*
+
+The code is based on [custom GDI+ class](sample_450.md). Download the class module first and save it in **gdiplus.prg** file. 
+
+Download [image file (10,000 x 64 pixels)](../downloads/widetext005.zip) to be used with this code sample.   
 
 Otherwise use any wide image, preferrably 24-bit bitmap. I have no explanation yet, but the code sample works a bit different with PNG, JPEG, and 16-bit bitmaps. Even when they are directly converted from an original 24-bit bitmap file.  
 
@@ -546,17 +543,17 @@ RETURN Asc(SUBSTR(cBuffer, 1,1)) + ;
 ## Comment:
 GDI+ provides adequate rendering as long as the image height stays below 100 pixels. For larger sizes as well as for some backgrounds the <a href="http://en.wikipedia.org/wiki/Screen_tearing">image tearing</a> becomes more noticeable.  
   
-<li>NetworkWorld: <a href="http://www.networkworld.com/community/blog/iphone-patent-steve-jobs-particularly-cared-about-intertial-scrolling">The iPhone patent Steve Jobs particularly cared about - inertial scrolling</a>  
-<li>Wikipedia: <a href="http://en.wikipedia.org/wiki/Scrolling">Scrolling</a>  
-<li><a href="http://www.macresearch.org/dynamics-scrolling">The Dynamics of Scrolling</a>  
+* NetworkWorld: [The iPhone patent Steve Jobs particularly cared about - inertial scrolling](http://www.networkworld.com/community/blog/iphone-patent-steve-jobs-particularly-cared-about-intertial-scrolling)  
+* Wikipedia: [Scrolling](http://en.wikipedia.org/wiki/Scrolling)  
+
   
 *Scrolling deceleration* algorithm used in this code sample produces comparatively good rendering, but still can be improved.  
   
-stackoverflow: <a href="http://stackoverflow.com/questions/4262221/duration-for-kinetic-scrolling-momentum-based-on-velocity">Duration for Kinetic Scrolling (Momentum) Based On Velocity?</a>  
+stackoverflow: [Duration for Kinetic Scrolling (Momentum) Based On Velocity?](http://stackoverflow.com/questions/4262221/duration-for-kinetic-scrolling-momentum-based-on-velocity)  
 Provides a simple recipe for the rendering:  
-<li>choose ticking frequency close to 16.7 msec (targeting 60 fps)  
-<li>on each tick decrease the speed by 5%  
-<li>stop scrolling either after a certain number of ticks or when the speed gets below a specified limit  
+* choose ticking frequency close to 16.7 msec (targeting 60 fps)  
+* on each tick decrease the speed by 5%  
+* stop scrolling either after a certain number of ticks or when the speed gets below a specified limit  
   
 Also called *Kinetic Scrolling*.  
   
@@ -567,14 +564,15 @@ I am working on a prototype of *mouse-oriented* ListView control. It will implem
   
 Most likely the final control will be an ActiveX control. VCX or PRG version is also feasible. I did some prototyping in VFP using GDI+ class library with good results.  
   
-<img src="images/touchlistprototype.png" width=560>  
+![](../images/touchlistprototype.png)  
   
 The content of the control -- *uniform-size* items -- is positioned in rows and columns, and can be scrolled either vertically or horizontally.   
   
 Two modes of scrolling are available. When the *free scrolling* is selected, the control moves its content matching the moves of the cursor. While selecting the *page flipping* makes the control display a specified number of rows and columns with fluid transition from page to page.  
   
 One-row horizontal free scrolling example:  
-<img src="images/touchlistprototype1.png">  
+
+![](../images/touchlistprototype1.png)  
   
 ***  
 

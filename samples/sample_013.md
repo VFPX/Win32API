@@ -52,13 +52,17 @@ ENDDO
 [GetLogicalDrives](../libraries/kernel32/GetLogicalDrives.md)  
 
 ## Comment:
-DriveType:<div class=precode>0 Unknown   
+DriveType:  
+```txt
+0 Unknown   
 1 No Root Directory   
 2 Removable Disk   
 3 Local Disk   
 4 Network Drive   
 5 Compact Disc   
-6 RAM Disk </div>  
+6 RAM Disk
+```
+
 Related VFP functions: DRIVETYPE(), SYS(5), DISKSPACE().  
   
 ***  

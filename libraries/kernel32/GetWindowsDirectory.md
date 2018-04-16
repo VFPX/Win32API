@@ -49,9 +49,10 @@ If the function succeeds, the return value specifies the number of characters wr
 
 ## Comments:
 Alternatives to calling this API function:  
-<div class="precode">? GETENV("windir")  
-? GETENV("SystemRoot")  
-</div>  
+```foxpro
+? GETENV("windir")  
+? GETENV("SystemRoot")
+```
 See also: [GetSystemDirectory](../kernel32/GetSystemDirectory.md), [SHGetFolderPath](../shell32/SHGetFolderPath.md).  
   
 ***  

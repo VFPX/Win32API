@@ -135,7 +135,8 @@ Enumerating logon sessions on a computer allows to see authenticated users.
   
 * * *  
 Logon Types:  
-<div class=precode>typedef enum _SECURITY_LOGON_TYPE {   
+```txt
+typedef enum _SECURITY_LOGON_TYPE {   
   Interactive              = 2,  
   Network,  
   Batch,  
@@ -148,7 +149,8 @@ Logon Types:
   CachedInteractive,  
   CachedRemoteInteractive,  
   CachedUnlock  
-} SECURITY_LOGON_TYPE, *PSECURITY_LOGON_TYPE;</div>  
+} SECURITY_LOGON_TYPE, *PSECURITY_LOGON_TYPE;
+```
   
 ***  
 

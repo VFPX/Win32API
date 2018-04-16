@@ -59,7 +59,7 @@ ENDDO
 [SetKeyboardState](../libraries/user32/SetKeyboardState.md)  
 
 ## Comment:
-Check list of <a href="http://msdn.microsoft.com/library/default.asp?url=/library/en-us/winui/vkeys_529f.asp">Virtual-Key Codes</a> on the MSDN.  
+Check list of [Virtual-Key Codes](https://msdn.microsoft.com/en-us/library/windows/desktop/dd375731(v=vs.85).aspx) on the MSDN.  
   
 ***  
 

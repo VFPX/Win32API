@@ -9,7 +9,8 @@ The code uses WNet API calls to enumerate all resources on the network.
 
 ## Before you begin:
 This is an example of the output produced by the code sample below:  
-<div class="precode">Microsoft Terminal Services  
+```txt
+Microsoft Terminal Services  
 	\\tsclient  
 		\\tsclient\Y  
 		\\tsclient\E  
@@ -39,7 +40,9 @@ Microsoft Windows Network
 		\\TOSHIBA  
 		\\MARIE-NB1  
 Web Client Network  
-LogMeIn Virtual Disk Network</div>  
+LogMeIn Virtual Disk Network
+```
+
 See also:
 
 * [Mapping and disconnecting network drives in FoxPro application](sample_387.md)  
@@ -246,7 +249,8 @@ Feb.20, 2006: completely rewritten.
   
 Test *NetResourcesRoot* and *BaseNetResource* classes as follows:  
   
-<div class=precode>LOCAL oNetResources As NetResourcesRoot  
+```foxpro
+LOCAL oNetResources As NetResourcesRoot  
 oNetResources = CREATEOBJECT("NetResourcesRoot")  
 DO ShowResources WITH oNetResources, 0  
   
@@ -260,9 +264,9 @@ PROCEDURE ShowResources(oContainer, nLevel)
 				DO ShowResources WITH oRs, nLevel+1  
 			ENDIF  
 		ENDWITH  
-	NEXT  
+	NEXT
+```
   
-</div>  
-  
+
 ***  
 

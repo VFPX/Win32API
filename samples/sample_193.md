@@ -9,7 +9,7 @@ See also:
 * [MAPI: reading email messages](sample_270.md)  
 * [Winsock: sending email messages (SMTP, port 25)](sample_385.md)  
 * [Winsock: reading email messages (POP3, port 110)](sample_388.md)  
-* Function MAPISendDocuments  
+* [Function MAPISendDocuments](../libraries/mapi32/MAPISendDocuments.md)  
 
   
 ***  
@@ -222,8 +222,6 @@ PROCEDURE  decl
 ## Comment:
 The *hSession* can be 0. In this case, the MAPILogon and MAPILogoff are not required. It is called an *implicit* logon -- a temporary MAPI session is created. The implicit session is closed by the time the call returns.  
   
-  
-#kwd: sln_sendemail.  
-  
+
 ***  
 

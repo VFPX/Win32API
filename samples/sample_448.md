@@ -403,16 +403,16 @@ RETURN STRTRAN(STRCONV(cStr, 6), CHR(0), "")
 [WaitForSingleObject](../libraries/kernel32/WaitForSingleObject.md)  
 
 ## Comment:
-Class **Tfiles** is a collection of **Tfiles** objects. Use Tfiles methods *GetFolders* and *GetFiles* to populate this collection. Other methods included:*  
-<LI>CreateDirectory  
-<LI>RemoveDirectory  
-<LI>PathExists  
-<LI>MoveFile  
-<LI>CopyFile  
-<LI>DeleteFile  
-<LI>FileExists  
-<LI>FileToString  
-<LI>StringToFile*  
+Class **Tfiles** is a collection of **Tfiles** objects. Use Tfiles methods *GetFolders* and *GetFiles* to populate this collection. Other methods included:  
+* CreateDirectory  
+* RemoveDirectory  
+* PathExists  
+* MoveFile  
+* CopyFile  
+* DeleteFile  
+* FileExists  
+* FileToString  
+* StringToFile  
   
 Class **Tfile** implements the File Object and contains only properties: *fileattributes, creationtime, lastaccesstime, lastwritetime, filesize, filename*.  
   

@@ -10,7 +10,7 @@ The WM_APPCOMMAND message allows to acquire medium level of control over several
 ## Before you begin:
 ![](../images/appcommand_audio.png)  
 
-The <a href="http://msdn.microsoft.com/en-us/library/windows/desktop/ms646275(v=vs.85).aspx">WM_APPCOMMAND message</a> allows to acquire medium level of control over several OS areas: *speakers, microphone, media, browser, mail, default applications.*[WM_APPCOMMAND message](sample_000.md)  
+The [WM_APPCOMMAND message](http://msdn.microsoft.com/en-us/library/windows/desktop/ms646275(v=vs.85).aspx) allows to acquire medium level of control over several OS areas: *speakers, microphone, media, browser, mail, default applications.*  
 
 The code sample below shows how to mute, unmute and change the volume of the speakers. This technique provides no means of reading the volume level or the mute state.  
 

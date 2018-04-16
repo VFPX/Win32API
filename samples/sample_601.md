@@ -254,10 +254,14 @@ ENDDEFINE
 [RemoveClipboardFormatListener](../libraries/user32/RemoveClipboardFormatListener.md)  
 
 ## Comment:
-#define WM_CLIPBOARDUPDATE 0x031D  
+```txt
+#define WM_CLIPBOARDUPDATE 0x031D
+```
   
-See also:  
-GetClipboardSequenceNumber   
+See also:
+
+[GetClipboardSequenceNumber](../libraries/user32/GetClipboardSequenceNumber.md)
+   
 The result returned by this API function increments whenever the content of the clipboard changes, including emptying the clipboard. For example, a single copy-paste operation in Excel, first clears the clipboard, and then adds data to it in N different formats. So before-and-after difference will be N+1.  
   
 ***  

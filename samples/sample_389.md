@@ -426,9 +426,9 @@ RETURN Chr(MOD(m.lnValue,256)) + CHR(INT(m.lnValue/256))
 
 ## Comment:
 Some useful links:  
-<LI><a href="http://www.faqs.org/rfcs/rfc977.html">RFC977. Network News Transfer Protocol</a>  
-<LI><a href="http://www.freesoft.org/CIE/RFC/977/">Network News Transfer Protocol on freesoft.org</a>  
-<LI><a href="http://www.vbip.com/winsock/winsock_control.asp">How to use Winsock Control in order to build Internet applications</a>  
+* <a href="http://www.faqs.org/rfcs/rfc977.html">RFC977. Network News Transfer Protocol</a>  
+* <a href="http://www.freesoft.org/CIE/RFC/977/">Network News Transfer Protocol on freesoft.org</a>  
+* <a href="http://www.vbip.com/winsock/winsock_control.asp">How to use Winsock Control in order to build Internet applications</a>  
   
   
 ***  

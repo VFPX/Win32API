@@ -30,7 +30,10 @@ RETURN Left(lcResult, lnResult)
 
 ## Comment:
 This can also be done with:  
-**TRANSFORM(num, "@0")**  
+```foxpro
+TRANSFORM(num, "@0")
+```
+
 not including VFP3.  
   
 ***  

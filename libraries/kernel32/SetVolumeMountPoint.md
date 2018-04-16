@@ -50,14 +50,15 @@ If the function succeeds, the return value is nonzero.
 Handle this function with care.  
   
 This function works similar to the <a href="http://support.microsoft.com/?kbid=205524">MOUNTVOL.EXE</a> utility -- <Em>creates, deletes, or lists a volume mount point</Em>.   
-<div class="precode">MOUNTVOL [drive:]path VolumeName  
+```dos
+MOUNTVOL [drive:]path VolumeName  
 MOUNTVOL [drive:]path /D  
 MOUNTVOL [drive:]path /L  
 MOUNTVOL [drive:]path /P  
 MOUNTVOL /R  
 MOUNTVOL /N  
-MOUNTVOL /E  
-</div>  
-  
+MOUNTVOL /E
+```
+
 ***  
 

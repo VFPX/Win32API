@@ -44,15 +44,16 @@ Returns TRUE if successful, or FALSE otherwise.
 <Strong>lpVerb</Strong> in <a href="http://msdn.microsoft.com/library/default.asp?url=/library/en-us/shellcc/platform/shell/reference/structures/shellexecuteinfo.asp">SHELLEXECUTEINFO</a> Structure:  
 String, referred to as a verb, that specifies the action to be performed. The set of available verbs depends on the particular file or folder. Generally, the actions available from an object`s shortcut menu are available verbs.  
   
-<div class="precode">cBuffer = num2dword(INFO_SIZE) +;  
+```foxpro
+cBuffer = num2dword(INFO_SIZE) +;  
 	num2dword(nFlag) +;  
 	num2dword(hWindow) +;  
 	num2dword(oVerb.GetAddr()) +;  
 	num2dword(oFile.GetAddr()) +;  
 	Repli(Chr(0), 40)  
   
-= ShellExecuteEx(@cBuffer)  
-</div>  
+= ShellExecuteEx(@cBuffer)
+```
 The following verbs are commonly used:   
   
 <Strong>edit</Strong>  

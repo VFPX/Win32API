@@ -3,11 +3,11 @@
 # Displaying the drive type value
 
 ## Before you begin:
-<DIV style="padding-top: 3px;">See also:</DIV>  
-<LI style="padding-bottom: 7px;"><a href="?example=98">Basic Volume information</a>[Basic Volume information](sample_098.md)  
-<LI style="padding-bottom: 7px;"><a href="?example=151">Setting the volume label</a>[Setting the volume label](sample_151.md)  
-<LI style="padding-bottom: 7px;"><a href="?example=319">Disk in drive A:</a>[Disk in drive A:](sample_319.md)  
-<LI style="padding-bottom: 7px;"><a href="?example=101">Obtaining physical parameters for a drive: sectors, clusters, cylinders...</a>[Obtaining physical parameters for a drive: sectors, clusters, cylinders...](sample_101.md)  
+See also:  
+* [Basic Volume information](sample_098.md)  
+* [Setting the volume label](sample_151.md)  
+* [Disk in drive A:](sample_319.md)  
+* [Obtaining physical parameters for a drive: sectors, clusters, cylinders...](sample_101.md)  
   
 ***  
 

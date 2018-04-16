@@ -3,7 +3,7 @@
 # Custom FTP Class for Visual FoxPro application
 
 ## Before you begin:
-<table cellspacing=3 cellpadding=0 border=0><tr><td valign=top><img src="images/readarticle.gif" border=0></td><td valign=top class=fdescr><a href="?article=3">Programming File Transfer Protocol in Visual FoxPro </a></td></tr></table>[Programming File Transfer Protocol in Visual FoxPro ](sample_000.md)  
+<table cellspacing=3 cellpadding=0 border=0><tr><td valign=top><img src="images/readarticle.gif" border=0></td><td valign=top class=fdescr><a href="?article=3">Programming File Transfer Protocol in Visual FoxPro </a></td></tr></table>  
 The class implements basic FTP operations: connection, directories, downloading and uploading files. All functionality comes from the Microsoft Wininet API library.  
 
 Simple FTP manager form built on this class:  
@@ -46,7 +46,7 @@ See also:
 * [Using FTPCommand](sample_059.md)  
 
 More advanced VFP-based FTP solution:  
-<a href="http://www.news2news.com/vfp/?solution=1&src=x344"><img src="../images/ftplib_270_48.jpg" width=270 height=48 border=0  vspace=5 hspace=5 alt="Download FTP Class Library"></a>[](sample_000.md)  
+<a href="http://www.news2news.com/vfp/?solution=1&src=x344"><img src="../images/ftplib_270_48.jpg" width=270 height=48 border=0  vspace=5 hspace=5 alt="Download FTP Class Library"></a>  
   
 ***  
 

@@ -160,17 +160,18 @@ ENDDEFINE
 ## Comment:
 Notice that the icons drawn on the form disappear after covering this form by another window or minimizing and then maximizing it.  
   
-An icon stored in memory can be saved as icon file. Code sample <a href="?example=503">Converting image file to .ICO file</a> explains how to create .ICO file from HICON handle.  
+An icon stored in memory can be saved as icon file. Code sample [Converting image file to .ICO file](sample_503.md) explains how to create .ICO file from HICON handle.  
   
 * * *  
-Read <a href="http://msdn.microsoft.com/library/default.asp?url=/library/en-us/dnwui/html/msdn_icons.asp">Icons in Win32</a> article wriiten by John Hornick from MS Corp.  
+Read [Icons in Win32](https://msdn.microsoft.com/en-us/library/ms997538.aspx) article wriiten by John Hornick from MS Corp.  
   
-MSDN article <a href="http://msdn.microsoft.com/library/default.asp?url=/library/en-us/winui/winui/windowsuserinterface/resources/icons/usingicons.asp">Using Icons</a> describes how to perform certain tasks related to icons: creating, displaying, sharing Icon resources.  
+MSDN article [Using Icons](https://msdn.microsoft.com/en-us/library/windows/desktop/ms648051(v=vs.85).aspx) describes how to perform certain tasks related to icons: creating, displaying, sharing Icon resources.  
   
 * * *  
-This is a screenshot of <a href="?example=19">more advanced Icon Viewer</a> built on ImageList API functions:  
+This is a screenshot of [more advanced Icon Viewer](sample_019.md) built on ImageList API functions:  
   
-<a href="?example=19"><img src="images/iconview_list.png" width=507 height=386 border=0></a>  
-  
+[![](../images/iconview_list.png)](sample_019.md)
+
+
 ***  
 

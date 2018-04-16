@@ -3,7 +3,7 @@
 # HOWTO: Use the Win32 API to Access File Dates and Times
 
 ## Before you begin:
-This sample code originates from <a href="http://support.microsoft.com/kb/q188977/">HOWTO: Use the Win32 API to Access File Dates and Times</a>[HOWTO: Use the Win32 API to Access File Dates and Times](sample_000.md)  
+This sample code originates from [HOWTO: Use the Win32 API to Access File Dates and Times](https://jeffpar.github.io/kbarchive/kb/188/Q188977/)  
 
 Unfortunately two regrettable errors make the original code unusable: missing @ character in GetFileTime call, and **hex2dec** function, never being tested I guess. So I was bold enough to make some fixes to it:  
   

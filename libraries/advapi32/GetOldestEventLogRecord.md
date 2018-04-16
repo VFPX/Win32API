@@ -48,7 +48,8 @@ If the function succeeds, the return value is nonzero.
 ## Comments:
 The oldest record in an event log is not necessarily record number 1.  
   
-<div class="precode">hLog = OpenEventLog(NULL, "Application")  
+```foxpro
+hLog = OpenEventLog(NULL, "Application")  
   
 IF hLog <> 0  
 	STORE 0 TO nReccount, nRecno  
@@ -59,8 +60,8 @@ IF hLog <> 0
 	? nReccount, nRecno  
   
 	= CloseEventLog(hLog)  
-ENDIF  
-</div>  
-  
+ENDIF
+```
+
 ***  
 

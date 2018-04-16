@@ -55,10 +55,12 @@ Returns GpStatus value, 0 means success.
 
 
 ## Comments:
-<code>typedef enum {  
+```cpp
+typedef enum {  
     MatrixOrderPrepend = 0,  
     MatrixOrderAppend = 1  
-} MatrixOrder;</code>  
+} MatrixOrder;
+```
   
 <Em>MatrixOrderPrepend</Em>  
 Specifies that the new matrix is on the left and the existing matrix is on the right.   

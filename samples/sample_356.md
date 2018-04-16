@@ -75,18 +75,18 @@ PROCEDURE declare
 Function EnumForms returns same information, and in addition for each paper format, the width and the height in thousandths of millimeters.  
   
 List of supported paper formats for an average printer:  
-<li>Letter  
-<li>Legal  
-<li>Statement  
-<li>Executive  
-<li>A4  
-<li>A5  
-<li>B5 (JIS)  
-<li>Envelope #10  
-<li>Envelope DL  
-<li>Envelope C6  
-<li>A6  
-<li>Index card 5 x 8 in  
+* Letter  
+* Legal  
+* Statement  
+* Executive  
+* A4  
+* A5  
+* B5 (JIS)  
+* Envelope #10  
+* Envelope DL  
+* Envelope C6  
+* A6  
+* Index card 5 x 8 in  
 ...  
   
 ***  

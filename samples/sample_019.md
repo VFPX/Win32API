@@ -347,7 +347,7 @@ While writing this code sample, I found the API ImageList object much more relia
 The hImageList handle of an empty ActiveX ImageList control is always zero. To apply any ImageList API function to this guy, at least one image must be added. That I found an inconvenient feature also.  
   
 * * *  
-Read aritlcle <a href="http://www.codeproject.com/shell/shellicon.asp">Retrieving Shell icons</a> on the Code Project.  
+Read aritlcle [Retrieving Shell icons](https://www.codeproject.com/Articles/2405/Retrieving-shell-icons) on the Code Project.  
   
 ***  
 

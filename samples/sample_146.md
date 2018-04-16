@@ -5,11 +5,11 @@
 ## Before you begin:
 See also:
 
-<a href="?example=82">Enumerating printer drivers installed</a>[Enumerating printer drivers installed](sample_082.md)  
-<a href="?example=333">Enumerating the print processors and supporting data types installed on the specified server</a>[Enumerating the print processors and supporting data types installed on the specified server](sample_333.md)  
-<a href="?example=368">Enumerating print jobs and retrieving information for default printer</a>[Enumerating print jobs and retrieving information for default printer](sample_368.md)  
-<a href="?example=367">How to retrieve number of print jobs that have been queued for the printer</a>[How to retrieve number of print jobs that have been queued for the printer](sample_367.md)  
-<a href="?example=334">Enumerating the ports that are available for printing on a specified server</a>[Enumerating the ports that are available for printing on a specified server](sample_334.md)  
+* [Enumerating printer drivers installed](sample_082.md)  
+* [Enumerating the print processors and supporting data types installed on the specified server](sample_333.md)  
+* [Enumerating print jobs and retrieving information for default printer](sample_368.md)  
+* [How to retrieve number of print jobs that have been queued for the printer](sample_367.md)  
+* [Enumerating the ports that are available for printing on a specified server](sample_334.md)  
 
   
 ***  

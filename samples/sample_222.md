@@ -3,13 +3,14 @@
 # Displaying all TCP connections for the local system
 
 ## Before you begin:
-This code produces results similar to the following command:<code><font color=#0000a0>  
+This code produces results similar to the following command:
+```dos
 RUN "NETSTAT -n -a > netstat.txt"  
-MODI FILE netstat.txt</font></code>  
+MODI FILE netstat.txt
+```
 
 ![](../images/netstat.png)  
 
-Check the link that is a source for this code -- <a href=http://www.vbip.com/iphelper/get_tcp_table.asp>How to get all the IP addresses and opened TCP ports on the local system</a>.[How to get all the IP addresses and opened TCP ports on the local system](sample_000.md)  
   
 ***  
 
