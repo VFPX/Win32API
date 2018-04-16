@@ -53,7 +53,5 @@ Returns TRUE if successful, or FALSE otherwise.
 ## Comments:
 DetectAutoProxyUrl is called to identify a location (WPAD) from which to obtain the auto-config script. WPAD stands for <Em>Web Proxy Auto-Discovery</Em>.  
   
-MSDN article <a  href="http://support.microsoft.com/default.aspx?scid=KB;en-us;q209266">"Microsoft Knowledge Base Article - 209266: Auto-Proxy Functions Supported by Internet Explorer"</a>.  
-  
 ***  
 

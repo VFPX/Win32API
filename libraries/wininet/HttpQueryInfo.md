@@ -62,7 +62,7 @@ Returns TRUE if successful, or FALSE otherwise.
 
 
 ## Comments:
-<a href="http://msdn.microsoft.com/library/default.asp?url=/library/en-us/wininet/wininet/query_info_flags.asp">Query Info Flags</a>: The following lists contain the attributes and modifiers used by HttpQueryInfo and QueryInfo.  
+[Query Info Flags](https://msdn.microsoft.com/en-us/library/windows/desktop/aa385351(v=vs.85).aspx): The following lists contain the attributes and modifiers used by HttpQueryInfo and QueryInfo.  
   
 ***  
 

@@ -71,10 +71,6 @@ Returns TRUE if successful, or FALSE otherwise
 ## Comments:
 The complete list of service commands can be found in the <a href="http://www.faqs.org/rfcs/rfc765.html">FTP specification</a>.  
   
-Wininet has some limitations on this command. Sometimes it returns 12003 error code. Follow two Microsoft links on this subject:  
-  
-* <a href="http://support.microsoft.com/support/kb/articles/Q168/4/92.ASP">PRB: FTP WinInet APIs Report Error 12003</a>  
-* <a href="http://support.microsoft.com/support/kb/articles/Q255/2/04.ASP">FtpCommand() WinInet Function Stops Responding</a>  
-  
+
 ***  
 

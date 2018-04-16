@@ -23,7 +23,6 @@ BOOL InternetCanonicalizeUrl(
 ```  
 ***  
 
-
 ## FoxPro declaration:
 ```foxpro  
 DECLARE INTEGER InternetCanonicalizeUrl IN wininet;

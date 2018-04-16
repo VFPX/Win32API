@@ -62,7 +62,7 @@ TRUE indicates success. FALSE indicates failure.
 
 
 ## Comments:
-See HttpOpenRequest, InternetQueryDataAvailable, InternetReadFile, InternetCloseHandle.  
+See also: [HttpOpenRequest](HttpOpenRequest.md), [InternetQueryDataAvailable](InternetQueryDataAvailable.md), [InternetReadFile](InternetReadFile.md), [InternetCloseHandle](InternetCloseHandle.md).  
   
 ***  
 
