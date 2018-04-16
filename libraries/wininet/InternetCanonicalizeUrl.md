@@ -58,7 +58,7 @@ Returns TRUE if successful, or FALSE otherwise.
 ## Comments:
 If no flags are specified (dwFlags = 0), the function converts all unsafe characters and meta sequences (such as \.,\ .., and \...) to escape sequences.   
   
-See UrlEscape and UrlUnescape functions.  
+See also: [UrlEscape](../shlwapi/UrlEscape.md) and [UrlUnescape](../shlwapi/UrlUnescape.md) functions.  
   
 ***  
 
