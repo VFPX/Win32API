@@ -44,7 +44,7 @@ If the function succeeds, the return value specifies whether the key was pressed
 
 
 ## Comments:
-Check list of <a href="http://msdn.microsoft.com/en-us/library/ms645540(v=vs.85).aspx">Virtual-Key Codes</a> on the MSDN.   
+Check list of [Virtual-Key Codes](https://msdn.microsoft.com/en-us/library/windows/desktop/dd375731(v=vs.85).aspx) on the MSDN.   
   
 ***  
 

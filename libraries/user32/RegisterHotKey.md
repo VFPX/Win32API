@@ -58,7 +58,7 @@ If the function succeeds, the return value is nonzero.
 
 
 ## Comments:
-See also UnregisterHotKey function.  
+See also: [UnregisterHotKey](UnregisterHotKey.md) function.  
   
 ***  
 

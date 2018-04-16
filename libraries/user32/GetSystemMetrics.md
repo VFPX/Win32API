@@ -63,12 +63,12 @@ Read post <a href="http://blogs.msdn.com/calvin_hsia/archive/2006/01/11/511639.a
 * * *  
 System Metrics Foundation Class included in VFP8 and 9 installations provides access to system metric information as mousewheel present, number of mouse buttons, and number of monitors are provided with the class, but any valid system metric can be queried.  
   
-See also: [SystemParametersInfo](../user32/SystemParametersInfo.md), [<a href="http://msdn2.microsoft.com/en-us/library/39ddf2h2(VS.80).aspx">SYSMETRIC( )</a>](..//<a href="http://msdn2.microsoft.com/en-us/library/39ddf2h2(VS.80).aspx">SYSMETRIC( )</a>.md).  
+See also: [SystemParametersInfo](../user32/SystemParametersInfo.md), [SYSMETRIC( )](http://msdn2.microsoft.com/en-us/library/39ddf2h2(VS.80).aspx).  
   
 * * *  
 Allegedly, both GetSystemMetrics(SM_CXSIZE) and GetTitleBarInfo <a href="http://social.msdn.microsoft.com/Forums/en-US/windowsuidevelopment/thread/98326a7e-e1e1-4e05-bf58-5b2d324c7604">return wrong values for Vista Aero</a>. For the latter, sending the WM_GETTITLEBARINFOEX suggested to be a replacement.  
   
-<a href="http://fox.wikis.com/wc.dll?Wiki~VistaAeroIssues">Vista Aero Issues</a> on FoxPro Wiki.  
+[Vista Aero Issues](http://fox.wikis.com/wc.dll?Wiki~VistaAeroIssues) on FoxPro Wiki.  
   
 ***  
 

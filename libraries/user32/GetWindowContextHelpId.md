@@ -44,7 +44,7 @@ Returns the help context identifier if the window has one or zero otherwise
 
 
 ## Comments:
-See also SetWindowContextHelpId and GetMenuContextHelpId functions.  
+See also [SetWindowContextHelpId](SetWindowContextHelpId.md) and [GetMenuContextHelpId](GetMenuContextHelpId.md) functions.  
   
 ***  
 

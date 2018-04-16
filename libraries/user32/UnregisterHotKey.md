@@ -48,7 +48,7 @@ If the function succeeds, the return value is nonzero.
 
 
 ## Comments:
-See also RegisterHotKey function.  
+See also: [RegisterHotKey](RegisterHotKey.md) function.  
   
 ***  
 

@@ -54,7 +54,7 @@ hMonitor value can be obtained from a call to either of EnumDisplayMonitors, Mon
   
 The EnumDisplayMonitors is unlikely to be used in pure FoxPro code since it requires a callback function.  
   
-See also EnumDisplayDevices, EnumDisplaySettings functions.  
+See also [EnumDisplayDevices](EnumDisplayDevices.md), [EnumDisplaySettings](EnumDisplaySettings.md) functions.  
   
 ***  
 

@@ -41,12 +41,7 @@ cFormats
 
 
 ## Return value:
-If the function succeeds, the return value is the first clipboard format in the list for which data is available. If the clipboard is empty, the return value is NULL. If the clipboard contains data, but not in any of the specified formats, the return value is –1.  
+If the function succeeds, the return value is the first clipboard format in the list for which data is available. If the clipboard is empty, the return value is NULL. If the clipboard contains data, but not in any of the specified formats, the return value is ï¿½1.  
 ***  
 
-
-## Comments:
-check...  
-  
-***  
 

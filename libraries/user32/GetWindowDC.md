@@ -89,7 +89,7 @@ If the function succeeds, the return value is the handle of a device context for
 
 
 ## Comments:
-<a href="http://www.news2news.com/vfp/?article=12&src=GetWindowDC"><img src="images/windowdevicecontexts.png" border=0></a>  
+<a href="http://www.news2news.com/vfp/?article=12&src=GetWindowDC"><img src="../../images/windowdevicecontexts.png" border=0></a>  
   
 See also: [GetDC](../user32/GetDC.md), [WindowFromDC](../user32/WindowFromDC.md), [ReleaseDC](../user32/ReleaseDC.md), [DeleteDC](../gdi32/DeleteDC.md).  
   

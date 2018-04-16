@@ -59,7 +59,7 @@ This function has no return value.
 ## Comments:
 The system can use such a synthesized keystroke to generate a WM_KEYUP or WM_KEYDOWN message. The keyboard driver"s interrupt handler calls the keybd_event function.  
   
-List of <a href="http://msdn.microsoft.com/library/default.asp?url=/library/en-us/winui/winui/WindowsUserInterface/UserInput/VirtualKeyCodes.asp">Virtual Key Codes</a>.  
+List of [Virtual Key Codes](https://msdn.microsoft.com/en-us/library/windows/desktop/dd375731(v=vs.85).aspx).  
   
 ***  
 

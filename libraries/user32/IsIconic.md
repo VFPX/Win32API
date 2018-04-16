@@ -42,7 +42,7 @@ If the window is iconic, the return value is nonzero.
 
 
 ## Comments:
-See the IsZoomed function.  
+See the [IsZoomed](IsZoomed.md) function.  
   
 ***  
 

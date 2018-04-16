@@ -58,7 +58,7 @@ If the function succeeds, the return value identifies the device context for the
 
 
 ## Comments:
-<a href="http://www.news2news.com/vfp/?article=12&src=GetDC"><img src="images/windowdevicecontexts.png" border=0></a>  
+<a href="http://www.news2news.com/vfp/?article=12&src=GetDC"><img src="../../images/windowdevicecontexts.png" border=0></a>  
   
 See also: [GetWindowDC](../user32/GetWindowDC.md), [WindowFromDC](../user32/WindowFromDC.md).  
   

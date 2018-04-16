@@ -41,7 +41,7 @@ Returns the Help context identifier if the menu has one, or zero otherwise.
 
 
 ## Comments:
-See also SetMenuContextHelpId and GetWindowContextHelpId functions.  
+See also: [SetMenuContextHelpId](SetMenuContextHelpId.md) and [GetWindowContextHelpId](GetWindowContextHelpId.md) functions.  
   
 ***  
 

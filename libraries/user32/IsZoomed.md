@@ -39,7 +39,7 @@ If the window is zoomed, the return value is nonzero.
 
 
 ## Comments:
-See the IsIconic function.  
+See the [IsIconic](IsIconic.md) function.  
   
 ***  
 
