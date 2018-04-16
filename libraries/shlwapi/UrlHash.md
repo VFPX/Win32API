@@ -51,7 +51,7 @@ Returns S_OK (0) if successful, or a standard OLE error value otherwise.
 
 
 ## Comments:
-See also HashData.  
+See also: [HashData](HashData.md).  
   
 ***  
 

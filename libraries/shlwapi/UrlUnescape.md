@@ -54,7 +54,7 @@ Returns an OLE success code if successful.
 
 
 ## Comments:
-See UrlEscape and InternetCanonicalizeUrl functions.  
+See also: [UrlEscape](UrlEscape.md) and [InternetCanonicalizeUrl](../wininet/InternetCanonicalizeUrl.md) functions.  
   
 ***  
 

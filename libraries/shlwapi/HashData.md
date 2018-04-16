@@ -56,7 +56,7 @@ Returns S_OK (0) if successful, or a standard OLE error value otherwise.
 
 
 ## Comments:
-See also UrlHash.  
+See also: [UrlHash](UrlHash.md ).  
 See <A href="http://www.webopedia.com/TERM/H/hashing.html">Webopedia: Hashing</A>  
   
 ***  
