@@ -43,7 +43,7 @@ If the function succeeds, the return value is S_OK (0).
 ## Comments:
 The Print property sheet has the General page with controls similar to the Print dialog box.   
   
-<img src="images/print_property_sheet.png" width=493 height=446>  
+<img src="../../images/print_property_sheet.png" width=493 height=446>  
   
 The property sheet can also have additional application-specific and driver-specific property pages following the General page.  
   
