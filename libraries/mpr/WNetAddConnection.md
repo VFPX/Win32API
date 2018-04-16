@@ -59,7 +59,7 @@ Links:
   
 <a href="http://www.cae.wisc.edu/fsg/winnt/netuse.html">Using the <Strong>net use</Strong> command</a>.  
   
-<a href="http://www.linuxworld.com/linuxworld/lw-1999-04/lw-04-thereandback.html">Command-line NT: It does exist!</a>.  
+[Command-line NT: It does exist!](https://www.itworld.com/article/2798267/operating-systems/command-line-nt--it-does-exist-.html)
   
 ***  
 

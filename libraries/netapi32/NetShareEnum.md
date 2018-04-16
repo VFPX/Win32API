@@ -80,7 +80,7 @@ Windows 95/98/Me:  The parameters for Windows 95/98/Me are different from those 
 Windows NT/2000/XP:  This buffer is allocated by the system and must be freed using the NetApiBufferFree function.  
 Windows 95/98/Me:  The caller must allocate and deallocate this buffer.  
   
-Also check native <a href="http://msdn.microsoft.com/library/default.asp?url=/library/en-us/dv_foxhelp/html/lngANETRESOURCESLP_RP.asp">ANETRESOURCES( )</a> function.  
+.  
   
 ***  
 

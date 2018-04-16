@@ -84,7 +84,6 @@ Admin or server, print, or comm operator group membership is required to success
 Different declarations for Windows NT/2000/XP, and for Windows 95/98/Me.  
 Windows 95/98/Me: The caller must allocate and deallocate the buffer -- <Strong>bufptr</Strong>.  
   
-See <a href="http://www.eu.microsoft.com/technet/treeview/default.asp?url=/technet/prodtechnol/windowsserver2003/proddocs/entserver/net_session.asp">NET SESSION</a> command -- WinNT, NET VIEW command - WinMe.  
-  
+
 ***  
 

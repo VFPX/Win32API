@@ -41,7 +41,7 @@ dwType
 
 
 ## Return value:
-If the function succeeds, the return value is NO_ERROR (0). If the user cancels the dialog box, the function returns �1.  
+If the function succeeds, the return value is NO_ERROR (0). If the user cancels the dialog box, the function returns 1.  
 ***  
 
 
