@@ -22,7 +22,6 @@ BOOL UnregisterHotKey(
 ```  
 ***  
 
-
 ## FoxPro declaration:
 ```foxpro  
 DECLARE INTEGER UnregisterHotKey IN user32;
