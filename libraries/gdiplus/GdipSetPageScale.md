@@ -43,7 +43,7 @@ Returns GpStatus value, 0 means success.
 
 
 ## Comments:
-See Also: GdipGetPageScale, GdipSetPageUnit   
+See Also: [GdipGetPageScale](GdipGetPageScale.md), [GdipSetPageUnit](GdipSetPageUnit.md)   
   
 ***  
 

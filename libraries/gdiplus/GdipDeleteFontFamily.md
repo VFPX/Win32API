@@ -31,7 +31,7 @@ DECLARE INTEGER GdipDeleteFontFamily IN gdiplus;
 
 
 ## Parameters:
-FontFamily
+FontFamily  
 [in] Handle to the FontFamily object created with GdipCreateFontFamilyFromName, GdipCloneFontFamily or similar function.  
 ***  
 

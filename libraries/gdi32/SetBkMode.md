@@ -50,8 +50,10 @@ iBkMode
 
 
 ## Return value:
-If the function succeeds, the return value specifies the previous background mode. If the function fails, the return value is zero. 
-#DEFINE TRANSPARENT    1 
-#DEFINE OPAQUE              2  
+If the function succeeds, the return value specifies the previous background mode. If the function fails, the return value is zero.  
+```txt
+#DEFINE TRANSPARENT    1  
+#DEFINE OPAQUE         2
+```
 ***  
 
