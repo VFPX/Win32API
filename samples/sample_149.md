@@ -3,7 +3,7 @@
 # Using an Event Object. Part B: running an application responding to events
 
 ## Before you begin:
-Compile this code into a separate executable and test with an executable created from the <A href="?function=-1&example=148">Part A</A> of this example. This is the name of the Event Object, that links two parts.[](sample_148.md)  
+Compile this code into a separate executable and test with an executable created from the [Part A](sample_148.md) of this example. This is the name of the Event Object, that links two parts.  
 
 Start Part A executable prior to the Part B.  
   

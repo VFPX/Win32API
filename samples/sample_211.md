@@ -255,7 +255,7 @@ PROCEDURE  decl
 ## Comment:
 The LoadImage is used to read data from a bitmap file into corresponding structures and to provide a handle. With this handle bitmap data is transferred to the device context of a default printer.  
   
-Actually this code is much similar to the <a href=?example=158>Printing the image of a FoxPro form</a> code. The only difference is the origin of the bitmap handle. In this example it is the result of reading data from a bitmap file. Otherwise, while printing a form, the bitmap handle is retrieved from the device context of the form.  
+Actually this code is much similar to the [Printing the image of a FoxPro form](sample_158.md) code. The only difference is the origin of the bitmap handle. In this example it is the result of reading data from a bitmap file. Otherwise, while printing a form, the bitmap handle is retrieved from the device context of the form.  
   
 ***  
 

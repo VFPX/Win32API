@@ -897,7 +897,7 @@ This code sample includes a set of classes implementing several NTFS access cont
 
 ## [Retrieving the elapsed time since the system was started](samples/sample_066.md)
 
-## [Retrieving the interface–to–IP address mapping table](samples/sample_233.md)
+## [Retrieving the interfaceï¿½toï¿½IP address mapping table](samples/sample_233.md)
 
 ## [Retrieving the name and type of all available RAS-capable devices](samples/sample_325.md)
 
@@ -1026,7 +1026,7 @@ You know about "Other Files" section inside the Project Manager. I think, that w
 ## [Testing Clipboard functions: emptying the clipboard](samples/sample_028.md)
 
 ## [Testing Transparent Menu Class with top-level form (requires VFP9)](samples/sample_497.md)
-The code creates top-level form with a menu. An instance of the <a href="?example=496">MenuManager class</a> is used to make this menu semi-transparent. The form records to a cursor menu-related Windows messages and displays them in a listbox.
+The code creates top-level form with a menu. An instance of the [MenuManager class](samples/sample_496.md) is used to make this menu semi-transparent. The form records to a cursor menu-related Windows messages and displays them in a listbox.
   
 ## [Testing an ODBC connection for supporting specific functionality](samples/sample_286.md)
 

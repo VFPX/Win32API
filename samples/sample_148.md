@@ -3,7 +3,7 @@
 # Using an Event Object. Part A: running an application that creates an Event object
 
 ## Before you begin:
-Compile this code into a separate executable and test with an executable created from the <A href="?function=-1&example=149">Part B</A> of this example. [](sample_149.md)  
+Compile this code into a separate executable and test with an executable created from the [Part B](sample_149.md) of this example.   
 This is the name of the Event Object, that links two parts.  
 
 Start Part A executable prior to the Part B.  
@@ -79,7 +79,7 @@ PROCEDURE  decl
 ## Comment:
 This code creates an Event object.   
   
-Pushing the button on the form you set this Event object, signalling that an event has occured. Another application (<A href="?function=-1&example=149">Part B</A>) uses Timer to watch the state of the Event object. When the Part B application discovers the event occured it runs some code attached.  
+Pushing the button on the form you set this Event object, signalling that an event has occured. Another application ([Part B](sample_149.md)) uses Timer to watch the state of the Event object. When the Part B application discovers the event occured it runs some code attached.  
   
 ***  
 

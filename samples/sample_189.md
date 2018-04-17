@@ -282,7 +282,7 @@ PROCEDURE declare
 ## Comment:
 The clipboard must stay opened during the procedure and only then closed. The handle to the clipboard content is retrieved via the GetClipboardData call.  
   
-If this is a bitmap handle, then the code is invoked that is very much like the <a href=?example=187>Storing screen shot of a form to a bitmap file</a>.  
+If this is a bitmap handle, then the code is invoked that is very much like the [Storing screen shot of a form to a bitmap file](sample_187.md).  
   
 The target file is a 24 bit per pixel bitmap.  
   

@@ -8,7 +8,7 @@ With this code you can reach the list of examples on this reference from your VF
 ![](../images/rmt_shell.png)  
 Downloadable code samples are available for <a href="?generic=project#membership">registered annual subscribers</a>.  
 
-Try similar example <a href="?example=469">Accessing examples contained in this reference through Web Services</a> (requires VFP8).[Accessing examples contained in this reference through Web Services](sample_469.md)  
+Try similar example [Accessing examples contained in this reference through Web Services](sample_469.md) (requires VFP8).
 
 ***  
 

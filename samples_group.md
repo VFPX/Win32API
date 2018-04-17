@@ -1190,7 +1190,7 @@ The Ping class uses several API functions -- IcmpCreateFile, IcmpCloseHandle, Ic
 
 ## [Retrieving the User Datagram Protocol (UDP) listener table](samples/sample_234.md)
 
-## [Retrieving the interface–to–IP address mapping table](samples/sample_233.md)
+## [Retrieving the interfaceï¿½toï¿½IP address mapping table](samples/sample_233.md)
 
 # ![](images/fox1.png) Icon group
 
@@ -3072,7 +3072,7 @@ This code enumerates all windows starting from the Desktop window and displays r
 ## [Terminating all running applications from a VFP program](samples/sample_243.md)
 
 ## [Testing Transparent Menu Class with top-level form (requires VFP9)](samples/sample_497.md)
-The code creates top-level form with a menu. An instance of the <a href="?example=496">MenuManager class</a> is used to make this menu semi-transparent. The form records to a cursor menu-related Windows messages and displays them in a listbox.
+The code creates top-level form with a menu. An instance of the [MenuManager class](sample_496.md) is used to make this menu semi-transparent. The form records to a cursor menu-related Windows messages and displays them in a listbox.
   
 ## [The window and its ancestors](samples/sample_266.md)
 
@@ -3330,7 +3330,7 @@ The Ping class uses several API functions -- IcmpCreateFile, IcmpCloseHandle, Ic
 
 ## [Retrieving the User Datagram Protocol (UDP) listener table](samples/sample_234.md)
 
-## [Retrieving the interface–to–IP address mapping table](samples/sample_233.md)
+## [Retrieving the interfaceï¿½toï¿½IP address mapping table](samples/sample_233.md)
 
 ## [Winsock: changing the byte ordering](samples/sample_221.md)
 

@@ -10,7 +10,7 @@ This class operates with databases in the Object Store of Pocket PC. It implemen
 ## Before you begin:
 ![](../images/pocketpcs.png)  
 
-This class is subclassed from the <a href="?example=440">base RAPI class</a>. Some members of it are implemented through collections. That unfortunately makes it unusable under Visual FoxPro versions 6 and older.[base RAPI class](sample_440.md)  
+This class is subclassed from the [base RAPI class](sample_440.md). Some members of it are implemented through collections. That unfortunately makes it unusable under Visual FoxPro versions 6 and older.  
 
 Solutions based on this class:  
 * [enumerating mounted database volumes and databases in the Object Store](sample_446.md)  

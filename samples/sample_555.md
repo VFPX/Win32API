@@ -3,7 +3,7 @@
 # Printing Image File, programmatically set print page orientation to landscape
 
 ## Before you begin:
-The images in this code sample are handled with the help of GDI+ objects instantiated from <a href="?example=450">VFP library of GDI+ classes</a>. Download the library module first and save it in *gdiplus.prg* file. [VFP library of GDI+ classes](sample_450.md)  
+The images in this code sample are handled with the help of GDI+ objects instantiated from [VFP library of GDI+ classes](sample_450.md). Download the library module first and save it in *gdiplus.prg* file.   
 
 See also:
 

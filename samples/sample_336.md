@@ -180,7 +180,7 @@ hWindow = FindWindow("Shell_TrayWnd", Null)
 Call ShowWindow with SW_SHOWNORMAL to make the system tray visible again. You may try same code with TrayNotifyWnd and other child windows.  
   
 * * *  
-Take a look at this example as well <a href="?example=432">How to block the ALT+TAB shortcut (WinXP)</a>:  
+Take a look at this example as well [How to block the ALT+TAB shortcut (WinXP)](sample_432.md):  
   
 [![](../images/alttab.png)](sample_432.md)
 

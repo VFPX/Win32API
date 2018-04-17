@@ -3,7 +3,7 @@
 # Converting an integer value to a hexadecimal string
 
 ## Before you begin:
-Check reverse example <a href="?example=107">Converting a hexadecimal string to an integer</a>.[Converting a hexadecimal string to an integer](sample_107.md)  
+Check reverse example [Converting a hexadecimal string to an integer](sample_107.md).  
   
 ***  
 
