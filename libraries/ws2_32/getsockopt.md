@@ -62,7 +62,7 @@ If no error occurs, getsockopt returns zero. Otherwise, a value of SOCKET_ERROR 
 
 
 ## Comments:
-See also setsockopt function.  
+See also [setsockopt](setsockopt.md) function.  
   
 ***  
 

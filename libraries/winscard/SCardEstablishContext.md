@@ -64,7 +64,7 @@ Upon successful call the <Em>phContext</Em> handle can be supplied to other func
   
 The error code SCARD_E_NO_SERVICE (0x8010001D), <Em>"The smart card resource manager is not running"</Em>, means that the SCardSvr service is not started. By default this service is stopped.  
   
-<img src="images/smart_card_service.jpg">  
+<img src="../../images/smart_card_service.jpg">  
   
 The error code SCARD_E_NO_READERS_AVAILABLE (0x8010002E) speaks for itself.  
   

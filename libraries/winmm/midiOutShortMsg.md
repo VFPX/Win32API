@@ -49,7 +49,7 @@ Returns MMSYSERR_NOERROR (0) if successful or an error otherwise.
 ## Comments:
 A MIDI output device must be open prior to calling this function.  
   
-Read about <a href="http://www.midi.org/about-midi/table1.shtml">MIDI messages</a> (second parameter in the call) on MIDI.org.  
+Read about [MIDI messages](https://www.midi.org/articles/about-midi-part-3-midi-messages&highlight=WyJtaWRpIiwibWlkaSdzIiwibWlkaXMiLCJtaWRpZWQiLCJtaWRpJ2VkIiwiJ21pZGknLCIsIidtaWRpIiwiJ21pZGknIiwibWVzc2FnZXMiLCJtZXNzYWdlIiwibWVzc2FnaW5nIiwibWlkaSBtZXNzYWdlcyJd) (second parameter in the call) on MIDI.org.  
   
 See also: [midiOutOpen](../winmm/midiOutOpen.md).  
   

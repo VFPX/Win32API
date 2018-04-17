@@ -39,7 +39,7 @@ DECLARE INTEGER mciSendString IN winmm;
 
 ## Parameters:
 lpszCommand 
-Pointer to a null-terminated string that specifies an MCI command string. For a list, see <a href="http://msdn.microsoft.com/library/default.asp?url=/library/en-us/multimed/mmcmdstr_4nub.asp">Multimedia Command Strings</a>. 
+Pointer to a null-terminated string that specifies an MCI command string. For a list, see [Multimedia Command Strings](https://msdn.microsoft.com/en-us/library/windows/desktop/dd743572(v=vs.85).aspx). 
 
 lpszReturnString 
 Pointer to a buffer that receives return information. If no return information is needed, this parameter can be NULL. 
