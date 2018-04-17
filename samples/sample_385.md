@@ -329,8 +329,6 @@ This class can be easily modified for sending messages to multiple recipients.
   
 The message body in this example is just a plain text. Additional program code is required to enable multipart messages and messages with attachments.  
   
-<a href="http://www.activexperts.com/activemail/rfc/rfc821/">RFC 821 - Simple Mail Transfer Protocol</a>  
-  
 * * *  
 Some SMTP headers can be quite important as, for example, Message-ID header containing unique identifier for the message. Without this one your "Hi dude!" has more chances to be rejected by the recipient POP3 server.  
   

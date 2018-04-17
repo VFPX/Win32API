@@ -101,16 +101,9 @@ ENDFOR
 [GetAdaptersInfo](../libraries/iphlpapi/GetAdaptersInfo.md)  
 
 ## Comment:
-MAC address: short for *Media Access Control address*, a hardware address that uniquely identifies each node of a network (<a href="http://www.webopedia.com/TERM/M/MAC_address.html">Webopedia</a>).  
-  
-Windows <a href="http://www.microsoft.com/windows2000/techinfo/reskit/tools/existing/getmac-o.asp">GETMAC</a> tool (WinXP/2K) provides a quick method for obtaining the MAC (Ethernet) layer address and binding order for a computer running Windows 2000, locally or across a network.  
-  
+
+
 Windows Server 2003 and Windows XP: Use the GetAdaptersAddresses function instead of GetAdaptersInfo.  
-  
-Microsoft Knowledge Base Article - 118623: <a href="http://support.microsoft.com/default.aspx?scid=kb;en-us;118623">HOWTO: Get the MAC Address for an Ethernet Adapter</a>.  
-  
-Another code sample <a href="http://techsupt.windowware.com/TS/T000001013F7.html">How to Get Mac (Media Access Control) Address</a> on Wilson WindowWare Tech Support uses NetWkstaTransportEnum function to obtain MAC address of a server.  
-  
-  
+
 ***  
 

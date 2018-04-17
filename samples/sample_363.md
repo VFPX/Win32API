@@ -219,8 +219,7 @@ RETURN Chr(b0)+Chr(b1)+Chr(b2)+Chr(b3)
 [GlobalSize](../libraries/kernel32/GlobalSize.md)  
 
 ## Comment:
-See also MSDN article: <a href="http://msdn.microsoft.com/library/default.asp?url=/library/en-us/winui/winui/windowsuserinterface/userinput/commondialogboxlibrary/aboutcommondialogboxes/openandsaveasdialogboxes.asp">Open and Save As Dialog Boxes</a>.  
-  
+
 OFN_NOCHANGEDIR flag is effective for Save As dialog only. It does not prevent the user from changing directories to find a file.  
   
 ***  

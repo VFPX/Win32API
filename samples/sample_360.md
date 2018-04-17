@@ -8,7 +8,7 @@ This code sample retrieves the name of default printer on local computer and obt
 
 
 ## Before you begin:
-This code sample retrieves the name of default printer on local computer and obtains detailed information for this printer in   [PRINTER_INFO_5](http://msdn.microsoft.com/library/default.asp?url=/library/en-us/gdi/prntspol_8gz6.asp) format. 
+This code sample retrieves the name of default printer on local computer and obtains detailed information for this printer in   [PRINTER_INFO_5](https://msdn.microsoft.com/en-us/library/windows/desktop/dd162848(v=vs.85).aspx) format. 
 
 See also:
 
@@ -225,7 +225,6 @@ The name of the default printer can be read from the Windows Registry: use GetPr
   
 Note that GetDefaultPrinter function requires at least Win2K and is not supported on older Windows versions. On Win9*/Me the EnumPrinters called with PRINTER_ENUM_DEFAULT flag returns information about the default printer.  
   
-See also: SetDefaultPrinter, <a href="http://msdn.microsoft.com/library/default.asp?url=/library/en-us/dv_foxhelp9/html/95287c74-24b9-460b-bfec-4c78f5358417.asp">APRINTERS()</a>.  
-  
+
 ***  
 

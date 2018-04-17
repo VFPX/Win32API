@@ -11,8 +11,7 @@ The picture shows local CDDRIVE device mounted to D:\mnt\cddrive directory.
 
 Handle this set of functions with care. Do not unmount root directories like C:, unless you know what you are doing.  
 
-MSDN article <a href="http://support.microsoft.com/?kbid=205524">How to create and manipulate NTFS junction points</a> covers the usage of Mountvol.exe, Linkd.exe and Delrp.exe utilities.</span>  
-</td></tr></table>  
+  
 ```foxpro
 LOCAL oVolumes As TVolumes, oVolume As TVolume, oMountPoint  
 oVolumes = CREATEOBJECT("TVolumes")  

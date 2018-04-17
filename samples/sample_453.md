@@ -158,7 +158,7 @@ ENDDEFINE
 [SetWindowLong](../libraries/user32/SetWindowLong.md)  
 
 ## Comment:
-Set <a href="http://msdn.microsoft.com/library/default.asp?url=/library/en-us/dv_foxhelp/html/lngshowwindow_property.asp">Sh0wWindow</a> property of the form to 2 (top-level form). In more accurate words, WS_EX_LAYERED extended style cannot be used for child windows, as stated in <a href="http://msdn.microsoft.com/library/default.asp?url=/library/en-us/winui/winui/windowsuserinterface/windowing/windows/windowfeatures.asp">Window Features</a> aticle on MSDN.  
+Set ShowWindowa> property of the form to 2 (top-level form). In more accurate words, WS_EX_LAYERED extended style cannot be used for child windows, as stated in a Window Features article on MSDN.  
   
 Hit testing of a layered window is based on the shape and transparency of the window. This means that the areas of the window that are color-keyed or whose alpha value is zero will let the mouse messages through.   
   

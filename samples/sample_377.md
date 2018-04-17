@@ -76,9 +76,7 @@ PROCEDURE decl
 [WaitForSingleObject](../libraries/kernel32/WaitForSingleObject.md)  
 
 ## Comment:
-Microsoft Knowledge Base Article - 191584: <a href="http://support.microsoft.com/default.aspx?scid=http://support.microsoft.com:80/support/kb/articles/Q191/5/84.asp&NoWebContent=1">How To Determine When a 32-bit Process has Completed</a>.  
   
-* * *  
 Another option is starting external program in a different desktop. With no calls to the WaitForSingleObject made, the host VFP program stays active. Though it becomes invisible and is cut off from keyboard and mouse input.  
   
 See also:  

@@ -344,7 +344,6 @@ The Winsock error code returned is **10048** -- WSAEADDRINUSE *Only one usage of
   
 List of local ports already used can be obtained through the system **NETSTAT** command, or use example in this reference [Displaying all TCP connections for the local system](sample_222.md) to get the list.  
   
-Also take a look at this article <a href="http://networking.earthweb.com/netsysm/article.php/937411">Working with the NETSTAT Command</a>.  
   
 * * *  
 You may even connect to the non-blocking Winsock server through the Internet. Make sure you connect to the *public* ip address of the server, not the one it has inside the local network. As well the port on the server has to be configured to accept external connections.  

@@ -430,7 +430,6 @@ RETURN Asc(SUBSTR(lcBuffer, 1,1)) + ;
 ## Comment:
 MSDN defines cryptographic service provider (CSP) as *an independent software module that actually performs cryptography algorithms for authentication, encoding, and encryption*.  
   
-There is <a href="http://msdn.microsoft.com/library/default.asp?url=/library/en-us/fox7help/html/ffccryptoapi.asp">Crypto API Foundation Class</a> shipped with Microsoft Visual FoxPro. The code above does not relate to it.  
-  
+
 ***  
 

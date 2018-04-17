@@ -152,8 +152,6 @@ PROCEDURE  decl
 ## Listed functions:
 [GetTcpTable](../libraries/iphlpapi/GetTcpTable.md)  
 
-## Comment:
-Take a look at this article <a href="http://networking.earthweb.com/netsysm/article.php/937411">Working with the NETSTAT Command</a>.  
-  
+
 ***  
 

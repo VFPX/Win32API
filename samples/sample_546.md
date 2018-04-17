@@ -15,11 +15,8 @@ To view so large picture in its original size you need a scrollable form. Normal
 
 ![](../images/scrollableform.jpg)  
 
-An example demonstrating this approach (the picture above) is provided in the article <a href="http://support.microsoft.com/kb/190818">How To Programmatically Scroll a Visual FoxPro Form</a> published on the Microsoft Help and Support web site.  
-
-In the Microsoft`s code I replaced the Shape control with the Image control and changed the ScrollBars property from 2 to 3. Also I added the HorisScrollPos property modelled by the VertScrollPos and tweaked the code a little bit.  
-
-* * *  
+An example demonstrating this approach (the picture above) is provided in the article [How To Programmatically Scroll a Visual FoxPro Form](https://jeffpar.github.io/kbarchive/kb/190/Q190818/) published on the Microsoft Help and Support web site. 
+***  
 Except with the scroll bars, I would also like scrolling the image by simply clicking on it and dragging (like in Picasa, for example). The example from Microsoft can certainly be modified to handle the MouseMove and MouseWheel events of the Image control.  
 
 Finding less fun in improving someone else`s code I decided on programming similar functionality using the GDI+ library. The results came not bad indeed.  

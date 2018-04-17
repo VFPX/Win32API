@@ -84,8 +84,7 @@ RETURN Chr(b0)+Chr(b1)+Chr(b2)+Chr(b3)
 ## Listed functions:
 [RasEnumConnections](../libraries/rasapi32/RasEnumConnections.md)  
 
-## Comment:
-Check VB example at <a href="http://www.vbapihelpline.de/ref/funca.php4?Func=RasEnumConnections&Letter=r">http://www.vbapihelpline.de/ref/funca.php4?Func=RasEnumConnections&Letter=r</a>.  
+ 
   
 ***  
 

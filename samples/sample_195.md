@@ -69,10 +69,9 @@ ENDDEFINE
 [SendMessage](../libraries/user32/SendMessage.md)  
 
 ## Comment:
-Read MSDN article <a href="http://support.microsoft.com/support/kb/articles/Q114/5/93.ASP">How to Move a Form that Has No Titlebar or Caption</a>.  
+ 
   
-* * *  
-This behaviour can also be implemented by intercepting and processing <a href="http://msdn.microsoft.com/en-us/library/ms645618(v=VS.85).aspx">WM_NCHITTEST</a> windows messages sent to the form. If the cursor is inside the client area, return HTCAPTION (2) instead of HTCLIENT (1).   
+This behaviour can also be implemented by intercepting and processing [WM_NCHITTEST](https://msdn.microsoft.com/en-us/library/ms645618%28v=VS.85%29.aspx?f=255&MSPPError=-2147217396) windows messages sent to the form. If the cursor is inside the client area, return HTCAPTION (2) instead of HTCLIENT (1).   
   
 Note that for top-level forms (ShowWindow=2), the first parameter in WM_NCHITTEST handling BINDEVENT call should not be ThisForm.HWnd, but the window handle of the inner window.  
   

@@ -158,11 +158,6 @@ The last two, if not locked properly, are getting wiped out as soon as gdi+ *img
 Even if this works on WinXP and Win2K computers, this behaviour of the GetClipboardData looks rather undocumented. As soon as I come with another solution (short enough) I will post it here.  
   
 * * *  
-August 2, 2004: Alexander Golovlev in his <a href="http://www.universalthread.com/wconnect/wc.dll?FournierTransformation~2,54,33,18584">GDI+ class</a> uses solution that looks better.   
-  
-To disconnect image handle from the GDI+ object he applies the CopyImage API function that creates a duplicate of the bitmap handle and then passes this new handle to the SetClipboardData function. That simple :)  
-  
-* * *  
 An article [How To Copy the Screen or Active Window to the Clipboard from Visual Basic](https://support.microsoft.com/en-us/help/240653/how-to-copy-the-screen-or-active-window-to-the-clipboard-from-visual-b) published on Microsoft Help and Support page describes a different approach -- the picture of the whole screen is sent to the clipboard by virtually pressing (through the keybd_event call) PrtScr key.  
 
 ***  

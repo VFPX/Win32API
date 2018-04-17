@@ -131,19 +131,16 @@ PROCEDURE decl
 ## Comment:
 Although this form has no visible title bar, you can still move it by clicking and dragging at any point beyond controls.  
   
-Read MSDN article <a href="http://support.microsoft.com/support/kb/articles/Q114/5/93.ASP">How to Move a Form that Has No Titlebar or Caption</a>.  
-  
-* * *  
+
+***  
 Nov.7, 2005:   
   
 ![](../images/applecorp.jpg)
 
 With the SetLayeredWindowAttributes function, parts of the form with the same color can be cut off. Note that the frame of the form still must be removed using Region API calls.  
   
-* * *  
-Visual FoxPro 8.0 Samples: <a href="http://msdn.microsoft.com/library/default.asp?url=/library/en-us/dv_foxhelp/html/samirregular_shaped_windows.asp">Creating Irregularly Shaped Windows Sample</a>.  
-  
-* * *  
+
+***  
 In .NET, the Region property of Form object allows to create irregular forms without directly calling API functions.  
   
 ***  

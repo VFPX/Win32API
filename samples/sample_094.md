@@ -8,8 +8,6 @@ This class implements adding documents to the system *Recent Documents* list.
 ![](../images/recentdocuments.png)  
 
 
-Under Windows 7, it also allows adding VFP related documents to the *Recent* section of the <a href="http://windows.microsoft.com/en-CA/windows7/products/features/jump-lists">jump list</a> attached to the current VFP instance.
-
 ![](../images/jumplistvfp.png)  
 
 See also:
@@ -200,7 +198,7 @@ RETURN Chr(b0)+Chr(b1)+Chr(b2)+Chr(b3)
 Method *AddDocumentToCurrentApp* is available if the instance of the class is created under Windows 7.  
   
 * * *  
-When application starts, the system restores its jump list, if one exists for this application ID (<a href="http://msdn.microsoft.com/en-us/library/dd378459(v=vs.85).aspx">AppUserModelID</a>).  
+When application starts, the system restores its jump list, if one exists for this application ID ([AppUserModelID](http://msdn.microsoft.com/en-us/library/dd378459(v=vs.85).aspx)).  
   
 Under Windows 7, a VFP application on start receives a generic application ID. Apparently the system generates such ID based on the file that initiated the application (a shortcut, an executable). For example, two VFP instances launched by identical shortcuts (except different paths) have separate jump lists.  
   

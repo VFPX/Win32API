@@ -236,8 +236,7 @@ WM_ENTERIDLE
 WM_SYSCOMMAND  
   
 * * *  
-Recommended reading: <a href="http://www.universalthread.com/ViewPageArticle.aspx?ID=476">OwnerDrawn Menus</a>, an article written by Herman Tan and published in October 2005 issue of UniversalThread Magazine.  
-  
+
 Several third-party Menu Builders -- <a href="http://fox.wikis.com/wc.dll?Wiki~VFEMenuBuilder">VFXMenuBuilder</a>, <a href="http://fox.wikis.com/wc.dll?Wiki~VFEMenuBuilder">VFEMenuBuilder</a>, <a href="http://fox.wikis.com/wc.dll?Wiki~VMPMenuBuilder">VMPMenuBuilder</a> and more probably coming -- all implement object-oriented menus.  
   
 * * *  

@@ -332,11 +332,6 @@ Connecting to pop3.fastmail.com, 192.168.0.1 ...
   
 "STAT 5" means that there is 5 messages waiting.  
   
-* * *  
-There is a couple of links that might be interesting:  
-* <a href="http://www.faqs.org/rfcs/std/std53.html">STD/STD53. Post Office Protocol - Version 3</a>  
-* <a href="http://www.vbip.com/winsock/winsock_pop3.asp">How to receive an e-mail (Introduction to POP3 protocol)</a>  
- 
-  
+
 ***  
 

@@ -11,8 +11,8 @@
 DECLARE INTEGER IsValidURL IN urlmon;
 	INTEGER pBC, STRING szURL, INTEGER dwReserved
 
-= validateUrl ("http://www.news2news.com")
-= validateUrl ("www.news2news.com")
+= validateUrl ("https://github.com")
+= validateUrl ("www.microsoft.com")
 = validateUrl ("http://if protocol prefix included it validates everything")
 
 PROCEDURE  validateUrl (lcUrl)

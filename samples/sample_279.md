@@ -141,8 +141,8 @@ ENDDEFINE
 [mciSendString](../libraries/winmm/mciSendString.md)  
 
 ## Comment:
-Check these MSDN links:  
-* <a href="http://msdn.microsoft.com/library/default.asp?url=/library/en-us/multimed/mmcmdstr_8eyc.asp">The set command for the Windows Multimedia SDK</a>  
+Check this MSDN link:  
+ 
 * [Multimedia Command Strings](https://msdn.microsoft.com/en-us/library/dd743572(v=vs.85).aspx)  
   
 ***  

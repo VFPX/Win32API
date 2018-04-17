@@ -3,8 +3,8 @@
 # The DetectAutoProxyUrl function identifies the auto-config script location
 
 ## Before you begin:
-Citing from the <a href="http://www.wlug.org.nz/WPAD">WLUG Wiki</a>:  
-> Internet Explorer has an **[x] Automatically detect settings** check box. This will cause the browser to search for the configuration file.   
+  
+Internet Explorer has an **[x] Automatically detect settings** check box. This will cause the browser to search for the configuration file.   
 
 If your *DomainName* is **machine.something.meta.net.nz** then InternetExplorer will request the following urls until it finds a WPAD configuration file.   
   

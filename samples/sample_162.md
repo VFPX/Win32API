@@ -131,8 +131,7 @@ PROCEDURE declare
 [GetModuleFileNameEx](../libraries/psapi/GetModuleFileNameEx.md)  
 [OpenProcess](../libraries/kernel32/OpenProcess.md)  
 
-## Comment:
-Microsoft Knowledge Base: <a href="http://support.microsoft.com/support/kb/articles/q175/0/30.asp">HOWTO: Enumerate Applications in Win32</A>  
+  
   
 ***  
 

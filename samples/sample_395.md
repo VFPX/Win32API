@@ -154,8 +154,7 @@ An application may use SetSuspendState to transition the system from the working
   
 To prevent the user from putting the computer in standby mode, the application must deny the PBT_APMQUERYSUSPEND event.  
   
-* * *  
-Read article <a href="http://www.enterprisenetworksandservers.com/monthly/art.php?1049">Programmatically Waking a Windows PC from Suspension</a> by Blake Thompson.  
+ 
   
 ***  
 

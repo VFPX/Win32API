@@ -104,8 +104,7 @@ In Windows all input/output ports are presented as files, so work with ports is 
   
 Code sample [Get the owner of an NTFS file](sample_433.md) works with serial ports as well as with regular files.  
   
-Check this MSDN article <a href="http://msdn.microsoft.com/library/default.asp?url=/library/en-us/dnwbgen/html/msdn_serial.asp">"Serial Communications in Win32"</a>.  
-  
+
 Check VB example [Using CreateFile to Determine Available COM Ports](http://vbnet.mvps.org/index.html?code/system/comtestapi.htm) on [VBNet](http://vbnet.mvps.org).  
   
 ***  

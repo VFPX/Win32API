@@ -164,7 +164,7 @@ The GetWindow function is used to obtain handles to all windows siblings to the 
   
 Ths PostMessage function called with WM_SYSCOMMAND and SC_CLOSE works more effectively.  
   
-That is for sure, the both ways can be of some sort destructive for the application. Especially the TerminateProcess is. Check description for <a href="http://msdn.microsoft.com/library/default.asp?url=/library/en-us/dllproc/prothred_1bg3.asp">this function</a> on the MSDN.  
+That is for sure, the both ways can be of some sort destructive for the application. Especially the TerminateProcess is. Check description for [this function](https://msdn.microsoft.com/en-us/library/windows/desktop/ms686714(v=vs.85).aspx) on the MSDN.  
   
 ***  
 

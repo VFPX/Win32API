@@ -100,9 +100,6 @@ PROCEDURE decl
 [WNetAddConnection](../libraries/mpr/WNetAddConnection.md)  
 [WNetGetLastError](../libraries/odbc32/WNetGetLastError.md)  
 
-## Comment:
-Links:  
-<a href="http://www.cae.wisc.edu/fsg/winnt/netuse.html">Using the **net use** command</a>.  
-  
+
 ***  
 

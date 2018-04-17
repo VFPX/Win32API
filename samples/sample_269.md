@@ -110,13 +110,8 @@ On target computer, TCP port 139 (NetBIOS) is assigned to receive messages.
   
 Also the NetMessageBufferSend function (Unicode-based) can be used for sending messages on a network. If compared to this function, the mailslot approach can send messages no longer than 128 characters. Though it returns much faster than sometimes the NetMessageBufferSend does.  
   
-* * *  
-<a href="http://support.microsoft.com/?kbid=823081">You cannot prevent the use of the NetMessageBufferSend function in Windows Messenger</a>  
-  
-<a href="http://support.microsoft.com/default.aspx?scid=kb;en-us;839018">The NET SEND command may not work correctly on a computer that is running Windows XP Service Pack 2</a>.  
-  
-<a href="http://support.microsoft.com/default.aspx?scid=KB;EN-US;Q302089&ID=KB;EN-US;Q302089&LN=EN-US&rnk=21&SD=tech&FR=0&qry=Type%20your%20Keywords%20or%20Question%20here%20and%20click%20go&src=DHCS_MSPSS_tech_SRCH&SPR=WINXP&">How to Prevent Windows Messenger from Running on a Windows XP-Based Computer</a>  
-  
+***  
+ 
 [Microsoft Messenger Removal](http://www.theeldergeek.com/messenger_removal.htm)  
   
 ***  

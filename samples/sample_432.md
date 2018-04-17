@@ -126,16 +126,10 @@ ENDDEFINE
 ## Comment:
 This technique *can not* be used to block CTRL+ALT+DEL combination of keys.  
   
-See also Microsoft Knowledge Base Article - 161133:  
-<a href="http://support.microsoft.com/default.aspx?scid=http://support.microsoft.com:80/support/kb/articles/Q161/1/33.asp&NoWebContent=1">HOWTO: Block CTRL+ALT+DEL and ALT+TAB in Windows 95 or Windows 98</a>.  
-  
+
 * * *  
-I found a discussion on the Expert-Exchange, <a href="http://www.experts-exchange.com/Programming/Programming_Languages/Visual_Basic/Q_21444794.html">Interrupt Handler for 0x19 (Ctrl+Alt+Del) in VB6</a>, that you may find interesting.  
+I found a discussion on the Expert-Exchange, [Interrupt Handler for 0x19 (Ctrl+Alt+Del) in VB6](http://www.experts-exchange.com/Programming/Programming_Languages/Visual_Basic/Q_21444794.html), that you may find interesting.  
   
-Then an article written by António Feijão, <a href="http://www.codeproject.com/win32/AntonioWinLock.asp">Lock Windows Desktop</a> seems to answer many if not all questions and even offers some downloads.  
-  
-* * *  
-Read article <a href="http://msdn.microsoft.com/msdnmag/issues/02/09/CQA/">Typename, Disabling Keys in Windows XP with TrapKeys</a> by Paul DiLascia.  
-  
+
 ***  
 

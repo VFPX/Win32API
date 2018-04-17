@@ -62,8 +62,7 @@ PROCEDURE declare
 ## Comment:
 The [GUID](https://en.wikipedia.org/wiki/Universally_unique_identifier) is a *unique* 128-bit integer used for [CLSID](https://msdn.microsoft.com/en-us/library/windows/desktop/ms691424(v=vs.85).aspx)s and interface identifiers.  
   
-See also Microsoft Knowledge Base Article 269387 <a href="http://support.microsoft.com/default.aspx?scid=http://support.microsoft.com:80/support/kb/articles/Q269/3/87.asp&NoWebContent=1">How To Obtain a GUID in Visual FoxPro</a>  
-  
+
 * * *  
 Having a connection to SQL Server, Guids can be generated with the NewId() function.
 

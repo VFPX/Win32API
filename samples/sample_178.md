@@ -20,7 +20,7 @@ lcFullPath = "C:\Program Files\Microsoft Office\Office\Binder.exe"
 * e.g. "C:\"
 ? "Path is root:", Iif(PathIsRoot(lcFullPath)=0, "No", "Yes")
 
-* e.g. "http://www.news2news.com/vfp/downloads/"
+* e.g. "https://github.com/VFPX/Win32API/tree/master/downloads/"
 ? "Path is URL:", Iif(PathIsURL(lcFullPath)=0, "No", "Yes")
 
 * any mapped network drive, or a network name like "\\prnserver"

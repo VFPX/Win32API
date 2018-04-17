@@ -410,13 +410,11 @@ Code rewritten: Dec.2, 2005
   
 Administrator, Power User, Print Operator, or Server Operator group membership is required to successfully execute the NetShareEnum function at levels 2 and 502.  
   
-The <a href="http://msdn.microsoft.com/library/default.asp?url=/library/en-us/dv_foxhelp/html/lngANETRESOURCESLP_RP.asp">ANETRESOURCES( )</a> function places the names of network shares or printers into an array and then returns the number of resources.  
-  
+
 * * *  
 
 ![](../images/wmiprops.png)
 
-Take a look at <a href="http://www.activexperts.com/activmonitor/windowsmanagement/adminscripts/filesfolders/sharedfolders/#EnumNetworkShares.htm">Scripts to manage Shared Folders</a> on ActiveXperts Software.  
-  
+
 ***  
 

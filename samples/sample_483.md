@@ -209,13 +209,11 @@ MD-5 is a one-way message-digest hash function. The algorithm processes input te
 MD-5 was developed by <a href="http://theory.lcs.mit.edu/~rivest/">Ron Rivest</a> and is intended to be used in digital signatures applications. Earlier message digest algorithms include obsolete MD-2 and MD-4.  
   
 See also:   
-* <a href="http://www.faqs.org/rfcs/rfc1321.html">RFC 1321 - The MD5 Message-Digest Algorithm</a>  
-* <a href="http://x5.net/faqs/crypto/q99.html">What are MD2, MD4, and MD5?</a>  
+* [RFC 1321 - The MD5 Message-Digest Algorithm](http://www.faqs.org/rfcs/rfc1321.html)  
+* [What are MD2, MD4, and MD5?](http://x5.net/faqs/crypto/q99.html)  
 * [Example C Program: Creating an MD-5 Hash From File Content.](https://msdn.microsoft.com/en-us/library/windows/desktop/aa382380(v=vs.85).aspx)
 * [MD5 Online Cracking using Rainbow Tables.](https://www.go4expert.com/articles/cracking-md5-hashes-using-rainbow-tables-t17240/)
-* <a href="http://www.faqs.org/rfcs/rfc3174">RFC 3174 - US Secure Hash Algorithm 1 (SHA1)</a>  
-* <a href="http://www.bloglines.com/blog/AlexFeldstein?id=273">More on Newly Broken SHA1 on Alex Feldstein"s blog</a>  
-* <a href="http://www.cryptography.com/cnews/hash.html">Hash Collisions Q&A</a>  
-  
+* [RFC 3174 - US Secure Hash Algorithm 1 (SHA1)](http://www.faqs.org/rfcs/rfc3174)  
+
 ***  
 

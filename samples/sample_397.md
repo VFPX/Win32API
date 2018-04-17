@@ -493,10 +493,10 @@ RETURN Chr(b0)+Chr(b1)+Chr(b2)+Chr(b3)
 ## Comment:
 *Nov. 26, 2003: code completely rewritten.*  
   
-Take a look at <a href="http://msdn.microsoft.com/library/default.asp?url=/library/en-us/winhttp/http/winhttp_reference.asp">About WinHTTP</a> page on MSDN.  
+Take a look at [About WinHTTP](https://msdn.microsoft.com/en-us/library/windows/desktop/aa382925(v=vs.85).aspx) page on MSDN.  
   
 * * *  
-Dec.26, 2006: For C++ part, install WinHttp 5.1 SDK. The most straightforward way of doing that is downloading 400Mb of <a href="http://www.microsoft.com/downloads/details.aspx?familyid=A55B6B43-E24F-4EA3-A93E-40C0EC4F68E5&displaylang=en">Windows� Server 2003 R2 Platform SDK</a>.  
+Dec.26, 2006: For C++ part, install WinHttp 5.1 SDK. The most straightforward way of doing that is downloading 400Mb of [Windows&reg; Server 2003 R2 Platform SDK](http://www.microsoft.com/downloads/details.aspx?familyid=A55B6B43-E24F-4EA3-A93E-40C0EC4F68E5&displaylang=en).  
 
 ***  
 

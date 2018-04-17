@@ -27,7 +27,7 @@ Check [similar example](sample_175.md) based on URL Monikers functions.
 
 	LOCAL lcBaseUrl, lcDstPath, hFile, lcFile
 
-	lcBaseUrl = "http://www.news2news.com/vfp/downloads/"
+	lcBaseUrl = "https://github.com/VFPX/Win32API/tree/master/downloads/"
 	lcFile    = "w32data.zip"	&& remote archive file with DBF tables
 	lcDstPath = "c:\Temp\"  && assign a destination directory
 

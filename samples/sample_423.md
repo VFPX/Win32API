@@ -302,10 +302,6 @@ RETURN Chr(b0)+Chr(b1)+Chr(b2)+Chr(b3)
 [mixerGetNumDevs](../libraries/winmm/mixerGetNumDevs.md)  
 [mixerOpen](../libraries/winmm/mixerOpen.md)  
 
-## Comment:
-Take a look at  
-* <a href="http://support.microsoft.com/default.aspx?scid=http://support.microsoft.com:80/support/kb/articles/Q178/4/56.asp&NoWebContent=1">Volume.exe: Set Volume Control Levels Using Visual Basic</a>  
-* <a href="http://msdn.microsoft.com/library/default.asp?url=/library/en-us/dnaskdr/html/askgui10162001.asp">Dr. GUI replies</a>  
-  
+
 ***  
 

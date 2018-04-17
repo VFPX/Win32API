@@ -358,9 +358,6 @@ When invoked, the *DrawLabel* method creates a temporary bitmap file and passes 
   
 Also the *Caption* property name is changed to *VCaption*, somehow the Caption is not accepted (VFP6).  
   
-* * *  
-The <a href="http://msdn.microsoft.com/library/default.asp?url=/library/en-us/dv_foxhelp9/html/b661b3b3-3776-4b37-bfd3-e4221f18f8b3.asp">Rotation</a> property has been added to standard *Label Control* in VFP9. It specifies a number of degrees to rotate a control in a *counterclockwise* direction.  
-  
-  
+
 ***  
 

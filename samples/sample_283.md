@@ -90,7 +90,6 @@ RETURN Asc(SUBSTR(lcBuffer, 1,1)) + ;
 ## Comment:
 Note that the declaration for the SystemParametersInfo varies depending on type of the returned parameter.  
   
-MSDN: <a href="http://msdn.microsoft.com/archive/default.asp?url=/archive/en-us/dnarvbtips/html/msdn_msdn192.asp">Tip 192: Selecting a New Desktop Wallpaper</a>  
-  
+
 ***  
 

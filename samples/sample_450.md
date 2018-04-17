@@ -1321,12 +1321,12 @@ RETURN Chr(MOD(m.lnValue,256)) + CHR(INT(m.lnValue/256))
 [StringFromGUID2](../libraries/ole32/StringFromGUID2.md)  
 
 ## Comment:
-Microsoft&reg; Windows&reg; GDI+ exposes a <a href="http://msdn.microsoft.com/library/default.asp?url=/library/en-us/gdicpp/GDIPlus/GDIPlusreference/flatapi.asp">flat application programming interface</a> (API) that consists of about 600 functions implemented in Gdiplus.dll.  
+Microsoft&reg; Windows&reg; GDI+ exposes a [flat application programming interface](https://msdn.microsoft.com/en-us/library/windows/desktop/ms533969(v=vs.85).aspx) (API) that consists of about 600 functions implemented in Gdiplus.dll.  
   
 ```dos
 C:\Program Files\Common Files\Microsoft Shared\VFP\gdiplus.dll
 ```
-Check if you have <a href="http://msdn.microsoft.com/library/default.asp?url=/library/en-us/gdicpp/GDIPlus/GDIPlus.asp">the latest version of gdiplus library</a> installed.  
+ 
 
   
 For C++ developers the functions in the GDI+ flat API are wrapped in about 40 C++ classes. Visual FoxPro developers are not able to instantiate any such class in pure FoxPro code. That is why the flat API makes a good choice.  
@@ -1340,17 +1340,9 @@ Articles of <a href="http://fox.wikis.com/wc.dll?Wiki~MarkusEgger~People">Markus
 * <a href="http://www.markusegger.com/Articles/Article.aspx?quickid=03050801">Using GDI+ in ASP.NET Web Applications, Part 1</a>  
 * <a href="http://www.markusegger.com/Articles/Article.aspx?quickid=0307031">Using GDI+ in ASP.NET Web Applications, Part 2</a>  
   
-<a href="http://foxpro.advisor.com/doc/14141">Using GDI+ in the VFP 9 Report Writer</a> by <a href="http://fox.wikis.com/wc.dll?Wiki~ChristofWollenhaupt">Christof Wollenhaupt</a> published in July 2004 issue of FoxPro Advisor.  
-  
-<a href="http://foxproadvisor.com/doc/12044">Get to Know .NET GDI+</a> by <a href="http://advisor.com/whome.nsf/y/YGETZK">Ken Getz</a> published in March 2003 issue of FoxPro Advisor.  
-  
+
 * * *  
-Aug.04, 2004: GDI+ Foundation Class to be shipped with VFP9 final release. Read <a href="http://www.pinpub.com./ME2/Audiences/dirmod.asp?sid=&nm=&type=pub&mod=Publications%3A%3AArticle&mid=8F3A7027421841978F18BE895F87F791&AudID=301888DF3BCF483382FC8A1382F3050B&tier=3&aid=C70E8322312C4E4E871C722D714B5937">Using GDI+ in VFP 9.0 with the FFC Library, Part 1</a> article in Fox Talk.  
-  
-Finally it is shipped on August 6, 2004.  
-  
-* * *  
-<a href="http://msdn.microsoft.com/library/default.asp?url=/library/en-us/dv_foxhelp9/html/c3b28578-7b4f-487f-9192-fb619ff83ad6.asp">BINTOC()</a> accepts new parameter in VFP9: bintoc(m.tW,"F") -- conversion to 32-bit float format. That probably makes conversion routines Int2Float and Float2Int in the code above obsolete.  
+BINTOC() accepts new parameter in VFP9: bintoc(m.tW,"F") -- conversion to 32-bit float format. That probably makes conversion routines Int2Float and Float2Int in the code above obsolete.  
   
 * * *  
 May 10, 2006: Names of properties of RECT class have been changed from (Left, Top, Width, Height) to (rleft, rtop, rwidth, rheight). RECTF, a subclass of RECT, could not properly access the methods of the parent class because of those risky names.  

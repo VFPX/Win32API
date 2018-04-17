@@ -10,7 +10,7 @@ This code sample explains how to add entries to event logs using Event Logging A
 ## Before you begin:
 Before testing this code sample, [register custom event log](sample_563.md) **MyEventLog**. Without MyEventLog properly registered, the code will automatically target the Application log.  
 
-![](../http://news2news.com/vfp/images/customeventlog.png)  
+![](../images/customeventlog.png)  
 
 See also:
 

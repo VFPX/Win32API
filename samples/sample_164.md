@@ -151,8 +151,6 @@ PROCEDURE  decl
 [Process32First](../libraries/kernel32/Process32First.md)  
 [Process32Next](../libraries/kernel32/Process32Next.md)  
 
-## Comment:
-Microsoft Knowledge Base: <a href="http://support.microsoft.com/support/kb/articles/q175/0/30.asp">HOWTO: Enumerate Applications in Win32</A>  
-  
+
 ***  
 

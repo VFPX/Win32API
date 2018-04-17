@@ -234,9 +234,7 @@ The sender application uses the *CopyToClip* method to copy records from the act
   
 The recipient can use either *AppendFromClip* or *NewFromClip* methods. The *AppendFromClip* appends records from the Clipboard to active alias (if any). The *NewFromClip* creates a new cursor with the structure and records retrieved from the Clipboard.  
   
-Here is another idea of a similar class, which can convert records to the HTML code and place this data on the Windows Clipboard in the *HTML Clipboard Format* (<a href="http://msdn.microsoft.com/library/default.asp?url=/workshop/networking/clipboard/htmlclipboard.asp">CF_HTML</a>). Immediately after that this data is available to all applications, which understand CF_HTML format.  
-  
-MSDN article: <a href="http://msdn.microsoft.com/library/default.asp?url=/library/en-us/winui/WinUI/WindowsUserInterface/DataExchange/Clipboard/UsingtheClipboard.asp">Using the Clipboard</a>.  
-  
+
+
 ***  
 

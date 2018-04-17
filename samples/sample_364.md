@@ -4,9 +4,8 @@
 
 ## Before you begin:
 ![](../images/shbrowse.png)  
-Starting with VFP7 the original <a href="http://msdn.microsoft.com/library/default.asp?url=/library/en-us/fox7help/html/lnggetdirlp_rp.asp">GETDIR</a> function is changed to be a wrapper around the SHBrowseForFolder function.  
+Starting with VFP7 the original GETDIR function is changed to be a wrapper around the SHBrowseForFolder function.  
 
-Check a <a href="http://www.tek-tips.com/gfaqs.cfm/pid/184/fid/1760">similar code</a> published in FoxTalk November 1999 by <a href="http://fox.wikis.com/wc.dll?Wiki~AndrewCoates~People">Andrew Coates</a>.
 
 See also:
 * [How to position the GETPRINTER() dialog](sample_482.md)

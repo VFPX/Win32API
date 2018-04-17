@@ -334,13 +334,8 @@ RETURN Chr(MOD(m.lnValue,256)) + CHR(INT(m.lnValue/256))
 [socket](../libraries/ws2_32/socket.md)  
 
 ## Comment:
-There is an article I would like to recommend -- <a href="http://www.vbip.com/winsock/winsock_ftp_01.asp">Secrets of FTP</a> -- on the VBIP site.   
-  
-It has been written for VB programmers learning how to use the Winsock control. Even if we are bound to Winsock API functions in Visual FoxPro, this article contains essential information for FTP programming with Winsock API.  
-  
-For downloading a file from the server change LIST to RETR command accompanied with a remote file name. The program code is very basic with a limited error checking, so may be start with downloading small files.  
-  
-FTP is an unusual service in that it utilizes two ports, a "data" port and a "command" port (also known as the control port). Another article I want to recommend is <a href="http://slacksite.com/other/ftp.html">Active FTP vs. Passive FTP, a Definitive Explanation</a> by Jay Ribak.  
+
+FTP is an unusual service in that it utilizes two ports, a "data" port and a "command" port (also known as the control port). Another article I want to recommend is [Active FTP vs. Passive FTP, a Definitive Explanation](http://slacksite.com/other/ftp.html) by Jay Ribak.  
   
 * * *  
 To create a passive data connection to an FTP server with WinINet, use INTERNET_FLAG_PASSIVE for *dwFlags* parameter in the InternetConnect call:  

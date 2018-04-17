@@ -313,7 +313,7 @@ Apr.15, 2008: C++ version added
 May 27, 2007: all capWindow functionality moved to Custom control  
 Oct.12, 2004: SaveToDib method captures and saves a single image as a device-independent bitmap (DIB).   
   
-<a href="http://msdn.microsoft.com/library/default.asp?url=/library/en-us/wiaaut/wia/wiax/overviews/startpagewiaaut.asp">Windows Image Acquisition Automation Layer</a>  
+[Windows Image Acquisition Automation Layer](https://msdn.microsoft.com/en-us/library/windows/desktop/ms630827(v=vs.85).aspx)  
   
 The Microsoft Windows Image Acquisition (WIA) Automation Layer 2.0 is a full-featured image manipulation component that provides end-to-end image processing capabilities. The WIA Automation Layer makes it easy to acquire images on digital cameras, scanners, or Web cameras, and to rotate, scale, and annotate your image files.   
   

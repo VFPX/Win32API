@@ -92,7 +92,5 @@ RETURN  Iif(BitAnd(lnBase, lnValue)=lnValue, "Yes","No")
 ## Comment:
 Remote Access Service (RAS) provides remote access capabilities to client applications on computers using Microsoft&reg; Windows&reg; 95 or later and Windows NT&reg; version 3.5 and later, including Windows 2000, operating systems.   
   
-<a href="http://msdn.microsoft.com/library/default.asp?url=/library/en-us/rras/hh/network/ras4over_71k5.asp">More on RAS</a>  
-  
 ***  
 

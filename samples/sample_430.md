@@ -277,10 +277,8 @@ Note that on the last sample, the *DrawFrame* method either stops playing the AV
   
 The set of DrawDib functions used in this example can be substituted with a call to the StretchDIBits.  
   
-* * *  
-<a href="http://www.vbaccelerator.com/home/VB/Code/Controls/AVI_Player/Transparent_AVI_Player/article.asp">Transparent AVI Player Control</a>  
-  
-* * *  
+
+***  
 Playing multimedia files in .NET code is a snap. Once you download and install DirectX SDK (merely 450 Mb) you are almost done.  
   
 ***  

@@ -89,8 +89,6 @@ Then the CloseWindow is applied to every handle to minimize the window.  This na
   
 Compare with the DestroyWindow. This name gives a clear idea of what this function really does.  
   
-See also:  
-Microsoft Help and Support: <a href="http://support.microsoft.com/?id=190355">How to re-create the Show Desktop icon on the Quick Launch bar</a>  
-  
+
 ***  
 

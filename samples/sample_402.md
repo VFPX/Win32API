@@ -118,8 +118,7 @@ RETURN Chr(b0)+Chr(b1)+Chr(b2)+Chr(b3)
 [GetWindowRect](../libraries/user32/GetWindowRect.md)  
 [ReleaseDC](../libraries/user32/ReleaseDC.md)  
 
-## Comment:
-Check <a href="http://msdn.microsoft.com/library/default.asp?url=/library/en-us/gdi/metafile_13s5.asp">Creating an Enhanced Metafile</a> example on MSDN.  
+ 
   
   
 ***  

@@ -16,7 +16,7 @@ DECLARE INTEGER URLDownloadToFile IN urlmon.dll;
 	INTEGER lpfnCB
 
 LOCAL cRemoteFile, cLocalFile, nResult
-cRemoteFile = "http://www.news2news.com/vfp/downloads/w32data.zip"
+cRemoteFile = "https://github.com/VFPX/Win32API/tree/master/downloads/w32data.zip"
 cLocalFile = "c:\temp\w32data.zip"
 
 WAIT WINDOW NOWAIT "Downloading file..."

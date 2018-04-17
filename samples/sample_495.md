@@ -286,11 +286,8 @@ Menu IDs in the Adobe Reader 8.1 seem to be different from those used in previou
 * * *  
 In Acrobat Reader 9 the class of the main window is "AcrobatSDIWindow", not "AdobeAcrobat" anymore. The number of open windows of this class corresponds to the the number of  PDF documents currently open. Each AcrobatSDIWindow has a separate menu. All main Acrobat windows are aware of  other open Acrobat documents.  
   
-* * *  
-Jan.26, 2009: Starting with version 9 of the Adobe Reader for Windows, may be even with an earlier 8+ version, the preference "Show each document in its own window (requires restart)" is no longer available. There is a <a href="http://kb.adobe.com/selfservice/viewContent.do?externalId=kb405108">TechNote from Adobe (kb405108)</a> explaining why such questionable decision was ever taken -- no more MDI.  
+
   
-* * *  
-Read on Adobe Solutions Network <a href="http://partners.adobe.com/public/developer/en/acrobat/sdk/pdf/iac/IACOverview.pdf">Acrobat Interapplication Communication Overview</a>.  
-  
+
 ***  
 

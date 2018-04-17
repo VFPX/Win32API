@@ -300,10 +300,7 @@ This picture shows corresponding properties:
 
 So with GDI+ you can scan JPEG and TIFF image files and check, for example, keywords or author name included. As you can see from this particular example, it is possible to add or modify metadata in image files.  
   
-Some links I saved for later on:  
-* <a href="http://www.php-websource.com/php436/source-exif.htm">http://www.php-websource.com/php436/source-exif.htm</a>  
-* <a href="http://www.opensource.apple.com/darwinsource/10.3/apache_mod_php-12/php/ext/exif/exif.c">http://www.opensource.apple.com/darwinsource/10.3/apache_mod_php-12/php/ext/exif/exif.c</a>  
-  
+
 And how do you like that:
 
 ```txt

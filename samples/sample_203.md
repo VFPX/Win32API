@@ -59,8 +59,6 @@ PROCEDURE  decl
 [GetWindowDC](../libraries/user32/GetWindowDC.md)  
 [ReleaseDC](../libraries/user32/ReleaseDC.md)  
 
-## Comment:
-Some info on <A Href="http://msdn.microsoft.com/library/default.asp?url=/library/en-us/winui/winclass_4lv7.asp">System Classes</A>.  
-  
+
 ***  
 

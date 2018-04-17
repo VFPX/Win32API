@@ -221,8 +221,7 @@ For example, English (United States) layout has a language identifier of 0x0409,
   
 The indentifiers in the list correspond to the current set of input locales used by the system. The LoadKeyboardLayout function activates selected input locale identifier.  
   
-* * *  
-<a href="http://www.microsoft.com/globaldev/reference/winxp/xp-lcid.mspx">List of Locale IDs, Input Locale, and Language Collection</a>  
+ 
   
 ***  
 

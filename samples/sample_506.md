@@ -216,8 +216,7 @@ RETURN Asc(SUBSTR(cBuffer, 1,1)) + ;
 [GlobalFree](../libraries/kernel32/GlobalFree.md)  
 
 ## Comment:
-<a href="http://www.dhcp-handbook.com/dhcp_faq.html">Dynamic Host Configuration Protocol (DHCP) FAQ</a>  
-  
+
 Christian Ehlscheid offered this code on UniversalThread as a solution for obtaining physical address (MAC address) for a given ip address:  
   
 ```foxpro

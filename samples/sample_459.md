@@ -232,7 +232,7 @@ The members of the Encoders/Decoderes Collection are instances of ImageCodecInfo
   
 On WinXP system (gdiplus.dll, Mar.29,2004) collection of Encoders includes 5 members: BMP, GIF, JPEG, PNG and TIFF.  
   
-<img src="images/net_imageformat_enum.png">  
+<img src="../images/net_imageformat_enum.png">  
   
 ***  
 

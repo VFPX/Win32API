@@ -123,7 +123,7 @@ RETURN
 [InternetQueryOption](../libraries/wininet/InternetQueryOption.md)  
 
 ## Comment:
-Here you can reach <a href="http://msdn.microsoft.com/library/default.asp?url=/library/en-us/wininet/wininet/option_flags.asp">complete list of Internet Option Flags</a> as long as presented link stays valid. The MSDN is known for its volatile links.  
+Here you can reach [complete list of Internet Option Flags](https://msdn.microsoft.com/en-us/library/windows/desktop/aa385328(v=vs.85).aspx) as long as presented link stays valid. The MSDN is known for its volatile links.  
   
 The testing of FTP status appears to be useful when you have connected to the FTP some time ago and want to validate the connection before exchanging data or sending commands.  
   

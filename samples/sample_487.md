@@ -146,7 +146,7 @@ To become a null-terminated array, these memory addresses must be put one after 
   
 So far these numbers are in FoxPro numeric format. This is something similar to *managed objects* in .Net. Technically I can not say how many bytes each numeric value takes and where exactly it resides in memory.  
   
-Somehow I need to convert them to 4-byte DWORDs. Three addresses, as three directories are searched, and five zero bytes, produce the total length of 17 bytes. I use num2dword() function to convert each number to 4-character string, which is the binary character representation of the DWORD format. In VFP9 you probably can use <a href="http://msdn.microsoft.com/library/default.asp?url=/library/en-us/dv_foxhelp9/html/c3b28578-7b4f-487f-9192-fb619ff83ad6.asp">BINTOC()</a> for this conversion.  
+Somehow I need to convert them to 4-byte DWORDs. Three addresses, as three directories are searched, and five zero bytes, produce the total length of 17 bytes. I use num2dword() function to convert each number to 4-character string, which is the binary character representation of the DWORD format. In VFP9 you probably can use BINTOC() for this conversion.  
   
 So now I have created the binary character representation for the array -- a string 17 characters long. I could use the GlobalAlloc again to allocate this string in memory and obtain its address.   
   

@@ -170,7 +170,7 @@ RETURN Asc(SUBSTR(lcBuffer, 1,1)) + ;
 ## Comment:
 There is no much sense in copying data from one Tree structure to another, except the showing a variety of information being stored in that part of the Windows Registry. Also it can give you an idea about adding new Data Source Names (DSN) programmatically.  
   
-An interesting MSDN article: <a href="http://msdn.microsoft.com/library/default.asp?url=/library/en-us/wp/htm/wpsecurentpreventodbctracing.asp">Securing Windows to Prevent ODBC Tracing</a>.  
+ 
   
 Try also Software\ODBC with a combination with HKEY_CURRENT_USER, and of course other parts of the Registry are available too.  
   

@@ -118,8 +118,6 @@ PROCEDURE  decl
 [NetApiBufferFree](../libraries/netapi32/NetApiBufferFree.md)  
 [NetConnectionEnum](../libraries/netapi32/NetConnectionEnum.md)  
 
-## Comment:
-See <a href="http://www.eu.microsoft.com/technet/treeview/default.asp?url=/technet/prodtechnol/windowsserver2003/proddocs/entserver/net_session.asp">NET SESSION</a> command.  
-  
+
 ***  
 

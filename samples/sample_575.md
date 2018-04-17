@@ -122,8 +122,8 @@ PROCEDURE SaveSelectionToICO
 	CATCH TO ex
 		MESSAGEBOX("To enable saving resource icons " +;
 			"to ICO files, download code sample #502 at " +;
-			"http" + ":/" + "/www.news2news.com/vfp/" +;
-			"?example=502 and save it in ResIconMgr.PRG file.",;
+			"https://github.com/VFPX/Win32API/blob/master/samples/sample_502.md" +;
+			" and save it in ResIconMgr.PRG file.",;
 			48,"Additional library required")
 	ENDTRY
 

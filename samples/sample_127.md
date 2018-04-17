@@ -123,8 +123,6 @@ ENDDEFINE
 [GetWindowRect](../libraries/user32/GetWindowRect.md)  
 [SetWindowRgn](../libraries/user32/SetWindowRgn.md)  
 
-## Comment:
-Visual FoxPro 8.0 Samples: <a href="http://msdn.microsoft.com/library/default.asp?url=/library/en-us/dv_foxhelp/html/samirregular_shaped_windows.asp">Creating Irregularly Shaped Windows Sample</a>.  
-  
+
 ***  
 

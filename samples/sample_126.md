@@ -172,7 +172,7 @@ ENDDEFINE
 [SetWindowRgn](../libraries/user32/SetWindowRgn.md)  
 
 ## Comment:
-Visual FoxPro 8.0 Samples: <a href="http://msdn.microsoft.com/library/default.asp?url=/library/en-us/dv_foxhelp/html/samirregular_shaped_windows.asp">Creating Irregularly Shaped Windows Sample</a>.  
+
   
 The SetLayeredWindowAttributes function can be used for creating transparent areas on forms, and even for making a [whole form partially or totally transparent](sample_453.md). A layered window is created by specifying WS_EX_LAYERED when creating the window with the CreateWindowEx function or by setting WS_EX_LAYERED via SetWindowLong after the window has been created.  
   

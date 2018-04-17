@@ -372,8 +372,6 @@ Practically, this is a bitmap file. All you have to do is to populate the BITMAP
 * * *  
 There is an issue not answered yet: the AVIStreamGetFrameOpen returns an error for some AVI files. Otherwise these are normal AVI files. I`m looking what can be done...  
   
-* * *  
-Read <a href="http://msdn.microsoft.com/library/default.asp?url=/library/en-us/dnnetcomp/html/scibf.asp">Saving a Control Image to a Bitmap File</a> article written by Geoff Schwab. It explains the bitmap structure in clear and simple words.  
-  
+
 ***  
 

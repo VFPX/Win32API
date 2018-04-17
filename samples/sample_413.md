@@ -246,9 +246,6 @@ After establishing a connection and sending messages the client program usually 
   
 List of local ports in use can be obtained through the system **NETSTAT** command, or use example in this reference [Displaying all TCP connections for the local system](sample_222.md) to get the list.  
   
-<a href="http://networking.earthweb.com/netsysm/article.php/937411">Working with the NETSTAT Command</a>.  
-  
-And there is a link with some TIME_WAIT related info on <a href="http://beta.experts-exchange.com/Programming/Programming_Languages/Visual_Basic/Q_20386408.html">Experts-Exchange</a> site.  
 
 ***  
 
