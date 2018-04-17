@@ -6,7 +6,6 @@
 This class operates with databases in the Object Store of Pocket PC. It implements enumerating, creating and deleting databases, reading, writing and deleting records in databases.  
 ***  
 
-
 ## Before you begin:
 ![](../images/pocketpcs.png)  
 

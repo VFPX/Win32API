@@ -12,7 +12,6 @@ Try similar example [Accessing examples contained in this reference through Web 
 
 ***  
 
-
 ## Code:
 ```foxpro  
 PUBLIC objForm

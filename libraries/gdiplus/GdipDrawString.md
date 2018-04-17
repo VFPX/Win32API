@@ -71,7 +71,6 @@ brush
 If the method succeeds, it returns Ok (0), which is an element of the Status enumeration.  
 ***  
 
-
 ## Comments:
 Note that the <Em>layoutRect</Em> structure contains four 32-bit float numbers, not four 32-bit INT numbers.  
   

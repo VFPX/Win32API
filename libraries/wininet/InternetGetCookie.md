@@ -4,7 +4,6 @@
 Group: [Internet Functions (WinInet)](../../functions_group.md#Internet_Functions_(WinInet))  -  Library: [wininet](../../Libraries.md#wininet)  
 ***  
 
-
 #### This function retrieves the cookie for the specified URL.
 ***  
 

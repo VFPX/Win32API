@@ -16,6 +16,7 @@ Register control before testing the VFP code below:
 This control has been created in VB6 and so -- alas! -- requires certain VB support files installed on your computer: 
 `MSVBVM60.DLL`
 
+
 See also:
 
 * [Adding icon to the systray (requires VFP9) ](sample_235.md)  

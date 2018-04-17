@@ -4,10 +4,8 @@
 Group: [Authentication](../../functions_group.md#Authentication)  -  Library: [winscard](../../Libraries.md#winscard)  
 ***  
 
-
 #### Establishes the resource manager context (the scope) within which database operations are performed.
 ***  
-
 
 ## Code examples:
 [Smart Card Database Query Functions](../../samples/sample_539.md)  

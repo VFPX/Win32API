@@ -7,7 +7,6 @@ Check reverse example [Converting a hexadecimal string to an integer](sample_107
   
 ***  
 
-
 ## Code:
 ```foxpro  
 ? int2hex(100)

@@ -9,7 +9,6 @@ Start Part A executable prior to the Part B.
   
 ***  
 
-
 ## Code:
 ```foxpro  
 PUBLIC frm, lcEventName

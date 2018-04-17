@@ -4,7 +4,6 @@
 Group: [Windows Multimedia](../../functions_group.md#Windows_Multimedia)  -  Library: [winmm](../../Libraries.md#winmm)  
 ***  
 
-
 #### Sends a short MIDI message to the specified MIDI output device.
 ***  
 

@@ -4,7 +4,6 @@
 Group: [Windows Sockets 2 (Winsock)](../../functions_group.md#Windows_Sockets_2_(Winsock))  -  Library: [ws2_32](../../Libraries.md#ws2_32)  
 ***  
 
-
 #### The getsockopt function retrieves a socket option.
 ***  
 

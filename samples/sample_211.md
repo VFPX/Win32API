@@ -12,7 +12,6 @@ Check more examples:
 * [Storing clipboard contents to a bitmap file](sample_189.md)  
 * [Using the LoadImage() to display a bitmap file on the main VFP window](sample_210.md)  
 
-  
 ***  
 
 

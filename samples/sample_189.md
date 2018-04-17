@@ -16,7 +16,7 @@ See also:
 * [How to print a bitmap file](sample_211.md)  
 * [GDI+: copying to the Clipboard (a) image of active FoxPro window/form, (b) image file](sample_457.md)  
 
-  
+ 
 ***  
 
 
