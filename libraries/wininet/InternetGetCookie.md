@@ -56,7 +56,7 @@ Returns TRUE if successful, or FALSE otherwise.
 
 
 ## Comments:
-See InternetSetCookie.  
+See [InternetSetCookie](InternetSetCookie.md).  
   
 ***  
 
