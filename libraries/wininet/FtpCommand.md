@@ -69,7 +69,7 @@ Returns TRUE if successful, or FALSE otherwise
 
 
 ## Comments:
-The complete list of service commands can be found in the <a href="http://www.faqs.org/rfcs/rfc765.html">FTP specification</a>.  
+The complete list of service commands can be found in the [FTP specification](http://www.faqs.org/rfcs/rfc765.html).  
   
 
 ***  

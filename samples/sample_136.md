@@ -90,7 +90,5 @@ A section in the Win.ini file must have the following form:
 key=string
 ```
 
-        
-  
 ***  
 

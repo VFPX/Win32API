@@ -8,7 +8,6 @@ Group: [Internet Functions (WinInet)](../../functions_group.md#Internet_Function
 #### Attempts to determine the location of a WPAD autoproxy script.
 ***  
 
-
 ## Code examples:
 [The DetectAutoProxyUrl function identifies the auto-config script location](../../samples/sample_341.md)  
 
@@ -51,7 +50,7 @@ Returns TRUE if successful, or FALSE otherwise.
 
 
 ## Comments:
-DetectAutoProxyUrl is called to identify a location (WPAD) from which to obtain the auto-config script. WPAD stands for <Em>Web Proxy Auto-Discovery</Em>.  
+DetectAutoProxyUrl is called to identify a location (WPAD) from which to obtain the auto-config script. WPAD stands for *Web Proxy Auto-Discovery*.  
   
 ***  
 

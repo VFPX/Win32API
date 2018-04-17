@@ -60,7 +60,6 @@ dwOptionalLength
 TRUE indicates success. FALSE indicates failure.   
 ***  
 
-
 ## Comments:
 See also: [HttpOpenRequest](HttpOpenRequest.md), [InternetQueryDataAvailable](InternetQueryDataAvailable.md), [InternetReadFile](InternetReadFile.md), [InternetCloseHandle](InternetCloseHandle.md).  
   

@@ -42,6 +42,7 @@ lpszCookieName
 
 lpszCookieData 
 [in] Address of the actual data to associate with the URL.   
+
 ***  
 
 

@@ -33,6 +33,7 @@ DECLARE INTEGER UnregisterHotKey IN user32;
 
 
 ## Parameters:
+
 hWnd
 [in] Handle to the window associated with the hot key to be freed.
 

@@ -55,7 +55,6 @@ lpdwBufferLength
 Returns TRUE if successful, or FALSE otherwise  
 ***  
 
-
 ## Comments:
 You can reach the full list of Internet Option Flags Constants at [Internet Option Flags Constants](https://msdn.microsoft.com/en-us/library/windows/desktop/aa385328(v=vs.85).aspx) at MSDN site.  
   

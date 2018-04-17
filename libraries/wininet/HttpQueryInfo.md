@@ -60,9 +60,8 @@ lpdwIndex
 Returns TRUE if successful, or FALSE otherwise.  
 ***  
 
-
 ## Comments:
-[Query Info Flags](https://msdn.microsoft.com/en-us/library/windows/desktop/aa385351(v=vs.85).aspx): The following lists contain the attributes and modifiers used by HttpQueryInfo and QueryInfo.  
+The following lists contain the attributes and modifiers used by HttpQueryInfo and QueryInfo: [Query Info Flags](https://msdn.microsoft.com/en-us/library/windows/desktop/aa385351(v=vs.85).aspx).  
   
 ***  
 
