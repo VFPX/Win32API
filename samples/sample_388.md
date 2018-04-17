@@ -21,10 +21,10 @@ See also:
 * [MAPI: reading email messages](sample_270.md)  
 * [Function MAPISendDocuments](../libraries/mapi32/MAPISendDocuments.md)   
 
-FoxTalk articles:  
+<!-- Anatoliy  FoxTalk articles:  
 * [Sending SMTP Messages in Visual FoxPro Applications, Part 1](?article=10)  
 * [Sending SMTP Messages in Visual FoxPro Applications, Part 2](?article=11)  
-* [Accessing Hotmail and MSN Accounts in Visual FoxPro](?article=9)   
+* [Accessing Hotmail and MSN Accounts in Visual FoxPro](?article=9)   -->
   
 ***  
 

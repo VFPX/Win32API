@@ -55,8 +55,10 @@ If the function succeeds, the function returns SCARD_S_SUCCESS (0).
 
 
 ## Comments:
+<!-- Anatoliy 
 Purchase complete VFP solution.  
 <a href="http://www.news2news.com/vfp/?solution=2&src=fn1132"><img src="../../images/acos3_270_48.png" width=270 height=48 border=0  vspace=5 hspace=5 alt="Download ACOS3 Class Library"></a>  
+--> 
   
 Upon successful call the <Em>phContext</Em> handle can be supplied to other functions attempting to do work within this context.  
   
@@ -66,7 +68,9 @@ The error code SCARD_E_NO_SERVICE (0x8010001D), <Em>"The smart card resource man
   
 The error code SCARD_E_NO_READERS_AVAILABLE (0x8010002E) speaks for itself.  
   
+
 See also: [SCardReleaseContext](../winscard/SCardReleaseContext.md).  
+
   
 ***  
 

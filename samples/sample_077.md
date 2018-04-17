@@ -5,7 +5,7 @@
 ## Before you begin:
 See also:
 
-* [LanguageBar ActiveX control](?solution=7)  
+<!-- Anatoliy * [LanguageBar ActiveX control](?solution=7)  --> 
 * [Saving available locale records into a cursor](sample_076.md)  
 * [Switching between keyboard layouts](sample_275.md)  
   

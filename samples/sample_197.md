@@ -4,9 +4,10 @@
 
 ## Before you begin:
 With this code you can reach the list of examples on this reference from your VFP application through HTTP connection.   
-
+<!-- Anatoliy *Many errors in this document!! delete it? (Tore Bleken) --> 
 ![](../images/rmt_shell.png)  
-Downloadable code samples are available for <a href="?generic=project#membership">registered annual subscribers</a>.  
+<!-- Anatoliy  Downloadable code samples are available for <a href="?generic=project#membership">registered annual subscribers</a>.
+-->
 
 Try similar example [Accessing examples contained in this reference through Web Services](sample_469.md) (requires VFP8).
 

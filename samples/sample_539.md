@@ -8,8 +8,9 @@
 The smart card resource manager manages the access to readers and smart cards. It identifies and tracks resources, allocates readers and resources across multiple applications, and supports transaction primitives for accessing services that are available on a specified smart card.  
 
 The Smart Card Database contains a list of known smart cards, the interfaces and primary service provider of each card, and known smart card readers and reader groups.</td></tr></table>  
-Purchase complete VFP solution.  
-<a href="http://www.news2news.com/vfp/?solution=2&src=x539"><img src="../images/acos3_270_48.png" width=270 height=48 border=0  vspace=5 hspace=5 alt="Download ACOS3 Class Library"></a>  
+
+<!-- Anatoliy  Purchase complete VFP solution.  
+<a href="http://www.news2news.com/vfp/?solution=2&src=x539"><img src="../images/acos3_270_48.png" width=270 height=48 border=0  vspace=5 hspace=5 alt="Download ACOS3 Class Library"></a>  --> 
   
 ***  
 

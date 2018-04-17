@@ -6,7 +6,8 @@
 See also:
 
 * [Custom FTP Class for Visual FoxPro application](sample_344.md)  
-* [Programming File Transfer Protocol in Visual FoxPro ](?article=3)  
+<!-- Anatoliy * [Programming File Transfer Protocol in Visual FoxPro ](?article=3)  
+--> 
   
 ***  
 

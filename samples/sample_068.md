@@ -2,12 +2,12 @@
 
 # Retrieving the state of your Internet connection
 
-## Before you begin:
+<!-- Anatoliy  ## Before you begin:
 <table cellspacing=3 cellpadding=0 border=0><tr><td valign=top><img src="../images/readarticle.gif" border=0></td><td valign=top class=fdescr><a href="?article=3">Programming File Transfer Protocol in Visual FoxPro </a></td></tr></table>  
 
   
 ***  
-
+-->
 
 ## Code:
 ```foxpro  

@@ -49,7 +49,7 @@ If the function succeeds, the return value is nonzero.
 ## Comments:
 Handle this function with care.  
   
-This function works similar to the <a href="http://support.microsoft.com/?kbid=205524">MOUNTVOL.EXE</a> utility -- <Em>creates, deletes, or lists a volume mount point</Em>.   
+This function works similar to the MOUNTVOL.EXE utility -- <Em>creates, deletes, or lists a volume mount point</Em>.   
 ```dos
 MOUNTVOL [drive:]path VolumeName  
 MOUNTVOL [drive:]path /D  

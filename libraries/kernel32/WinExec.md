@@ -74,8 +74,9 @@ The native VFP command RUN | ! Command probably uses the same way, though I feel
   
 Microsoft says:  
 If a malicious user were to create an application called "Program.exe" on a system, any program that incorrectly calls WinExec using the Program Files directory will run this application instead of the intended application.  
-  
-<a href="videos/WinExec.wmv">Watch a short video</a> to see how to use the WinExec in VFP.  
+
+<!-- Anatoliy  
+<a href="videos/WinExec.wmv">Watch a short video</a> to see how to use the WinExec in VFP.  -->
   
 ***  
 

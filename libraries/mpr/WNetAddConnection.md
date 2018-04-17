@@ -57,8 +57,6 @@ This function is provided only for compatibility with 16-bit versions of Windows
   
 Links:  
   
-<a href="http://www.cae.wisc.edu/fsg/winnt/netuse.html">Using the <Strong>net use</Strong> command</a>.  
-  
 [Command-line NT: It does exist!](https://www.itworld.com/article/2798267/operating-systems/command-line-nt--it-does-exist-.html)
   
 ***  

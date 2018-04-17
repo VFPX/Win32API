@@ -17,9 +17,10 @@ Also I tested the code with Microsoft LifeCam VS-6000 on Vista Business 64-bit P
 
 No ActiveX controls are required, actually not much of programming is required either. Two API functions, capCreateCaptureWindow and SendMessage do practically all the job. The FoxPro form hosts a child window (*the capture window*) connected to existing capturing driver.  
 
+<!-- Anatoliy 
 See also:
 
-* [FoxTalk article: Using the Video Capture API in Visual FoxPro](?article=8)  
+* [FoxTalk article: Using the Video Capture API in Visual FoxPro](?article=8)  --> 
   
 ***  
 

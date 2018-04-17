@@ -3,14 +3,17 @@
 # Using FtpCommand
 
 ## Before you begin:
+<!-- Anatoliy 
 <table cellspacing=3 cellpadding=0 border=0><tr><td valign=top><img src="../images/readarticle.gif" border=0></td><td valign=top class=fdescr><a href="?article=3">Programming File Transfer Protocol in Visual FoxPro </a></td></tr></table>  
+
+--> 
 See also:
 
 * [Winsock: accessing FTP](sample_386.md)  
-
+<!-- Anatoliy 
 Complete FTP solution:  
 <a href="http://www.news2news.com/vfp/?solution=1&src=x59"><img src="../images/ftplib_270_48.jpg" width=270 height=48 border=0  vspace=5 hspace=5 alt="Download FTP Class Library"></a>  
-
+--> 
   
 ***  
 

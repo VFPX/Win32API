@@ -3,13 +3,14 @@
 # How to change the name and the size of the font in the MessageBox dialog
 
 ## Before you begin:
+<!-- Anatoliy 
 <a href="?solution=3&src=x434" target=_blank><img src="../images/xmsg_270_48.png" border=0></a>  
 There is more advanced version of this code.   
 Click to open the [Extended MessageBox Library (FLL)](?solution=3&src=x434) web page.  
 
 * * *  
 <a href="http://www.news2news.com/vfp/?solution=3"><img src="../images/msgboxfont.png" width=406 height=255 border=0 alt="Download MsgBox FLL"></a>  
-This code sample demonstrates another hidden MessageBox capability that can be reached by FoxPro applications. See also [Using Extended MessageBox() Class](sample_424.md) example in this reference.  
+This code sample demonstrates another hidden MessageBox capability that can be reached by FoxPro applications. See also [Using Extended MessageBox() Class](sample_424.md) example in this reference.  --> 
 
 See also:
 * [How to position the GETPRINTER() dialog](sample_482.md)

@@ -18,7 +18,9 @@ See also:
 * [cropping images](sample_515.md)  
 * [rotating images](sample_525.md)  
 
-![](../images/Web gdiplus_transf.jpg)  
+<!-- Anatoliy 
+![](../images/Web gdiplus_transf.jpg)  --> 
+
 A transformation is a process that changes graphics objects from one state to another.   
 
 Rotation, scaling, reflection, translation, and shearing are some examples of transformation.   

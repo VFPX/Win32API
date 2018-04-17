@@ -13,13 +13,14 @@ The code is based on [custom GDI+ class](sample_450.md). Download the class modu
 Shuddering control may appear a good way to get user`s immediate attention. For example, when Purchase Order form opens, and the shipping date is not entered or overdue, the textbox hosting this value may start vibrate and thus can be easily spotted by the user.  
 
 It starts with creating a sequence of frames and storing them in memory. Each frame is an image of the control rotated by a certain small angle. When a shaking time comes, the actual control becomes hidden and a timer starts drawing frames upon its location. In this way, an illusion is created of the control shaking with the amplitude fading in a few seconds.  
+<!-- Anatoliy 
 <table border=0 cellspacing=0 cellpadding=0 class=fdescr><tr><td valign=top>  
 <a href="http://www.news2news.com/vfp/images/swf/buzzer/buzzer.html" target=_blank><img src="../images/buzzer.png" width=409 height=290 border=0 alt="flash demo" align=left hspace=5></a><a href="http://www.news2news.com/vfp/images/swf/buzzer/buzzer.html" target=_blank><img src="../images/adobeflashplayer.png" align=left border=0 hspace=5 vspace=5 alt="flash demo"></a>See a short demo displaying <a href="http://www.news2news.com/vfp/images/swf/buzzer/buzzer.html" target=_blank>a form with several controls</a>
 
 [Adobe Flash Player](http://www.adobe.com/products/flashplayer/) is required to view this demo.    
 
 Note that the demo is slower and less dynamic comparing to the actual form appearance.  
-</td></tr></table>  
+</td></tr></table>  --> 
 See also:
 
 * [Placing On-screen Alert on top of all windows](sample_504.md)  

@@ -16,10 +16,8 @@ In VFP9, this form also tracks input language changes initiated by a hot key or 
 See also:
 
 
-* [LanguageBar ActiveX control](?solution=7) 
-
-* <a href="?solution=7"><img src="solutions/images/langbar_control/langbar_contextmenu.png" border="0"></a>  
-
+<!-- Anatoliy  * [LanguageBar ActiveX control](?solution=7) -->
+<!-- Anatoliy  * <a href="?solution=7"><img src="solutions/images/langbar_control/langbar_contextmenu.png" border="0"></a>  -->
 * [Saving available locale records into a cursor](sample_076.md)  
 * [Retrieving national language settings](sample_077.md)  
 * [Capturing keyboard activity of another application using the Raw Input API](sample_572.md)  

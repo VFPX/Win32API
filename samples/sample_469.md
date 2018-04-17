@@ -2,25 +2,29 @@
 
 # Accessing examples contained in this reference through Web Services
 
-## Short description:
+<!-- Anatoliy --> 
+
+## Note that the samples in this document is designed to connect to a data source that is no longer available, so the code itself will not work as described. However, it can be useful to get ideas, so we have kept it.
+
 This code uses GetListOfExamples  and GetExample  functions wrapped in XML Web Service. Requires VFP versions 8 or 9.   
 ***  
 
 
 ## Before you begin:
+<!-- Anatoliy
 Get WSDL and description of exposed functions in this <a href="http://www.news2news.com/vfp/?article=5">article</a>. 
-
+ -->
 Use at least VFP8 to test this example.  
 
 ![](../images/rmt_shell.png)  
 
-See also:
+<!-- Anatoliy See also:
 
 * [ApiViewer for Visual FoxPro](http://www.news2news.com/vfp/?article=12)  
 
   
 ***  
-
+--> 
 
 ## Code:
 ```foxpro  
@@ -180,6 +184,7 @@ ENDDEFINE
 ## Listed functions:
 [ShellExecute](../libraries/shell32/ShellExecute.md)  
 
+<!-- Anatoliy 
 ## Comment:
 C# version of this code sample. Click on the image below to [download VS2008 C# project](../site/downloads/Win32_ExampleViewer_VS2008_prj.zip).   
 
@@ -194,4 +199,5 @@ Start new Windows Application project. Place on the form TabControl, ListBox, Te
 Add to the project new Web Reference pointing at <a href="http://www.news2news.com/vfp/wsdl/webservices.WSDL">http://www.news2news.com/vfp/wsdl/webservices.WSDL</a>.   
   
 ***  
+--> 
 

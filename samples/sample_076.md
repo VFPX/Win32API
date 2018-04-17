@@ -5,7 +5,7 @@
 ## Before you begin:
 See also:
 
-* [LanguageBar ActiveX control](?solution=7)  
+<!-- Anatoliy  * [LanguageBar ActiveX control](?solution=7)  -->
 * [Retrieving national language settings](sample_077.md)  
 * [Switching between keyboard layouts](sample_275.md)  
   

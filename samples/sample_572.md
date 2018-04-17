@@ -11,7 +11,7 @@ Note that this code sample requires VFP9 version of the <a href="http://msdn.mic
 
 See also:
 
-* [LanguageBar ActiveX control](?solution=7)  
+<!-- Anatoliy  * [LanguageBar ActiveX control](?solution=7)  --> 
 * [Enumerating raw input devices attached to the system](sample_571.md)  
 * [Switching between keyboard layouts](sample_275.md)  
 * [Disabling mouse and keyboard input for the main VFP window](sample_083.md)  

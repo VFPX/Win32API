@@ -68,8 +68,7 @@ Mapping a file makes the specified portion of the file visible in the address sp
   
 For files that are larger than your address space, you can only map a small portion of the file data at a time. When you are through with the first view, then you unmap it and map a new view.  
   
-Read an article on the Miscrosoft Help And Support web site: <a href="http://support.microsoft.com/default.aspx?scid=kb;en-us;188535">HOWTO: Sharing Data Between Processes Using Memory-Mapped Files</a>  
-  
+
 See also: [MapViewOfFileEx](..//MapViewOfFileEx.md), [OpenFileMapping](..//OpenFileMapping.md), [UnmapViewOfFile](../kernel32/UnmapViewOfFile.md).  
   
 ***  

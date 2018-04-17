@@ -3,6 +3,7 @@
 # Extended MessageBox Class
 
 ## Before you begin:
+<!-- Anatoliy  
 <a href="?solution=3&src=x418" target=_blank><img src="images/xmsg_270_48.png" border=0></a>  
 There is more advanced version of this code.   
 Click to open the [Extended MessageBox Library (FLL)](?solution=3&src=x418) web page.  
@@ -11,7 +12,7 @@ Click to open the [Extended MessageBox Library (FLL)](?solution=3&src=x418) web 
 
 Click to open the [Extended MessageBox .NET Assembly](?solution=5&src=x418) web page.  
 
-* * *  
+* * *  -->
 For all VFP versions this class extends regular MessageBox() function with:*  
 - dialog timeout interval  
 - adjustable button captions  

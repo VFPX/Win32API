@@ -15,10 +15,10 @@ This class is used as a base class for several custom RAPI classes created to ac
 * [Files and folders](sample_448.md)  
 * [Executing routines](sample_466.md)  
 
-See also:
+<!-- Anatoliy See also:
 
 * [FoxPro Advisor article: Access a Pocket PC from Visual FoxPro](?article=6)  
-* [FoxPro Advisor article: Access a Palm OS PDA from Visual FoxPro](?article=7)  
+* [FoxPro Advisor article: Access a Palm OS PDA from Visual FoxPro](?article=7)  --> 
   
 ***  
 

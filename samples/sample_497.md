@@ -181,11 +181,12 @@ ENDDEFINE
 ## Comment:
 Transparency settings (*crKey* and *bAlpha* parameters in SetLayeredWindowAttributes call) should be carefully picked to ensure menu readability.  
   
-* * *  
+<!-- Anatoliy 
+***  
 <a href="?solution=4&src=x497" style="color:#008000;">ContextMenu Control</a>
 
 Designed for generating and displaying shortcut menus on VFP forms. A generated menu is object-oriented: menu items are accessible during runtime, can be modified, added and deleted. A menu can be exported to XML string, as well as loaded from a XML string.  
 <a href="?solution=4&src=x497img"><img style="margin-top:10px;" src="http://www.news2news.com/vfp/solutions/images/context_menu/contextmenu_sample_green.png" border="0"></a>  
   
-***  
+***  --> 
 

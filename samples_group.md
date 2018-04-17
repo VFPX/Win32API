@@ -3073,7 +3073,7 @@ This code enumerates all windows starting from the Desktop window and displays r
 ## [Terminating all running applications from a VFP program](samples/sample_243.md)
 
 ## [Testing Transparent Menu Class with top-level form (requires VFP9)](samples/sample_497.md)
-The code creates top-level form with a menu. An instance of the [MenuManager class](sample_496.md) is used to make this menu semi-transparent. The form records to a cursor menu-related Windows messages and displays them in a listbox.
+The code creates top-level form with a menu. An instance of the [MenuManager class](samples/sample_496.md) is used to make this menu semi-transparent. The form records to a cursor menu-related Windows messages and displays them in a listbox.
   
 ## [The window and its ancestors](samples/sample_266.md)
 

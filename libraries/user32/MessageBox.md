@@ -65,11 +65,12 @@ Right-to-left MessageBox (see Usage code above):
 <img src="../../images/messagebox_rtl.png">  
   
 * * *  
+<!-- Anatoliy 
 Click on the picture below to download   
 Extended MessageBox library (FLL) for Visual FoxPro.  
   
 <a href="http://www.news2news.com/vfp/?solution=3"><img src="../../images/udficon_skype.png" border=0 alt="Download MsgBox FLL"></a>  
-
+--> 
   
 ***
 

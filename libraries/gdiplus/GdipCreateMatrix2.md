@@ -5,7 +5,7 @@ Group: [GDI+ Matrix](../../functions_group.md#GDIplus_Matrix)  -  Library: [gdip
 ***  
 
 
-#### Creates and initializes a a 3 ×3 matrix that represents an affine transformation.
+#### Creates and initializes a 3x3 matrix that represents an affine transformation.
 ***  
 
 
@@ -74,8 +74,7 @@ Returns GpStatus value; 0 means success.
 ## Comments:
 The affine transformation is a transformation that is a combination of single transformations such as translation or rotation or reflection on an axis.  
   
-Read <a href="http://www.bobpowell.net/mappingmodes.htm">Comparing GDI mapping modes with GDI+ transforms</a> and other articles on GDI+ written by Bob Powell, MVP.  
-  
+
 See also: [GdipCreateMatrix](../gdiplus/GdipCreateMatrix.md), [GdipDeleteMatrix](../gdiplus/GdipDeleteMatrix.md).  
   
 ***  

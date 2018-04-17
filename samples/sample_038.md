@@ -127,7 +127,8 @@ _screen.Visible = .T.
 Another option is using SCREEN=OFF and COMMAND settings in VFP configuration file. The COMMAND should start a program that sets application ID and then turns the main window on.  
   
 * * *  
-Setting application ID for an individual VFP top-level form requires access to the [IPropertyStore](http://msdn.microsoft.com/en-us/library/bb761474(v=vs.85).aspx) interface. Apparently it can be done only through writing an external library. A fragment of such FLL is shown in <a href="?example=38&ver=vcpp">C++ section</a> of this code sample.  
+<!-- Anatoliy 
+Setting application ID for an individual VFP top-level form requires access to the [IPropertyStore](http://msdn.microsoft.com/en-us/library/bb761474(v=vs.85).aspx) interface. Apparently it can be done only through writing an external library. A fragment of such FLL is shown in <a href="?example=38&ver=vcpp">C++ section</a> of this code sample. -->  
   
 * * *  
 If a window owns an explicit application ID, calling the GetProp with this window handle and property name "{9F4C2855-9F79-4B39-A8D0-E1D42DE1D5F3} 5" returns valid data handle (IPropertyStore ?).  

@@ -61,8 +61,6 @@ If the function succeeds, the return value is NO_ERROR (0).
 The ARP (<a href="http://www.erg.abdn.ac.uk/users/gorry/course/inet-pages/arp.html">Address Resolution Protocol</a>) request attempts to obtain the physical address (MAC address) that corresponds to this IP address.  
   
 * * *  
-<a href="http://www.dhcp-handbook.com/dhcp_faq.html">Dynamic Host Configuration Protocol (DHCP) FAQ</a>  
-  
 Christian Ehlscheid offered this code on UniversalThread as a solution for obtaining physical address for a given ip address:  
   
 ```foxpro
