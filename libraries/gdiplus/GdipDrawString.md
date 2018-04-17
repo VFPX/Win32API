@@ -75,7 +75,7 @@ If the method succeeds, it returns Ok (0), which is an element of the Status enu
 ## Comments:
 Note that the <Em>layoutRect</Em> structure contains four 32-bit float numbers, not four 32-bit INT numbers.  
   
-Presented in this reference <a href="?example=450">GDI+ class</a> uses <Em>float2int</Em> conversion routine to populate this structure:
+Presented in this reference [GDI+ class](../../samples/sample_450.md) uses <Em>float2int</Em> conversion routine to populate this structure:
 
 ```foxpro
 FUNCTION RECTF(nLeft, nTop, nRight, nBottom)  
