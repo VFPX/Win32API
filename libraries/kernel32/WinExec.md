@@ -3,6 +3,7 @@
 ## Function name : WinExec
 Group: [Process and Thread](../../functions_group.md#Process_and_Thread)  -  Library: [kernel32](../../Libraries.md#kernel32)  
 ***  
+### <font color="red">Note that this document contains some links to the old news2news website which does not work at the moment. This material will be available sometime in the future.</font>
 
 
 #### The WinExec function runs the specified application.
