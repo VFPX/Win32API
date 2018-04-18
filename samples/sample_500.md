@@ -2,10 +2,13 @@
 
 # How to display a user-defined icon in the MessageBox dialog
 
+## Note that this document contains some links to the old news2news website which does not work at the moment. This material will be available sometime in the future.
+
 ## Before you begin:
 Download [ResourceContainer.dll](../downloads/ResourceContainer.dll) before testing this code. This DLL is nothing more but a resource storage containing five icons. It does not require any installation procedure; just copy it to your FoxPro directory.
 
-<!-- Anatoliy <a href="http://www.news2news.com/vfp/?solution=3"><img src="../images/messageboxindirect.png" width=321 height=129 border=0 alt="Download MsgBox FLL"></a>  --> 
+<!-- Anatoliy -->
+<a href="http://www.news2news.com/vfp/?solution=3"><img src="../images/messageboxindirect.png" width=321 height=129 border=0 alt="Download MsgBox FLL"></a>  
 See also:
 
 * [How to change font name and size in the MessageBox dialog](sample_434.md)  

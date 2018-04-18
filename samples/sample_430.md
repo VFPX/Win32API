@@ -2,6 +2,8 @@
 
 # How to play AVI file on the _screen
 
+## Note that this document contains some links to the old news2news website which does not work at the moment. This material will be available sometime in the future.
+
 ## Before you begin:
 Custom class **Tavi** plays AVI files on main FoxPro window using API functions from *avifil32* and *msvfw32* libraries. Audio stream is not processed only to make this example more simple.  
 
@@ -13,7 +15,8 @@ See also:
 * [Displaying animated images](sample_355.md)  
 * [Form Magnifier](sample_414.md)  
 
-<!-- Anatoliy <a href="?solution=3&src=x430" target=_blank><img src="../images/xmsg_270_48.png" border=0></a>  --> 
+<!-- Anatoliy -->
+<a href="?solution=3&src=x430" target=_blank><img src="../images/xmsg_270_48.png" border=0></a>   
 
   
 ***  

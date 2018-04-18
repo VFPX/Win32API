@@ -2,6 +2,8 @@
 
 # Using Video Capture: displaying on FoxPro form frames and previewing video obtained from a digital camera
 
+## Note that this document contains some links to the old news2news website which does not work at the moment. This material will be available sometime in the future.
+
 ## Short description:
 The code sample shows how to display preview from a digital camera using Video Capture API. As well this API can display still frames and save frames to DIB files.  
 ***  
@@ -17,10 +19,10 @@ Also I tested the code with Microsoft LifeCam VS-6000 on Vista Business 64-bit P
 
 No ActiveX controls are required, actually not much of programming is required either. Two API functions, capCreateCaptureWindow and SendMessage do practically all the job. The FoxPro form hosts a child window (*the capture window*) connected to existing capturing driver.  
 
-<!-- Anatoliy 
+<!-- Anatoliy -->
 See also:
 
-* [FoxTalk article: Using the Video Capture API in Visual FoxPro](?article=8)  --> 
+* [FoxTalk article: Using the Video Capture API in Visual FoxPro](?article=8)   
   
 ***  
 

@@ -2,6 +2,8 @@
 
 # GDI+: Using Scale and Shear transformations
 
+## Note that this document contains some links to the old news2news website which does not work at the moment. This material will be available sometime in the future.
+
 ## Short description:
 A transformation is a process that changes graphics objects from one state to another. Rotation, scaling, reflection, translation, and shearing are some examples of transformation. Transformations can be applied to graphics shapes, curves, images and to image colors.
   
@@ -18,8 +20,8 @@ See also:
 * [cropping images](sample_515.md)  
 * [rotating images](sample_525.md)  
 
-<!-- Anatoliy 
-![](../images/Web gdiplus_transf.jpg)  --> 
+<!-- Anatoliy -->
+![](../images/Web gdiplus_transf.jpg)   
 
 A transformation is a process that changes graphics objects from one state to another.   
 

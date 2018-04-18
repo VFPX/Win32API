@@ -4,6 +4,9 @@
 Group: [Authentication](../../functions_group.md#Authentication)  -  Library: [winscard](../../Libraries.md#winscard)  
 ***  
 
+## Note that this document contains some links to the old news2news website which does not work at the moment. This material will be available sometime in the future.
+
+
 #### Establishes the resource manager context (the scope) within which database operations are performed.
 ***  
 
@@ -55,10 +58,10 @@ If the function succeeds, the function returns SCARD_S_SUCCESS (0).
 
 
 ## Comments:
-<!-- Anatoliy 
+<!-- Anatoliy -->
 Purchase complete VFP solution.  
 <a href="http://www.news2news.com/vfp/?solution=2&src=fn1132"><img src="../../images/acos3_270_48.png" width=270 height=48 border=0  vspace=5 hspace=5 alt="Download ACOS3 Class Library"></a>  
---> 
+
   
 Upon successful call the <Em>phContext</Em> handle can be supplied to other functions attempting to do work within this context.  
   

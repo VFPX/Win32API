@@ -2,6 +2,8 @@
 
 # Transparent Menu Class (requires VFP9)
 
+## Note that this document contains some links to the old news2news website which does not work at the moment. This material will be available sometime in the future.
+
 ## Short description:
 The SetLayeredWindowAttributes function sets the opacity and transparency color key of a layered window. All menu popups are layered windows, so this technique can be applied to them.  
 ***  
@@ -240,12 +242,12 @@ WM_SYSCOMMAND
 Several third-party Menu Builders -- <a href="http://fox.wikis.com/wc.dll?Wiki~VFEMenuBuilder">VFXMenuBuilder</a>, <a href="http://fox.wikis.com/wc.dll?Wiki~VFEMenuBuilder">VFEMenuBuilder</a>, <a href="http://fox.wikis.com/wc.dll?Wiki~VMPMenuBuilder">VMPMenuBuilder</a> and more probably coming -- all implement object-oriented menus.  
   
 * * *  
-<!-- Anatoliy 
+<!-- Anatoliy -->
 <a href="?solution=4&src=x496" style="color:#008000;">ContextMenu Control</a>
 
 Designed for generating and displaying shortcut menus on VFP forms. A generated menu is object-oriented: menu items are accessible during runtime, can be modified, added and deleted. A menu can be exported to XML string, as well as loaded from a XML string.  
 <a href="?solution=4&src=x496img"><img style="margin-top:10px;" src="http://www.news2news.com/vfp/solutions/images/context_menu/contextmenu_sample_green.png" border="0"></a>  
   
 ***  
---> 
+ 
 

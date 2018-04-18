@@ -2,6 +2,8 @@
 
 # Enumerating files opened on the network
 
+## Note that this document contains some links to the old news2news website which does not work at the moment. This material will be available sometime in the future.
+
 ## Before you begin:
 Usage:  
 ```foxpro
@@ -27,7 +29,8 @@ BROWSE NORMAL NOWAIT
 ```
 See also:
 
-<!-- Anatoliy * [FileSystemWatcher ActiveX Control for Visual FoxPro](?solution=8)  --> 
+<!-- Anatoliy -->
+* [FileSystemWatcher ActiveX Control for Visual FoxPro](?solution=8)   
 * [Monitoring changes in a directory](sample_117.md)  
 * [Enumerating global and local group accounts on a server](sample_411.md)  
 * [Obtaining names of local and global groups for current user](sample_431.md)  

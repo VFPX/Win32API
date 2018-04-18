@@ -2,6 +2,8 @@
 
 # Storing screen shot of a form to bitmap file
 
+## Note that this document contains some links to the old news2news website which does not work at the moment. This material will be available sometime in the future.
+
 ## Before you begin:
 Call this code from a VFP form to store its snapshot to a bitmap file (24-bpp). Make sure that the target file *(m.lcFilename)* is a valid path.  
 
@@ -10,7 +12,8 @@ Check similar example [Storing screen shot of a form to enhanced metafile (*.emf
 See also:
 
 
-<!-- Anatoliy <a href="http://www.news2news.com/vfp/?solution=9"><img src="../images/screencapture_270_48.png" width=270 height=48 border=0 alt="Download ScreenCapture Library">  --> 
+<!-- Anatoliy -->
+<a href="http://www.news2news.com/vfp/?solution=9"><img src="../images/screencapture_270_48.png" width=270 height=48 border=0 alt="Download ScreenCapture Library">   
 
 * [GDI+: saving image of FoxPro form to graphics file (BMP, GIF, JPG, PNG, TIF) ](sample_454.md)  
 * [Printing the image of a FoxPro form](sample_158.md)  

@@ -4,6 +4,7 @@
 Group: [Device Context](../../functions_group.md#Device_Context)  -  Library: [user32](../../Libraries.md#user32)  
 ***  
 
+## Note that this document contains some links to the old news2news website which does not work at the moment. This material will be available sometime in the future.
 
 #### The GetDC function retrieves a handle of a display device context (DC) for the client area of the specified window
 ***  
@@ -58,9 +59,9 @@ If the function succeeds, the return value identifies the device context for the
 
 
 ## Comments:
-<!-- Anatoliy 
+<!-- Anatoliy -->
 <a href="http://www.news2news.com/vfp/?article=12&src=GetDC"><img src="../../images/windowdevicecontexts.png" border=0></a>  
--->  
+
 See also: [GetWindowDC](../user32/GetWindowDC.md), [WindowFromDC](../user32/WindowFromDC.md).  
   
 ***  

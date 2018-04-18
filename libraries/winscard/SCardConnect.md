@@ -4,6 +4,7 @@
 Group: [Authentication](../../functions_group.md#Authentication)  -  Library: [winscard](../../Libraries.md#winscard)  
 ***  
 
+## Note that this document contains some links to the old news2news website which does not work at the moment. This material will be available sometime in the future.
 
 #### Establishes a connection (using a specific resource manager context) between the calling application and a smart card contained by a specific reader.
 
@@ -66,10 +67,10 @@ Returns SCARD_S_SUCCESS (0) or error code.
 
 
 ## Comments:
-<!-- Anatoliy  
+<!-- Anatoliy  -->
 Purchase complete VFP solution.  
 <a href="http://www.news2news.com/vfp/?solution=2&src=fn1140"><img src="../../images/acos3_270_48.png" width=270 height=48 border=0  vspace=5 hspace=5 alt="Download ACOS3 Class Library"></a>  
--->
+
 
 See also: [SCardReconnect](..//SCardReconnect.md), [SCardDisconnect](../winscard/SCardDisconnect.md).  
   

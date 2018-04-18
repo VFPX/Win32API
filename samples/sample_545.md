@@ -2,6 +2,8 @@
 
 # Enumerating devices installed on the local machine
 
+## Note that this document contains some links to the old news2news website which does not work at the moment. This material will be available sometime in the future.
+
 ## Short description:
 The PnP manager maintains a device tree that keeps track of the devices in the system.
 
@@ -552,7 +554,8 @@ RETURN Chr(b0)+Chr(b1)+Chr(b2)+Chr(b3)
 ## Comment:
 The device tree contains information about the devices present on the system. The PnP manager builds this tree when the machine boots, using information from drivers and other components, and updates the tree as devices are added or removed.  
   
-<!-- Anatoliy  The CM_Get_DevNode_Registry_Property_Ex function, while working perfectly fine, nevertheless is positioned as an outdated one by Microsoft recommending using the *<a href="http://www.news2news.com/vfp/?group=93">device installation functions</a>* (setupapi.dll) instead.  --> 
+<!-- Anatoliy --> 
+The CM_Get_DevNode_Registry_Property_Ex function, while working perfectly fine, nevertheless is positioned as an outdated one by Microsoft recommending using the *<a href="http://www.news2news.com/vfp/?group=93">device installation functions</a>* (setupapi.dll) instead.   
   
 * * *  
 <a href="http://support.microsoft.com/kb/311272">The DevCon command-line utility</a> functions as an alternative to Device Manager. Using DevCon, you can enable, disable, restart, update, remove, and query individual devices or groups of devices.  

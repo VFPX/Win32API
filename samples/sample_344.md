@@ -2,10 +2,12 @@
 
 # Custom FTP Class for Visual FoxPro application
 
+## Note that this document contains some links to the old news2news website which does not work at the moment. This material will be available sometime in the future.
+
 ## Before you begin:
-<!-- Anatoliy  
+<!-- Anatoliy  -->
 <table cellspacing=3 cellpadding=0 border=0><tr><td valign=top><img src="../images/readarticle.gif" border=0></td><td valign=top class=fdescr><a href="?article=3">Programming File Transfer Protocol in Visual FoxPro </a></td></tr></table>  
--->
+
 The class implements basic FTP operations: connection, directories, downloading and uploading files. All functionality comes from the Microsoft Wininet API library.  
 
 Simple FTP manager form built on this class:  
@@ -47,8 +49,10 @@ See also:
 * [Winsock: accessing FTP](sample_386.md)  
 * [Using FTPCommand](sample_059.md)  
 
-<!-- Anatoliy  More advanced VFP-based FTP solution:  
-<a href="http://www.news2news.com/vfp/?solution=1&src=x344"><img src="../images/ftplib_270_48.jpg" width=270 height=48 border=0  vspace=5 hspace=5 alt="Download FTP Class Library"></a>  -->
+<!-- Anatoliy --> 
+
+More advanced VFP-based FTP solution:  
+<a href="http://www.news2news.com/vfp/?solution=1&src=x344"><img src="../images/ftplib_270_48.jpg" width=270 height=48 border=0  vspace=5 hspace=5 alt="Download FTP Class Library"></a>  
   
 ***  
 

@@ -2,6 +2,8 @@
 
 # Winsock: reading email messages (POP3, port 110)
 
+## Note that this document contains some links to the old news2news website which does not work at the moment. This material will be available sometime in the future.
+
 ## Before you begin:
 This code returns number of incoming email messages waiting on a POP3 server without opening your default email client (Outlook Express, GoupWise, Eudora etc.).  
 
@@ -21,10 +23,11 @@ See also:
 * [MAPI: reading email messages](sample_270.md)  
 * [Function MAPISendDocuments](../libraries/mapi32/MAPISendDocuments.md)   
 
-<!-- Anatoliy  FoxTalk articles:  
+<!-- Anatoliy --> 
+FoxTalk articles:  
 * [Sending SMTP Messages in Visual FoxPro Applications, Part 1](?article=10)  
 * [Sending SMTP Messages in Visual FoxPro Applications, Part 2](?article=11)  
-* [Accessing Hotmail and MSN Accounts in Visual FoxPro](?article=9)   -->
+* [Accessing Hotmail and MSN Accounts in Visual FoxPro](?article=9)   
   
 ***  
 

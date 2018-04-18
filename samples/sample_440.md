@@ -2,6 +2,8 @@
 
 # Pocket PC: base class
 
+## Note that this document contains some links to the old news2news website which does not work at the moment. This material will be available sometime in the future.
+
 ## Short description:
 This class is used as a base class for several custom RAPI classes created to access objects stored on Pocket PC: system registry, object store databases, files and folder, remote routines.  
 ***  
@@ -15,10 +17,11 @@ This class is used as a base class for several custom RAPI classes created to ac
 * [Files and folders](sample_448.md)  
 * [Executing routines](sample_466.md)  
 
-<!-- Anatoliy See also:
+<!-- Anatoliy -->
+See also:
 
 * [FoxPro Advisor article: Access a Pocket PC from Visual FoxPro](?article=6)  
-* [FoxPro Advisor article: Access a Palm OS PDA from Visual FoxPro](?article=7)  --> 
+* [FoxPro Advisor article: Access a Palm OS PDA from Visual FoxPro](?article=7)   
   
 ***  
 

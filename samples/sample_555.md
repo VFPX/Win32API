@@ -2,12 +2,15 @@
 
 # Printing Image File, programmatically set print page orientation to landscape
 
+## Note that this document contains some links to the old news2news website which does not work at the moment. This material will be available sometime in the future.
+
 ## Before you begin:
 The images in this code sample are handled with the help of GDI+ objects instantiated from [VFP library of GDI+ classes](sample_450.md). Download the library module first and save it in *gdiplus.prg* file.   
 
 See also:
   
-<!-- Anatoliy  <a href="http://www.news2news.com/vfp/?solution=9"><img src="../images/screencapture_270_48.png" width=270 height=48 border=0 alt="Download ScreenCapture Library"></a>  --> 
+<!-- Anatoliy --> 
+<a href="http://www.news2news.com/vfp/?solution=9"><img src="../images/screencapture_270_48.png" width=270 height=48 border=0 alt="Download ScreenCapture Library"></a>   
 
   
 ***  

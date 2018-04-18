@@ -2,6 +2,8 @@
 
 # How to print FoxPro form
 
+## Note that this document contains some links to the old news2news website which does not work at the moment. This material will be available sometime in the future.
+
 ## Before you begin:
 Call this code from a method or event of FoxPro form to print image of the form on your default printer.   
 
@@ -10,7 +12,8 @@ The window handle of the form is obtained through GetFocus function. For that a 
 See also:
 
 
-<!-- Anatoliy <a href="http://www.news2news.com/vfp/?solution=9"><img src="../images/screencapture_270_48.png" width=270 height=48 border=0 alt="Download ScreenCapture Library"></a>  --> 
+<!-- Anatoliy -->
+<a href="http://www.news2news.com/vfp/?solution=9"><img src="../images/screencapture_270_48.png" width=270 height=48 border=0 alt="Download ScreenCapture Library"></a>   
 
 * [How to print a FoxPro form using Metafile API functions](sample_406.md)  
 * [GDI+: sending image of FoxPro form to printer ](sample_455.md)  

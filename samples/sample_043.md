@@ -2,12 +2,16 @@
 
 # How to download a file from the FTP server using FtpGetFile
 
+## Note that this document contains some links to the old news2news website which does not work at the moment. This material will be available sometime in the future.
+
+
 ## Before you begin:
 See also:
 
 * [Custom FTP Class for Visual FoxPro application](sample_344.md)  
-<!-- Anatoliy * [Programming File Transfer Protocol in Visual FoxPro ](?article=3)  
---> 
+<!-- Anatoliy --> 
+* [Programming File Transfer Protocol in Visual FoxPro ](?article=3)  
+
   
 ***  
 

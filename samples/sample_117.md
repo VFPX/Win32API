@@ -2,6 +2,8 @@
 
 # Monitoring changes in a directory
 
+## Note that this document contains some links to the old news2news website which does not work at the moment. This material will be available sometime in the future.
+
 ## Before you begin:
 Imagine that an application needs to be notified upon file changes in a particular directory: files added or deleted, changed, or accessed. The ChangeNotification function is an answer.   
 
@@ -9,7 +11,8 @@ After starting this code sample, try to add, change or delete files in the targe
 
 See also::
 
-<!-- Anatoliy * [FileSystemWatcher ActiveX Control for Visual FoxPro](?solution=8)  --> 
+<!-- Anatoliy -->
+* [FileSystemWatcher ActiveX Control for Visual FoxPro](?solution=8)   
 * [Monitoring changes occurring within a directory](sample_400.md)  
 * [Enumerating files opened on the network](sample_121.md)  
   

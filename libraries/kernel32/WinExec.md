@@ -3,7 +3,7 @@
 ## Function name : WinExec
 Group: [Process and Thread](../../functions_group.md#Process_and_Thread)  -  Library: [kernel32](../../Libraries.md#kernel32)  
 ***  
-### <font color="red">Note that this document contains some links to the old news2news website which does not work at the moment. This material will be available sometime in the future.</font>
+## Note that this document contains some links to the old news2news website which does not work at the moment. This material will be available sometime in the future.
 
 
 #### The WinExec function runs the specified application.
@@ -76,8 +76,8 @@ The native VFP command RUN | ! Command probably uses the same way, though I feel
 Microsoft says:  
 If a malicious user were to create an application called "Program.exe" on a system, any program that incorrectly calls WinExec using the Program Files directory will run this application instead of the intended application.  
 
-<!-- Anatoliy  
-<a href="videos/WinExec.wmv">Watch a short video</a> to see how to use the WinExec in VFP.  -->
+<!-- Anatoliy --> 
+<a href="videos/WinExec.wmv">Watch a short video</a> to see how to use the WinExec in VFP.  
   
 ***  
 

@@ -2,10 +2,14 @@
 
 # Retrieving national language settings
 
+## Note that this document contains some links to the old news2news website which does not work at the moment. This material will be available sometime in the future.
+
+
 ## Before you begin:
 See also:
 
-<!-- Anatoliy * [LanguageBar ActiveX control](?solution=7)  --> 
+<!-- Anatoliy -->
+* [LanguageBar ActiveX control](?solution=7)   
 * [Saving available locale records into a cursor](sample_076.md)  
 * [Switching between keyboard layouts](sample_275.md)  
   

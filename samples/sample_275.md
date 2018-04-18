@@ -2,6 +2,8 @@
 
 # Switching between keyboard layouts
 
+## Note that this document contains some links to the old news2news website which does not work at the moment. This material will be available sometime in the future.
+
 ## Before you begin:
 The form in this code sample displays input languages available for the current process and allows switching between them.  
 
@@ -16,8 +18,10 @@ In VFP9, this form also tracks input language changes initiated by a hot key or 
 See also:
 
 
-<!-- Anatoliy  * [LanguageBar ActiveX control](?solution=7) -->
-<!-- Anatoliy  * <a href="?solution=7"><img src="solutions/images/langbar_control/langbar_contextmenu.png" border="0"></a>  -->
+<!-- Anatoliy --> 
+* [LanguageBar ActiveX control](?solution=7)  
+<!-- Anatoliy -->
+* <a href="?solution=7"><img src="solutions/images/langbar_control/langbar_contextmenu.png" border="0"></a>  
 * [Saving available locale records into a cursor](sample_076.md)  
 * [Retrieving national language settings](sample_077.md)  
 * [Capturing keyboard activity of another application using the Raw Input API](sample_572.md)  

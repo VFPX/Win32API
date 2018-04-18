@@ -4,6 +4,8 @@
 Group: [Authentication](../../functions_group.md#Authentication)  -  Library: [winscard](../../Libraries.md#winscard)  
 ***  
 
+## Note that this document contains some links to the old news2news website which does not work at the moment. This material will be available sometime in the future.
+
 
 #### Sends a service request to the smart card and expects to receive data back from the card.
 ***  
@@ -69,10 +71,10 @@ Returns SCARD_S_SUCCESS (0) or error code.
 
 ## Comments:
 
-<!-- Anatoliy 
+<!-- Anatoliy -->
 Purchase complete VFP solution.  
 <a href="http://www.news2news.com/vfp/?solution=2&src=fn1143"><img src="../../images/acos3_270_48.png" width=270 height=48 border=0  vspace=5 hspace=5 alt="Download ACOS3 Class Library"></a>  
---> 
+  
 
 The SCardTransmit function is a smart card and reader access function.  
   

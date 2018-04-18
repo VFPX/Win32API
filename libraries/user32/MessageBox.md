@@ -3,6 +3,7 @@
 ## Function name : MessageBox
 Group: [Dialog Box](../../functions_group.md#Dialog_Box)  -  Library: [user32](../../Libraries.md#user32)  
 ***  
+## Note that this document contains some links to the old news2news website which does not work at the moment. This material will be available sometime in the future.
 
 
 #### Creates, displays, and operates a message box. The message box contains an application-defined message and title, plus any combination of predefined icons and push buttons
@@ -65,12 +66,14 @@ Right-to-left MessageBox (see Usage code above):
 <img src="../../images/messagebox_rtl.png">  
   
 * * *  
-<!-- Anatoliy 
+<!-- Anatoliy -->
+
+
 Click on the picture below to download   
 Extended MessageBox library (FLL) for Visual FoxPro.  
   
 <a href="http://www.news2news.com/vfp/?solution=3"><img src="../../images/udficon_skype.png" border=0 alt="Download MsgBox FLL"></a>  
---> 
+
   
 ***
 

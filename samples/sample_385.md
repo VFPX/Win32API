@@ -2,6 +2,8 @@
 
 # Winsock: sending email messages (SMTP, port 25)
 
+## Note that this document contains some links to the old news2news website which does not work at the moment. This material will be available sometime in the future.
+
 ## Before you begin:
 To initialize the TSmtp object, provide valid SMTP server name and email addresses for both the sender and the recipient.  
 ![](../images/socksmtp.png)  
@@ -14,11 +16,11 @@ See also:
 * [MAPI: reading email messages](sample_270.md)  
 * [Function MAPISendDocuments](../libraries/mapi32/MAPISendDocuments.md)   
 
-<!-- Anatoliy  
+<!-- Anatoliy -->
 FoxTalk articles:  
 * [Sending SMTP Messages in Visual FoxPro Applications, Part 1](?article=10)  
 * [Sending SMTP Messages in Visual FoxPro Applications, Part 2](?article=11)  
-* [Accessing Hotmail and MSN Accounts in Visual FoxPro](?article=9)  -->
+* [Accessing Hotmail and MSN Accounts in Visual FoxPro](?article=9)  
   
 ***  
 

@@ -2,6 +2,8 @@
 
 # Winsock: retrieving directory listing from an FTP server using passive data connection (FTP, port 21)
 
+## Note that this document contains some links to the old news2news website which does not work at the moment. This material will be available sometime in the future.
+
 ## Before you begin:
 This example shows how to connect to an FTP server using the anonymous access, and then establishing passive mode data connection to retrieve a directory listing.  
 
@@ -11,8 +13,9 @@ Related exampleSee also:
 * [Wininet: custom FTP class](sample_344.md)  
 * [Using FTPCommand](sample_059.md)  
 
-<!-- Anatoliy  Complete FTP solution:  
-<a href="http://www.news2news.com/vfp/?solution=1&src=x386"><img src="../images/ftplib_270_48.jpg" width=270 height=48 border=0  vspace=5 hspace=5 alt="Download FTP Class Library"></a> -->
+<!-- Anatoliy --> 
+Complete FTP solution:  
+<a href="http://www.news2news.com/vfp/?solution=1&src=x386"><img src="../images/ftplib_270_48.jpg" width=270 height=48 border=0  vspace=5 hspace=5 alt="Download FTP Class Library"></a> 
   
 ***  
 

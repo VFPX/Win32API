@@ -2,6 +2,8 @@
 
 # Capturing keyboard activity of another application with the Raw Input API (VFP9)
 
+## Note that this document contains some links to the old news2news website which does not work at the moment. This material will be available sometime in the future.
+
 ## Before you begin:
 In this code sample, VFP form registers for receiving the [raw input](http://msdn.microsoft.com/en-us/library/ms645543(v=vs.85).aspx) from each and any keyboard type device connected to the computer. That includes keyboards, numeric keypads, keyboard wedge scanners and so on.  
 
@@ -11,7 +13,8 @@ Note that this code sample requires VFP9 version of the <a href="http://msdn.mic
 
 See also:
 
-<!-- Anatoliy  * [LanguageBar ActiveX control](?solution=7)  --> 
+<!-- Anatoliy --> 
+* [LanguageBar ActiveX control](?solution=7)   
 * [Enumerating raw input devices attached to the system](sample_571.md)  
 * [Switching between keyboard layouts](sample_275.md)  
 * [Disabling mouse and keyboard input for the main VFP window](sample_083.md)  

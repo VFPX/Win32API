@@ -2,10 +2,13 @@
 
 # Saving available locale records into a cursor
 
+## Note that this document contains some links to the old news2news website which does not work at the moment. This material will be available sometime in the future.
+
 ## Before you begin:
 See also:
 
-<!-- Anatoliy  * [LanguageBar ActiveX control](?solution=7)  -->
+<!-- Anatoliy --> 
+* [LanguageBar ActiveX control](?solution=7)  
 * [Retrieving national language settings](sample_077.md)  
 * [Switching between keyboard layouts](sample_275.md)  
   
