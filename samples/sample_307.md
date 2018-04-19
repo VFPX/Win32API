@@ -3,7 +3,7 @@
 # How to intercept window messages sent to VFP form
 
 ## Before you begin:
-Before testing this code download [WinProcXT.dll](../downloads\WinProcXT.dll) to a local directory and register it:
+Before testing this code download [WinProcXT.dll](../downloads/WinProcXT.dll) to a local directory and register it:
 
 ```txt
 regsvr32 c:\temp\WinProcXT.dll
