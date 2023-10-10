@@ -122,7 +122,7 @@ RETURN lResult
 PROTECTED FUNCTION cn(hSocket, cIP, nPort)
 	LOCAL cBuffer, nResult
 	cBuffer = num2word(AF_INET) +;
-		num2word(htons(nPort)) +;
+		num2word(BitClear(htons(nPort),16)) +;
 		num2dword(inet_addr(cIP)) + Repli(Chr(0),8)
 	nResult = ws_connect(hSocket, @cBuffer, Len(cBuffer))
 RETURN (nResult = 0)
