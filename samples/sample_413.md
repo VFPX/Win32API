@@ -206,7 +206,7 @@ RETURN (lnInitResult = 0)
 
 FUNCTION GetBindBuf(cIP, nPort)
 	LOCAL cBuffer, cPort, cHost
-	cPort = num2word(htons(nPort))
+	cPort = num2word(BitClear(htons(nPort),16))
 	cHost = num2dword(inet_addr(cIP))
 RETURN num2word(AF_INET) + cPort + cHost + Repli(Chr(0),8)
 
