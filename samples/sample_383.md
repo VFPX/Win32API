@@ -96,7 +96,7 @@ PROCEDURE HTTPGetData(cUrl)
 FUNCTION ConnectTo(hSocket, cHostIP, nPort)
 * connects to remote host through a specified socket
 	LOCAL cBuffer, cPort, cHost
-	cPort = num2word(htons(nPort))
+	cPort = num2word(BitClear(htons(nPort),16))
 	nHost = inet_addr(cHostIP)
 	cHost = num2dword(nHost)
 	cBuffer = num2word(AF_INET) + cPort + cHost + Repli(Chr(0),8)
