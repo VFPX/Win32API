@@ -137,7 +137,7 @@ RETURN inet_ntoa(buf2dword(m.cIP))
 
 PROTECTED FUNCTION ConnectTo
 	LOCAL cBuffer, cPort, cHost, lResult
-	cPort = num2word(htons(SMTP_PORT))
+	cPort = num2word(BitClear(htons(SMTP_PORT),16))
 	nHost = inet_addr(THIS.IP)
 	cHost = num2dword(nHost)
 	cBuffer = num2word(AF_INET) + cPort + cHost + REPLICATE(CHR(0),8)
