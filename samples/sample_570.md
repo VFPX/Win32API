@@ -79,7 +79,7 @@ RETURN (nInitResult=0)
 FUNCTION GetSocaddrIn(cIP As String,;
 	nPort As Number) As String
 	LOCAL cBuffer, cPort, cHost
-	cPort = num2word(htons(nPort))
+	cPort = num2word(BitClear(htons(nPort),16))
 	cHost = num2dword(inet_addr(cIP))
 RETURN num2word(AF_INET) + m.cPort +;
 	m.cHost + REPLICATE(CHR(0),8)
