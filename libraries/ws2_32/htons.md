@@ -51,27 +51,26 @@ The htons function returns the value in TCP/IP network byte order.
 ***  
 
 ## Hints:
-On newer Windows Systems htons returns 16th bit set.
+On newer Windows Systems htons sets bits after the 15th bit.
 Example:
 ```foxpro  
 ? htons(465)
 ```
 This returns on 32bit Systems the Value 53505, on 64bit Systems on newer Windows Version it returns 119041.
-When converting to binary it is clear, that the 16th bit is set
+When converting to binary it is clear, that the 16th bit is set:
 ```
 01101000100000001 -> 53505
 11101000100000001 -> 119041
 ```
-This causes some code to fail when the num2word function is used:
+
+Other values have other bits set. This causes some code to fail when the num2word function is used:
 ```foxpro
-  FUNCTION num2word(lnValue)
-  RETURN Chr(MOD(m.lnValue,256)) + CHR(INT(m.lnValue/256))
+FUNCTION num2word(lnValue)
+RETURN Chr(MOD(m.lnValue,256)) + CHR(INT(m.lnValue/256))
 ```
-To resolve this (code is working after as excepted) clear the 16th bit:
+To resolve this, ignore everything after the 15th bit:
 ```foxpro
-  FUNCTION num2word(lnValue)
-  lnValue = BITCLEAR(lnValue,16)
-  RETURN Chr(MOD(m.lnValue,256)) + CHR(INT(m.lnValue/256))
+=num2word(BITAND(htons(587),65535))
 ```
 
 ***  
