@@ -9,7 +9,7 @@ Like TCP (Transmission Control Protocol), UDP is used with IP (the Internet Prot
 
 Unlike TCP, UDP is connectionless and does not guarantee reliable communication; the application itself must process any errors and check for reliable delivery.  
 
-The UDP listener table contains information about this computer`s UDP end-points on which a local application is currently accepting datagrams.  
+The UDP listener table contains information about this computer's UDP end-points on which a local application is currently accepting datagrams.  
 
 ![](../images/udptable.png)  
 

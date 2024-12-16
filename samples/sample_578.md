@@ -401,7 +401,7 @@ The effect is achieved by placing a semi-transparent window below a top-level VF
 
 ![](../images/lightbox.png)
 
-VFP application can change window`s transparency and color.  
+VFP application can change window's transparency and color.  
   
 ***  
 

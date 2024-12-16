@@ -5,7 +5,7 @@ Group: [GDI+ PathGradient Brush](../../functions_group.md#GDIplus_PathGradient_B
 ***  
 
 
-#### Sets the center color of this path gradient brush. The center color is the color that appears at the brush`s center point.
+#### Sets the center color of this path gradient brush. The center color is the color that appears at the brush's center point.
 ***  
 
 

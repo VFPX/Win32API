@@ -5,7 +5,7 @@ Group: [Painting and Drawing](../../functions_group.md#Painting_and_Drawing)  - 
 ***  
 
 
-#### Flushes the calling thread`s current batch.
+#### Flushes the calling thread's current batch.
 ***  
 
 

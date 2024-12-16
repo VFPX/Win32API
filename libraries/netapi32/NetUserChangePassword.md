@@ -5,7 +5,7 @@ Group: [Network Management](../../functions_group.md#Network_Management)  -  Lib
 ***  
 
 
-#### Changes user`s password for a specified network server or domain.
+#### Changes user's password for a specified network server or domain.
 
 ***  
 

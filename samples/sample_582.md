@@ -92,7 +92,7 @@ PROCEDURE declare
 ## Comment:
 ![](../images/onscreenkbdclass.png)
 
-On-Screen Keyboard`s window class name is "OSKMainClass". Knowing this, a VFP application can test the visibility of the On-Screen Keyboard by calling the FindWindow. By calling the SetWindowPos or similar API function, the virtual keyboard can be shown, hidden, or positioned at a specified point on the screen.  
+On-Screen Keyboard's window class name is "OSKMainClass". Knowing this, a VFP application can test the visibility of the On-Screen Keyboard by calling the FindWindow. By calling the SetWindowPos or similar API function, the virtual keyboard can be shown, hidden, or positioned at a specified point on the screen.  
   
 ***  
 

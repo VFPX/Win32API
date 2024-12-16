@@ -5,7 +5,7 @@ Group: [Painting and Drawing](../../functions_group.md#Painting_and_Drawing)  - 
 ***  
 
 
-#### Sets the maximum number of function calls that can be accumulated in the calling thread`s current batch. The system flushes the current batch whenever this limit is exceeded. 
+#### Sets the maximum number of function calls that can be accumulated in the calling thread's current batch. The system flushes the current batch whenever this limit is exceeded. 
 ***  
 
 

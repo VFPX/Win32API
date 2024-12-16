@@ -62,7 +62,7 @@ Though when called from FLL or DLL library, the SetWindowsHookEx can enable VFP 
 For example, provided a certain windows hook set, each following MESSAGEBOX() dialog within current VFP session would appear not centered but instead would automatically position itself at the specified screen location.  
   
 * * *  
-Highly recommended reading: Craig Boyd`s SPS blog entry <a href="http://www.sweetpotatosoftware.com/spsblog/2005/08/07/BindEventOnSteroids.aspx">BindEvent on Steroids</a>.  
+Highly recommended reading: Craig Boyd's SPS blog entry <a href="http://www.sweetpotatosoftware.com/spsblog/2005/08/07/BindEventOnSteroids.aspx">BindEvent on Steroids</a>.  
   
 ***  
 

@@ -59,7 +59,7 @@ Note that the number of parameters is different in C and VFP declarations for th
   
 My first intention was to declare the second parameter, <Em>liDistanceToMove</Em>, as STRING @, which is the pointer to string. This approach worked in similar situations before but failed in this particular case.  
   
-Calvin Hsia in <a href="http://blogs.msdn.com/calvin_hsia/archive/2005/03/18/398749.aspx">his blog`s entry</a> explains why this function must be declared in VFP with rather five input parameters versus four regular ones.  
+Calvin Hsia in <a href="http://blogs.msdn.com/calvin_hsia/archive/2005/03/18/398749.aspx">his blog's entry</a> explains why this function must be declared in VFP with rather five input parameters versus four regular ones.  
   
 The long integer (8 bytes) input parameter <Em>liDistanceToMove</Em> is passed to this function as two separate input parameters of LONG type (4 bytes each).  
   

@@ -75,7 +75,7 @@ Requires Windows Vista.
   
 Obviously the callback side of this function cannot be exploited in plain FoxPro code. Thus the <Em>lpProgressRoutine</Em> must be set to 0.  
   
-Based on call`s completion (also some application logic may become involved), either CommitTransaction or RollbackTransaction is applied to finalize or cancel the process of copying.  
+Based on call's completion (also some application logic may become involved), either CommitTransaction or RollbackTransaction is applied to finalize or cancel the process of copying.  
   
 See also: [CreateTransaction](../ktmw32/CreateTransaction.md), [CommitTransaction](../ktmw32/CommitTransaction.md), [RollbackTransaction](../ktmw32/RollbackTransaction.md), [CopyFile](../kernel32/CopyFile.md), [DeleteFileTransacted](../kernel32/DeleteFileTransacted.md).  
   

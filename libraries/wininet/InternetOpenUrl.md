@@ -10,7 +10,7 @@ Group: [Internet Functions (WinInet)](../../functions_group.md#Internet_Function
 
 
 ## Code examples:
-[How to download this reference`s archive through WinInet functions using InternetOpenUrl](../../samples/sample_110.md)  
+[How to download this reference's archive through WinInet functions using InternetOpenUrl](../../samples/sample_110.md)  
 [Using InternetSetFilePointer when resuming interrupted download from the Internet](../../samples/sample_191.md)  
 
 ## Declaration:

@@ -326,7 +326,7 @@ RETURN CHR(MOD(m.lnValue,256)) + CHR(INT(m.lnValue/256))
 [socket](../libraries/ws2_32/socket.md)  
 
 ## Comment:
-The sender email address can be anything. This approach somehow hides the sender`s identity. Of course, the actual ip address stays and can not be forged. By any means I do not encourage you to cheat on your recipients. Myself, I really hate spammers and unsolicited messages.  
+The sender email address can be anything. This approach somehow hides the sender's identity. Of course, the actual ip address stays and can not be forged. By any means I do not encourage you to cheat on your recipients. Myself, I really hate spammers and unsolicited messages.  
   
 This class can be easily modified for sending messages to multiple recipients.  
   

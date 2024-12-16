@@ -34,7 +34,7 @@ Group: [Error Handling](../../functions_group.md#Error_Handling)  -  Library: [k
 [DiskFreeSpace class](../../samples/sample_100.md)  
 [Obtaining physical parameters for a drive: sectors, clusters, cylinders...](../../samples/sample_101.md)  
 [Wininet last error description](../../samples/sample_109.md)  
-[How to download this reference`s archive through WinInet functions using InternetOpenUrl](../../samples/sample_110.md)  
+[How to download this reference's archive through WinInet functions using InternetOpenUrl](../../samples/sample_110.md)  
 [Setting the Window Region for a form](../../samples/sample_120.md)  
 [How to initiate System shutdown](../../samples/sample_122.md)  
 [Finding parameters for the region specified](../../samples/sample_124.md)  

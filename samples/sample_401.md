@@ -311,7 +311,7 @@ You know about "Other Files" section inside the Project Manager. I think, that w
 * * *  
 At first, this code truncated each and every VFP executable it was applied to, making the executables unusable. Everything in the code seemed to be correct, all API functions were called properly. The problem appeared to be with the VFP executable format itself.   
   
-Good news came on Nov.23, 2005 with an article I spotted on Calvin Hsia`s WebLog <a href="http://blogs.msdn.com/calvin_hsia/archive/2005/09/02/460206.aspx">Strongly typed methods and properties</a>.   
+Good news came on Nov.23, 2005 with an article I spotted on Calvin Hsia's WebLog <a href="http://blogs.msdn.com/calvin_hsia/archive/2005/09/02/460206.aspx">Strongly typed methods and properties</a>.   
   
 Calvin preserves two last sections of the executable before modifying its resources; and appends them back after the EndUpdateResource succeeds. Looks like it solves the truncation problem.  
   

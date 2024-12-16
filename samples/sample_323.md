@@ -181,7 +181,7 @@ RETURN Asc(SUBSTR(lcBuffer, 1,1)) + ;
   
 [DragAcceptFiles](http://msdn.microsoft.com/en-us/library/windows/desktop/bb776406(v=vs.85).aspx) function -- registers whether a window accepts dropped files.  
   
-A good reading on the subject, Andrew MacNeill`s [Using Drag and Drop in your Applications](http://www.aksel.com/whitepapers/dragdrop.htm). The article explains the basics and the more of using FoxPro native OLEDragOver and OLEDragDrop events for dragging and dropping files from Explorer and Outlook windows.  
+A good reading on the subject, Andrew MacNeill's [Using Drag and Drop in your Applications](http://www.aksel.com/whitepapers/dragdrop.htm). The article explains the basics and the more of using FoxPro native OLEDragOver and OLEDragDrop events for dragging and dropping files from Explorer and Outlook windows.  
   
 ***  
 

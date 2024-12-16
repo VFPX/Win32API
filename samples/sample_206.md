@@ -74,7 +74,7 @@ PROCEDURE declare
 [GetModuleFileName](../libraries/kernel32/GetModuleFileName.md)  
 
 ## Comment:
-First this code retrieves the handle to the icon (index=0) for the VFP executable module. Then it uses the GetIconInfo function to obtain some of this icon`s properties.  
+First this code retrieves the handle to the icon (index=0) for the VFP executable module. Then it uses the GetIconInfo function to obtain some of this icon's properties.  
   
 ***  
 

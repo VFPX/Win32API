@@ -3,7 +3,7 @@
 # Using FlashWindowEx to flash the taskbar button of the VFP application
 
 ## Before you begin:
-This code sample shows how to turn user to the monitor`s screen by flashing the icon of an application in the Windows taskbar. There are several other ways of  alerting the user using various visual effects:  
+This code sample shows how to turn user to the monitor's screen by flashing the icon of an application in the Windows taskbar. There are several other ways of  alerting the user using various visual effects:  
 
 * [Flashing caption of a VFP application in the Windows task bar using FlashWindow](sample_228.md)  
 * [Shaking VFP form controls](sample_526.md)  

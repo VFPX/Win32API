@@ -51,9 +51,9 @@ If the function succeeds, the return value is a handle to the data associated wi
 If <Em>hModule</Em> is NULL, the system loads resource from the module that was used to create current process.   
   
 * * *  
-I am thinking about approaches to design of VFP application with auto-updateable executable, the master copy of which is stored on a web server. Definitely I am not the first person doing this -- read Rick Strahl`s article <a href="http://www.west-wind.com/presentations/wwCodeUpdate/codeupdate.asp">Automatic Application Updates over the Web with Visual FoxPro 7.0</a> -- so my thoughts may not be precisely original.  
+I am thinking about approaches to design of VFP application with auto-updateable executable, the master copy of which is stored on a web server. Definitely I am not the first person doing this -- read Rick Strahl's article <a href="http://www.west-wind.com/presentations/wwCodeUpdate/codeupdate.asp">Automatic Application Updates over the Web with Visual FoxPro 7.0</a> -- so my thoughts may not be precisely original.  
   
-Normally Windows executable can not update itself. That means it needs help from another process; let`s call this one the Updating Process.   
+Normally Windows executable can not update itself. That means it needs help from another process; let's call this one the Updating Process.   
   
 Six tasks for UP to get done:  
 - connect to the web server and check for updates  

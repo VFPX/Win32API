@@ -1699,12 +1699,12 @@ Changes to a different working directory on the FTP server
 
 ## [<img src="images/home.png"> Home ](https://github.com/VFPX/Win32API)[A ](#A)[B ](#B)[C ](#C)[D ](#D)[E ](#E)[F ](#F)[G ](#G)[H ](#H)[I ](#I)[J ](#J)[K ](#K)[L ](#L)[M ](#M)[N ](#N)[O ](#O)[P ](#P)[Q ](#Q)[R ](#R)[S ](#S)[T ](#T)[U ](#U)[V ](#V)[W ](#W)[Z ](#Z)[_ ](#_)
 <a name="G"></a>[GdiFlush](libraries/gdi32/GdiFlush.md)  
-Flushes the calling thread`s current batch.  
+Flushes the calling thread's current batch.  
 
 ***  
 
 [GdiGetBatchLimit](libraries/gdi32/GdiGetBatchLimit.md)  
-Returns the maximum number of function calls that can be accumulated in the calling thread`s current batch.   
+Returns the maximum number of function calls that can be accumulated in the calling thread's current batch.   
 
 ***  
 
@@ -2175,7 +2175,7 @@ Sets the unit of measure for this Graphics handle.
 ***  
 
 [GdipSetPathGradientCenterColor](libraries/gdiplus/GdipSetPathGradientCenterColor.md)  
-Sets the center color of this path gradient brush. The center color is the color that appears at the brush`s center point.  
+Sets the center color of this path gradient brush. The center color is the color that appears at the brush's center point.  
 
 ***  
 
@@ -2223,7 +2223,7 @@ Updates this Graphics object"s world transformation matrix with the product of i
 ***  
 
 [GdiSetBatchLimit](libraries/gdi32/GdiSetBatchLimit.md)  
-Sets the maximum number of function calls that can be accumulated in the calling thread`s current batch. The system flushes the current batch whenever this limit is exceeded.   
+Sets the maximum number of function calls that can be accumulated in the calling thread's current batch. The system flushes the current batch whenever this limit is exceeded.   
 
 ***  
 
@@ -4648,7 +4648,7 @@ Adds a user account and assigns a password and privilege level.
 ***  
 
 [NetUserChangePassword](libraries/netapi32/NetUserChangePassword.md)  
-Changes user`s password for a specified network server or domain.
+Changes user's password for a specified network server or domain.
   
 
 ***  
