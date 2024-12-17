@@ -38,7 +38,7 @@ This code sample shows how to load an image file (BMP, GIF, JPEG, PNG, TIFF), sc
 ## [GDI+: copying to the Clipboard (a) image of active FoxPro window/form, (b) image file](samples/sample_457.md)
 
 ## [GDI+: how to make VFP controls visually shake and shudder](samples/sample_526.md)
-Shuddering control may appear a good way to get user`s immediate attention. For example, when Purchase Order form opens, and the shipping date is not entered or overdue, the textbox hosting this value may start vibrate and thus can be easily spotted by the user.  
+Shuddering control may appear a good way to get user's immediate attention. For example, when Purchase Order form opens, and the shipping date is not entered or overdue, the textbox hosting this value may start vibrate and thus can be easily spotted by the user.  
 ## [GDI+: saving image of FoxPro form to graphics file (BMP, GIF, JPG, PNG, TIF)](samples/sample_454.md)
 
 ## [GDI+: sending image of FoxPro form to printer](samples/sample_455.md)
@@ -49,11 +49,11 @@ It all started with a question I have noticed in the Universal Thread Visual Fox
 ## [How to copy the image of a form to the Clipboard using Bitmap API functions](samples/sample_091.md)
 
 ## [How to make a VFP form fading out when released (GDI version)](samples/sample_528.md)
-When a VFP form is released, usually it disappears immediately. Wouldn`t it be nice to have the form slowly (or less slowly) fading out?
+When a VFP form is released, usually it disappears immediately. Wouldn't it be nice to have the form slowly (or less slowly) fading out?
 
 An obvious way of doing that is covering the form with another window, which holds the image of the original form. Once covered, the original form disappears. After that the covering window gradually changes its opacity (alpha channel) from opaque (255) to completely transparent (0).  
 ## [How to make a VFP form fading out when released (GDI+ version)](samples/sample_527.md)
-When a VFP form is released, usually it disappears immediately. Wouldn`t it be nice to have the form slowly (or less slowly) fading out?
+When a VFP form is released, usually it disappears immediately. Wouldn't it be nice to have the form slowly (or less slowly) fading out?
 
 An obvious way of doing that is covering the form with another window, which holds the image of the original form. Once covered, the original form disappears. After that the covering window gradually changes its opacity (alpha channel) from opaque (255) to completely transparent (0).  
 ## [How to print FoxPro form](samples/sample_158.md)
@@ -89,7 +89,7 @@ An obvious way of doing that is covering the form with another window, which hol
 ## [Displaying dimmed window behind VFP top-level form](samples/sample_578.md)
 
 ## [How to make a VFP form fading out when released (GDI version)](samples/sample_528.md)
-When a VFP form is released, usually it disappears immediately. Wouldn`t it be nice to have the form slowly (or less slowly) fading out?
+When a VFP form is released, usually it disappears immediately. Wouldn't it be nice to have the form slowly (or less slowly) fading out?
 
 An obvious way of doing that is covering the form with another window, which holds the image of the original form. Once covered, the original form disappears. After that the covering window gradually changes its opacity (alpha channel) from opaque (255) to completely transparent (0).  
 ## [How to put a horizontal text scrolling on the form (a news line, marquee)](samples/sample_352.md)
@@ -299,7 +299,7 @@ This code sample shows how to load an image file (BMP, GIF, JPEG, PNG, TIFF), sc
 ## [Displaying the associated icons and descriptions for files and folders](samples/sample_530.md)
 When the list of files and folders is to be displayed inside a VFP form, the ListBox VFP control and the ListView ActiveX control are probably the first two candidates for the job. 
 
-The ListBox`s presentation style can only be described as the minimalistic :) , while the ListView shows items in much fancier manner, and can even accompany each file and folder with an icon.
+The ListBox's presentation style can only be described as the minimalistic :) , while the ListView shows items in much fancier manner, and can even accompany each file and folder with an icon.
 
 <img src="images/sysimagelist.png" width=507 height=338>
 And an imminent question arises: where are those icons stored and how to put them to work?  
@@ -336,7 +336,7 @@ After releasing the mouse button, the image scrolling coninues while deceleratin
 ## [GDI+: custom control, base class](samples/sample_599.md)
 
 ## [GDI+: how to make VFP controls visually shake and shudder](samples/sample_526.md)
-Shuddering control may appear a good way to get user`s immediate attention. For example, when Purchase Order form opens, and the shipping date is not entered or overdue, the textbox hosting this value may start vibrate and thus can be easily spotted by the user.  
+Shuddering control may appear a good way to get user's immediate attention. For example, when Purchase Order form opens, and the shipping date is not entered or overdue, the textbox hosting this value may start vibrate and thus can be easily spotted by the user.  
 ## [GDI+: printing image file](samples/sample_452.md)
 
 ## [GDI+: saving image of FoxPro form to graphics file (BMP, GIF, JPG, PNG, TIF)](samples/sample_454.md)
@@ -364,11 +364,11 @@ This code sample shows how to hide the Caption and the border of FoxPro form and
 ## [How to find which fonts Windows uses for drawing captions, menus and message boxes](samples/sample_556.md)
 Calling SystemParametersInfo with SPI_GETNONCLIENTMETRICS input parameter populates the NONCLIENTMETRICS structure. This structure contains the metrics associated with the nonclient area of a nonminimized window. Among the metrics included are the settings for 5 fonts, the OS uses for drawing captions, small captions, menus, status bars and message boxes.  
 ## [How to make a VFP form fading out when released (GDI version)](samples/sample_528.md)
-When a VFP form is released, usually it disappears immediately. Wouldn`t it be nice to have the form slowly (or less slowly) fading out?
+When a VFP form is released, usually it disappears immediately. Wouldn't it be nice to have the form slowly (or less slowly) fading out?
 
 An obvious way of doing that is covering the form with another window, which holds the image of the original form. Once covered, the original form disappears. After that the covering window gradually changes its opacity (alpha channel) from opaque (255) to completely transparent (0).  
 ## [How to make a VFP form fading out when released (GDI+ version)](samples/sample_527.md)
-When a VFP form is released, usually it disappears immediately. Wouldn`t it be nice to have the form slowly (or less slowly) fading out?
+When a VFP form is released, usually it disappears immediately. Wouldn't it be nice to have the form slowly (or less slowly) fading out?
 
 An obvious way of doing that is covering the form with another window, which holds the image of the original form. Once covered, the original form disappears. After that the covering window gradually changes its opacity (alpha channel) from opaque (255) to completely transparent (0).  
 ## [How to play AVI file on the _screen](samples/sample_430.md)
@@ -610,7 +610,7 @@ The following example presents session class *CacheEntry* and collection class *
 
 ## [How to display the port-configuration dialog box for a port on the specified server](samples/sample_362.md)
 
-## [How to download this reference`s archive through WinInet functions using InternetOpenUrl](samples/sample_110.md)
+## [How to download this reference's archive through WinInet functions using InternetOpenUrl](samples/sample_110.md)
 
 ## [How to enable the SE_SHUTDOWN_NAME privilege for the application](samples/sample_552.md)
 To shut down or to reboot the system (API calls ExitWindowsEx, InitiateShutdown and others) the process must have the SE_SHUTDOWN_NAME privilege (default behaviour on Vista).  
@@ -928,7 +928,7 @@ The code shows how to obtain number of cylinders, tracks, sectors and clusters f
 # ![](images/fox1.png) Filled Shape group
 
 ## [How to make a VFP form fading out when released (GDI version)](samples/sample_528.md)
-When a VFP form is released, usually it disappears immediately. Wouldn`t it be nice to have the form slowly (or less slowly) fading out?
+When a VFP form is released, usually it disappears immediately. Wouldn't it be nice to have the form slowly (or less slowly) fading out?
 
 An obvious way of doing that is covering the form with another window, which holds the image of the original form. Once covered, the original form disappears. After that the covering window gradually changes its opacity (alpha channel) from opaque (255) to completely transparent (0).  
 ## [How to put a horizontal text scrolling on the form (a news line, marquee)](samples/sample_352.md)
@@ -1206,7 +1206,7 @@ This code sample shows how to load an image file (BMP, GIF, JPEG, PNG, TIFF), sc
 ## [Displaying the associated icons and descriptions for files and folders](samples/sample_530.md)
 When the list of files and folders is to be displayed inside a VFP form, the ListBox VFP control and the ListView ActiveX control are probably the first two candidates for the job. 
 
-The ListBox`s presentation style can only be described as the minimalistic :) , while the ListView shows items in much fancier manner, and can even accompany each file and folder with an icon.
+The ListBox's presentation style can only be described as the minimalistic :) , while the ListView shows items in much fancier manner, and can even accompany each file and folder with an icon.
 
 <img src="images/sysimagelist.png" width=507 height=338>
 And an imminent question arises: where are those icons stored and how to put them to work?  
@@ -1256,7 +1256,7 @@ The following example presents session class *CacheEntry* and collection class *
 
 ## [How to download a file from the FTP server using FtpGetFile](samples/sample_043.md)
 
-## [How to download this reference`s archive through WinInet functions using InternetOpenUrl](samples/sample_110.md)
+## [How to download this reference's archive through WinInet functions using InternetOpenUrl](samples/sample_110.md)
 
 ## [How to enumerate cookies and URL History entries in the cache of the local computer](samples/sample_350.md)
 
@@ -1819,7 +1819,7 @@ The SetLayeredWindowAttributes function can be used to define the transparency c
 ## [Displaying the associated icons and descriptions for files and folders](samples/sample_530.md)
 When the list of files and folders is to be displayed inside a VFP form, the ListBox VFP control and the ListView ActiveX control are probably the first two candidates for the job. 
 
-The ListBox`s presentation style can only be described as the minimalistic :) , while the ListView shows items in much fancier manner, and can even accompany each file and folder with an icon.
+The ListBox's presentation style can only be described as the minimalistic :) , while the ListView shows items in much fancier manner, and can even accompany each file and folder with an icon.
 
 <img src="images/sysimagelist.png" width=507 height=338>
 And an imminent question arises: where are those icons stored and how to put them to work?  
@@ -2022,7 +2022,7 @@ The SetLayeredWindowAttributes function can be used to define the transparency c
 ## [Displaying the associated icons and descriptions for files and folders](samples/sample_530.md)
 When the list of files and folders is to be displayed inside a VFP form, the ListBox VFP control and the ListView ActiveX control are probably the first two candidates for the job. 
 
-The ListBox`s presentation style can only be described as the minimalistic :) , while the ListView shows items in much fancier manner, and can even accompany each file and folder with an icon.
+The ListBox's presentation style can only be described as the minimalistic :) , while the ListView shows items in much fancier manner, and can even accompany each file and folder with an icon.
 
 <img src="images/sysimagelist.png" width=507 height=338>
 And an imminent question arises: where are those icons stored and how to put them to work?  
@@ -2051,7 +2051,7 @@ After releasing the mouse button, the image scrolling coninues while deceleratin
 ## [GDI+: copying to the Clipboard (a) image of active FoxPro window/form, (b) image file](samples/sample_457.md)
 
 ## [GDI+: how to make VFP controls visually shake and shudder](samples/sample_526.md)
-Shuddering control may appear a good way to get user`s immediate attention. For example, when Purchase Order form opens, and the shipping date is not entered or overdue, the textbox hosting this value may start vibrate and thus can be easily spotted by the user.  
+Shuddering control may appear a good way to get user's immediate attention. For example, when Purchase Order form opens, and the shipping date is not entered or overdue, the textbox hosting this value may start vibrate and thus can be easily spotted by the user.  
 ## [GDI+: saving image of FoxPro form to graphics file (BMP, GIF, JPG, PNG, TIF)](samples/sample_454.md)
 
 ## [GDI+: sending image of FoxPro form to printer](samples/sample_455.md)
@@ -2070,11 +2070,11 @@ This code sample shows how to hide the Caption and the border of FoxPro form and
 ## [How to find which fonts Windows uses for drawing captions, menus and message boxes](samples/sample_556.md)
 Calling SystemParametersInfo with SPI_GETNONCLIENTMETRICS input parameter populates the NONCLIENTMETRICS structure. This structure contains the metrics associated with the nonclient area of a nonminimized window. Among the metrics included are the settings for 5 fonts, the OS uses for drawing captions, small captions, menus, status bars and message boxes.  
 ## [How to make a VFP form fading out when released (GDI version)](samples/sample_528.md)
-When a VFP form is released, usually it disappears immediately. Wouldn`t it be nice to have the form slowly (or less slowly) fading out?
+When a VFP form is released, usually it disappears immediately. Wouldn't it be nice to have the form slowly (or less slowly) fading out?
 
 An obvious way of doing that is covering the form with another window, which holds the image of the original form. Once covered, the original form disappears. After that the covering window gradually changes its opacity (alpha channel) from opaque (255) to completely transparent (0).  
 ## [How to make a VFP form fading out when released (GDI+ version)](samples/sample_527.md)
-When a VFP form is released, usually it disappears immediately. Wouldn`t it be nice to have the form slowly (or less slowly) fading out?
+When a VFP form is released, usually it disappears immediately. Wouldn't it be nice to have the form slowly (or less slowly) fading out?
 
 An obvious way of doing that is covering the form with another window, which holds the image of the original form. Once covered, the original form disappears. After that the covering window gradually changes its opacity (alpha channel) from opaque (255) to completely transparent (0).  
 ## [How to play AVI file on the _screen](samples/sample_430.md)
@@ -2339,11 +2339,11 @@ The SetLayeredWindowAttributes function can be used to define the transparency c
 This code sample shows how to hide the Caption and the border of FoxPro form and replace them with eight Image controls and one Label control. The form is resizable, closable and can be clicked on its caption and dragged.
   
 ## [How to make a VFP form fading out when released (GDI version)](samples/sample_528.md)
-When a VFP form is released, usually it disappears immediately. Wouldn`t it be nice to have the form slowly (or less slowly) fading out?
+When a VFP form is released, usually it disappears immediately. Wouldn't it be nice to have the form slowly (or less slowly) fading out?
 
 An obvious way of doing that is covering the form with another window, which holds the image of the original form. Once covered, the original form disappears. After that the covering window gradually changes its opacity (alpha channel) from opaque (255) to completely transparent (0).  
 ## [How to make a VFP form fading out when released (GDI+ version)](samples/sample_527.md)
-When a VFP form is released, usually it disappears immediately. Wouldn`t it be nice to have the form slowly (or less slowly) fading out?
+When a VFP form is released, usually it disappears immediately. Wouldn't it be nice to have the form slowly (or less slowly) fading out?
 
 An obvious way of doing that is covering the form with another window, which holds the image of the original form. Once covered, the original form disappears. After that the covering window gradually changes its opacity (alpha channel) from opaque (255) to completely transparent (0).  
 ## [Placing On-screen Alert on top of all windows](samples/sample_504.md)
@@ -2557,7 +2557,7 @@ The SHFileOperation copies, deletes and moves a file or multiple files. A variet
 ## [Displaying the associated icons and descriptions for files and folders](samples/sample_530.md)
 When the list of files and folders is to be displayed inside a VFP form, the ListBox VFP control and the ListView ActiveX control are probably the first two candidates for the job. 
 
-The ListBox`s presentation style can only be described as the minimalistic :) , while the ListView shows items in much fancier manner, and can even accompany each file and folder with an icon.
+The ListBox's presentation style can only be described as the minimalistic :) , while the ListView shows items in much fancier manner, and can even accompany each file and folder with an icon.
 
 <img src="images/sysimagelist.png" width=507 height=338>
 And an imminent question arises: where are those icons stored and how to put them to work?  
@@ -2752,7 +2752,7 @@ The SetLayeredWindowAttributes function can be used to define the transparency c
 ## [Displaying the associated icons and descriptions for files and folders](samples/sample_530.md)
 When the list of files and folders is to be displayed inside a VFP form, the ListBox VFP control and the ListView ActiveX control are probably the first two candidates for the job. 
 
-The ListBox`s presentation style can only be described as the minimalistic :) , while the ListView shows items in much fancier manner, and can even accompany each file and folder with an icon.
+The ListBox's presentation style can only be described as the minimalistic :) , while the ListView shows items in much fancier manner, and can even accompany each file and folder with an icon.
 
 <img src="images/sysimagelist.png" width=507 height=338>
 And an imminent question arises: where are those icons stored and how to put them to work?  
@@ -2761,7 +2761,7 @@ And an imminent question arises: where are those icons stored and how to put the
 ## [Finding out if the current user is the Guest account](samples/sample_566.md)
 In this code sample, the CurrentUser class wraps call to the NetUserGetInfo that populates USER_INFO_1 structure. The usri1_priv member of this struture indicates if the user account is Guest or Admin.  
 ## [GDI+: how to make VFP controls visually shake and shudder](samples/sample_526.md)
-Shuddering control may appear a good way to get user`s immediate attention. For example, when Purchase Order form opens, and the shipping date is not entered or overdue, the textbox hosting this value may start vibrate and thus can be easily spotted by the user.  
+Shuddering control may appear a good way to get user's immediate attention. For example, when Purchase Order form opens, and the shipping date is not entered or overdue, the textbox hosting this value may start vibrate and thus can be easily spotted by the user.  
 ## [How to Start a Process as Another User (NT/XP/2K)](samples/sample_426.md)
 
 ## [How to display Windows On-Screen Keyboard](samples/sample_582.md)
@@ -2772,11 +2772,11 @@ This code sample shows how to hide the Caption and the border of FoxPro form and
 ## [How to find which fonts Windows uses for drawing captions, menus and message boxes](samples/sample_556.md)
 Calling SystemParametersInfo with SPI_GETNONCLIENTMETRICS input parameter populates the NONCLIENTMETRICS structure. This structure contains the metrics associated with the nonclient area of a nonminimized window. Among the metrics included are the settings for 5 fonts, the OS uses for drawing captions, small captions, menus, status bars and message boxes.  
 ## [How to make a VFP form fading out when released (GDI version)](samples/sample_528.md)
-When a VFP form is released, usually it disappears immediately. Wouldn`t it be nice to have the form slowly (or less slowly) fading out?
+When a VFP form is released, usually it disappears immediately. Wouldn't it be nice to have the form slowly (or less slowly) fading out?
 
 An obvious way of doing that is covering the form with another window, which holds the image of the original form. Once covered, the original form disappears. After that the covering window gradually changes its opacity (alpha channel) from opaque (255) to completely transparent (0).  
 ## [How to make a VFP form fading out when released (GDI+ version)](samples/sample_527.md)
-When a VFP form is released, usually it disappears immediately. Wouldn`t it be nice to have the form slowly (or less slowly) fading out?
+When a VFP form is released, usually it disappears immediately. Wouldn't it be nice to have the form slowly (or less slowly) fading out?
 
 An obvious way of doing that is covering the form with another window, which holds the image of the original form. Once covered, the original form disappears. After that the covering window gradually changes its opacity (alpha channel) from opaque (255) to completely transparent (0).  
 ## [How to make application automatically close all documents it opened](samples/sample_491.md)
@@ -2867,7 +2867,7 @@ After releasing the mouse button, the image scrolling coninues while deceleratin
 ## [GDI+: custom Clock Control](samples/sample_597.md)
 
 ## [GDI+: how to make VFP controls visually shake and shudder](samples/sample_526.md)
-Shuddering control may appear a good way to get user`s immediate attention. For example, when Purchase Order form opens, and the shipping date is not entered or overdue, the textbox hosting this value may start vibrate and thus can be easily spotted by the user.  
+Shuddering control may appear a good way to get user's immediate attention. For example, when Purchase Order form opens, and the shipping date is not entered or overdue, the textbox hosting this value may start vibrate and thus can be easily spotted by the user.  
 ## [HOWTO: Use the Win32 API to Access File Dates and Times](samples/sample_177.md)
 
 ## [How to delete IE cookies, clear IE history and delete files in Temporary Internet Files directory](samples/sample_471.md)
@@ -3001,11 +3001,11 @@ The AdobeReaderSDIWindow class is able to virtually "click on" an item in the ma
 ## [How to hot-track menu item selection in top-level form (requires VFP9)](samples/sample_521.md)
 This code shows how VFP top-level form can get notified upon its menu item selection. Note that the menu item is not clicked on, but selected by the mouse hovering over it or by the keyboard.  
 ## [How to make a VFP form fading out when released (GDI version)](samples/sample_528.md)
-When a VFP form is released, usually it disappears immediately. Wouldn`t it be nice to have the form slowly (or less slowly) fading out?
+When a VFP form is released, usually it disappears immediately. Wouldn't it be nice to have the form slowly (or less slowly) fading out?
 
 An obvious way of doing that is covering the form with another window, which holds the image of the original form. Once covered, the original form disappears. After that the covering window gradually changes its opacity (alpha channel) from opaque (255) to completely transparent (0).  
 ## [How to make a VFP form fading out when released (GDI+ version)](samples/sample_527.md)
-When a VFP form is released, usually it disappears immediately. Wouldn`t it be nice to have the form slowly (or less slowly) fading out?
+When a VFP form is released, usually it disappears immediately. Wouldn't it be nice to have the form slowly (or less slowly) fading out?
 
 An obvious way of doing that is covering the form with another window, which holds the image of the original form. Once covered, the original form disappears. After that the covering window gradually changes its opacity (alpha channel) from opaque (255) to completely transparent (0).  
 ## [How to position the GETPRINTER() dialog](samples/sample_482.md)
@@ -3119,7 +3119,7 @@ The SetLayeredWindowAttributes function can be used to define the transparency c
 ## [Displaying the associated icons and descriptions for files and folders](samples/sample_530.md)
 When the list of files and folders is to be displayed inside a VFP form, the ListBox VFP control and the ListView ActiveX control are probably the first two candidates for the job. 
 
-The ListBox`s presentation style can only be described as the minimalistic :) , while the ListView shows items in much fancier manner, and can even accompany each file and folder with an icon.
+The ListBox's presentation style can only be described as the minimalistic :) , while the ListView shows items in much fancier manner, and can even accompany each file and folder with an icon.
 
 <img src="images/sysimagelist.png" width=507 height=338>
 And an imminent question arises: where are those icons stored and how to put them to work?  
@@ -3138,11 +3138,11 @@ The Windows OS has a mechanism that allows to notify a window when the content o
 ## [How to hot-track menu item selection in top-level form (requires VFP9)](samples/sample_521.md)
 This code shows how VFP top-level form can get notified upon its menu item selection. Note that the menu item is not clicked on, but selected by the mouse hovering over it or by the keyboard.  
 ## [How to make a VFP form fading out when released (GDI version)](samples/sample_528.md)
-When a VFP form is released, usually it disappears immediately. Wouldn`t it be nice to have the form slowly (or less slowly) fading out?
+When a VFP form is released, usually it disappears immediately. Wouldn't it be nice to have the form slowly (or less slowly) fading out?
 
 An obvious way of doing that is covering the form with another window, which holds the image of the original form. Once covered, the original form disappears. After that the covering window gradually changes its opacity (alpha channel) from opaque (255) to completely transparent (0).  
 ## [How to make a VFP form fading out when released (GDI+ version)](samples/sample_527.md)
-When a VFP form is released, usually it disappears immediately. Wouldn`t it be nice to have the form slowly (or less slowly) fading out?
+When a VFP form is released, usually it disappears immediately. Wouldn't it be nice to have the form slowly (or less slowly) fading out?
 
 An obvious way of doing that is covering the form with another window, which holds the image of the original form. Once covered, the original form disappears. After that the covering window gradually changes its opacity (alpha channel) from opaque (255) to completely transparent (0).  
 ## [How to view icons stored in executable files (Icon Viewer) - II](samples/sample_019.md)

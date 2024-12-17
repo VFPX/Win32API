@@ -3,14 +3,14 @@
 # How to make a VFP form fading out when released (GDI+ version)
 
 ## Short description:
-When a VFP form is released, usually it disappears immediately. Wouldn`t it be nice to have the form slowly (or less slowly) fading out?
+When a VFP form is released, usually it disappears immediately. Wouldn't it be nice to have the form slowly (or less slowly) fading out?
 
 An obvious way of doing that is covering the form with another window, which holds the image of the original form. Once covered, the original form disappears. After that the covering window gradually changes its opacity (alpha channel) from opaque (255) to completely transparent (0).  
 ***  
 
 
 ## Before you begin:
-When a VFP form is released, usually it disappears immediately. Wouldn`t it be nice to have a form slowly (or less slowly) fading out?  
+When a VFP form is released, usually it disappears immediately. Wouldn't it be nice to have a form slowly (or less slowly) fading out?  
 
 An obvious way of doing that is covering the form with another window, which holds the image of the original form. Once covered, the original form disappears. After that the covering window gradually changes its opacity (alpha channel) from opaque (255) to completely transparent (0).  
 
@@ -174,7 +174,7 @@ DEFINE CLASS FadingWindow As Session
 	cwinwidth=0
 	cwinheight=0
 
-	origbmp=NULL  && gdi+ bitmap storing the form`s image
+	origbmp=NULL  && gdi+ bitmap storing the form's image
 	hgraphics=NULL && gdi+ graphics object
 	alphachannel=0xff  && alpha channel value
 
@@ -315,14 +315,14 @@ ENDDEFINE
 ## Comment:
 So the succession of events should be as follows:  
   
-1. form`s Destroy event occurs  
-1. form`s image is copied into a memory object (within the Destroy, the form and all controls are still visible, though some doubts exist about PageFrame control and ActiveX controls)  
+1. form's Destroy event occurs  
+1. form's image is copied into a memory object (within the Destroy, the form and all controls are still visible, though some doubts exist about PageFrame control and ActiveX controls)  
 1. a cover window is created and placed exactly on the same spot where the original VFP form is  
 1. a timer is turned on and gradually changes the opacity of the covering window from 255 to 0By the first tick of the timer the original form does not exist anymore, the Destroy has completed its job.   
   
 Certainly, the timer and an object responsible for performing steps 2 to 4 must reside outside of the form. That probably can be a master form or _SCREEN container.  
   
-This approach works with all VFP forms, with top-level as well as with child ones. Here is a code that has to be called in the form`s Destroy event
+This approach works with all VFP forms, with top-level as well as with child ones. Here is a code that has to be called in the form's Destroy event
 
 ```foxpro
 IF VARTYPE(_screen.FormFader1) <> "O"  

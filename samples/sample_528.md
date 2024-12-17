@@ -3,14 +3,14 @@
 # How to make a VFP form fading out when released (GDI version)
 
 ## Short description:
-When a VFP form is released, usually it disappears immediately. Wouldn`t it be nice to have the form slowly (or less slowly) fading out?
+When a VFP form is released, usually it disappears immediately. Wouldn't it be nice to have the form slowly (or less slowly) fading out?
 
 An obvious way of doing that is covering the form with another window, which holds the image of the original form. Once covered, the original form disappears. After that the covering window gradually changes its opacity (alpha channel) from opaque (255) to completely transparent (0).  
 ***  
 
 
 ## Before you begin:
-When a VFP form is released, usually it disappears immediately. Wouldn`t it be nice to have a form slowly (or less slowly) fading out?  
+When a VFP form is released, usually it disappears immediately. Wouldn't it be nice to have a form slowly (or less slowly) fading out?  
 
 An obvious way of doing that is covering the form with another window, which holds the image of the original form. Once covered, the original form disappears. After that the covering window gradually changes its opacity (alpha channel) from opaque (255) to completely transparent (0).  
 

@@ -46,7 +46,7 @@ If the function succeeds, the return value is the previous input locale identifi
 
 
 ## Comments:
-Windows 2000/XP: Activates the specified locale identifier for the entire process and sends the WM_INPUTLANGCHANGE message to the current thread`s Focus or Active window.  
+Windows 2000/XP: Activates the specified locale identifier for the entire process and sends the WM_INPUTLANGCHANGE message to the current thread's Focus or Active window.  
   
 ***  
 

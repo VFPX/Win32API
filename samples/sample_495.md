@@ -264,14 +264,14 @@ PostMessage(hDocument, WM_SYSCOMMAND, SC_CLOSE, 0)
 where *hDocument* is the handle for a document window parented by the main Acrobat window.  
   
 * * *  
-Finally, I decided to go through using the Acrobat`s menu. First I obtained identifiers for several submenu popups and menu items, like *Close All, Exit, File, Window* etc. For that I used program code similar to [Reading structure of a menu attached to the main VFP window](sample_337.md) code sample.  
+Finally, I decided to go through using the Acrobat's menu. First I obtained identifiers for several submenu popups and menu items, like *Close All, Exit, File, Window* etc. For that I used program code similar to [Reading structure of a menu attached to the main VFP window](sample_337.md) code sample.  
   
 Once the identifier for a menu item is known, it is simple to create a virtual click on this item without even moving the mouse:   
 ```foxpro
 = SendMessage(hWindow, WM_COMMAND, nMenuItemID, 0)
 ```
 
-where *hWindow* is the main Acrobat window handle, and *nMenuItemID* is a menu item`s identifier. For example, identifier 6026 is assigned to *File - Exit* menu item.  
+where *hWindow* is the main Acrobat window handle, and *nMenuItemID* is a menu item's identifier. For example, identifier 6026 is assigned to *File - Exit* menu item.  
   
 * * *  
 An article called [A simple wrapper to control Acrobat Reader from your application](https://www.codeproject.com/articles/8763/a-simple-wrapper-to-control-acrobat-reader-from-yo) written by *seasidetech* explains how to use selected DDE messages to control the reader from outside.  

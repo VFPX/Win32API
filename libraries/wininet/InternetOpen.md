@@ -22,7 +22,7 @@ Group: [Internet Functions (WinInet)](../../functions_group.md#Internet_Function
 [How to retrieve the size of a remote file (FTP)](../../samples/sample_069.md)  
 [How to remove FTP directory](../../samples/sample_070.md)  
 [How to delete file on FTP server](../../samples/sample_071.md)  
-[How to download this reference`s archive through WinInet functions using InternetOpenUrl](../../samples/sample_110.md)  
+[How to download this reference's archive through WinInet functions using InternetOpenUrl](../../samples/sample_110.md)  
 [Custom HttpRequest class (WinINet)](../../samples/sample_185.md)  
 [Using InternetSetFilePointer when resuming interrupted download from the Internet](../../samples/sample_191.md)  
 [Reading list of folders and files on FTP server](../../samples/sample_340.md)  

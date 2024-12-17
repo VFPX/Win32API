@@ -38,7 +38,7 @@ If the function succeeds, the return value is nonzero.
 
 
 ## Comments:
-You may call this function from within the Paint event of a form and see what happens to form`s native controls, which controls are windowless by definition.  
+You may call this function from within the Paint event of a form and see what happens to form's native controls, which controls are windowless by definition.  
   
 ***  
 

@@ -112,7 +112,7 @@ All system icons can be accessed through this function and drawn, for example, o
 ![](../../images/sysimagelist.png)  
 
 * * *  
-As MSDN suggests, the SHGetFileInfo may not be the best way, even if the simplest, to retrieve an object`s icon. A more flexible and efficient way is to use <a href="http://msdn.microsoft.com/en-us/library/bb761854(v=vs.85).aspx">IExtractIcon Interface</a>. The Shell uses IExtractIcon to retrieve icons when it displays the contents of a folder.  
+As MSDN suggests, the SHGetFileInfo may not be the best way, even if the simplest, to retrieve an object's icon. A more flexible and efficient way is to use <a href="http://msdn.microsoft.com/en-us/library/bb761854(v=vs.85).aspx">IExtractIcon Interface</a>. The Shell uses IExtractIcon to retrieve icons when it displays the contents of a folder.  
   
 ***  
 

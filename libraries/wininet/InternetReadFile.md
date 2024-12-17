@@ -13,7 +13,7 @@ Group: [Internet Functions (WinInet)](../../functions_group.md#Internet_Function
 ## Code examples:
 [Using FtpCommand](../../samples/sample_059.md)  
 [Downloading files from the FTP server using InternetReadFile](../../samples/sample_063.md)  
-[How to download this reference`s archive through WinInet functions using InternetOpenUrl](../../samples/sample_110.md)  
+[How to download this reference's archive through WinInet functions using InternetOpenUrl](../../samples/sample_110.md)  
 [Custom HttpRequest class (WinINet)](../../samples/sample_185.md)  
 [Using InternetSetFilePointer when resuming interrupted download from the Internet](../../samples/sample_191.md)  
 [Custom FTP Class for Visual FoxPro application](../../samples/sample_344.md)  

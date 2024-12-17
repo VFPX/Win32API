@@ -58,7 +58,7 @@ The SM_REMOTESESSION system metric is used in a Terminal Services environment. I
   
 The SM_REMOTECONTROL is used in a Terminal Services environment. Its value is nonzero if the current session is remotely controlled; otherwise, 0.  
   
-Read post <a href="http://blogs.msdn.com/calvin_hsia/archive/2006/01/11/511639.aspx">Detecting Workstation state changes</a> in Calvin Hsia`s weblog.  
+Read post <a href="http://blogs.msdn.com/calvin_hsia/archive/2006/01/11/511639.aspx">Detecting Workstation state changes</a> in Calvin Hsia's weblog.  
   
 * * *  
 System Metrics Foundation Class included in VFP8 and 9 installations provides access to system metric information as mousewheel present, number of mouse buttons, and number of monitors are provided with the class, but any valid system metric can be queried.  

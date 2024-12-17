@@ -5,7 +5,7 @@ Group: [Painting and Drawing](../../functions_group.md#Painting_and_Drawing)  - 
 ***  
 
 
-#### Returns the maximum number of function calls that can be accumulated in the calling thread`s current batch. 
+#### Returns the maximum number of function calls that can be accumulated in the calling thread's current batch. 
 ***  
 
 

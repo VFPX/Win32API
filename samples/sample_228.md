@@ -3,7 +3,7 @@
 # How to make the caption of a VFP application flashing in the Windows task bar
 
 ## Before you begin:
-This code sample shows how to turn user to the monitor`s screen by flashing the icon of an application in the Windows taskbar. There are several other ways of  alerting the user using various visual effects:  
+This code sample shows how to turn user to the monitor's screen by flashing the icon of an application in the Windows taskbar. There are several other ways of  alerting the user using various visual effects:  
 
 * [Flashing caption of a VFP application in the Windows task bar using FlashWindowEx](sample_271.md)  
 * [Shaking VFP form controls](sample_526.md)  

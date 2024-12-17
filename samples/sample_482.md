@@ -55,7 +55,7 @@ PROTECTED xpos, ypos
 	printername=""
 
 PROCEDURE ShowDialog(nX, nY)
-	* Victor Espinoza`s suggestion proves correct:
+	* Victor Espinoza's suggestion proves correct:
 	* locking drawing in the desktop window and unlocking it
 	* later in SetPosition method hides the "jump"
 	= LockWindowUpdate(GetDesktopWindow())

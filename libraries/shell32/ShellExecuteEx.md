@@ -42,7 +42,7 @@ Returns TRUE if successful, or FALSE otherwise.
 
 ## Comments:
 <Strong>lpVerb</Strong> in <a href="http://msdn.microsoft.com/library/default.asp?url=/library/en-us/shellcc/platform/shell/reference/structures/shellexecuteinfo.asp">SHELLEXECUTEINFO</a> Structure:  
-String, referred to as a verb, that specifies the action to be performed. The set of available verbs depends on the particular file or folder. Generally, the actions available from an object`s shortcut menu are available verbs.  
+String, referred to as a verb, that specifies the action to be performed. The set of available verbs depends on the particular file or folder. Generally, the actions available from an object's shortcut menu are available verbs.  
   
 ```foxpro
 cBuffer = num2dword(INFO_SIZE) +;  
@@ -72,7 +72,7 @@ Opens the file specified by the lpFile parameter. The file can be an executable 
 Prints the document file specified by lpFile.  
   
 <Strong>properties</Strong>  
-Displays the file or folder`s properties.  
+Displays the file or folder's properties.  
   
 ***  
 

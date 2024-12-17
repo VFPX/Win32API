@@ -10,7 +10,7 @@ The SHFileOperation copies, deletes and moves a file or multiple files. A variet
 
 
 ## Before you begin:
-If you`ve been thinking about retiring ageing VFP commands COPY FILE and RENAME then give this code a try.  
+If you've been thinking about retiring ageing VFP commands COPY FILE and RENAME then give this code a try.  
 
 ![](../images/copyfilewithprogress.png)  
 

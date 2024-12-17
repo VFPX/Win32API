@@ -221,7 +221,7 @@ The SHFileOperation copies, deletes and moves a file or multiple files. A variet
 ## [Displaying the associated icons and descriptions for files and folders](samples/sample_530.md)
 When the list of files and folders is to be displayed inside a VFP form, the ListBox VFP control and the ListView ActiveX control are probably the first two candidates for the job. 
 
-The ListBox`s presentation style can only be described as the minimalistic :) , while the ListView shows items in much fancier manner, and can even accompany each file and folder with an icon.
+The ListBox's presentation style can only be described as the minimalistic :) , while the ListView shows items in much fancier manner, and can even accompany each file and folder with an icon.
 
 <img src="images/sysimagelist.png" width=507 height=338>
 And an imminent question arises: where are those icons stored and how to put them to work?  
@@ -375,7 +375,7 @@ This code sample explains how to load an image from a file, crop it using GdipDr
 ## [GDI+: custom control, base class](samples/sample_599.md)
 
 ## [GDI+: how to make VFP controls visually shake and shudder](samples/sample_526.md)
-Shuddering control may appear a good way to get user`s immediate attention. For example, when Purchase Order form opens, and the shipping date is not entered or overdue, the textbox hosting this value may start vibrate and thus can be easily spotted by the user.  
+Shuddering control may appear a good way to get user's immediate attention. For example, when Purchase Order form opens, and the shipping date is not entered or overdue, the textbox hosting this value may start vibrate and thus can be easily spotted by the user.  
 ## [GDI+: printing image file](samples/sample_452.md)
 
 ## [GDI+: reading and writing metadata in JPEG and TIFF files](samples/sample_461.md)
@@ -487,7 +487,7 @@ The Windows OS has a mechanism that allows to notify a window when the content o
 
 ## [How to download a file from the FTP server using FtpGetFile](samples/sample_043.md)
 
-## [How to download this reference`s archive through WinInet functions using InternetOpenUrl](samples/sample_110.md)
+## [How to download this reference's archive through WinInet functions using InternetOpenUrl](samples/sample_110.md)
 
 ## [How to drag a Form not using its Titlebar or Caption](samples/sample_195.md)
 
@@ -533,11 +533,11 @@ This code shows how VFP top-level form can get notified upon its menu item selec
 ## [How to load a user profile](samples/sample_602.md)
 
 ## [How to make a VFP form fading out when released (GDI version)](samples/sample_528.md)
-When a VFP form is released, usually it disappears immediately. Wouldn`t it be nice to have the form slowly (or less slowly) fading out?
+When a VFP form is released, usually it disappears immediately. Wouldn't it be nice to have the form slowly (or less slowly) fading out?
 
 An obvious way of doing that is covering the form with another window, which holds the image of the original form. Once covered, the original form disappears. After that the covering window gradually changes its opacity (alpha channel) from opaque (255) to completely transparent (0).  
 ## [How to make a VFP form fading out when released (GDI+ version)](samples/sample_527.md)
-When a VFP form is released, usually it disappears immediately. Wouldn`t it be nice to have the form slowly (or less slowly) fading out?
+When a VFP form is released, usually it disappears immediately. Wouldn't it be nice to have the form slowly (or less slowly) fading out?
 
 An obvious way of doing that is covering the form with another window, which holds the image of the original form. Once covered, the original form disappears. After that the covering window gradually changes its opacity (alpha channel) from opaque (255) to completely transparent (0).  
 ## [How to make application automatically close all documents it opened](samples/sample_491.md)

@@ -4,7 +4,7 @@
 
 ## Before you begin:
 ![](../images/magnifier.png)  
-After you activate the magnifier the form`s part under the mouse cursor will be constantly redrawn on the main FoxPro window.  
+After you activate the magnifier the form's part under the mouse cursor will be constantly redrawn on the main FoxPro window.  
 
 See also:
 

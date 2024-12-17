@@ -304,7 +304,7 @@ Comparing to other ways of interprocess communication (named pipes, mailslots, W
   
 * * *  
 http://blogs.msdn.com/oldnewthing/archive/2003/12/11/56043.aspx  
-> if you need to pass more than 32767 characters of information to a child process, you`ll have to use something other than the command line. 
+> if you need to pass more than 32767 characters of information to a child process, you'll have to use something other than the command line. 
 ***
 
 Articles:  

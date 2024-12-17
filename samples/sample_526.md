@@ -5,14 +5,14 @@
 ## Note that this document contains some links to the old news2news website which does not work at the moment. This material will be available sometime in the future.
 
 ## Short description:
-Shuddering control may appear a good way to get user`s immediate attention. For example, when Purchase Order form opens, and the shipping date is not entered or overdue, the textbox hosting this value may start vibrate and thus can be easily spotted by the user.  
+Shuddering control may appear a good way to get user's immediate attention. For example, when Purchase Order form opens, and the shipping date is not entered or overdue, the textbox hosting this value may start vibrate and thus can be easily spotted by the user.  
 ***  
 
 
 ## Before you begin:
 The code is based on [custom GDI+ class](sample_450.md). Download the class module first and save it in **gdiplus.prg** file.   
 
-Shuddering control may appear a good way to get user`s immediate attention. For example, when Purchase Order form opens, and the shipping date is not entered or overdue, the textbox hosting this value may start vibrate and thus can be easily spotted by the user.  
+Shuddering control may appear a good way to get user's immediate attention. For example, when Purchase Order form opens, and the shipping date is not entered or overdue, the textbox hosting this value may start vibrate and thus can be easily spotted by the user.  
 
 It starts with creating a sequence of frames and storing them in memory. Each frame is an image of the control rotated by a certain small angle. When a shaking time comes, the actual control becomes hidden and a timer starts drawing frames upon its location. In this way, an illusion is created of the control shaking with the amplitude fading in a few seconds.  
 

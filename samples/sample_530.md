@@ -5,7 +5,7 @@
 ## Short description:
 When the list of files and folders is to be displayed inside a VFP form, the ListBox VFP control and the ListView ActiveX control are probably the first two candidates for the job. 
 
-The ListBox`s presentation style can only be described as the minimalistic :) , while the ListView shows items in much fancier manner, and can even accompany each file and folder with an icon.
+The ListBox's presentation style can only be described as the minimalistic :) , while the ListView shows items in much fancier manner, and can even accompany each file and folder with an icon.
 
 ![](../images/sysimagelist.png)
 
@@ -16,7 +16,7 @@ And an imminent question arises: where are those icons stored and how to put the
 ## Before you begin:
 When the list of files and folders is to be displayed inside a VFP form, the ListBox VFP control and the ListView ActiveX control are probably the first two candidates for the job.   
 
-The ListBox`s presentation style can only be described as the minimalistic :) , while the ListView shows items in much fancier manner, and can even accompany each file and folder with an icon.  
+The ListBox's presentation style can only be described as the minimalistic :) , while the ListView shows items in much fancier manner, and can even accompany each file and folder with an icon.  
 
 ![](../images/sysimagelist_compare.png)  
 And then one start thinking, where are those icons stored and how to put them to work?  

@@ -324,7 +324,7 @@ Even if the alert window is always-on-top, sometimes it needs to be redrawn. It 
   
 To keep the code short and compatible not just with VFP9, I decided to add the Timer Control to redraw the window every second. Though I think it is possible to respond to WM_PAINT messages. I will check this opportunity later.  
   
-Another option I want to investigate is using the FoxPro form window instead of creating one with the CreateWindow API. The style and the extended style of the form, I think, can be modified to make it look and behave appropriately. And then the form`s Paint Event may come handy.  
+Another option I want to investigate is using the FoxPro form window instead of creating one with the CreateWindow API. The style and the extended style of the form, I think, can be modified to make it look and behave appropriately. And then the form's Paint Event may come handy.  
   
 * * *  
 The image looks a bit weird on the screen of my Toshiba notebook. There are small white speckles around the letters; a kind of residual left after the white color has been removed by the SetLayeredWindowAttributes call. Interesting enough, the artefact disappears gradually after several seconds, read: after the alert window is redrawn several times.  

@@ -2224,7 +2224,7 @@ Creates a PathGradient Brush object based on an array of points. Initializes the
 ***  
 
 [GdipSetPathGradientCenterColor](libraries/gdiplus/GdipSetPathGradientCenterColor.md)  
-Sets the center color of this path gradient brush. The center color is the color that appears at the brush`s center point.  
+Sets the center color of this path gradient brush. The center color is the color that appears at the brush's center point.  
 
 ***  
 
@@ -3738,7 +3738,7 @@ Adds a user account and assigns a password and privilege level.
 ***  
 
 [NetUserChangePassword](libraries/netapi32/NetUserChangePassword.md)  
-Changes user`s password for a specified network server or domain.
+Changes user's password for a specified network server or domain.
   
 
 ***  
@@ -3977,17 +3977,17 @@ The DrawFrameControl function draws a frame control of the specified type and st
 ***  
 
 [GdiFlush](libraries/gdi32/GdiFlush.md)  
-Flushes the calling thread`s current batch.  
+Flushes the calling thread's current batch.  
 
 ***  
 
 [GdiGetBatchLimit](libraries/gdi32/GdiGetBatchLimit.md)  
-Returns the maximum number of function calls that can be accumulated in the calling thread`s current batch.   
+Returns the maximum number of function calls that can be accumulated in the calling thread's current batch.   
 
 ***  
 
 [GdiSetBatchLimit](libraries/gdi32/GdiSetBatchLimit.md)  
-Sets the maximum number of function calls that can be accumulated in the calling thread`s current batch. The system flushes the current batch whenever this limit is exceeded.   
+Sets the maximum number of function calls that can be accumulated in the calling thread's current batch. The system flushes the current batch whenever this limit is exceeded.   
 
 ***  
 

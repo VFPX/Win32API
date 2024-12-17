@@ -370,7 +370,7 @@ The AVIStreamGetFrame returns the address of a decompressed video frame. It poin
 Practically, this is a bitmap file. All you have to do is to populate the BITMAPFILEHEADER structure and add it on top of the block. Then save the result to a file with "DIB" or "BMP" extension.  
   
 * * *  
-There is an issue not answered yet: the AVIStreamGetFrameOpen returns an error for some AVI files. Otherwise these are normal AVI files. I`m looking what can be done...  
+There is an issue not answered yet: the AVIStreamGetFrameOpen returns an error for some AVI files. Otherwise these are normal AVI files. I'm looking what can be done...  
   
 
 ***  

@@ -11,7 +11,7 @@ The pictures taken with modern digital cameras are usually wider and taller than
 ![](../images/picturescroll.jpg)    
 1920 by 1080 pixels, which requires fairly regular video card and monitor these days, is only 2 megapixel size. Uncropped 10.1 megapixel shot taken with Canon EOS is 3888 by 2592 pixels -- roughly two times taller and wider.  
 
-To view so large picture in its original size you need a scrollable form. Normally it is programmed by setting the form`s ScrollBars to 3 and having the image control`s Stretch property set to 0 (default). The picture automatically stretches the image control. After that any part of it can be conveniently scrolled to with the form`s two scroll bars.  
+To view so large picture in its original size you need a scrollable form. Normally it is programmed by setting the form's ScrollBars to 3 and having the image control's Stretch property set to 0 (default). The picture automatically stretches the image control. After that any part of it can be conveniently scrolled to with the form's two scroll bars.  
 
 ![](../images/scrollableform.jpg)  
 
@@ -19,7 +19,7 @@ An example demonstrating this approach (the picture above) is provided in the ar
 ***  
 Except with the scroll bars, I would also like scrolling the image by simply clicking on it and dragging (like in Picasa, for example). The example from Microsoft can certainly be modified to handle the MouseMove and MouseWheel events of the Image control.  
 
-Finding less fun in improving someone else`s code I decided on programming similar functionality using the GDI+ library. The results came not bad indeed.  
+Finding less fun in improving someone else's code I decided on programming similar functionality using the GDI+ library. The results came not bad indeed.  
 
 See also:
 
@@ -137,7 +137,7 @@ PROCEDURE AdjustClippingRegion
 
 		* create Graphics object from the device context
 		* of the form; note that the GetDC is used (not GetWindowDC),
-		* the output affects only the form`s client area
+		* the output affects only the form's client area
 		.hDC = GetDC(.HWnd)
 		.formgraphics = CREATEOBJECT("graphics", .hDC)
 
@@ -145,7 +145,7 @@ PROCEDURE AdjustClippingRegion
 		STORE 0 TO .OffsetX, .OffsetY
 
 		* the clipping is required only if the image
-		* display area is smaller than the form`s client area
+		* display area is smaller than the form's client area
 *!*			= GdipSetClipRectI(.formgraphics.graphics,;
 *!*				0, 0, .Width, .Height, 0)
 
